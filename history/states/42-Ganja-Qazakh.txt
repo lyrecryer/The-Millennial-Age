@@ -1,0 +1,16 @@
+
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		1539 11674 12309 
+	}
+	history = {
+		owner = AZR
+		add_core_of = AZR
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

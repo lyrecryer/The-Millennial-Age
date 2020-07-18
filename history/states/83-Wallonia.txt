@@ -1,0 +1,16 @@
+
+state={
+	id=83
+	name="STATE_83"
+	provinces={
+		3516 3546 3560 9444 9472 9536 13081 
+	}
+	history = {
+		owner = BEL
+		add_core_of = BEL
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

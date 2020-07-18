@@ -1,0 +1,356 @@
+leader_traits = {
+	socialism_I_revolutionary = {
+		random = no
+		# Boosts Socialism
+		sprite = 13
+		socialism_I_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nazism_I_revolutionary = {
+		random = no
+		# Boosts Nazisim
+		sprite = 13
+		nazism_I_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	religious_fanatic = {
+		random = no
+		sprite = 13
+		#Preaches the faith to convince others to join.
+		nazism_I_drift = 0.1
+		#Encourages terror attacks / wars to those who do not follow the faith.
+		war_support_factor = 0.05
+		stability_factor = 0.05
+		justify_war_goal_time = -0.25
+		#Fanatics will die for the faith.
+		army_morale_factor = 0.04
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	#anti-something
+	anti_socialist = {
+		random = no
+		socialism_I_acceptance = -50
+		socialism_I_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anti_nazism = {
+		random = no
+		nazism_I_acceptance = -50
+		nazism_I_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anti_reactionary = {
+		random = no
+		reactionary_acceptance = -50
+		reactionary_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anti_anarcho_liberal = {
+		random = no
+		anarcho_liberal_acceptance = -50
+		anarcho_liberal_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anti_neutrality = {
+		random = no
+		neutrality_acceptance = -50
+		neutrality_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anti_conservatism = {
+		random = no
+		conservatism_I_acceptance = -50
+		conservatism_I_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anti_liberalism = {
+		random = no
+		liberalism_I_acceptance = -50
+		liberalism_I_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anti_right = {
+		random = no
+		fascism_acceptance = -50
+		fascism_drift = -0.01
+		nazism_I_acceptance = -50
+		nazism_I_drift = -0.01
+		conservatism_I_acceptance = -50
+		conservatism_I_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anti_left = {
+		random = no
+		liberalism_I_acceptance = -50
+		liberalism_I_drift = -0.01
+		socialism_I_acceptance = -50
+		socialism_I_drift = -0.01
+		communism_acceptance = -50
+		communism_drift = -0.01
+		anarcho_liberal_acceptance = -50
+		anarcho_liberal_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anti_dicator = {
+		random = no
+		communism_acceptance = -50
+		communism_drift = -0.01
+		fascism_acceptance = -50
+		fascism_drift = -0.01
+		neutrality_acceptance = -50
+		neutrality_drift = -0.01
+		nazism_I_acceptance = -50
+		nazism_I_drift = -0.01
+		reactionary_acceptance = -50
+		reactionary_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	# Sympanthy to others
+	
+	communism_sympathies = {
+		random = no		
+		communism_acceptance = 70
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	neutrality_sympathies = {
+		random = no		
+		neutrality_acceptance = 70
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	conservatism_I_sympathies = {
+		random = no		
+		conservatism_I_acceptance = 70
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	liberalism_I_sympathies = {
+		random = no		
+		liberalism_I_acceptance = 70
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	socialism_I_sympathies = {
+		random = no		
+		socialism_I_acceptance = 70
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	nazism_I_sympathies = {
+		random = no		
+		nazism_I_acceptance = 70
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	reactionary_sympathies = {
+		random = no		
+		reactionary_acceptance = 70
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	anarcho_liberal_sympathies = {
+		random = no		
+		anarcho_liberal_acceptance = 70
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Spreader of Ideologies
+	
+	pro_communism = {
+		random = no		
+		communism_acceptance = 70
+		communism_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pro_neutrality = {
+		random = no		
+		neutrality_acceptance = 70
+		neutrality_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pro_conservatism_I = {
+		random = no		
+		conservatism_I_acceptance = 70
+		conservatism_I_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pro_liberalism_I = {
+		random = no		
+		liberalism_I_acceptance = 70
+		liberalism_I_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pro_socialism_I = {
+		random = no		
+		socialism_I_acceptance = 70
+		socialism_I_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pro_nazism_I = {
+		random = no		
+		nazism_I_acceptance = 70
+		nazism_I_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pro_reactionary = {
+		random = no		
+		reactionary_acceptance = 70
+		reactionary_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pro_anarcho_liberal = {
+		random = no		
+		anarcho_liberal_acceptance = 70
+		anarcho_liberal_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Monarch
+	
+	monarch_leader = {
+		random = no
+		#A stable ruler is better than an unstable government
+		stability_factor = 0.1
+		#Tend to ignore political changes unless forced to.
+		drift_defence_factor = 0.25
+		#Can appoint anyone with ease
+		navy_chief_cost_factor = -0.25
+		army_chief_cost_factor = -0.25
+		air_chief_cost_factor = -0.25
+		high_command_cost_factor = -0.25
+		political_advisor_cost_factor = -0.25
+		#Slow progress
+		research_speed_factor = -0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Puppet (Can only be used by Puppeted /Vassal states)
+	puppet_leader = {
+		random = no
+		#Will conform to their masters ideology no matter what.
+		master_ideology_drift = 0.01
+		#Will not give any resistance to any overlords demands.
+		autonomy_gain = -0.1 
+		#People don't like it when the ruler of their nation is a puppet of others.
+		stability_factor = -0.1
+		#more suspectable to subversive activites
+		foreign_subversive_activites = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Supported by TAG
+	SOV_supported = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+		}
+	
+	USA_supported = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ENG_supported = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	FRA_supported = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	GER_supported = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

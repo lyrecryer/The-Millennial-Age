@@ -1,0 +1,16 @@
+
+state={
+	id=15
+	name="STATE_15"
+	provinces={
+		8219 8248 
+	}
+	history = {
+		owner = ANG
+		add_core_of = ANG 
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

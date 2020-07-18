@@ -1,0 +1,16 @@
+
+state={
+	id=168
+	name="STATE_168"
+	provinces={
+		1411 1763 7348 7766 7858 12166 12534 
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

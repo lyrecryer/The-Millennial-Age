@@ -1,0 +1,15 @@
+state={
+	id=68
+	name="STATE_68"
+	provinces={
+		1948 
+	}
+	history = {
+		owner = BRH
+		add_core_of = BRH
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

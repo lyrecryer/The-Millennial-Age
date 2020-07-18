@@ -1,0 +1,17 @@
+
+state={
+	id=228
+	name="STATE_228"
+	provinces={
+		828 952 1489 1590 4495 7158 9768 10331 10397 12403 12432 
+	}
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		add_claim_by = CHI
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

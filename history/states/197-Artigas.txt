@@ -1,0 +1,16 @@
+
+state={
+	id=197
+	name="STATE_197"
+	provinces={
+		1613 1626 10502 12440 12468 
+	}
+	history = {
+		owner = URG
+		add_core_of = URG
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

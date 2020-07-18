@@ -1,0 +1,16 @@
+
+state={
+	id=211
+	name="STATE_211"
+	provinces={
+		2081 3123 4897 9152 
+	}
+	history = {
+		owner = CHA
+		add_core_of = CHA
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

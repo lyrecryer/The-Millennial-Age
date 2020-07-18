@@ -1,0 +1,16 @@
+
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		8211 8240 10924 10938 10982 10996 12973 
+	}
+	history = {
+		owner = BOL
+		add_core_of = BOL
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

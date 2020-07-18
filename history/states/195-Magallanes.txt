@@ -1,0 +1,16 @@
+
+state={
+	id=195
+	name="STATE_195"
+	provinces={
+		2161 5159 5201 5209 5215 8198 8218 10961 
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

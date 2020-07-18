@@ -1,0 +1,41 @@
+﻿l_english:
+ # This file contains every nations parties. Only Democratic is ignored due to it no longer being used.
+
+ #
+ # _communism_party:0 ""
+ # _communism_party_long:0 ""
+ # _fascism_party:0 ""
+ # _fascism_party_long:0 ""
+ # _neutrality_party:0 ""
+ # _neutrality_party_long:0 ""
+ # _democratic_party:0 ""
+ # _democratic_party_long:0 ""
+##GENERIC PARTIES ###
+ # _communism_party:0 "Communist Party"
+ # _communism_party_long:0 "Communist Party"
+ # _fascism_party:0 "Fascist Party"
+ # _fascism_party_long:0 "Fascist Party"
+ # _neutrality_party:0 "Royal Court"
+ # _neutrality_party_long:0 "Royal Court"
+ # _democratic_party:0 "Democratic Party"
+ # _democratic_party_long:0 "Democratic Party"
+ #MAJORS
+ #United Kingdom[ENG]
+ #Germany[GER]
+ #France[FRA]
+ #Italy[ITA]
+ #United States of America[USA]
+ #Russia[SOV]
+ #All other nations:
+ # ALB
+ # ARM
+ # AUS
+ # AZR
+ # BLR
+ # BEL
+ # BOS
+ # BUL
+ # CRO
+ # CYP
+ # CZE
+ # DEN

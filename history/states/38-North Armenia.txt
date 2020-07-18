@@ -1,0 +1,16 @@
+
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		3564 11708 12380 12441 
+	}
+	history = {
+		owner = ARM
+		add_core_of = ARM 
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

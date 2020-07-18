@@ -1,0 +1,16 @@
+
+state={
+	id=181
+	name="STATE_181"
+	provinces={
+		8075 10888 
+	}
+	history = {
+		owner = ECU
+		add_core_of = ECU
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,15 @@
+state={
+	id=172
+	name="STATE_172"
+	provinces={
+		13014 
+	}
+	history = {
+		owner = CAP
+		add_core_of = CAP
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

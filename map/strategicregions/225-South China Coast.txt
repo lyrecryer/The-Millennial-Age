@@ -1,0 +1,14 @@
+
+strategic_region={
+	id=225
+	name="STRATEGICREGION_225"
+	provinces={
+		3006 3204 3411 4912 5127 5244 5269 5296 5345 5367 8676 
+	}
+	static_modifiers={
+				water_modifier_shark_infested=always
+
+	}
+	weather={
+	}
+}

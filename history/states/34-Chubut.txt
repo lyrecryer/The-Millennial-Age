@@ -1,0 +1,16 @@
+
+state={
+	id=34
+	name="STATE_34"
+	provinces={
+		2169 8176 10953 
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG 
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

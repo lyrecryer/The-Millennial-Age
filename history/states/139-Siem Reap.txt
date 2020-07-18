@@ -1,0 +1,16 @@
+
+state={
+	id=139
+	name="STATE_139"
+	provinces={
+		4302 10467 
+	}
+	history = {
+		owner = CAM
+		add_core_of = CAM
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

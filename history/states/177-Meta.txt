@@ -1,0 +1,16 @@
+
+state={
+	id=177
+	name="STATE_177"
+	provinces={
+		1887 2079 7993 10747 
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

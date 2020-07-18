@@ -1,0 +1,16 @@
+
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		223 236 289 342 3278 3331 3378 6233 6292 6354 9247 9289 9351 9371 9396 11230 11271 11383 
+	}
+	history = {
+		owner = BLR
+		add_core_of = BLR
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

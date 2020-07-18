@@ -1,0 +1,16 @@
+
+state={
+	id=73
+	name="STATE_73"
+	provinces={
+		10416 12423 13208 
+	}
+	history = {
+		owner = BAN
+		add_core_of = BAN
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

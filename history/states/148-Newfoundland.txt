@@ -1,0 +1,16 @@
+
+state={
+	id=148
+	name="STATE_148"
+	provinces={
+		1426 1785 4720 4787 12503 
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = rural
+}
