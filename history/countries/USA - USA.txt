@@ -1,4 +1,4 @@
-﻿capital = 808
+﻿capital = 361
 
 oob = "USA_1936"
 if = {
@@ -266,8 +266,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 69
-	democratic = 30
+	democratic = 99
 	communism = 1
 }
 
@@ -671,6 +670,29 @@ create_navy_leader = {
 	defense_skill = 1
 	maneuvering_skill = 2
 	coordination_skill = 3
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = "Josephine Baker"
+		GFX = GFX_portrait_josephine_baker
+		traits = { operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { USA }
+	}
+
+	create_operative_leader = {
+		name = "Virginia Hall"
+		GFX = GFX_portrait_virginia_hall
+		traits = { operative_demolition_expert }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { USA }
+	}
 }
 
 

@@ -1,0 +1,19 @@
+#Various Game rules.
+#USSR system (Will the Soviet Union use a USSR system that will release their SSR's and then rule overthem?)
+SSR = {
+	name = "Soviet Republics Status"
+	required_dlc = "Together for Victory"
+	icon = "GFX_release_nations"
+	group = "TIA_RULES_GROUP"
+	default = {	
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "Vanilla Gameplay"
+	}
+	option = {
+		name = USSR
+		text = "Create the USSR"
+		desc = "This will make the Soviet Union release their subjects as Puppets. The Puppets will inherit the Overlords techology."
+	}
+
+}

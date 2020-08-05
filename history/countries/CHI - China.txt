@@ -245,6 +245,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Weng Wenhao" 
+	desc = "POLITICS_ZHANG_LAN_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }
 

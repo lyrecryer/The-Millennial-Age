@@ -1,30 +1,10 @@
 leader_traits = {
-	socialism_I_revolutionary = {
-		random = no
-		# Boosts Socialism
-		sprite = 13
-		socialism_I_drift = 0.1
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	nazism_I_revolutionary = {
-		random = no
-		# Boosts Nazisim
-		sprite = 13
-		nazism_I_drift = 0.1
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
 
 	religious_fanatic = {
 		random = no
 		sprite = 13
 		#Preaches the faith to convince others to join.
-		nazism_I_drift = 0.1
+		fascism_drift = 0.1
 		#Encourages terror attacks / wars to those who do not follow the faith.
 		war_support_factor = 0.05
 		stability_factor = 0.05
@@ -37,92 +17,10 @@ leader_traits = {
 	}
 
 	#anti-something
-	anti_socialist = {
-		random = no
-		socialism_I_acceptance = -50
-		socialism_I_drift = -0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	anti_nazism = {
-		random = no
-		nazism_I_acceptance = -50
-		nazism_I_drift = -0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	anti_reactionary = {
-		random = no
-		reactionary_acceptance = -50
-		reactionary_drift = -0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	anti_anarcho_liberal = {
-		random = no
-		anarcho_liberal_acceptance = -50
-		anarcho_liberal_drift = -0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	anti_neutrality = {
 		random = no
 		neutrality_acceptance = -50
 		neutrality_drift = -0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	anti_conservatism = {
-		random = no
-		conservatism_I_acceptance = -50
-		conservatism_I_drift = -0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	anti_liberalism = {
-		random = no
-		liberalism_I_acceptance = -50
-		liberalism_I_drift = -0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	anti_right = {
-		random = no
-		fascism_acceptance = -50
-		fascism_drift = -0.01
-		nazism_I_acceptance = -50
-		nazism_I_drift = -0.01
-		conservatism_I_acceptance = -50
-		conservatism_I_drift = -0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	anti_left = {
-		random = no
-		liberalism_I_acceptance = -50
-		liberalism_I_drift = -0.01
-		socialism_I_acceptance = -50
-		socialism_I_drift = -0.01
-		communism_acceptance = -50
-		communism_drift = -0.01
-		anarcho_liberal_acceptance = -50
-		anarcho_liberal_drift = -0.01
 
 		ai_will_do = {
 			factor = 1
@@ -136,10 +34,6 @@ leader_traits = {
 		fascism_drift = -0.01
 		neutrality_acceptance = -50
 		neutrality_drift = -0.01
-		nazism_I_acceptance = -50
-		nazism_I_drift = -0.01
-		reactionary_acceptance = -50
-		reactionary_drift = -0.01
 
 		ai_will_do = {
 			factor = 1
@@ -163,54 +57,6 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	conservatism_I_sympathies = {
-		random = no		
-		conservatism_I_acceptance = 70
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	liberalism_I_sympathies = {
-		random = no		
-		liberalism_I_acceptance = 70
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	socialism_I_sympathies = {
-		random = no		
-		socialism_I_acceptance = 70
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	nazism_I_sympathies = {
-		random = no		
-		nazism_I_acceptance = 70
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	reactionary_sympathies = {
-		random = no		
-		reactionary_acceptance = 70
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	anarcho_liberal_sympathies = {
-		random = no		
-		anarcho_liberal_acceptance = 70
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	#Spreader of Ideologies
 	
 	pro_communism = {
@@ -226,60 +72,6 @@ leader_traits = {
 		random = no		
 		neutrality_acceptance = 70
 		neutrality_drift = 0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	pro_conservatism_I = {
-		random = no		
-		conservatism_I_acceptance = 70
-		conservatism_I_drift = 0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	pro_liberalism_I = {
-		random = no		
-		liberalism_I_acceptance = 70
-		liberalism_I_drift = 0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	pro_socialism_I = {
-		random = no		
-		socialism_I_acceptance = 70
-		socialism_I_drift = 0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	pro_nazism_I = {
-		random = no		
-		nazism_I_acceptance = 70
-		nazism_I_drift = 0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	pro_reactionary = {
-		random = no		
-		reactionary_acceptance = 70
-		reactionary_drift = 0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	pro_anarcho_liberal = {
-		random = no		
-		anarcho_liberal_acceptance = 70
-		anarcho_liberal_drift = 0.01
 
 		ai_will_do = {
 			factor = 1

@@ -1,6 +1,6 @@
-﻿capital = 286 #Phnom Penh NOT on the map as VP!
+﻿capital = 741
 
-#oob = "CAM_1936"
+oob = "CAM_1936"
 
 set_research_slots = 3
 
@@ -76,7 +76,7 @@ set_politics = {
 set_popularities = {
 	democratic = 40
 	communism = 25
-	democratic = 35
+	neutrality = 35
 }
 
 create_country_leader = {

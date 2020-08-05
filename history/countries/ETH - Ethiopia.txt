@@ -64,8 +64,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		#monarch_leader
-		tenacious_defender
+		#
 	}
 }
 
@@ -74,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_YEEBIO_WOLDAI_DESC"
 	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = socialism
 	traits = {
 		#
 	}

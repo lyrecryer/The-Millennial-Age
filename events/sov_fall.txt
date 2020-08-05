@@ -1,0 +1,57 @@
+﻿add_namespace = sov_fall
+#Setting everything up for the fall.
+country_event = {
+	id = sov_fall.1
+	title = sov_fall.1.title
+	desc = sov_fall.1.desc
+	picture = GFX_news_event_001
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = NEUTRAL_RESPONSE2
+		country_event = sov_fall.2
+	}
+}
+#Rise of the Baltic Populer Front
+country_event = {
+	id = sov_fall.2
+	title = sov_fall.2.title
+	desc = sov_fall.2.desc
+	picture = GFX_news_event_001
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = NEUTRAL_RESPONSE2
+		country_event = sov_fall.3
+	}
+}
+#Rebellion in the Caucasus
+country_event = {
+	id = sov_fall.3
+	title = sov_fall.3.title
+	desc = sov_fall.3.desc
+	picture = GFX_news_event_001
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = NEUTRAL_RESPONSE2
+		country_event = sov_fall.4
+	}
+}
+#The Fading Stars of the West.
+country_event = {
+	id = sov_fall.4
+	title = sov_fall.4.title
+	desc = sov_fall.4.desc
+	picture = GFX_news_event_001
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = NEUTRAL_RESPONSE2
+		#country_event = sov_fall.4
+	}
+}

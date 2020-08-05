@@ -1,4 +1,4 @@
-﻿capital = 816
+﻿capital = 285
 
 oob = "AST_1936"
 set_stability = 0.8
@@ -186,7 +186,7 @@ create_country_leader = {
 	name = "John Curtin"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
 	picture = "Portrait_Australia_John_Curtin.dds"
-	expire = "1945.7.5"
+	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
 		#

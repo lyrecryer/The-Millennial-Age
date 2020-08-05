@@ -1,0 +1,38 @@
+
+state={
+	id=415
+	name="STATE_415"
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 2
+		}
+		
+		victory_points = {
+			4893 1 
+		}
+		victory_points = {
+			10476 1 
+		}
+		victory_points = {
+			12781 10 
+		}
+		victory_points = {
+			12788 1 
+		}
+		add_core_of = AFG
+
+	}
+
+	provinces={
+		1995 4893 8053 10476 10896 12788 12871 
+	}
+	#pop per province:
+	#Ghor: 790296
+	#Herat: 1890202
+	#Badghis: 495958
+	manpower=3176456
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

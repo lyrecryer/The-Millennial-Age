@@ -8,7 +8,7 @@ set_technology = {
 	basic_light_tank = 1
 }
 
-1936.1.1 = {
+1939.1.1 = {
 
 	add_political_power = 1198
 	
@@ -68,6 +68,32 @@ set_popularities = {
 	fascism = 15
 	communism = 10
 	neutrality = 75
+}
+
+# Mohammad Hashim Khan (Prime Minister) other potential candidate
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 20
+		communism = 10
+		neutrality = 70
+	}
 }
 
 create_corps_commander = {

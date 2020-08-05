@@ -1,0 +1,26 @@
+
+state={
+	id=801
+	name="STATE_801"
+
+	history={
+		victory_points = {
+			1759 10 
+		}
+		owner = AFG
+		controller = AFG
+		add_core_of = AFG
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		7448 7519 7584 7984 10781 10826 10852 12248 12314 12653 12877 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

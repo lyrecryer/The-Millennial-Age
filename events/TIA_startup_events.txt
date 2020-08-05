@@ -1,0 +1,49 @@
+﻿add_namespace = startup
+country_event = {
+	id = startup.1
+	title = startup.1.title
+	desc = startup.1.desc
+	picture = GFX_news_event_001
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Show me the briefing."
+		country_event = startup.2
+	}
+	option = {
+		name = "Don't show me the briefing."
+	}
+}
+country_event = {
+	id = startup.2
+	title = startup.2.title
+	desc = {
+		text = startup.2.desc_ENG
+		trigger = {
+			tag = ENG
+			#Trigger-goes-here
+		}
+	}
+	desc = {
+		text = startup.2.desc_SOV
+		trigger = {
+			tag = SOV
+			#Trigger-goes-here
+		}
+	}
+	#desc = {
+	#	text = startup.2.desc_USA
+	#	trigger = {
+	#		tag = USA
+	#		#Trigger-goes-here
+	#	}
+	#}
+	picture = GFX_news_event_001
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = OK
+	}
+}
