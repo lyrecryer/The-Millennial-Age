@@ -1,2 +1,2 @@
-# The Information Age
- HOI4 mod that will cover the year 2000-2020+
+# The Millennial Age
+ HOI4 mod that will cover the year 1989-2020+
