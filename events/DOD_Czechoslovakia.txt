@@ -1,6 +1,6 @@
 ﻿add_namespace = czech
 
-# Ask SOV about joining Comintern
+
 country_event = {
 	id = czech.1
 	title = czech.1.t
@@ -10,7 +10,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = czech.1.a #yes
+		name = czech.1.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -37,7 +37,7 @@ country_event = {
 		}
 	}
 }
-# SOV says yes
+
 country_event = {
 	id = czech.2
 	title = czech.1.t
@@ -56,7 +56,7 @@ country_event = {
 		}
 	}
 }
-# SOV says no
+
 country_event = {
 	id = czech.3
 	title = czech.1.t
@@ -74,7 +74,7 @@ country_event = {
 	}
 }
 
-# Ask SOV about splitting ROM
+
 country_event = {
 	id = czech.4
 	title = czech.4.t
@@ -84,7 +84,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = czech.4.a #yes
+		name = czech.4.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -116,7 +116,7 @@ country_event = {
 		}
 	}
 }
-# SOV says yes
+
 country_event = {
 	id = czech.5
 	title = czech.4.t
@@ -137,7 +137,7 @@ country_event = {
 		}
 	}
 }
-# SOV says no
+
 country_event = {
 	id = czech.6
 	title = czech.4.t
@@ -155,7 +155,7 @@ country_event = {
 	}
 }
 
-# Ask SOV about splitting POL
+
 country_event = {
 	id = czech.7
 	title = czech.7.t
@@ -165,7 +165,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = czech.7.a #yes
+		name = czech.7.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -196,7 +196,7 @@ country_event = {
 		}
 	}
 }
-# SOV says yes
+
 country_event = {
 	id = czech.8
 	title = czech.7.t
@@ -217,7 +217,7 @@ country_event = {
 		}
 	}
 }
-# SOV says no
+
 country_event = {
 	id = czech.9
 	title = czech.7.t
@@ -235,7 +235,7 @@ country_event = {
 	}
 }
 
-# Ask GER about splitting POL
+
 country_event = {
 	id = czech.10
 	title = czech.7.t
@@ -245,7 +245,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = czech.10.a #yes
+		name = czech.10.a 
 		ai_chance = {
 			factor = 90
 			modifier = {
@@ -280,7 +280,7 @@ country_event = {
 		}
 	}
 }
-# GER says yes
+
 country_event = {
 	id = czech.11
 	title = czech.7.t
@@ -302,7 +302,7 @@ country_event = {
 		}
 	}
 }
-# GER says no
+
 country_event = {
 	id = czech.12
 	title = czech.7.t
@@ -320,7 +320,7 @@ country_event = {
 	}
 }
 
-# Excluding the slovaks
+
 country_event = {
 	id = czech.14
 	title = czech.14.t
@@ -331,24 +331,45 @@ country_event = {
 	
 	option = {
 		name = czech.14.a
-		#start_civil_war = {
-		#		ideology = neutrality
-		#		size = 0.45
-		#		capital = 70
-		#		states = { 70 71 664 73 }
-		#	}
+		
+		
+		
+		
+		
+		
 
 		SLO = {
-			transfer_state = 70
-			transfer_state = 71
-			transfer_state = 73
+			transfer_state = 70 
+		transfer_state = 9283 
+		transfer_state = 9284 
+		transfer_state = 9285 
+		transfer_state = 9286 
+		transfer_state = 9287 
+		transfer_state = 9288
+			transfer_state = 71 
+		transfer_state = 9291 
+		transfer_state = 9292 
+		transfer_state = 9293 
+		transfer_state = 9294 
+		transfer_state = 9295 
+		transfer_state = 9296
+			transfer_state = 73 
+		transfer_state = 9468 
+		transfer_state = 9469 
+		transfer_state = 9470 
+		transfer_state = 9471
 			if = {
 				limit = {
 					CZE = {
 						owns_state = 664
 					}
 				}
-				transfer_state = 664
+				transfer_state = 664 
+		transfer_state = 8803 
+		transfer_state = 8804 
+		transfer_state = 8805 
+		transfer_state = 8806 
+		transfer_state = 8807
 			}
 			
 		}
@@ -364,7 +385,12 @@ country_event = {
 			limit = {
 				664 = { NOT = { is_owned_by = SLO } }
 			}
-			SLO = { add_state_claim = 664 }
+			SLO = { add_state_claim = 664 
+		add_state_claim = 8803 
+		add_state_claim = 8804 
+		add_state_claim = 8805 
+		add_state_claim = 8806 
+		add_state_claim = 8807 }
 		}
 		
 		hidden_effect = {
@@ -374,7 +400,7 @@ country_event = {
 		}
 	}
 }
-# Excluding the slovaks
+
 country_event = {
 	id = czech.15
 	title = czech.14.t
@@ -385,7 +411,7 @@ country_event = {
 	
 	option = {
 		name = czech.15.a		
-		#everything is ok
+		
 		
 		hidden_effect = {
 			
@@ -393,7 +419,7 @@ country_event = {
 	}
 }
 
-# Ask GER about joining Axis
+
 country_event = {
 	id = czech.16
 	title = czech.16.t
@@ -403,7 +429,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = czech.1.a #yes
+		name = czech.1.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -430,7 +456,7 @@ country_event = {
 		}
 	}
 }
-# GER says yes
+
 country_event = {
 	id = czech.17
 	title = czech.16.t
@@ -448,7 +474,7 @@ country_event = {
 		}
 	}
 }
-# GER says no
+
 country_event = {
 	id = czech.18
 	title = czech.16.t
@@ -466,7 +492,7 @@ country_event = {
 	}
 }
 
-# Ask GER about being a puppet
+
 country_event = {
 	id = czech.19
 	title = czech.19.t
@@ -483,7 +509,7 @@ country_event = {
 				has_wargoal_against = CZE
 			}
 		}
-		name = czech.1.a #yes
+		name = czech.1.a 
 		puppet = CZE
 		CZE = {
 			country_event = { id = czech.20 hours = 6 }
@@ -508,7 +534,7 @@ country_event = {
 		}
 	}
 }
-# GER says yes
+
 country_event = {
 	id = czech.20
 	title = czech.20.t
@@ -529,7 +555,7 @@ country_event = {
 		}
 	}
 }
-# GER says no
+
 country_event = {
 	id = czech.21
 	title = czech.21.t
@@ -547,7 +573,7 @@ country_event = {
 	}
 }
 
-#Give GER Sudetenland 
+
 country_event = {
 	id = czech.22
 	title = czech.22.t
@@ -557,15 +583,47 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = czech.1.a #yes
+		name = czech.1.a 
 		ai_chance = {
 			factor = 100
 		}
 		GER = {
-			add_state_core = 69
-			transfer_state = 69
-			add_state_core = 74
-			transfer_state = 74
+			add_state_core = 69 
+		add_state_core = 9252 
+		add_state_core = 9253 
+		add_state_core = 9254 
+		add_state_core = 9255 
+		add_state_core = 9256 
+		add_state_core = 9257 
+		add_state_core = 9258 
+		add_state_core = 9259 
+		add_state_core = 9260 
+		add_state_core = 9261 
+		add_state_core = 9262 
+		add_state_core = 9263 
+		add_state_core = 9264
+			transfer_state = 69 
+		transfer_state = 9252 
+		transfer_state = 9253 
+		transfer_state = 9254 
+		transfer_state = 9255 
+		transfer_state = 9256 
+		transfer_state = 9257 
+		transfer_state = 9258 
+		transfer_state = 9259 
+		transfer_state = 9260 
+		transfer_state = 9261 
+		transfer_state = 9262 
+		transfer_state = 9263 
+		transfer_state = 9264
+			add_state_core = 74 
+		add_state_core = 9527 
+		add_state_core = 9528 
+		add_state_core = 9529
+			transfer_state = 74 
+		transfer_state = 9527 
+		transfer_state = 9528 
+		transfer_state = 9529
 		}
 		CZE = {
 			country_event = { id = czech.23 hours = 6 }
@@ -590,7 +648,7 @@ country_event = {
 		}
 	}
 }
-# GER says yes
+
 country_event = {
 	id = czech.23
 	title = czech.22.t
@@ -607,7 +665,7 @@ country_event = {
 		}
 	}
 }
-# GER says no
+
 country_event = {
 	id = czech.24
 	title = czech.22.t
@@ -625,7 +683,7 @@ country_event = {
 	}
 }
 
-#Invite YUG to faction
+
 country_event = {
 	id = czech.25
 	title = czech.25.t
@@ -635,7 +693,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = czech.1.a #yes
+		name = czech.1.a 
 		ai_chance = {
 			factor = 90
 		}
@@ -669,7 +727,7 @@ country_event = {
 		}
 	}
 }
-# YUG says yes
+
 country_event = {
 	id = czech.26
 	title = czech.25.t
@@ -692,7 +750,7 @@ country_event = {
 		}
 	}
 }
-# YUG says no
+
 country_event = {
 	id = czech.27
 	title = czech.25.t
@@ -710,7 +768,7 @@ country_event = {
 	}
 }
 
-#Invite ROM to faction
+
 country_event = {
 	id = czech.28
 	title = czech.28.t
@@ -720,7 +778,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = czech.1.a #yes
+		name = czech.1.a 
 		ai_chance = {
 			factor = 90
 		}
@@ -754,7 +812,7 @@ country_event = {
 		}
 	}
 }
-# ROM says yes
+
 country_event = {
 	id = czech.29
 	title = czech.28.t
@@ -777,7 +835,7 @@ country_event = {
 		}
 	}
 }
-# ROM says no
+
 country_event = {
 	id = czech.30
 	title = czech.28.t
@@ -795,7 +853,7 @@ country_event = {
 	}
 }
 
-# Ask HUN to be nice
+
 country_event = {
 	id = czech.32
 	title = czech.32.t
@@ -805,7 +863,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = czech.1.a #yes
+		name = czech.1.a 
 		ai_chance = {
 			factor = 60
 			modifier = {
@@ -840,7 +898,7 @@ country_event = {
 		}
 	}
 }
-# HUN says yes
+
 country_event = {
 	id = czech.33
 	title = czech.32.t
@@ -858,7 +916,12 @@ country_event = {
 		if = {
 			limit = { 664 = { is_claimed_by = HUN } }
 			HUN = {
-				remove_state_claim = 664
+				remove_state_claim = 664 
+		remove_state_claim = 8803 
+		remove_state_claim = 8804 
+		remove_state_claim = 8805 
+		remove_state_claim = 8806 
+		remove_state_claim = 8807
 			}
 		}
 		
@@ -867,7 +930,7 @@ country_event = {
 		}
 	}
 }
-# HUN says no
+
 country_event = {
 	id = czech.34
 	title = czech.32.t

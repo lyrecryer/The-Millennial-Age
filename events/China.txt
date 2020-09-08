@@ -1,10 +1,7 @@
-﻿###########################
-# Chinese Events
-###########################
 
 add_namespace = china
 
-# Japanese Stage Border Incident
+
 country_event = {
 	id = china.1
 	title = china.1.t
@@ -13,7 +10,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Breaking point!
+	option = { 
 		name = china.1.a
 		ai_chance = { factor = 90 }
 		effect_tooltip = {
@@ -47,16 +44,84 @@ country_event = {
 			}
 		}
 	}
-	option = { # Make more concessions
+	option = { 
 		name = china.1.b
 		ai_chance = { factor = 10 }
 		JAP = {
 			set_truce = { target = ROOT days = 180 }
 			effect_tooltip = {
-				transfer_state = 608
-				transfer_state = 597
-				transfer_state = 614
-				add_state_claim = 613
+				transfer_state = 608 
+		transfer_state = 8253 
+		transfer_state = 8254 
+		transfer_state = 8255 
+		transfer_state = 8256 
+		transfer_state = 8257 
+		transfer_state = 8258 
+		transfer_state = 8259 
+		transfer_state = 8260
+				transfer_state = 597 
+		transfer_state = 8031 
+		transfer_state = 8032 
+		transfer_state = 8033 
+		transfer_state = 8034 
+		transfer_state = 8035 
+		transfer_state = 8036 
+		transfer_state = 8037 
+		transfer_state = 8038 
+		transfer_state = 8039 
+		transfer_state = 8040 
+		transfer_state = 8041 
+		transfer_state = 8042 
+		transfer_state = 8043 
+		transfer_state = 8044 
+		transfer_state = 8045 
+		transfer_state = 8046 
+		transfer_state = 8047 
+		transfer_state = 8048 
+		transfer_state = 8049 
+		transfer_state = 8050 
+		transfer_state = 8051 
+		transfer_state = 8052 
+		transfer_state = 8053 
+		transfer_state = 8054 
+		transfer_state = 8055 
+		transfer_state = 8056 
+		transfer_state = 8057 
+		transfer_state = 8058 
+		transfer_state = 8059 
+		transfer_state = 8060 
+		transfer_state = 8061
+				transfer_state = 614 
+		transfer_state = 8335 
+		transfer_state = 8336 
+		transfer_state = 8337 
+		transfer_state = 8338 
+		transfer_state = 8339 
+		transfer_state = 8340 
+		transfer_state = 8341 
+		transfer_state = 8342 
+		transfer_state = 8343 
+		transfer_state = 8344 
+		transfer_state = 8345 
+		transfer_state = 8346 
+		transfer_state = 8347 
+		transfer_state = 8348 
+		transfer_state = 8349 
+		transfer_state = 8350 
+		transfer_state = 8351
+				add_state_claim = 613 
+		add_state_claim = 8323 
+		add_state_claim = 8324 
+		add_state_claim = 8325 
+		add_state_claim = 8326 
+		add_state_claim = 8327 
+		add_state_claim = 8328 
+		add_state_claim = 8329 
+		add_state_claim = 8330 
+		add_state_claim = 8331 
+		add_state_claim = 8332 
+		add_state_claim = 8333 
+		add_state_claim = 8334
 				if = {
 					limit = {
 						ROOT = { controls_state = 743 }
@@ -79,7 +144,7 @@ country_event = {
 					}
 				}
 				NOT = {
-					has_game_rule = { #used here instead of checking for default because people might not have WTT
+					has_game_rule = { 
 						rule = CHI_ai_behavior
 						option = ALTERNATE
 					}
@@ -103,7 +168,7 @@ country_event = {
 	}
 }
 
-# Germany Withdraws Advisors
+
 country_event = {
 	id = china.2
 	title = china.2.t
@@ -118,7 +183,7 @@ country_event = {
 	}
 }
 
-# Chinese - German Relations Poor, Mission Recalled
+
 country_event = {
 	id = china.3
 	title = china.3.t
@@ -132,7 +197,7 @@ country_event = {
 	}
 }
 
-# China is at war with Germany, Advisors Detained
+
 country_event = {
 	id = china.4
 	title = china.4.t
@@ -146,7 +211,7 @@ country_event = {
 	}
 }
 
-# Mao is gaining ground, loses his Cornered Fox trait
+
 country_event = {
 	id = china.5
 	title = china.5.t
@@ -171,7 +236,7 @@ country_event = {
 	}
 }
 
-# Kuomintang Offensive
+
 country_event = {
 	id = china.6
 	title = china.6.t
@@ -487,7 +552,7 @@ country_event = {
 	}
 }
 
-# Border War
+
 country_event = {
 	id = china.13
 	title = china.13.t
@@ -559,7 +624,7 @@ country_event = {
 	}
 }
 
-# CHI loses Border War
+
 country_event = {
 	id = china.14
 	title = china.14.t
@@ -609,7 +674,7 @@ country_event = {
 	}
 }
 
-# PRC wins Border War
+
 country_event = {
 	id = china.15
 	title = china.15.t
@@ -626,7 +691,7 @@ country_event = {
 	}
 }
 
-# PRC loses Border War
+
 country_event = {
 	id = china.16
 	title = china.16.t
@@ -676,7 +741,7 @@ country_event = {
 	}
 }
 
-# CHI wins Border War
+
 country_event = {
 	id = china.17
 	title = china.17.t
@@ -693,7 +758,7 @@ country_event = {
 	}
 }
 
-# Border War Starts (PRC)
+
 country_event = {
 	id = china.18
 	title = china.18.t
@@ -730,7 +795,7 @@ country_event = {
 	}
 }
 
-# Japan attacks - Chinese Popular Front forms
+
 country_event = {
 	id = china.100
 	title = china.100.t
@@ -760,17 +825,17 @@ country_event = {
 		ai_chance = { factor = 100 }
 		name = china.100.a
 		create_faction = chinese_united_front
-		#load_oob = "CHI_united_front"
+		
 		set_global_flag = CHI_unite
 
 	}
-	#option = {
-	#	name = china.100.b
-	#	#Nothing
-	#}
+	
+	
+	
+	
 }
 
-# Japan attacks - Chinese Popular Front forms
+
 country_event = {
 	id = china.101
 	title = china.101.t
@@ -835,11 +900,11 @@ country_event = {
 			id = "CHI"
 			value = 200
 		}
-		#Nothing
+		
 	}
 }
 
-# Japan attack - Sinkiang can join if they want to
+
 country_event = {
 	id = china.102
 	title = china.102.t
@@ -924,11 +989,11 @@ country_event = {
 			factor = 10
 		}
 		name = china.102.c
-		#Nothing
+		
 	}
 }
 
-# FROM joins China (annex)
+
 country_event = {
 	id = china.103
 	title = china.103.t
@@ -944,7 +1009,7 @@ country_event = {
 	}
 }
 
-# PRC option to join China faction
+
 country_event = {
 	id = china.104
 	title = china.104.t
@@ -1035,14 +1100,14 @@ country_event = {
 		}
 	}
 
-	#Nothing
+	
 	option = {
 		ai_chance = { factor = 0 }
 		name = china.104.b
 	}
 }
 
-# PRC annexs SHX (puppet option for player)
+
 country_event = {
 	id = china.105
 	title = china.105.t
@@ -1058,7 +1123,7 @@ country_event = {
 		custom_effect_tooltip = GAME_OVER_TT
 	}
 
-	#Nothing
+	
 	option = {
 		ai_chance = { factor = 0 }
 		FROM = { puppet = ROOT }
@@ -1066,7 +1131,7 @@ country_event = {
 	}
 }
 
-# China - Info that PRX has joined faction
+
 country_event = {
 	id = china.106
 	title = china.106.t
@@ -1081,7 +1146,7 @@ country_event = {
 
 }
 
-# China and Japan no longer at war - Break up faction and Mao claims his part of China
+
 country_event = {
 	id = china.107
 	title = china.107.t
@@ -1145,7 +1210,7 @@ country_event = {
 	}
 }
 
-# Restart Chinese civil war - Communist supporters reinforces the PRC army
+
 country_event = {
 	id = china.108
 	title = china.108.t
@@ -1176,7 +1241,7 @@ country_event = {
 	}
 }
 
-# Restart Chinese civil war
+
 country_event = {
 	id = china.109
 	title = china.109.t
@@ -1226,7 +1291,7 @@ country_event = {
 
 }
 
-# China and Japan no longer at war - Break up faction and Mao claims his part of China
+
 country_event = {
 	id = china.111
 	title = china.111.t
@@ -1268,7 +1333,7 @@ country_event = {
 	}
 }
 
-# China turns communist / Communists break off from China
+
 country_event = {
 	id = china.200
 	title = china.200.t
@@ -1307,7 +1372,7 @@ country_event = {
 	}
 }
 
-# PRC annexes communist revolters from China
+
 country_event = {
 	id = china.201
 	title = china.201.t
@@ -1338,7 +1403,7 @@ country_event = {
 	}
 }
 
-#CHI event - PRC takes control of a CHI state - Communist uprising
+
 country_event = {
 	id = china.202
 	title = china.202.t
@@ -1392,7 +1457,7 @@ country_event = {
 	}
 }
 
-#PRC event - takes control of a CHI state - Communist uprising
+
 country_event = {
 	id = china.203
 	title = china.203.t
@@ -1414,7 +1479,7 @@ country_event = {
 	}
 }
 
-#Move capital if PRC wins civil war
+
 country_event = {
 	id = china.204
 	title = china.204.t
@@ -1432,8 +1497,8 @@ country_event = {
 			country_exists = CHI
 		}
 		OR = {
-			owns_state = 608 #Beijing
-			owns_state = 613 #Nanjing
+			owns_state = 608 
+			owns_state = 613 
 		}
 	}
 
@@ -1441,7 +1506,7 @@ country_event = {
 		days = 10
 	}
 
-	#Move to Beijing
+	
 	option = {
 		name = china.204.a
 		ai_chance = {
@@ -1457,7 +1522,7 @@ country_event = {
 		set_capital = 608
 	}
 
-	#Move to Nanjing
+	
 	option = {
 		name = china.204.b
 		ai_chance = {
@@ -1476,7 +1541,7 @@ country_event = {
 		}
 	}
 
-	#Stay where you are
+	
 	option = {
 		name = china.204.c
 		ai_chance = {

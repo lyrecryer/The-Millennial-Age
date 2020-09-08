@@ -1,10 +1,8 @@
-﻿###########################
-# News Events
-###########################
+
 
 add_namespace = news
 
-# Marco Polo Bridge I
+
 news_event = {
 	id = news.1
 	title = news.1.t
@@ -34,7 +32,7 @@ news_event = {
 	}
 }
 
-# Marco Polo Bridge II
+
 news_event = {
 	id = news.2
 	title = news.1.t
@@ -64,7 +62,7 @@ news_event = {
 	}
 }
 
-# French Indochina I
+
 news_event = {
 	id = news.5
 	title = news.5.t
@@ -105,7 +103,7 @@ news_event = {
 	}
 }
 
-# French Indochina II
+
 news_event = {
 	id = news.6
 	title = news.5.t
@@ -146,7 +144,7 @@ news_event = {
 	}
 }
 
-# Soviet - Japanese Border Conflict (Soviets Win)
+
 news_event = {
 	id = news.7
 	title = news.7.t
@@ -176,7 +174,7 @@ news_event = {
 	}
 }
 
-# Soviet - Japanese Border Conflict (Japanese Win)
+
 news_event = {
 	id = news.8
 	title = news.7.t
@@ -206,7 +204,7 @@ news_event = {
 	}
 }
 
-# Soviet - Japanese Border Conflict (Soviet Withdrawal)
+
 news_event = {
 	id = news.9
 	title = news.9.t
@@ -236,7 +234,7 @@ news_event = {
 	}
 }
 
-# Romania surrenders Bessarabia
+
 news_event = {
 	id = news.10
 	title = news.10.t
@@ -271,7 +269,7 @@ news_event = {
 	}
 }
 
-# Romania refuses to surrender Bessarabia
+
 news_event = {
 	id = news.11
 	title = news.11.t
@@ -306,7 +304,7 @@ news_event = {
 	}
 }
 
-# Finland Refuses Demands
+
 news_event = {
 	id = news.12
 	title = news.12.t
@@ -353,7 +351,7 @@ news_event = {
 	}
 }
 
-# Finland Accepts Demands
+
 news_event = {
 	id = news.13
 	title = news.13.t
@@ -402,7 +400,7 @@ news_event = {
 }
 
 
-# Soviet Union annexes Tannu Tuva
+
 news_event = {
 	id = news.14
 	title = news.14.t
@@ -427,7 +425,7 @@ news_event = {
 	}
 }
 
-# Second Vienna Award - Northern Transylvania
+
 news_event = {
 	id = news.15
 	title = news.15.t
@@ -462,7 +460,7 @@ news_event = {
 	}
 }
 
-# Second Vienna Award - All of Transylvania
+
 news_event = {
 	id = news.16
 	title = news.15.t
@@ -497,7 +495,7 @@ news_event = {
 	}
 }
 
-# Second Vienna Award - Romania Rejects Verdict (Northern Transylvania)
+
 news_event = {
 	id = news.17
 	title = news.17.t
@@ -532,7 +530,7 @@ news_event = {
 	}
 }
 
-# Second Vienna Award - Romania Rejects Verdict (All of Transylvania)
+
 news_event = {
 	id = news.18
 	title = news.17.t
@@ -567,7 +565,7 @@ news_event = {
 	}
 }
 
-# German Claims Memel - Lithania Folds
+
 news_event = {
 	id = news.19
 	title = news.19.t
@@ -608,7 +606,7 @@ news_event = {
 	}
 }
 
-# German Claims Memel - Lithuania Rejects Demands
+
 news_event = {
 	id = news.20
 	title = news.20.t
@@ -649,7 +647,7 @@ news_event = {
 	}
 }
 
-# Treaty of Craiova
+
 news_event = {
 	id = news.21
 	title = news.21.t
@@ -679,7 +677,7 @@ news_event = {
 	}
 }
 
-# Italian Ultimatum - Zog Yields
+
 news_event = {
 	id = news.22
 	title = news.22.t
@@ -716,7 +714,7 @@ news_event = {
 	}
 }
 
-# Italian Ultimatum - Zog Resists
+
 news_event = {
 	id = news.23
 	title = news.23.t
@@ -746,7 +744,7 @@ news_event = {
 	}
 }
 
-# Reichstag Speech (The Polish Question)
+
 news_event = {
 	id = news.24
 	title = news.24.t
@@ -762,7 +760,7 @@ news_event = {
 	}
 }
 
-# Remilitarization of the Rhineland (Peaceful)
+
 news_event = {
 	id = news.25
 	title = news.25.t
@@ -809,7 +807,7 @@ news_event = {
 	}
 }
 
-# Remilitarization of the Rhineland (France and Britain go to war)
+
 news_event = {
 	id = news.26
 	title = news.25.t
@@ -844,7 +842,7 @@ news_event = {
 	}
 }
 
-# Remilitarization of the Rhineland (France goes to war)
+
 news_event = {
 	id = news.27
 	title = news.25.t
@@ -874,7 +872,7 @@ news_event = {
 	}
 }
 
-# Oster Conspiracy (Himmler assumes leadership)
+
 news_event = {
 	id = news.28
 	title = news.28.t
@@ -916,7 +914,7 @@ news_event = {
 	}
 }
 
-# Oster Conspiracy (Göring assumes leadership)
+
 news_event = {
 	id = news.29
 	title = news.28.t
@@ -958,7 +956,7 @@ news_event = {
 	}
 }
 
-# Oster Conspiracy (Hitler survives)
+
 news_event = {
 	id = news.30
 	title = news.30.t
@@ -993,7 +991,7 @@ news_event = {
 	}
 }
 
-# Oster Conspiracy (Civil War)
+
 news_event = {
 	id = news.31
 	title = news.31.t
@@ -1043,7 +1041,7 @@ news_event = {
 	}
 }
 
-# The Molotov-Ribbentrop Pact
+
 news_event = {
 	id = news.32
 	title = news.32.t
@@ -1130,7 +1128,7 @@ news_event = {
 	}
 }
 
-# USSR Occupies Eastern Poland
+
 news_event = {
 	id = news.33
 	title = news.33.t
@@ -1155,7 +1153,7 @@ news_event = {
 	option = { 
 		name = news.33.b
 		trigger = { 
-			NOT = { TAG = SOV } #fix for unholy alliance
+			NOT = { TAG = SOV } 
 			OR = {
 				TAG = GER
 				is_in_faction_with = GER
@@ -1165,7 +1163,7 @@ news_event = {
 	option = {
 		name = news.33.c
 		trigger = { 
-			NOT = { TAG = GER } # fix for unholy alliance
+			NOT = { TAG = GER } 
 			OR = {
 				TAG = SOV
 				is_in_faction_with = SOV
@@ -1174,7 +1172,7 @@ news_event = {
 	}
 }
 
-# Second Compiegne Armistice
+
 news_event = {
 	id = news.34
 	title = news.34.t
@@ -1217,7 +1215,7 @@ news_event = {
 	}
 }
 
-# Franco-British Union
+
 news_event = {
 	id = news.35
 	title = news.35.t
@@ -1257,7 +1255,7 @@ news_event = {
 	}
 }
 
-# Anschluss of Austria
+
 news_event = {
 	id = news.36
 	title = news.36.t
@@ -1298,7 +1296,7 @@ news_event = {
 	}
 }
 
-# Trotsky Assassination
+
 news_event = {
 	id = news.37
 	title = news.37.t
@@ -1338,7 +1336,7 @@ news_event = {
 	}
 }
 
-# Trotsky Survives Assassination
+
 news_event = {
 	id = news.38
 	title = news.38.t
@@ -1363,7 +1361,7 @@ news_event = {
 	}
 }
 
-# Trotsky Dies Sneaking Into USSR
+
 news_event = {
 	id = news.39
 	title = news.39.t
@@ -1388,7 +1386,7 @@ news_event = {
 	}
 }
 
-# Trotsky Usurps Leadership
+
 news_event = {
 	id = news.40
 	title = news.40.t
@@ -1409,7 +1407,7 @@ news_event = {
 	}
 }
 
-# Second Trotsky Assassination
+
 news_event = {
 	id = news.41
 	title = news.41.t
@@ -1440,7 +1438,7 @@ news_event = {
 	}
 }
 
-# Hindenburg Disaster
+
 news_event = {
 	id = news.42
 	title = news.42.t
@@ -1460,7 +1458,7 @@ news_event = {
 	}
 }
 
-# Hindenburg Disaster Averted
+
 news_event = {
 	id = news.43
 	title = news.43.t
@@ -1480,7 +1478,7 @@ news_event = {
 	}
 }
 
-# Flight of Rudolf Hess
+
 news_event = {
 	id = news.44
 	title = news.44.t
@@ -1514,7 +1512,7 @@ news_event = {
 	}
 }
 
-# Rudolf Hess Killed
+
 news_event = {
 	id = news.45
 	title = news.45.t
@@ -1548,7 +1546,7 @@ news_event = {
 	}
 }
 
-# Flight of Rudolf Hess (Hindenburg)
+
 news_event = {
 	id = news.46
 	title = news.44.t
@@ -1582,7 +1580,7 @@ news_event = {
 	}
 }
 
-# Rudolf Hess Killed (Hindenburg)
+
 news_event = {
 	id = news.47
 	title = news.45.t
@@ -1616,7 +1614,7 @@ news_event = {
 	}
 }
 
-# Amelia Earhart Disappears
+
 news_event = {
 	id = news.48
 	title = news.48.t
@@ -1636,7 +1634,7 @@ news_event = {
 	}
 }
 
-# Amelia Earhart Completes World Flight
+
 news_event = {
 	id = news.49
 	title = news.49.t
@@ -1652,7 +1650,7 @@ news_event = {
 	}
 }
 
-# Trotsky Trigger (HIDDEN)
+
 news_event = {
 	id = news.50
 	hidden = yes
@@ -1666,7 +1664,7 @@ news_event = {
 			has_government = communism
 			NOT = { has_country_flag = counter_purge }
 		}
-		NOT = { has_global_flag = flag_mexico_invited_trotsky_to_government } # This saves the Trotsky
+		NOT = { has_global_flag = flag_mexico_invited_trotsky_to_government } 
 	}
 
 	mean_time_to_happen = {
@@ -1685,7 +1683,7 @@ news_event = {
 	}
 }
 
-# Hindenburg Trigger (HIDDEN)
+
 news_event = {
 	id = news.51
 	hidden = yes
@@ -1726,7 +1724,7 @@ news_event = {
 	}
 }
 
-# Rudolf Hess Trigger (HIDDEN)
+
 news_event = {
 	id = news.52
 	hidden = yes
@@ -1745,7 +1743,7 @@ news_event = {
 		}
 		has_global_flag = fall_of_france
 		NOT = { has_global_flag = hindenburg_survives }
-		ENG = { # No Sea Lion
+		ENG = { 
 			controls_state = 127
 			controls_state = 123
 			controls_state = 126
@@ -1786,7 +1784,7 @@ news_event = {
 	}
 }
 
-# Rudolf Hess Hindenburg Trigger (HIDDEN)
+
 news_event = {
 	id = news.53
 	hidden = yes
@@ -1804,7 +1802,7 @@ news_event = {
 		}
 		has_global_flag = fall_of_france
 		has_global_flag = hindenburg_survives
-		ENG = { # No Sea Lion
+		ENG = { 
 			controls_state = 127
 			controls_state = 123
 			controls_state = 126
@@ -1830,7 +1828,7 @@ news_event = {
 	immediate = {
 		random_list = {
 
-			#Flight in Hinden
+			
 			15 = { 
 				ENG = { news_event = { id = news.46 } } 
 				GER = { country_event = { id = germany.109 } }
@@ -1840,7 +1838,7 @@ news_event = {
 				GER = { country_event = { id = germany.110 } }
 			}
 
-			#Ordinary flight
+			
 			35 = { 
 				ENG = { news_event = { id = news.44 } }
 				GER = { country_event = { id = germany.107 } }
@@ -1858,7 +1856,7 @@ news_event = {
 	}
 }
 
-# Amelia Earhart Trigger (HIDDEN)
+
 news_event = {
 	id = news.54
 	hidden = yes
@@ -1885,7 +1883,7 @@ news_event = {
 	}
 }
 
-# Anglo-Polish Alliance
+
 news_event = {
 	id = news.55
 	title = news.55.t
@@ -1936,7 +1934,7 @@ news_event = {
 	}
 }
 
-# Munich Agreement
+
 news_event = {
 	id = news.56
 	title = news.56.t
@@ -1971,7 +1969,7 @@ news_event = {
 	}
 }
 
-# Sudeten Crisis (French and British Support)
+
 news_event = {
 	id = news.57
 	title = news.57.t
@@ -2012,7 +2010,7 @@ news_event = {
 	}
 }
 
-# Sudeten Crisis (French Support)
+
 news_event = {
 	id = news.58
 	title = news.57.t
@@ -2052,7 +2050,7 @@ news_event = {
 	}
 }
 
-# Munich Agreement (Czechs Resist)
+
 news_event = {
 	id = news.59
 	title = news.59.t
@@ -2082,7 +2080,7 @@ news_event = {
 	}
 }
 
-# End of Czechoslovakia
+
 news_event = {
 	id = news.60
 	title = news.60.t
@@ -2125,7 +2123,7 @@ news_event = {
 	}
 }
 
-# End of Czechoslovakia (Hungary Annexes Slovakia)
+
 news_event = {
 	id = news.61
 	title = news.60.t
@@ -2173,7 +2171,7 @@ news_event = {
 	}
 }
 
-# End of Czechoslovakia (Germany annexes everything)
+
 news_event = {
 	id = news.62
 	title = news.60.t
@@ -2216,7 +2214,7 @@ news_event = {
 	}
 }
 
-# The Spanish Civil War
+
 news_event = {
 	id = news.63
 	title = news.63.t
@@ -2241,7 +2239,7 @@ news_event = {
 	}
 }
 
-# End of the Spanish Civil War (Nationalist victory)
+
 news_event = {
 	id = news.64
 	title = news.64.t
@@ -2289,7 +2287,7 @@ news_event = {
 	}
 }
 
-# End of the Spanish Civil War (Republican victory)
+
 news_event = {
 	id = news.65
 	title = news.64.t
@@ -2337,7 +2335,7 @@ news_event = {
 	}
 }
 
-# Games of the XI Olympiad
+
 news_event = {
 	id = news.66
 	title = news.66.t
@@ -2390,7 +2388,7 @@ news_event = {
 	}
 }
 
-# Games of the XII Olympiad (Tokyo)
+
 news_event = {
 	id = news.67
 	title = news.67.t
@@ -2429,7 +2427,7 @@ news_event = {
 	}
 }
 
-# Games of the XII Olympiad (Helsinki)
+
 news_event = {
 	id = news.68
 	title = news.67.t
@@ -2472,7 +2470,7 @@ news_event = {
 	}
 }
 
-# Baltic country annexed (base event baltic.5)
+
 news_event = {
 	id = news.69
 	title = news.69.t
@@ -2508,7 +2506,7 @@ news_event = {
 	}
 }
 
-#Baltic country puppeted (base event baltic.5)
+
 news_event = {
 	id = news.70
 	title = news.70.t
@@ -2544,7 +2542,7 @@ news_event = {
 	}
 }
 
-#Hidden event to trigger actual annexation (base event baltic.5)
+
 news_event = {
 	id = news.71
 
@@ -2595,7 +2593,7 @@ news_event = {
 }
 
 
-# The Fall of Warsaw (Germany)
+
 news_event = {
 	id = news.100
 	title = news.100.t
@@ -2638,7 +2636,7 @@ news_event = {
 	}
 }
 
-# The Fall of Paris (Germany)
+
 news_event = {
 	id = news.101
 	title = news.101.t
@@ -2681,7 +2679,7 @@ news_event = {
 	}
 }
 
-# The Fall of London (Germany)
+
 news_event = {
 	id = news.102
 	title = news.102.t
@@ -2724,7 +2722,7 @@ news_event = {
 	}
 }
 
-# The Fall of Leningrad
+
 news_event = {
 	id = news.103
 	title = news.103.t
@@ -2767,7 +2765,7 @@ news_event = {
 	}
 }
 
-# The Fall of Kiev
+
 news_event = {
 	id = news.104
 	title = news.104.t
@@ -2810,7 +2808,7 @@ news_event = {
 	}
 }
 
-# The Fall of Stalingrad
+
 news_event = {
 	id = news.105
 	title = news.105.t
@@ -2853,7 +2851,7 @@ news_event = {
 	}
 }
 
-# The Fall of Moscow
+
 news_event = {
 	id = news.106
 	title = news.106.t
@@ -2896,7 +2894,7 @@ news_event = {
 	}
 }
 
-# The Fall of Sevastopol
+
 news_event = {
 	id = news.107
 	title = news.107.t
@@ -2939,7 +2937,7 @@ news_event = {
 	}
 }
 
-# The Fall of Baku
+
 news_event = {
 	id = news.108
 	title = news.108.t
@@ -2982,7 +2980,7 @@ news_event = {
 	}
 }
 
-# The Fall of Cairo (Germany)
+
 news_event = {
 	id = news.109
 	title = news.109.t
@@ -3025,7 +3023,7 @@ news_event = {
 	}
 }
 
-# The Fall of Washington
+
 news_event = {
 	id = news.110
 	title = news.110.t
@@ -3068,7 +3066,7 @@ news_event = {
 	}
 }
 
-# The Fall of New York
+
 news_event = {
 	id = news.111
 	title = news.111.t
@@ -3111,7 +3109,7 @@ news_event = {
 	}
 }
 
-# The Fall of Gibraltar (Germany)
+
 news_event = {
 	id = news.112
 	title = news.112.t
@@ -3154,7 +3152,7 @@ news_event = {
 	}
 }
 
-# The Fall of Cairo (Italy)
+
 news_event = {
 	id = news.113
 	title = news.109.t
@@ -3197,7 +3195,7 @@ news_event = {
 	}
 }
 
-# The Fall of Paris (Italy)
+
 news_event = {
 	id = news.114
 	title = news.101.t
@@ -3240,7 +3238,7 @@ news_event = {
 	}
 }
 
-# The Fall of London (Italy)
+
 news_event = {
 	id = news.115
 	title = news.102.t
@@ -3283,7 +3281,7 @@ news_event = {
 	}
 }
 
-# The Fall of Gibraltar (Italy)
+
 news_event = {
 	id = news.116
 	title = news.112.t
@@ -3326,7 +3324,7 @@ news_event = {
 	}
 }
 
-# The Fall of Singapore
+
 news_event = {
 	id = news.117
 	title = news.117.t
@@ -3369,7 +3367,7 @@ news_event = {
 	}
 }
 
-# The Fall of Pearl Harbor
+
 news_event = {
 	id = news.118
 	title = news.118.t
@@ -3412,7 +3410,7 @@ news_event = {
 	}
 }
 
-# The Fall of Sydney
+
 news_event = {
 	id = news.119
 	title = news.119.t
@@ -3455,7 +3453,7 @@ news_event = {
 	}
 }
 
-# The Fall of Los Angeles
+
 news_event = {
 	id = news.120
 	title = news.120.t
@@ -3498,7 +3496,7 @@ news_event = {
 	}
 }
 
-# The Fall of Nanjing
+
 news_event = {
 	id = news.121
 	title = news.121.t
@@ -3541,7 +3539,7 @@ news_event = {
 	}
 }
 
-# The Fall of Vladivostok
+
 news_event = {
 	id = news.122
 	title = news.122.t
@@ -3584,7 +3582,7 @@ news_event = {
 	}
 }
 
-# The Fall of Hong Kong
+
 news_event = {
 	id = news.123
 	title = news.123.t
@@ -3627,7 +3625,7 @@ news_event = {
 	}
 }
 
-# The Fall of Manila
+
 news_event = {
 	id = news.124
 	title = news.124.t
@@ -3676,7 +3674,7 @@ news_event = {
 	}
 }
 
-# The Fall of Calcutta
+
 news_event = {
 	id = news.125
 	title = news.125.t
@@ -3719,7 +3717,7 @@ news_event = {
 	}
 }
 
-# The Fall of New Delhi
+
 news_event = {
 	id = news.126
 	title = news.126.t
@@ -3762,7 +3760,7 @@ news_event = {
 	}
 }
 
-# The Fall of the Panama Canal
+
 news_event = {
 	id = news.127
 	title = news.127.t
@@ -3805,7 +3803,7 @@ news_event = {
 	}
 }
 
-# The Fall of Berlin (USA)
+
 news_event = {
 	id = news.128
 	title = news.128.t
@@ -3848,7 +3846,7 @@ news_event = {
 	}
 }
 
-# The Fall of Berlin (Britain)
+
 news_event = {
 	id = news.129
 	title = news.128.t
@@ -3891,7 +3889,7 @@ news_event = {
 	}
 }
 
-# The Fall of Berlin (France)
+
 news_event = {
 	id = news.130
 	title = news.128.t
@@ -3934,7 +3932,7 @@ news_event = {
 	}
 }
 
-# The Fall of Berlin (Poland)
+
 news_event = {
 	id = news.131
 	title = news.128.t
@@ -3977,7 +3975,7 @@ news_event = {
 	}
 }
 
-# The Fall of Rome (Allies)
+
 news_event = {
 	id = news.132
 	title = news.132.t
@@ -4049,7 +4047,7 @@ news_event = {
 	}
 }
 
-# The Fall of Rome (France)
+
 news_event = {
 	id = news.133
 	title = news.132.t
@@ -4092,7 +4090,7 @@ news_event = {
 	}
 }
 
-# The Liberation of Paris (Allies)
+
 news_event = {
 	id = news.134
 	title = news.134.t
@@ -4147,7 +4145,7 @@ news_event = {
 	}
 }
 
-# The Fall of Tokyo (USA)
+
 news_event = {
 	id = news.135
 	title = news.135.t
@@ -4190,7 +4188,7 @@ news_event = {
 	}
 }
 
-# The Fall of Moscow (Allies)
+
 news_event = {
 	id = news.136
 	title = news.106.t
@@ -4254,7 +4252,7 @@ news_event = {
 	}
 }
 
-# The Liberation of London (USA)
+
 news_event = {
 	id = news.137
 	title = news.137.t
@@ -4291,7 +4289,7 @@ news_event = {
 	}
 }
 
-# The Fall of Warsaw (USSR)
+
 news_event = {
 	id = news.138
 	title = news.100.t
@@ -4334,7 +4332,7 @@ news_event = {
 	}
 }
 
-# The Liberation of Warsaw
+
 news_event = {
 	id = news.139
 	title = news.139.t
@@ -4371,7 +4369,7 @@ news_event = {
 	}
 }
 
-# The Fall of Berlin (USSR)
+
 news_event = {
 	id = news.140
 	title = news.128.t
@@ -4389,7 +4387,6 @@ news_event = {
 	
 	immediate = {
 		set_global_flag = fall_of_berlin_sov
-		play_victory_parade_effect = yes
 	}
 	
 	mean_time_to_happen = {
@@ -4415,7 +4412,7 @@ news_event = {
 	}
 }
 
-# The Fall of Rome (USSR)
+
 news_event = {
 	id = news.141
 	title = news.132.t
@@ -4458,7 +4455,7 @@ news_event = {
 	}
 }
 
-# The Fall of Paris (USSR)
+
 news_event = {
 	id = news.142
 	title = news.101.t
@@ -4501,7 +4498,7 @@ news_event = {
 	}
 }
 
-# The Liberation of Paris (USSR)
+
 news_event = {
 	id = news.143
 	title = news.134.t
@@ -4544,7 +4541,7 @@ news_event = {
 	}
 }
 
-# The Fall of London (USSR)
+
 news_event = {
 	id = news.144
 	title = news.102.t
@@ -4587,7 +4584,7 @@ news_event = {
 	}
 }
 
-# The Liberation of London (USSR)
+
 news_event = {
 	id = news.145
 	title = news.137.t
@@ -4630,7 +4627,7 @@ news_event = {
 	}
 }
 
-# The Fall of Tokyo (USSR)
+
 news_event = {
 	id = news.146
 	title = news.135.t
@@ -4673,7 +4670,7 @@ news_event = {
 	}
 }
 
-# The Fall of Leningrad (Finland)
+
 news_event = {
 	id = news.147
 	title = news.103.t
@@ -4716,7 +4713,7 @@ news_event = {
 	}
 }
 
-# The Fall of Tokyo (China)
+
 news_event = {
 	id = news.148
 	title = news.135.t
@@ -4759,7 +4756,7 @@ news_event = {
 	}
 }
 
-# The Fall of Gibraltar (Spain)
+
 news_event = {
 	id = news.149
 	title = news.112.t
@@ -4811,7 +4808,7 @@ news_event = {
 	}
 }
 
-# Yugoslav Coup
+
 news_event = {
 	id = news.150
 	title = news.150.t
@@ -4838,7 +4835,7 @@ news_event = {
 	}
 }
 
-# Remilitarization of the Rhineland (Germany Backs Down, Allied Pressure)
+
 news_event = {
 	id = news.151
 	title = news.151.t
@@ -4880,7 +4877,7 @@ news_event = {
 	}
 }
 
-# Remilitarization of the Rhineland (Germany Backs Down, French Pressure)
+
 news_event = {
 	id = news.152
 	title = news.151.t
@@ -4921,7 +4918,7 @@ news_event = {
 	}
 }
 
-# Germany Breaks Molotov-Ribbentrop Pact
+
 news_event = {
 	id = news.153
 	title = news.153.t
@@ -5000,7 +4997,7 @@ news_event = {
 	}
 }
 
-# USSR Breaks Molotov-Ribbentrop Pact
+
 news_event = {
 	id = news.154
 	title = news.154.t
@@ -5059,7 +5056,7 @@ news_event = {
 	}
 }
 
-# Germany declares war without having remilitarized Rhineland. Which then happens.
+
 news_event = {
 	id = news.155
 	title = news.155.t
@@ -5078,6 +5075,30 @@ news_event = {
 			has_offensive_war = yes
 		}
 		42 = {
+			is_demilitarized_zone = no
+		} 
+		5563 = {
+			is_demilitarized_zone = no
+		} 
+		5564 = {
+			is_demilitarized_zone = no
+		} 
+		5565 = {
+			is_demilitarized_zone = no
+		} 
+		5566 = {
+			is_demilitarized_zone = no
+		} 
+		5567 = {
+			is_demilitarized_zone = no
+		} 
+		5568 = {
+			is_demilitarized_zone = no
+		} 
+		5569 = {
+			is_demilitarized_zone = no
+		} 
+		5570 = {
 			is_demilitarized_zone = no
 		}
 	}
@@ -5101,14 +5122,14 @@ news_event = {
 	}
 }
 
-# Komet Sighted
+
 news_event = {
 	id = news.156
 	title = news.156.t
 	desc = news.156.d
 	picture = GFX_news_event_komet
 	
-	#major = yes
+	
 
 	fire_only_once = yes
 
@@ -5130,7 +5151,7 @@ news_event = {
 	}
 }
 
-# USA intervenes in war between ppl in America
+
 news_event = {
 	id = news.157
 	title = news.157.t
@@ -5139,11 +5160,11 @@ news_event = {
 	
 	major = yes
 
-	# Use the below if we only want it to fire once
-	#trigger = {
-	#	NOT = { has_global_flag = news.157_fired }
-	#}
-	#immediate = { set_global_flag = news.157_fired }
+	
+	
+	
+	
+	
 
 	is_triggered_only = yes
 	
@@ -5156,7 +5177,7 @@ news_event = {
 		name = news.157.a
 	}
 }
-# USA intervenes in war between ppl in America
+
 news_event = {
 	id = news.158
 	title = news.158.t
@@ -5165,11 +5186,11 @@ news_event = {
 	
 	major = yes
 
-	# Use the below if we only want it to fire once
-	#trigger = {
-	#	NOT = { has_global_flag = news.158_fired }
-	#}
-	#immediate = { set_global_flag = news.158_fired }
+	
+	
+	
+	
+	
 
 	is_triggered_only = yes
 	
@@ -5183,7 +5204,7 @@ news_event = {
 	}
 }
 
-# Faction Founded!
+
 news_event = {
 	id = news.159
 	title = news.159.t
@@ -5234,7 +5255,7 @@ news_event = {
 	}
 }
 
-# Germany has defensive war without having remilitarized Rhineland. Which then happens.
+
 news_event = {
 	id = news.160
 	title = news.160.t
@@ -5254,6 +5275,30 @@ news_event = {
 			NOT = { has_civil_war = yes }
 		}
 		42 = {
+			is_demilitarized_zone = no
+		} 
+		5563 = {
+			is_demilitarized_zone = no
+		} 
+		5564 = {
+			is_demilitarized_zone = no
+		} 
+		5565 = {
+			is_demilitarized_zone = no
+		} 
+		5566 = {
+			is_demilitarized_zone = no
+		} 
+		5567 = {
+			is_demilitarized_zone = no
+		} 
+		5568 = {
+			is_demilitarized_zone = no
+		} 
+		5569 = {
+			is_demilitarized_zone = no
+		} 
+		5570 = {
 			is_demilitarized_zone = no
 		}
 	}
@@ -5277,7 +5322,7 @@ news_event = {
 	}
 }
 
-# France bans communism
+
 news_event = {
 	id = news.161
 	title = news.161.t
@@ -5310,7 +5355,7 @@ news_event = {
 	}
 }
 
-# End of Spanish Civil War (Inconclusive)
+
 news_event = {
 	id = news.162
 	title = news.64.t
@@ -5354,7 +5399,7 @@ news_event = {
 	}
 }
 
-# London Conference
+
 news_event = {
 	id = news.163
 	title = news.163.t
@@ -5389,7 +5434,7 @@ news_event = {
 	}
 }
 
-# Slovenian Crisis (British and possibly French Support)
+
 news_event = {
 	id = news.164
 	title = news.164.t
@@ -5447,7 +5492,7 @@ news_event = {
 	}
 }
 
-# Slovenian Crisis (French Support)
+
 news_event = {
 	id = news.165
 	title = news.165.t
@@ -5487,7 +5532,7 @@ news_event = {
 	}
 }
 
-# London Agreement (Yugoslavia Resist)
+
 news_event = {
 	id = news.166
 	title = news.166.t
@@ -5517,7 +5562,7 @@ news_event = {
 	}
 }
 
-# Slovenian Crisis (Italian Support)
+
 news_event = {
 	id = news.167
 	title = news.167.t
@@ -5552,7 +5597,7 @@ news_event = {
 	}
 }
 
-#First Ljubljana award
+
 news_event = {
 	id = news.168
 	title = news.168.t
@@ -5920,9 +5965,9 @@ news_event = {
 	immediate = {
 		set_global_flag = SOV_fourth_international_fired
 
-		# Set flag for amount of purges (completing focus counts as 1)
+		
 		SOV = {
-			#1
+			
 			if = {
 				limit = {
 					has_completed_focus = SOV_great_purge
@@ -5932,7 +5977,7 @@ news_event = {
 				}
 				set_country_flag = SOV_purged_1
 			}
-			#2
+			
 			if = {
 				limit = {
 					has_completed_focus = SOV_great_purge
@@ -5956,7 +6001,7 @@ news_event = {
 				}
 				set_country_flag = SOV_purged_2
 			}
-			#3
+			
 			if = {
 				limit = {
 					has_completed_focus = SOV_great_purge
@@ -5980,7 +6025,7 @@ news_event = {
 				}
 				set_country_flag = SOV_purged_3
 			}
-			#4
+			
 			if = {
 				limit = {
 					SOV = {
@@ -5998,7 +6043,7 @@ news_event = {
 	mean_time_to_happen = { days = 2 }
 
 	desc = {
-		#not enough ppl killed
+		
 		text = news.173.d_1
 		trigger = {
 			SOV = {
@@ -6034,7 +6079,7 @@ news_event = {
 }
 
 
-#FROM pursues nuclear technology
+
 news_event = {
 	id = news.174
 	title = news.174.t
@@ -6045,7 +6090,7 @@ news_event = {
 
 	is_triggered_only = yes
 
-	#We should follow this development.
+	
 	option = {
 		name = news.174.a
 		trigger = {
@@ -6057,7 +6102,7 @@ news_event = {
 		}
 	}
 
-	#Let us hope their research bears fruit.
+	
 	option = {
 		name = news.174.b
 		trigger = {
@@ -6068,7 +6113,7 @@ news_event = {
 		}
 	}
 
-	#It will never amount to anything.
+	
 	option = {
 		name = news.174.c
 		trigger = {
@@ -6076,7 +6121,7 @@ news_event = {
 		}
 	}
 
-	#We will conduct our research in secret.
+	
 	option = {
 		name = news.174.e
 		trigger = {
@@ -6086,7 +6131,7 @@ news_event = {
 }
 
 
-#France joins Britain
+
 news_event = {
 	id = news.175
 	title = news.175.t
@@ -6097,7 +6142,7 @@ news_event = {
 
 	is_triggered_only = yes
 
-	#We stand together.
+	
 	option = {
 		name = news.175.a
 		trigger = {
@@ -6108,7 +6153,7 @@ news_event = {
 		}
 	}
 
-	#They are preparing for the worst.
+	
 	option = {
 		name = news.175.b
 		trigger = {
@@ -6125,7 +6170,7 @@ news_event = {
 		}
 	}
 
-	#Banding together like cornered rats.
+	
 	option = {
 		name = news.175.c
 		trigger = {
@@ -6136,7 +6181,7 @@ news_event = {
 		}
 	}
 
-	#Britain has thrown in their lot.
+	
 	option = {
 		name = news.175.e
 		trigger = {
@@ -6159,7 +6204,7 @@ news_event = {
 
 
 
-#Britain rejects French alliance
+
 news_event = {
 	id = news.176
 	title = news.176.t
@@ -6172,7 +6217,7 @@ news_event = {
 
 	fire_for_sender = no
 
-	#They should have asked more nicely.
+	
 	option = {
 		name = news.176.a
 		trigger = {
@@ -6180,7 +6225,7 @@ news_event = {
 		}
 	}
 
-	#Our old enemies stand divided.
+	
 	option = {
 		name = news.176.b
 		trigger = {
@@ -6188,7 +6233,7 @@ news_event = {
 		}
 	}
 
-	#A dark day for the old allies.
+	
 	option = {
 		name = news.176.c
 		trigger = {
@@ -6202,7 +6247,7 @@ news_event = {
 	}
 }
 
-#The Little Entente
+
 news_event = {
 	id = news.177
 	title = news.177.t
@@ -6213,7 +6258,7 @@ news_event = {
 
 	is_triggered_only = yes
 
-	#Don't come crying to us later, then!
+	
 	option = {
 		name = news.177.a
 		trigger = {
@@ -6221,7 +6266,7 @@ news_event = {
 		}
 	}
 
-	#Vive la France!
+	
 	option = {
 		name = news.177.b
 		trigger = {
@@ -6229,7 +6274,7 @@ news_event = {
 		}
 	}
 
-	#We must never again let France have hegemony in Europe.
+	
 	option = {
 		name = news.177.c
 		trigger = {
@@ -6256,7 +6301,7 @@ news_event = {
 		}
 	}
 
-	#Europe must unite against Fascist aggressors!
+	
 	option = {
 		name = news.177.e
 		trigger = {
@@ -6267,7 +6312,7 @@ news_event = {
 		}
 	}
 
-	#European tension is growing.
+	
 	option = {
 		name = news.177.f
 		trigger = {
@@ -6304,7 +6349,7 @@ news_event = {
 }
 
 
-#The Left Ascendant in France
+
 news_event = {
 	id = news.178
 	title = news.178.t
@@ -6317,7 +6362,7 @@ news_event = {
 
 	fire_for_sender = no
 
-	#France is with us towards the future!
+	
 	option = {
 		name = news.178.a
 		trigger = {
@@ -6325,7 +6370,7 @@ news_event = {
 		}
 	}
 
-	#A sure sign of French weakness.
+	
 	option = {
 		name = news.178.b
 		trigger = {
@@ -6333,7 +6378,7 @@ news_event = {
 		}
 	}
 
-	#A tragic day for the Third Republic.
+	
 	option = {
 		name = news.178.c
 		trigger = {
@@ -6341,7 +6386,7 @@ news_event = {
 		}
 	}
 
-	#A worrisome development.
+	
 	option = {
 		name = news.178.e
 		trigger = {
@@ -6351,7 +6396,7 @@ news_event = {
 }
 
 
-#The Right Ascendant in France
+
 news_event = {
 	id = news.179
 	title = news.179.t
@@ -6364,7 +6409,7 @@ news_event = {
 
 	fire_for_sender = no
 
-	#The French government is an enemy of its people!
+	
 	option = {
 		name = news.179.a
 		trigger = {
@@ -6372,7 +6417,7 @@ news_event = {
 		}
 	}
 
-	#This could once again make France a great nation.
+	
 	option = {
 		name = news.179.b
 		trigger = {
@@ -6380,7 +6425,7 @@ news_event = {
 		}
 	}
 
-	#A tragic day for the Third Republic.
+	
 	option = {
 		name = news.179.c
 		trigger = {
@@ -6388,7 +6433,7 @@ news_event = {
 		}
 	}
 
-	#A worrisome development.
+	
 	option = {
 		name = news.179.e
 		trigger = {
@@ -6398,7 +6443,7 @@ news_event = {
 }
 
 
-#France Is Welcomed by the Comintern
+
 news_event = {
 	id = news.180
 	title = news.180.t
@@ -6415,7 +6460,7 @@ news_event = {
 		}
 	}
 
-	#United towards the World Revolution!
+	
 	option = {
 		name = news.180.a
 		trigger = {
@@ -6426,7 +6471,7 @@ news_event = {
 		}
 	}
 
-	#Their alliance will crumble soon enough.
+	
 	option = {
 		name = news.180.b
 		trigger = {
@@ -6437,7 +6482,7 @@ news_event = {
 		}
 	}
 
-	#The enemies of democracy must not be allowed to grow stronger.
+	
 	option = {
 		name = news.180.c
 		trigger = {
@@ -6448,7 +6493,7 @@ news_event = {
 		}
 	}
 
-	#France has picked her side.
+	
 	option = {
 		name = news.180.e
 		trigger = {
@@ -6461,7 +6506,7 @@ news_event = {
 }
 
 
-#Italy And France Unite
+
 news_event = {
 	id = news.181
 	title = news.181.t
@@ -6478,7 +6523,7 @@ news_event = {
 		}
 	}
 
-	#Together we stand strong!
+	
 	option = {
 		name = news.181.a
 		trigger = {
@@ -6490,7 +6535,7 @@ news_event = {
 	}
 
 
-	#The enemies of democracy grow stronger.
+	
 	option = {
 		name = news.181.b
 		trigger = {
@@ -6504,7 +6549,7 @@ news_event = {
 		}
 	}
 
-	#An unexpected Friendship
+	
 	option = {
 		name = news.181.c
 		trigger = {
@@ -6522,7 +6567,7 @@ news_event = {
 }
 
 
-#France Joins the [From.GetFaction] (Germany)
+
 news_event = {
 	id = news.182
 	title = news.182.t
@@ -6539,7 +6584,7 @@ news_event = {
 		}
 	}
 
-	#Nothing can threaten the [From.GetFaction]!
+	
 	option = {
 		name = news.182.a
 		trigger = {
@@ -6547,7 +6592,7 @@ news_event = {
 		}
 	}
 
-	#The new [From.GetName] looms over Europe.
+	
 	option = {
 		name = news.182.b
 		trigger = {
@@ -6561,7 +6606,7 @@ news_event = {
 		}
 	}
 
-	#European diplomacy realigns along the Paris-Berlin Axis.
+	
 	option = {
 		name = news.182.c
 		trigger = {
@@ -6580,7 +6625,7 @@ news_event = {
 }
 
 
-#[From.GetName] Rejects French Offer of Alliance!
+
 news_event = {
 	id = news.183
 	title = news.183.t
@@ -6597,7 +6642,7 @@ news_event = {
 		}
 	}
 
-	#How dare they!
+	
 	option = {
 		name = news.183.a
 		trigger = {
@@ -6605,7 +6650,7 @@ news_event = {
 		}
 	}
 
-	#We can live with them as our enemies.
+	
 	option = {
 		name = news.183.b
 		trigger = {
@@ -6613,7 +6658,7 @@ news_event = {
 		}
 	}
 
-	#As long as they are busy fighting each other...
+	
 	option = {
 		name = news.183.c
 		trigger = {
@@ -6628,7 +6673,7 @@ news_event = {
 }
 
 
-#Italy Pursues Closer Bonds With Germany
+
 news_event = {
 	id = news.184
 	title = news.184.t
@@ -6641,7 +6686,7 @@ news_event = {
 
 	fire_for_sender = no
 
-	#Our nations share many common interests.
+	
 	option = {
 		name = news.184.a
 		trigger = {
@@ -6649,7 +6694,7 @@ news_event = {
 		}
 	}
 
-	#We will keep an eye on the situation.
+	
 	option = {
 		name = news.184.b
 		trigger = {
@@ -6658,7 +6703,7 @@ news_event = {
 	}
 }
 
-#Italy Seeks Extensive Military Pact
+
 news_event = {
 	id = news.185
 	title = news.185.t
@@ -6669,7 +6714,7 @@ news_event = {
 
 	is_triggered_only = yes
 
-	#Italy at the heart of a new power structure.
+	
 	option = {
 		name = news.185.a
 		trigger = {
@@ -6680,7 +6725,7 @@ news_event = {
 		}
 	}
 
-	#A new power structure in the Mediterrenean
+	
 	option = {
 		name = news.185.b
 		trigger = {
@@ -6715,7 +6760,7 @@ news_event = {
 	}
 }
 
-#Italy Lays Claim to Greek Territory
+
 news_event = {
 	id = news.186
 	title = news.186.t
@@ -6734,7 +6779,7 @@ news_event = {
 		}
 	}
 
-	#Italy should be in control of the Aegean
+	
 	option = {
 		name = news.186.a
 		trigger = {
@@ -6742,7 +6787,7 @@ news_event = {
 		}
 	}
 
-	#Outrageous claims!
+	
 	option = {
 		name = news.186.b
 		trigger = {
@@ -6753,7 +6798,7 @@ news_event = {
 	}
 }
 
-#Italy Seeks to Improve Relations With Greece
+
 news_event = {
 	id = news.187
 	title = news.187.t
@@ -6770,7 +6815,7 @@ news_event = {
 		}
 	}
 
-	#Surely they share our interests.
+	
 	option = {
 		name = news.187.a
 		trigger = {
@@ -6778,7 +6823,7 @@ news_event = {
 		}
 	}
 
-	#This is not surprising.
+	
 	option = {
 		name = news.187.b
 		trigger = {
@@ -6788,7 +6833,7 @@ news_event = {
 		}
 	}
 
-	#We do have much shared history.
+	
 	option = {
 		name = news.187.c
 		trigger = {
@@ -6800,7 +6845,7 @@ news_event = {
 	}
 }
 
-#Italy Seeks Reconciliation With Turkey
+
 news_event = {
 	id = news.188
 	title = news.188.t
@@ -6847,7 +6892,7 @@ news_event = {
 	}
 }
 
-#Italy Demands Anatolian Naval Bases
+
 news_event = {
 	id = news.189
 	title = news.189.t
@@ -6858,7 +6903,7 @@ news_event = {
 
 	is_triggered_only = yes
 
-	#This matter was settled!
+	
 	option = {
 		name = news.189.a
 		trigger = {
@@ -6866,7 +6911,7 @@ news_event = {
 		}
 	}
 
-	#We will have what we were promised!
+	
 	option = {
 		name = news.189.b
 		trigger = {
@@ -6874,7 +6919,7 @@ news_event = {
 		}
 	}
 
-	#Their rivalry is intensifying.
+	
 	option = {
 		name = news.189.c
 		trigger = {
@@ -6888,7 +6933,7 @@ news_event = {
 	}
 }
 
-#Spain Cedes the Balearic Islands
+
 news_event = {
 	id = news.190
 	title = news.190.t
@@ -6905,7 +6950,7 @@ news_event = {
 		}
 	}
 
-	#This is an important step towards complete Mediterranean dominance.
+	
 	option = {
 		name = news.190.a
 		trigger = {
@@ -6913,7 +6958,7 @@ news_event = {
 		}
 	}
 
-	#
+	
 	option = {
 		name = news.190.b
 		trigger = {
@@ -6922,7 +6967,7 @@ news_event = {
 		}
 	}
 
-	#Italy is strengthening its grip on the Mediterrenean.
+	
 	option = {
 		name = news.190.b
 		trigger = {
@@ -6936,7 +6981,7 @@ news_event = {
 		}
 	}
 
-	#A symbol of the \"dear friendship\" between our nations.
+	
 	option = {
 		name = news.190.c
 		trigger = {
@@ -6946,21 +6991,21 @@ news_event = {
 }
 
 
-#Italy Establishes Alliance With Spain
-#news_event = {
-#	id = news.191
-#	title = news.191.t
-#	desc = news.191.d
-#	picture = GFX_news_event_french_parade
-#
-#	is_triggered_only = yes
-#
-#	option = {
-#		name = news.191.a
-#	}
-#}
 
-#Italy Announces Claims On Yugoslavian Territory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 news_event = {
 	id = news.192
 	title = news.192.t
@@ -6973,7 +7018,7 @@ news_event = {
 
 	fire_for_sender = no
 
-	#Those are Yugoslavian lands, not Italian!
+	
 	option = {
 		name = news.192.a
 		trigger = {
@@ -6981,7 +7026,7 @@ news_event = {
 		}
 	}
 
-	#They are upsetting the already fragile balance in the region.
+	
 	option = {
 		name = news.192.b
 		trigger = {
@@ -6997,7 +7042,7 @@ news_event = {
 		}
 	}
 
-	#Those territories seem more Italian than Yugoslavian.
+	
 	option = {
 		name = news.192.c
 		trigger = {
@@ -7012,7 +7057,7 @@ news_event = {
 	}
 }
 
-#Italy Establishes Permanent Diplomatic Mission in Yugoslavia
+
 news_event = {
 	id = news.193
 	title = news.193.t
@@ -7023,7 +7068,7 @@ news_event = {
 
 	is_triggered_only = yes
 
-	#Our nations stand together as friends.
+	
 	option = {
 		name = news.193.a
 		trigger = {
@@ -7034,7 +7079,7 @@ news_event = {
 		}
 	}
 
-	#There will be peace in the Adriatic.
+	
 	option = {
 		name = news.193.b
 		trigger =  {
@@ -7050,7 +7095,7 @@ news_event = {
 		}
 	}
 
-	#It will be interesting to see where this ends.
+	
 	option = {
 		name = news.193.c
 		trigger =  {
@@ -7067,7 +7112,7 @@ news_event = {
 	}
 }
 
-#Eastern Poland Ceded to the Soviet Union
+
 news_event = {
 	id = news.194
 	title = news.194.t
@@ -7086,7 +7131,7 @@ news_event = {
 		}
 	}
 
-	#[Poland.GetName] recognises the strength of the [From.GetFactionName]!
+	
 	option = {
 		name = news.194.a
 		trigger = {
@@ -7094,7 +7139,7 @@ news_event = {
 		}
 	}
 
-	#The [From.GetName] consumes everything in its path.
+	
 	option = {
 		name = news.194.b
 		trigger = {
@@ -7105,7 +7150,7 @@ news_event = {
 		}
 	}
 
-	#[Poland.GetName] must have been left with no other choice.
+	
 	option = {
 		name = news.194.c
 		trigger = {
@@ -7114,7 +7159,7 @@ news_event = {
 	}
 }
 
-#Eastern Germany Passed to Poland
+
 news_event = {
 	id = news.195
 	title = news.195.t
@@ -7136,7 +7181,7 @@ news_event = {
 		}
 	}
 
-	#[Soviet.GetName] honors its treaties.
+	
 	option = {
 		name = news.195.a
 		trigger = {
@@ -7144,7 +7189,7 @@ news_event = {
 		}
 	}
 
-	#Let us hope a free Poland can rise from the ashes created by its \"protector.\"
+	
 	option = {
 		name = news.195.b
 		trigger = {
@@ -7155,7 +7200,7 @@ news_event = {
 		}
 	}
 
-	#A geographic shift for Poland. Again.
+	
 	option = {
 		name = news.195.c
 		trigger = {
@@ -7165,7 +7210,7 @@ news_event = {
 }
 
 
-#The Comintern Seeks to Destabilize Western Powers
+
 news_event = {
 	id = news.196
 	title = news.196.t
@@ -7178,7 +7223,7 @@ news_event = {
 
 	fire_for_sender = no
 
-	#Democracy shall never be brought low!
+	
 	option = {
 		name = news.196.a
 		trigger = {
@@ -7186,7 +7231,7 @@ news_event = {
 		}
 	}
 
-	#A laughable effort!
+	
 	option = {
 		name = news.196.b
 		trigger = {
@@ -7194,7 +7239,7 @@ news_event = {
 		}
 	}
 
-	#Rise, brothers and sisters!
+	
 	option = {
 		name = news.196.c
 		trigger = {
@@ -7202,7 +7247,7 @@ news_event = {
 		}
 	}
 
-	#The clash of ideologies is the last battle of civilizations.
+	
 	option = {
 		name = news.196.e
 		trigger = {
@@ -7212,7 +7257,7 @@ news_event = {
 }
 
 
-#[From.GetName] Gives in to [Soviet.GetAdjective] Ultimatum
+
 news_event = {
 	id = news.197
 	title = news.197.t
@@ -7231,7 +7276,7 @@ news_event = {
 		}
 	}
 
-	#They should be pleased we offered them such good terms.
+	
 	option = {
 		name = news.197.a
 		trigger = {
@@ -7239,7 +7284,7 @@ news_event = {
 		}
 	}
 
-	#The [Soviet.GetName] must be stopped!
+	
 	option = {
 		name = news.197.b
 		trigger = {
@@ -7250,7 +7295,7 @@ news_event = {
 		}
 	}
 
-	#The [Soviet.GetName] is positioning to enter the Mediterranean.
+	
 	option = {
 		name = news.197.c
 		trigger = {
@@ -7262,7 +7307,7 @@ news_event = {
 	}
 }
 
-#Greece Resists Soviet Ultimatum
+
 news_event = {
 	id = news.198
 	title = news.198.t
@@ -7281,7 +7326,7 @@ news_event = {
 		}
 	}
 
-	#Then the time for talk is over.
+	
 	option = {
 		name = news.198.a
 		trigger = {
@@ -7289,7 +7334,7 @@ news_event = {
 		}
 	}
 
-	#The warmongers of [Soviet.GetName] must be stopped!
+	
 	option = {
 		name = news.198.b
 		trigger = {
@@ -7303,7 +7348,7 @@ news_event = {
 		}
 	}
 
-	#This was their ultimatum. Greece must prepare for war.
+	
 	option = {
 		name = news.198.c
 		trigger = {
@@ -7317,7 +7362,7 @@ news_event = {
 		}
 	}
 
-	#We stand with [From.GetName]
+	
 	option = {
 		name = news.198.e
 		trigger = {
@@ -7327,7 +7372,7 @@ news_event = {
 }
 
 
-#[Romania.GetName] Cedes Bessarabia to the [From.GetName]
+
 news_event = {
 	id = news.199
 	title = news.199.t
@@ -7346,7 +7391,7 @@ news_event = {
 		}
 	}
 
-	#This is essential to the [From.GetAdjective] strategy.
+	
 	option = {
 		name = news.199.a
 		trigger = {
@@ -7354,7 +7399,7 @@ news_event = {
 		}
 	}
 
-	#The countries of the world must face the evil of the [From.GetName]!
+	
 	option = {
 		name = news.199.b
 		trigger = {
@@ -7362,7 +7407,7 @@ news_event = {
 		}
 	}
 
-	#[Romania.GetName] is in an unfortunate position. 
+	
 	option = {
 		name = news.199.c
 		trigger = {
@@ -7376,7 +7421,7 @@ news_event = {
 	}
 }
 
-#Germany Exerts Influence Over Czechoslovakia
+
 news_event = {
 	id = news.200
 	title = news.200.t
@@ -7393,7 +7438,7 @@ news_event = {
 		}
 	}
 
-	#German friendship is preferable to German overlordship.
+	
 	option = {
 		name = news.200.a
 		trigger = {
@@ -7401,7 +7446,7 @@ news_event = {
 		}
 	}
 
-	#The Czech have always been friends of the Germans.
+	
 	option = {
 		name = news.200.b
 		trigger = {
@@ -7409,7 +7454,7 @@ news_event = {
 		}
 	}
 
-	#The [From.GetName] continues to expand their sphere of influence unabated.
+	
 	option = {
 		name = news.200.c
 		trigger = {
@@ -7427,7 +7472,7 @@ news_event = {
 		}
 	}
 
-	#Peace for our time?
+	
 	option = {
 		name = news.200.e
 		trigger = {
@@ -7447,7 +7492,7 @@ news_event = {
 		}
 	}
 
-	#Great news for when [Root.GetLeader] returns from vacation in Munich!
+	
 	option = {
 		name = news.200.f
 		trigger = {
@@ -7457,7 +7502,7 @@ news_event = {
 }
 
 
-#Germany Puppets Turkey
+
 news_event = {
 	id = news.201
 	title = news.201.t
@@ -7483,7 +7528,7 @@ news_event = {
 		}
 	}
 
-	#The new Turkish government secures our competitiveness in the Mediterranean.
+	
 	option = {
 		name = news.201.a
 		trigger = {
@@ -7491,7 +7536,7 @@ news_event = {
 		}
 	}
 
-	#This terrible force is felling countries like dominoes.
+	
 	option = {
 		name = news.201.b
 		trigger = {
@@ -7502,7 +7547,7 @@ news_event = {
 		}
 	}
 
-	#[From.GetName] couldn't resist the strength of the [Germany.GetFactionName].
+	
 	option = {
 		name = news.201.c
 		trigger = {
@@ -7516,7 +7561,7 @@ news_event = {
 		}
 	}
 
-	#The alliance is strengthening our position and remains highly beneficial. For now.
+	
 	option = {
 		name = news.201.e
 		trigger = {
@@ -7524,7 +7569,7 @@ news_event = {
 		}
 	}
 
-	#Turkey has fallen victim to the predatory [Germany.GetFactionName].
+	
 	option = {
 		name = news.201.f
 		trigger = {
@@ -7545,7 +7590,7 @@ news_event = {
 
 
 
-#Danzig For Slovakia
+
 news_event = {
 	id = news.202
 	title = news.202.t
@@ -7564,7 +7609,7 @@ news_event = {
 		}
 	}
 
-	#A fair exchange to correct the mistakes of Versailles.
+	
 	option = {
 		name = news.202.a
 		trigger = {
@@ -7572,7 +7617,7 @@ news_event = {
 		}
 	}
 
-	#Cooperation makes us stronger than conflict does.
+	
 	option = {
 		name = news.202.b
 		trigger = {
@@ -7583,7 +7628,7 @@ news_event = {
 		}
 	}
 
-	#This is a blatant breach of Versailles!
+	
 	option = {
 		name = news.202.c
 		trigger = {
@@ -7594,7 +7639,7 @@ news_event = {
 		}
 	}
 
-	#Conflict over Danzig has been averted.
+	
 	option = {
 		name = news.202.e
 		trigger = {
@@ -7614,7 +7659,7 @@ news_event = {
 	}
 }
 
-#Danzig Ceded
+
 news_event = {
 	id = news.203
 	title = news.203.t
@@ -7666,7 +7711,7 @@ news_event = {
 }
 
 
-#Poland Refuses to Cede Danzig
+
 news_event = {
 	id = news.204
 	title = news.204.t
@@ -7679,7 +7724,7 @@ news_event = {
 
 	fire_for_sender = no
 
-	#They have ignored every warning!
+	
 	option = {
 		name = news.204.a
 		trigger = {
@@ -7693,7 +7738,7 @@ news_event = {
 		}
 	}
 
-	#
+	
 	option = {
 		name = news.204.b
 		trigger = {
@@ -7701,7 +7746,7 @@ news_event = {
 		}
 	}
 
-	#Together we must stop this aggressor!
+	
 	option = {
 		name = news.204.c
 		trigger = {
@@ -7709,7 +7754,7 @@ news_event = {
 		}
 	}
 
-	#This is a grave situation.
+	
 	option = {
 		name = news.204.e
 		trigger = {
@@ -7719,7 +7764,7 @@ news_event = {
 }
 
 
-#Pax Americana
+
 news_event = {
 	id = news.205
 	title = news.205.t
@@ -7783,7 +7828,7 @@ news_event = {
 	}
 }
 
-#US Aims for the Empire
+
 news_event = {
 	id = news.206
 	title = news.206.t
@@ -7863,7 +7908,7 @@ news_event = {
 	}
 }
 
-#US Seeks to Dismantle the Comintern
+
 news_event = {
 	id = news.207
 	title = news.207.t
@@ -7939,7 +7984,7 @@ news_event = {
 	}
 }
 
-#Japan Embraces Nanshin-ron
+
 news_event = {
 	id = news.208
 	title = news.208.t
@@ -7993,7 +8038,7 @@ news_event = {
 	}
 }
 
-#Japanese Embraces Hokushin-ron
+
 news_event = {
 	id = news.209
 	title = news.209.t
@@ -8047,7 +8092,7 @@ news_event = {
 	}
 }
 
-#Japan Puppets China
+
 news_event = {
 	id = news.210
 	title = news.210.t
@@ -8109,7 +8154,7 @@ news_event = {
 	}
 }
 
-#Japan Claims Hegemony Over East Asia
+
 news_event = {
 	id = news.211
 	title = news.211.t
@@ -8195,7 +8240,7 @@ news_event = {
 	}
 }
 
-#Japan Moves Closer to Germany
+
 news_event = {
 	id = news.212
 	title = news.212.t
@@ -8268,7 +8313,7 @@ news_event = {
 }
 
 
-#US Aims to Stop Fascism
+
 news_event = {
 	id = news.213
 	title = news.213.t
@@ -8344,7 +8389,7 @@ news_event = {
 	}
 }
 
-#Poland Seeks Baltic Cooperation
+
 news_event = {
 	id = news.214
 	title = news.214.t
@@ -8420,7 +8465,7 @@ news_event = {
 }
 
 
-#Anti-Soviet Pact
+
 news_event = {
 	id = news.215
 	title = news.215.t
@@ -8474,7 +8519,7 @@ news_event = {
 	}
 }
 
-#Turkey Resists German Ultimatum
+
 news_event = {
 	id = news.216
 	title = news.216.t
@@ -8528,7 +8573,7 @@ news_event = {
 	}
 }
 
-#Turkey Joins Allies to Avoid Ultimatum
+
 news_event = {
 	id = news.217
 	title = news.217.t
@@ -8583,7 +8628,7 @@ news_event = {
 	}
 }
 
-#No bananas
+
 news_event = {
 	id = news.218
 	title = news.218.t
@@ -8614,7 +8659,7 @@ news_event = {
 	}
 }
 
-#Soviet Union's Great Purge
+
 news_event = {
 	id = news.219
 	title = news.219.t
@@ -8654,7 +8699,7 @@ news_event = {
 	}
 }
 
-#Officers Revolt in the Soviet Union
+
 news_event = {
 	id = news.220
 	title = news.220.t
@@ -8723,7 +8768,7 @@ news_event = {
 	}
 }
 
-#Trotsky Strikes Back
+
 news_event = {
 	id = news.221
 	title = news.221.t
@@ -8765,7 +8810,7 @@ news_event = {
 	}
 }
 
-#UK Plans Scandinavian Intervention
+
 news_event = {
 	id = news.222
 	title = news.222.t
@@ -8843,7 +8888,7 @@ news_event = {
 	}
 }
 
-#UK Plans Intervention in the Benelux
+
 news_event = {
 	id = news.223
 	title = news.223.t
@@ -8917,7 +8962,7 @@ news_event = {
 }
 
 
-#British Influence on Spain
+
 news_event = {
 	id = news.224
 	title = news.224.t
@@ -8978,7 +9023,7 @@ news_event = {
  
 
 
-#British Influence on Turkey
+
 news_event = {
 	id = news.225
 	title = news.225.t
@@ -9025,7 +9070,7 @@ news_event = {
 	}
 }
 
-#British Influence on Greece
+
 news_event = {
 	id = news.226
 	title = news.226.t
@@ -9112,7 +9157,7 @@ news_event = {
 }
 
 
-#British Diplomatic Balkan Strategy
+
 news_event = {
 	id = news.228
 	title = news.228.t
@@ -9208,7 +9253,7 @@ news_event = {
 }
 
 
-#Greece Refuses Puppeting
+
 news_event = {
 	id = news.229
 	title = news.229.t
@@ -9258,7 +9303,7 @@ news_event = {
 	}
 }
 
-#US Supports Democratic Rebellions
+
 news_event = {
 	id = news.230
 	title = news.230.t
@@ -9313,7 +9358,7 @@ news_event = {
 	}
 }
 
-#Japan Seeks War in China
+
 news_event = {
 	id = news.231
 	title = news.231.t
@@ -9342,7 +9387,7 @@ news_event = {
 }
 
 
-#Germany Seeks Scandinavian Support
+
 news_event = {
 	id = news.232
 	title = news.232.t
@@ -9396,7 +9441,7 @@ news_event = {
 }
 
 
-#Germany Plans Northern Intervention
+
 news_event = {
 	id = news.233
 	title = news.233.t
@@ -9474,7 +9519,7 @@ news_event = {
 }
 
 
-#Germany Moves to Strike Around Maginot
+
 news_event = {
 	id = news.234
 	title = news.234.t
@@ -9564,7 +9609,7 @@ news_event = {
 	}
 }
 
-#Yalta Conference
+
 news_event = {
 	id = news.236
 	title = news.236.t
@@ -9636,7 +9681,7 @@ news_event = {
 	}
 }
 
-# Anschluss of Austria in civil war
+
 news_event = {
 	id = news.237
 	title = news.237.t
@@ -9677,7 +9722,7 @@ news_event = {
 	}
 }
 
-# Australia Singapore Strategy transfer
+
 news_event = {
 	id = news.238
 	title = news.238.t
@@ -9712,7 +9757,7 @@ news_event = {
 	}
 }
 
-# Australia joins Comintern faction
+
 news_event = {
 	id = news.239
 	title = news.239.t
@@ -9766,7 +9811,7 @@ news_event = {
 	}
 }
 
-# Australia protects Dutch colonies in SEA
+
 news_event = {
 	id = news.240
 	title = news.240.t
@@ -9796,7 +9841,7 @@ news_event = {
 	}
 }
 
-# Australia puppets NZ - AST_nz_puppet focus
+
 news_event = {
 	id = news.241
 	title = news.241.t
@@ -9826,7 +9871,7 @@ news_event = {
 	}
 }
 
-# Australia granted governship over Malaysia - AST_swpa_protector focu
+
 news_event = {
 	id = news.242
 	title = news.242.t
@@ -9856,7 +9901,7 @@ news_event = {
 	}
 }
 
-# Autralia founds faction with Japan - AST_a_deal_with_japan focus
+
 news_event = {
 	id = news.243
 	title = news.243.t
@@ -9886,7 +9931,7 @@ news_event = {
 	}
 }
 
-# Australia found South-West Pacific Initiative \wo USA - AST_the_south_west_pacific_initiative focus
+
 news_event = {
 	id = news.244
 	title = news.244.t
@@ -9911,7 +9956,7 @@ news_event = {
 	}
 }
 
-# Australia founds South-West Pacific Initiative \w USA - AST_the_south_west_pacific_initiative focus
+
 news_event = {
 	id = news.245
 	title = news.245.t
@@ -9941,7 +9986,7 @@ news_event = {
 	}
 }
 
-# Canada founds the North-American Alliance \w USA - CAN_north_american_alliance focus
+
 news_event = {
 	id = news.246
 	title = news.246.t
@@ -9971,8 +10016,8 @@ news_event = {
 	}
 }
 
-# Canada joins the axis - CAN_join_germany focus
-# While Germany is at war 
+
+
 news_event = {
 	id = news.247
 	title = news.247.t
@@ -10011,7 +10056,7 @@ news_event = {
 	}
 }
 
-# ENG hands over newfoundland and labrador to CAN's demands - CAN_demand_labrador_and_newfoundland focus
+
 news_event = {
 	id = news.248
 	title = news.248.t
@@ -10041,7 +10086,7 @@ news_event = {
 	}
 }
 
-# CAN and MEX creates faction against US - CAN_skewer_the_eagle
+
 news_event = {
 	id = news.249
 	title = news.249.t
@@ -10077,7 +10122,7 @@ news_event = {
 	}
 }
 
-# MEX civil war started by hidden initiative of CAN - CAN_support_a_synarchist_baja focus
+
 news_event = {
 	id = news.250
 	title = news.250.t
@@ -10107,8 +10152,8 @@ news_event = {
 	}
 }
 
-#Canada aims for Patriation
-#Fired from CAN_patriation focus
+
+
 news_event = {
 	id = news.251
 	title = news.251.t
@@ -10119,7 +10164,7 @@ news_event = {
 
 	is_triggered_only = yes
 
-	# Is in the same faction as ENG (presumably Allies)
+	
 	option = {
 		name = news.251.a
 		trigger = {
@@ -10132,7 +10177,7 @@ news_event = {
 			}
 		}
 	}
-	# Is in a faction "competing" with ENG's
+	
 	option = {
 		name = news.251.b
 		trigger = {
@@ -10142,25 +10187,25 @@ news_event = {
 			}
 		}
 	}
-	# Is ENG
+	
 	option = {
 		name = news.251.c
 		trigger = {
 			tag = ENG
 		}
 	}
-	# Is not ENG, is not in a faction.
+	
 	option = {
 		name = news.251.e
 		trigger = {
 			NOT = {
 				tag = ENG
-				tag = CAN #otherwise will trigger two options if CAN not in faction
+				tag = CAN 
 			}
 			is_in_faction = no
 		}
 	}
-	# Is CAN
+	
 	option = {
 		name = news.251.f
 		trigger = {
@@ -10169,8 +10214,8 @@ news_event = {
 	}
 }
 
-# Canada joins the axis - CAN_join_germany focus
-# While Germany is at peace
+
+
 news_event = {
 	id = news.252
 	title = news.252.t
@@ -10228,8 +10273,8 @@ news_event = {
 	}
 }
 
-#Australia seeks distance from Commonwealth
-#Fired from AST_never_another_gallipoli focus
+
+
 news_event = {
 	id = news.253
 	title = news.253.t
@@ -10240,7 +10285,7 @@ news_event = {
 
 	is_triggered_only = yes
 
-	# Is in the same faction as ENG (presumably Allies)
+	
 	option = {
 		name = news.253.a
 		trigger = {
@@ -10253,7 +10298,7 @@ news_event = {
 			}
 		}
 	}
-	# Is in a faction "competing" with ENG's
+	
 	option = {
 		name = news.253.b
 		trigger = {
@@ -10263,14 +10308,14 @@ news_event = {
 			}
 		}
 	}
-	# Is ENG
+	
 	option = {
 		name = news.253.c
 		trigger = {
 			tag = ENG
 		}
 	}
-	# Is not ENG, is not in a faction.
+	
 	option = {
 		name = news.253.e
 		trigger = {
@@ -10280,7 +10325,7 @@ news_event = {
 			is_in_faction = no
 		}
 	}
-	# Is AST
+	
 	option = {
 		name = news.253.f
 		trigger = {
@@ -10290,7 +10335,7 @@ news_event = {
 }
 
 
-# Fascist path AST annexes New Zealand - Fired from event tfv_australia.21
+
 news_event = {
 	id = news.254
 	title = news.254.t
@@ -10330,7 +10375,7 @@ news_event = {
 	}
 }
 
-#SAF takes over British Colonies
+
 news_event = {
 	id = news.260
 	title = news.260.t
@@ -10370,7 +10415,7 @@ news_event = {
 		}
 	}
 }
-# Britain compromisses, releases KEN/ZIM
+
 news_event = {
 	id = news.261
 	title = news.261.t
@@ -10410,7 +10455,7 @@ news_event = {
 		}
 	}
 }
-#The South African Civil War
+
 news_event = {
 	id = news.262
 	title = news.262.t
@@ -10451,7 +10496,7 @@ news_event = {
 		}
 	}
 }
-# SAF Burn the Portraits
+
 news_event = {
 	id = news.263
 	title = news.263.t
@@ -10496,7 +10541,7 @@ news_event = {
 	}
 }
 
-#SAF communist Faction/anti-colonialist crusade
+
 news_event = {
 	id = news.264
 	title = news.264.t
@@ -10542,7 +10587,7 @@ news_event = {
 
 }
 
-#SAF demands Madagascar
+
 news_event = {
 	id = news.265
 	title = news.265.t
@@ -10579,7 +10624,7 @@ news_event = {
 	}
 
 }
-#NZL finishes Bob Semple tank
+
 news_event = {
 	id = news.270
 	title = news.270.t
@@ -10611,7 +10656,7 @@ news_event = {
 
 }
 
-#NZL finishes Big Bob tank
+
 news_event = {
 	id = news.271
 	title = news.271.t
@@ -10644,7 +10689,7 @@ news_event = {
 }
 
 
-#RAJ gets famine
+
 news_event = {
 	id = news.272
 	title = news.272.t
@@ -10678,7 +10723,7 @@ news_event = {
 	}
 }
 
-#RAJ famine is over
+
 news_event = {
 	id = news.273
 	title = news.273.t
@@ -10704,7 +10749,7 @@ news_event = {
 		}
 	}
 }
-# News event - RAJ release GER helps
+
 news_event = {
 	id = news.280
 	title = news.280.t
@@ -10751,14 +10796,14 @@ news_event = {
 				is_in_faction_with = ENG
 			}
 			NOT = { TAG = RAJ }
-			NOT = { TAG = GER } #in case of alliance between Germany and England
+			NOT = { TAG = GER } 
 			NOT = { is_in_faction_with = GER }
 		}
 	}
 
 }
 
-# News event - RAJ release SOV helps
+
 news_event = {
 	id = news.281
 	title = news.281.t
@@ -10812,7 +10857,7 @@ news_event = {
 
 }
 
-# News event - RAJ quit India movement
+
 news_event = {
 	id = news.282
 	title = news.282.t
@@ -10841,7 +10886,7 @@ news_event = {
 
 }
 
-# News event - RAJ Indian National Congress
+
 news_event = {
 	id = news.283
 	title = news.283.t
@@ -10870,7 +10915,7 @@ news_event = {
 
 }
 
-# News event - RAJ Swaraj
+
 news_event = {
 	id = news.284
 	title = news.284.t
@@ -10899,7 +10944,7 @@ news_event = {
 
 }
 
-# News event - PAK free
+
 news_event = {
 	id = news.285
 	title = news.285.t
@@ -10935,7 +10980,7 @@ news_event = {
 
 }
 
-# Australia severs ties and breaks free
+
 news_event = {
 	id = news.286
 	title = news.286.t
@@ -10972,7 +11017,7 @@ news_event = {
 	}
 }
 
-# Soviet honors MR pact
+
 news_event = {
 	id = news.287
 	title = news.287.t
@@ -10997,7 +11042,7 @@ news_event = {
 	option = { 
 		name = news.287.b
 		trigger = { 
-			NOT = { TAG = SOV } #fix for unholy alliance
+			NOT = { TAG = SOV } 
 			OR = {
 				TAG = GER
 				is_in_faction_with = GER
@@ -11007,7 +11052,7 @@ news_event = {
 	option = {
 		name = news.287.c
 		trigger = { 
-			NOT = { TAG = GER } # fix for unholy alliance
+			NOT = { TAG = GER } 
 			OR = {
 				TAG = SOV
 				is_in_faction_with = SOV
@@ -11015,7 +11060,7 @@ news_event = {
 		}
 	}
 }
-#chinese united front forms
+
 news_event = {
 	id = news.288
 	title = news.288.t
@@ -11062,7 +11107,7 @@ news_event = {
 	}
 }
 
-# GENERIC nation joins an Alliance
+
 news_event = {
 	id = news.289
 	title = news.289.t
@@ -11073,7 +11118,7 @@ news_event = {
 
 	is_triggered_only = yes
 
-	#Together we will prevail.
+	
 	option = {
 		name = news.289.a
 		trigger = {
@@ -11088,7 +11133,7 @@ news_event = {
 		}
 	}
 
-	#They prepare for what is coming.
+	
 	option = {
 		name = news.289.b
 		trigger = {
@@ -11112,7 +11157,7 @@ news_event = {
 		}
 	}
 
-	#It will not avail them!
+	
 	option = {
 		name = news.289.c
 		trigger = {
@@ -11129,7 +11174,7 @@ news_event = {
 		}
 	}
 
-	#The war escalates...
+	
 	option = {
 		name = news.289.e
 		trigger = {
@@ -11161,7 +11206,7 @@ news_event = {
 		}
 	}
 
-	#Our alliance grows stronger.
+	
 	option = {
 		name = news.289.f
 		trigger = {
@@ -11183,7 +11228,7 @@ news_event = {
 	}
 }
 
-#Austria invites Habsburg Prince
+
 news_event = {
 	id = news.290
 	title = news.290.t
@@ -11224,7 +11269,7 @@ news_event = {
 	}
 }
 
-#Austria votes yes on referendum - no shenanigans
+
 news_event = {
 	id = news.291
 	title = news.291.t
@@ -11258,7 +11303,7 @@ news_event = {
 	}
 }
 
-#Austria votes yes on referendum - suspected shenanigans
+
 news_event = {
 	id = news.292
 	title = news.291.t
@@ -11303,7 +11348,7 @@ news_event = {
 	}
 }
 
-#Austria votes no on referendum - Hungary lets it slide
+
 news_event = {
 	id = news.293
 	title = news.293.t
@@ -11344,7 +11389,7 @@ news_event = {
 	}
 }
 
-#Austria votes no on referendum - Hungary prepares for war!
+
 news_event = {
 	id = news.294
 	title = news.294.t
@@ -11385,7 +11430,7 @@ news_event = {
 	}
 }
 
-#Hungary restores Austria-Hungary
+
 news_event = {
 	id = news.295
 	title = news.295.t
@@ -11436,7 +11481,7 @@ news_event = {
 	}
 }
 
-#Hungary elects a democratic king
+
 news_event = {
 	id = news.296
 	title = news.296.t
@@ -11472,7 +11517,7 @@ news_event = {
 	}
 }
 
-#Hungary elects a fascist king
+
 news_event = {
 	id = news.297
 	title = news.297.t
@@ -11508,7 +11553,7 @@ news_event = {
 	}
 }
 
-#Hungary renounces the Treaty of Trianon
+
 news_event = {
 	id = news.298
 	title = news.298.t
@@ -11541,7 +11586,7 @@ news_event = {
 	}
 }
 
-#Hungary proclaims Greater Hungary
+
 news_event = {
 	id = news.299
 	title = news.299.t
@@ -11566,7 +11611,7 @@ news_event = {
 	}
 }
 
-#Hungary demands Transylvania
+
 news_event = {
 	id = news.300
 	title = news.300.t
@@ -11600,7 +11645,7 @@ news_event = {
 	}
 }
 
-#Romania folds and gives up Transylvania
+
 news_event = {
 	id = news.301
 	title = news.301.t
@@ -11634,7 +11679,7 @@ news_event = {
 	}
 }
 
-#Hungary and Romania unable to find solution, war looms
+
 news_event = {
 	id = news.302
 	title = news.302.t
@@ -11668,7 +11713,7 @@ news_event = {
 	}
 }
 
-#Hungary demands Southern Slovakia
+
 news_event = {
 	id = news.303
 	title = news.303.t
@@ -11702,7 +11747,7 @@ news_event = {
 	}
 }
 
-#Czechoslovakia folds and gives up Southern Slovakia
+
 news_event = {
 	id = news.304
 	title = news.304.t
@@ -11736,7 +11781,7 @@ news_event = {
 	}
 }
 
-#Hungary and Czechoslovakia unable to find solution, war looms
+
 news_event = {
 	id = news.305
 	title = news.305.t
@@ -11770,7 +11815,7 @@ news_event = {
 	}
 }
 
-#Hungary demands the Vojvodina
+
 news_event = {
 	id = news.306
 	title = news.306.t
@@ -11804,7 +11849,7 @@ news_event = {
 	}
 }
 
-#Yugoslavia folds and gives up the Vojvodina
+
 news_event = {
 	id = news.307
 	title = news.307.t
@@ -11838,7 +11883,7 @@ news_event = {
 	}
 }
 
-#Hungary and Yugoslavia unable to find solution, war looms
+
 news_event = {
 	id = news.308
 	title = news.308.t
@@ -11872,7 +11917,7 @@ news_event = {
 	}
 }
 
-#Hungary claims overlordship over Slovakia
+
 news_event = {
 	id = news.309
 	title = news.309.t
@@ -11944,7 +11989,7 @@ news_event = {
 	}
 }
 
-#CZE/SLO folds and gives up Slovakia
+
 news_event = {
 	id = news.310
 	title = news.310.t
@@ -11996,7 +12041,7 @@ news_event = {
 	}
 }
 
-#Hungary and CZE/SLO unable to find solution, war looms
+
 news_event = {
 	id = news.311
 	title = news.311.t
@@ -12052,7 +12097,7 @@ news_event = {
 	}
 }
 
-#Rome Protocols renewed
+
 news_event = {
 	id = news.312
 	title = news.312.t
@@ -12103,7 +12148,7 @@ news_event = {
 	}
 }
 
-#Pact of Rome formed
+
 news_event = {
 	id = news.313
 	title = news.313.t
@@ -12154,7 +12199,7 @@ news_event = {
 	}
 }
 
-#Horthy Assassinated
+
 news_event = {
 	id = news.314
 	title = news.314.t
@@ -12189,7 +12234,7 @@ news_event = {
 	}
 }
 
-#Austria deniees referendum
+
 news_event = {
 	id = news.315
 	title = news.315.t
@@ -12230,7 +12275,7 @@ news_event = {
 	}
 }
 
-#Renew Polish-Romanian Alliance
+
 news_event = {
 	id = news.316
 	title = news.316.t
@@ -12272,7 +12317,7 @@ news_event = {
 	}
 }
 
-#Cordon Sanitaire
+
 news_event = {
 	id = news.317
 	title = news.317.t
@@ -12371,7 +12416,7 @@ news_event = {
 	}
 }
 
-#Bulgaria Submits to Romanian Ultimatum
+
 news_event = {
 	id = news.318
 	title = news.318.t
@@ -12405,7 +12450,7 @@ news_event = {
 	}
 }
 
-#Bulgaria Rejects Romanian Ultimatum - War might start
+
 news_event = {
 	id = news.319
 	title = news.319.t
@@ -12439,7 +12484,7 @@ news_event = {
 	}
 }
 
-#Divide Yugoslavia - Yugoslavia Refuses
+
 news_event = {
 	id = news.320
 	title = news.320.t
@@ -12506,7 +12551,7 @@ news_event = {
 	}
 }
 
-#Divide Yugoslavia - Yugoslavia Accepts Under Pressure
+
 news_event = {
 	id = news.321
 	title = news.321.t
@@ -12576,7 +12621,7 @@ news_event = {
 	}
 }
 
-#King Michael's Coup
+
 news_event = {
 	id = news.322
 	title = news.322.t
@@ -12601,7 +12646,7 @@ news_event = {
 	}
 }
 
-#King Carol II Forced to Abdicate
+
 news_event = {
 	id = news.323
 	title = news.323.t
@@ -12626,7 +12671,7 @@ news_event = {
 	}
 }
 
-#Divide Yugoslavia - Yugoslavia Agrees Immediately
+
 news_event = {
 	id = news.324
 	title = news.324.t
@@ -12654,7 +12699,7 @@ news_event = {
 	}
 }
 
-#Yugoslavia Claims Bulgaria
+
 news_event = {
 	id = news.325
 	title = news.325.t
@@ -12688,7 +12733,7 @@ news_event = {
 	}
 }
 
-#The Banovina of Croatia
+
 news_event = {
 	id = news.326
 	title = news.326.t
@@ -12722,7 +12767,7 @@ news_event = {
 	}
 }
 
-#Yugoslavia Claims Macedonia
+
 news_event = {
 	id = news.327
 	title = news.327.t
@@ -12756,7 +12801,7 @@ news_event = {
 	}
 }
 
-#Yugoslavia Claims Italian Border
+
 news_event = {
 	id = news.328
 	title = news.328.t
@@ -12790,7 +12835,7 @@ news_event = {
 	}
 }
 
-#Yugoslavia Recognizes Soviet Union
+
 news_event = {
 	id = news.329
 	title = news.329.t
@@ -12824,7 +12869,7 @@ news_event = {
 	}
 }
 
-#The Pan-Slavic Worker's Congress
+
 news_event = {
 	id = news.330
 	title = news.330.t
@@ -12869,7 +12914,7 @@ news_event = {
 	}
 }
 
-#Icelandic Independence
+
 news_event = {
 	id = news.331
 	title = news.331.t
@@ -12885,7 +12930,7 @@ news_event = {
 	}
 }
 
-#Mers-El-Kebir - French Surrender
+
 news_event = {
 	id = news.332
 	title = news.332.t
@@ -12933,7 +12978,7 @@ news_event = {
 	}
 }
 
-#Mers-El-Kebir - Attack
+
 news_event = {
 	id = news.333
 	title = news.333.t
@@ -12980,7 +13025,7 @@ news_event = {
 		}
 	}
 }
-news_event = { #Panay Incident - initial incident
+news_event = { 
 	id = news.334
 	title = news.334.t
 	desc = news.334.d
@@ -13018,7 +13063,7 @@ news_event = { #Panay Incident - initial incident
 	}
 }
 
-news_event = { #Panay Incident - US declares war on Japan
+news_event = { 
 	id = news.335
 	title = news.335.t
 	desc = news.335.d
@@ -13077,7 +13122,7 @@ news_event = { #Panay Incident - US declares war on Japan
 	}
 }
 
-# Mexico occupies Texas - Remember the Alamo
+
 news_event = {
 	id = news.336
 	title = news.336.title

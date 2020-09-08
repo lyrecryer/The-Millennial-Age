@@ -4,5 +4,6 @@ supply_area={
 	value=1
 	states={
 		733 
+		9497 
 	}
 }

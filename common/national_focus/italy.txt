@@ -29,37 +29,37 @@
 
 		bypass = {
 			550 = { NOT = { is_owned_and_controlled_by = ITA } }
-			# Need province based trigger for this to work
-			#550 = {		
-			#	NOT = { 
-			#		free_building_slots = {
-			#			building = infrastructure
-			#			size > 1
-			#		} 
-			#	}
-			#	NOT = { 
-			#		free_building_slots = {
-			#			building = naval_base
-			#			size > 2
-			#		} 
-			#	}
-			#}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			559 = { NOT = { is_owned_and_controlled_by = ITA } }
-			# Need province based trigger for this to work
-			#559 = {
-			#	NOT = { 
-			#		free_building_slots = {
-			#			building = infrastructure
-			#			size > 2
-			#		} 
-			#	}
-			#	NOT = { 
-			#		free_building_slots = {
-			#			building = naval_base
-			#			size > 3
-			#		} 
-			#	}
-			#}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		}
 
 		completion_reward = {
@@ -388,7 +388,7 @@
 			factor = 1
 		}	
 		completion_reward = {
-			# French border
+			
 			158 = {
 				custom_effect_tooltip = ITA_fortification_effort_forts
 				hidden_effect = {
@@ -424,7 +424,7 @@
 					}
 				}
 			}
-			# Dodecanese
+			
 			164 = {
 				add_building_construction = {
 					type = coastal_bunker
@@ -433,7 +433,7 @@
 					instant_build = yes
 				}
 			}
-			# Sardinia
+			
 			114 = {
 				add_building_construction = {
 					type = coastal_bunker
@@ -442,7 +442,7 @@
 					instant_build = yes
 				}
 			}
-			# Sicily
+			
 			115 = {
 				add_building_construction = {
 					type = coastal_bunker
@@ -894,9 +894,9 @@
 				bonus = 1.0
 				uses = 1
 				category = recon_tech
-				#technology = tech_recon
-				#technology = tech_recon2
-				#technology = tech_recon3
+				
+				
+				
 			}
 			add_tech_bonus = {
 				name = land_doc_bonus
@@ -930,15 +930,15 @@
 				bonus = 1.0
 				uses = 1
 				category = para_tech
-				#technology = paratroopers
-				#technology = paratroopers2
+				
+				
 			}
 			add_tech_bonus = {
 				name = special_bonus
 				ahead_reduction = 2
 				uses = 1
 				category = mountaineers_tech
-				#technology = tech_mountaineers2
+				
 			}
 		}
 	}
@@ -1186,16 +1186,16 @@
 				bonus = 1.0
 				uses = 1
 				category = tactical_bomber
-				#technology = tactical_bomber2
-				#technology = tactical_bomber3
+				
+				
 			}
 			add_tech_bonus = {
 				name = ITA_bomber_effort
 				bonus = 1.0
 				uses = 1
 				category = cas_bomber
-				#technology = CAS2
-				#technology = CAS3
+				
+				
 			}
 		}
 	}
@@ -1225,9 +1225,9 @@
 				bonus = 1.0
 				uses = 1
 				category = naval_bomber
-				#technology = naval_bomber1
-				#technology = naval_bomber2
-				#technology = naval_bomber3
+				
+				
+				
 			}
 		}
 	}
@@ -1286,17 +1286,17 @@
 				bonus = 1.0
 				uses = 1
 				category = marine_tech
-				#technology = marines
-				#technology = marines2
+				
+				
 			}
 			add_tech_bonus = {
 				name = ITA_marines_and_landing_craft
 				bonus = 1.0
 				uses = 1
 				category = tp_tech
-				#technology = transport
-				#technology = landing_craft
-				#technology = tank_landing_craft
+				
+				
+				
 			}
 		}
 	}
@@ -1349,14 +1349,14 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-		# Caproni Campini N.1
+		
 			add_tech_bonus = {
 				name = ITA_jet_engine_effort
 				bonus = 1.0
 				uses = 1
 				category = jet_technology
-				#technology = jet_engines
-				#technology = jet_fighter1
+				
+				
 			}
 		}
 	}
@@ -1386,9 +1386,9 @@
 				bonus = 1.0
 				uses = 1
 				category = convoy_defense_tree
-				#technology = convoy_sailing
-				#technology = convoy_sailing_ti
-				#technology = convoy_sailing_bs
+				
+				
+				
 			}
 		}
 	}
@@ -1421,9 +1421,9 @@
 				uses = 2
 				category = convoy_defense_tree
 
-				#technology = convoy_escorts
-				#technology = convoy_escorts_bs
-				#technology = escort_carriers
+				
+				
+				
 			}
 		}
 	}
@@ -1456,10 +1456,10 @@
 				bonus = 1.0
 				uses = 2
 				category = submarine_doctrine
-				#technology = submarine_operations
-				#technology = undersea_blockade
-				#technology = convoy_interdiction
-				#technology = submarine_offensive
+				
+				
+				
+				
 			}
 		}
 	}
@@ -1549,8 +1549,25 @@
 		}
 
 		completion_reward = {
-			add_state_claim = 102
-			add_state_claim = 103
+			add_state_claim = 102 
+		add_state_claim = 813 
+		add_state_claim = 814 
+		add_state_claim = 815 
+		add_state_claim = 816 
+		add_state_claim = 817 
+		add_state_claim = 818 
+		add_state_claim = 819
+			add_state_claim = 103 
+		add_state_claim = 820 
+		add_state_claim = 821 
+		add_state_claim = 822 
+		add_state_claim = 823 
+		add_state_claim = 824 
+		add_state_claim = 825 
+		add_state_claim = 826 
+		add_state_claim = 827 
+		add_state_claim = 828 
+		add_state_claim = 829
 			add_named_threat = { threat = 4 name = ITA_slovenia_dalmatia_claims_threat }
 			USA = {
 				set_country_flag = { flag = USA_yugoslavia_window days = 60 value = 1 }
@@ -2043,7 +2060,7 @@
 			}
 			YUG = {
 				add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
-				# REVISIT Possibly clear old negative modifier if Slovenia and Dalmatia were taken
+				
 			}
 			hidden_effect = {
 				news_event = { hours = 6 id = news.185 }
@@ -2169,7 +2186,7 @@
 				country_event = { id = italy.5 days = 1 }
 				custom_effect_tooltip = needs_approval
 			}
-			# Actual reward effects added in event if Soviets approve
+			
 			effect_tooltip = {
 				add_tech_bonus = {
 					name = synth_bonus
@@ -2177,7 +2194,7 @@
 					uses = 1
 					category = synth_resources
 				}
-				# Balance research bonus to 2 techs in armor, also in event
+				
 				add_tech_bonus = {
 					name = armor_bonus
 					bonus = 1.0
@@ -2333,7 +2350,7 @@
 				type = take_state_focus
 				target = GRE
 				expire = 0
-				generator = { 47 } # Athens
+				generator = { 47 } 
 			}
 
 			hidden_effect = {
@@ -2589,7 +2606,7 @@
 				type = take_state_focus
 				target = ENG
 				expire = 0
-				generator = { 118 453 116 183 } # Gibraltar, Suez, Malta, Cyprus
+				generator = { 118 453 116 183 } 
 			}
 		}
 	}

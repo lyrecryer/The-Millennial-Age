@@ -1,10 +1,10 @@
-### #  # ###  #  #  ### ### ###  #   #    ###  #### #     ##   ##   ##  ### ###  ##  #  #
- #  ## # #  # #  # #     #  #  #  # #     #  # #    #    #  # #  # #  #  #   #  #  # ## #
- #  # ## #  # #  #   #   #  ###    #      ###  ##   #    #  # #    ####  #   #  #  # # ##
- #  #  # #  # #  #    #  #  #  #   #      #  # #    #    #  # #  # #  #  #   #  #  # #  #
-### #  # ###   ##  ###   #  #  #   #      #  # #### ####  ##   ##  #  #  #  ###  ##  #  #
 
-#Category only allowed for SOV
+ 
+ 
+ 
+
+
+
 SOV_industry_relocation = {
 
 	SOV_relocate_industry_from_moscow = {
@@ -16,13 +16,13 @@ SOV_industry_relocation = {
 		}	
 
 		available = {
-			219 = { #Moscow
+			219 = { 
 				is_owned_and_controlled_by = SOV
 				arms_factory > 5
 				industrial_complex > 1
 			} 
-			573 = { is_owned_and_controlled_by = SOV } #Zlatoust
-			582 = { is_owned_and_controlled_by = SOV } #Magnitogorsk
+			573 = { is_owned_and_controlled_by = SOV } 
+			582 = { is_owned_and_controlled_by = SOV } 
 		}
 
 		fire_only_once = yes
@@ -37,7 +37,7 @@ SOV_industry_relocation = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 200 # oh shit they are getting close!
+				factor = 200 
 				OR = {
 					AND = {
 						owns_state = 246
@@ -85,7 +85,7 @@ SOV_industry_relocation = {
 				limit = {
 					controls_state = 219
 				}
-				219 = { #Moscow
+				219 = { 
 					remove_building = {
 						type = arms_factory
 						level = 6
@@ -95,7 +95,7 @@ SOV_industry_relocation = {
 						level = 2
 					}
 				}
-				573 = { #Zlatoust
+				573 = { 
 					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = arms_factory
@@ -113,7 +113,7 @@ SOV_industry_relocation = {
 						damage_building = { type = industrial_complex damage = 0.1 }
 					}
 				}
-				582 = { #Magnitogorsk
+				582 = { 
 					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = arms_factory
@@ -146,13 +146,13 @@ SOV_industry_relocation = {
 		}
 
 		available = {
-			195 = { #Leningrad
+			195 = { 
 				is_owned_and_controlled_by = SOV
 				arms_factory > 4
 				industrial_complex > 0
 			}
-			573 = { is_owned_and_controlled_by = SOV } #Zlatoust
-			582 = { is_owned_and_controlled_by = SOV } #Magnitogorsk
+			573 = { is_owned_and_controlled_by = SOV } 
+			582 = { is_owned_and_controlled_by = SOV } 
 		}
 
 		fire_only_once = yes
@@ -167,7 +167,7 @@ SOV_industry_relocation = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 200 # oh shit they are getting close!
+				factor = 200 
 				OR = {
 					AND = {
 						owns_state = 208
@@ -210,7 +210,7 @@ SOV_industry_relocation = {
 				limit = {
 					controls_state = 195
 				}
-				195 = { #Leningrad
+				195 = { 
 					remove_building = {
 						type = arms_factory
 						level = 5
@@ -221,7 +221,7 @@ SOV_industry_relocation = {
 					}
 				}
 	
-				573 = { #Zlatoust
+				573 = { 
 					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = arms_factory
@@ -233,7 +233,7 @@ SOV_industry_relocation = {
 						damage_building = { type = arms_factory damage = 0.3 }
 					}
 				}
-				582 = { #Magnitogorsk
+				582 = { 
 					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = arms_factory
@@ -266,12 +266,12 @@ SOV_industry_relocation = {
 		}
 
 		available = {
-			242 = { #Smolensk
+			242 = { 
 				is_owned_and_controlled_by = SOV
 				industrial_complex > 1
 			}
-			573 = { is_owned_and_controlled_by = SOV } #Zlatoust
-			582 = { is_owned_and_controlled_by = SOV } #Magnitogorsk
+			573 = { is_owned_and_controlled_by = SOV } 
+			582 = { is_owned_and_controlled_by = SOV } 
 		}
 
 		fire_only_once = yes
@@ -286,7 +286,7 @@ SOV_industry_relocation = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 200 # oh shit they are getting close!
+				factor = 200 
 				OR = {
 					AND = {
 						owns_state = 210
@@ -333,13 +333,13 @@ SOV_industry_relocation = {
 				limit = {
 					controls_state = 242
 				}
-				242 = { #Smolensk
+				242 = { 
 					remove_building = {
 						type = industrial_complex
 						level = 2
 					}
 				}
-				573 = { #Zlatoust
+				573 = { 
 					add_extra_state_shared_building_slots = 1				
 					add_building_construction = {
 						type = industrial_complex
@@ -351,7 +351,7 @@ SOV_industry_relocation = {
 						damage_building = { type = industrial_complex damage = 0.1 }
 					}
 				}
-				582 = { #Magnitogorsk
+				582 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex
@@ -368,7 +368,7 @@ SOV_industry_relocation = {
 			custom_effect_tooltip = SOV_relocate_industry_from_smolensk_tt
 		}
 	}
-	move_leningrad_aluminium_plant = { #195
+	move_leningrad_aluminium_plant = { 
 
 		icon = aluminium
 		
@@ -377,7 +377,7 @@ SOV_industry_relocation = {
 		}
 
 		allowed = {
-			#Everyone
+			
 		}
 
 		available = {
@@ -405,7 +405,7 @@ SOV_industry_relocation = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				factor = 200 # oh shit they are getting close!
+				factor = 200 
 				OR = {
 					AND = {
 						owns_state = 208
@@ -462,7 +462,7 @@ SOV_industry_relocation = {
 	}
 }
 
-#Category only allowed for SOV
+
 SOV_great_patriotic_war = {
 
 	SOV_order_227 = {
@@ -485,7 +485,7 @@ SOV_great_patriotic_war = {
 			any_enemy_country = {
 				is_major = yes
 			}
-			#surrender_progress > 0
+			
 		}
 
 		days_remove = 720
@@ -762,7 +762,7 @@ SOV_great_patriotic_war = {
 				238 = { CONTROLLER = { has_war_with = SOV } }
 				237 = { CONTROLLER = { has_war_with = SOV } }
 				236 = { CONTROLLER = { has_war_with = SOV } }
-				231 = { CONTROLLER = { has_war_with = SOV } }#sneaky QA naval invasion check
+				231 = { CONTROLLER = { has_war_with = SOV } }
 				233 = { CONTROLLER = { has_war_with = SOV } }
 				234 = { CONTROLLER = { has_war_with = SOV } }
 			}
@@ -881,7 +881,7 @@ SOV_great_patriotic_war = {
 				245 = { CONTROLLER = { has_war_with = SOV } }
 				237 = { CONTROLLER = { has_war_with = SOV } }
 				236 = { CONTROLLER = { has_war_with = SOV } }
-				231 = { CONTROLLER = { has_war_with = SOV } }#sneaky QA naval invasion check
+				231 = { CONTROLLER = { has_war_with = SOV } }
 				238 = { CONTROLLER = { has_war_with = SOV } }
 				260 = { CONTROLLER = { has_war_with = SOV } }
 				239 = { CONTROLLER = { has_war_with = SOV } }
@@ -1041,7 +1041,7 @@ SOV_great_patriotic_war = {
 
 
 
-	#217 "Stalingrad"
+	
 	SOV_hold_stalingrad = {
 
 		icon = generic_civil_support
@@ -1050,7 +1050,7 @@ SOV_great_patriotic_war = {
 			original_tag = SOV
 		}
 
-		#Fail trigger
+		
 		available = {
 			NOT = { controls_state = 217 }
 		}
@@ -1078,21 +1078,21 @@ SOV_great_patriotic_war = {
 			}
 		}
 
-		#Success
+		
 		timeout_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			217 = { save_event_target_as = state }			
 			country_event = wtt_soviet_hold_city.1
 		}
-		#Fail
+		
 		complete_effect = {
 			217 = { save_event_target_as = state }			
 			country_event = wtt_soviet_hold_city.2
 		}
 	}
 	
-	#195 "Leningrad"
+	
 	SOV_hold_leningrad = {
 
 		icon = generic_civil_support
@@ -1101,7 +1101,7 @@ SOV_great_patriotic_war = {
 			original_tag = SOV
 		}
 
-		#Fail trigger
+		
 		available = {
 			NOT = { controls_state = 195 }
 		}
@@ -1129,21 +1129,21 @@ SOV_great_patriotic_war = {
 			}
 		}
 
-		#Success
+		
 		timeout_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			195 = { save_event_target_as = state }
 			country_event = wtt_soviet_hold_city.3
 		}
-		#Fail
+		
 		complete_effect = {
 			195 = { save_event_target_as = state }
 			country_event = wtt_soviet_hold_city.4
 		}
 	}
 
-	#219 "Moscow"
+	
 	SOV_hold_moscow = {
 
 		icon = generic_civil_support
@@ -1152,7 +1152,7 @@ SOV_great_patriotic_war = {
 			original_tag = SOV
 		}
 
-		#Fail trigger
+		
 		available = {
 			NOT = { controls_state = 219 }
 		}
@@ -1180,14 +1180,14 @@ SOV_great_patriotic_war = {
 			}
 		}
 
-		#Success
+		
 		timeout_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			219 = { save_event_target_as = state }
 			country_event = wtt_soviet_hold_city.5
 		}
-		#Fail
+		
 		complete_effect = {
 			219 = { save_event_target_as = state }
 			country_event = wtt_soviet_hold_city.6
@@ -1233,7 +1233,7 @@ operations = {
 				MAN = {
 					is_ai = no
 				}
-				factor = 0 #we're mean but not that mean
+				factor = 0 
 			}
 			modifier = {
 				threat < 0.25
@@ -1281,13 +1281,187 @@ political_actions = {
 
 		complete_effect = {
 			PRC = { 
-				transfer_state = 609
-				transfer_state = 610
-				transfer_state = 716
-				transfer_state = 715
-				transfer_state = 328
-				transfer_state = 717
-				transfer_state = 714
+				transfer_state = 609 
+		transfer_state = 8261 
+		transfer_state = 8262 
+		transfer_state = 8263 
+		transfer_state = 8264 
+		transfer_state = 8265 
+		transfer_state = 8266
+				transfer_state = 610 
+		transfer_state = 8272 
+		transfer_state = 8273 
+		transfer_state = 8274 
+		transfer_state = 8275 
+		transfer_state = 8276 
+		transfer_state = 8277 
+		transfer_state = 8278 
+		transfer_state = 8279 
+		transfer_state = 8280 
+		transfer_state = 8281 
+		transfer_state = 8282 
+		transfer_state = 8283 
+		transfer_state = 8284 
+		transfer_state = 8285 
+		transfer_state = 8286 
+		transfer_state = 8287 
+		transfer_state = 8288 
+		transfer_state = 8289 
+		transfer_state = 8290 
+		transfer_state = 8291 
+		transfer_state = 8292 
+		transfer_state = 8293 
+		transfer_state = 8294 
+		transfer_state = 8295 
+		transfer_state = 8296 
+		transfer_state = 8297
+				transfer_state = 716 
+		transfer_state = 9344 
+		transfer_state = 9345 
+		transfer_state = 9346 
+		transfer_state = 9347 
+		transfer_state = 9348 
+		transfer_state = 9349 
+		transfer_state = 9350 
+		transfer_state = 9351 
+		transfer_state = 9352 
+		transfer_state = 9353 
+		transfer_state = 9354 
+		transfer_state = 9355 
+		transfer_state = 9356 
+		transfer_state = 9357 
+		transfer_state = 9358 
+		transfer_state = 9359 
+		transfer_state = 9360 
+		transfer_state = 9361 
+		transfer_state = 9362 
+		transfer_state = 9363 
+		transfer_state = 9364 
+		transfer_state = 9365 
+		transfer_state = 9366 
+		transfer_state = 9367
+				transfer_state = 715 
+		transfer_state = 9324 
+		transfer_state = 9325 
+		transfer_state = 9326 
+		transfer_state = 9327 
+		transfer_state = 9328 
+		transfer_state = 9329 
+		transfer_state = 9330 
+		transfer_state = 9331 
+		transfer_state = 9332 
+		transfer_state = 9333 
+		transfer_state = 9334 
+		transfer_state = 9335 
+		transfer_state = 9336 
+		transfer_state = 9337 
+		transfer_state = 9338 
+		transfer_state = 9339 
+		transfer_state = 9340 
+		transfer_state = 9341 
+		transfer_state = 9342 
+		transfer_state = 9343
+				transfer_state = 328 
+		transfer_state = 3776 
+		transfer_state = 3777 
+		transfer_state = 3778 
+		transfer_state = 3779 
+		transfer_state = 3780 
+		transfer_state = 3781 
+		transfer_state = 3782 
+		transfer_state = 3783 
+		transfer_state = 3784 
+		transfer_state = 3785 
+		transfer_state = 3786 
+		transfer_state = 3787 
+		transfer_state = 3788 
+		transfer_state = 3789 
+		transfer_state = 3790 
+		transfer_state = 3791 
+		transfer_state = 3792 
+		transfer_state = 3793 
+		transfer_state = 3794 
+		transfer_state = 3795 
+		transfer_state = 3796 
+		transfer_state = 3797 
+		transfer_state = 3798 
+		transfer_state = 3799 
+		transfer_state = 3800 
+		transfer_state = 3801 
+		transfer_state = 3802 
+		transfer_state = 3803 
+		transfer_state = 3804 
+		transfer_state = 3805 
+		transfer_state = 3806 
+		transfer_state = 3807 
+		transfer_state = 3808 
+		transfer_state = 3809 
+		transfer_state = 3810 
+		transfer_state = 3811 
+		transfer_state = 3812 
+		transfer_state = 3813
+				transfer_state = 717 
+		transfer_state = 9368 
+		transfer_state = 9369 
+		transfer_state = 9370 
+		transfer_state = 9371 
+		transfer_state = 9372 
+		transfer_state = 9373 
+		transfer_state = 9374 
+		transfer_state = 9375 
+		transfer_state = 9376 
+		transfer_state = 9377 
+		transfer_state = 9378 
+		transfer_state = 9379 
+		transfer_state = 9380 
+		transfer_state = 9381 
+		transfer_state = 9382 
+		transfer_state = 9383 
+		transfer_state = 9384 
+		transfer_state = 9385 
+		transfer_state = 9386 
+		transfer_state = 9387 
+		transfer_state = 9388 
+		transfer_state = 9389 
+		transfer_state = 9390 
+		transfer_state = 9391 
+		transfer_state = 9392 
+		transfer_state = 9393 
+		transfer_state = 9394 
+		transfer_state = 9395 
+		transfer_state = 9396 
+		transfer_state = 9397 
+		transfer_state = 9398 
+		transfer_state = 9399 
+		transfer_state = 9400
+				transfer_state = 714 
+		transfer_state = 9297 
+		transfer_state = 9298 
+		transfer_state = 9299 
+		transfer_state = 9300 
+		transfer_state = 9301 
+		transfer_state = 9302 
+		transfer_state = 9303 
+		transfer_state = 9304 
+		transfer_state = 9305 
+		transfer_state = 9306 
+		transfer_state = 9307 
+		transfer_state = 9308 
+		transfer_state = 9309 
+		transfer_state = 9310 
+		transfer_state = 9311 
+		transfer_state = 9312 
+		transfer_state = 9313 
+		transfer_state = 9314 
+		transfer_state = 9315 
+		transfer_state = 9316 
+		transfer_state = 9317 
+		transfer_state = 9318 
+		transfer_state = 9319 
+		transfer_state = 9320 
+		transfer_state = 9321 
+		transfer_state = 9322 
+		transfer_state = 9323
 				country_event = { id = wtt_japan.125 }
 			}		
 		}
@@ -1318,7 +1492,7 @@ political_actions = {
 			base = 0
 			modifier = {
 				add = 150
-					#Has somewhat won against CHI and JAP
+					
 				count_triggers = {
 					amount = 10
 					595 = { is_controlled_by = FROM }
@@ -1410,7 +1584,7 @@ political_actions = {
 			base = 0
 			modifier = {
 				add = 100
-				#Has won against CHI and JAP
+				
 				595 = { is_controlled_by = FROM }
 				596 = { is_controlled_by = FROM }
 				597 = { is_controlled_by = FROM }

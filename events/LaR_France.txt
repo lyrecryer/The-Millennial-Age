@@ -1,15 +1,8 @@
-﻿#La Resistance France events
-
- ##   ##  #  #  ##  ###  ###  ##  ##      ##  ###     ###   ##  ###  ###  ## 
-#  # #  # ## # #    #  # #   #   #       #  # #       #  # #  # #  #  #  #   
-#    #  # # ## # ## ###  ##   #   #      #  # ##      ###  #### ###   #   #  
-#  # #  # #  # #  # #  # #     #   #     #  # #       #    #  # #  #  #    # 
- ##   ##  #  #  ##  #  # ### ##  ##       ##  #       #    #  # #  # ### ##  
 
 
 add_namespace = lar_congress_of_paris
 
-#opening event for France - set up claims, pass on to Italy
+
 country_event = {
 	id = lar_congress_of_paris.1
 	title = lar_congress_of_paris.1.t
@@ -19,12 +12,64 @@ country_event = {
 
 	option = {
 		name = lar_congress_of_paris.1.a
-		add_state_claim = 558
-		add_state_claim = 274
-		add_state_claim = 700
-		add_state_claim = 701
-		add_state_claim = 538
-		add_state_claim = 718
+		add_state_claim = 558 
+		add_state_claim = 7350 
+		add_state_claim = 7351 
+		add_state_claim = 7352 
+		add_state_claim = 7353 
+		add_state_claim = 7354 
+		add_state_claim = 7355 
+		add_state_claim = 7356 
+		add_state_claim = 7357 
+		add_state_claim = 7358 
+		add_state_claim = 7359 
+		add_state_claim = 7360 
+		add_state_claim = 7361 
+		add_state_claim = 7362 
+		add_state_claim = 7363 
+		add_state_claim = 7364 
+		add_state_claim = 7365 
+		add_state_claim = 7366 
+		add_state_claim = 7367 
+		add_state_claim = 7368 
+		add_state_claim = 7369
+		add_state_claim = 274 
+		add_state_claim = 3203 
+		add_state_claim = 3204 
+		add_state_claim = 3205 
+		add_state_claim = 3206 
+		add_state_claim = 3207 
+		add_state_claim = 3208
+		add_state_claim = 700 
+		add_state_claim = 9289
+		add_state_claim = 701 
+		add_state_claim = 9290
+		add_state_claim = 538 
+		add_state_claim = 7132 
+		add_state_claim = 7133 
+		add_state_claim = 7134 
+		add_state_claim = 7135 
+		add_state_claim = 7136 
+		add_state_claim = 7137 
+		add_state_claim = 7138 
+		add_state_claim = 7139 
+		add_state_claim = 7140 
+		add_state_claim = 7141
+		add_state_claim = 718 
+		add_state_claim = 9401 
+		add_state_claim = 9402 
+		add_state_claim = 9403 
+		add_state_claim = 9404 
+		add_state_claim = 9405 
+		add_state_claim = 9406 
+		add_state_claim = 9407 
+		add_state_claim = 9408 
+		add_state_claim = 9409 
+		add_state_claim = 9410 
+		add_state_claim = 9411 
+		add_state_claim = 9412 
+		add_state_claim = 9413 
+		add_state_claim = 9414
 		add_state_claim = 768
 		add_state_claim = 769
 		if = {
@@ -33,7 +78,7 @@ country_event = {
 				country_event = lar_congress_of_paris.2
 			}
 		}
-		else_if = { #failsafes in case one of these countries not in faction
+		else_if = { 
 			limit = {
 				is_in_faction_with = SPA
 			}
@@ -55,7 +100,7 @@ country_event = {
 	}
 }
 
-#second event for Italy
+
 country_event = {
 	id = lar_congress_of_paris.2
 	title = lar_congress_of_paris.2.t
@@ -64,7 +109,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_congress_of_paris.2.a #agree, set up claims, pass on to Spain
+		name = lar_congress_of_paris.2.a 
 		ai_chance = {
 			base = 100
 		}
@@ -94,7 +139,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_congress_of_paris.2.b #refuse, claims go to France instead, pass on to Spain
+		name = lar_congress_of_paris.2.b 
 		ai_chance = {
 			base = 0
 		}
@@ -126,7 +171,7 @@ country_event = {
 		}
 	}
 }
-#generic event - country agrees
+
 country_event = {
 	id = lar_congress_of_paris.3
 	title = lar_congress_of_paris.3.t
@@ -135,11 +180,11 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_congress_of_paris.3.a #cool
+		name = lar_congress_of_paris.3.a 
 		
 	}
 }
-#generic event - country refuses
+
 country_event = {
 	id = lar_congress_of_paris.4
 	title = lar_congress_of_paris.4.t
@@ -148,12 +193,12 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_congress_of_paris.4.a #remove from faction
+		name = lar_congress_of_paris.4.a 
 		remove_from_faction = FROM
 	}
 }
 
-#third event for Spain
+
 country_event = {
 	id = lar_congress_of_paris.5
 	title = lar_congress_of_paris.2.t
@@ -162,15 +207,44 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_congress_of_paris.5.a #agree, transfer territories, pass on to Portugal
+		name = lar_congress_of_paris.5.a 
 		ai_chance = {
 			base = 100
 		}
 		FRA = {
 			country_event = lar_congress_of_paris.3
 		}
-		transfer_state = 461
-		transfer_state = 462
+		transfer_state = 461 
+		transfer_state = 6083 
+		transfer_state = 6084 
+		transfer_state = 6085 
+		transfer_state = 6086 
+		transfer_state = 6087 
+		transfer_state = 6088 
+		transfer_state = 6089 
+		transfer_state = 6090 
+		transfer_state = 6091 
+		transfer_state = 6092 
+		transfer_state = 6093 
+		transfer_state = 6094 
+		transfer_state = 6095 
+		transfer_state = 6096 
+		transfer_state = 6097 
+		transfer_state = 6098
+		transfer_state = 462 
+		transfer_state = 6099 
+		transfer_state = 6100 
+		transfer_state = 6101 
+		transfer_state = 6102 
+		transfer_state = 6103 
+		transfer_state = 6104 
+		transfer_state = 6105 
+		transfer_state = 6106 
+		transfer_state = 6107 
+		transfer_state = 6108 
+		transfer_state = 6109 
+		transfer_state = 6110 
+		transfer_state = 6111
 		if = {
 			limit = { is_in_faction_with = POR }
 			POR = {
@@ -185,7 +259,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_congress_of_paris.5.b #refuse, pass on to Portugal
+		name = lar_congress_of_paris.5.b 
 		ai_chance = {
 			base = 0
 		}
@@ -209,7 +283,7 @@ country_event = {
 	}
 }
 
-#fourth event for Portugal
+
 country_event = {
 	id = lar_congress_of_paris.6
 	title = lar_congress_of_paris.2.t
@@ -218,7 +292,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_congress_of_paris.6.a #agree, set up claims
+		name = lar_congress_of_paris.6.a 
 		ai_chance = {
 			base = 100
 		}
@@ -234,7 +308,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_congress_of_paris.6.b #refuse, claims go to France instead
+		name = lar_congress_of_paris.6.b 
 		ai_chance = {
 			base = 0
 		}
@@ -251,16 +325,16 @@ country_event = {
 	}
 }
 
-###   ##  #   ### ### ###  ##   ##  #       #   # ###  ##  #   ### #  #  ##  ### 
-#  # #  # #    #   #   #  #  # #  # #       #   #  #  #  # #   #   ## # #  # #   
-###  #  # #    #   #   #  #    #### #        # #   #  #  # #   ##  # ## #    ##  
-#    #  # #    #   #   #  #  # #  # #        # #   #  #  # #   #   #  # #  # #   
-#     ##  ### ###  #  ###  ##  #  # ###       #   ###  ##  ### ### #  #  ##  ### 
+
+
+
+
+
 
 
 add_namespace = lar_france_political_violence
 
-# right wing riots
+
 country_event = {
 	id = lar_france_political_violence.1
 	title = lar_france_political_violence.1.t
@@ -269,19 +343,19 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_france_political_violence.1.a #ignore
+		name = lar_france_political_violence.1.a 
 		add_stability = -0.05
 		add_popularity = { ideology = fascism popularity = 0.025 }
 		add_popularity = { ideology = neutrality popularity = 0.025 }
 	}
 
 	option = {
-		name = lar_france_political_violence.1.b #prosecute
+		name = lar_france_political_violence.1.b 
 		add_political_power = -50
 	}
 }
 
-# communist riots
+
 country_event = {
 	id = lar_france_political_violence.2
 	title = lar_france_political_violence.1.t
@@ -290,18 +364,18 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_france_political_violence.1.a #ignore
+		name = lar_france_political_violence.1.a 
 		add_stability = -0.05
 		add_popularity = { ideology = communism popularity = 0.025 }
 	}
 
 	option = {
-		name = lar_france_political_violence.1.b #prosecute
+		name = lar_france_political_violence.1.b 
 		add_political_power = -50
 	}
 }
 
-# massive right wing riots
+
 country_event = {
 	id = lar_france_political_violence.3
 	title = lar_france_political_violence.3.t
@@ -310,19 +384,19 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_france_political_violence.3.a #ignore
+		name = lar_france_political_violence.3.a 
 		add_stability = -0.1
 		add_popularity = { ideology = fascism popularity = 0.05 }
 		add_popularity = { ideology = neutrality popularity = 0.05 }
 	}
 
 	option = {
-		name = lar_france_political_violence.3.b #prosecute
+		name = lar_france_political_violence.3.b 
 		add_political_power = -150
 	}
 }
 
-# political violence returns at low stability
+
 country_event = {
 	id = lar_france_political_violence.4
 	title = lar_france_political_violence.4.t
@@ -348,18 +422,18 @@ country_event = {
 	}
 
 	option = {
-		name = lar_france_political_violence.4.a #ignore
+		name = lar_france_political_violence.4.a 
 		effect_tooltip = {
 			add_ideas = FRA_political_violence
 		}
 	}
 }
 
-### ###  ### #  #  ##  #  #     #  # #  # ###  ##  #  # 
-#   #  # #   ## # #  # #  #     #  # ## #  #  #  # ## # 
-##  ###  ##  # ## #    ####     #  # # ##  #  #  # # ## 
-#   #  # #   #  # #  # #  #     #  # #  #  #  #  # #  # 
-#   #  # ### #  #  ##  #  #      ##  #  # ###  ##  #  # 
+
+
+
+
+
 
 
 add_namespace = lar_france_french_union
@@ -375,75 +449,75 @@ country_event = {
 			limit = {
 				FRA_controls_north_africa = yes
 			}
-			random_list = {#north africa
+			random_list = {
 				25 = {
 					modifier = {
 						has_country_flag = FRA_north_africa_promised_independence
 						factor = 0.25
 					}
-					country_event = lar_france_french_union.2 #accepts
+					country_event = lar_france_french_union.2 
 				} 
-				75 = { country_event = lar_france_french_union.3 } #refuses
+				75 = { country_event = lar_france_french_union.3 } 
 			}
 		}
 		if = {
 			limit = {
 				FRA_controls_west_africa = yes
 			}
-			random_list = {#west africa
+			random_list = {
 				45 = {
 					modifier = {
 						has_country_flag = FRA_west_africa_promised_independence
 						factor = 0.25
 					}
-					country_event = lar_france_french_union.4 #accepts
+					country_event = lar_france_french_union.4 
 				} 
-				55 = { country_event = lar_france_french_union.5 } #refuses
+				55 = { country_event = lar_france_french_union.5 } 
 			}
 		}
 		if = {
 			limit = {
 				FRA_controls_central_africa = yes
 			}
-			random_list = {#central africa
+			random_list = {
 				45 = {
 					modifier = {
 						has_country_flag = FRA_central_africa_promised_independence
 						factor = 0.25
 					}
-					country_event = lar_france_french_union.6 #accepts
+					country_event = lar_france_french_union.6 
 				} 
-				55 = { country_event = lar_france_french_union.7 } #refuses
+				55 = { country_event = lar_france_french_union.7 } 
 			}
 		}
 		if = {
 			limit = {
 				FRA_controls_syria = yes
 			}
-			random_list = {#syria
+			random_list = {
 				15 = {
 					modifier = {
 						has_country_flag = FRA_syria_promised_independence
 						factor = 0.25
 					}
-					country_event = lar_france_french_union.8 #accepts
+					country_event = lar_france_french_union.8 
 				} 
-				85 = { country_event = lar_france_french_union.9 } #refuses
+				85 = { country_event = lar_france_french_union.9 } 
 			}
 		}
 		if = {
 			limit = {
 				FRA_controls_indochina = yes
 			}
-			random_list = {#indochina
+			random_list = {
 				5 = {
 					modifier = {
 						has_country_flag = FRA_indochina_promised_independence
 						factor = 0.25
 					}
-					country_event = lar_france_french_union.10 #accepts
+					country_event = lar_france_french_union.10 
 				} 
-				95 = { country_event = lar_france_french_union.11 } #refuses
+				95 = { country_event = lar_france_french_union.11 } 
 			}
 		}
 	}
@@ -453,12 +527,12 @@ country_event = {
 		
 	}
 }
-#north africa agrees
+
 country_event = {
 	id = lar_france_french_union.2
 	title = lar_france_french_union.2.t
 	desc = lar_france_french_union.2.desc
-	picture = GFX_report_event_election_vote #todo candidate for uniques
+	picture = GFX_report_event_election_vote 
 	is_triggered_only = yes
 	option = {
 		name = lar_france_french_union.2.a
@@ -502,12 +576,12 @@ country_event = {
 	}
 }
 
-#north africa refuses
+
 country_event = {
 	id = lar_france_french_union.3
 	title = lar_france_french_union.3.t
 	desc = lar_france_french_union.3.desc
-	picture = GFX_report_event_ghandi_women #TODO candidate for unique
+	picture = GFX_report_event_ghandi_women 
 	is_triggered_only = yes
 	option = {
 		name = lar_france_french_union.3.a
@@ -571,7 +645,7 @@ country_event = {
 	}
 }
 
-#west africa agrees
+
 country_event = {
 	id = lar_france_french_union.4
 	title = lar_france_french_union.4.t
@@ -680,7 +754,7 @@ country_event = {
 	}
 }
 
-#west africa refuses
+
 country_event = {
 	id = lar_france_french_union.5
 	title = lar_france_french_union.5.t
@@ -837,7 +911,7 @@ country_event = {
 	}
 }
 
-#central africa agrees
+
 country_event = {
 	id = lar_france_french_union.6
 	title = lar_france_french_union.6.t
@@ -906,7 +980,7 @@ country_event = {
 	}
 }
 
-#central africa refuses
+
 country_event = {
 	id = lar_france_french_union.7
 	title = lar_france_french_union.7.t
@@ -1004,7 +1078,7 @@ country_event = {
 	}
 }
 
-#Syria agrees
+
 country_event = {
 	id = lar_france_french_union.8
 	title = lar_france_french_union.8.t
@@ -1043,7 +1117,7 @@ country_event = {
 	}
 }
 
-#Syria refuses
+
 country_event = {
 	id = lar_france_french_union.9
 	title = lar_france_french_union.9.t
@@ -1095,7 +1169,7 @@ country_event = {
 		}
 	}
 }
-#Indochina agrees
+
 country_event = {
 	id = lar_france_french_union.10
 	title = lar_france_french_union.10.t
@@ -1144,7 +1218,7 @@ country_event = {
 	}
 }
 
-#Indochina refuses
+
 country_event = {
 	id = lar_france_french_union.11
 	title = lar_france_french_union.11.t
@@ -1205,22 +1279,22 @@ country_event = {
 				}
 			}
 			add_resistance_target = {
-				amount = 100 #Vietnam War, here we come!
+				amount = 100 
 				tooltip = LAR_fra_voted_independence_tt
 			}
 		}
 	}
 }
 
-### #  # ### ### ###  #   # ### #  # ### ###  ##  #  #     ###   ##  ###  ###  ### ###      #   #  ##  ###   ## 
- #  ## #  #  #   #  # #   # #   ## #  #   #  #  # ## #     #  # #  # #  # #  # #   #  #     #   # #  # #  # #   
- #  # ##  #  ##  ###   # #  ##  # ##  #   #  #  # # ##     ###  #  # ###  #  # ##  ###      # # # #### ###   #  
- #  #  #  #  #   #  #  # #  #   #  #  #   #  #  # #  #     #  # #  # #  # #  # #   #  #     # # # #  # #  #   # 
-### #  #  #  ### #  #   #   ### #  #  #  ###  ##  #  #     ###   ##  #  # ###  ### #  #      # #  #  # #  # ##  
+
+ 
+ 
+ 
+
 
 add_namespace = FRA_syria_intervention
 
-#attackers win syrian intervention
+
 country_event = {
 	id = FRA_syria_intervention.1
 	title = FRA_syria_intervention.1.t
@@ -1241,22 +1315,47 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_syria_intervention.11 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_syria_intervention.11 } 
 			}
 		}
 	}
 	option = {
 		name = FRA_syria_intervention.1.a
 		event_target:free_france = {
-			transfer_state = 554
-			transfer_state = 680
-			transfer_state = 677
-			transfer_state = 553
+			transfer_state = 554 
+		transfer_state = 7326 
+		transfer_state = 7327 
+		transfer_state = 7328 
+		transfer_state = 7329
+			transfer_state = 680 
+		transfer_state = 9172 
+		transfer_state = 9173 
+		transfer_state = 9174 
+		transfer_state = 9175 
+		transfer_state = 9176 
+		transfer_state = 9177 
+		transfer_state = 9178 
+		transfer_state = 9179 
+		transfer_state = 9180 
+		transfer_state = 9181 
+		transfer_state = 9182 
+		transfer_state = 9183
+			transfer_state = 677 
+		transfer_state = 9136 
+		transfer_state = 9137 
+		transfer_state = 9138 
+		transfer_state = 9139 
+		transfer_state = 9140 
+		transfer_state = 9141 
+		transfer_state = 9142
+			transfer_state = 553 
+		transfer_state = 7324 
+		transfer_state = 7325
 		}
 	}
 }
 
-#attackers win syrian intervention
+
 country_event = {
 	id = FRA_syria_intervention.11
 	title = FRA_syria_intervention.1.t
@@ -1268,16 +1367,41 @@ country_event = {
 		name = FRA_syria_intervention.1.a
 		effect_tooltip = {
 			event_target:free_france = {
-				transfer_state = 554
-				transfer_state = 680
-				transfer_state = 677
-				transfer_state = 553
+				transfer_state = 554 
+		transfer_state = 7326 
+		transfer_state = 7327 
+		transfer_state = 7328 
+		transfer_state = 7329
+				transfer_state = 680 
+		transfer_state = 9172 
+		transfer_state = 9173 
+		transfer_state = 9174 
+		transfer_state = 9175 
+		transfer_state = 9176 
+		transfer_state = 9177 
+		transfer_state = 9178 
+		transfer_state = 9179 
+		transfer_state = 9180 
+		transfer_state = 9181 
+		transfer_state = 9182 
+		transfer_state = 9183
+				transfer_state = 677 
+		transfer_state = 9136 
+		transfer_state = 9137 
+		transfer_state = 9138 
+		transfer_state = 9139 
+		transfer_state = 9140 
+		transfer_state = 9141 
+		transfer_state = 9142
+				transfer_state = 553 
+		transfer_state = 7324 
+		transfer_state = 7325
 			}
 		}
 	}
 }
 
-#defenders win syrian intervention
+
 country_event = {
 	id = FRA_syria_intervention.2
 	title = FRA_syria_intervention.2.t
@@ -1297,7 +1421,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_syria_intervention.21 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_syria_intervention.21 } 
 			}
 		}
 	}
@@ -1308,7 +1432,7 @@ country_event = {
 	}
 }
 
-#defenders win syrian intervention
+
 country_event = {
 	id = FRA_syria_intervention.21
 	title = FRA_syria_intervention.2.t
@@ -1322,7 +1446,7 @@ country_event = {
 	}
 }
 
-#syrian intervention stalls out
+
 country_event = {
 	id = FRA_syria_intervention.3
 	title = FRA_syria_intervention.3.t
@@ -1343,7 +1467,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_syria_intervention.31 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_syria_intervention.31 } 
 			}
 		}
 	}
@@ -1352,7 +1476,7 @@ country_event = {
 	}
 }
 
-#syrian intervention stalls out
+
 country_event = {
 	id = FRA_syria_intervention.31
 	title = FRA_syria_intervention.3.t
@@ -1368,7 +1492,7 @@ country_event = {
 
 add_namespace = FRA_indochina_intervention
 
-#attackers win indochina intervention
+
 country_event = {
 	id = FRA_indochina_intervention.1
 	title = FRA_indochina_intervention.1.t
@@ -1389,21 +1513,112 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_indochina_intervention.11 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_indochina_intervention.11 } 
 			}
 		}
 	}
 	option = {
 		name = FRA_indochina_intervention.1.a
 		event_target:free_france = {
-			transfer_state = 670
-			transfer_state = 671
-			transfer_state = 741
+			transfer_state = 670 
+		transfer_state = 8937 
+		transfer_state = 8938 
+		transfer_state = 8939 
+		transfer_state = 8940 
+		transfer_state = 8941 
+		transfer_state = 8942 
+		transfer_state = 8943 
+		transfer_state = 8944 
+		transfer_state = 8945 
+		transfer_state = 8946 
+		transfer_state = 8947 
+		transfer_state = 8948 
+		transfer_state = 8949 
+		transfer_state = 8950 
+		transfer_state = 8951 
+		transfer_state = 8952 
+		transfer_state = 8953 
+		transfer_state = 8954 
+		transfer_state = 8955 
+		transfer_state = 8956 
+		transfer_state = 8957 
+		transfer_state = 8958 
+		transfer_state = 8959 
+		transfer_state = 8960 
+		transfer_state = 8961 
+		transfer_state = 8962 
+		transfer_state = 8963 
+		transfer_state = 8964 
+		transfer_state = 8965 
+		transfer_state = 8966 
+		transfer_state = 8967 
+		transfer_state = 8968
+			transfer_state = 671 
+		transfer_state = 8969 
+		transfer_state = 8970 
+		transfer_state = 8971 
+		transfer_state = 8972 
+		transfer_state = 8973 
+		transfer_state = 8974 
+		transfer_state = 8975 
+		transfer_state = 8976 
+		transfer_state = 8977 
+		transfer_state = 8978 
+		transfer_state = 8979 
+		transfer_state = 8980 
+		transfer_state = 8981 
+		transfer_state = 8982 
+		transfer_state = 8983 
+		transfer_state = 8984 
+		transfer_state = 8985 
+		transfer_state = 8986 
+		transfer_state = 8987 
+		transfer_state = 8988 
+		transfer_state = 8989 
+		transfer_state = 8990 
+		transfer_state = 8991 
+		transfer_state = 8992 
+		transfer_state = 8993 
+		transfer_state = 8994 
+		transfer_state = 8995 
+		transfer_state = 8996 
+		transfer_state = 8997 
+		transfer_state = 8998 
+		transfer_state = 8999 
+		transfer_state = 9000
+			transfer_state = 741 
+		transfer_state = 9534 
+		transfer_state = 9535 
+		transfer_state = 9536 
+		transfer_state = 9537 
+		transfer_state = 9538 
+		transfer_state = 9539 
+		transfer_state = 9540 
+		transfer_state = 9541 
+		transfer_state = 9542 
+		transfer_state = 9543 
+		transfer_state = 9544 
+		transfer_state = 9545 
+		transfer_state = 9546 
+		transfer_state = 9547 
+		transfer_state = 9548 
+		transfer_state = 9549 
+		transfer_state = 9550 
+		transfer_state = 9551 
+		transfer_state = 9552 
+		transfer_state = 9553 
+		transfer_state = 9554 
+		transfer_state = 9555 
+		transfer_state = 9556 
+		transfer_state = 9557 
+		transfer_state = 9558 
+		transfer_state = 9559 
+		transfer_state = 9560
 		}
 	}
 }
 
-#attackers win indochina intervention
+
 country_event = {
 	id = FRA_indochina_intervention.11
 	title = FRA_indochina_intervention.1.t
@@ -1415,15 +1630,82 @@ country_event = {
 		name = FRA_indochina_intervention.1.a
 		effect_tooltip = {
 			event_target:free_france = {
-				transfer_state = 670
-				transfer_state = 671
-				transfer_state = 74
+				transfer_state = 670 
+		transfer_state = 8937 
+		transfer_state = 8938 
+		transfer_state = 8939 
+		transfer_state = 8940 
+		transfer_state = 8941 
+		transfer_state = 8942 
+		transfer_state = 8943 
+		transfer_state = 8944 
+		transfer_state = 8945 
+		transfer_state = 8946 
+		transfer_state = 8947 
+		transfer_state = 8948 
+		transfer_state = 8949 
+		transfer_state = 8950 
+		transfer_state = 8951 
+		transfer_state = 8952 
+		transfer_state = 8953 
+		transfer_state = 8954 
+		transfer_state = 8955 
+		transfer_state = 8956 
+		transfer_state = 8957 
+		transfer_state = 8958 
+		transfer_state = 8959 
+		transfer_state = 8960 
+		transfer_state = 8961 
+		transfer_state = 8962 
+		transfer_state = 8963 
+		transfer_state = 8964 
+		transfer_state = 8965 
+		transfer_state = 8966 
+		transfer_state = 8967 
+		transfer_state = 8968
+				transfer_state = 671 
+		transfer_state = 8969 
+		transfer_state = 8970 
+		transfer_state = 8971 
+		transfer_state = 8972 
+		transfer_state = 8973 
+		transfer_state = 8974 
+		transfer_state = 8975 
+		transfer_state = 8976 
+		transfer_state = 8977 
+		transfer_state = 8978 
+		transfer_state = 8979 
+		transfer_state = 8980 
+		transfer_state = 8981 
+		transfer_state = 8982 
+		transfer_state = 8983 
+		transfer_state = 8984 
+		transfer_state = 8985 
+		transfer_state = 8986 
+		transfer_state = 8987 
+		transfer_state = 8988 
+		transfer_state = 8989 
+		transfer_state = 8990 
+		transfer_state = 8991 
+		transfer_state = 8992 
+		transfer_state = 8993 
+		transfer_state = 8994 
+		transfer_state = 8995 
+		transfer_state = 8996 
+		transfer_state = 8997 
+		transfer_state = 8998 
+		transfer_state = 8999 
+		transfer_state = 9000
+				transfer_state = 74 
+		transfer_state = 9527 
+		transfer_state = 9528 
+		transfer_state = 9529
 			}
 		}
 	}
 }
 
-#defenders win indochina intervention
+
 country_event = {
 	id = FRA_indochina_intervention.2
 	title = FRA_indochina_intervention.2.t
@@ -1444,7 +1726,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_indochina_intervention.21 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_indochina_intervention.21 } 
 			}
 		}
 	}
@@ -1454,7 +1736,7 @@ country_event = {
 	}
 }
 
-#defenders win indochina intervention
+
 country_event = {
 	id = FRA_indochina_intervention.21
 	title = FRA_indochina_intervention.2.t
@@ -1468,7 +1750,7 @@ country_event = {
 	}
 }
 
-#indochina intervention stalls out
+
 country_event = {
 	id = FRA_indochina_intervention.3
 	title = FRA_indochina_intervention.3.t
@@ -1489,7 +1771,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_indochina_intervention.31 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_indochina_intervention.31 } 
 			}
 		}
 	}
@@ -1498,7 +1780,7 @@ country_event = {
 	}
 }
 
-#indochina intervention stalls out
+
 country_event = {
 	id = FRA_indochina_intervention.31
 	title = FRA_indochina_intervention.3.t
@@ -1513,7 +1795,7 @@ country_event = {
 
 add_namespace = FRA_central_africa_intervention
 
-#attackers win central african intervention
+
 country_event = {
 	id = FRA_central_africa_intervention.1
 	title = FRA_central_africa_intervention.1.t
@@ -1534,7 +1816,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_central_africa_intervention.11 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_central_africa_intervention.11 } 
 			}
 		}
 	}
@@ -1585,7 +1867,7 @@ country_event = {
 	}
 }
 
-#defenders win central african intervention
+
 country_event = {
 	id = FRA_central_africa_intervention.2
 	title = FRA_central_africa_intervention.2.t
@@ -1606,7 +1888,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_central_africa_intervention.21 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_central_africa_intervention.21 } 
 			}
 		}
 	}
@@ -1616,7 +1898,7 @@ country_event = {
 	}
 }
 
-#defenders win central african intervention
+
 country_event = {
 	id = FRA_central_africa_intervention.21
 	title = FRA_central_africa_intervention.2.t
@@ -1630,7 +1912,7 @@ country_event = {
 	}
 }
 
-#central african intervention stalls out
+
 country_event = {
 	id = FRA_central_africa_intervention.3
 	title = FRA_central_africa_intervention.3.t
@@ -1651,7 +1933,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_central_africa_intervention.31 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_central_africa_intervention.31 } 
 			}
 		}
 	}
@@ -1660,7 +1942,7 @@ country_event = {
 	}
 }
 
-#central african intervention stalls out
+
 country_event = {
 	id = FRA_central_africa_intervention.31
 	title = FRA_central_africa_intervention.3.t
@@ -1675,7 +1957,7 @@ country_event = {
 
 add_namespace = FRA_west_africa_intervention
 
-#attackers win west african intervention
+
 country_event = {
 	id = FRA_west_africa_intervention.1
 	title = FRA_west_africa_intervention.1.t
@@ -1696,7 +1978,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_west_africa_intervention.11 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_west_africa_intervention.11 } 
 			}
 		}
 	}
@@ -1722,7 +2004,7 @@ country_event = {
 	}
 }
 
-#attackers win west african intervention
+
 country_event = {
 	id = FRA_west_africa_intervention.11
 	title = FRA_west_africa_intervention.1.t
@@ -1754,7 +2036,7 @@ country_event = {
 	}
 }
 
-#defenders win west african intervention
+
 country_event = {
 	id = FRA_west_africa_intervention.2
 	title = FRA_west_africa_intervention.2.t
@@ -1775,7 +2057,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_west_africa_intervention.21 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_west_africa_intervention.21 } 
 			}
 		}
 	}
@@ -1785,7 +2067,7 @@ country_event = {
 	}
 }
 
-#defenders win west african intervention
+
 country_event = {
 	id = FRA_west_africa_intervention.21
 	title = FRA_west_africa_intervention.2.t
@@ -1799,7 +2081,7 @@ country_event = {
 	}
 }
 
-#west african intervention stalls out
+
 country_event = {
 	id = FRA_west_africa_intervention.3
 	title = FRA_west_africa_intervention.3.t
@@ -1820,7 +2102,7 @@ country_event = {
 				limit = {
 					NOT = { tag = FRA }
 				}
-				FRA = { country_event = FRA_west_africa_intervention.31 } #due to border wars being weird, we might end up in a situation where another country is fighting the border war on French behalf. This ensures that the French are kept in the loop
+				FRA = { country_event = FRA_west_africa_intervention.31 } 
 			}
 		}
 	}
@@ -1829,7 +2111,7 @@ country_event = {
 	}
 }
 
-#west african intervention stalls out
+
 country_event = {
 	id = FRA_west_africa_intervention.31
 	title = FRA_west_africa_intervention.3.t
@@ -1842,15 +2124,15 @@ country_event = {
 	}
 }
 
- ##   ##  #   # ###  ### #  #  ##  ##  ### ###     ### ###  ##  #   #   # 
-#  # #  # ## ## #  # #   ## # #   #  #  #  #        #   #  #  # #    # #  
-#    #  # # # # ###  ##  # ##  #  ####  #  ##       #   #  #### #     #   
-#  # #  # #   # #    #   #  #   # #  #  #  #        #   #  #  # #     #   
- ##   ##  #   # #    ### #  # ##  #  #  #  ###     ###  #  #  # ###   #   
+ 
+
+
+
+ 
 
 add_namespace = lar_compensate_italy
 
-#initial event to Italy - France proposes to turn over Djibouti
+
 country_event = {
 	id = lar_compensate_italy.1
 	title = lar_compensate_italy.1.t
@@ -1858,7 +2140,7 @@ country_event = {
 	picture = GFX_report_event_generic_conference
 	is_triggered_only = yes
 	option = {
-		name = lar_compensate_italy.1.a #agree
+		name = lar_compensate_italy.1.a 
 		ai_chance = {
 			factor = 100
 		}
@@ -1866,13 +2148,14 @@ country_event = {
 			country_event = lar_compensate_italy.2
 		}
 		effect_tooltip = {
-			ITA = { transfer_state = 268 }
+			ITA = { transfer_state = 268 
+		transfer_state = 3143 }
 			FRA = { add_to_faction = ITA }
 		}
 	}
 
 	option = {
-		name = lar_compensate_italy.1.b #refuse
+		name = lar_compensate_italy.1.b 
 		ai_chance = {
 			factor = 0
 		}
@@ -1882,7 +2165,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - Italy agrees
+
 country_event = {
 	id = lar_compensate_italy.2
 	title = lar_compensate_italy.2.t
@@ -1890,7 +2173,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 	is_triggered_only = yes
 	option = {
-		name = lar_compensate_italy.2.a #agree
+		name = lar_compensate_italy.2.a 
 		ai_chance = {
 			factor = 100
 		}
@@ -1905,17 +2188,19 @@ country_event = {
 					}
 				}
 			}
-			ITA = { transfer_state = 268 }
+			ITA = { transfer_state = 268 
+		transfer_state = 3143 }
 		}
 		else = {
 			ITA = {
-				add_state_claim = 268
+				add_state_claim = 268 
+		add_state_claim = 3143
 			}
 		}
 		FRA = { add_to_faction = ITA }
 	}
 }
-#response event for France - Italy refuses
+
 country_event = {
 	id = lar_compensate_italy.3
 	title = lar_compensate_italy.3.t
@@ -1923,22 +2208,22 @@ country_event = {
 	picture = GFX_report_event_fascist_speech
 	is_triggered_only = yes
 	option = {
-		name = lar_compensate_italy.3.a #agree
+		name = lar_compensate_italy.3.a 
 		ai_chance = {
 			factor = 100
 		}
 	}
 }
 
-### #  # ### ### ###  #   # ### #  # ### ###  ##  #  #     ### #  #      ##  ###  ### ###  ##  ### 
- #  ## #  #  #   #  # #   # #   ## #  #   #  #  # ## #      #  ## #     #    #  # #   #   #  # #   
- #  # ##  #  ##  ###   # #  ##  # ##  #   #  #  # # ##      #  # ##     # ## ###  ##  ##  #    ##  
- #  #  #  #  #   #  #  # #  #   #  #  #   #  #  # #  #      #  #  #     #  # #  # #   #   #  # #   
-### #  #  #  ### #  #   #   ### #  #  #  ###  ##  #  #     ### #  #      ##  #  # ### ###  ##  ### 
+
+ 
+ 
+ 
+
 
 add_namespace = lar_intervention_in_greece
 
-#initial event to Italy - France proposes to intervene in Greece
+
 country_event = {
 	id = lar_intervention_in_greece.1
 	title = lar_intervention_in_greece.1.t
@@ -1946,7 +2231,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 	is_triggered_only = yes
 	option = {
-		name = lar_intervention_in_greece.1.a #agree
+		name = lar_intervention_in_greece.1.a 
 		ai_chance = {
 			factor = 100
 		}
@@ -1955,21 +2240,62 @@ country_event = {
 		}
 		effect_tooltip = {
 			ITA = { 
-				add_state_claim = 185
-				add_state_claim = 731
-				add_state_claim = 184
-				add_state_claim = 47
-				add_state_claim = 186
+				add_state_claim = 185 
+		add_state_claim = 1801 
+		add_state_claim = 1802 
+		add_state_claim = 1803 
+		add_state_claim = 1804 
+		add_state_claim = 1805 
+		add_state_claim = 1806 
+		add_state_claim = 1807 
+		add_state_claim = 1808 
+		add_state_claim = 1809 
+		add_state_claim = 1810 
+		add_state_claim = 1811
+				add_state_claim = 731 
+		add_state_claim = 9472 
+		add_state_claim = 9473 
+		add_state_claim = 9474 
+		add_state_claim = 9475 
+		add_state_claim = 9476 
+		add_state_claim = 9477 
+		add_state_claim = 9478
+				add_state_claim = 184 
+		add_state_claim = 1797 
+		add_state_claim = 1798 
+		add_state_claim = 1799 
+		add_state_claim = 1800
+				add_state_claim = 47 
+		add_state_claim = 6217 
+		add_state_claim = 6218 
+		add_state_claim = 6219 
+		add_state_claim = 6220 
+		add_state_claim = 6221 
+		add_state_claim = 6222 
+		add_state_claim = 6223 
+		add_state_claim = 6224
+				add_state_claim = 186 
+		add_state_claim = 1812 
+		add_state_claim = 1813 
+		add_state_claim = 1814 
+		add_state_claim = 1815 
+		add_state_claim = 1816 
+		add_state_claim = 1817
 			}
 			FRA = {
-				add_state_claim = 187
-				add_state_claim = 182
+				add_state_claim = 187 
+		add_state_claim = 1818 
+		add_state_claim = 1819
+				add_state_claim = 182 
+		add_state_claim = 1793 
+		add_state_claim = 1794 
+		add_state_claim = 1795
 			}
 		}
 	}
 
 	option = {
-		name = lar_intervention_in_greece.1.b #refuse
+		name = lar_intervention_in_greece.1.b 
 		ai_chance = {
 			factor = 0
 		}
@@ -1979,7 +2305,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - Italy agrees
+
 country_event = {
 	id = lar_intervention_in_greece.2
 	title = lar_intervention_in_greece.2.t
@@ -1987,24 +2313,65 @@ country_event = {
 	picture = GFX_report_event_france_parade
 	is_triggered_only = yes
 	option = {
-		name = lar_intervention_in_greece.2.a #agree
+		name = lar_intervention_in_greece.2.a 
 		ai_chance = {
 			factor = 100
 		}
 		FROM = {
-			add_state_claim = 185
-			add_state_claim = 731
-			add_state_claim = 184
-			add_state_claim = 47
-			add_state_claim = 186
+			add_state_claim = 185 
+		add_state_claim = 1801 
+		add_state_claim = 1802 
+		add_state_claim = 1803 
+		add_state_claim = 1804 
+		add_state_claim = 1805 
+		add_state_claim = 1806 
+		add_state_claim = 1807 
+		add_state_claim = 1808 
+		add_state_claim = 1809 
+		add_state_claim = 1810 
+		add_state_claim = 1811
+			add_state_claim = 731 
+		add_state_claim = 9472 
+		add_state_claim = 9473 
+		add_state_claim = 9474 
+		add_state_claim = 9475 
+		add_state_claim = 9476 
+		add_state_claim = 9477 
+		add_state_claim = 9478
+			add_state_claim = 184 
+		add_state_claim = 1797 
+		add_state_claim = 1798 
+		add_state_claim = 1799 
+		add_state_claim = 1800
+			add_state_claim = 47 
+		add_state_claim = 6217 
+		add_state_claim = 6218 
+		add_state_claim = 6219 
+		add_state_claim = 6220 
+		add_state_claim = 6221 
+		add_state_claim = 6222 
+		add_state_claim = 6223 
+		add_state_claim = 6224
+			add_state_claim = 186 
+		add_state_claim = 1812 
+		add_state_claim = 1813 
+		add_state_claim = 1814 
+		add_state_claim = 1815 
+		add_state_claim = 1816 
+		add_state_claim = 1817
 		}
 		FRA = {
-			add_state_claim = 187
-			add_state_claim = 182
+			add_state_claim = 187 
+		add_state_claim = 1818 
+		add_state_claim = 1819
+			add_state_claim = 182 
+		add_state_claim = 1793 
+		add_state_claim = 1794 
+		add_state_claim = 1795
 		}
 	}
 }
-#response event for France - Italy refuses
+
 country_event = {
 	id = lar_intervention_in_greece.3
 	title = lar_intervention_in_greece.3.t
@@ -2012,22 +2379,22 @@ country_event = {
 	picture = GFX_report_event_fascists_posing
 	is_triggered_only = yes
 	option = {
-		name = lar_intervention_in_greece.3.a #agree
+		name = lar_intervention_in_greece.3.a 
 		ai_chance = {
 			factor = 100
 		}
 	}
 }
 
-###   ##  #   # ### #  #  ##  ### ###     ### #  # ###     #   # ### ###  ###  #   ###     ###  ##   ## ### 
-#  # #  # ## ##  #  ## # #  #  #  #        #  #  # #       ## ##  #  #  # #  # #   #       #   #  # #    #  
-#  # #  # # # #  #  # ## ####  #  ##       #  #### ##      # # #  #  #  # #  # #   ##      ##  ####  #   #  
-#  # #  # #   #  #  #  # #  #  #  #        #  #  # #       #   #  #  #  # #  # #   #       #   #  #   #  #  
-###   ##  #   # ### #  # #  #  #  ###      #  #  # ###     #   # ### ###  ###  ### ###     ### #  # ##   #  
+
+
+
+
+
 
 add_namespace = lar_dominate_the_middle_east
 
-#initial event - France wants to control country
+
 country_event = {
 	id = lar_dominate_the_middle_east.1
 	title = lar_dominate_the_middle_east.1.t
@@ -2035,7 +2402,7 @@ country_event = {
 	picture = GFX_report_event_french_tanks
 	is_triggered_only = yes
 	option = {
-		name = lar_dominate_the_middle_east.1.a #agree
+		name = lar_dominate_the_middle_east.1.a 
 		ai_chance = {
 			factor = 70
 		}
@@ -2050,7 +2417,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_dominate_the_middle_east.1.b #refuse
+		name = lar_dominate_the_middle_east.1.b 
 		ai_chance = {
 			factor = 30
 		}
@@ -2068,7 +2435,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - country agrees
+
 country_event = {
 	id = lar_dominate_the_middle_east.2
 	title = lar_dominate_the_middle_east.2.t
@@ -2076,14 +2443,14 @@ country_event = {
 	picture = GFX_report_event_france_parade
 	is_triggered_only = yes
 	option = {
-		name = lar_dominate_the_middle_east.2.a #agree
+		name = lar_dominate_the_middle_east.2.a 
 		ai_chance = {
 			factor = 100
 		}
 		puppet = FROM
 	}
 }
-#response event for France - country refuses
+
 country_event = {
 	id = lar_dominate_the_middle_east.3
 	title = lar_dominate_the_middle_east.3.t
@@ -2091,7 +2458,7 @@ country_event = {
 	picture = GFX_report_event_generic_battle
 	is_triggered_only = yes
 	option = {
-		name = lar_dominate_the_middle_east.3.a #agree
+		name = lar_dominate_the_middle_east.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -2101,22 +2468,22 @@ country_event = {
 			}
 	}
 	option = {
-		name = lar_dominate_the_middle_east.3.b #back down
+		name = lar_dominate_the_middle_east.3.b 
 		ai_chance = {
 			factor = 20
 		}
 	}
 }
 
- ## ###  #  # ### ###  ###  ##      ##  ###     ### #  # ### #   #  # ### #  #  ##  ### 
-#   #  # #  # #   #  # #   #       #  # #        #  ## # #   #   #  # #   ## # #  # #   
- #  ###  #### ##  ###  ##   #      #  # ##       #  # ## ##  #   #  # ##  # ## #    ##  
-  # #    #  # #   #  # #     #     #  # #        #  #  # #   #   #  # #   #  # #  # #   
-##  #    #  # ### #  # ### ##       ##  #       ### #  # #   ###  ##  ### #  #  ##  ### 
+ 
+
+ 
+  
+
 
 add_namespace = lar_spheres_of_influence
 
-#initial event for Germany - France wants to split up spheres of interest in the benelux
+
 country_event = {
 	id = lar_spheres_of_influence.1
 	title = lar_spheres_of_influence.1.t
@@ -2124,7 +2491,7 @@ country_event = {
 	picture = GFX_report_event_generic_conference
 	is_triggered_only = yes
 	option = {
-		name = lar_spheres_of_influence.1.a #agree
+		name = lar_spheres_of_influence.1.a 
 		ai_chance = {
 			factor = 70
 		}
@@ -2134,20 +2501,53 @@ country_event = {
 		effect_tooltip = {
 			ROOT = {
 				add_state_claim = 8
-				add_state_claim = 7
-				add_state_claim = 35
-				add_state_claim = 36
+				add_state_claim = 7 
+		add_state_claim = 9279 
+		add_state_claim = 9280 
+		add_state_claim = 9281 
+		add_state_claim = 9282
+				add_state_claim = 35 
+		add_state_claim = 4140 
+		add_state_claim = 4141 
+		add_state_claim = 4142 
+		add_state_claim = 4143 
+		add_state_claim = 4144 
+		add_state_claim = 4145
+				add_state_claim = 36 
+		add_state_claim = 4338 
+		add_state_claim = 4339 
+		add_state_claim = 4340 
+		add_state_claim = 4341 
+		add_state_claim = 4342 
+		add_state_claim = 4343 
+		add_state_claim = 4344 
+		add_state_claim = 4345
 				add_to_faction = FROM
 			}
 			FROM = {
-				add_state_claim = 34
-				add_state_claim = 6
+				add_state_claim = 34 
+		add_state_claim = 4044 
+		add_state_claim = 4045 
+		add_state_claim = 4046 
+		add_state_claim = 4047 
+		add_state_claim = 4048 
+		add_state_claim = 4049 
+		add_state_claim = 4050 
+		add_state_claim = 4051
+				add_state_claim = 6 
+		add_state_claim = 8105 
+		add_state_claim = 8106 
+		add_state_claim = 8107 
+		add_state_claim = 8108 
+		add_state_claim = 8109 
+		add_state_claim = 8110 
+		add_state_claim = 8111
 			}
 		}
 	}
 
 	option = {
-		name = lar_spheres_of_influence.1.b #refuse
+		name = lar_spheres_of_influence.1.b 
 		ai_chance = {
 			factor = 30
 		}
@@ -2158,7 +2558,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - country agrees
+
 country_event = {
 	id = lar_spheres_of_influence.2
 	title = lar_spheres_of_influence.2.t
@@ -2166,27 +2566,60 @@ country_event = {
 	picture = GFX_report_event_german_speech
 	is_triggered_only = yes
 	option = {
-		name = lar_spheres_of_influence.2.a #agree
+		name = lar_spheres_of_influence.2.a 
 		ai_chance = {
 			factor = 100
 		}
 		FROM = {
 			add_state_claim = 8
-			add_state_claim = 7
-			add_state_claim = 35
-			add_state_claim = 36
+			add_state_claim = 7 
+		add_state_claim = 9279 
+		add_state_claim = 9280 
+		add_state_claim = 9281 
+		add_state_claim = 9282
+			add_state_claim = 35 
+		add_state_claim = 4140 
+		add_state_claim = 4141 
+		add_state_claim = 4142 
+		add_state_claim = 4143 
+		add_state_claim = 4144 
+		add_state_claim = 4145
+			add_state_claim = 36 
+		add_state_claim = 4338 
+		add_state_claim = 4339 
+		add_state_claim = 4340 
+		add_state_claim = 4341 
+		add_state_claim = 4342 
+		add_state_claim = 4343 
+		add_state_claim = 4344 
+		add_state_claim = 4345
 			add_to_faction = ROOT
 		}
 		ROOT = {
-			add_state_claim = 34
-			add_state_claim = 6
+			add_state_claim = 34 
+		add_state_claim = 4044 
+		add_state_claim = 4045 
+		add_state_claim = 4046 
+		add_state_claim = 4047 
+		add_state_claim = 4048 
+		add_state_claim = 4049 
+		add_state_claim = 4050 
+		add_state_claim = 4051
+			add_state_claim = 6 
+		add_state_claim = 8105 
+		add_state_claim = 8106 
+		add_state_claim = 8107 
+		add_state_claim = 8108 
+		add_state_claim = 8109 
+		add_state_claim = 8110 
+		add_state_claim = 8111
 		}
 		hidden_effect = {
 			news_event = { id = lar_news.7 days = 3 random_days = 7 }
 		}
 	}
 }
-#response event for France - country refuses
+
 country_event = {
 	id = lar_spheres_of_influence.3
 	title = lar_spheres_of_influence.3.t
@@ -2194,28 +2627,61 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 	is_triggered_only = yes
 	option = {
-		name = lar_spheres_of_influence.3.a #agree
+		name = lar_spheres_of_influence.3.a 
 		ai_chance = {
 			factor = 80
 		}
-		add_state_claim = 34
-		add_state_claim = 6
+		add_state_claim = 34 
+		add_state_claim = 4044 
+		add_state_claim = 4045 
+		add_state_claim = 4046 
+		add_state_claim = 4047 
+		add_state_claim = 4048 
+		add_state_claim = 4049 
+		add_state_claim = 4050 
+		add_state_claim = 4051
+		add_state_claim = 6 
+		add_state_claim = 8105 
+		add_state_claim = 8106 
+		add_state_claim = 8107 
+		add_state_claim = 8108 
+		add_state_claim = 8109 
+		add_state_claim = 8110 
+		add_state_claim = 8111
 		add_state_claim = 8
-		add_state_claim = 7
-		add_state_claim = 35
-		add_state_claim = 36
+		add_state_claim = 7 
+		add_state_claim = 9279 
+		add_state_claim = 9280 
+		add_state_claim = 9281 
+		add_state_claim = 9282
+		add_state_claim = 35 
+		add_state_claim = 4140 
+		add_state_claim = 4141 
+		add_state_claim = 4142 
+		add_state_claim = 4143 
+		add_state_claim = 4144 
+		add_state_claim = 4145
+		add_state_claim = 36 
+		add_state_claim = 4338 
+		add_state_claim = 4339 
+		add_state_claim = 4340 
+		add_state_claim = 4341 
+		add_state_claim = 4342 
+		add_state_claim = 4343 
+		add_state_claim = 4344 
+		add_state_claim = 4345
 	}
 }
 
- ##  #   ###  ##  #  #     ###  ### #    ##  ### #  # #   # 
-#  # #    #  #    ## #     #  # #   #   #     #  #  # ## ## 
-#### #    #  # ## # ##     ###  ##  #   # ##  #  #  # # # # 
-#  # #    #  #  # #  #     #  # #   #   #  #  #  #  # #   # 
-#  # ### ###  ##  #  #     ###  ### ###  ##  ###  ##  #   # 
+ 
+
+
+
+
 
 add_namespace = lar_align_belgium
 
-#initial event - France wants to control country
+
 country_event = {
 	id = lar_align_belgium.1
 	title = lar_align_belgium.1.t
@@ -2223,7 +2689,7 @@ country_event = {
 	picture = GFX_report_event_fascist_speech
 	is_triggered_only = yes
 	option = {
-		name = lar_align_belgium.1.a #agree
+		name = lar_align_belgium.1.a 
 		ai_chance = {
 			factor = 70
 		}
@@ -2238,7 +2704,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_align_belgium.1.b #refuse
+		name = lar_align_belgium.1.b 
 		ai_chance = {
 			factor = 30
 		}
@@ -2254,7 +2720,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - country agrees
+
 country_event = {
 	id = lar_align_belgium.2
 	title = lar_align_belgium.2.t
@@ -2262,14 +2728,14 @@ country_event = {
 	Picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
-		name = lar_align_belgium.2.a #agree
+		name = lar_align_belgium.2.a 
 		ai_chance = {
 			factor = 100
 		}
 		puppet = FROM
 	}
 }
-#response event for France - country refuses
+
 country_event = {
 	id = lar_align_belgium.3
 	title = lar_align_belgium.3.t
@@ -2277,7 +2743,7 @@ country_event = {
 	picture = GFX_report_event_generic_defensive_preparations
 	is_triggered_only = yes
 	option = {
-		name = lar_align_belgium.3.a #agree
+		name = lar_align_belgium.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -2287,23 +2753,23 @@ country_event = {
 			}
 	}
 	option = {
-		name = lar_align_belgium.3.b #back down
+		name = lar_align_belgium.3.b 
 		ai_chance = {
 			factor = 20
 		}
 	}
 }
 
- ## ###  #   ### ###     ###  ### #    ##  ### #  # #   # 
-#   #  # #    #   #      #  # #   #   #     #  #  # ## ## 
- #  ###  #    #   #      ###  ##  #   # ##  #  #  # # # # 
-  # #    #    #   #      #  # #   #   #  #  #  #  # #   # 
-##  #    ### ###  #      ###  ### ###  ##  ###  ##  #   # 
+ 
+
+ 
+  
+
 
 
 add_namespace = lar_split_belgium
 
-#initial event - France wants to control country
+
 country_event = {
 	id = lar_split_belgium.1
 	title = lar_split_belgium.1.t
@@ -2311,7 +2777,7 @@ country_event = {
 	picture = GFX_report_event_fascist_speech
 	is_triggered_only = yes
 	option = {
-		name = lar_split_belgium.1.a #agree
+		name = lar_split_belgium.1.a 
 		ai_chance = {
 			factor = 40
 		}
@@ -2321,13 +2787,21 @@ country_event = {
 		effect_tooltip = {
 			FRA = {
 				puppet = PREV
-				transfer_state = 34
+				transfer_state = 34 
+		transfer_state = 4044 
+		transfer_state = 4045 
+		transfer_state = 4046 
+		transfer_state = 4047 
+		transfer_state = 4048 
+		transfer_state = 4049 
+		transfer_state = 4050 
+		transfer_state = 4051
 			}
 		}
 	}
 
 	option = {
-		name = lar_split_belgium.1.b #refuse
+		name = lar_split_belgium.1.b 
 		ai_chance = {
 			factor = 60
 		}
@@ -2343,7 +2817,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - country agrees
+
 country_event = {
 	id = lar_split_belgium.2
 	title = lar_split_belgium.2.t
@@ -2351,15 +2825,23 @@ country_event = {
 	Picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
-		name = lar_split_belgium.2.a #agree
+		name = lar_split_belgium.2.a 
 		ai_chance = {
 			factor = 100
 		}
 		puppet = FROM
-		transfer_state = 34
+		transfer_state = 34 
+		transfer_state = 4044 
+		transfer_state = 4045 
+		transfer_state = 4046 
+		transfer_state = 4047 
+		transfer_state = 4048 
+		transfer_state = 4049 
+		transfer_state = 4050 
+		transfer_state = 4051
 	}
 }
-#response event for France - Belgium refuses
+
 country_event = {
 	id = lar_split_belgium.3
 	title = lar_split_belgium.3.t
@@ -2367,7 +2849,7 @@ country_event = {
 	Picture = GFX_report_event_generic_defensive_preparations
 	is_triggered_only = yes
 	option = {
-		name = lar_split_belgium.3.a #agree
+		name = lar_split_belgium.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -2377,22 +2859,22 @@ country_event = {
 		}
 	}
 	option = {
-		name = lar_split_belgium.3.b #back down
+		name = lar_split_belgium.3.b 
 		ai_chance = {
 			factor = 20
 		}
 	}
 }
 
- ##   ##  #  #  ##  ###  ##  ## ###  ##  #  #  ##     ###  ##      ### ###  ##  #   #   # 
-#  # #  # ## # #  # #   #   #    #  #  # ## # #        #  #  #      #   #  #  # #    # #  
-#    #  # # ## #    ##   #   #   #  #  # # ##  #       #  #  #      #   #  #### #     #   
-#  # #  # #  # #  # #     #   #  #  #  # #  #   #      #  #  #      #   #  #  # #     #   
- ##   ##  #  #  ##  ### ##  ##  ###  ##  #  # ##       #   ##      ###  #  #  # ###   #   
+ 
+
+
+
+ 
 
 add_namespace = lar_concessions_to_italy
 
-#initial event for ENG - France wants to appease Italy to pull them over to their side
+
 country_event = {
 	id = lar_concessions_to_italy.1
 	title = lar_concessions_to_italy.1.t
@@ -2400,7 +2882,7 @@ country_event = {
 	picture = GFX_report_event_mussolini_hotel
 	is_triggered_only = yes
 	option = {
-		name = lar_concessions_to_italy.1.a #agree
+		name = lar_concessions_to_italy.1.a 
 		ai_chance = {
 			factor = 40
 		}
@@ -2409,15 +2891,23 @@ country_event = {
 		}
 		effect_tooltip = {
 			ITA = {
-				transfer_state = 269
-				transfer_state = 268
+				transfer_state = 269 
+		transfer_state = 3144 
+		transfer_state = 3145 
+		transfer_state = 3146 
+		transfer_state = 3147 
+		transfer_state = 3148 
+		transfer_state = 3149 
+		transfer_state = 3150
+				transfer_state = 268 
+		transfer_state = 3143
 			}
 			custom_effect_tooltip = lar_concessions_italy_tt
 		}
 	}
 
 	option = {
-		name = lar_concessions_to_italy.1.b #refuse
+		name = lar_concessions_to_italy.1.b 
 		ai_chance = {
 			factor = 60
 		}
@@ -2427,7 +2917,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - country agrees
+
 country_event = {
 	id = lar_concessions_to_italy.2
 	title = lar_concessions_to_italy.2.t
@@ -2435,7 +2925,7 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
-		name = lar_concessions_to_italy.2.a #agree
+		name = lar_concessions_to_italy.2.a 
 		ai_chance = {
 			factor = 100
 		}
@@ -2444,7 +2934,7 @@ country_event = {
 		}
 	}
 }
-#response event for France - country refuses
+
 country_event = {
 	id = lar_concessions_to_italy.3
 	title = lar_concessions_to_italy.3.t
@@ -2452,7 +2942,7 @@ country_event = {
 	picture = GFX_report_event_fascist_gathering
 	is_triggered_only = yes
 	option = {
-		name = lar_concessions_to_italy.3.a #agree
+		name = lar_concessions_to_italy.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -2462,7 +2952,7 @@ country_event = {
 	}
 }
 
-# rasponse event for Italy - France and Britain offer consessions
+
 country_event = {
 	id = lar_concessions_to_italy.4
 	title = lar_concessions_to_italy.4.t
@@ -2470,14 +2960,22 @@ country_event = {
 	picture = GFX_report_event_generic_conference
 	is_triggered_only = yes
 	option = {
-		name = lar_concessions_to_italy.4.a #agree
+		name = lar_concessions_to_italy.4.a 
 		ai_chance = {
 			factor = 80
 		}
 		set_global_flag = ITA_agrees_ENG_FRA_concessions
 		effect_tooltip = {
-			transfer_state = 268
-			transfer_state = 269
+			transfer_state = 268 
+		transfer_state = 3143
+			transfer_state = 269 
+		transfer_state = 3144 
+		transfer_state = 3145 
+		transfer_state = 3146 
+		transfer_state = 3147 
+		transfer_state = 3148 
+		transfer_state = 3149 
+		transfer_state = 3150
 		}
 		custom_effect_tooltip = LAR_concessions_stresa_front_tt
 		hidden_effect = {
@@ -2490,7 +2988,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = lar_concessions_to_italy.4.b #no deal
+		name = lar_concessions_to_italy.4.b 
 		ai_chance = {
 			factor = 20
 		}
@@ -2503,7 +3001,7 @@ country_event = {
 		
 	}
 }
-#response event for Italy - only France offers concessions
+
 country_event = {
 	id = lar_concessions_to_italy.5
 	title = lar_concessions_to_italy.5.t
@@ -2511,13 +3009,14 @@ country_event = {
 	picture = GFX_report_event_generic_conference
 	is_triggered_only = yes
 	option = {
-		name = lar_concessions_to_italy.5.a #agree
+		name = lar_concessions_to_italy.5.a 
 		ai_chance = {
 			factor = 80
 		}
 		set_global_flag = ITA_agrees_FRA_concessions
 		effect_tooltip = {
-			transfer_state = 268
+			transfer_state = 268 
+		transfer_state = 3143
 		}
 		custom_effect_tooltip = LAR_concessions_stresa_front_tt
 		hidden_effect = {
@@ -2527,7 +3026,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = lar_concessions_to_italy.5.b #no deal
+		name = lar_concessions_to_italy.5.b 
 		ai_chance = {
 			factor = 20
 		}
@@ -2536,7 +3035,7 @@ country_event = {
 		}
 	}
 }
-#notification event - Italy agrees
+
 country_event = {
 	id = lar_concessions_to_italy.6
 	title = lar_concessions_to_italy.6.t
@@ -2544,14 +3043,14 @@ country_event = {
 	picture = GFX_report_event_fascist_speech
 	is_triggered_only = yes
 	option = {
-		name = lar_concessions_to_italy.6.a #agree
+		name = lar_concessions_to_italy.6.a 
 		ai_chance = {
 			factor = 80
 		}
 		set_country_flag = lar_france_stresa_front_italy_agreed
 	}
 }
-# notification event - Italy refuses
+
 country_event = {
 	id = lar_concessions_to_italy.7
 	title = lar_concessions_to_italy.7.t
@@ -2559,22 +3058,22 @@ country_event = {
 	picture = GFX_report_event_fascist_gathering
 	is_triggered_only = yes
 	option = {
-		name = lar_concessions_to_italy.7.a #agree
+		name = lar_concessions_to_italy.7.a 
 		ai_chance = {
 			factor = 80
 		}
 	}
 }
 
-###   ##  ### ### ### #   #     ### #  # ###      ## ### ###  ###  ##  ##      ### ###   ##  #  # ### 
-#  # #  #  #   #  #    # #       #  #  # #       #    #  #  # #   #   #  #     #   #  # #  # ## #  #  
-###  ####  #   #  ##    #        #  #### ##       #   #  ###  ##   #  ####     ##  ###  #  # # ##  #  
-#  # #  #  #   #  #     #        #  #  # #         #  #  #  # #     # #  #     #   #  # #  # #  #  #  
-#  # #  #  #  ### #     #        #  #  # ###     ##   #  #  # ### ##  #  #     #   #  #  ##  #  #  #  
+
+
+
+
+
 
 add_namespace = lar_ratify_the_stresa_front
 
-#initial event for Italy
+
 country_event = {
 	id = lar_ratify_the_stresa_front.1
 	title = lar_ratify_the_stresa_front.1.t
@@ -2582,19 +3081,27 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
-		name = lar_ratify_the_stresa_front.1.a #agree
+		name = lar_ratify_the_stresa_front.1.a 
 		ai_chance = {
 			factor = 80
 		}
 		FRA = {
 			country_event = lar_ratify_the_stresa_front.2
 		}
-		effect_tooltip = { transfer_state = 268 }
+		effect_tooltip = { transfer_state = 268 
+		transfer_state = 3143 }
 		if = {
 			limit = {
 				has_global_flag = ITA_agrees_ENG_FRA_concessions
 			}
-			effect_tooltip = { transfer_state = 269 }
+			effect_tooltip = { transfer_state = 269 
+		transfer_state = 3144 
+		transfer_state = 3145 
+		transfer_state = 3146 
+		transfer_state = 3147 
+		transfer_state = 3148 
+		transfer_state = 3149 
+		transfer_state = 3150 }
 		}
 		add_ai_strategy = {
 			type = alliance
@@ -2618,7 +3125,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_ratify_the_stresa_front.1.b #refuse
+		name = lar_ratify_the_stresa_front.1.b 
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -2635,7 +3142,7 @@ country_event = {
 	}
 }
 
-# event for France - Italy has agreed, do we want to hand over territory in exchange for an alliance?
+
 country_event = {
 	id = lar_ratify_the_stresa_front.2
 	title = lar_ratify_the_stresa_front.1.t
@@ -2643,7 +3150,7 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty2
 	is_triggered_only = yes
 	option = {
-		name = lar_ratify_the_stresa_front.2.a #agree
+		name = lar_ratify_the_stresa_front.2.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -2654,7 +3161,8 @@ country_event = {
 			set_country_flag = Franco_soviet_guaarantee 
 		}
 		ITA = {
-			transfer_state = 268
+			transfer_state = 268 
+		transfer_state = 3143
 		}
 		if = {
 			limit = { is_in_faction = yes }
@@ -2709,7 +3217,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_ratify_the_stresa_front.2.b #refuse
+		name = lar_ratify_the_stresa_front.2.b 
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -2726,7 +3234,7 @@ country_event = {
 	}
 }
 
-#notification - country has refused to ratify
+
 country_event = {
 	id = lar_ratify_the_stresa_front.3
 	title = lar_ratify_the_stresa_front.3.t
@@ -2734,7 +3242,7 @@ country_event = {
 	picture = GFX_report_event_worried_french
 	is_triggered_only = yes
 	option = {
-		name = lar_ratify_the_stresa_front.3.a #agree
+		name = lar_ratify_the_stresa_front.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -2742,7 +3250,7 @@ country_event = {
 	}
 }
 
-# event for Britain - Italy has agreed, do we want to hand over territory in exchange for an alliance?
+
 country_event = {
 	id = lar_ratify_the_stresa_front.4
 	title = lar_ratify_the_stresa_front.1.t
@@ -2750,12 +3258,19 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty2
 	is_triggered_only = yes
 	option = {
-		name = lar_ratify_the_stresa_front.4.a #agree
+		name = lar_ratify_the_stresa_front.4.a 
 		ai_chance = {
 			factor = 80
 		}
 		ITA = {
-			transfer_state = 269
+			transfer_state = 269 
+		transfer_state = 3144 
+		transfer_state = 3145 
+		transfer_state = 3146 
+		transfer_state = 3147 
+		transfer_state = 3148 
+		transfer_state = 3149 
+		transfer_state = 3150
 		}
 		set_global_flag = LaR_Britain_Stresa_Concessions
 		if = {
@@ -2773,7 +3288,7 @@ country_event = {
 					is_subject_of = ROOT
 				}
 				FRA = {
-					add_to_faction = PREV #merge british colonies into new faction
+					add_to_faction = PREV 
 				}
 			}
 			every_other_country = {
@@ -2807,7 +3322,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_ratify_the_stresa_front.4.b #refuse
+		name = lar_ratify_the_stresa_front.4.b 
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -2824,15 +3339,15 @@ country_event = {
 	}
 }
 
-### ###   ##  #  #  ##   ##      ##  ##  #   # ### ### ###     ### ###  ###  ##  ### #   # 
-#   #  # #  # ## # #  # #  #    #   #  # #   #  #  #    #       #  #  # #   #  #  #   # #  
-##  ###  #### # ## #    #  # ##  #  #  #  # #   #  ##   #       #  ###  ##  ####  #    #   
-#   #  # #  # #  # #  # #  #      # #  #  # #   #  #    #       #  #  # #   #  #  #    #   
-#   #  # #  # #  #  ##   ##     ##   ##    #   ### ###  #       #  #  # ### #  #  #    #   
+
+
+
+
+
 
 add_namespace = lar_franco_soviet_treaty
 
-#initial event - France offers treaty
+
 country_event = {
 	id = lar_franco_soviet_treaty.1
 	title = lar_franco_soviet_treaty.1.t
@@ -2840,7 +3355,7 @@ country_event = {
 	picture = GFX_report_event_stalin_02
 	is_triggered_only = yes
 	option = {
-		name = lar_franco_soviet_treaty.1.a #agree
+		name = lar_franco_soviet_treaty.1.a 
 		ai_chance = {
 			factor = 40
 		}
@@ -2856,7 +3371,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_franco_soviet_treaty.1.b #refuse
+		name = lar_franco_soviet_treaty.1.b 
 		ai_chance = {
 			factor = 60
 			modifier = {
@@ -2870,7 +3385,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - country agrees
+
 country_event = {
 	id = lar_franco_soviet_treaty.2
 	title = lar_franco_soviet_treaty.2.t
@@ -2878,7 +3393,7 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty2
 	is_triggered_only = yes
 	option = {
-		name = lar_franco_soviet_treaty.2.a #agree
+		name = lar_franco_soviet_treaty.2.a 
 		ai_chance = {
 			factor = 100
 		}
@@ -2887,7 +3402,7 @@ country_event = {
 		
 	}
 }
-#response event for France - soviets refuse
+
 country_event = {
 	id = lar_franco_soviet_treaty.3
 	title = lar_franco_soviet_treaty.3.t
@@ -2895,22 +3410,22 @@ country_event = {
 	picture = GFX_report_event_stalin_meeting
 	is_triggered_only = yes
 	option = {
-		name = lar_franco_soviet_treaty.3.a #agree
+		name = lar_franco_soviet_treaty.3.a 
 		ai_chance = {
 			factor = 80
 		}
 	}
 }
 
-### #  # ###      ### #  # ###      ##   ##   ##  #  # ###   ##  ### ###  ##  #  # 
-#   ## # #  #      #  #  # #       #  # #  # #  # #  # #  # #  #  #   #  #  # ## # 
-##  # ## #  #      #  #### ##      #  # #    #    #  # ###  ####  #   #  #  # # ## 
-#   #  # #  #      #  #  # #       #  # #  # #  # #  # #    #  #  #   #  #  # #  # 
-### #  # ###       #  #  # ###      ##   ##   ##   ##  #    #  #  #  ###  ##  #  # 
+
+
+
+
+
 
 add_namespace = lar_end_the_occupation
 
-#initial event for Germany - vichy wants to end the occupation and join the axis
+
 country_event = {
 	id = lar_end_the_occupation.1
 	title = lar_end_the_occupation.1.t
@@ -2920,7 +3435,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_end_the_occupation.1.a #agree
+		name = lar_end_the_occupation.1.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -2936,7 +3451,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = lar_end_the_occupation.1.b #refuse
+		name = lar_end_the_occupation.1.b 
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -2956,7 +3471,7 @@ country_event = {
 		FROM = { country_event = lar_end_the_occupation.3 }
 	}
 }
-# Germany approves
+
 country_event = {
 	id = lar_end_the_occupation.2
 	title = lar_end_the_occupation.2.t
@@ -2971,11 +3486,11 @@ country_event = {
 			factor = 50
 		}
 		hidden_effect = { news_event = { id = lar_news.4 days = 3 random_days = 5 } }
-		every_state = { #take over core french territory that is being held by Germany
+		every_state = { 
 			limit = {
 				is_core_of = ROOT
-				NOT = { state = 28 } #Elsass-Lothringen ist deutsch!
-				NOT = { state = 735 } #Savoy is Italian
+				NOT = { state = 28 } 
+				NOT = { state = 735 } 
 				OR = {
 					is_controlled_by = FROM
 					CONTROLLER = {
@@ -3000,7 +3515,7 @@ country_event = {
 	}
 }
 
-# Germany refuses
+
 country_event = {
 	id = lar_end_the_occupation.3
 	title = lar_end_the_occupation.3.t
@@ -3010,7 +3525,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_end_the_occupation.3.a #let's talk to Free France
+		name = lar_end_the_occupation.3.a 
 		ai_chance = {
 			factor = 50
 		}
@@ -3024,7 +3539,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = lar_end_the_occupation.3.b #fine, we'll do it ourselves
+		name = lar_end_the_occupation.3.b 
 		ai_chance = {
 			factor = 50
 		}
@@ -3037,7 +3552,7 @@ country_event = {
 	}
 }
 
-# Vichy wants to join after germany refuses to hand back territory
+
 country_event = {
 	id = lar_end_the_occupation.4
 	title = lar_end_the_occupation.4.t
@@ -3047,7 +3562,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_end_the_occupation.4.a #agree
+		name = lar_end_the_occupation.4.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3057,7 +3572,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = lar_end_the_occupation.4.b #refuse
+		name = lar_end_the_occupation.4.b 
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -3069,7 +3584,7 @@ country_event = {
 	}
 }
 
-# Vichy joins Free France after germany refuses to hand back territory
+
 country_event = {
 	id = lar_end_the_occupation.5
 	title = lar_end_the_occupation.5.t
@@ -3093,7 +3608,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_end_the_occupation.5.a #agree
+		name = lar_end_the_occupation.5.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3108,7 +3623,7 @@ country_event = {
 	}
 }
 
-# Free France refuses, Vichy goes at it alone after all
+
 country_event = {
 	id = lar_end_the_occupation.6
 	title = lar_end_the_occupation.6.t
@@ -3118,7 +3633,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = lar_end_the_occupation.6.a #agree
+		name = lar_end_the_occupation.6.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3131,15 +3646,15 @@ country_event = {
 	}
 }
 
-#    ##  #   #      ## ###  ##  ###  ### #   ### ### #   #      ##  ### #   # ### #       #   #  ##  ###  
-#   #  # #   #     #    #  #  # #  #  #  #    #   #   # #      #  #  #  #   #  #  #       #   # #  # #  # 
-#   #  # # # #      #   #  #### ###   #  #    #   #    #       #     #   # #   #  #       # # # #### ###  
-#   #  # # # #       #  #  #  # #  #  #  #    #   #    #       #  #  #   # #   #  #       # # # #  # #  # 
-###  ##   # #      ##   #  #  # ###  ### ### ###  #    #        ##  ###   #   ### ###      # #  #  # #  # 
+
+
+
+
+
 
 add_namespace = lar_low_stability_civil_war
 
-#communists start uprising
+
 country_event = {
 	id = lar_low_stability_civil_war.1
 	title = lar_low_stability_civil_war.1.t
@@ -3153,7 +3668,7 @@ country_event = {
 			AND = {
 				SPR_scw_in_progress = yes
 				any_enemy_country = {
-					original_tag = SPR #civil war still fires if in intervention in Spain
+					original_tag = SPR 
 				}
 			}
 		}
@@ -3163,7 +3678,7 @@ country_event = {
 	mean_time_to_happen = { days = 180 }
 	fire_only_once = yes
 	option = {
-		name = lar_low_stability_civil_war.1.a #agree
+		name = lar_low_stability_civil_war.1.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3174,7 +3689,7 @@ country_event = {
 	}
 }
 
-#fascists start uprising
+
 country_event = {
 	id = lar_low_stability_civil_war.2
 	title = lar_low_stability_civil_war.2.t
@@ -3188,7 +3703,7 @@ country_event = {
 			AND = {
 				SPR_scw_in_progress = yes
 				any_enemy_country = {
-					original_tag = SPR #civil war still fires if in intervention in Spain
+					original_tag = SPR 
 				}
 			}
 		}
@@ -3201,7 +3716,7 @@ country_event = {
 	mean_time_to_happen = { days = 180 }
 	fire_only_once = yes
 	option = {
-		name = lar_low_stability_civil_war.2.a #agree
+		name = lar_low_stability_civil_war.2.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3212,17 +3727,17 @@ country_event = {
 	}
 }
 
-#   #  ##  ###  # # ### ###       ## #  #  ##  ###  ###  ##   ##  ### 
-#   # #  # #  # # # #   #  #     #   #  # #  # #  #  #  #  # #    #   
-# # # #  # ###  ##  ##  ###       #  #### #  # ###   #  #### # ## ##  
-# # # #  # #  # # # #   #  #       # #  # #  # #  #  #  #  # #  # #   
- # #   ##  #  # # # ### #  #     ##  #  #  ##  #  #  #  #  #  ##  ### 
 
 
-#events to notify player that they are having worker issues
+
+
+ 
+
+
+
 add_namespace = lar_worker_shortage
 
-#country switched to extensive conscription while on full employment
+
 country_event = {
 	id = lar_worker_shortage.1
 	title = lar_worker_shortage.1.t
@@ -3252,11 +3767,11 @@ country_event = {
 	}
 
 	option = {
-		name = lar_worker_shortage.1.a #agree
+		name = lar_worker_shortage.1.a 
 		ai_chance = {
 			factor = 80
 		}
-		effect_tooltip = { #actual effect in immediate so player can not avoid by waiting it out, tooltip here to tell player what is happening
+		effect_tooltip = { 
 			swap_ideas = {
 				remove_idea = FRA_full_employment
 				add_idea = FRA_worker_shortage
@@ -3265,7 +3780,7 @@ country_event = {
 	}
 }
 
-#country demobilizes while having worker shortage
+
 country_event = {
 	id = lar_worker_shortage.2
 	title = lar_worker_shortage.2.t
@@ -3284,7 +3799,7 @@ country_event = {
 	}
 	mean_time_to_happen = { days = 20 }
 	option = {
-		name = lar_worker_shortage.2.a #agree
+		name = lar_worker_shortage.2.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3295,15 +3810,15 @@ country_event = {
 	}
 }
 
- ##  ###  #   #  ##     ###  #  # ###   ##  #  #  ##   ## ###  ## 
-#  # #  # ## ## #       #  # #  # #  # #  # #  # #  # #   #   #   
-#### ###  # # #  #      ###  #  # ###  #    #### ####  #  ##   #  
-#  # #  # #   #   #     #    #  # #  # #  # #  # #  #   # #     # 
-#  # #  # #   # ##      #     ##  #  #  ##  #  # #  # ##  ### ##  
+ 
+
+
+
+
 
 add_namespace = lar_arms_purchases
 
-#intial event for US - France wants to buy weapons
+
 country_event = {
 	id = lar_arms_purchases.1
 	title = lar_arms_purchases.1.t
@@ -3311,7 +3826,7 @@ country_event = {
 	picture = GFX_report_event_generic_lend_lease
 	is_triggered_only = yes
 	option = {
-		name = lar_arms_purchases.1.a #agree
+		name = lar_arms_purchases.1.a 
 		ai_chance = {
 			factor = 40
 		}
@@ -3325,7 +3840,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_arms_purchases.1.b #refuse
+		name = lar_arms_purchases.1.b 
 		ai_chance = {
 			factor = 60
 			modifier = {
@@ -3339,7 +3854,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - country agrees
+
 country_event = {
 	id = lar_arms_purchases.2
 	title = lar_arms_purchases.2.t
@@ -3347,14 +3862,14 @@ country_event = {
 	picture = GFX_report_event_merchant_ship_01
 	is_triggered_only = yes
 	option = {
-		name = lar_arms_purchases.2.a #agree
+		name = lar_arms_purchases.2.a 
 		ai_chance = {
 			factor = 100
 		}
 		set_country_flag = FRA_arms_purchases_permitted
 	}
 }
-#response event for France - US refuse
+
 country_event = {
 	id = lar_arms_purchases.3
 	title = lar_arms_purchases.3.t
@@ -3362,22 +3877,22 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 	is_triggered_only = yes
 	option = {
-		name = lar_arms_purchases.3.a #agree
+		name = lar_arms_purchases.3.a 
 		ai_chance = {
 			factor = 80
 		}
 	}
 }
 
-#   #  ##  #   #  # #  # ### ### ### ###   ##     ###  ##       ## ###   ##  ### #  # 
-#   # #  # #   #  # ## #  #  #   #   #  # #        #  #  #     #   #  # #  #  #  ## # 
- # #  #  # #   #  # # ##  #  ##  ##  ###   #       #  #  #      #  ###  ####  #  # ## 
- # #  #  # #   #  # #  #  #  #   #   #  #   #      #  #  #       # #    #  #  #  #  # 
-  #    ##  ###  ##  #  #  #  ### ### #  # ##       #   ##      ##  #    #  # ### #  # 
+
+
+ 
+ 
+  
 
 add_namespace = lar_france_volunteers
 
-#event for country - French volunteers have joined!
+
 country_event = {
 	id = lar_france_volunteers.1
 	title = lar_france_volunteers.1.t
@@ -3395,7 +3910,7 @@ country_event = {
 		else_if = {
 			limit = { has_government = democratic }
 			set_variable = { volunteer_strength = FRA.party_popularity@democratic }
-			multiply_variable = { volunteer_strength = FRA.war_support } #special modifier to reduce impact of democratic support
+			multiply_variable = { volunteer_strength = FRA.war_support } 
 		}
 		else_if = {
 			limit = { has_government = neutrality }
@@ -3405,7 +3920,7 @@ country_event = {
 	}
 	is_triggered_only = yes
 	option = {
-		name = lar_france_volunteers.1.a #agree
+		name = lar_france_volunteers.1.a 
 		ai_chance = {
 			factor = 40
 		}
@@ -3414,7 +3929,7 @@ country_event = {
 	}
 }
 
-# volunteers return - hidden event
+
 country_event = {
 	id = lar_france_volunteers.2
 	hidden = yes
@@ -3432,7 +3947,7 @@ country_event = {
 	option = {}
 }  
 
-# volunteers return - event for France to accept them
+
 country_event = {
 	id = lar_france_volunteers.3
 	title = lar_france_volunteers.3.t
@@ -3441,7 +3956,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = lar_france_volunteers.3.a #agree
+		name = lar_france_volunteers.3.a 
 		ai_chance = {
 			factor = 60
 		}
@@ -3484,7 +3999,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_france_volunteers.3.b #arefuse
+		name = lar_france_volunteers.3.b 
 		ai_chance = {
 			factor = 40
 		}
@@ -3531,15 +4046,15 @@ country_event = {
 	}
 } 
 
-#  #  ##  #  #     ### #  # ### ### ###  #   # ### #  # ### ###  ##  #  #     ### #  #      ## ###   ##  ### #  # 
-## # #  # ## #      #  ## #  #  #   #  # #   # #   ## #  #   #  #  # ## #      #  ## #     #   #  # #  #  #  ## # 
-# ## #  # # ##      #  # ##  #  ##  ###   # #  ##  # ##  #   #  #  # # ##      #  # ##      #  ###  ####  #  # ## 
-#  # #  # #  #      #  #  #  #  #   #  #  # #  #   #  #  #   #  #  # #  #      #  #  #       # #    #  #  #  #  # 
-#  #  ##  #  #     ### #  #  #  ### #  #   #   ### #  #  #  ###  ##  #  #     ### #  #     ##  #    #  # ### #  # 
+
+
+
+
+
 
 add_namespace = lar_non_intervention
 
-#intial event France wants to propose non-intervention
+
 country_event = {
 	id = lar_non_intervention.1
 	title = lar_non_intervention.1.t
@@ -3547,7 +4062,7 @@ country_event = {
 	picture = GFX_report_event_generic_conference
 	is_triggered_only = yes
 	option = {
-		name = lar_non_intervention.1.a #agree
+		name = lar_non_intervention.1.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3558,7 +4073,7 @@ country_event = {
 	}
 
 	option = {
-		name = lar_non_intervention.1.b #refuse
+		name = lar_non_intervention.1.b 
 		ai_chance = {
 			factor = 20
 		}
@@ -3569,7 +4084,7 @@ country_event = {
 	}
 }
 
-# rasponse event for France - country agrees
+
 country_event = {
 	id = lar_non_intervention.2
 	title = lar_non_intervention.2.t
@@ -3577,7 +4092,7 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes
 	option = {
-		name = lar_non_intervention.2.a #agree
+		name = lar_non_intervention.2.a 
 		ai_chance = {
 			factor = 100
 		}
@@ -3585,7 +4100,7 @@ country_event = {
 		add_war_support = -0.01
 	}
 }
-#response event for France - country refuses
+
 country_event = {
 	id = lar_non_intervention.3
 	title = lar_non_intervention.3.t
@@ -3593,18 +4108,18 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty2
 	is_triggered_only = yes
 	option = {
-		name = lar_non_intervention.3.a #agree
+		name = lar_non_intervention.3.a 
 		ai_chance = {
 			factor = 80
 		}
 	}
 }
 
- ##   ##  #   # #   # #  # #  # ###  ## ###      ## #  # ###  ###   ##  ###  ### 
-#  # #  # ## ## ## ## #  # ## #  #  #    #      #   #  # #  # #  # #  # #  #  #  
-#    #  # # # # # # # #  # # ##  #   #   #       #  #  # ###  ###  #  # ###   #  
-#  # #  # #   # #   # #  # #  #  #    #  #        # #  # #    #    #  # #  #  #  
- ##   ##  #   # #   #  ##  #  # ### ##   #      ##   ##  #    #     ##  #  #  #  
+ 
+
+
+
+ 
 
 add_namespace = lar_communist_support
 
@@ -3628,11 +4143,11 @@ country_event = {
 	}
 }
 
- ##  ###  ###  ###  ##  #       ###  ##       ##  #   # ### ###   ## ###  ##   ##     ### ### ###  ###  ### ###  ##  ###  #   # 
-#  # #  # #  # #   #  # #        #  #  #     #  # #   # #   #  # #   #   #  # #        #  #   #  # #  #  #   #  #  # #  #  # #  
-#### ###  ###  ##  #### #        #  #  #     #  #  # #  ##  ###   #  ##  ####  #       #  ##  ###  ###   #   #  #  # ###    #   
-#  # #    #    #   #  # #        #  #  #     #  #  # #  #   #  #   # #   #  #   #      #  #   #  # #  #  #   #  #  # #  #   #   
-#  # #    #    ### #  # ###      #   ##       ##    #   ### #  # ##  ### #  # ##       #  ### #  # #  # ###  #   ##  #  #   #   
+ 
+
+
+
+
 
 add_namespace = lar_appeal_to_overseas_territories
 
@@ -3642,28 +4157,28 @@ country_event = {
 	is_triggered_only = yes
 	immediate = {
 		random_list = {
-			85 = { country_event = lar_appeal_to_overseas_territories.2 } #indochina remains with Vichy
-			15 = { country_event = lar_appeal_to_overseas_territories.3 } #indochina switches sides
+			85 = { country_event = lar_appeal_to_overseas_territories.2 } 
+			15 = { country_event = lar_appeal_to_overseas_territories.3 } 
 		}
 		random_list = {
-			80 = { country_event = { id = lar_appeal_to_overseas_territories.4 days = 3 } } #syria remains with Vichy
-			20 = { country_event = { id = lar_appeal_to_overseas_territories.5 days = 3 } } #syria switches sides
+			80 = { country_event = { id = lar_appeal_to_overseas_territories.4 days = 3 } } 
+			20 = { country_event = { id = lar_appeal_to_overseas_territories.5 days = 3 } } 
 		}
 		random_list = {
-			80 = { country_event = { id = lar_appeal_to_overseas_territories.6 days = 8 } } #central africa remains with Vichy
-			20 = { country_event = { id = lar_appeal_to_overseas_territories.7 days = 8 } } #central africa switches sides
+			80 = { country_event = { id = lar_appeal_to_overseas_territories.6 days = 8 } } 
+			20 = { country_event = { id = lar_appeal_to_overseas_territories.7 days = 8 } } 
 		}
 		random_list = {
-			90 = { country_event = { id = lar_appeal_to_overseas_territories.8 days = 12 } } #western africa remains with Vichy
-			10 = { country_event = { id = lar_appeal_to_overseas_territories.9 days = 12 } } #western africa switches sides
+			90 = { country_event = { id = lar_appeal_to_overseas_territories.8 days = 12 } } 
+			10 = { country_event = { id = lar_appeal_to_overseas_territories.9 days = 12 } } 
 		}
 		random_list = {
-			70 = { country_event = { id = lar_appeal_to_overseas_territories.10 days = 16 } } #madagascar remains with Vichy
-			30 = { country_event = { id = lar_appeal_to_overseas_territories.11 days = 16 } } #madagascar switches sides
+			70 = { country_event = { id = lar_appeal_to_overseas_territories.10 days = 16 } } 
+			30 = { country_event = { id = lar_appeal_to_overseas_territories.11 days = 16 } } 
 		}
 		random_list = {
-			95 = { country_event = { id = lar_appeal_to_overseas_territories.12 days = 20 } } #north africa remains with Vichy
-			5 = { country_event = { id = lar_appeal_to_overseas_territories.13 days = 20 } } #north africa switches sides
+			95 = { country_event = { id = lar_appeal_to_overseas_territories.12 days = 20 } } 
+			5 = { country_event = { id = lar_appeal_to_overseas_territories.13 days = 20 } } 
 		}
 	}
 	
@@ -3672,7 +4187,7 @@ country_event = {
 	}
 }
 
-# indochina remains with Vichy France
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.2
 	title = lar_appeal_to_overseas_territories.2.t
@@ -3680,13 +4195,13 @@ country_event = {
 	picture = GFX_report_event_france_parade
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.2.a #agree
+		name = lar_appeal_to_overseas_territories.2.a 
 		ai_chance = {
 			factor = 100
 		}
 	}
 }
-#indochina switches sides
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.3
 	title = lar_appeal_to_overseas_territories.3.t
@@ -3694,7 +4209,7 @@ country_event = {
 	picture = GFX_report_event_felix_eboue
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.3.a #agree
+		name = lar_appeal_to_overseas_territories.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3703,7 +4218,7 @@ country_event = {
 	}
 }
 
-# syria remains with Vichy France
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.4
 	title = lar_appeal_to_overseas_territories.4.t
@@ -3711,13 +4226,13 @@ country_event = {
 	picture = GFX_report_event_france_parade
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.2.a #agree
+		name = lar_appeal_to_overseas_territories.2.a 
 		ai_chance = {
 			factor = 100
 		}
 	}
 }
-#syria switches sides
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.5
 	title = lar_appeal_to_overseas_territories.5.t
@@ -3725,7 +4240,7 @@ country_event = {
 	picture = GFX_report_event_felix_eboue
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.3.a #agree
+		name = lar_appeal_to_overseas_territories.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3734,7 +4249,7 @@ country_event = {
 	}
 }
 
-# central africa remains with Vichy France
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.6
 	title = lar_appeal_to_overseas_territories.6.t
@@ -3742,13 +4257,13 @@ country_event = {
 	picture = GFX_report_event_france_parade
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.6.a #agree
+		name = lar_appeal_to_overseas_territories.6.a 
 		ai_chance = {
 			factor = 100
 		}
 	}
 }
-#central africa switches sides
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.7
 	title = lar_appeal_to_overseas_territories.7.t
@@ -3756,7 +4271,7 @@ country_event = {
 	picture = GFX_report_event_felix_eboue
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.3.a #agree
+		name = lar_appeal_to_overseas_territories.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3764,7 +4279,7 @@ country_event = {
 		FRA_transfer_central_africa_effect = yes
 	}
 }
-# western africa remains with Vichy France
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.8
 	title = lar_appeal_to_overseas_territories.8.t
@@ -3772,13 +4287,13 @@ country_event = {
 	picture = GFX_report_event_france_parade
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.6.a #agree
+		name = lar_appeal_to_overseas_territories.6.a 
 		ai_chance = {
 			factor = 100
 		}
 	}
 }
-#western africa switches sides
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.9
 	title = lar_appeal_to_overseas_territories.9.t
@@ -3786,7 +4301,7 @@ country_event = {
 	picture = GFX_report_event_felix_eboue
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.3.a #agree
+		name = lar_appeal_to_overseas_territories.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3795,7 +4310,7 @@ country_event = {
 	}
 }
 
-# madagascar remains with Vichy France
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.10
 	title = lar_appeal_to_overseas_territories.10.t
@@ -3803,13 +4318,13 @@ country_event = {
 	picture = GFX_report_event_france_parade
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.2.a #agree
+		name = lar_appeal_to_overseas_territories.2.a 
 		ai_chance = {
 			factor = 100
 		}
 	}
 }
-#madagascar switches sides
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.11
 	title = lar_appeal_to_overseas_territories.11.t
@@ -3817,7 +4332,7 @@ country_event = {
 	picture = GFX_report_event_felix_eboue
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.3.a #agree
+		name = lar_appeal_to_overseas_territories.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3836,11 +4351,20 @@ country_event = {
 			limit = {
 				543 = { CONTROLLER = { original_tag = FRA } }
 			}
-			transfer_state = 543
+			transfer_state = 543 
+		transfer_state = 7187 
+		transfer_state = 7188 
+		transfer_state = 7189 
+		transfer_state = 7190 
+		transfer_state = 7191 
+		transfer_state = 7192 
+		transfer_state = 7193 
+		transfer_state = 7194 
+		transfer_state = 7195
 		}
 	}
 }
-# north africa remains with Vichy France
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.12
 	title = lar_appeal_to_overseas_territories.12.t
@@ -3848,13 +4372,13 @@ country_event = {
 	picture = GFX_report_event_france_parade
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.2.a #agree
+		name = lar_appeal_to_overseas_territories.2.a 
 		ai_chance = {
 			factor = 100
 		}
 	}
 }
-#north africa switches sides
+
 country_event = {
 	id = lar_appeal_to_overseas_territories.13
 	title = lar_appeal_to_overseas_territories.13.t
@@ -3862,7 +4386,7 @@ country_event = {
 	picture = GFX_report_event_felix_eboue
 	is_triggered_only = yes
 	option = {
-		name = lar_appeal_to_overseas_territories.3.a #agree
+		name = lar_appeal_to_overseas_territories.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3871,15 +4395,15 @@ country_event = {
 	}
 }
 
-#   # ###  ##  #  # #   #     ###  ### #  # #  # ### ### ###  ##   ##  ### ###  ##  #  # 
-#   #  #  #  # #  #  # #      #  # #   #  # ## #  #  #    #  #  # #  #  #   #  #  # ## # 
- # #   #  #    ####   #       ###  ##  #  # # ##  #  ##   #  #    ####  #   #  #  # # ## 
- # #   #  #  # #  #   #       #  # #   #  # #  #  #  #    #  #  # #  #  #   #  #  # #  # 
-  #   ###  ##  #  #   #       #  # ###  ##  #  # ### #   ###  ##  #  #  #  ###  ##  #  # 
+
+
+ 
+ 
+  
 
 add_namespace = lar_france_vichy_reunification
 
-# initial event - Vichy government asked to unify with FRA
+
 country_event = {
 	id = lar_france_vichy_reunification.1
 	title = lar_france_vichy_reunification.1.t
@@ -3887,7 +4411,7 @@ country_event = {
 	picture = GFX_report_event_degaulle_inspect_troops
 	is_triggered_only = yes
 	option = {
-		name = lar_france_vichy_reunification.1.a #agree
+		name = lar_france_vichy_reunification.1.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3901,12 +4425,12 @@ country_event = {
 	}
 
 	option = {
-		name = lar_france_vichy_reunification.1.b #refuse
+		name = lar_france_vichy_reunification.1.b 
 		ai_chance = {
 			factor = 20
 			modifier = {
 				FROM = {
-					is_ai = no #don't refuse the player
+					is_ai = no 
 				}
 				factor = 0
 			}
@@ -3919,7 +4443,7 @@ country_event = {
 	}
 }
 
-#VIC agrees to unification - event for FRA
+
 country_event = {
 	id = lar_france_vichy_reunification.2
 	title = lar_france_vichy_reunification.2.t
@@ -3927,7 +4451,7 @@ country_event = {
 	picture = GFX_report_event_degaulle_inspect_troops
 	is_triggered_only = yes
 	option = {
-		name = lar_france_vichy_reunification.2.a #agree
+		name = lar_france_vichy_reunification.2.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3936,14 +4460,14 @@ country_event = {
 				FROM = { is_ai = no }
 				is_ai = yes
 			}
-			change_tag_from = FROM #if Vichy is played by player and FRA is AI, player gets to keep playing
+			change_tag_from = FROM 
 		}
 		
 		annex_country = { target = FROM transfer_troops = yes } 
 	}
 }
 
-#VIC refuses unification, FRA gains wargoal
+
 country_event = {
 	id = lar_france_vichy_reunification.3
 	title = lar_france_vichy_reunification.3.t
@@ -3951,7 +4475,7 @@ country_event = {
 	picture = GFX_report_event_degaulle_churchill
 	is_triggered_only = yes
 	option = {
-		name = lar_france_vichy_reunification.3.a #agree
+		name = lar_france_vichy_reunification.3.a 
 		ai_chance = {
 			factor = 80
 		}
@@ -3991,7 +4515,7 @@ country_event = {
 
 add_namespace = lar_fra_reconnect_to_the_balkans
 
-#first event - balkan country asked if it wants to join the French faction
+
 country_event = {
 	id = lar_fra_reconnect_to_the_balkans.1
 	title = generic.5.t
@@ -4009,7 +4533,7 @@ country_event = {
 		}
 	}
 
-	option = { #accept
+	option = { 
 		name = generic.5.a	
 		ai_chance = {
 			factor = 100
@@ -4017,7 +4541,7 @@ country_event = {
 		var:FROM.faction_leader = { country_event = lar_fra_reconnect_to_the_balkans.2 }
 	}
 
-	option = { #refuse
+	option = { 
 		name = generic.2.f
 		ai_chance = {
 			factor = 0
@@ -4027,7 +4551,7 @@ country_event = {
 		}
 	}
 }
-#event 2 - country wants to join faction, ask faction leader?
+
 country_event = {
 	id = lar_fra_reconnect_to_the_balkans.2
 	title = generic.2.t
@@ -4044,7 +4568,7 @@ country_event = {
 		}
 	}
 
-	option = { #accept
+	option = { 
 		name = generic.2.a	
 		ai_chance = {
 			factor = 100
@@ -4054,7 +4578,7 @@ country_event = {
 		add_to_faction = FROM
 	}
 
-	option = { #refuse
+	option = { 
 		name = generic.2.f
 		ai_chance = {
 			factor = 0
@@ -4068,7 +4592,7 @@ country_event = {
 	}
 }
 
-#event 3 - country does not want to join faction at all
+
 country_event = {
 	id = lar_fra_reconnect_to_the_balkans.3
 	title = generic.7.t
@@ -4078,7 +4602,7 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	option = { #accept
+	option = { 
 		name = generic.7.a	
 		ai_chance = {
 			factor = 100
@@ -4086,7 +4610,7 @@ country_event = {
 	}
 }
 
-#event 4 - request accepted by faction leader
+
 country_event = {
 	id = lar_fra_reconnect_to_the_balkans.4
 	title = generic.6.t
@@ -4096,7 +4620,7 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	option = { #accept
+	option = { 
 		name = generic.3.a	
 		ai_chance = {
 			factor = 100
@@ -4104,7 +4628,7 @@ country_event = {
 	}
 }
 
-#event 4 - request refused by faction leader
+
 country_event = {
 	id = lar_fra_reconnect_to_the_balkans.5
 	title = generic.4.t
@@ -4114,7 +4638,7 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	option = { #accept
+	option = { 
 		name = generic.4.a	
 		ai_chance = {
 			factor = 100
@@ -4124,13 +4648,13 @@ country_event = {
 
 add_namespace = lar_fra_join_the_ententes
 
- ###  ##  ### #  #     ### #  # ###     ### #  # ### ### #  # ### ###  ## 
-   # #  #  #  ## #      #  #  # #       #   ## #  #  #   ## #  #  #   #   
-   # #  #  #  # ##      #  #### ##      ##  # ##  #  ##  # ##  #  ##   #  
-#  # #  #  #  #  #      #  #  # #       #   #  #  #  #   #  #  #  #     # 
- ##   ##  ### #  #      #  #  # ###     ### #  #  #  ### #  #  #  ### ##  
+ 
+   
+   
 
-#first event - join the French faction?
+ 
+
+
 country_event = {
 	id = lar_fra_join_the_ententes.1
 	title = lar_fra_join_the_ententes.1.t
@@ -4139,7 +4663,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name = lar_fra_join_the_ententes.1.a
 		ai_chance = {
 			factor = 100
@@ -4147,7 +4671,7 @@ country_event = {
 		FROM = { country_event = lar_fra_join_the_ententes.2 }
 	}
 
-	option = { #refuse
+	option = { 
 		name = lar_fra_join_the_ententes.1.b
 		ai_chance = {
 			factor = 0
@@ -4156,7 +4680,7 @@ country_event = {
 	}
 }
 
-#second event - Britain joins French faction, move them and all their subjects, fire event to independent nations in their faction
+
 country_event = {
 	id = lar_fra_join_the_ententes.2
 	title = lar_fra_join_the_ententes.2.t
@@ -4166,7 +4690,7 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	option = { #accept
+	option = { 
 		name = lar_fra_join_the_ententes.2.a
 		ai_chance = {
 			factor = 100
@@ -4174,7 +4698,7 @@ country_event = {
 		every_other_country = {
 			limit = {
 				is_in_faction_with = FROM
-				NOT = { tag = FROM } #countries are in a faction with themselves
+				NOT = { tag = FROM } 
 				is_subject = no
 			}
 			country_event = lar_fra_join_the_ententes.4
@@ -4183,7 +4707,7 @@ country_event = {
 	}
 }
 
-#second event - country refuses
+
 country_event = {
 	id = lar_fra_join_the_ententes.3
 	title = lar_fra_join_the_ententes.3.t
@@ -4193,7 +4717,7 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	option = { #accept
+	option = { 
 		name = lar_fra_join_the_ententes.3.a
 		ai_chance = {
 			factor = 100
@@ -4201,7 +4725,7 @@ country_event = {
 	}
 }
 
-# event for independent countries in British faction - join france?
+
 country_event = {
 	id = lar_fra_join_the_ententes.4
 	title = lar_fra_join_the_ententes.1.t
@@ -4211,7 +4735,7 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	option = { #accept
+	option = { 
 		name = lar_fra_join_the_ententes.1.a
 		ai_chance = {
 			factor = 100
@@ -4219,7 +4743,7 @@ country_event = {
 		FROM = { country_event = lar_fra_join_the_ententes.5 }
 	}
 
-	option = { #refuse
+	option = { 
 		name = lar_fra_join_the_ententes.1.b
 		ai_chance = {
 			factor = 0
@@ -4228,7 +4752,7 @@ country_event = {
 	}
 }
 
-# event for france - non-british sovereign nation wants to join
+
 country_event = {
 	id = lar_fra_join_the_ententes.5
 	title = lar_fra_join_the_ententes.2.t
@@ -4237,7 +4761,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name = lar_fra_join_the_ententes.2.a
 		ai_chance = {
 			factor = 100
@@ -4248,13 +4772,13 @@ country_event = {
 
 add_namespace = LaR_france_vichy_notification_events
 
-#  #  ##  ### ### ### ###  ##   ##  ### ###  ##  #  #     ### #   # ### #  # ###  ##     ###  ##  ###      #   # ###  ##  #  # #   # 
-## # #  #  #   #  #    #  #  # #  #  #   #  #  # ## #     #   #   # #   ## #  #  #       #   #  # #  #     #   #  #  #  # #  #  # #  
-# ## #  #  #   #  ##   #  #    ####  #   #  #  # # ##     ##   # #  ##  # ##  #   #      ##  #  # ###       # #   #  #    ####   #   
-#  # #  #  #   #  #    #  #  # #  #  #   #  #  # #  #     #    # #  #   #  #  #    #     #   #  # #  #      # #   #  #  # #  #   #   
-#  #  ##   #  ### #   ###  ##  #  #  #  ###  ##  #  #     ###   #   ### #  #  #  ##      #    ##  #  #       #   ###  ##  #  #   #   
 
-# event for Vichy - Syria has decided to side with de gaulle
+
+
+
+
+
+
 country_event = {
 	id = LaR_france_vichy_notification_events.1
 	title =  LaR_france_vichy_notification_events.1.t
@@ -4263,7 +4787,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.1.a
 		ai_chance = {
 			factor = 100
@@ -4272,7 +4796,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - Indochina has decided to side with de gaulle
+
 country_event = {
 	id = LaR_france_vichy_notification_events.2
 	title =  LaR_france_vichy_notification_events.2.t
@@ -4281,7 +4805,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.1.a
 		ai_chance = {
 			factor = 100
@@ -4290,7 +4814,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - central africa has decided to side with de gaulle
+
 country_event = {
 	id = LaR_france_vichy_notification_events.3
 	title =  LaR_france_vichy_notification_events.3.t
@@ -4299,7 +4823,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.1.a
 		ai_chance = {
 			factor = 100
@@ -4308,7 +4832,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - west africa has decided to side with de gaulle
+
 country_event = {
 	id = LaR_france_vichy_notification_events.4
 	title =  LaR_france_vichy_notification_events.4.t
@@ -4317,7 +4841,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.1.a
 		ai_chance = {
 			factor = 100
@@ -4326,7 +4850,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - north_africa has decided to side with de gaulle
+
 country_event = {
 	id = LaR_france_vichy_notification_events.5
 	title =  LaR_france_vichy_notification_events.5.t
@@ -4335,7 +4859,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.1.a
 		ai_chance = {
 			factor = 100
@@ -4344,7 +4868,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - madagascar has decided to side with de gaulle
+
 country_event = {
 	id = LaR_france_vichy_notification_events.6
 	title =  LaR_france_vichy_notification_events.6.t
@@ -4353,16 +4877,25 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.1.a
 		ai_chance = {
 			factor = 100
 		}
-		effect_tooltip = { FRA = { transfer_state = 543 } }
+		effect_tooltip = { FRA = { transfer_state = 543 
+		transfer_state = 7187 
+		transfer_state = 7188 
+		transfer_state = 7189 
+		transfer_state = 7190 
+		transfer_state = 7191 
+		transfer_state = 7192 
+		transfer_state = 7193 
+		transfer_state = 7194 
+		transfer_state = 7195 } }
 	}
 }
 
-# event for Vichy - coup in Syria
+
 country_event = {
 	id = LaR_france_vichy_notification_events.7
 	title =  LaR_france_vichy_notification_events.7.t
@@ -4371,7 +4904,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.7.a
 		ai_chance = {
 			factor = 100
@@ -4380,7 +4913,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - coup in indochina
+
 country_event = {
 	id = LaR_france_vichy_notification_events.8
 	title =  LaR_france_vichy_notification_events.8.t
@@ -4389,7 +4922,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.7.a
 		ai_chance = {
 			factor = 100
@@ -4398,7 +4931,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - coup in central_africa
+
 country_event = {
 	id = LaR_france_vichy_notification_events.9
 	title =  LaR_france_vichy_notification_events.9.t
@@ -4407,7 +4940,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.7.a
 		ai_chance = {
 			factor = 100
@@ -4416,7 +4949,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - coup in west_africa
+
 country_event = {
 	id = LaR_france_vichy_notification_events.10
 	title =  LaR_france_vichy_notification_events.10.t
@@ -4425,7 +4958,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.7.a
 		ai_chance = {
 			factor = 100
@@ -4434,7 +4967,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - coup in north_africa
+
 country_event = {
 	id = LaR_france_vichy_notification_events.11
 	title =  LaR_france_vichy_notification_events.11.t
@@ -4443,7 +4976,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.7.a
 		ai_chance = {
 			factor = 100
@@ -4452,7 +4985,7 @@ country_event = {
 	}
 }
 
-# event for Vichy - coup in Madagascar
+
 country_event = {
 	id = LaR_france_vichy_notification_events.12
 	title =  LaR_france_vichy_notification_events.12.t
@@ -4461,11 +4994,20 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { #accept
+	option = { 
 		name =  LaR_france_vichy_notification_events.7.a
 		ai_chance = {
 			factor = 100
 		}
-		effect_tooltip = { FRA = { transfer_state = 543 } }
+		effect_tooltip = { FRA = { transfer_state = 543 
+		transfer_state = 7187 
+		transfer_state = 7188 
+		transfer_state = 7189 
+		transfer_state = 7190 
+		transfer_state = 7191 
+		transfer_state = 7192 
+		transfer_state = 7193 
+		transfer_state = 7194 
+		transfer_state = 7195 } }
 	}
 }

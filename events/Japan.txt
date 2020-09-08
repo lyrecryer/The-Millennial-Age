@@ -1,10 +1,7 @@
-﻿###########################
-# Japanese Events
-###########################
 
 add_namespace = japan
 
-# Chinese Refuse Concessions
+
 country_event = {
 	id = japan.1
 	title = china.1.t
@@ -37,7 +34,7 @@ country_event = {
 	}
 }
 
-# Chinese Concessions
+
 country_event = {
 	id = japan.2
 	title = china.1.t
@@ -61,7 +58,15 @@ country_event = {
 				}
 			}
 			JAP = {
-				transfer_state = 608
+				transfer_state = 608 
+		transfer_state = 8253 
+		transfer_state = 8254 
+		transfer_state = 8255 
+		transfer_state = 8256 
+		transfer_state = 8257 
+		transfer_state = 8258 
+		transfer_state = 8259 
+		transfer_state = 8260
 			}
 		}
 		if = {
@@ -71,7 +76,38 @@ country_event = {
 				}
 			}
 			JAP = {
-				transfer_state = 597
+				transfer_state = 597 
+		transfer_state = 8031 
+		transfer_state = 8032 
+		transfer_state = 8033 
+		transfer_state = 8034 
+		transfer_state = 8035 
+		transfer_state = 8036 
+		transfer_state = 8037 
+		transfer_state = 8038 
+		transfer_state = 8039 
+		transfer_state = 8040 
+		transfer_state = 8041 
+		transfer_state = 8042 
+		transfer_state = 8043 
+		transfer_state = 8044 
+		transfer_state = 8045 
+		transfer_state = 8046 
+		transfer_state = 8047 
+		transfer_state = 8048 
+		transfer_state = 8049 
+		transfer_state = 8050 
+		transfer_state = 8051 
+		transfer_state = 8052 
+		transfer_state = 8053 
+		transfer_state = 8054 
+		transfer_state = 8055 
+		transfer_state = 8056 
+		transfer_state = 8057 
+		transfer_state = 8058 
+		transfer_state = 8059 
+		transfer_state = 8060 
+		transfer_state = 8061
 			}
 		}
 		if = {
@@ -81,7 +117,24 @@ country_event = {
 				}
 			}
 			JAP = {
-				transfer_state = 614
+				transfer_state = 614 
+		transfer_state = 8335 
+		transfer_state = 8336 
+		transfer_state = 8337 
+		transfer_state = 8338 
+		transfer_state = 8339 
+		transfer_state = 8340 
+		transfer_state = 8341 
+		transfer_state = 8342 
+		transfer_state = 8343 
+		transfer_state = 8344 
+		transfer_state = 8345 
+		transfer_state = 8346 
+		transfer_state = 8347 
+		transfer_state = 8348 
+		transfer_state = 8349 
+		transfer_state = 8350 
+		transfer_state = 8351
 			}
 		}
 		if = {
@@ -94,7 +147,19 @@ country_event = {
 				transfer_state = 743
 			}
 		}
-		add_state_claim = 613
+		add_state_claim = 613 
+		add_state_claim = 8323 
+		add_state_claim = 8324 
+		add_state_claim = 8325 
+		add_state_claim = 8326 
+		add_state_claim = 8327 
+		add_state_claim = 8328 
+		add_state_claim = 8329 
+		add_state_claim = 8330 
+		add_state_claim = 8331 
+		add_state_claim = 8332 
+		add_state_claim = 8333 
+		add_state_claim = 8334
 		if = {
 			limit = {
 				has_country_leader = { id = 700 ruling_only = yes }
@@ -110,7 +175,7 @@ country_event = {
 	}
 }
 
-# Soviets Push Back And Win
+
 country_event = {
 	id = japan.3
 	title = japan.3.t
@@ -151,7 +216,7 @@ country_event = {
 
 		army_experience = 5
 		add_tech_bonus = {
-			name = japan.3.t #test_the_ussr_focus
+			name = japan.3.t 
 			bonus = 1.0
 			uses = 1
 			category = cat_anti_tank
@@ -162,7 +227,7 @@ country_event = {
 		}
 	}
 }
-# Soviets Push Back And Lose
+
 country_event = {
 	id = japan.4
 	title = japan.4.t
@@ -203,7 +268,7 @@ country_event = {
 		}
 		army_experience = 15
 		add_tech_bonus = {
-			name = japan.4.t #test_the_ussr_focus
+			name = japan.4.t 
 			bonus = 1.0
 			uses = 1
 			category = cat_grand_battle_plan
@@ -214,7 +279,7 @@ country_event = {
 	}
 }
 
-# Soviets Yield
+
 country_event = {
 	id = japan.5
 	title = japan.5.t
@@ -232,7 +297,7 @@ country_event = {
 	}
 }
 
-# French Accept Demands
+
 country_event = {
 	id = japan.6
 	title = japan.6.t
@@ -260,7 +325,35 @@ country_event = {
 						}
 					}
 				}
-				transfer_state = 286
+				transfer_state = 286 
+		transfer_state = 3385 
+		transfer_state = 3386 
+		transfer_state = 3387 
+		transfer_state = 3388 
+		transfer_state = 3389 
+		transfer_state = 3390 
+		transfer_state = 3391 
+		transfer_state = 3392 
+		transfer_state = 3393 
+		transfer_state = 3394 
+		transfer_state = 3395 
+		transfer_state = 3396 
+		transfer_state = 3397 
+		transfer_state = 3398 
+		transfer_state = 3399 
+		transfer_state = 3400 
+		transfer_state = 3401 
+		transfer_state = 3402 
+		transfer_state = 3403 
+		transfer_state = 3404 
+		transfer_state = 3405 
+		transfer_state = 3406 
+		transfer_state = 3407 
+		transfer_state = 3408 
+		transfer_state = 3409 
+		transfer_state = 3410 
+		transfer_state = 3411 
+		transfer_state = 3412
 			}
 			if = {
 				limit = {
@@ -274,7 +367,39 @@ country_event = {
 						}
 					}
 				}
-				transfer_state = 670
+				transfer_state = 670 
+		transfer_state = 8937 
+		transfer_state = 8938 
+		transfer_state = 8939 
+		transfer_state = 8940 
+		transfer_state = 8941 
+		transfer_state = 8942 
+		transfer_state = 8943 
+		transfer_state = 8944 
+		transfer_state = 8945 
+		transfer_state = 8946 
+		transfer_state = 8947 
+		transfer_state = 8948 
+		transfer_state = 8949 
+		transfer_state = 8950 
+		transfer_state = 8951 
+		transfer_state = 8952 
+		transfer_state = 8953 
+		transfer_state = 8954 
+		transfer_state = 8955 
+		transfer_state = 8956 
+		transfer_state = 8957 
+		transfer_state = 8958 
+		transfer_state = 8959 
+		transfer_state = 8960 
+		transfer_state = 8961 
+		transfer_state = 8962 
+		transfer_state = 8963 
+		transfer_state = 8964 
+		transfer_state = 8965 
+		transfer_state = 8966 
+		transfer_state = 8967 
+		transfer_state = 8968
 			}
 			if = {
 				limit = {
@@ -288,7 +413,39 @@ country_event = {
 						}
 					}
 				}
-				transfer_state = 671
+				transfer_state = 671 
+		transfer_state = 8969 
+		transfer_state = 8970 
+		transfer_state = 8971 
+		transfer_state = 8972 
+		transfer_state = 8973 
+		transfer_state = 8974 
+		transfer_state = 8975 
+		transfer_state = 8976 
+		transfer_state = 8977 
+		transfer_state = 8978 
+		transfer_state = 8979 
+		transfer_state = 8980 
+		transfer_state = 8981 
+		transfer_state = 8982 
+		transfer_state = 8983 
+		transfer_state = 8984 
+		transfer_state = 8985 
+		transfer_state = 8986 
+		transfer_state = 8987 
+		transfer_state = 8988 
+		transfer_state = 8989 
+		transfer_state = 8990 
+		transfer_state = 8991 
+		transfer_state = 8992 
+		transfer_state = 8993 
+		transfer_state = 8994 
+		transfer_state = 8995 
+		transfer_state = 8996 
+		transfer_state = 8997 
+		transfer_state = 8998 
+		transfer_state = 8999 
+		transfer_state = 9000
 			}
 			if = {
 				limit = {
@@ -302,7 +459,34 @@ country_event = {
 						}
 					}
 				}
-				transfer_state = 741
+				transfer_state = 741 
+		transfer_state = 9534 
+		transfer_state = 9535 
+		transfer_state = 9536 
+		transfer_state = 9537 
+		transfer_state = 9538 
+		transfer_state = 9539 
+		transfer_state = 9540 
+		transfer_state = 9541 
+		transfer_state = 9542 
+		transfer_state = 9543 
+		transfer_state = 9544 
+		transfer_state = 9545 
+		transfer_state = 9546 
+		transfer_state = 9547 
+		transfer_state = 9548 
+		transfer_state = 9549 
+		transfer_state = 9550 
+		transfer_state = 9551 
+		transfer_state = 9552 
+		transfer_state = 9553 
+		transfer_state = 9554 
+		transfer_state = 9555 
+		transfer_state = 9556 
+		transfer_state = 9557 
+		transfer_state = 9558 
+		transfer_state = 9559 
+		transfer_state = 9560
 			}
 			if = {
 				limit = {
@@ -323,7 +507,7 @@ country_event = {
 	}
 }
 
-# French Reject Demands
+
 country_event = {
 	id = japan.7
 	title = japan.7.t
@@ -347,7 +531,7 @@ country_event = {
 	}
 }
 
-# Germany Agrees to Withdraw Falkenhausen
+
 country_event = {
 	id = japan.8
 	title = japan.8.t
@@ -361,7 +545,7 @@ country_event = {
 	}
 }
 
-# Germany Refuses to Withdraw Falkenhausen
+
 country_event = {
 	id = japan.9
 	title = japan.9.t
@@ -373,12 +557,12 @@ country_event = {
 	option = {
 		name = japan.9.a
 	}
-	#option = { # Withdraw from the Anti-Comintern Pact
-	#	name = japan.9.b
-	#}
+	
+	
+	
 }
 
-# USA condemns our war 
+
 country_event = {
 	id = japan.10
 	title = japan.10.t
@@ -395,7 +579,7 @@ country_event = {
 	}
 }
 
-# Pressure Siam to become a puppet
+
 country_event = {
 	id = japan.11
 	title = japan.11.t
@@ -417,7 +601,7 @@ country_event = {
 	}
 }
 
-# Siam event from Japan: Become puppet or not
+
 country_event = {
 	id = japan.12
 	title = japan.12.t
@@ -431,7 +615,7 @@ country_event = {
 		ai_chance = {
 			factor = 90 
 			modifier = {
-				#If they have a fighting chance, they should stand their ground
+				
 				factor = 0
 				strength_ratio = {
 					tag = JAP
@@ -460,7 +644,7 @@ country_event = {
 	}
 }
 
-# Siam accepts and is puppeted
+
 country_event = {
 	id = japan.13
 	title = japan.13.t
@@ -475,7 +659,7 @@ country_event = {
 	}
 }
 
-# Siam refuses, nations go to war 
+
 country_event = {
 	id = japan.14
 	title = japan.14.t
@@ -493,7 +677,7 @@ country_event = {
 	}
 }
 
-# Indian national army 
+
 country_event = {
 	id = japan.15
 	title = japan.15.t
@@ -533,7 +717,7 @@ country_event = {
 	}
 }
 
-# China event from Japan: Become puppet or not
+
 country_event = {
 	id = japan.16
 	title = japan.16.t
@@ -542,7 +726,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#Accept - become puppet
+	
 	option = {
 		name = japan.16.a
 		ai_chance = {
@@ -578,7 +762,7 @@ country_event = {
 	}
 }
 
-# China accepts and is puppeted
+
 country_event = {
 	id = japan.17
 	title = japan.17.t
@@ -597,7 +781,7 @@ country_event = {
 	}
 }
 
-# China refuses, gain cb
+
 country_event = {
 	id = japan.18
 	title = japan.18.t

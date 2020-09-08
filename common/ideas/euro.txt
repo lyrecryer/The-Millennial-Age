@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+		#EU Member
+		EU_MEMBER = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = idea_EU_MEMBER
+		}
+		#EU Nation (When the EU is formed.)
+		EU_NATION = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = idea_EU_NATION
+		}
+		EURO = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = idea_EURO
+
+		}
+	}
+}

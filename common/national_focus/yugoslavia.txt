@@ -15,45 +15,45 @@
 
 	continuous_focus_position = { x = 50 y = 1350 }
 
-#	focus = {
-#		id = YUG_
-#		icon = GFX_
-#		prerequisite = { focus = }
-#		mutually_exclusive = { focus =  }
-#		x = -3
-#		y = 0
-#		relative_position_id = 
-#
-#		cost = 10
-#
-#		ai_will_do = {
-#			factor = 1
-#		}
-#
-#		available = {
-#
-#		}
-#		
-#		bypass = {
-#
-#		}
-#
-#		cancel_if_invalid = yes
-#		continue_if_invalid = no
-#		available_if_capitulated = no
-#
-#		complete_tooltip = {
-#
-#		}
-#
-#		completion_reward = {
-#
-#		}
-#	}
 
-	###############################
-	##### Democratic/Fascist ######
-	###############################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
 
 	focus = {
 		id = YUG_western_focus
@@ -340,9 +340,38 @@
 
 
 		completion_reward = {
-			add_state_claim = 48
-			add_state_claim = 211
-			add_state_claim = 212
+			add_state_claim = 48 
+		add_state_claim = 6317 
+		add_state_claim = 6318 
+		add_state_claim = 6319 
+		add_state_claim = 6320 
+		add_state_claim = 6321 
+		add_state_claim = 6322 
+		add_state_claim = 6323 
+		add_state_claim = 6324 
+		add_state_claim = 6325
+			add_state_claim = 211 
+		add_state_claim = 2054 
+		add_state_claim = 2055 
+		add_state_claim = 2056 
+		add_state_claim = 2057 
+		add_state_claim = 2058 
+		add_state_claim = 2059 
+		add_state_claim = 2060
+			add_state_claim = 212 
+		add_state_claim = 2061 
+		add_state_claim = 2062 
+		add_state_claim = 2063 
+		add_state_claim = 2064 
+		add_state_claim = 2065 
+		add_state_claim = 2066 
+		add_state_claim = 2067 
+		add_state_claim = 2068 
+		add_state_claim = 2069 
+		add_state_claim = 2070 
+		add_state_claim = 2071 
+		add_state_claim = 2072 
+		add_state_claim = 2073
 			news_event = { id = news.325 }
 		}
 	}
@@ -562,7 +591,14 @@
 				limit = {
 					owns_state = 106
 				}
-				add_state_core = 731
+				add_state_core = 731 
+		add_state_core = 9472 
+		add_state_core = 9473 
+		add_state_core = 9474 
+		add_state_core = 9475 
+		add_state_core = 9476 
+		add_state_core = 9477 
+		add_state_core = 9478
 			}
 			news_event = { id = news.327 }
 		}
@@ -608,9 +644,9 @@
 		}
 	}
 
-	############################
-	##### SELF GOVERNMENT ######
-	############################
+	
+	
+	
 
 	focus = {
 		id = YUG_limited_self_government
@@ -927,7 +963,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_state_core = 736
+			add_state_core = 736 
+		add_state_core = 9509 
+		add_state_core = 9510 
+		add_state_core = 9511
 			if = {
 				limit = {
 					owns_state = 103
@@ -973,9 +1012,9 @@
 	}
 
 
-	############################
-	#### RECOGNIZE SOVIET ######
-	############################
+	
+	
+	
 
 	focus = {
 		id = YUG_recognize_the_soviet_union
@@ -1457,9 +1496,9 @@
 	}
 
 
-	############################
-	######### INDUSTRY #########
-	############################
+	
+	
+	
 
 	focus = {
 		id = YUG_industrialization_program
@@ -2301,9 +2340,9 @@
 	}
 
 	
-	############################
-	######## AIR FORCE #########
-	############################
+	
+	
+	
 
 	focus = {
 		id = YUG_modernize_the_air_force
@@ -2375,7 +2414,7 @@
 
 
 		completion_reward = {
-			add_ideas = HUN_indigenous_designs #emergency fix
+			add_ideas = HUN_indigenous_designs 
 		}
 	}
 
@@ -2898,9 +2937,9 @@
 		}
 	}
 
-	############################
-	######## LAND FORCE ########
-	############################
+	
+	
+	
 
 	focus = {
 		id = YUG_army_modernization
@@ -3598,9 +3637,9 @@
 		}
 	}
 
-	############################
-	######## BOAT FORCE ########
-	############################
+	
+	
+	
 
 	focus = {
 		id = YUG_expand_the_split_shipyards
@@ -3913,7 +3952,7 @@
 
 
 		completion_reward = {
-			#forts on coast and harbor
+			
 			if = {
 				limit = { has_full_control_of_state = 103 }
 				103 = {

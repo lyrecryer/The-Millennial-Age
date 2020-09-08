@@ -1,0 +1,123 @@
+#mod workshop focus
+#search_filter_prios = {
+	#FOCUS_FILTER_POLITICAL = 1010
+	#FOCUS_FILTER_RESEARCH = 522
+	#FOCUS_FILTER_INDUSTRY = 509
+#}
+focus_tree = {
+	id = test_nation
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TST
+		}  
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = test_nation.1
+		icon = GFX_focus_generic_industry_1
+		#relative_position_id = test_nation.1
+		cost = 10
+		x = 1
+		y = 1
+		completion_reward = { add_political_power = 100 }
+		#search_filters = { FOCUS_FILTER_POLITICAL  }
+	}
+	focus = {
+		id = test_nation.2
+		icon = GFX_focus_generic_industry_2
+		relative_position_id = test_nation.1
+		cost = 10
+		x = 1
+		y = 2
+		prerequisite = {
+			focus = test_nation.1
+		}
+		completion_reward = {
+		add_timed_idea = {
+			idea = communist_influence
+			days = 100
+		}
+		add_timed_idea = {
+		idea = neutrality_influence
+		days = 100
+		}
+		add_timed_idea = {
+		idea = fascist_influence
+		days = 100
+		}
+		add_timed_idea = {
+		idea = nazi_influence
+		days = 100
+		}
+		add_timed_idea = {
+		idea = anarchic_influence
+		days = 100
+		}
+		add_timed_idea = {
+		idea = conservatism_influence
+		days = 100
+		}
+		add_timed_idea = {
+		idea = liberal_influence
+		days = 100
+		}
+		}
+		#search_filters = { FOCUS_FILTER_POLITICAL  }
+	}
+	focus = {
+		id = test_nation.3
+		icon = GFX_focus_generic_industry_3
+		relative_position_id = test_nation.1
+		cost = 10
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = test_nation.2
+		}
+		completion_reward = {
+			create_faction = "Test Faction" 
+			
+		add_timed_idea = {
+			idea = conservatism_banned
+			days = 100
+		}
+		add_timed_idea = {
+		idea = liberalism_I_banned
+		days = 100
+		}
+		add_timed_idea = {
+		idea = anarcho_banned
+		days = 100
+		}
+		add_timed_idea = {
+		idea = socialism_I_banned
+		days = 100
+		}
+		add_timed_idea = {
+		idea = all_democratic_banned
+		days = 100
+		}
+		add_timed_idea = {
+		idea = all_leftwing_banned
+		days = 100
+		}
+		add_timed_idea = {
+		idea = all_rightwing_banned
+		days = 100
+		}
+		add_timed_idea = {
+		idea = all_non_democratic_banned
+		days = 100
+		}
+		add_timed_idea = {
+		idea = all_parties_banned
+		days = 100
+		}
+		}
+		#search_filters = { FOCUS_FILTER_POLITICAL  }
+	}
+}

@@ -1,10 +1,8 @@
-﻿###########################
-# Finland Events
-###########################
+
 
 add_namespace = finland
 
-# Soviet Ultimatum
+
 country_event = {
 	id = finland.1
 	title = finland.1.t
@@ -13,11 +11,11 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept demands
+	option = { 
 		name = finland.1.a
 		ai_chance = { 
 		factor = 25
-		modifier = { # Don't accept if in a faction that can protect them
+		modifier = { 
 				factor = 0
 				OR = {
 					any_other_country = {
@@ -34,11 +32,26 @@ country_event = {
 		SOV = {
 			country_event = { days = 5 id = soviet.12 }
 			effect_tooltip = {
-				transfer_state = 146
+				transfer_state = 146 
+		transfer_state = 1346 
+		transfer_state = 1347 
+		transfer_state = 1348 
+		transfer_state = 1349 
+		transfer_state = 1350 
+		transfer_state = 1351 
+		transfer_state = 1352 
+		transfer_state = 1353 
+		transfer_state = 1354 
+		transfer_state = 1355 
+		transfer_state = 1356 
+		transfer_state = 1357 
+		transfer_state = 1358 
+		transfer_state = 1359 
+		transfer_state = 1360
 			}
 		}
 	}
-	option = { # Refuse
+	option = { 
 		name = finland.1.b
 		ai_chance = { factor = 75 }
 		SOV = {
@@ -54,7 +67,7 @@ country_event = {
 	}
 }
 
-# Request Swedish Assistance?
+
 country_event = {
 	id = finland.2
 	title = finland.2.t
@@ -89,7 +102,7 @@ country_event = {
 	}
 }
 
-# Swedish Support in Winter War
+
 country_event = {
 	id = finland.3
 	title = finland.3.t
@@ -210,7 +223,7 @@ country_event = {
 		declare_war_on = {
 			target = SOV
 			type = take_state
-			generator = { 195 208 } # Leningrand and Luga
+			generator = { 195 208 } 
 		}
 		FIN = {
 			country_event = { id = finland.6 days = 3 }
@@ -291,7 +304,7 @@ country_event = {
 	}
 }
 
-#Surrender when Soviet has taken too much land
+
 country_event = {
 	id = finland.7
 	title = finland.7.t
@@ -310,7 +323,7 @@ country_event = {
 
 	fire_only_once = yes
 
-	#Surrender and offer territory
+	
 	option = {
 		name = finland.7.a
 		ai_chance = {
@@ -327,20 +340,40 @@ country_event = {
 					message = FIN_agree_peace 
 				} 
 			}
-			transfer_state = 146
-			transfer_state = 147
+			transfer_state = 146 
+		transfer_state = 1346 
+		transfer_state = 1347 
+		transfer_state = 1348 
+		transfer_state = 1349 
+		transfer_state = 1350 
+		transfer_state = 1351 
+		transfer_state = 1352 
+		transfer_state = 1353 
+		transfer_state = 1354 
+		transfer_state = 1355 
+		transfer_state = 1356 
+		transfer_state = 1357 
+		transfer_state = 1358 
+		transfer_state = 1359 
+		transfer_state = 1360
+			transfer_state = 147 
+		transfer_state = 1361 
+		transfer_state = 1362
 			if = {
 				limit = {
 					722 = {
 						is_claimed_by = SOV
 					}
 				}
-				SOV = { remove_state_claim = 722 }
+				SOV = { remove_state_claim = 722 
+		remove_state_claim = 9428 
+		remove_state_claim = 9429 
+		remove_state_claim = 9430 }
 			}
 		}
 	}
 
-	#Never give up!
+	
 	option = {
 		name = finland.7.b
 		ai_chance = {
@@ -353,7 +386,7 @@ country_event = {
 	}
 }
 
-#Soviet response to Finish surrender
+
 country_event = {
 	id = finland.8
 	title = finland.8.t
@@ -362,22 +395,42 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	#Accept surrender
+	
 	option = {
 		name = finland.8.a
 		ai_chance = {
 			base = 9
 		}
 		white_peace = FIN
-		transfer_state = 146
-		transfer_state = 147
+		transfer_state = 146 
+		transfer_state = 1346 
+		transfer_state = 1347 
+		transfer_state = 1348 
+		transfer_state = 1349 
+		transfer_state = 1350 
+		transfer_state = 1351 
+		transfer_state = 1352 
+		transfer_state = 1353 
+		transfer_state = 1354 
+		transfer_state = 1355 
+		transfer_state = 1356 
+		transfer_state = 1357 
+		transfer_state = 1358 
+		transfer_state = 1359 
+		transfer_state = 1360
+		transfer_state = 147 
+		transfer_state = 1361 
+		transfer_state = 1362
 		if = {
 			limit = {
 				722 = {
 					is_claimed_by = SOV
 				}
 			}
-			remove_state_claim = 722
+			remove_state_claim = 722 
+		remove_state_claim = 9428 
+		remove_state_claim = 9429 
+		remove_state_claim = 9430
 		}
 		FIN = {
 			add_ai_strategy = {
@@ -413,7 +466,7 @@ country_event = {
 		}
 	}
 
-	#Take it all
+	
 	option = {
 		name = finland.8.b
 		ai_chance = {
@@ -427,7 +480,7 @@ country_event = {
 	}
 }
 
-#Soviet says no!
+
 country_event = {
 	id = finland.9
 	title = finland.9.t

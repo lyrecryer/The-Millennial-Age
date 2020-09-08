@@ -1,6 +1,6 @@
 ﻿add_namespace = mtg_netherlands
 
-# Venezuela offers to 'protect' Curacao
+
 country_event = {
 	id = mtg_netherlands.1
 	title = mtg_netherlands.1.t
@@ -9,7 +9,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = mtg_netherlands.1.a
 		effect_tooltip = {
@@ -18,7 +18,7 @@ country_event = {
 		VEN = { country_event = { id = mtg_netherlands.2 days = 1 random_days = 3 } }
 	}
 
-	# They're just trying to get the islands for themselves...
+	
 	option = {
 		name = mtg_netherlands.1.b
 		effect_tooltip = {
@@ -28,7 +28,7 @@ country_event = {
 		set_global_flag = ven_claims_abc_islands
 	}
 
-	# We can ill afford another crisis - give the British direct control
+	
 	option = {
 		trigger = {
 			AND = {
@@ -43,7 +43,7 @@ country_event = {
 		ENG = { country_event = { id = mtg_netherlands.4 days = 1 random_days = 3 } }
 	}
 
-	# We can ill afford another crisis - give the Americans direct control
+	
 	option = {
 		trigger = {
 			is_in_faction_with = USA
@@ -56,7 +56,7 @@ country_event = {
 	}
 }
 
-# Netherlands accepts 'Venezuelan protection' for Curacao
+
 country_event = {
 	id = mtg_netherlands.2
 	title = mtg_netherlands.2.t
@@ -65,14 +65,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.2.a
 		transfer_state = 695
 	}
 }
 
-# Netherlands rejects 'Venezuelan protection' for Curacao
+
 country_event = {
 	id = mtg_netherlands.3
 	title = mtg_netherlands.3.t
@@ -81,14 +81,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.3.a
 		add_state_claim = 695
 	}
 }
 
-# Netherlands asks USA/ENG to take over Curacao
+
 country_event = {
 	id = mtg_netherlands.4
 	title = mtg_netherlands.4.t
@@ -97,7 +97,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Great idea!
+	
 	option = {
 		name = mtg_netherlands.4.a
 		effect_tooltip = {
@@ -106,14 +106,14 @@ country_event = {
 		HOL = { country_event = { id = mtg_netherlands.5 days = 1 random_days = 3 } }
 	}
 
-	# Let's not get involved
+	
 	option = {
 		name = mtg_netherlands.4.b
 		HOL = { country_event = { id = mtg_netherlands.6 days = 1 random_days = 3 } }
 	}
 }
 
-# FROM accepts taking over Curacao
+
 country_event = {
 	id = mtg_netherlands.5
 	title = mtg_netherlands.5.t
@@ -122,14 +122,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.5.a
 		FROM = { transfer_state = 695 }
 	}
 }
 
-# FROM rejects taking over Curacao
+
 country_event = {
 	id = mtg_netherlands.6
 	title = mtg_netherlands.6.t
@@ -138,7 +138,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# I guess we have no choice but to let them have it
+	
 	option = {
 		name = mtg_netherlands.6.a
 		effect_tooltip = {
@@ -147,7 +147,7 @@ country_event = {
 		VEN = { country_event = { id = mtg_netherlands.2 days = 1 random_days = 3 } }
 	}
 
-	# We won't give it up!
+	
 	option = {
 		name = mtg_netherlands.6.b
 		effect_tooltip = {
@@ -158,7 +158,7 @@ country_event = {
 	}
 }
 
-# Netherlands asks Germany for battlecruiser tech
+
 country_event = {
 	id = mtg_netherlands.7
 	title = mtg_netherlands.7.t
@@ -167,7 +167,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.7.a
 		FROM = { country_event = { id = mtg_netherlands.8 days = 1 random_days = 3 } }
@@ -201,7 +201,7 @@ country_event = {
 		}
 	}
 
-	# No.
+	
 	option = {
 		name = mtg_netherlands.7.b
 		ai_chance = {
@@ -211,7 +211,7 @@ country_event = {
 	}
 }
 
-# Germany shares Battlecruiser tech
+
 country_event = {
 	id = mtg_netherlands.8
 	title = mtg_netherlands.8.t
@@ -220,7 +220,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.8.a
 		set_technology = {
@@ -250,7 +250,7 @@ country_event = {
 	}
 }
 
-# Germany refuses to share Battlecruiser tech
+
 country_event = {
 	id = mtg_netherlands.9
 	title = mtg_netherlands.9.t
@@ -259,13 +259,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.9.a
 	}
 }
 
-# New government forms
+
 country_event = {
 	id = mtg_netherlands.10
 	title = mtg_netherlands.10.t
@@ -274,7 +274,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.10.a
 		set_party_name = { ideology = democratic long_name = HOL_CHU_party_long name = HOL_CHU_party }
@@ -292,7 +292,7 @@ country_event = {
 	}
 }
 
-# See to Japanese Demands in the East Indies
+
 country_event = {
 	id = mtg_netherlands.11
 	title = mtg_netherlands.11.t
@@ -301,23 +301,182 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Let them 'protect' the East Indies
+	
 	option = {
 		name = mtg_netherlands.11.a
 		effect_tooltip = {
 			JAP = {
-				transfer_state = 672
-				transfer_state = 335
-				transfer_state = 334
-				transfer_state = 673
-				transfer_state = 667
+				transfer_state = 672 
+		transfer_state = 9001 
+		transfer_state = 9002 
+		transfer_state = 9003 
+		transfer_state = 9004 
+		transfer_state = 9005 
+		transfer_state = 9006 
+		transfer_state = 9007 
+		transfer_state = 9008 
+		transfer_state = 9009 
+		transfer_state = 9010 
+		transfer_state = 9011 
+		transfer_state = 9012 
+		transfer_state = 9013 
+		transfer_state = 9014 
+		transfer_state = 9015 
+		transfer_state = 9016 
+		transfer_state = 9017 
+		transfer_state = 9018 
+		transfer_state = 9019 
+		transfer_state = 9020 
+		transfer_state = 9021 
+		transfer_state = 9022 
+		transfer_state = 9023 
+		transfer_state = 9024 
+		transfer_state = 9025 
+		transfer_state = 9026 
+		transfer_state = 9027 
+		transfer_state = 9028 
+		transfer_state = 9029 
+		transfer_state = 9030 
+		transfer_state = 9031 
+		transfer_state = 9032 
+		transfer_state = 9033 
+		transfer_state = 9034 
+		transfer_state = 9035 
+		transfer_state = 9036 
+		transfer_state = 9037 
+		transfer_state = 9038 
+		transfer_state = 9039 
+		transfer_state = 9040 
+		transfer_state = 9041 
+		transfer_state = 9042 
+		transfer_state = 9043 
+		transfer_state = 9044 
+		transfer_state = 9045 
+		transfer_state = 9046 
+		transfer_state = 9047 
+		transfer_state = 9048 
+		transfer_state = 9049 
+		transfer_state = 9050 
+		transfer_state = 9051 
+		transfer_state = 9052 
+		transfer_state = 9053 
+		transfer_state = 9054
+				transfer_state = 335 
+		transfer_state = 3982 
+		transfer_state = 3983 
+		transfer_state = 3984 
+		transfer_state = 3985 
+		transfer_state = 3986 
+		transfer_state = 3987 
+		transfer_state = 3988 
+		transfer_state = 3989 
+		transfer_state = 3990 
+		transfer_state = 3991 
+		transfer_state = 3992 
+		transfer_state = 3993 
+		transfer_state = 3994 
+		transfer_state = 3995 
+		transfer_state = 3996 
+		transfer_state = 3997 
+		transfer_state = 3998 
+		transfer_state = 3999 
+		transfer_state = 4000 
+		transfer_state = 4001 
+		transfer_state = 4002 
+		transfer_state = 4003 
+		transfer_state = 4004 
+		transfer_state = 4005
+				transfer_state = 334 
+		transfer_state = 3941 
+		transfer_state = 3942 
+		transfer_state = 3943 
+		transfer_state = 3944 
+		transfer_state = 3945 
+		transfer_state = 3946 
+		transfer_state = 3947 
+		transfer_state = 3948 
+		transfer_state = 3949 
+		transfer_state = 3950 
+		transfer_state = 3951 
+		transfer_state = 3952 
+		transfer_state = 3953 
+		transfer_state = 3954 
+		transfer_state = 3955 
+		transfer_state = 3956 
+		transfer_state = 3957 
+		transfer_state = 3958 
+		transfer_state = 3959 
+		transfer_state = 3960 
+		transfer_state = 3961 
+		transfer_state = 3962 
+		transfer_state = 3963 
+		transfer_state = 3964 
+		transfer_state = 3965 
+		transfer_state = 3966 
+		transfer_state = 3967 
+		transfer_state = 3968 
+		transfer_state = 3969 
+		transfer_state = 3970 
+		transfer_state = 3971 
+		transfer_state = 3972 
+		transfer_state = 3973 
+		transfer_state = 3974 
+		transfer_state = 3975 
+		transfer_state = 3976 
+		transfer_state = 3977 
+		transfer_state = 3978 
+		transfer_state = 3979 
+		transfer_state = 3980 
+		transfer_state = 3981
+				transfer_state = 673 
+		transfer_state = 9055 
+		transfer_state = 9056 
+		transfer_state = 9057 
+		transfer_state = 9058 
+		transfer_state = 9059 
+		transfer_state = 9060 
+		transfer_state = 9061 
+		transfer_state = 9062 
+		transfer_state = 9063 
+		transfer_state = 9064 
+		transfer_state = 9065 
+		transfer_state = 9066 
+		transfer_state = 9067 
+		transfer_state = 9068 
+		transfer_state = 9069 
+		transfer_state = 9070 
+		transfer_state = 9071 
+		transfer_state = 9072 
+		transfer_state = 9073 
+		transfer_state = 9074 
+		transfer_state = 9075 
+		transfer_state = 9076 
+		transfer_state = 9077 
+		transfer_state = 9078 
+		transfer_state = 9079 
+		transfer_state = 9080
+				transfer_state = 667 
+		transfer_state = 8883 
+		transfer_state = 8884 
+		transfer_state = 8885 
+		transfer_state = 8886 
+		transfer_state = 8887 
+		transfer_state = 8888 
+		transfer_state = 8889 
+		transfer_state = 8890 
+		transfer_state = 8891 
+		transfer_state = 8892 
+		transfer_state = 8893 
+		transfer_state = 8894 
+		transfer_state = 8895 
+		transfer_state = 8896
 			}
 			add_offsite_building = { type = arms_factory level = 8 }
 		}
 		JAP = { country_event = { id = mtg_netherlands.12 hours = 6 } }
 	}
 
-	# Give them trade
+	
 	option = {
 		name = mtg_netherlands.11.b
 		effect_tooltip = {
@@ -361,7 +520,7 @@ country_event = {
 	}
 }
 
-# Event for Japan saying NL gives them the Indies
+
 country_event = {
 	id = mtg_netherlands.12
 	title = mtg_netherlands.12.t
@@ -370,21 +529,180 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Huzzah!
+	
 	option = {
 		name = mtg_netherlands.12.a
 		effect_tooltip = {
-			transfer_state = 672
-			transfer_state = 335
-			transfer_state = 334
-			transfer_state = 673
-			transfer_state = 667
+			transfer_state = 672 
+		transfer_state = 9001 
+		transfer_state = 9002 
+		transfer_state = 9003 
+		transfer_state = 9004 
+		transfer_state = 9005 
+		transfer_state = 9006 
+		transfer_state = 9007 
+		transfer_state = 9008 
+		transfer_state = 9009 
+		transfer_state = 9010 
+		transfer_state = 9011 
+		transfer_state = 9012 
+		transfer_state = 9013 
+		transfer_state = 9014 
+		transfer_state = 9015 
+		transfer_state = 9016 
+		transfer_state = 9017 
+		transfer_state = 9018 
+		transfer_state = 9019 
+		transfer_state = 9020 
+		transfer_state = 9021 
+		transfer_state = 9022 
+		transfer_state = 9023 
+		transfer_state = 9024 
+		transfer_state = 9025 
+		transfer_state = 9026 
+		transfer_state = 9027 
+		transfer_state = 9028 
+		transfer_state = 9029 
+		transfer_state = 9030 
+		transfer_state = 9031 
+		transfer_state = 9032 
+		transfer_state = 9033 
+		transfer_state = 9034 
+		transfer_state = 9035 
+		transfer_state = 9036 
+		transfer_state = 9037 
+		transfer_state = 9038 
+		transfer_state = 9039 
+		transfer_state = 9040 
+		transfer_state = 9041 
+		transfer_state = 9042 
+		transfer_state = 9043 
+		transfer_state = 9044 
+		transfer_state = 9045 
+		transfer_state = 9046 
+		transfer_state = 9047 
+		transfer_state = 9048 
+		transfer_state = 9049 
+		transfer_state = 9050 
+		transfer_state = 9051 
+		transfer_state = 9052 
+		transfer_state = 9053 
+		transfer_state = 9054
+			transfer_state = 335 
+		transfer_state = 3982 
+		transfer_state = 3983 
+		transfer_state = 3984 
+		transfer_state = 3985 
+		transfer_state = 3986 
+		transfer_state = 3987 
+		transfer_state = 3988 
+		transfer_state = 3989 
+		transfer_state = 3990 
+		transfer_state = 3991 
+		transfer_state = 3992 
+		transfer_state = 3993 
+		transfer_state = 3994 
+		transfer_state = 3995 
+		transfer_state = 3996 
+		transfer_state = 3997 
+		transfer_state = 3998 
+		transfer_state = 3999 
+		transfer_state = 4000 
+		transfer_state = 4001 
+		transfer_state = 4002 
+		transfer_state = 4003 
+		transfer_state = 4004 
+		transfer_state = 4005
+			transfer_state = 334 
+		transfer_state = 3941 
+		transfer_state = 3942 
+		transfer_state = 3943 
+		transfer_state = 3944 
+		transfer_state = 3945 
+		transfer_state = 3946 
+		transfer_state = 3947 
+		transfer_state = 3948 
+		transfer_state = 3949 
+		transfer_state = 3950 
+		transfer_state = 3951 
+		transfer_state = 3952 
+		transfer_state = 3953 
+		transfer_state = 3954 
+		transfer_state = 3955 
+		transfer_state = 3956 
+		transfer_state = 3957 
+		transfer_state = 3958 
+		transfer_state = 3959 
+		transfer_state = 3960 
+		transfer_state = 3961 
+		transfer_state = 3962 
+		transfer_state = 3963 
+		transfer_state = 3964 
+		transfer_state = 3965 
+		transfer_state = 3966 
+		transfer_state = 3967 
+		transfer_state = 3968 
+		transfer_state = 3969 
+		transfer_state = 3970 
+		transfer_state = 3971 
+		transfer_state = 3972 
+		transfer_state = 3973 
+		transfer_state = 3974 
+		transfer_state = 3975 
+		transfer_state = 3976 
+		transfer_state = 3977 
+		transfer_state = 3978 
+		transfer_state = 3979 
+		transfer_state = 3980 
+		transfer_state = 3981
+			transfer_state = 673 
+		transfer_state = 9055 
+		transfer_state = 9056 
+		transfer_state = 9057 
+		transfer_state = 9058 
+		transfer_state = 9059 
+		transfer_state = 9060 
+		transfer_state = 9061 
+		transfer_state = 9062 
+		transfer_state = 9063 
+		transfer_state = 9064 
+		transfer_state = 9065 
+		transfer_state = 9066 
+		transfer_state = 9067 
+		transfer_state = 9068 
+		transfer_state = 9069 
+		transfer_state = 9070 
+		transfer_state = 9071 
+		transfer_state = 9072 
+		transfer_state = 9073 
+		transfer_state = 9074 
+		transfer_state = 9075 
+		transfer_state = 9076 
+		transfer_state = 9077 
+		transfer_state = 9078 
+		transfer_state = 9079 
+		transfer_state = 9080
+			transfer_state = 667 
+		transfer_state = 8883 
+		transfer_state = 8884 
+		transfer_state = 8885 
+		transfer_state = 8886 
+		transfer_state = 8887 
+		transfer_state = 8888 
+		transfer_state = 8889 
+		transfer_state = 8890 
+		transfer_state = 8891 
+		transfer_state = 8892 
+		transfer_state = 8893 
+		transfer_state = 8894 
+		transfer_state = 8895 
+		transfer_state = 8896
 			FROM = { add_offsite_building = { type = arms_factory level = 6 } }
 		}
 		FROM = { country_event = { id = mtg_netherlands.23 } }
 	}
 
-	# We don't want it.
+	
 	option = {
 		name = mtg_netherlands.12.b
 		ai_chance = { factor = 0 }
@@ -395,7 +713,7 @@ country_event = {
 	}
 }
 
-# Event for Japan saying NL trades them the Indies resources
+
 country_event = {
 	id = mtg_netherlands.13
 	title = mtg_netherlands.13.t
@@ -404,7 +722,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.13.a
 		effect_tooltip = {
@@ -449,7 +767,7 @@ country_event = {
 		FROM = { country_event = { id = mtg_netherlands.24 } }
 	}
 
-	# Not good enough!
+	
 	option = {
 		name = mtg_netherlands.13.b
 		ai_chance = { factor = 0 }
@@ -460,7 +778,7 @@ country_event = {
 	}
 }
 
-# Replace the Defeatist Government
+
 country_event = {
 	id = mtg_netherlands.14
 	title = mtg_netherlands.14.t
@@ -469,7 +787,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.14.a
 		add_popularity = {
@@ -496,7 +814,7 @@ country_event = {
 	}
 }
 
-# Event for Britain: Revive the Low Countries Buffer Proposal
+
 country_event = {
 	id = mtg_netherlands.15
 	title = mtg_netherlands.15.t
@@ -505,7 +823,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Great idea
+	
 	option = {
 		name = mtg_netherlands.15.a
 		BEL = { country_event = { id = mtg_netherlands.18 } }
@@ -513,7 +831,7 @@ country_event = {
 		FROM = { country_event = { id = mtg_netherlands.16 days = 1 random_days = 3 } }
 	}
 
-	# We don't think so
+	
 	option = {
 		name = mtg_netherlands.15.b
 		ai_chance = { factor = 0 }
@@ -521,7 +839,7 @@ country_event = {
 	}
 }
 
-# Event for NL: Britain supports unified Low Countries
+
 country_event = {
 	id = mtg_netherlands.16
 	title = mtg_netherlands.16.t
@@ -530,7 +848,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Hurrah
+	
 	option = {
 		name = mtg_netherlands.16.a
 		BEL = {
@@ -542,7 +860,7 @@ country_event = {
 		    target = BEL
 		    transfer_troops = yes
 		}
-		#ENG = { end_exile = BEL }
+		
 		LUX = {
 			every_unit_leader = {
 				set_nationality = ROOT
@@ -552,12 +870,12 @@ country_event = {
 		    target = LUX
 		    transfer_troops = yes
 		}
-		#ENG = { end_exile = LUX }
+		
 		hidden_effect = { news_event = { id = mtg_news.51 days = 1 } }
 	}
 }
 
-# Event for NL: Britain rejects unified Low Countries
+
 country_event = {
 	id = mtg_netherlands.17
 	title = mtg_netherlands.17.t
@@ -566,13 +884,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Damnit
+	
 	option = {
 		name = mtg_netherlands.17.a
 	}
 }
 
-# Event for BEL/LUX: Britain just agreed to hand you over to NL
+
 country_event = {
 	id = mtg_netherlands.18
 	title = mtg_netherlands.16.t
@@ -581,14 +899,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# What?! Bastards!
+	
 	option = {
 		name = mtg_netherlands.18.a
 		custom_effect_tooltip = GAME_OVER_TT
 	}
 }
 
-# Event for BEL/LUX: HOL invites to Benelux
+
 country_event = {
 	id = mtg_netherlands.19
 	title = mtg_netherlands.19.t
@@ -597,7 +915,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Good idea!
+	
 	option = {
 		name = mtg_netherlands.19.a
 		ai_chance = {
@@ -614,7 +932,7 @@ country_event = {
 		}
 	}
 
-	# No ty
+	
 	option = {
 		name = mtg_netherlands.19.b
 		ai_chance = {
@@ -629,7 +947,7 @@ country_event = {
 	}
 }
 
-# Event for Democratic minors: HOL invites to European Union
+
 country_event = {
 	id = mtg_netherlands.20
 	title = mtg_netherlands.20.t
@@ -638,7 +956,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Good idea!
+	
 	option = {
 		name = mtg_netherlands.19.a
 		ai_chance = {
@@ -655,7 +973,7 @@ country_event = {
 		}
 	}
 
-	# No ty
+	
 	option = {
 		name = mtg_netherlands.19.b
 		ai_chance = {
@@ -670,7 +988,7 @@ country_event = {
 	}
 }
 
-# Event for INS informing of NL preparing to integrate
+
 country_event = {
 	id = mtg_netherlands.21
 	title = mtg_netherlands.21.t
@@ -679,7 +997,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Oh, well then...
+	
 	option = {
 		name = mtg_netherlands.21.a
 		effect_tooltip = {
@@ -691,7 +1009,7 @@ country_event = {
 	}
 }
 
-# Event for INS informing of NL moving capital to Batavia
+
 country_event = {
 	id = mtg_netherlands.22
 	title = mtg_netherlands.22.t
@@ -700,14 +1018,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Goodbye, cruel world!
+	
 	option = {
 		name = mtg_netherlands.22.a
 		custom_effect_tooltip = GAME_OVER_TT
 	}
 }
 
-# Event saying Japan accepts transfer of NEI
+
 country_event = {
 	id = mtg_netherlands.23
 	title = mtg_netherlands.23.t
@@ -716,22 +1034,181 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok!
+	
 	option = {
 		name = mtg_netherlands.23.a
 		FROM = {
-			transfer_state = 672
-			transfer_state = 335
-			transfer_state = 334
-			transfer_state = 673
-			transfer_state = 667
+			transfer_state = 672 
+		transfer_state = 9001 
+		transfer_state = 9002 
+		transfer_state = 9003 
+		transfer_state = 9004 
+		transfer_state = 9005 
+		transfer_state = 9006 
+		transfer_state = 9007 
+		transfer_state = 9008 
+		transfer_state = 9009 
+		transfer_state = 9010 
+		transfer_state = 9011 
+		transfer_state = 9012 
+		transfer_state = 9013 
+		transfer_state = 9014 
+		transfer_state = 9015 
+		transfer_state = 9016 
+		transfer_state = 9017 
+		transfer_state = 9018 
+		transfer_state = 9019 
+		transfer_state = 9020 
+		transfer_state = 9021 
+		transfer_state = 9022 
+		transfer_state = 9023 
+		transfer_state = 9024 
+		transfer_state = 9025 
+		transfer_state = 9026 
+		transfer_state = 9027 
+		transfer_state = 9028 
+		transfer_state = 9029 
+		transfer_state = 9030 
+		transfer_state = 9031 
+		transfer_state = 9032 
+		transfer_state = 9033 
+		transfer_state = 9034 
+		transfer_state = 9035 
+		transfer_state = 9036 
+		transfer_state = 9037 
+		transfer_state = 9038 
+		transfer_state = 9039 
+		transfer_state = 9040 
+		transfer_state = 9041 
+		transfer_state = 9042 
+		transfer_state = 9043 
+		transfer_state = 9044 
+		transfer_state = 9045 
+		transfer_state = 9046 
+		transfer_state = 9047 
+		transfer_state = 9048 
+		transfer_state = 9049 
+		transfer_state = 9050 
+		transfer_state = 9051 
+		transfer_state = 9052 
+		transfer_state = 9053 
+		transfer_state = 9054
+			transfer_state = 335 
+		transfer_state = 3982 
+		transfer_state = 3983 
+		transfer_state = 3984 
+		transfer_state = 3985 
+		transfer_state = 3986 
+		transfer_state = 3987 
+		transfer_state = 3988 
+		transfer_state = 3989 
+		transfer_state = 3990 
+		transfer_state = 3991 
+		transfer_state = 3992 
+		transfer_state = 3993 
+		transfer_state = 3994 
+		transfer_state = 3995 
+		transfer_state = 3996 
+		transfer_state = 3997 
+		transfer_state = 3998 
+		transfer_state = 3999 
+		transfer_state = 4000 
+		transfer_state = 4001 
+		transfer_state = 4002 
+		transfer_state = 4003 
+		transfer_state = 4004 
+		transfer_state = 4005
+			transfer_state = 334 
+		transfer_state = 3941 
+		transfer_state = 3942 
+		transfer_state = 3943 
+		transfer_state = 3944 
+		transfer_state = 3945 
+		transfer_state = 3946 
+		transfer_state = 3947 
+		transfer_state = 3948 
+		transfer_state = 3949 
+		transfer_state = 3950 
+		transfer_state = 3951 
+		transfer_state = 3952 
+		transfer_state = 3953 
+		transfer_state = 3954 
+		transfer_state = 3955 
+		transfer_state = 3956 
+		transfer_state = 3957 
+		transfer_state = 3958 
+		transfer_state = 3959 
+		transfer_state = 3960 
+		transfer_state = 3961 
+		transfer_state = 3962 
+		transfer_state = 3963 
+		transfer_state = 3964 
+		transfer_state = 3965 
+		transfer_state = 3966 
+		transfer_state = 3967 
+		transfer_state = 3968 
+		transfer_state = 3969 
+		transfer_state = 3970 
+		transfer_state = 3971 
+		transfer_state = 3972 
+		transfer_state = 3973 
+		transfer_state = 3974 
+		transfer_state = 3975 
+		transfer_state = 3976 
+		transfer_state = 3977 
+		transfer_state = 3978 
+		transfer_state = 3979 
+		transfer_state = 3980 
+		transfer_state = 3981
+			transfer_state = 673 
+		transfer_state = 9055 
+		transfer_state = 9056 
+		transfer_state = 9057 
+		transfer_state = 9058 
+		transfer_state = 9059 
+		transfer_state = 9060 
+		transfer_state = 9061 
+		transfer_state = 9062 
+		transfer_state = 9063 
+		transfer_state = 9064 
+		transfer_state = 9065 
+		transfer_state = 9066 
+		transfer_state = 9067 
+		transfer_state = 9068 
+		transfer_state = 9069 
+		transfer_state = 9070 
+		transfer_state = 9071 
+		transfer_state = 9072 
+		transfer_state = 9073 
+		transfer_state = 9074 
+		transfer_state = 9075 
+		transfer_state = 9076 
+		transfer_state = 9077 
+		transfer_state = 9078 
+		transfer_state = 9079 
+		transfer_state = 9080
+			transfer_state = 667 
+		transfer_state = 8883 
+		transfer_state = 8884 
+		transfer_state = 8885 
+		transfer_state = 8886 
+		transfer_state = 8887 
+		transfer_state = 8888 
+		transfer_state = 8889 
+		transfer_state = 8890 
+		transfer_state = 8891 
+		transfer_state = 8892 
+		transfer_state = 8893 
+		transfer_state = 8894 
+		transfer_state = 8895 
+		transfer_state = 8896
 		}
 		add_offsite_building = { type = arms_factory level = 6 }
 		hidden_effect = { news_event = { id = mtg_news.48 days = 1 } }
 	}
 }
 
-# Event saying Japan accepts transfer of NEI resources
+
 country_event = {
 	id = mtg_netherlands.24
 	title = mtg_netherlands.24.t
@@ -740,7 +1217,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok!
+	
 	option = {
 		name = mtg_netherlands.23.a
 		if = {
@@ -780,7 +1257,7 @@ country_event = {
 	}
 }
 
-# Event saying Japan rejects Dutch offer
+
 country_event = {
 	id = mtg_netherlands.25
 	title = mtg_netherlands.25.t
@@ -789,13 +1266,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok!
+	
 	option = {
 		name = mtg_netherlands.25.a
 		hidden_effect = { JAP = { set_country_flag = HOL_declare_war_indies_allowed } }
 	}
 
-	# Let them 'protect' the East Indies
+	
 	option = {
 		name = mtg_netherlands.11.a
 		trigger = {
@@ -803,18 +1280,177 @@ country_event = {
 		}
 		effect_tooltip = {
 			JAP = {
-				transfer_state = 672
-				transfer_state = 335
-				transfer_state = 334
-				transfer_state = 673
-				transfer_state = 667
+				transfer_state = 672 
+		transfer_state = 9001 
+		transfer_state = 9002 
+		transfer_state = 9003 
+		transfer_state = 9004 
+		transfer_state = 9005 
+		transfer_state = 9006 
+		transfer_state = 9007 
+		transfer_state = 9008 
+		transfer_state = 9009 
+		transfer_state = 9010 
+		transfer_state = 9011 
+		transfer_state = 9012 
+		transfer_state = 9013 
+		transfer_state = 9014 
+		transfer_state = 9015 
+		transfer_state = 9016 
+		transfer_state = 9017 
+		transfer_state = 9018 
+		transfer_state = 9019 
+		transfer_state = 9020 
+		transfer_state = 9021 
+		transfer_state = 9022 
+		transfer_state = 9023 
+		transfer_state = 9024 
+		transfer_state = 9025 
+		transfer_state = 9026 
+		transfer_state = 9027 
+		transfer_state = 9028 
+		transfer_state = 9029 
+		transfer_state = 9030 
+		transfer_state = 9031 
+		transfer_state = 9032 
+		transfer_state = 9033 
+		transfer_state = 9034 
+		transfer_state = 9035 
+		transfer_state = 9036 
+		transfer_state = 9037 
+		transfer_state = 9038 
+		transfer_state = 9039 
+		transfer_state = 9040 
+		transfer_state = 9041 
+		transfer_state = 9042 
+		transfer_state = 9043 
+		transfer_state = 9044 
+		transfer_state = 9045 
+		transfer_state = 9046 
+		transfer_state = 9047 
+		transfer_state = 9048 
+		transfer_state = 9049 
+		transfer_state = 9050 
+		transfer_state = 9051 
+		transfer_state = 9052 
+		transfer_state = 9053 
+		transfer_state = 9054
+				transfer_state = 335 
+		transfer_state = 3982 
+		transfer_state = 3983 
+		transfer_state = 3984 
+		transfer_state = 3985 
+		transfer_state = 3986 
+		transfer_state = 3987 
+		transfer_state = 3988 
+		transfer_state = 3989 
+		transfer_state = 3990 
+		transfer_state = 3991 
+		transfer_state = 3992 
+		transfer_state = 3993 
+		transfer_state = 3994 
+		transfer_state = 3995 
+		transfer_state = 3996 
+		transfer_state = 3997 
+		transfer_state = 3998 
+		transfer_state = 3999 
+		transfer_state = 4000 
+		transfer_state = 4001 
+		transfer_state = 4002 
+		transfer_state = 4003 
+		transfer_state = 4004 
+		transfer_state = 4005
+				transfer_state = 334 
+		transfer_state = 3941 
+		transfer_state = 3942 
+		transfer_state = 3943 
+		transfer_state = 3944 
+		transfer_state = 3945 
+		transfer_state = 3946 
+		transfer_state = 3947 
+		transfer_state = 3948 
+		transfer_state = 3949 
+		transfer_state = 3950 
+		transfer_state = 3951 
+		transfer_state = 3952 
+		transfer_state = 3953 
+		transfer_state = 3954 
+		transfer_state = 3955 
+		transfer_state = 3956 
+		transfer_state = 3957 
+		transfer_state = 3958 
+		transfer_state = 3959 
+		transfer_state = 3960 
+		transfer_state = 3961 
+		transfer_state = 3962 
+		transfer_state = 3963 
+		transfer_state = 3964 
+		transfer_state = 3965 
+		transfer_state = 3966 
+		transfer_state = 3967 
+		transfer_state = 3968 
+		transfer_state = 3969 
+		transfer_state = 3970 
+		transfer_state = 3971 
+		transfer_state = 3972 
+		transfer_state = 3973 
+		transfer_state = 3974 
+		transfer_state = 3975 
+		transfer_state = 3976 
+		transfer_state = 3977 
+		transfer_state = 3978 
+		transfer_state = 3979 
+		transfer_state = 3980 
+		transfer_state = 3981
+				transfer_state = 673 
+		transfer_state = 9055 
+		transfer_state = 9056 
+		transfer_state = 9057 
+		transfer_state = 9058 
+		transfer_state = 9059 
+		transfer_state = 9060 
+		transfer_state = 9061 
+		transfer_state = 9062 
+		transfer_state = 9063 
+		transfer_state = 9064 
+		transfer_state = 9065 
+		transfer_state = 9066 
+		transfer_state = 9067 
+		transfer_state = 9068 
+		transfer_state = 9069 
+		transfer_state = 9070 
+		transfer_state = 9071 
+		transfer_state = 9072 
+		transfer_state = 9073 
+		transfer_state = 9074 
+		transfer_state = 9075 
+		transfer_state = 9076 
+		transfer_state = 9077 
+		transfer_state = 9078 
+		transfer_state = 9079 
+		transfer_state = 9080
+				transfer_state = 667 
+		transfer_state = 8883 
+		transfer_state = 8884 
+		transfer_state = 8885 
+		transfer_state = 8886 
+		transfer_state = 8887 
+		transfer_state = 8888 
+		transfer_state = 8889 
+		transfer_state = 8890 
+		transfer_state = 8891 
+		transfer_state = 8892 
+		transfer_state = 8893 
+		transfer_state = 8894 
+		transfer_state = 8895 
+		transfer_state = 8896
 			}
 			add_offsite_building = { type = arms_factory level = 8 }
 		}
 		JAP = { country_event = { id = mtg_netherlands.12 hours = 6 } }
 	}
 
-	# Give them trade
+	
 	option = {
 		name = mtg_netherlands.11.b
 		trigger = {
@@ -861,7 +1497,7 @@ country_event = {
 	}
 }
 
-# Event for USA informing them NL wants their protection in West Indies
+
 country_event = {
 	id = mtg_netherlands.26
 	title = mtg_netherlands.26.t
@@ -870,7 +1506,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.26.a
 		effect_tooltip = {
@@ -880,7 +1516,7 @@ country_event = {
 		FROM = { country_event = { id = mtg_netherlands.27 } }
 	}
 
-	# Nope
+	
 	option = {
 		name = mtg_netherlands.26.b
 		ai_chance = {
@@ -890,7 +1526,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying USA will protect West Indies
+
 country_event = {
 	id = mtg_netherlands.27
 	title = mtg_netherlands.27.t
@@ -899,7 +1535,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok!
+	
 	option = {
 		name = mtg_netherlands.27.a
 		USA = {
@@ -910,7 +1546,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying USA will NOT protect West Indies
+
 country_event = {
 	id = mtg_netherlands.28
 	title = mtg_netherlands.28.t
@@ -919,13 +1555,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Damnit
+	
 	option = {
 		name = mtg_netherlands.28.a
 	}
 }
 
-# Event for FROM for equipment to prepare against an invasion
+
 country_event = {
 	id = mtg_netherlands.29
 	title = mtg_netherlands.29.t
@@ -934,7 +1570,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok - give them infantry equipment
+	
 	option = {
 		name = mtg_netherlands.29.a
 		trigger = {
@@ -1015,7 +1651,7 @@ country_event = {
 		}
 	}
 
-	# Ok - give them support equipment
+	
 	option = {
 		name = mtg_netherlands.29.b
 		trigger = {
@@ -1096,7 +1732,7 @@ country_event = {
 		}
 	}
 
-	# Ok - give them artillery equipment
+	
 	option = {
 		name = mtg_netherlands.29.c
 		trigger = {
@@ -1177,7 +1813,7 @@ country_event = {
 		}
 	}
 
-	# Nope
+	
 	option = {
 		name = mtg_netherlands.29.e
 		ai_chance = {
@@ -1205,7 +1841,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM will deliver equipment
+
 country_event = {
 	id = mtg_netherlands.30
 	title = mtg_netherlands.30.t
@@ -1214,7 +1850,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok!
+	
 	option = {
 		name = mtg_netherlands.30.a
 		if = {
@@ -1259,7 +1895,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM will NOT deliver equipment
+
 country_event = {
 	id = mtg_netherlands.31
 	title = mtg_netherlands.31.t
@@ -1268,13 +1904,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Damnit
+	
 	option = {
 		name = mtg_netherlands.31.a
 	}
 }
 
-# Event for FROM asking to draw up a combined staff plan
+
 country_event = {
 	id = mtg_netherlands.32
 	title = mtg_netherlands.32.t
@@ -1283,7 +1919,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.32.a
 		ai_chance = {
@@ -1353,7 +1989,7 @@ country_event = {
 		custom_effect_tooltip = mtg_netherlands.32_tt
 	}
 
-	# Nope
+	
 	option = {
 		name = mtg_netherlands.32.b
 		ai_chance = {
@@ -1418,7 +2054,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM wants to draw up a staff plan
+
 country_event = {
 	id = mtg_netherlands.33
 	title = mtg_netherlands.33.t
@@ -1427,7 +2063,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok!
+	
 	option = {
 		name = mtg_netherlands.33.a
 		effect_tooltip = {
@@ -1455,7 +2091,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM does not want to draw up a staff plan
+
 country_event = {
 	id = mtg_netherlands.34
 	title = mtg_netherlands.34.t
@@ -1464,13 +2100,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Damnit
+	
 	option = {
 		name = mtg_netherlands.34.a
 	}
 }
 
-# Event for FROM asking to exchange intelligence
+
 country_event = {
 	id = mtg_netherlands.35
 	title = mtg_netherlands.35.t
@@ -1479,7 +2115,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.35.a
 		ai_chance = {
@@ -1576,7 +2212,7 @@ country_event = {
 		}
 	}
 
-	# Nope
+	
 	option = {
 		name = mtg_netherlands.35.b
 		ai_chance = {
@@ -1641,7 +2277,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM agrees to exchange intelligence
+
 country_event = {
 	id = mtg_netherlands.36
 	title = mtg_netherlands.36.t
@@ -1650,7 +2286,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok!
+	
 	option = {
 		name = mtg_netherlands.36.a
 		effect_tooltip = {
@@ -1681,7 +2317,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM does not agree to exchange intelligence
+
 country_event = {
 	id = mtg_netherlands.37
 	title = mtg_netherlands.37.t
@@ -1690,15 +2326,15 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Damnit
+	
 	option = {
 		name = mtg_netherlands.37.a
 	}
 }
 
-# EVENTS 38-40 removed!
 
-# Event for FROM asking to share military knowledge
+
+
 country_event = {
 	id = mtg_netherlands.41
 	title = mtg_netherlands.41.t
@@ -1707,7 +2343,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.41.a
 		ai_chance = {
@@ -1786,7 +2422,7 @@ country_event = {
 		FROM = { country_event = { id = mtg_netherlands.42 hours = 6 } }
 	}
 
-	# Nope
+	
 	option = {
 		name = mtg_netherlands.41.b
 		ai_chance = {
@@ -1851,7 +2487,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM agrees to share military knowledge
+
 country_event = {
 	id = mtg_netherlands.42
 	title = mtg_netherlands.42.t
@@ -1860,7 +2496,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok!
+	
 	option = {
 		name = mtg_netherlands.42.a
 		effect_tooltip = {
@@ -1875,7 +2511,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM does not agree to share military knowledge
+
 country_event = {
 	id = mtg_netherlands.43
 	title = mtg_netherlands.43.t
@@ -1884,15 +2520,15 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Damnit
+	
 	option = {
 		name = mtg_netherlands.43.a
 	}
 }
 
-### Prince Bernhard Shenanigans ###
 
-# Prince Bernhard generator event
+
+
 country_event = {
 	id = mtg_netherlands.44
 
@@ -1907,63 +2543,63 @@ country_event = {
 
 	immediate = {
 		random_list = {
-			10 = { # Minor Scandal
+			10 = { 
 				modifier = {
 					factor = 0
 					has_war = no
 				}
 				country_event = { id = mtg_netherlands.45 }
 			}
-			15 = { # Dashing Public Impression
+			15 = { 
 				modifier = {
 					factor = 0
 					has_war = no
 				}
 				country_event = { id = mtg_netherlands.46 }
 			}
-			15 = { # Good Example Air Forces
+			15 = { 
 				modifier = {
 					factor = 0
 					has_war = no
 				}
 				country_event = { id = mtg_netherlands.47 }
 			}
-			10 = { # Bad Example Air Forces
+			10 = { 
 				modifier = {
 					factor = 0
 					has_war = no
 				}
 				country_event = { id = mtg_netherlands.48 }
 			}
-			15 = { # Good Strategy Meddling
+			15 = { 
 				modifier = {
 					factor = 0
 					has_war = no
 				}
 				country_event = { id = mtg_netherlands.49 }
 			}
-			10 = { # Bad Strategy Meddling
+			10 = { 
 				modifier = {
 					factor = 0
 					has_war = no
 				}
 				country_event = { id = mtg_netherlands.50 }
 			}
-			10 = { # Goes to gather intelligence
+			10 = { 
 				modifier = {
 					factor = 0
 					has_war = no
 				}
 				country_event = { id = mtg_netherlands.51 }
 			}
-			10 = { # Goes to organize resistance
+			10 = { 
 				modifier = {
 					factor = 0
 					has_war = no
 				}
 				country_event = { id = mtg_netherlands.54 }
 			}
-			5 = { # Diplomatic Row
+			5 = { 
 				modifier = {
 					factor = 0
 					NOT = { has_idea = HOL_prince_bernhard }
@@ -1990,7 +2626,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard involved in minor scandal
+
 country_event = {
 	id = mtg_netherlands.45
 	title = mtg_netherlands.45.t
@@ -1999,7 +2635,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.45.a
 		add_political_power = -25
@@ -2009,7 +2645,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard makes dashing public impression
+
 country_event = {
 	id = mtg_netherlands.46
 	title = mtg_netherlands.46.t
@@ -2018,7 +2654,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.46.a
 		add_political_power = 25
@@ -2028,7 +2664,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard sets good example for air forces
+
 country_event = {
 	id = mtg_netherlands.47
 	title = mtg_netherlands.47.t
@@ -2037,7 +2673,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.47.a
 		add_timed_idea = { idea = HOL_bernhard_good_air_example days = 30 }
@@ -2047,7 +2683,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard sets bad example for air forces
+
 country_event = {
 	id = mtg_netherlands.48
 	title = mtg_netherlands.48.t
@@ -2056,7 +2692,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.48.a
 		add_timed_idea = { idea = HOL_bernhard_bad_air_example days = 30 }
@@ -2065,7 +2701,7 @@ country_event = {
 		}
 	}
 
-	# Handle the situation
+	
 	option = {
 		name = mtg_netherlands.48.b
 		add_political_power = -50
@@ -2075,7 +2711,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard gives good input on strategy
+
 country_event = {
 	id = mtg_netherlands.49
 	title = mtg_netherlands.49.t
@@ -2084,7 +2720,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.49.a
 		add_timed_idea = { idea = HOL_bernhard_good_strategy_meddling days = 30 }
@@ -2094,7 +2730,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard gives bad input on strategy
+
 country_event = {
 	id = mtg_netherlands.50
 	title = mtg_netherlands.50.t
@@ -2103,7 +2739,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.50.a
 		add_timed_idea = { idea = HOL_bernhard_bad_strategy_meddling days = 30 }
@@ -2112,7 +2748,7 @@ country_event = {
 		}
 	}
 
-	# Handle the situation
+	
 	option = {
 		name = mtg_netherlands.50.b
 		add_political_power = -25
@@ -2122,7 +2758,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard goes to gather intelligence
+
 country_event = {
 	id = mtg_netherlands.51
 	title = mtg_netherlands.51.t
@@ -2131,7 +2767,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.51.a
 		hidden_effect = {
@@ -2142,7 +2778,7 @@ country_event = {
 		}
 	}
 
-	# stop him
+	
 	option = {
 		name = mtg_netherlands.51.b
 		add_political_power = -50
@@ -2152,7 +2788,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard gathers good intelligence
+
 country_event = {
 	id = mtg_netherlands.52
 	title = mtg_netherlands.52.t
@@ -2161,7 +2797,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.52.a
 		add_timed_idea = { idea = HOL_bernhard_good_intelligence days = 30 }
@@ -2171,7 +2807,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard gathers bad intelligence
+
 country_event = {
 	id = mtg_netherlands.53
 	title = mtg_netherlands.53.t
@@ -2180,7 +2816,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.53.a
 		add_timed_idea = { idea = HOL_bernhard_bad_intelligence days = 30 }
@@ -2190,7 +2826,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard goes to organize resistance
+
 country_event = {
 	id = mtg_netherlands.54
 	title = mtg_netherlands.54.t
@@ -2199,7 +2835,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.54.a
 		hidden_effect = {
@@ -2210,7 +2846,7 @@ country_event = {
 		}
 	}
 
-	# No way
+	
 	option = {
 		name = mtg_netherlands.54.b
 		add_political_power = -50
@@ -2220,7 +2856,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard successfully organizes resistance
+
 country_event = {
 	id = mtg_netherlands.55
 	title = mtg_netherlands.55.t
@@ -2229,7 +2865,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.55.a
 		add_timed_idea = { idea = HOL_bernhard_organized_resistance days = 30 }
@@ -2239,7 +2875,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard is wounded organizing resistance
+
 country_event = {
 	id = mtg_netherlands.56
 	title = mtg_netherlands.56.t
@@ -2248,7 +2884,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.56.a
 		random_unit_leader = {
@@ -2266,7 +2902,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard causes diplomatic row generator event
+
 country_event = {
 	id = mtg_netherlands.57
 	hidden = yes
@@ -2302,7 +2938,7 @@ country_event = {
 	}
 }
 
-# Prince Bernhard causes diplomatic row
+
 country_event = {
 	id = mtg_netherlands.58
 	title = mtg_netherlands.58.t
@@ -2311,7 +2947,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.58.a
 		event_target:HOL_bernhard_row_target = {
@@ -2324,7 +2960,7 @@ country_event = {
 	}
 }
 
-# Notification event of diplomatic row
+
 country_event = {
 	id = mtg_netherlands.59
 	title = mtg_netherlands.59.t
@@ -2333,13 +2969,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.59.a
 	}
 }
 
-# Notification event of escalation of diplomatic row
+
 country_event = {
 	id = mtg_netherlands.60
 	title = mtg_netherlands.60.t
@@ -2348,7 +2984,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Let 'em come
+	
 	option = {
 		name = mtg_netherlands.60.a
 		ai_chance = { factor = 9 }
@@ -2363,7 +2999,7 @@ country_event = {
 		}
 	}
 
-	# Invest heavily in soothing relations
+	
 	option = {
 		name = mtg_netherlands.60.b
 		ai_chance = { factor = 1 }
@@ -2372,7 +3008,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM is not backing down
+
 country_event = {
 	id = mtg_netherlands.61
 	title = mtg_netherlands.61.t
@@ -2381,7 +3017,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.61.a
 		create_wargoal = {
@@ -2391,7 +3027,7 @@ country_event = {
 	}
 }
 
-# Event for HOL saying FROM soothed tensions
+
 country_event = {
 	id = mtg_netherlands.62
 	title = mtg_netherlands.62.t
@@ -2400,13 +3036,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.62.a
 	}
 }
 
-# Event for HOL notifying of evacuation of gold reserves
+
 country_event = {
 	id = mtg_netherlands.63
 	title = mtg_netherlands.63.t
@@ -2415,7 +3051,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.63.a
 		remove_ideas = HOL_preparing_evacuation_of_gold_reserves
@@ -2424,7 +3060,7 @@ country_event = {
 	}
 }
 
-# Zuiderzee event for HOL offering infrastructure build speed
+
 country_event = {
 	id = mtg_netherlands.64
 	title = mtg_netherlands.64.t
@@ -2446,7 +3082,7 @@ country_event = {
 		days = 2
 	}
 	
-	# We will invest
+	
 	option = {
 		name = mtg_netherlands.64.a
 		ai_chance = {
@@ -2456,13 +3092,13 @@ country_event = {
 		add_timed_idea = { idea = HOL_zuiderzee_infrastructure_advancements days = 365 }
 	}
 
-	# We will not
+	
 	option = {
 		name = mtg_netherlands.64.b
 	}
 }
 
-# Zuiderzee event for HOL offering factory build speed
+
 country_event = {
 	id = mtg_netherlands.65
 	title = mtg_netherlands.65.t
@@ -2484,14 +3120,14 @@ country_event = {
 		days = 2
 	}
 	
-	# We will invest
+	
 	option = {
 		name = mtg_netherlands.64.a
 		add_political_power = -50
 		add_timed_idea = { idea = HOL_zuiderzee_industrial_advancements days = 365 }
 	}
 
-	# We will not
+	
 	option = {
 		name = mtg_netherlands.64.b
 		ai_chance = {
@@ -2500,7 +3136,7 @@ country_event = {
 	}
 }
 
-# Gateway to Europe notification event of ENG taking the lead
+
 country_event = {
 	id = mtg_netherlands.66
 	title = mtg_netherlands.66.t
@@ -2520,7 +3156,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.66.a
 		trigger = {
@@ -2528,7 +3164,7 @@ country_event = {
 		}
 	}
 
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.66.b
 		trigger = {
@@ -2537,7 +3173,7 @@ country_event = {
 	}
 }
 
-# Gateway to Europe notification event of GER taking the lead
+
 country_event = {
 	id = mtg_netherlands.67
 	title = mtg_netherlands.67.t
@@ -2557,7 +3193,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.66.a
 		trigger = {
@@ -2565,7 +3201,7 @@ country_event = {
 		}
 	}
 
-	# Ok
+	
 	option = {
 		name = mtg_netherlands.67.b
 		trigger = {
@@ -2574,7 +3210,7 @@ country_event = {
 	}
 }
 
-# Hidden event removing Shell-shocked spectator spirit
+
 country_event = {
 	id = mtg_netherlands.68
 
@@ -2629,7 +3265,7 @@ country_event = {
 	}
 }
 
-# Event complaining about unneeded flooding
+
 country_event = {
 	id = mtg_netherlands.69
 	title = mtg_netherlands.69.t
@@ -2682,7 +3318,7 @@ country_event = {
 		}
 	}
 	
-	# They have to suck it up!
+	
 	option = {
 		name = mtg_netherlands.69.a
 		ai_chance = {
@@ -2752,7 +3388,7 @@ country_event = {
 		}
 	}
 
-	# Drain the land
+	
 	option = {
 		name = mtg_netherlands.69.b
 		add_political_power = -25
@@ -2761,7 +3397,7 @@ country_event = {
 }
 
 
-# Event spawning pro-Kaiser deserter unit
+
 country_event = {
 	id = mtg_netherlands.70
 	title = mtg_netherlands.70.t
@@ -2779,7 +3415,7 @@ country_event = {
 		days = 90
 	}
 	
-	# Good
+	
 	option = {
 		name = excellent
 		if = {
@@ -2814,7 +3450,7 @@ country_event = {
 	}
 }
 
-# Event informing Germany of pro-Kaiser deserters
+
 country_event = {
 	id = mtg_netherlands.71
 	title = mtg_netherlands.71.t
@@ -2823,14 +3459,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Damn them!
+	
 	option = {
 		name = mtg_netherlands.71.a
 		add_ideas = HOL_german_defectors_2
 	}
 }
 
-# Wilhelm II dies (Netherlands)
+
 country_event = {
 	id = mtg_netherlands.72
 	title = wtt_germany.26.t
@@ -2857,17 +3493,17 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 1460	# Died in 1941
+		days = 1460	
 	}
 	
-	# A tragedy
+	
 	option = {
 		name = mtg_netherlands.72.a
 		set_country_flag = HOL_wilhelm_ii_died
 	}
 }
 
-# German Dutch-aided civil war
+
 country_event = {
 	id = mtg_netherlands.73
 	title = mtg_netherlands.73.t
@@ -2888,7 +3524,7 @@ country_event = {
 		}
 	}
 	
-	# Good
+	
 	option = {
 		name = mtg_netherlands.73.a
 		GER = {
@@ -2965,7 +3601,7 @@ country_event = {
 	}
 }
 
-# Imperial GER suggesting they become allies when the war has ended and HOL is no longer in a faction
+
 country_event = {
 	id = mtg_netherlands.74
 	title = mtg_netherlands.74.t
@@ -2991,7 +3627,7 @@ country_event = {
 		days = 2
 	}
 	
-	# OK
+	
 	option = {
 		name = mtg_netherlands.74.a
 		random_country = {
@@ -3006,7 +3642,7 @@ country_event = {
 	}
 }
 
-# Event informing WW1 Allies of Wilhelminism
+
 country_event = {
 	id = mtg_netherlands.75
 	title = mtg_netherlands.75.t
@@ -3015,7 +3651,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# How dare they?!
+	
 	option = {
 		name = mtg_netherlands.75.a
 		effect_tooltip = {
@@ -3024,7 +3660,7 @@ country_event = {
 	}
 }
 
-# Event informing HOL that German deserters are no longer needed
+
 country_event = {
 	id = mtg_netherlands.76
 	title = mtg_netherlands.76.t
@@ -3033,7 +3669,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Very well
+	
 	option = {
 		name = mtg_netherlands.76.a
 		remove_ideas = HOL_german_defectors_1
@@ -3078,7 +3714,7 @@ country_event = {
 	}
 }
 
-# Event asking BEL/LUX whether they want to unify
+
 country_event = {
 	id = mtg_netherlands.77
 	title = mtg_netherlands.77.t
@@ -3087,7 +3723,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Sounds good
+	
 	option = {
 		name = mtg_netherlands.77.a
 		custom_effect_tooltip = GAME_OVER_TT
@@ -3097,7 +3733,7 @@ country_event = {
 		}
 	}
 
-	# We think not
+	
 	option = {
 		name = mtg_netherlands.77.b
 		ai_chance = {
@@ -3107,7 +3743,7 @@ country_event = {
 	}
 }
 
-# Event for Netherlands informing BEL/LUX accepted
+
 country_event = {
 	id = mtg_netherlands.78
 	title = mtg_netherlands.78.t
@@ -3116,7 +3752,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Great
+	
 	option = {
 		name = excellent
 		if = {
@@ -3158,7 +3794,7 @@ country_event = {
 	}
 }
 
-# Event for Netherlands informing BEL/LUX rejected
+
 country_event = {
 	id = mtg_netherlands.79
 	title = mtg_netherlands.79.t
@@ -3167,7 +3803,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Unfortunate
+	
 	option = {
 		name = unfortunate
 	}

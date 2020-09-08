@@ -1,10 +1,7 @@
-﻿###########################
-# Yugoslavian Events
-###########################
 
 add_namespace = yugoslavia
 
-# Britain to Back Coup in Yugoslavia
+
 country_event = {
 	id = yugoslavia.1
 	title = yugoslavia.1.t
@@ -59,7 +56,7 @@ country_event = {
 	}
 }
 
-# Yugoslavian Coup
+
 country_event = {
 	id = yugoslavia.2
 	title = yugoslavia.2.t
@@ -82,7 +79,7 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
-				#
+				
 			}
 		}
 		add_timed_idea = { idea = anti_nazi_coup days = 730 }
@@ -121,7 +118,7 @@ country_event = {
 
 
 
-# Yugoslavia (British and (possibly) French Support)
+
 country_event = {
 	id = yugoslavia.3
 	title = yugoslavia.3.t
@@ -155,7 +152,7 @@ country_event = {
 	}
 }
 
-# Yugoslavia (French Support)
+
 country_event = {
 	id = yugoslavia.4
 	title = yugoslavia.3.t
@@ -178,7 +175,7 @@ country_event = {
 	}
 }
 
-# Yugoslavia (Abandoned)
+
 country_event = {
 	id = yugoslavia.5
 	title = yugoslavia.5.t
@@ -187,26 +184,26 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Surrender Slovenia
+	option = { 
 		name = yugoslavia.5.a
 		ai_chance = {
 			factor = 90
-			modifier = { # Decrease chance YUG resists if AUS isn't taken first
+			modifier = { 
 				AUS = { exists = yes }
 				factor = 0.5
 			}
-			modifier = { # If they stand a chance to hold the line they will fight
+			modifier = { 
 				factor = 0.1
 				strength_ratio = {
 					tag = GER
 					ratio > 0.70
 				}
 			}
-			modifier = { #decrease if in faction
+			modifier = { 
 				factor = 0.5
 				is_in_faction = yes
 			}
-			modifier = { # Increase it again if other bordering nations are in Axis
+			modifier = { 
 				any_neighbor_country = {
 					NOT = { tag = GER }
 					is_in_faction_with = GER
@@ -214,13 +211,13 @@ country_event = {
 				factor = 2.0
 			}
 		}
-		GER = { country_event = germany.94 } #Germany gets Slovenia
+		GER = { country_event = germany.94 } 
 	}
-	option = { # Refuse anyway
+	option = { 
 		name = yugoslavia.5.b
 		ai_chance = { factor = 10 }
 		GER = {
-			country_event = germany.95 #Germany gains wargoal
+			country_event = germany.95 
 			effect_tooltip = {
 				create_wargoal = {
 					type = take_state_focus
@@ -233,7 +230,7 @@ country_event = {
 }
 
 
-# Yugoslavia (Italian Support)
+
 country_event = {
 	id = yugoslavia.6
 	title = yugoslavia.3.t
@@ -256,7 +253,7 @@ country_event = {
 	}
 }
 
-# Fate of Yugoslavia
+
 country_event = {
 	id = yugoslavia.7
 	title = germany.98.t
@@ -267,7 +264,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#Nope
+	
 	option = {
 		name = yugoslavia.7.a
 		ai_chance = { 
@@ -284,7 +281,7 @@ country_event = {
 		}
 	}
 
-	#Alrighty
+	
 	option = {
 		name = yugoslavia.7.b
 		ai_chance = { 
@@ -319,7 +316,7 @@ country_event = {
 	}
 }
 
-# Fate of Yugoslavia
+
 country_event = {
 	id = yugoslavia.8
 	title = germany.98.t
@@ -330,7 +327,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#Fuck that
+	
 	option = {
 		name = yugoslavia.8.a
 		ai_chance = { 
@@ -347,7 +344,7 @@ country_event = {
 		}
 	}
 
-	#Sure thing
+	
 	option = {
 		name = yugoslavia.8.b
 
@@ -386,15 +383,55 @@ country_event = {
 			CRO = {
 				if = {
 					limit = { YUG = { owns_state = 103 } }
-					transfer_state = 103
+					transfer_state = 103 
+		transfer_state = 820 
+		transfer_state = 821 
+		transfer_state = 822 
+		transfer_state = 823 
+		transfer_state = 824 
+		transfer_state = 825 
+		transfer_state = 826 
+		transfer_state = 827 
+		transfer_state = 828 
+		transfer_state = 829
 				}
 				if = {
 					limit = { YUG = { owns_state = 104 } }
-					transfer_state = 104
+					transfer_state = 104 
+		transfer_state = 830 
+		transfer_state = 831 
+		transfer_state = 832 
+		transfer_state = 833 
+		transfer_state = 834 
+		transfer_state = 835 
+		transfer_state = 836 
+		transfer_state = 837 
+		transfer_state = 838 
+		transfer_state = 839 
+		transfer_state = 840 
+		transfer_state = 841 
+		transfer_state = 842 
+		transfer_state = 843 
+		transfer_state = 844 
+		transfer_state = 845 
+		transfer_state = 846 
+		transfer_state = 847 
+		transfer_state = 848 
+		transfer_state = 849
 				}
 				if = {
 					limit = { YUG = { owns_state = 109 } }
-					transfer_state = 109
+					transfer_state = 109 
+		transfer_state = 885 
+		transfer_state = 886 
+		transfer_state = 887 
+		transfer_state = 888 
+		transfer_state = 889 
+		transfer_state = 890 
+		transfer_state = 891 
+		transfer_state = 892 
+		transfer_state = 893 
+		transfer_state = 894
 				}						
 			}
 			puppet = CRO
@@ -408,7 +445,7 @@ country_event = {
 	}
 }
 
-# Fate of Yugoslavia
+
 country_event = {
 	id = yugoslavia.9
 	title = germany.98.t
@@ -419,7 +456,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#No way
+	
 	option = {
 		name = yugoslavia.9.a
 		ai_chance = { factor = 2 }
@@ -434,7 +471,7 @@ country_event = {
 		}
 	}
 
-	#Seems fair
+	
 	option = {
 		name = yugoslavia.9.b
 		ai_chance = { 
@@ -462,15 +499,55 @@ country_event = {
 			CRO = {
 				if = {
 					limit = { YUG = { owns_state = 103 } }
-					transfer_state = 103
+					transfer_state = 103 
+		transfer_state = 820 
+		transfer_state = 821 
+		transfer_state = 822 
+		transfer_state = 823 
+		transfer_state = 824 
+		transfer_state = 825 
+		transfer_state = 826 
+		transfer_state = 827 
+		transfer_state = 828 
+		transfer_state = 829
 				}
 				if = {
 					limit = { YUG = { owns_state = 104 } }
-					transfer_state = 104
+					transfer_state = 104 
+		transfer_state = 830 
+		transfer_state = 831 
+		transfer_state = 832 
+		transfer_state = 833 
+		transfer_state = 834 
+		transfer_state = 835 
+		transfer_state = 836 
+		transfer_state = 837 
+		transfer_state = 838 
+		transfer_state = 839 
+		transfer_state = 840 
+		transfer_state = 841 
+		transfer_state = 842 
+		transfer_state = 843 
+		transfer_state = 844 
+		transfer_state = 845 
+		transfer_state = 846 
+		transfer_state = 847 
+		transfer_state = 848 
+		transfer_state = 849
 				}
 				if = {
 					limit = { YUG = { owns_state = 109 } }
-					transfer_state = 109
+					transfer_state = 109 
+		transfer_state = 885 
+		transfer_state = 886 
+		transfer_state = 887 
+		transfer_state = 888 
+		transfer_state = 889 
+		transfer_state = 890 
+		transfer_state = 891 
+		transfer_state = 892 
+		transfer_state = 893 
+		transfer_state = 894
 				}						
 			}
 			puppet = CRO

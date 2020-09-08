@@ -1,22 +1,20 @@
-﻿###########################
-# Canadian TFV events Events
-###########################
+
 
 add_namespace = tfv_canada
 add_namespace = canada_vanilla
 
-# Completed CAN_north_american_alliance.
-# Canadian national focus.
+
+
 country_event = {
 	id = tfv_canada.1
-	title = tfv_canada.1.t	# Canada asks US to create a faction.
-	desc = tfv_canada.1.d	#
+	title = tfv_canada.1.t	
+	desc = tfv_canada.1.d	
 	picture = GFX_report_event_canada_patriation
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_canada.1.a # US Accepts the faction proposal
+		name = tfv_canada.1.a 
 		
 		ai_chance = {
 			base = 100
@@ -34,7 +32,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_canada.1.b # US Rejects the faction proposal
+		name = tfv_canada.1.b 
 	
 		ai_chance = {
 			base = 0
@@ -50,8 +48,8 @@ country_event = {
 
 country_event = {
 	id = tfv_canada.2
-	title = tfv_canada.2.t	#
-	desc = tfv_canada.2.d	#
+	title = tfv_canada.2.t	
+	desc = tfv_canada.2.d	
 	picture = GFX_report_event_canadian_soldiers
 	
 	is_triggered_only = yes
@@ -70,8 +68,8 @@ country_event = {
 
 country_event = {
 	id = tfv_canada.3
-	title = tfv_canada.3.t	#
-	desc = tfv_canada.3.d	#
+	title = tfv_canada.3.t	
+	desc = tfv_canada.3.d	
 	picture = GFX_report_event_king_speech
 	
 	is_triggered_only = yes
@@ -81,18 +79,18 @@ country_event = {
 	}
 }
 
-# Completed CAN_join_comintern.
-# Canadian national focus.
+
+
 country_event = {
 	id = tfv_canada.10
-	title = tfv_canada.10.t	# Canada asks CCCP for membership in Comintern
-	desc = tfv_canada.10.d	#
+	title = tfv_canada.10.t	
+	desc = tfv_canada.10.d	
 	picture = GFX_report_event_stalin_meeting
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_canada.10.a # CCCP accepts Canadian membership
+		name = tfv_canada.10.a 
 		
 		ai_chance = {
 			base = 100
@@ -110,7 +108,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_canada.10.b # CCCP denies the request.
+		name = tfv_canada.10.b 
 		
 		ai_chance = {
 			base = 0
@@ -126,8 +124,8 @@ country_event = {
 
 country_event = {
 	id = tfv_canada.11
-	title = tfv_canada.11.t	#
-	desc = tfv_canada.11.d	#
+	title = tfv_canada.11.t	
+	desc = tfv_canada.11.d	
 	picture = GFX_report_event_canadian_soldiers
 	
 	is_triggered_only = yes
@@ -142,8 +140,8 @@ country_event = {
 
 country_event = {
 	id = tfv_canada.12
-	title = tfv_canada.12.t	#
-	desc = tfv_canada.12.d	#
+	title = tfv_canada.12.t	
+	desc = tfv_canada.12.d	
 	picture = GFX_report_event_generic_rally_3
 	
 	is_triggered_only = yes
@@ -153,18 +151,18 @@ country_event = {
 	}
 }
 
-# Completed CAN_join_germany.
-# Canadian national focus.
+
+
 country_event = {
 	id = tfv_canada.20
-	title = tfv_canada.20.t	# Canada asks Germany for membership in Axis
-	desc = tfv_canada.20.d	#
+	title = tfv_canada.20.t	
+	desc = tfv_canada.20.d	
 	picture = GFX_report_event_canadian_tank
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_canada.20.a # Germany accepts Canadian membership
+		name = tfv_canada.20.a 
 		
 		ai_chance = {
 			base = 100
@@ -182,7 +180,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_canada.20.b # Germany rejects Canadian membership
+		name = tfv_canada.20.b 
 		
 		ai_chance = {
 			base = 0
@@ -198,14 +196,14 @@ country_event = {
 
 country_event = {
 	id = tfv_canada.21
-	title = tfv_canada.21.t	# 
-	desc = tfv_canada.21.d	#
+	title = tfv_canada.21.t	
+	desc = tfv_canada.21.d	
 	picture = GFX_report_event_hitler_handshake
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_canada.21.a # Germany accepts Canadian membership
+		name = tfv_canada.21.a 
 		
 		GER = {
 			add_to_faction = CAN
@@ -231,23 +229,23 @@ country_event = {
 
 country_event = {
 	id = tfv_canada.22
-	title = tfv_canada.22.t	# 
-	desc = tfv_canada.22.d	#
+	title = tfv_canada.22.t	
+	desc = tfv_canada.22.d	
 	picture = GFX_report_event_canadian_artillery
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_canada.22.a # Germany rejects Canadian membership
+		name = tfv_canada.22.a 
 	}
 }
 
-# Completed CAN_support_a_synarchist_baja.
-# Canadian national focus.
+
+
 country_event = {
 	id = tfv_canada.30
-	title = tfv_canada.30.t	# Mexican civil war starts.
-	desc = tfv_canada.30.d	#
+	title = tfv_canada.30.t	
+	desc = tfv_canada.30.d	
 	picture = GFX_report_event_mex_civil_war
 	
 	fire_only_once = yes
@@ -268,7 +266,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Support Nationalists
+	option = { 
 		name = tfv_canada.30.a
 		trigger = { is_ai = no }
 		hidden_effect = {
@@ -305,7 +303,7 @@ country_event = {
 		}
 		custom_effect_tooltip = mex_nationalists_chosen
 	}
-	option = { # Support Republicans
+	option = { 
 		name = tfv_canada.30.b
 		hidden_effect = {
 			start_civil_war = {
@@ -345,7 +343,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_canada.30.c # Peacefully let the fascists form the government
+		name = tfv_canada.30.c 
 		
 		trigger = {
 			fascism > 0.5
@@ -364,12 +362,12 @@ country_event = {
 	}
 }
 
-# Completed CAN_skewer_the_eagle.
-# Canadian national focus.
+
+
 country_event = {
 	id = tfv_canada.40
-	title = tfv_canada.40.t # Canada proposes alliance with Mexico to surround the US.
-	desc = tfv_canada.40.d	#
+	title = tfv_canada.40.t 
+	desc = tfv_canada.40.d	
 	picture = GFX_report_event_canadian_artillery
 	
 	is_triggered_only = yes
@@ -392,13 +390,186 @@ country_event = {
 					CAN = { add_to_faction = PREV }
 				}
 			}
-			add_state_claim = 375 # Texas
-			add_state_claim = 378 # California
-			add_state_claim = 379 # Nevada
-			add_state_claim = 377 # Arizona
-			add_state_claim = 380 # Utah
-			add_state_claim = 382 # Colorado
-			add_state_claim = 376 # New Mexico
+			add_state_claim = 375 
+		add_state_claim = 4599 
+		add_state_claim = 4600 
+		add_state_claim = 4601 
+		add_state_claim = 4602 
+		add_state_claim = 4603 
+		add_state_claim = 4604 
+		add_state_claim = 4605 
+		add_state_claim = 4606 
+		add_state_claim = 4607 
+		add_state_claim = 4608 
+		add_state_claim = 4609 
+		add_state_claim = 4610 
+		add_state_claim = 4611 
+		add_state_claim = 4612 
+		add_state_claim = 4613 
+		add_state_claim = 4614 
+		add_state_claim = 4615 
+		add_state_claim = 4616 
+		add_state_claim = 4617 
+		add_state_claim = 4618 
+		add_state_claim = 4619 
+		add_state_claim = 4620 
+		add_state_claim = 4621 
+		add_state_claim = 4622 
+		add_state_claim = 4623 
+		add_state_claim = 4624 
+		add_state_claim = 4625 
+		add_state_claim = 4626 
+		add_state_claim = 4627 
+		add_state_claim = 4628 
+		add_state_claim = 4629 
+		add_state_claim = 4630 
+		add_state_claim = 4631 
+		add_state_claim = 4632 
+		add_state_claim = 4633 
+		add_state_claim = 4634 
+		add_state_claim = 4635 
+		add_state_claim = 4636 
+		add_state_claim = 4637 
+		add_state_claim = 4638 
+		add_state_claim = 4639 
+		add_state_claim = 4640 
+		add_state_claim = 4641 
+		add_state_claim = 4642 
+		add_state_claim = 4643 
+		add_state_claim = 4644 
+		add_state_claim = 4645 
+		add_state_claim = 4646 
+			add_state_claim = 378 
+		add_state_claim = 4674 
+		add_state_claim = 4675 
+		add_state_claim = 4676 
+		add_state_claim = 4677 
+		add_state_claim = 4678 
+		add_state_claim = 4679 
+		add_state_claim = 4680 
+		add_state_claim = 4681 
+		add_state_claim = 4682 
+		add_state_claim = 4683 
+		add_state_claim = 4684 
+		add_state_claim = 4685 
+		add_state_claim = 4686 
+		add_state_claim = 4687 
+		add_state_claim = 4688 
+		add_state_claim = 4689 
+		add_state_claim = 4690 
+		add_state_claim = 4691 
+		add_state_claim = 4692 
+		add_state_claim = 4693 
+		add_state_claim = 4694 
+		add_state_claim = 4695 
+		add_state_claim = 4696 
+		add_state_claim = 4697 
+		add_state_claim = 4698 
+		add_state_claim = 4699 
+		add_state_claim = 4700 
+		add_state_claim = 4701 
+		add_state_claim = 4702 
+		add_state_claim = 4703 
+		add_state_claim = 4704 
+		add_state_claim = 4705 
+		add_state_claim = 4706 
+		add_state_claim = 4707 
+		add_state_claim = 4708 
+		add_state_claim = 4709 
+		add_state_claim = 4710 
+		add_state_claim = 4711 
+		add_state_claim = 4712 
+		add_state_claim = 4713 
+		add_state_claim = 4714 
+		add_state_claim = 4715 
+		add_state_claim = 4716 
+		add_state_claim = 4717 
+		add_state_claim = 4718 
+		add_state_claim = 4719 
+		add_state_claim = 4720 
+		add_state_claim = 4721 
+		add_state_claim = 4722 
+		add_state_claim = 4723 
+		add_state_claim = 4724 
+		add_state_claim = 4725 
+		add_state_claim = 4726 
+		add_state_claim = 4727 
+		add_state_claim = 4728 
+		add_state_claim = 4729 
+			add_state_claim = 379 
+		add_state_claim = 4730 
+		add_state_claim = 4731 
+		add_state_claim = 4732 
+		add_state_claim = 4733 
+		add_state_claim = 4734 
+		add_state_claim = 4735 
+		add_state_claim = 4736 
+		add_state_claim = 4737 
+		add_state_claim = 4738 
+		add_state_claim = 4739 
+		add_state_claim = 4740 
+		add_state_claim = 4741 
+		add_state_claim = 4742 
+			add_state_claim = 377 
+		add_state_claim = 4661 
+		add_state_claim = 4662 
+		add_state_claim = 4663 
+		add_state_claim = 4664 
+		add_state_claim = 4665 
+		add_state_claim = 4666 
+		add_state_claim = 4667 
+		add_state_claim = 4668 
+		add_state_claim = 4669 
+		add_state_claim = 4670 
+		add_state_claim = 4671 
+		add_state_claim = 4672 
+		add_state_claim = 4673 
+			add_state_claim = 380 
+		add_state_claim = 4806 
+		add_state_claim = 4807 
+		add_state_claim = 4808 
+		add_state_claim = 4809 
+		add_state_claim = 4810 
+		add_state_claim = 4811 
+		add_state_claim = 4812 
+		add_state_claim = 4813 
+		add_state_claim = 4814 
+		add_state_claim = 4815 
+		add_state_claim = 4816 
+		add_state_claim = 4817 
+		add_state_claim = 4818 
+			add_state_claim = 382 
+		add_state_claim = 4831 
+		add_state_claim = 4832 
+		add_state_claim = 4833 
+		add_state_claim = 4834 
+		add_state_claim = 4835 
+		add_state_claim = 4836 
+		add_state_claim = 4837 
+		add_state_claim = 4838 
+		add_state_claim = 4839 
+		add_state_claim = 4840 
+		add_state_claim = 4841 
+		add_state_claim = 4842 
+		add_state_claim = 4843 
+		add_state_claim = 4844 
+		add_state_claim = 4845 
+		add_state_claim = 4846 
+			add_state_claim = 376 
+		add_state_claim = 4647 
+		add_state_claim = 4648 
+		add_state_claim = 4649 
+		add_state_claim = 4650 
+		add_state_claim = 4651 
+		add_state_claim = 4652 
+		add_state_claim = 4653 
+		add_state_claim = 4654 
+		add_state_claim = 4655 
+		add_state_claim = 4656 
+		add_state_claim = 4657 
+		add_state_claim = 4658 
+		add_state_claim = 4659 
+		add_state_claim = 4660 
 		}
 		
 		hidden_effect = {
@@ -444,13 +615,186 @@ country_event = {
 		}
 		
 		MEX = {
-			add_state_claim = 375 # Texas
-			add_state_claim = 378 # California
-			add_state_claim = 379 # Nevada
-			add_state_claim = 377 # Arizona
-			add_state_claim = 380 # Utah
-			add_state_claim = 382 # Colorado
-			add_state_claim = 376 # New Mexico
+			add_state_claim = 375 
+		add_state_claim = 4599 
+		add_state_claim = 4600 
+		add_state_claim = 4601 
+		add_state_claim = 4602 
+		add_state_claim = 4603 
+		add_state_claim = 4604 
+		add_state_claim = 4605 
+		add_state_claim = 4606 
+		add_state_claim = 4607 
+		add_state_claim = 4608 
+		add_state_claim = 4609 
+		add_state_claim = 4610 
+		add_state_claim = 4611 
+		add_state_claim = 4612 
+		add_state_claim = 4613 
+		add_state_claim = 4614 
+		add_state_claim = 4615 
+		add_state_claim = 4616 
+		add_state_claim = 4617 
+		add_state_claim = 4618 
+		add_state_claim = 4619 
+		add_state_claim = 4620 
+		add_state_claim = 4621 
+		add_state_claim = 4622 
+		add_state_claim = 4623 
+		add_state_claim = 4624 
+		add_state_claim = 4625 
+		add_state_claim = 4626 
+		add_state_claim = 4627 
+		add_state_claim = 4628 
+		add_state_claim = 4629 
+		add_state_claim = 4630 
+		add_state_claim = 4631 
+		add_state_claim = 4632 
+		add_state_claim = 4633 
+		add_state_claim = 4634 
+		add_state_claim = 4635 
+		add_state_claim = 4636 
+		add_state_claim = 4637 
+		add_state_claim = 4638 
+		add_state_claim = 4639 
+		add_state_claim = 4640 
+		add_state_claim = 4641 
+		add_state_claim = 4642 
+		add_state_claim = 4643 
+		add_state_claim = 4644 
+		add_state_claim = 4645 
+		add_state_claim = 4646 
+			add_state_claim = 378 
+		add_state_claim = 4674 
+		add_state_claim = 4675 
+		add_state_claim = 4676 
+		add_state_claim = 4677 
+		add_state_claim = 4678 
+		add_state_claim = 4679 
+		add_state_claim = 4680 
+		add_state_claim = 4681 
+		add_state_claim = 4682 
+		add_state_claim = 4683 
+		add_state_claim = 4684 
+		add_state_claim = 4685 
+		add_state_claim = 4686 
+		add_state_claim = 4687 
+		add_state_claim = 4688 
+		add_state_claim = 4689 
+		add_state_claim = 4690 
+		add_state_claim = 4691 
+		add_state_claim = 4692 
+		add_state_claim = 4693 
+		add_state_claim = 4694 
+		add_state_claim = 4695 
+		add_state_claim = 4696 
+		add_state_claim = 4697 
+		add_state_claim = 4698 
+		add_state_claim = 4699 
+		add_state_claim = 4700 
+		add_state_claim = 4701 
+		add_state_claim = 4702 
+		add_state_claim = 4703 
+		add_state_claim = 4704 
+		add_state_claim = 4705 
+		add_state_claim = 4706 
+		add_state_claim = 4707 
+		add_state_claim = 4708 
+		add_state_claim = 4709 
+		add_state_claim = 4710 
+		add_state_claim = 4711 
+		add_state_claim = 4712 
+		add_state_claim = 4713 
+		add_state_claim = 4714 
+		add_state_claim = 4715 
+		add_state_claim = 4716 
+		add_state_claim = 4717 
+		add_state_claim = 4718 
+		add_state_claim = 4719 
+		add_state_claim = 4720 
+		add_state_claim = 4721 
+		add_state_claim = 4722 
+		add_state_claim = 4723 
+		add_state_claim = 4724 
+		add_state_claim = 4725 
+		add_state_claim = 4726 
+		add_state_claim = 4727 
+		add_state_claim = 4728 
+		add_state_claim = 4729 
+			add_state_claim = 379 
+		add_state_claim = 4730 
+		add_state_claim = 4731 
+		add_state_claim = 4732 
+		add_state_claim = 4733 
+		add_state_claim = 4734 
+		add_state_claim = 4735 
+		add_state_claim = 4736 
+		add_state_claim = 4737 
+		add_state_claim = 4738 
+		add_state_claim = 4739 
+		add_state_claim = 4740 
+		add_state_claim = 4741 
+		add_state_claim = 4742 
+			add_state_claim = 377 
+		add_state_claim = 4661 
+		add_state_claim = 4662 
+		add_state_claim = 4663 
+		add_state_claim = 4664 
+		add_state_claim = 4665 
+		add_state_claim = 4666 
+		add_state_claim = 4667 
+		add_state_claim = 4668 
+		add_state_claim = 4669 
+		add_state_claim = 4670 
+		add_state_claim = 4671 
+		add_state_claim = 4672 
+		add_state_claim = 4673 
+			add_state_claim = 380 
+		add_state_claim = 4806 
+		add_state_claim = 4807 
+		add_state_claim = 4808 
+		add_state_claim = 4809 
+		add_state_claim = 4810 
+		add_state_claim = 4811 
+		add_state_claim = 4812 
+		add_state_claim = 4813 
+		add_state_claim = 4814 
+		add_state_claim = 4815 
+		add_state_claim = 4816 
+		add_state_claim = 4817 
+		add_state_claim = 4818 
+			add_state_claim = 382 
+		add_state_claim = 4831 
+		add_state_claim = 4832 
+		add_state_claim = 4833 
+		add_state_claim = 4834 
+		add_state_claim = 4835 
+		add_state_claim = 4836 
+		add_state_claim = 4837 
+		add_state_claim = 4838 
+		add_state_claim = 4839 
+		add_state_claim = 4840 
+		add_state_claim = 4841 
+		add_state_claim = 4842 
+		add_state_claim = 4843 
+		add_state_claim = 4844 
+		add_state_claim = 4845 
+		add_state_claim = 4846 
+			add_state_claim = 376 
+		add_state_claim = 4647 
+		add_state_claim = 4648 
+		add_state_claim = 4649 
+		add_state_claim = 4650 
+		add_state_claim = 4651 
+		add_state_claim = 4652 
+		add_state_claim = 4653 
+		add_state_claim = 4654 
+		add_state_claim = 4655 
+		add_state_claim = 4656 
+		add_state_claim = 4657 
+		add_state_claim = 4658 
+		add_state_claim = 4659 
+		add_state_claim = 4660 
 		}
 		hidden_effect = {
 			news_event = { id = news.249 hours = 6 }
@@ -474,12 +818,12 @@ country_event = {
 
 
 
-# mean_time_to_happen after Completion of CAN_forced_quebec_conscription.
-# Canadian national focus.
+
+
 country_event = {
 	id = tfv_canada.50
-	title = tfv_canada.50.t	# Factory sabotaged
-	desc = tfv_canada.50.d	#
+	title = tfv_canada.50.t	
+	desc = tfv_canada.50.d	
 	picture = GFX_report_event_generic_factory
 	
 	fire_only_once = yes
@@ -622,17 +966,17 @@ country_event = {
 	}
 }
 
-# Completed CAN_demand_labrador_and_newfoundland.
-# Canadian national focus.
+
+
 country_event = {
 	id = tfv_canada.60
-	title = tfv_canada.60.t # Fascist CAN demads Labrador and Newfoundland from ENG
-	desc = tfv_canada.60.d	#
+	title = tfv_canada.60.t 
+	desc = tfv_canada.60.d	
 	picture = GFX_report_event_canadian_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { # Agree to demands
+	option = { 
 		name = tfv_canada.60.a
 		
 		ai_chance = {
@@ -641,8 +985,18 @@ country_event = {
 		
 		effect_tooltip = {
 			CAN = {
-				transfer_state = 331
-				transfer_state = 332
+				transfer_state = 331 
+		transfer_state = 3908 
+		transfer_state = 3909 
+		transfer_state = 3910 
+		transfer_state = 3911
+				transfer_state = 332 
+		transfer_state = 3912 
+		transfer_state = 3913 
+		transfer_state = 3914 
+		transfer_state = 3915 
+		transfer_state = 3916 
+		transfer_state = 3917
 			}
 		}
 		
@@ -653,7 +1007,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Refuse
+	option = { 
 		name = tfv_canada.60.b
 		
 		ai_chance = {
@@ -678,8 +1032,18 @@ country_event = {
 	
 	option = {
 		name = tfv_canada.61.a
-		transfer_state = 331
-		transfer_state = 332
+		transfer_state = 331 
+		transfer_state = 3908 
+		transfer_state = 3909 
+		transfer_state = 3910 
+		transfer_state = 3911
+		transfer_state = 332 
+		transfer_state = 3912 
+		transfer_state = 3913 
+		transfer_state = 3914 
+		transfer_state = 3915 
+		transfer_state = 3916 
+		transfer_state = 3917
 		
 		news_event = { id = news.248 hours = 6 }
 	}
@@ -704,8 +1068,8 @@ country_event = {
 	}
 }
 
-# Ronnie the Bren Gun Girl
-# Triggered by Women in the Workforce decision
+
+
 
 country_event = {
 	id = canada_vanilla.1

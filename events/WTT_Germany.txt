@@ -1,6 +1,6 @@
 ﻿add_namespace = wtt_germany
 
-# Event starting neutral civil war
+
 country_event = {
 	id = wtt_germany.1
 	title = wtt_germany.1.t
@@ -9,7 +9,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#civil war starts
+	
 	option = {
 		name = wtt_germany.1.a
 		hidden_effect = {
@@ -19,7 +19,7 @@ country_event = {
 				ideology = fascism
 				size = 0.5
 				capital = 64
-				states = { 64 61 52 53 54 60 65 66 67 68 62 63 5 }
+				states = { 64 61 52 53 54 60 65 66 67 68 62 63 5  8583 8584 8585 8586 8587 8588 8589 8590 8591 8592 8593 8594 8595 8596 8597 8267 8268 8269 8270 8271 6808 6809 6810 6811 6812 6813 6814 6815 6816 6817 6818 7061 7062 7063 7064 7065 7066 7067 7068 7069 7145 7146 7147 7148 7149 7150 7151 7152 7153 7154 7155 8112 8113 8114 8115 8116 8117 8118 8119 8657 8658 8659 8660 8661 8662 8663 8664 8665 8666 8760 8761 8762 8763 8764 8765 8766 8767 8768 8769 8770 8933 8934 8935 8936 9166 9167 9168 9169 9170 9171 8417 8418 8419 8420 8421 8529 8530 8531 8532 8533 8534 8535 8536 8537 8538 8539 8540 8541 6524 6525 6526 6527 6528 6529 6530 6531 6532 6533}
 			}
 			set_party_name = { ideology = neutrality long_name = GER_neutrality_party_civil_war name = GER_neutrality_party_civil_war }
 			load_oob = "GER_German_Civil_War_neutrality"
@@ -127,7 +127,7 @@ country_event = {
 	}
 }
 
-#Notification event for Spain for getting troops from German Expatriate Communists focus
+
 country_event = {
 	id = wtt_germany.2
 	title = wtt_germany.2.t
@@ -136,7 +136,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#accept
+	
 	option = {
 		name = excellent
 		add_manpower = 40000
@@ -144,19 +144,19 @@ country_event = {
 			limit = {
 				controls_state = 165
 			}
-			load_oob = "SPR_German_Expatriates_Barcelona" #spawn units in Barcelona
+			load_oob = "SPR_German_Expatriates_Barcelona" 
 		}
 		if = {
 			limit = {
 				controls_state = 41
 				NOT = { controls_state = 165 }
 			}
-			load_oob = "SPR_German_Expatriates_Madrid" #spawn units in Madrid
+			load_oob = "SPR_German_Expatriates_Madrid" 
 		}
 	}
 }
 
-#Event for Netherlands demanding return of Kaiser
+
 country_event = {
 	id = wtt_germany.3
 	title = wtt_germany.3.t
@@ -165,7 +165,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#accept
+	
 	option = {
 		name = wtt_germany.3.a
 		ai_chance = {
@@ -193,7 +193,7 @@ country_event = {
 		FRA = { country_event = { id = wtt_germany.28 } }
 	}
 
-	#refuse
+	
 	option = {
 		name = wtt_germany.3.b
 		ai_chance = {
@@ -223,7 +223,7 @@ country_event = {
 	}
 }
 
-#Notification event for Germany that the Kaiser is returned
+
 country_event = {
 	id = wtt_germany.4
 	title = wtt_germany.4.t
@@ -232,7 +232,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#accept
+	
 	option = {
 		name = wtt_germany.4.a
 		set_country_flag = kaiser_wilhelm_ii
@@ -250,7 +250,7 @@ country_event = {
 	}
 }
 
-#Netherlands refuses to return the Kaiser!
+
 country_event = {
 	id = wtt_germany.5
 	title = wtt_germany.5.t
@@ -259,7 +259,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#War!
+	
 	option = {
 		ai_chance = {
 			factor = 20
@@ -270,7 +270,7 @@ country_event = {
 		FRA = { country_event = { id = wtt_germany.28 } }
 	}
 
-	#Back down.
+	
 	option = {
 		ai_chance = {
 			factor = 80
@@ -293,7 +293,7 @@ country_event = {
 	}
 }
 
-#Kaiser returned through war
+
 country_event = {
 	id = wtt_germany.6
 	title = wtt_germany.6.t
@@ -321,7 +321,7 @@ country_event = {
 	}
 }
 
-#Notification event for Hungary and Romania for Integrate War Economies
+
 country_event = {
 	id = wtt_germany.7
 	title = wtt_germany.7.t
@@ -358,7 +358,7 @@ country_event = {
 	}
 }
 
-# Event for Italy Offering Support for Coup
+
 country_event = {
 	id = wtt_germany.8
 	title = wtt_germany.8.t
@@ -367,7 +367,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Accept
+	
 	option = {
 		name = wtt_germany.8.a
 		ai_chance = {
@@ -379,7 +379,7 @@ country_event = {
 		}
 	}
 
-	# Decline
+	
 	option = {
 		name = wtt_germany.8.b
 		ai_chance = {
@@ -391,7 +391,7 @@ country_event = {
 	}
 }
 
-# German Notification Event for Italy Accepting Offer of Support for Coup
+
 country_event = {
 	id = wtt_germany.9
 	title = wtt_germany.9.t
@@ -400,13 +400,13 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Great
+	
 	option = {
 		name = wtt_germany.9.a
 	}
 }
 
-# German Notification Event for Italy Rejecting Offer of Support for Coup
+
 country_event = {
 	id = wtt_germany.10
 	title = wtt_germany.10.t
@@ -415,13 +415,13 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Drat
+	
 	option = {
 		name = wtt_germany.10.a
 	}
 }
 
-# Event for Italy Launching Coup
+
 country_event = {
 	id = wtt_germany.11
 	title = wtt_germany.11.t
@@ -430,7 +430,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# It is done (no choice needed because decision was taken in previous focus's events)
+	
 	option = {
 		name = wtt_germany.11.a
 		set_politics = { ruling_party = neutrality elections_allowed = no }
@@ -462,7 +462,7 @@ country_event = {
 	}
 }
 
-# Notification event for Germany upon successful coup
+
 country_event = {
 	id = wtt_germany.12
 	title = wtt_germany.12.t
@@ -471,14 +471,14 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Great
+	
 	option = {
 		name = wtt_germany.12.a
 		hidden_effect = { news_event = { id = wtt_news.5 hours = 6 } }
 	}
 }
 
-# Notification event for Germany upon formation of Austria-Hungary
+
 country_event = {
 	id = wtt_germany.13
 	title = wtt_germany.13.t
@@ -487,14 +487,14 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Great
+	
 	option = {
 		name = wtt_germany.13.a
 		hidden_effect = { news_event = { id = wtt_news.6 hours = 6 } }
 	}
 }
 
-# Danzig for Guarantees event for Poland
+
 country_event = {
 	id = wtt_germany.14
 	title = wtt_germany.14.t
@@ -503,16 +503,33 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Accept
+	
 	option = {
 		name = wtt_germany.14.a
 		ai_chance = {
 			factor = 50
 		}
 		effect_tooltip = {
-			GER = { transfer_state = 85 }
-			GER = { transfer_state = 86 }
-			GER = { transfer_state = 762 }
+			GER = { transfer_state = 85 
+		transfer_state = 9943 
+		transfer_state = 9944 
+		transfer_state = 9945 
+		transfer_state = 9946 
+		transfer_state = 9947 
+		transfer_state = 9948 
+		transfer_state = 9949 
+		transfer_state = 9950 }
+			GER = { transfer_state = 86 
+		transfer_state = 9951 
+		transfer_state = 9952 
+		transfer_state = 9953 
+		transfer_state = 9954 
+		transfer_state = 9955 
+		transfer_state = 9956 
+		transfer_state = 9957 
+		transfer_state = 9958 }
+			GER = { transfer_state = 762 
+		transfer_state = 9728 }
 			GER = { add_ideas = anti_soviet_pact }
 			add_ideas = anti_soviet_pact
 			add_opinion_modifier = { target = GER modifier = danzig_for_guarantees }
@@ -522,11 +539,11 @@ country_event = {
 		}
 	}
 
-	# Decline
+	
 	option = {
 		name = wtt_germany.14.b
 		ai_chance = {
-			#factor = 50
+			
 			modifier = {
 				factor = 0.5
 				strength_ratio = { tag = GER ratio < 1 }
@@ -551,7 +568,7 @@ country_event = {
 	}
 }
 
-# Danzig for Guarantees acceptance event for Germany
+
 country_event = {
 	id = wtt_germany.15
 	title = wtt_germany.15.t
@@ -560,15 +577,49 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Great
+	
 	option = {
 		name = wtt_germany.15.a
-		transfer_state = 85
-		transfer_state = 86
-		transfer_state = 762
-		add_state_core = 85
-		add_state_core = 86
-		add_state_core = 762
+		transfer_state = 85 
+		transfer_state = 9943 
+		transfer_state = 9944 
+		transfer_state = 9945 
+		transfer_state = 9946 
+		transfer_state = 9947 
+		transfer_state = 9948 
+		transfer_state = 9949 
+		transfer_state = 9950
+		transfer_state = 86 
+		transfer_state = 9951 
+		transfer_state = 9952 
+		transfer_state = 9953 
+		transfer_state = 9954 
+		transfer_state = 9955 
+		transfer_state = 9956 
+		transfer_state = 9957 
+		transfer_state = 9958
+		transfer_state = 762 
+		transfer_state = 9728
+		add_state_core = 85 
+		add_state_core = 9943 
+		add_state_core = 9944 
+		add_state_core = 9945 
+		add_state_core = 9946 
+		add_state_core = 9947 
+		add_state_core = 9948 
+		add_state_core = 9949 
+		add_state_core = 9950
+		add_state_core = 86 
+		add_state_core = 9951 
+		add_state_core = 9952 
+		add_state_core = 9953 
+		add_state_core = 9954 
+		add_state_core = 9955 
+		add_state_core = 9956 
+		add_state_core = 9957 
+		add_state_core = 9958
+		add_state_core = 762 
+		add_state_core = 9728
 		86 = { set_state_name = "Posen" }
 		set_province_name = { id = 6558 name = "Posen" }
 		762 = { set_state_name = "Kattowitz" }
@@ -606,7 +657,7 @@ country_event = {
 	}
 }
 
-# Danzig for Guarantees rejection event for Germany
+
 country_event = {
 	id = wtt_germany.16
 	title = wtt_germany.16.t
@@ -615,21 +666,38 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# We will never let go of our claims!
+	
 	option = {
 		name = wtt_germany.16.a
-		add_state_claim = 85
-		add_state_claim = 86
-		add_state_claim = 762
+		add_state_claim = 85 
+		add_state_claim = 9943 
+		add_state_claim = 9944 
+		add_state_claim = 9945 
+		add_state_claim = 9946 
+		add_state_claim = 9947 
+		add_state_claim = 9948 
+		add_state_claim = 9949 
+		add_state_claim = 9950
+		add_state_claim = 86 
+		add_state_claim = 9951 
+		add_state_claim = 9952 
+		add_state_claim = 9953 
+		add_state_claim = 9954 
+		add_state_claim = 9955 
+		add_state_claim = 9956 
+		add_state_claim = 9957 
+		add_state_claim = 9958
+		add_state_claim = 762 
+		add_state_claim = 9728
 	}
 
-	# Give it up
+	
 	option = {
 		name = wtt_germany.16.b
 	}
 }
 
-# Notification event for France on German expatriation of Communists
+
 country_event = {
 	id = wtt_germany.17
 	title = wtt_germany.17.t
@@ -638,7 +706,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Oh dear
+	
 	option = {
 		name = wtt_germany.17.a
 		effect_tooltip = {
@@ -647,7 +715,7 @@ country_event = {
 	}
 }
 
-# Event for end of civil war
+
 country_event = {
 	id = wtt_germany.18
 	title = wtt_germany.18.t
@@ -663,7 +731,7 @@ country_event = {
 		}
 	}
 
-	# Execute head nazis Publically
+	
 	option = {
 		name = wtt_germany.18.a
 		add_stability = 0.05
@@ -671,7 +739,7 @@ country_event = {
 		delete_unit_template_and_units = { division_template = "Landsturmregiment" }
 	}
 
-	# Imprison head nazis for life
+	
 	option = {
 		name = wtt_germany.18.b
 		add_political_power = 75
@@ -681,7 +749,7 @@ country_event = {
 	}
 }
 
-# Event for Soviet Union on Great Red Menace
+
 country_event = {
 	id = wtt_germany.19
 	title = wtt_germany.19.t
@@ -690,7 +758,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Hold massive military exercises to intimidate the Germans into shutting up
+	
 	option = {
 		name = wtt_germany.19.a
 		ai_chance = {
@@ -703,7 +771,7 @@ country_event = {
 		hidden_effect = { news_event = { id = wtt_news.9 hours = 6 } }
 	}
 
-	# Reduce tensions
+	
 	option = {
 		name = wtt_germany.19.b
 		ai_chance = {
@@ -718,7 +786,7 @@ country_event = {
 			country_event = { id = wtt_germany.25 days = 1 random_days = 2 }
 			random_list = {
 				80 = {
-					# No effect
+					
 				}
 				20 = {
 					remove_ideas = GER_the_great_red_menace
@@ -728,7 +796,7 @@ country_event = {
 		GER = { country_event = { id = wtt_germany.25 days = 1 random_days = 2 } }
 	}
 
-	# Do nothing
+	
 	option = {
 		name = wtt_germany.19.c
 		ai_chance = {
@@ -737,7 +805,7 @@ country_event = {
 	}
 }
 
-# Event for Soviet Union on Central European Alliance
+
 country_event = {
 	id = wtt_germany.20
 	title = wtt_germany.20.t
@@ -746,7 +814,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Public statement re-iterating Baltics, Poland, Finland, and Romania as part of Soviet sphere
+	
 	option = {
 		name = wtt_germany.20.a
 		ai_chance = {
@@ -755,26 +823,180 @@ country_event = {
 		add_named_threat = { threat = 5 name = GER_soviet_reiterated_claims }
 		add_timed_idea = { idea = GER_soviet_protect_our_sphere days = 365 }
 		add_political_power = 100
-		add_state_claim = 722
-		add_state_claim = 147
-		add_state_claim = 146
-		add_state_claim = 13
-		add_state_claim = 191
-		add_state_claim = 12
-		add_state_claim = 190
-		add_state_claim = 11
-		add_state_claim = 189
-		add_state_claim = 96
-		add_state_claim = 95
-		add_state_claim = 94
-		add_state_claim = 93
-		add_state_claim = 91
-		add_state_claim = 89
-		add_state_claim = 78
+		add_state_claim = 722 
+		add_state_claim = 9428 
+		add_state_claim = 9429 
+		add_state_claim = 9430
+		add_state_claim = 147 
+		add_state_claim = 1361 
+		add_state_claim = 1362
+		add_state_claim = 146 
+		add_state_claim = 1346 
+		add_state_claim = 1347 
+		add_state_claim = 1348 
+		add_state_claim = 1349 
+		add_state_claim = 1350 
+		add_state_claim = 1351 
+		add_state_claim = 1352 
+		add_state_claim = 1353 
+		add_state_claim = 1354 
+		add_state_claim = 1355 
+		add_state_claim = 1356 
+		add_state_claim = 1357 
+		add_state_claim = 1358 
+		add_state_claim = 1359 
+		add_state_claim = 1360
+		add_state_claim = 13 
+		add_state_claim = 1105 
+		add_state_claim = 1106 
+		add_state_claim = 1107 
+		add_state_claim = 1108 
+		add_state_claim = 1109 
+		add_state_claim = 1110 
+		add_state_claim = 1111 
+		add_state_claim = 1112 
+		add_state_claim = 1113 
+		add_state_claim = 1114 
+		add_state_claim = 1115 
+		add_state_claim = 1116 
+		add_state_claim = 1117
+		add_state_claim = 191 
+		add_state_claim = 1844 
+		add_state_claim = 1845 
+		add_state_claim = 1846 
+		add_state_claim = 1847 
+		add_state_claim = 1848 
+		add_state_claim = 1849 
+		add_state_claim = 1850 
+		add_state_claim = 1851 
+		add_state_claim = 1852
+		add_state_claim = 12 
+		add_state_claim = 1029 
+		add_state_claim = 1030 
+		add_state_claim = 1031 
+		add_state_claim = 1032 
+		add_state_claim = 1033 
+		add_state_claim = 1034 
+		add_state_claim = 1035 
+		add_state_claim = 1036 
+		add_state_claim = 1037 
+		add_state_claim = 1038 
+		add_state_claim = 1039 
+		add_state_claim = 1040 
+		add_state_claim = 1041 
+		add_state_claim = 1042 
+		add_state_claim = 1043 
+		add_state_claim = 1044 
+		add_state_claim = 1045 
+		add_state_claim = 1046
+		add_state_claim = 190 
+		add_state_claim = 1835 
+		add_state_claim = 1836 
+		add_state_claim = 1837 
+		add_state_claim = 1838 
+		add_state_claim = 1839 
+		add_state_claim = 1840 
+		add_state_claim = 1841 
+		add_state_claim = 1842 
+		add_state_claim = 1843
+		add_state_claim = 11 
+		add_state_claim = 895 
+		add_state_claim = 896 
+		add_state_claim = 897 
+		add_state_claim = 898 
+		add_state_claim = 899 
+		add_state_claim = 900 
+		add_state_claim = 901 
+		add_state_claim = 902 
+		add_state_claim = 903 
+		add_state_claim = 904 
+		add_state_claim = 905 
+		add_state_claim = 906
+		add_state_claim = 189 
+		add_state_claim = 1820 
+		add_state_claim = 1821 
+		add_state_claim = 1822 
+		add_state_claim = 1823 
+		add_state_claim = 1824 
+		add_state_claim = 1825 
+		add_state_claim = 1826 
+		add_state_claim = 1827 
+		add_state_claim = 1828
+		add_state_claim = 96 
+		add_state_claim = 10054 
+		add_state_claim = 10055 
+		add_state_claim = 10056 
+		add_state_claim = 10057 
+		add_state_claim = 10058 
+		add_state_claim = 10059
+		add_state_claim = 95 
+		add_state_claim = 10044 
+		add_state_claim = 10045 
+		add_state_claim = 10046 
+		add_state_claim = 10047 
+		add_state_claim = 10048 
+		add_state_claim = 10049 
+		add_state_claim = 10050 
+		add_state_claim = 10051 
+		add_state_claim = 10052 
+		add_state_claim = 10053
+		add_state_claim = 94 
+		add_state_claim = 10029 
+		add_state_claim = 10030 
+		add_state_claim = 10031 
+		add_state_claim = 10032 
+		add_state_claim = 10033 
+		add_state_claim = 10034 
+		add_state_claim = 10035 
+		add_state_claim = 10036 
+		add_state_claim = 10037 
+		add_state_claim = 10038 
+		add_state_claim = 10039 
+		add_state_claim = 10040 
+		add_state_claim = 10041 
+		add_state_claim = 10042 
+		add_state_claim = 10043
+		add_state_claim = 93 
+		add_state_claim = 10020 
+		add_state_claim = 10021 
+		add_state_claim = 10022 
+		add_state_claim = 10023 
+		add_state_claim = 10024 
+		add_state_claim = 10025 
+		add_state_claim = 10026 
+		add_state_claim = 10027 
+		add_state_claim = 10028
+		add_state_claim = 91 
+		add_state_claim = 10003 
+		add_state_claim = 10004 
+		add_state_claim = 10005 
+		add_state_claim = 10006 
+		add_state_claim = 10007 
+		add_state_claim = 10008 
+		add_state_claim = 10009 
+		add_state_claim = 10010 
+		add_state_claim = 10011
+		add_state_claim = 89 
+		add_state_claim = 9978 
+		add_state_claim = 9979 
+		add_state_claim = 9980 
+		add_state_claim = 9981 
+		add_state_claim = 9982 
+		add_state_claim = 9983
+		add_state_claim = 78 
+		add_state_claim = 9793 
+		add_state_claim = 9794 
+		add_state_claim = 9795 
+		add_state_claim = 9796 
+		add_state_claim = 9797 
+		add_state_claim = 9798 
+		add_state_claim = 9799 
+		add_state_claim = 9800 
+		add_state_claim = 9801
 		hidden_effect = { news_event = { id = wtt_news.10 hours = 6 } }
 	}
 
-	# We must hold back
+	
 	option = {
 		name = wtt_germany.20.b
 		ai_chance = {
@@ -783,7 +1005,7 @@ country_event = {
 	}
 }
 
-# Event for Soviet Union upon membership of Baltics
+
 country_event = {
 	id = wtt_germany.21
 	title = wtt_germany.21.t
@@ -792,7 +1014,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Public statement on threat against Soviet sphere - Union will take action
+	
 	option = {
 		name = wtt_germany.21.a
 		ai_chance = {
@@ -811,7 +1033,7 @@ country_event = {
 		hidden_effect = { news_event = { id = wtt_news.11 hours = 6 } }
 	}
 
-	# We must hold back
+	
 	option = {
 		name = wtt_germany.21.b
 		ai_chance = {
@@ -824,7 +1046,7 @@ country_event = {
 	}
 }
 
-# Event for Soviet Union upon membership of Poland
+
 country_event = {
 	id = wtt_germany.22
 	title = wtt_germany.22.t
@@ -833,7 +1055,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Public statement on threat against Soviet sphere - Union will take action
+	
 	option = {
 		name = wtt_germany.21.a
 		ai_chance = {
@@ -860,7 +1082,7 @@ country_event = {
 		hidden_effect = { news_event = { id = wtt_news.11 hours = 6 } }
 	}
 
-	# We must hold back
+	
 	option = {
 		name = wtt_germany.21.b
 		ai_chance = {
@@ -873,7 +1095,7 @@ country_event = {
 	}
 }
 
-# Event for Soviet Union upon membership of Finland
+
 country_event = {
 	id = wtt_germany.23
 	title = wtt_germany.23.t
@@ -882,7 +1104,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Public statement on threat against Soviet sphere - Union will take action
+	
 	option = {
 		name = wtt_germany.21.a
 		ai_chance = {
@@ -909,7 +1131,7 @@ country_event = {
 		hidden_effect = { news_event = { id = wtt_news.11 hours = 6 } }
 	}
 
-	# We must hold back
+	
 	option = {
 		name = wtt_germany.21.b
 		ai_chance = {
@@ -922,7 +1144,7 @@ country_event = {
 	}
 }
 
-# Event for all nations receiving the Great Red Menace
+
 country_event = {
 	id = wtt_germany.24
 	title = wtt_germany.24.t
@@ -931,14 +1153,14 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Oh dear
+	
 	option = {
 		name = wtt_germany.24.a
 		effect_tooltip = { add_ideas = GER_the_great_red_menace }
 	}
 }
 
-# Event for all nations with Great Red Menace if Soviet smoothes relations
+
 country_event = {
 	id = wtt_germany.25
 	title = wtt_germany.25.t
@@ -947,13 +1169,13 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Oh dear
+	
 	option = {
 		name = wtt_germany.25.a
 	}
 }
 
-# Wilhelm II dies
+
 country_event = {
 	id = wtt_germany.26
 	title = wtt_germany.26.t
@@ -970,10 +1192,10 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 1460	# Died in 1941
+		days = 1460	
 	}
 	
-	#ok I guess
+	
 	option = {
 		name = wtt_germany.26.a
 		kill_country_leader = yes
@@ -990,7 +1212,7 @@ country_event = {
 	}
 }
 
-# Von Mackensen dies
+
 country_event = {
 	id = wtt_germany.27
 	title = wtt_germany.27.t
@@ -1007,10 +1229,10 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 1825	# Died in 1945
+		days = 1825	
 	}
 	
-	#nooooo sadface :(
+	
 	option = {
 		name = wtt_germany.26.a
 		kill_country_leader = yes
@@ -1028,9 +1250,9 @@ country_event = {
 	}
 }
 
-### Allied response to inviting the kaiser
 
-# French Response
+
+
 country_event = {
 	id = wtt_germany.28
 	title = wtt_germany.28.t
@@ -1050,7 +1272,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # This means war!
+	option = { 
 		name = germany.60.a
 		trigger = {
 			NOT = { GER = { has_country_flag = germany_war_return_kaiser } }
@@ -1102,7 +1324,7 @@ country_event = {
 				}
 			}
 		}
-		if = { #you're not getting around that, comrade
+		if = { 
 			limit = {
 				has_idea = FRA_disjointed_government
 				has_government = communism
@@ -1117,7 +1339,7 @@ country_event = {
 		}
 	}
 
-	option = { # This means war! (in case of German war on HOL)
+	option = { 
 		name = germany.60.c
 		trigger = {
 			GER = { has_country_flag = germany_war_return_kaiser }
@@ -1173,7 +1395,7 @@ country_event = {
 				}
 			}
 		}
-		if = { #you're not getting around that, comrade
+		if = { 
 			limit = {
 				has_idea = FRA_disjointed_government
 				has_government = communism
@@ -1188,7 +1410,7 @@ country_event = {
 		}
 	}
 
-	option = { # Diplomatic response
+	option = { 
 		name = germany.60.b
 		ai_chance = { 
 			factor = 99 
@@ -1202,7 +1424,7 @@ country_event = {
 	}
 }
 
-# British Response (French Press for War)
+
 country_event = {
 	id = wtt_germany.29
 	title = wtt_germany.28.t
@@ -1222,7 +1444,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # War out of the question
+	option = { 
 		name = germany.61.a
 		ai_chance = { 
 			factor = 90 
@@ -1235,7 +1457,7 @@ country_event = {
 			country_event = { hours = 6 id = wtt_germany.31 }
 		}
 	}
-	option = { # Support France
+	option = { 
 		name = germany.61.b
 		trigger = {
 			NOT = { GER = { has_country_flag = germany_war_return_kaiser } }
@@ -1290,7 +1512,7 @@ country_event = {
 			country_event = { hours = 6 id = wtt_germany.32 }
 		}
 	}
-	option = { # Support France (war with HOL)
+	option = { 
 		name = germany.61.c
 		trigger = {
 			GER = { has_country_flag = germany_war_return_kaiser }
@@ -1347,7 +1569,7 @@ country_event = {
 	}
 }
 
-# British Response (French Want Peace)
+
 country_event = {
 	id = wtt_germany.30
 	title = wtt_germany.28.t
@@ -1371,7 +1593,7 @@ country_event = {
 	}
 }
 
-# France (Britain Refuses Support)
+
 country_event = {
 	id = wtt_germany.31
 	title = germany.63.t
@@ -1381,7 +1603,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Push Ahead
+	option = { 
 		name = germany.63.a
 		ai_chance = { 
 			factor = 60
@@ -1426,7 +1648,7 @@ country_event = {
 			}
 		}
 	}
-	option = { # Back Down
+	option = { 
 		name = germany.63.b
 		ai_chance = { factor = 40 }
 		ENG = { country_event = wtt_germany.35 }
@@ -1434,7 +1656,7 @@ country_event = {
 	}
 }
 
-# France (Britain Gives Support)
+
 country_event = {
 	id = wtt_germany.32
 	title = germany.64.t
@@ -1475,7 +1697,7 @@ country_event = {
 	}
 }
 
-# Germany (France and Britain go to war)
+
 country_event = {
 	id = wtt_germany.33
 	title = germany.65.t
@@ -1575,7 +1797,7 @@ country_event = {
 	}
 }
 
-# Germany (France goes to war)
+
 country_event = {
 	id = wtt_germany.34
 	title = germany.66.t
@@ -1586,7 +1808,7 @@ country_event = {
 	
 	option = {
 		name = wtt_germany.33.a
-		add_war_support = 0.1 #original German clay
+		add_war_support = 0.1 
 		ENG = { 
 			country_event = wtt_germany.36 
 			if = {
@@ -1638,7 +1860,7 @@ country_event = {
 			news_event = { id = wtt_news.15 hours = 6 }
 		}
 		set_country_flag = GER_rhineland_backed_down
-		add_war_support = -0.2 #That was scary for a moment there!
+		add_war_support = -0.2 
 		if = {
 			limit = {
 				has_country_flag = kaiser_wilhelm_ii
@@ -1661,7 +1883,7 @@ country_event = {
 	}
 }
 
-# Britain (France Backs Down)
+
 country_event = {
 	id = wtt_germany.35
 	title = germany.67.t
@@ -1679,7 +1901,7 @@ country_event = {
 	}
 }
 
-# Britain (France Goes Ahead Anyway)
+
 country_event = {
 	id = wtt_germany.36
 	title = germany.68.t
@@ -1693,7 +1915,7 @@ country_event = {
 	}
 }
 
-# France/England (Germany Refuses Ultimatum)
+
 country_event = {
 	id = wtt_germany.37
 	title = germany.92.t
@@ -1707,11 +1929,11 @@ country_event = {
 	}
 }
 
-### Tsingtao return
 
-#China
 
-# Germans demand return of Tsingtao
+
+
+
 country_event = {
 	id = wtt_germany.38
 	title = wtt_germany.38.t
@@ -1720,7 +1942,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Demand continued support of Von Falkenhausen in return
+	
 	option = {
 		name = wtt_germany.38.a
 		ai_chance = {
@@ -1737,7 +1959,7 @@ country_event = {
 		GER = { country_event = { id = wtt_germany.39 days = 1 } }
 	}
 
-	# Accept
+	
 	option = {
 		name = wtt_germany.38.b
 		ai_chance = {
@@ -1756,7 +1978,7 @@ country_event = {
 		hidden_effect = { news_event = { id = wtt_news.16 hours = 30 } }
 	}
 
-	# No!
+	
 	option = {
 		name = wtt_germany.38.c
 		ai_chance = {
@@ -1770,7 +1992,7 @@ country_event = {
 	}
 }
 
-# China demands continued support of Von Falkenhausen in return
+
 country_event = {
 	id = wtt_germany.39
 	title = wtt_germany.39.t
@@ -1779,7 +2001,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = wtt_germany.39.a
 		set_country_flag = GER_von_falkenhausen_promise_to_china
@@ -1789,14 +2011,14 @@ country_event = {
 		FROM = { country_event = { id = wtt_germany.41 } }
 	}
 
-	# No!
+	
 	option = {
 		name = wtt_germany.39.b
 		FROM = { country_event = { id = wtt_germany.42 } }
 	}
 }
 
-# German notification event that China rejected request
+
 country_event = {
 	id = wtt_germany.40
 	title = wtt_germany.40.t
@@ -1805,14 +2027,14 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Too bad
+	
 	option = {
 		name = wtt_germany.40.a
 		add_state_claim = 743
 	}
 }
 
-# Chinese notification event that Germany accepted offer
+
 country_event = {
 	id = wtt_germany.41
 	title = wtt_germany.41.t
@@ -1821,14 +2043,14 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# excellent
+	
 	option = {
 		name = excellent
 		hidden_effect = { news_event = { id = wtt_news.16 hours = 6 } }
 	}
 }
 
-# Chinese notification event that Germany rejected offer
+
 country_event = {
 	id = wtt_germany.42
 	title = wtt_germany.42.t
@@ -1837,15 +2059,15 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Too bad
+	
 	option = {
 		name = unfortunate
 	}
 }
 
-# Japan 
 
-# Germans demand return of Tsingtao
+
+
 country_event = {
 	id = wtt_germany.43
 	title = wtt_germany.43.t
@@ -1854,7 +2076,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Demand Germans withdraw support of Von Falkenhausen to China in return
+	
 	option = {
 		name = wtt_germany.43.a
 		ai_chance = {
@@ -1870,7 +2092,7 @@ country_event = {
 		GER = { country_event = { id = wtt_germany.44 days = 1 } }
 	}
 
-	# Accept
+	
 	option = {
 		name = wtt_germany.38.b
 		ai_chance = {
@@ -1889,7 +2111,7 @@ country_event = {
 		hidden_effect = { news_event = { id = wtt_news.17 hours = 30 } }
 	}
 
-	# No!
+	
 	option = {
 		name = wtt_germany.43.b
 		ai_chance = {
@@ -1903,7 +2125,7 @@ country_event = {
 	}
 }
 
-# Japan demands withdraw support of Von Falkenhausen in return
+
 country_event = {
 	id = wtt_germany.44
 	title = wtt_germany.44.t
@@ -1912,7 +2134,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = wtt_germany.39.a
 		transfer_state = 743
@@ -1937,14 +2159,14 @@ country_event = {
 		set_global_flag = falkenhausen_recalled
 	}
 
-	# No!
+	
 	option = {
 		name = wtt_germany.39.b
 		JAP = { country_event = { id = wtt_germany.47 } }
 	}
 }
 
-# German notification event that Japan rejected request
+
 country_event = {
 	id = wtt_germany.45
 	title = wtt_germany.40.t
@@ -1953,14 +2175,14 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Too bad
+	
 	option = {
 		name = wtt_germany.40.a
 		add_state_claim = 743
 	}
 }
 
-# Japanese notification event that Germany accepted offer
+
 country_event = {
 	id = wtt_germany.46
 	title = wtt_germany.41.t
@@ -1969,14 +2191,14 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# excellent
+	
 	option = {
 		name = excellent
 		hidden_effect = { news_event = { id = wtt_news.17 hours = 6 } }
 	}
 }
 
-# Japanese notification event that Germany rejected offer
+
 country_event = {
 	id = wtt_germany.47
 	title = wtt_germany.42.t
@@ -1985,13 +2207,13 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Too bad
+	
 	option = {
 		name = unfortunate
 	}
 }
 
-# German notification event that China/Japan acceded to demands
+
 country_event = {
 	id = wtt_germany.48
 	title = wtt_germany.48.t
@@ -2000,7 +2222,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Too bad
+	
 	option = {
 		name = excellent
 		transfer_state = 743
@@ -2009,9 +2231,9 @@ country_event = {
 	}
 }
 
-### Germany Civil War Events
 
-# Nazis fall back from state, heavy fighting/scorched earth destroys infrastructure and industry
+
+
 state_event = {
 	id = wtt_germany.49
 	title = wtt_germany.49.t
@@ -2076,7 +2298,7 @@ state_event = {
 		}
 	}
 	
-	# Hey! That's a Russian tactic, you bastards!
+	
 	option = {
 		name = wtt_germany.49.a
 		effect_tooltip = {
@@ -2158,7 +2380,7 @@ state_event = {
 	}
 }
 
-# Hitler suicide upon fall of Berlin in civil war
+
 country_event = {
 	id = wtt_germany.50
 	title = wtt_germany.50.t
@@ -2215,7 +2437,7 @@ country_event = {
 	}
 }
 
-# Reinstate Nazi advisors and generals?
+
 country_event = {
 	id = wtt_germany.51
 	title = wtt_germany.51.t
@@ -2241,30 +2463,30 @@ country_event = {
 				80 = {
 					set_country_flag = model_survived
 				}
-				20 = { } # No effect
+				20 = { } 
 			}
 			random_list = {
 				60 = {
 					set_country_flag = kruger_survived
 				}
-				40 = { } # No effect
+				40 = { } 
 			}
 			random_list = {
 				90 = {
 					set_country_flag = hausser_survived
 				}
-				10 = { } # No effect
+				10 = { } 
 			}
 			random_list = {
 				75 = {
 					set_country_flag = dietrich_survived
 				}
-				25 = { } # No effect
+				25 = { } 
 			}
 		}
 	}
 	
-	# Yes, reinstate them.
+	
 	option = {
 		name = wtt_germany.51.a
 		add_political_power = 75
@@ -2324,7 +2546,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-#				has_country_flag = dietrich_survived
+
 			}
 			create_corps_commander = {
 				name = "Sepp Dietrich"
@@ -2341,12 +2563,12 @@ country_event = {
 		}
 	}
 
-	# No.
+	
 	option = {
 		name = wtt_germany.51.b
 	}
 
-	# On second thought, hang them anyway.
+	
 	option = {
 		name = wtt_germany.51.c
 		add_stability = 0.05
@@ -2358,7 +2580,7 @@ country_event = {
 	}
 }
 
-# Undemocratic faction member civil war aid event for Germany
+
 country_event = {
 	id = wtt_germany.52
 	title = wtt_germany.52.t
@@ -2367,13 +2589,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Help them
+	
 	option = {
 		name = wtt_germany.52.a
 		GER = { add_to_war = { targeted_alliance = FROM enemy = FROM.FROM hostility_reason = asked_to_join } }
 	}
 
-	#They're on their own
+	
 	option = {
 		name = wtt_germany.52.b
 		ai_chance = {
@@ -2383,7 +2605,7 @@ country_event = {
 	}
 }
 
-# German event for Austrian referendum to join Democratic Germany
+
 country_event = {
 	id = wtt_germany.53
 	title = wtt_germany.53.t
@@ -2411,7 +2633,7 @@ country_event = {
 
 	fire_only_once = yes
 	
-	# Yes
+	
 	option = {
 		name = wtt_germany.53.a
 		ai_chance = {
@@ -2420,7 +2642,7 @@ country_event = {
 		AUS = { country_event = { id = wtt_germany.54 days = 1 random_days = 6 } }
 	}
 
-	# No
+	
 	option = {
 		name = wtt_germany.53.b
 		ai_chance = {
@@ -2430,7 +2652,7 @@ country_event = {
 	}
 }
 
-# Austrian event for Austrian referendum to join Democratic Germany
+
 country_event = {
 	id = wtt_germany.54
 	title = wtt_germany.54.t
@@ -2439,7 +2661,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Yes we will join them
+	
 	option = {
 		name = wtt_germany.54.a
 		ai_chance = {
@@ -2449,13 +2671,13 @@ country_event = {
 		GER = { country_event = { id = wtt_germany.55 days = 1 random_days = 6 } }
 	}
 
-	# No we will remain independent
+	
 	option = {
 		name = wtt_germany.54.b	
 	}
 }
 
-# German confirmation event for Austrian referendum to join Democratic Germany
+
 country_event = {
 	id = wtt_germany.55
 	title = wtt_germany.55.t
@@ -2464,7 +2686,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Excellent
+	
 	option = {
 		name = wtt_germany.55.a
 		4 = {
@@ -2495,7 +2717,7 @@ country_event = {
 	}
 }
 
-# Polish event when attacked by SOV and not in faction with democratic Germany
+
 country_event = {
 	id = wtt_germany.56
 	title = wtt_germany.56.t
@@ -2522,7 +2744,7 @@ country_event = {
 
 	fire_only_once = yes
 	
-	# Yes
+	
 	option = {
 		name = wtt_germany.56.a
 		ai_chance = {
@@ -2531,7 +2753,7 @@ country_event = {
 		GER = { country_event = { id = wtt_germany.57 hours = 2 random_hours = 4 } }
 	}
 
-	# No
+	
 	option = {
 		name = wtt_germany.56.b
 		ai_chance = {
@@ -2541,7 +2763,7 @@ country_event = {
 	}
 }
 
-# German event giving back Danzig and Poznan if POL almost losing to SOV
+
 country_event = {
 	id = wtt_germany.57
 	title = wtt_germany.57.t
@@ -2550,22 +2772,54 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Yes we will accept that
+	
 	option = {
 		name = wtt_germany.57.a
 		ai_chance = {
 			factor = 90
 		}
-		transfer_state = 85
-		transfer_state = 86
-		add_state_core = 85
-		add_state_core = 86
+		transfer_state = 85 
+		transfer_state = 9943 
+		transfer_state = 9944 
+		transfer_state = 9945 
+		transfer_state = 9946 
+		transfer_state = 9947 
+		transfer_state = 9948 
+		transfer_state = 9949 
+		transfer_state = 9950
+		transfer_state = 86 
+		transfer_state = 9951 
+		transfer_state = 9952 
+		transfer_state = 9953 
+		transfer_state = 9954 
+		transfer_state = 9955 
+		transfer_state = 9956 
+		transfer_state = 9957 
+		transfer_state = 9958
+		add_state_core = 85 
+		add_state_core = 9943 
+		add_state_core = 9944 
+		add_state_core = 9945 
+		add_state_core = 9946 
+		add_state_core = 9947 
+		add_state_core = 9948 
+		add_state_core = 9949 
+		add_state_core = 9950
+		add_state_core = 86 
+		add_state_core = 9951 
+		add_state_core = 9952 
+		add_state_core = 9953 
+		add_state_core = 9954 
+		add_state_core = 9955 
+		add_state_core = 9956 
+		add_state_core = 9957 
+		add_state_core = 9958
 		85 = { add_claim_by = SOV }
 		86 = { add_claim_by = SOV }
 		POL = { country_event = { id = wtt_germany.59 } }
 	}
 
-	# No we don't want the risk
+	
 	option = {
 		name = wtt_germany.57.b
 		ai_chance = {
@@ -2575,7 +2829,7 @@ country_event = {
 	}
 }
 
-# German notification event for Austrian rejection of referendum to join Democratic Germany
+
 country_event = {
 	id = wtt_germany.58
 	title = wtt_germany.58.t
@@ -2584,13 +2838,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Damn!
+	
 	option = {
 		name = wtt_germany.58.a
 	}
 }
 
-# Polish confirmation event for Germany accepting Danzig and Poznan
+
 country_event = {
 	id = wtt_germany.59
 	title = wtt_germany.59.t
@@ -2599,14 +2853,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Excellent
+	
 	option = {
 		name = wtt_germany.59.a
 		hidden_effect = { news_event = { id = wtt_news.19 hours = 6 } }
 	}
 }
 
-# Polish notification event for Germany rejecting Danzig and Poznan
+
 country_event = {
 	id = wtt_germany.60
 	title = wtt_germany.60.t
@@ -2615,15 +2869,15 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# When the Soviets have eaten all their friends and come for the Germans, who will be left to help them?
+	
 	option = {
 		name = wtt_germany.60.a
 	}
 }
 
-#Removed event ID 61
 
-#Anti-smartass event to give penalty of mefo_bills_ended effect if MEFO bills have been removed through a (potentially insignificant) war.
+
+
 country_event = {
 	id = wtt_germany.62
 	title = wtt_germany.62.t
@@ -2808,7 +3062,7 @@ country_event = {
 	}
 }
 
-# Reintegration remove cores for Alsace and notification for France
+
 country_event = {
 	id = wtt_germany.63
 	title = wtt_germany.63.t
@@ -2822,13 +3076,20 @@ country_event = {
 		effect_tooltip = {
 			GER = {
 				add_state_core = 8
-				add_state_core = 28
+				add_state_core = 28 
+		add_state_core = 3286 
+		add_state_core = 3287 
+		add_state_core = 3288 
+		add_state_core = 3289 
+		add_state_core = 3290 
+		add_state_core = 3291 
+		add_state_core = 3292
 			}
 		}
 	}
 }
 
-# Reintegration notification for Luxemburg
+
 country_event = {
 	id = wtt_germany.64
 	title = wtt_germany.64.t
@@ -2842,13 +3103,20 @@ country_event = {
 		effect_tooltip = {
 			GER = {
 				add_state_core = 8
-				add_state_core = 28
+				add_state_core = 28 
+		add_state_core = 3286 
+		add_state_core = 3287 
+		add_state_core = 3288 
+		add_state_core = 3289 
+		add_state_core = 3290 
+		add_state_core = 3291 
+		add_state_core = 3292
 			}
 		}
 	}
 }
 
-# Event for POL - GER Pressures POL to Join War against SOV
+
 country_event = {
 	id = wtt_germany.65
 	title = wtt_germany.65.t
@@ -2857,7 +3125,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = wtt_germany.65.a
 		ai_chance = {
@@ -2915,7 +3183,7 @@ country_event = {
 		GER = { country_event = { id = wtt_germany.66 } }
 	}
 
-	# Reject
+	
 	option = {
 		name = wtt_germany.65.b
 		ai_chance = {
@@ -2943,7 +3211,7 @@ country_event = {
 	}
 }
 
-# Event for GER - POL Joins Faction and War against SOV
+
 country_event = {
 	id = wtt_germany.66
 	title = wtt_germany.66.t
@@ -2961,7 +3229,7 @@ country_event = {
 	}
 }
 
-# Event for GER - POL Rejects Demands
+
 country_event = {
 	id = wtt_germany.67
 	title = wtt_germany.67.t
@@ -2981,7 +3249,7 @@ country_event = {
 	}
 }
 
-# Event for other nations (HUN/AUS/CZE) to accept becoming annex by new Austria-Hungary
+
 country_event = {
 	id = wtt_germany.68
 	title = wtt_germany.68.t
@@ -2990,14 +3258,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = wtt_germany.68.a
 		custom_effect_tooltip = GAME_OVER_TT
 		FROM = { country_event = { id = wtt_germany.69 hours = 6 } }
 	}
 
-	# Decline
+	
 	option = {
 		name = wtt_germany.68.b
 		ai_chance = {
@@ -3007,7 +3275,7 @@ country_event = {
 	}
 }
 
-# Event for original nation (HUN/AUS/CZE) notifying another nation accepted
+
 country_event = {
 	id = wtt_germany.69
 	title = wtt_germany.69.t
@@ -3033,7 +3301,7 @@ country_event = {
 	}
 }
 
-# Event for original nation (HUN/AUS/CZE) notifying another nation rejected
+
 country_event = {
 	id = wtt_germany.70
 	title = wtt_germany.70.t
@@ -3048,7 +3316,7 @@ country_event = {
 	}
 }
 
-# Event for original nation (HUN/AUS/CZE) notifying of integration and formation of Austria-Hungary
+
 country_event = {
 	id = wtt_germany.71
 	title = wtt_germany.71.t
@@ -3153,7 +3421,7 @@ country_event = {
 	}
 }
 
-# Event asking whether HUN/ROM want to become puppet in return for factories.
+
 country_event = {
 	id = wtt_germany.72
 	title = wtt_germany.72.t
@@ -3162,7 +3430,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { # Yaplx
+	option = { 
 		name = wtt_germany.72.a
 		effect_tooltip = {
 			GER = {
@@ -3269,7 +3537,7 @@ country_event = {
 			country_event = { id = wtt_germany.73 days = 1 }
 		}
 	}
-	option = { # Hell naw
+	option = { 
 		name = wtt_germany.72.b
 		ai_chance = {
 			factor = 0
@@ -3280,7 +3548,7 @@ country_event = {
 	}
 }
 
-# Event for GER saying HUN/ROM accepted
+
 country_event = {
 	id = wtt_germany.73
 	title = wtt_germany.73.t
@@ -3403,7 +3671,7 @@ country_event = {
 	}
 }
 
-# Event for GER saying HUN/ROM rejected
+
 country_event = {
 	id = wtt_germany.74
 	title = wtt_germany.74.t
@@ -3417,7 +3685,7 @@ country_event = {
 	}
 }
 
-#################
+
 
 country_event = {
 	id = wtt_germany.999
@@ -3492,7 +3760,7 @@ country_event = {
 			female = yes
 			traits = {
 				kaiserin_of_the_people
-				victoria_iii # Third Victoria counting from Queen Victoria hurr durr
+				victoria_iii 
 			}
 		}
 		hidden_effect = { set_global_flag = hindenburg_destroyed }

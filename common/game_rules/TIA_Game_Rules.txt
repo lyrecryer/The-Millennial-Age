@@ -17,3 +17,25 @@ SSR = {
 	}
 
 }
+EU_FORMED = {
+	
+	name = "European Union Status"
+	required_dlc = "Together for Victory"
+	icon = "GFX_release_nations"
+	group = "TIA_RULES_GROUP"
+	default = {	
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "Vanilla Gameplay"
+	}
+	option = {
+		name = EU_UNITED
+		text = "Unite the EU States"
+		desc = "This will make the European Union Members become part of the EU Nation. You will be leading it if you are playing as one of them."
+	}
+	option = {
+		name = NO_EU
+		text = "Disband the EU"
+		desc = "This will disband the EU making any focus and events about the EU become disabled. Useful for alt history."
+	}
+}

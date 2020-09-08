@@ -1,15 +1,15 @@
 ﻿add_namespace = mtg_news
 
 
-#ID mtg_news 1-10: USA
 
-#  #  ##  ##  
-#  # #   #  # 
-#  #  #  #### 
-#  #   # #  # 
- ##  ##  #  # 
 
-# US Civil War - Commies vs. Fascists
+
+
+
+
+ 
+
+
 news_event = {
 	id = mtg_news.1
 	title = mtg_news.1.t
@@ -56,7 +56,7 @@ news_event = {
 	}
 }
 
-# US Civil War - Fascists vs. Democrats
+
 news_event = {
 	id = mtg_news.2
 	title = mtg_news.1.t
@@ -99,7 +99,7 @@ news_event = {
 	}
 }
 
-# US Pursues Neutrality
+
 news_event = {
 	id = mtg_news.3
 	title = mtg_news.3.t
@@ -155,7 +155,7 @@ news_event = {
 		}
 	}
 }
-# US goes Interventionist
+
 news_event = {
 	id = mtg_news.4
 	title = mtg_news.4.t
@@ -197,7 +197,7 @@ news_event = {
 		}
 	}
 }
-# US war powers act
+
 news_event = {
 	id = mtg_news.5
 	title = mtg_news.5.t
@@ -240,7 +240,7 @@ news_event = {
 	}
 }
 
-# US civil war over - commies win
+
 news_event = {
 	id = mtg_news.6
 	title = mtg_news.6.t
@@ -285,7 +285,7 @@ news_event = {
 	}
 }
 
-# US civil war over - fascists win
+
 news_event = {
 	id = mtg_news.7
 	title = mtg_news.7.t
@@ -328,7 +328,7 @@ news_event = {
 	}
 }
 
-# UK Imperial Federation (Without India)
+
 news_event = {
 	id = mtg_news.8
 	title = mtg_news.8.t
@@ -353,7 +353,7 @@ news_event = {
 	}
 }
 
-# UK Imperial Federation (With India)
+
 news_event = {
 	id = mtg_news.9
 	title = mtg_news.8.t
@@ -378,7 +378,7 @@ news_event = {
 	}
 }
 
-# HOL caves to the Germans
+
 news_event = {
 	id = mtg_news.10
 	title = mtg_news.10.t
@@ -418,7 +418,7 @@ news_event = {
 	}
 }
 
-# HOL caves to the British
+
 news_event = {
 	id = mtg_news.11
 	title = mtg_news.11.t
@@ -458,7 +458,7 @@ news_event = {
 	}
 }
 
-# HOL maintains trade neutrality
+
 news_event = {
 	id = mtg_news.12
 	title = mtg_news.12.t
@@ -470,7 +470,7 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = mtg_news.12.a # Direct 1939/1940 quote by Roger Makins, Deputy Head of the Foreign Office Central Department: "A people whose 'inherent desire for personal gain' rates their burning sympathy for Finland at one ambulance and who select as leaders in an emergency M. de Geer and M. van Kleffens deserve to be overrun and enslaved."
+		name = mtg_news.12.a 
 		trigger = {
 			original_tag = ENG
 		}
@@ -497,7 +497,7 @@ news_event = {
 	}
 }
 
-# UK Imperial Conference
+
 news_event = {
 	id = mtg_news.13
 	title = mtg_britain.82.t
@@ -547,7 +547,7 @@ news_event = {
 	}
 }
 
-# UK Revisit Colonial Policy
+
 news_event = {
 	id = mtg_news.14
 	title = mtg_news.14.t
@@ -587,7 +587,7 @@ news_event = {
 	}
 }
 
-# UK Decolonization
+
 news_event = {
 	id = mtg_news.15
 	title = mtg_news.15.t
@@ -613,7 +613,7 @@ news_event = {
 	}
 }
 
-# UK No Further Appeasement
+
 news_event = {
 	id = mtg_news.16
 	title = mtg_news.16.t
@@ -639,7 +639,7 @@ news_event = {
 	}
 }
 
-# UK Enforce the Naval Treaties
+
 news_event = {
 	id = mtg_news.17
 	title = mtg_news.17.t
@@ -727,7 +727,7 @@ news_event = {
 	}
 }
 
-# UK Continental Intervention
+
 news_event = {
 	id = mtg_news.18
 	title = mtg_news.18.t
@@ -781,7 +781,7 @@ news_event = {
 	}
 }
 
-# UK The King's Party
+
 news_event = {
 	id = mtg_news.19
 	title = mtg_news.19.t
@@ -807,7 +807,7 @@ news_event = {
 	}
 }
 
-# UK Isolate the Mediterranean Threat
+
 news_event = {
 	id = mtg_news.20
 	title = mtg_news.20.t
@@ -849,7 +849,7 @@ news_event = {
 	}
 }
 
-# UK Alliance with Germany
+
 news_event = {
 	id = mtg_news.21
 	title = mtg_news.21.t
@@ -883,7 +883,7 @@ news_event = {
 	}
 }
 
-# UK NAP with Germany
+
 news_event = {
 	id = mtg_news.22
 	title = mtg_news.22.t
@@ -917,7 +917,7 @@ news_event = {
 	}
 }
 
-# UK Organize the Blackshirts
+
 news_event = {
 	id = mtg_news.23
 	title = mtg_news.23.t
@@ -943,7 +943,7 @@ news_event = {
 	}
 }
 
-# UK Secure the Italian Alliance
+
 news_event = {
 	id = mtg_news.24
 	title = mtg_news.24.t
@@ -993,7 +993,7 @@ news_event = {
 	}
 }
 
-# UK Gibraltar for Spanish Support
+
 news_event = {
 	id = mtg_news.25
 	title = mtg_news.25.t
@@ -1028,7 +1028,7 @@ news_event = {
 	}
 }
 
-# UK Appeal to Imperial Loyalists
+
 news_event = {
 	id = mtg_news.26
 	title = mtg_news.26.t
@@ -1082,7 +1082,7 @@ news_event = {
 	}
 }
 
-# UK Ally Imperial Loyalists
+
 news_event = {
 	id = mtg_news.27
 	title = mtg_news.27.t
@@ -1140,7 +1140,7 @@ news_event = {
 	}
 }
 
-# UK Expose the Belly of the Bear Accept
+
 news_event = {
 	id = mtg_news.28
 	title = mtg_news.28.t
@@ -1186,7 +1186,7 @@ news_event = {
 	}
 }
 
-# UK Expose the Belly of the Bear Refuse
+
 news_event = {
 	id = mtg_news.29
 	title = mtg_news.29.t
@@ -1232,7 +1232,7 @@ news_event = {
 	}
 }
 
-# UK Move to Secure the Dominions
+
 news_event = {
 	id = mtg_news.30
 	title = mtg_news.30.t
@@ -1284,7 +1284,7 @@ news_event = {
 	}
 }
 
-# UK Move to Secure the Dominions Martial Law
+
 news_event = {
 	id = mtg_news.31
 	title = mtg_news.31.t
@@ -1344,7 +1344,7 @@ news_event = {
 	}
 }
 
-# UK Move to Secure the Dominions Government Flip
+
 news_event = {
 	id = mtg_news.32
 	title = mtg_news.32.t
@@ -1404,7 +1404,7 @@ news_event = {
 	}
 }
 
-# UK Concessions to the Trade Unions
+
 news_event = {
 	id = mtg_news.33
 	title = mtg_news.33.t
@@ -1439,7 +1439,7 @@ news_event = {
 	}
 }
 
-# UK Fate of the Royal Family - Banished
+
 news_event = {
 	id = mtg_news.34
 	title = mtg_news.34.t
@@ -1474,7 +1474,7 @@ news_event = {
 	}
 }
 
-# UK Fate of the Royal Family - 'Disappeared'
+
 news_event = {
 	id = mtg_news.35
 	title = mtg_news.35.t
@@ -1509,7 +1509,7 @@ news_event = {
 	}
 }
 
-# UK British Communist Alternative
+
 news_event = {
 	id = mtg_news.36
 	title = mtg_news.36.t
@@ -1552,7 +1552,7 @@ news_event = {
 	}
 }
 
-# UK Enforce Decolonization
+
 news_event = {
 	id = mtg_news.37
 	title = mtg_news.37.t
@@ -2362,7 +2362,7 @@ news_event = {
 	}
 }
 
-# UK The One True Revolution
+
 news_event = {
 	id = mtg_news.38
 	title = mtg_news.38.t
@@ -2404,7 +2404,7 @@ news_event = {
 	}
 }
 
-# UK Tackle Fascism
+
 news_event = {
 	id = mtg_news.39
 	title = mtg_news.39.t
@@ -2450,7 +2450,7 @@ news_event = {
 	}
 }
 
-# UK Tackle Capitalism
+
 news_event = {
 	id = mtg_news.40
 	title = mtg_news.40.t
@@ -2484,7 +2484,7 @@ news_event = {
 	}
 }
 
-# UK Fascist civil war start
+
 news_event = {
 	id = mtg_news.41
 	title = mtg_news.41.t
@@ -2510,7 +2510,7 @@ news_event = {
 	}
 }
 
-# UK Fascist civil war end
+
 news_event = {
 	id = mtg_news.42
 	title = mtg_news.42.t
@@ -2536,7 +2536,7 @@ news_event = {
 	}
 }
 
-# UK Communist civil war start
+
 news_event = {
 	id = mtg_news.43
 	title = mtg_news.43.t
@@ -2571,7 +2571,7 @@ news_event = {
 	}
 }
 
-# Indian Civil War
+
 news_event = {
 	id = mtg_news.44
 	title = mtg_news.44.t
@@ -2613,7 +2613,7 @@ news_event = {
 	}
 }
 
-# Pakistani Civil War
+
 news_event = {
 	id = mtg_news.45
 	title = mtg_news.45.t
@@ -2655,7 +2655,7 @@ news_event = {
 	}
 }
 
-# HOL Continue the War in Batavia
+
 news_event = {
 	id = mtg_news.46
 	title = mtg_news.46.t
@@ -2681,7 +2681,7 @@ news_event = {
 	}
 }
 
-# HOL Continue the Zuiderzee Works
+
 news_event = {
 	id = mtg_news.47
 	title = mtg_news.47.t
@@ -2707,7 +2707,7 @@ news_event = {
 	}
 }
 
-# HOL Placate the Japanese - granted all of NEI
+
 news_event = {
 	id = mtg_news.48
 	title = mtg_news.48.t
@@ -2741,7 +2741,7 @@ news_event = {
 	}
 }
 
-# HOL Placate the Japanese - granted NEI resources only
+
 news_event = {
 	id = mtg_news.49
 	title = mtg_news.49.t
@@ -2775,7 +2775,7 @@ news_event = {
 	}
 }
 
-# HOL Decolonization
+
 news_event = {
 	id = mtg_news.50
 	title = mtg_news.50.t
@@ -2801,7 +2801,7 @@ news_event = {
 	}
 }
 
-# HOL Dutch create new buffer state
+
 news_event = {
 	id = mtg_news.51
 	title = mtg_news.51.t
@@ -2827,7 +2827,7 @@ news_event = {
 	}
 }
 
-# HOL Americans protect West Indies
+
 news_event = {
 	id = mtg_news.52
 	title = mtg_news.52.t
@@ -2861,7 +2861,7 @@ news_event = {
 	}
 }
 
-# HOL Benelux
+
 news_event = {
 	id = mtg_news.53
 	title = mtg_news.53.t
@@ -2887,7 +2887,7 @@ news_event = {
 	}
 }
 
-# HOL EU
+
 news_event = {
 	id = mtg_news.54
 	title = mtg_news.54.t
@@ -3019,8 +3019,18 @@ news_event = {
 						NOT = { owns_state = 332 }
 						NOT = { owns_state = 331 }
 					}
-					transfer_state = 332
-					transfer_state = 331
+					transfer_state = 332 
+		transfer_state = 3912 
+		transfer_state = 3913 
+		transfer_state = 3914 
+		transfer_state = 3915 
+		transfer_state = 3916 
+		transfer_state = 3917
+					transfer_state = 331 
+		transfer_state = 3908 
+		transfer_state = 3909 
+		transfer_state = 3910 
+		transfer_state = 3911
 				}
 			}
 		}
@@ -3035,7 +3045,7 @@ news_event = {
 	}
 }
 
-# HOL kaiser taking charge of liberated territory in Germany
+
 news_event = {
 	id = mtg_news.58
 	title = mtg_netherlands.73.t
@@ -3121,7 +3131,7 @@ news_event = {
 	}
 }
 
-#London naval treaty is dead
+
 news_event = {
 	id = mtg_news.60
 	title = MTG_naval_treaty.8.t
@@ -3154,7 +3164,7 @@ news_event = {
 	}
 }
 
-#Second London Naval Treaty Signed
+
 news_event = {
 	id = mtg_news.61
 	title = MTG_naval_treaty.9.t
@@ -3165,7 +3175,7 @@ news_event = {
 	
 	trigger = {
 		not = { has_global_flag = MTG_second_london_conference }
-		has_global_flag = {	flag = MTG_naval_treaty_signatories	value > 1 }	#can never be 1
+		has_global_flag = {	flag = MTG_naval_treaty_signatories	value > 1 }	
 		not = { has_global_flag = mtg_61_fired }
 		date < "1938.1.1"
 	}
@@ -3198,7 +3208,7 @@ news_event = {
 	}
 }
 
-# News event informing others that the Dominions have left Britain because of Wallis Simpson
+
 news_event = {
 	id = mtg_news.62
 	title = mtg_britain.4.t
@@ -3217,7 +3227,7 @@ news_event = {
 	}
 }
 
-# News event informing others that the Dominions have left Britain because fascism/communism
+
 news_event = {
 	id = mtg_news.63
 	title = mtg_news.63.t
@@ -3236,7 +3246,7 @@ news_event = {
 	}
 }
 
-#Benelux Unites
+
 news_event = {
 	id = mtg_news.64
 	title = mtg_news.64.t

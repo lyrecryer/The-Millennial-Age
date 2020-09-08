@@ -1,10 +1,7 @@
-﻿###########################
-# Italian Events
-###########################
 
 add_namespace = italy
 
-# Albania Yields
+
 country_event = {
 	id = italy.1
 	title = italy.1.t
@@ -26,7 +23,7 @@ country_event = {
 	}
 }
 
-# Zog Rejects Ultimatum
+
 country_event = {
 	id = italy.2
 	title = italy.2.t
@@ -48,7 +45,7 @@ country_event = {
 	}
 }
 
-# Albania Receives Ultimatum
+
 country_event = {
 	id = italy.3
 	title = italy.3.t
@@ -57,7 +54,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Yield
+	option = { 
 		name = italy.3.a
 		ai_chance = {
 			base = 40
@@ -79,7 +76,7 @@ country_event = {
 				factor = 0.5
 				OR = {
 					has_government = communism
-					has_government = fascism #glorious Albania will never yield!
+					has_government = fascism 
 				}
 			}
 		}
@@ -88,7 +85,7 @@ country_event = {
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 	}
-	option = { # Resist
+	option = { 
 		name = italy.3.b
 		ai_chance = {
 			factor = 20 
@@ -125,7 +122,7 @@ country_event = {
 	}
 }
 
-# Extension of the Vallo Alpino
+
 country_event = {
 	id = italy.4
 	title = italy.4.t
@@ -175,7 +172,7 @@ country_event = {
 }
 
 
-# Italian-German Treaty (Germans)
+
 country_event = {
 	id = italy.5
 	title = italy.5.t
@@ -185,11 +182,11 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = italy.5.a	#sounds good
+		name = italy.5.a	
 		ITA = {
 			country_event = { days = 1 id = italy.6 }
 		}
-		# REVISIT Balance research bonus, also in event below
+		
 		add_tech_bonus = {
 			bonus = 1.0
 			uses = 1
@@ -203,7 +200,7 @@ country_event = {
 	}
 	
 	option = {
-		name = italy.5.b	#no way 
+		name = italy.5.b	
 		ai_chance = { factor = 0 }
 		add_political_power = -10
 		ITA = {
@@ -212,7 +209,7 @@ country_event = {
 	}
 }
 
-# Germans Accept Italian-German Treaty
+
 country_event = {
 	id = italy.6
 	title = italy.6.t
@@ -223,7 +220,7 @@ country_event = {
 	
 	option = {
 		name = italy.6.a
-		# REVISIT Balance research bonus
+		
 		add_tech_bonus = {
 			name = synth_bonus
 			bonus = 1.0
@@ -242,7 +239,7 @@ country_event = {
 	}
 }
 
-# Germans Reject Italian-German Treaty
+
 country_event = {
 	id = italy.7
 	title = italy.7.t
@@ -259,7 +256,7 @@ country_event = {
 	}
 }
 
-# French national focus - French asks Italy to join french faction
+
 country_event = {
 	id = italy.8
 	title = italy.8.t
@@ -308,7 +305,7 @@ country_event = {
 	}
 }
 
-# Request Balearic Islands from Spain
+
 country_event = {
 	id = italy.9
 	title = italy.9.t
@@ -321,7 +318,9 @@ country_event = {
 		name = italy.9.a
 		ITA = { country_event = { id = italy.10 } }
 		effect_tooltip = {
-			ITA = { transfer_state = 177 }
+			ITA = { transfer_state = 177 
+		transfer_state = 1759 
+		transfer_state = 1760 }
 			remove_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
 		}
 
@@ -334,12 +333,14 @@ country_event = {
 		ai_chance = { factor = 0 }
 		ITA = { country_event = { id = italy.11 } }
 		effect_tooltip = {
-			ITA = { add_state_claim = 177 }
+			ITA = { add_state_claim = 177 
+		add_state_claim = 1759 
+		add_state_claim = 1760 }
 		}
 	}
 }
 
-# Spain Gives Up Balearic Islands
+
 country_event = {
 	id = italy.10
 	title = italy.10.t
@@ -350,12 +351,14 @@ country_event = {
 	
 	option = {
 		name = italy.10.a
-		ITA = { transfer_state = 177 }
+		ITA = { transfer_state = 177 
+		transfer_state = 1759 
+		transfer_state = 1760 }
 		remove_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
 	}
 }
 
-# Spain Refuses to Give Up Islands
+
 country_event = {
 	id = italy.11
 	title = italy.11.t
@@ -366,11 +369,13 @@ country_event = {
 	
 	option = {
 		name = italy.11.a
-		ITA = { add_state_claim = 177 }
+		ITA = { add_state_claim = 177 
+		add_state_claim = 1759 
+		add_state_claim = 1760 }
 	}
 }
 
-# Germany want to claim Slovenia from Yugoslavia
+
 country_event = {
 	id = italy.12
 	title = italy.12.t
@@ -436,7 +441,7 @@ country_event = {
 	}
 }
 
-# Italy (First Ljubljana Award) from german focus
+
 country_event = {
 	id = italy.13
 	title = italy.13.t
@@ -470,17 +475,31 @@ country_event = {
 		name = italy.13.a
 		if = {
 			limit = { has_completed_focus = ITA_slovenia_dalmatia_claims }
-			ITA = { transfer_state = 103 }
+			ITA = { transfer_state = 103 
+		transfer_state = 820 
+		transfer_state = 821 
+		transfer_state = 822 
+		transfer_state = 823 
+		transfer_state = 824 
+		transfer_state = 825 
+		transfer_state = 826 
+		transfer_state = 827 
+		transfer_state = 828 
+		transfer_state = 829 }
 		}
 		if = {
 			limit = { owns_state = 44 }
-			ITA = { transfer_state = 105 }
+			ITA = { transfer_state = 105 
+		transfer_state = 850 
+		transfer_state = 851 
+		transfer_state = 852 
+		transfer_state = 853 }
 		}		
 	}
 }
 
 
-# Italy Germany rejects demands for Vichy territory
+
 country_event = {
 	id = italy.14
 	title = italy.14.t
@@ -507,7 +526,7 @@ country_event = {
 }
 
 
-# Italy Germany accepts demands for Vichy territory
+
 country_event = {
 	id = italy.15
 	title = italy.15.t
@@ -534,16 +553,29 @@ country_event = {
 		name = italy.15.a
 		if = {
 			limit = { has_global_flag = ITA_claims_on_france_735 }
-			ITA = { transfer_state = 735 }
+			ITA = { transfer_state = 735 
+		transfer_state = 9498 
+		transfer_state = 9499 
+		transfer_state = 9500 
+		transfer_state = 9501 
+		transfer_state = 9502 
+		transfer_state = 9503 
+		transfer_state = 9504 
+		transfer_state = 9505 
+		transfer_state = 9506 
+		transfer_state = 9507 
+		transfer_state = 9508 }
 		}
 		if = {
 			limit = { has_global_flag = ITA_claims_on_france_1 }
-			ITA = { transfer_state = 1 }
+			ITA = { transfer_state = 1 
+		transfer_state = 797 
+		transfer_state = 798 }
 		}		
 	}
 }
 
-# Italy Germany accepts some of demands for Vichy territory
+
 country_event = {
 	id = italy.16
 	title = italy.16.t
@@ -556,7 +588,18 @@ country_event = {
 	option = {
 		name = italy.16.a
 
-		transfer_state = 735
+		transfer_state = 735 
+		transfer_state = 9498 
+		transfer_state = 9499 
+		transfer_state = 9500 
+		transfer_state = 9501 
+		transfer_state = 9502 
+		transfer_state = 9503 
+		transfer_state = 9504 
+		transfer_state = 9505 
+		transfer_state = 9506 
+		transfer_state = 9507 
+		transfer_state = 9508
 	}
 }
 

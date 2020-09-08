@@ -1,6 +1,6 @@
 ﻿add_namespace = mtg_britain 
 
-# Abdication Crisis Edward VIII
+
 country_event = {
 	id = mtg_britain.1
 	title = mtg_britain.1.t
@@ -19,7 +19,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 14 }
 
-	# Reject
+	
 	option = {
 		name = mtg_britain.1.c
 		ai_chance = {
@@ -37,7 +37,7 @@ country_event = {
 		country_event = { id = mtg_britain.14 days = 5 random_days = 5 }
 	}
 
-	# Accept - Morganatic marriage
+	
 	option = {
 		name = mtg_britain.1.b
 		trigger = {
@@ -108,7 +108,7 @@ country_event = {
 		}
 	}
 
-	# Accept - Normal marriage
+	
 	option = {
 		name = mtg_britain.1.a
 		trigger = {
@@ -181,7 +181,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - King's support coalesces
+
 country_event = {
 	id = mtg_britain.2
 	title = mtg_britain.2.t
@@ -190,7 +190,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.2.a
 		add_popularity = { ideology = neutrality popularity = 0.1 }
@@ -200,7 +200,7 @@ country_event = {
 		hidden_effect = { country_event = { id = mtg_britain.3 days = 50 } }
 	}
 
-	# On second thought, maybe we shouldn't
+	
 	option = {
 		name = mtg_britain.2.b
 		ai_chance = {
@@ -211,7 +211,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Government falls
+
 country_event = {
 	id = mtg_britain.3
 	title = mtg_britain.3.t
@@ -222,7 +222,7 @@ country_event = {
 
 	trigger = { NOT = { has_country_flag = ENG_abdication_crisis_changed_mind } }
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.3.a
 		add_stability = -0.15
@@ -242,7 +242,7 @@ country_event = {
 		hidden_effect = { country_event = { id = mtg_britain.4 days = 50 } }
 	}
 
-	# On second thought, maybe we shouldn't
+	
 	option = {
 		name = mtg_britain.2.b
 		ai_chance = {
@@ -259,7 +259,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Dominions threaten to break away
+
 country_event = {
 	id = mtg_britain.4
 	title = mtg_britain.4.t
@@ -270,7 +270,7 @@ country_event = {
 
 	trigger = { NOT = { has_country_flag = ENG_abdication_crisis_changed_mind } }
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.4.a
 		add_stability = -0.15
@@ -455,7 +455,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Marriage happens
+
 country_event = {
 	id = mtg_britain.5
 	title = mtg_britain.5.t
@@ -472,7 +472,7 @@ country_event = {
 		}
 	}
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.5.a
 		add_popularity = { ideology = neutrality popularity = 0.05 }
@@ -481,7 +481,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - random event generator
+
 country_event = {
 	id = mtg_britain.6
 	
@@ -491,7 +491,7 @@ country_event = {
 
 	immediate = {
 		random_list = {
-			20 = { # Newspapers in favor of marriage
+			20 = { 
 				modifier = {
 					factor = 1.5
 					has_country_flag = ENG_abdication_crisis_morganatic_marriage
@@ -506,10 +506,10 @@ country_event = {
 				}
 				country_event = { id = mtg_britain.7 }
 			}
-			20 = { # Newspapers against marriage
+			20 = { 
 				country_event = { id = mtg_britain.8 } 
 			}
-			20 = { # Prime Minister keeps King on tight leash
+			20 = { 
 				modifier = {
 					factor = 0
 					has_country_flag = ENG_abdication_crisis_government_fell
@@ -528,7 +528,7 @@ country_event = {
 				}
 				country_event = { id = mtg_britain.9 } 
 			}
-			20 = { # Parliament Opposition
+			20 = { 
 				modifier = {
 					factor = 0.8
 					has_idea = ENG_support_for_the_king_idea 
@@ -543,14 +543,14 @@ country_event = {
 				}
 				country_event = { id = mtg_britain.10 } 
 			}
-			20 = { # Upper classes oppose marriage
+			20 = { 
 				modifier = {
 					factor = 0
 					has_country_flag = ENG_upper_classes_oppose_marriage
 				}
 				country_event = { id = mtg_britain.11 } 
 			}
-			20 = { # Working class people support marriage
+			20 = { 
 				modifier = {
 					factor = 1.5
 					has_country_flag = ENG_abdication_crisis_morganatic_marriage
@@ -561,7 +561,7 @@ country_event = {
 				}
 				country_event = { id = mtg_britain.12 } 
 			}
-			200 = { # King gets permission to make radio broadcast for 'his side of the story'
+			200 = { 
 				modifier = {
 					factor = 0
 					NOT = { has_idea = ENG_support_for_the_king_idea } 
@@ -580,7 +580,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Newspapers in favor of marriage
+
 country_event = {
 	id = mtg_britain.7
 	title = mtg_britain.7.t
@@ -594,7 +594,7 @@ country_event = {
 		NOT = { has_country_flag = edward_viii_married_wallis_simpson }
 	}
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.7.a
 		add_popularity = { ideology = neutrality popularity = 0.02 }
@@ -608,7 +608,7 @@ country_event = {
 		set_country_flag = ENG_newspapers_in_favor
 	}
 
-	# On second thought, maybe we shouldn't
+	
 	option = {
 		name = mtg_britain.2.b
 		trigger = {
@@ -628,7 +628,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Newspapers against marriage
+
 country_event = {
 	id = mtg_britain.8
 	title = mtg_britain.8.t
@@ -642,7 +642,7 @@ country_event = {
 		NOT = { has_country_flag = edward_viii_married_wallis_simpson }
 	}
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.8.a
 		add_popularity = { ideology = neutrality popularity = -0.02 }
@@ -656,7 +656,7 @@ country_event = {
 		set_country_flag = ENG_newspapers_against
 	}
 
-	# On second thought, maybe we shouldn't
+	
 	option = {
 		name = mtg_britain.2.b
 		trigger = {
@@ -676,7 +676,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Prime Minister keeps King on tight leash
+
 country_event = {
 	id = mtg_britain.9
 	title = mtg_britain.9.t
@@ -691,7 +691,7 @@ country_event = {
 		NOT = { has_country_flag = edward_viii_married_wallis_simpson }
 	}
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.9.a
 		add_political_power = -50
@@ -705,7 +705,7 @@ country_event = {
 		set_country_flag = ENG_prime_minister_tight_leash
 	}
 
-	# On second thought, maybe we shouldn't
+	
 	option = {
 		name = mtg_britain.2.b
 		trigger = {
@@ -725,7 +725,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Parliament opposition
+
 country_event = {
 	id = mtg_britain.10
 	title = mtg_britain.10.t
@@ -738,7 +738,7 @@ country_event = {
 		NOT = { has_country_flag = ENG_abdication_crisis_changed_mind }
 		NOT = { has_country_flag = edward_viii_married_wallis_simpson }
 	}	
-	# Ok
+	
 	option = {
 		name = mtg_britain.10.a
 		add_political_power = -75
@@ -751,7 +751,7 @@ country_event = {
 		set_country_flag = ENG_parliament_opposition
 	}
 
-	# On second thought, maybe we shouldn't
+	
 	option = {
 		name = mtg_britain.2.b
 		trigger = {
@@ -771,7 +771,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Upper classes oppose marriage
+
 country_event = {
 	id = mtg_britain.11
 	title = mtg_britain.11.t
@@ -784,7 +784,7 @@ country_event = {
 		NOT = { has_country_flag = ENG_abdication_crisis_changed_mind }
 		NOT = { has_country_flag = edward_viii_married_wallis_simpson }
 	}	
-	# Ok
+	
 	option = {
 		name = mtg_britain.11.a
 		add_popularity = { ideology = neutrality popularity = -0.02 }
@@ -799,7 +799,7 @@ country_event = {
 		set_country_flag = ENG_upper_classes_oppose_marriage
 	}
 
-	# On second thought, maybe we shouldn't
+	
 	option = {
 		name = mtg_britain.2.b
 		trigger = {
@@ -819,7 +819,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Working classes support marriage
+
 country_event = {
 	id = mtg_britain.12
 	title = mtg_britain.12.t
@@ -832,7 +832,7 @@ country_event = {
 		NOT = { has_country_flag = ENG_abdication_crisis_changed_mind }
 		NOT = { has_country_flag = edward_viii_married_wallis_simpson }
 	}	
-	# Ok
+	
 	option = {
 		name = mtg_britain.12.a
 		add_popularity = { ideology = neutrality popularity = 0.02 }
@@ -846,7 +846,7 @@ country_event = {
 		set_country_flag = ENG_working_classes_support_marriage
 	}
 
-	# On second thought, maybe we shouldn't
+	
 	option = {
 		name = mtg_britain.2.b
 		trigger = {
@@ -866,7 +866,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Radio speech
+
 country_event = {
 	id = mtg_britain.13
 	title = mtg_britain.13.t
@@ -880,7 +880,7 @@ country_event = {
 		NOT = { has_country_flag = edward_viii_married_wallis_simpson }
 	}
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.13.a
 		add_popularity = { ideology = neutrality popularity = 0.05 }
@@ -890,7 +890,7 @@ country_event = {
 		hidden_effect = { country_event = { id = mtg_britain.6 days = 20 random_days = 10 } }
 	}
 
-	# On second thought, maybe we shouldn't
+	
 	option = {
 		name = mtg_britain.2.b
 		trigger = {
@@ -910,7 +910,7 @@ country_event = {
 	}
 }
 
-# King abdicates - Man the Guns version
+
 country_event = {
 	id = mtg_britain.14
 	title = britain.17.t
@@ -936,7 +936,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Asking Dominions what they want to do if the King goes through with it
+
 country_event = {
 	id = mtg_britain.15
 	title = mtg_britain.15.t
@@ -945,14 +945,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# If he goes through with it, we're out
+	
 	option = {
 		name = mtg_britain.15.a
 		custom_effect_tooltip = mtg_britain.15_tt
 		set_country_flag = ENG_abdication_crisis_dominion_will_leave
 	}
 
-	# We will support him whatever he decides
+	
 	option = {
 		name = mtg_britain.15.b
 		ai_chance = {
@@ -999,7 +999,7 @@ country_event = {
 	}
 }
 
-# Abdication Crisis Edward VIII - Notification event for the Dominions that they are leaving the Allies
+
 country_event = {
 	id = mtg_britain.16
 	title = mtg_britain.16.t
@@ -1008,7 +1008,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.16.a
 		if = {
@@ -1146,9 +1146,9 @@ country_event = {
 	}
 }
 
-### END ABDICATION CRISIS ###
 
-# Guide the Colonies notification event
+
+
 country_event = {
 	id = mtg_britain.17
 	title = mtg_britain.17.t
@@ -1157,7 +1157,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.17.a
 		if = {
@@ -1203,7 +1203,7 @@ country_event = {
 	}
 }
 
-# Towards Dominion Independence notification event
+
 country_event = {
 	id = mtg_britain.18
 	title = mtg_britain.18.t
@@ -1212,7 +1212,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.18.a
 		if = {
@@ -1262,7 +1262,7 @@ country_event = {
 	}
 }
 
-# Foundations for an Indian State notification event
+
 country_event = {
 	id = mtg_britain.19
 	title = mtg_britain.19.t
@@ -1271,7 +1271,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.17.a
 		effect_tooltip = {
@@ -1282,7 +1282,7 @@ country_event = {
 	}
 }
 
-# Three-Nation Solution notification event
+
 country_event = {
 	id = mtg_britain.20
 	title = mtg_britain.20.t
@@ -1291,7 +1291,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.20.a
 		add_opinion_modifier = { target = ENG modifier = ENG_three_nation_solution }
@@ -1326,7 +1326,7 @@ country_event = {
 	}
 }
 
-# Towards Indian Independence notification event
+
 country_event = {
 	id = mtg_britain.21
 	title = mtg_britain.21.t
@@ -1335,7 +1335,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.18.a
 		effect_tooltip = {
@@ -1375,7 +1375,7 @@ country_event = {
 	}
 }
 
-# Motion of No Confidence event
+
 country_event = {
 	id = mtg_britain.22
 	title = mtg_britain.22.t
@@ -1384,7 +1384,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.22.a
 		retire_country_leader = yes
@@ -1401,7 +1401,7 @@ country_event = {
 	}
 }
 
-# Isolate the Mediterranean Threat event
+
 country_event = {
 	id = mtg_britain.23
 	title = mtg_britain.23.t
@@ -1410,7 +1410,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# We will drop the Italians
+	
 	option = {
 		name = mtg_britain.23.a
 		if = {
@@ -1456,7 +1456,7 @@ country_event = {
 		}
 	}
 
-	# We will stick by the Italians
+	
 	option = {
 		name = mtg_britain.23.b
 		ai_chance = {
@@ -1466,7 +1466,7 @@ country_event = {
 	}
 }
 
-# Isolate the Mediterranean Threat notification event for Britain - Germany accepts
+
 country_event = {
 	id = mtg_britain.24
 	title = mtg_britain.24.t
@@ -1475,14 +1475,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.24.a
 		hidden_effect = { news_event = { id = mtg_news.20 days = 1 } }
 	}
 }
 
-# Isolate the Mediterranean Threat notification event for Italy - Germany dumps them
+
 country_event = {
 	id = mtg_britain.25
 	title = mtg_britain.25.t
@@ -1491,7 +1491,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.25.a
 		hidden_effect = {
@@ -1529,7 +1529,7 @@ country_event = {
 	}
 }
 
-# Isolate the Mediterranean Threat notification event for Britain - Germany rejects
+
 country_event = {
 	id = mtg_britain.26
 	title = mtg_britain.26.t
@@ -1538,14 +1538,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.26.a
 		set_country_flag = ENG_germany_rejected_isolate_the_italian_threat
 	}
 }
 
-# Alliance with Germany event
+
 country_event = {
 	id = mtg_britain.27
 	title = mtg_britain.27.t
@@ -1554,7 +1554,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.27.a
 		effect_tooltip = {
@@ -1568,7 +1568,7 @@ country_event = {
 		}
 		FROM = { country_event = { id = mtg_britain.28 hours = 6 } }
 	}
-	# Reject
+	
 	option = {
 		name = mtg_britain.27.b
 		ai_chance = {
@@ -1578,7 +1578,7 @@ country_event = {
 	}
 }
 
-# Alliance with Germany notification event - Germany accepts
+
 country_event = {
 	id = mtg_britain.28
 	title = mtg_britain.28.t
@@ -1587,7 +1587,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = excellent
 		FROM = { 
@@ -1631,7 +1631,7 @@ country_event = {
 	}
 }
 
-# Alliance with Germany notification event - Germany rejects
+
 country_event = {
 	id = mtg_britain.29
 	title = mtg_britain.29.t
@@ -1640,13 +1640,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = unfortunate
 	}
 }
 
-# Non-Interference Treaty with Germany event
+
 country_event = {
 	id = mtg_britain.30
 	title = mtg_britain.30.t
@@ -1655,7 +1655,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = mtg_britain.30.a
 		GER = {
@@ -1672,7 +1672,7 @@ country_event = {
 		FROM = { country_event = { id = mtg_britain.31 hours = 6 } }
 	}
 
-	# Reject
+	
 	option = {
 		name = mtg_britain.30.b
 		ai_chance = {
@@ -1682,7 +1682,7 @@ country_event = {
 	}
 }
 
-# Non-Interference Treaty with Germany notification event - Germany accepts
+
 country_event = {
 	id = mtg_britain.31
 	title = mtg_britain.31.t
@@ -1691,7 +1691,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = excellent
 		diplomatic_relation = {
@@ -1717,7 +1717,7 @@ country_event = {
 	}
 }
 
-# Non-Interference Treaty with Germany notification event - Germany rejects
+
 country_event = {
 	id = mtg_britain.32
 	title = mtg_britain.32.t
@@ -1726,13 +1726,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = unfortunate
 	}
 }
 
-# Organize the Blackshirts civil war event
+
 country_event = {
 	id = mtg_britain.33
 	title = mtg_britain.33.t
@@ -1917,7 +1917,7 @@ country_event = {
 		}
 	}
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.33.a
 		custom_effect_tooltip = ENG_democratic_civil_war_tt
@@ -1952,7 +1952,7 @@ country_event = {
 	}
 }
 
-# End of British Fascist Civil War event
+
 country_event = {
 	id = mtg_britain.34
 	title = mtg_britain.34.t
@@ -1961,7 +1961,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.34.a
 		add_ideas = ENG_george_vi
@@ -2004,7 +2004,7 @@ country_event = {
 	}
 }
 
-# March on Downing Street event
+
 country_event = {
 	id = mtg_britain.35
 	title = mtg_britain.35.t
@@ -2013,7 +2013,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.35.a
 		set_politics = { ruling_party = fascism elections_allowed = no }
@@ -2021,7 +2021,7 @@ country_event = {
 	}
 }
 
-# Secure the Italian Alliance event for Italy
+
 country_event = {
 	id = mtg_britain.36
 	title = mtg_britain.36.t
@@ -2030,7 +2030,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = mtg_britain.36.a
 		FROM = {
@@ -2079,7 +2079,7 @@ country_event = {
 		}
 	}
 
-	# Reject
+	
 	option = {
 		name = mtg_britain.36.b
 		ai_chance = {
@@ -2089,7 +2089,7 @@ country_event = {
 	}
 }
 
-# Secure the Italian Alliance acceptance event for Britain
+
 country_event = {
 	id = mtg_britain.37
 	title = mtg_britain.37.t
@@ -2098,7 +2098,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = excellent
 		FRA = { country_event = { id = mtg_britain.39 hours = 6 } }
@@ -2109,7 +2109,7 @@ country_event = {
 	}
 }
 
-# Secure the Italian Alliance rejection event for Britain
+
 country_event = {
 	id = mtg_britain.38
 	title = mtg_britain.38.t
@@ -2118,13 +2118,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = unfortunate
 	}
 }
 
-# Secure the Italian Alliance event telling France they're out
+
 country_event = {
 	id = mtg_britain.39
 	title = mtg_britain.39.t
@@ -2133,14 +2133,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.39.a
 		effect_tooltip = { ENG = { remove_from_faction = ROOT } }
 	}
 }
 
-# Gibraltar for Spanish Support event for Spain
+
 country_event = {
 	id = mtg_britain.40
 	title = mtg_britain.40.t
@@ -2149,7 +2149,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = mtg_britain.40.a
 		transfer_state = 118
@@ -2193,7 +2193,7 @@ country_event = {
 		}
 	}
 
-	# Reject
+	
 	option = {
 		name = mtg_britain.40.b
 		ai_chance = {
@@ -2203,7 +2203,7 @@ country_event = {
 	}
 }
 
-# Gibraltar for Spanish Support acceptance event for Britain
+
 country_event = {
 	id = mtg_britain.41
 	title = mtg_britain.41.t
@@ -2212,7 +2212,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = excellent
 		effect_tooltip = {
@@ -2223,7 +2223,7 @@ country_event = {
 	}
 }
 
-# Gibraltar for Spanish Support rejection event for Britain
+
 country_event = {
 	id = mtg_britain.42
 	title = mtg_britain.42.t
@@ -2232,13 +2232,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = unfortunate
 	}
 }
 
-# The Fate of the Royal Family event
+
 country_event = {
 	id = mtg_britain.43
 	title = mtg_britain.43.t
@@ -2247,7 +2247,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Banish them to Canada
+	
 	option = {
 		name = mtg_britain.43.a
 		ai_chance = {
@@ -2263,7 +2263,7 @@ country_event = {
 		}
 	}
 
-	# Execute them all
+	
 	option = {
 		name = mtg_britain.43.b
 		ai_chance = {
@@ -2276,7 +2276,7 @@ country_event = {
 	}
 }
 
-# The Fate of the Royal Family event - notification event for exiled Royal Family for Canada
+
 country_event = {
 	id = mtg_britain.44
 	title = mtg_britain.44.t
@@ -2285,7 +2285,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.44.a
 		add_ideas = ENG_exiled_royal_family
@@ -2293,7 +2293,7 @@ country_event = {
 	}
 }
 
-# Eliminate the Upper Class event
+
 country_event = {
 	id = mtg_britain.45
 	title = mtg_britain.45.t
@@ -2302,7 +2302,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Get rid of them all
+	
 	option = {
 		name = mtg_britain.45.a
 		remove_unit_leader = 997
@@ -2386,7 +2386,7 @@ country_event = {
 	}
 }
 
-# Enforce Decolonization event - release or else!!!!
+
 country_event = {
 	id = mtg_britain.46
 	title = mtg_britain.46.t
@@ -2395,7 +2395,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept - We will release
+	
 	option = {
 		name = mtg_britain.46.a
 		ai_chance = {
@@ -3137,7 +3137,11 @@ country_event = {
 				owns_state = 721
 				has_full_control_of_state = 721
 			}
-			INS = { transfer_state = 721 }
+			INS = { transfer_state = 721 
+		transfer_state = 9424 
+		transfer_state = 9425 
+		transfer_state = 9426 
+		transfer_state = 9427 }
 		}
 		if = {
 			limit = {
@@ -3179,7 +3183,12 @@ country_event = {
 				owns_state = 290
 				has_full_control_of_state = 290
 			}
-			MOR = { transfer_state = 290 }
+			MOR = { transfer_state = 290 
+		transfer_state = 3527 
+		transfer_state = 3528 
+		transfer_state = 3529 
+		transfer_state = 3530 
+		transfer_state = 3531 }
 		}
 		if = {
 			limit = {
@@ -3314,7 +3323,13 @@ country_event = {
 				owns_state = 609
 				has_full_control_of_state = 609
 			}
-			event_target:WTT_current_china_leader = { transfer_state = 609 }
+			event_target:WTT_current_china_leader = { transfer_state = 609 
+		transfer_state = 8261 
+		transfer_state = 8262 
+		transfer_state = 8263 
+		transfer_state = 8264 
+		transfer_state = 8265 
+		transfer_state = 8266 }
 		}
 		if = {
 			limit = {
@@ -3322,7 +3337,8 @@ country_event = {
 				owns_state = 745
 				has_full_control_of_state = 745
 			}
-			event_target:WTT_current_china_leader = { transfer_state = 745 }
+			event_target:WTT_current_china_leader = { transfer_state = 745 
+		transfer_state = 9582 }
 		}
 		if = {
 			limit = {
@@ -3330,12 +3346,21 @@ country_event = {
 				owns_state = 524
 				has_full_control_of_state = 524
 			}
-			event_target:WTT_current_china_leader = { transfer_state = 524 }
+			event_target:WTT_current_china_leader = { transfer_state = 524 
+		transfer_state = 6954 
+		transfer_state = 6955 
+		transfer_state = 6956 
+		transfer_state = 6957 
+		transfer_state = 6958 
+		transfer_state = 6959 
+		transfer_state = 6960 
+		transfer_state = 6961 
+		transfer_state = 6962 }
 		}
 		FROM = { country_event = { id = mtg_britain.47 hours = 6 } }
 	}
 
-	# Reject - We will NOT release
+	
 	option = {
 		name = mtg_britain.46.b
 		ai_chance = {
@@ -3388,7 +3413,7 @@ country_event = {
 	}
 }
 
-# Enforce Decolonization event - FROM has released
+
 country_event = {
 	id = mtg_britain.47
 	title = mtg_britain.47.t
@@ -3397,13 +3422,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.47.a
 	}
 }
 
-# Enforce Decolonization event - FROM has refused to release!
+
 country_event = {
 	id = mtg_britain.48
 	title = mtg_britain.48.t
@@ -3412,7 +3437,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.48.a
 		create_wargoal = {
@@ -3422,7 +3447,7 @@ country_event = {
 	}
 }
 
-# Soviet Cooperation - event for SOV - Wanna gang up on GER?
+
 country_event = {
 	id = mtg_britain.49
 	title = mtg_britain.49.t
@@ -3431,7 +3456,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Sounds great!
+	
 	option = {
 		name = mtg_britain.49.a
 		ai_chance = {
@@ -3457,7 +3482,7 @@ country_event = {
 		}
 	}
 
-	# Nah ty
+	
 	option = {
 		name = mtg_britain.49.b
 		ai_chance = {
@@ -3471,7 +3496,7 @@ country_event = {
 	}
 }
 
-# Soviet Cooperation - event for ENG - SOV accepted
+
 country_event = {
 	id = mtg_britain.50
 	title = mtg_britain.50.t
@@ -3480,7 +3505,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.50.a
 		create_wargoal = {
@@ -3496,7 +3521,7 @@ country_event = {
 	}
 }
 
-# Soviet Cooperation - event for ENG - SOV rejected
+
 country_event = {
 	id = mtg_britain.51
 	title = mtg_britain.51.t
@@ -3505,7 +3530,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.51.a
 		create_wargoal = {
@@ -3515,7 +3540,7 @@ country_event = {
 	}
 }
 
-# Follow Moscow - event for SOV - Wanna have ENG in your faction?
+
 country_event = {
 	id = mtg_britain.52
 	title = mtg_britain.52.t
@@ -3524,7 +3549,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Sounds great!
+	
 	option = {
 		name = mtg_britain.52.a
 		FROM = { country_event = { id = mtg_britain.53 hours = 6 } }
@@ -3533,7 +3558,7 @@ country_event = {
 		}
 	}
 
-	# Nah ty
+	
 	option = {
 		name = mtg_britain.52.b
 		ai_chance = {
@@ -3543,7 +3568,7 @@ country_event = {
 	}
 }
 
-# Follow Moscow - event for ENG - SOV accepts
+
 country_event = {
 	id = mtg_britain.53
 	title = mtg_britain.53.t
@@ -3552,14 +3577,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = excellent
 		FROM = { add_to_faction = ENG }
 	}
 }
 
-# Follow Moscow - event for ENG - SOV rejects
+
 country_event = {
 	id = mtg_britain.54
 	title = mtg_britain.54.t
@@ -3568,33 +3593,33 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = unfortunate
 	}
 }
 
-# Communist civil war event
+
 country_event = {
 	id = mtg_britain.55
 	title = mtg_britain.55.t
 	desc = mtg_britain.55.d
 	picture = GFX_report_event_ger_civil_war
 
-	# Is now fired through mission failure instead, for clarity to the player
-
-	#trigger = {
-	#	tag = ENG
-	#	has_completed_focus = ENG_concessions_to_the_trade_unions
-	#	NOT = { has_completed_focus = ENG_decolonization }
-	#	has_government = communism
-	#	has_country_flag = ENG_switched_to_communism_civil_war_flag
-	#	NOT = { has_country_flag = ENG_switched_to_communism_civil_war_timer_flag }
-	#}
 	
-	#mean_time_to_happen = {
-	#	days = 2
-	#}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	is_triggered_only = yes
 
@@ -3697,7 +3722,7 @@ country_event = {
 		}
 	}
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.55.a
 		custom_effect_tooltip = ENG_communist_civil_war_tt
@@ -3706,7 +3731,7 @@ country_event = {
 	}
 }
 
-# Communist civil war ends
+
 country_event = {
 	id = mtg_britain.56
 	title = mtg_britain.56.t
@@ -3715,14 +3740,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.56.a
 		clr_country_flag = ENG_communist_civil_war
 	}
 }
 
-# Blackshirt great March in [statenamehere]!
+
 country_event = {
 	id = mtg_britain.57
 	title = mtg_britain.57.t
@@ -3731,7 +3756,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.57.a
 		add_political_power = 25
@@ -3900,7 +3925,7 @@ country_event = {
 	}
 }
 
-# Blackshirt normal March in [statenamehere]!
+
 country_event = {
 	id = mtg_britain.58
 	title = mtg_britain.58.t
@@ -3909,7 +3934,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.58.a
 		if = {
@@ -4077,7 +4102,7 @@ country_event = {
 	}
 }
 
-# Blackshirt disastrous March in [statenamehere]!
+
 country_event = {
 	id = mtg_britain.59
 	title = mtg_britain.59.t
@@ -4086,7 +4111,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.59.a
 		if = {
@@ -4254,7 +4279,7 @@ country_event = {
 	}
 }
 
-# Mosley speech against Germany
+
 country_event = {
 	id = mtg_britain.60
 	title = mtg_britain.60.t
@@ -4263,14 +4288,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.60.a
 		GER = { add_opinion_modifier = { target = ENG modifier = ENG_spoke_out_against_us } }
 	}
 }
 
-# Appeal to Imperial Loyalists event for dominions
+
 country_event = {
 	id = mtg_britain.61
 	title = mtg_britain.61.t
@@ -4279,13 +4304,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# The British are plotting!
+	
 	option = {
 		name = mtg_britain.61.a
 	}
 }
 
-# Move to Secure the Dominions notification event for the dominions
+
 country_event = {
 	id = mtg_britain.62
 	title = mtg_britain.62.t
@@ -4294,13 +4319,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Watch out! The British are coming!
+	
 	option = {
 		name = mtg_britain.62.a
 	}
 }
 
-# Move to Secure the Dominions - Martial Law notification event for the dominions
+
 country_event = {
 	id = mtg_britain.63
 	title = mtg_britain.63.t
@@ -4309,7 +4334,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.63.a
 		custom_effect_tooltip = mtg_britain.62_tt
@@ -4317,7 +4342,7 @@ country_event = {
 	}
 }
 
-# Move to Secure the Dominions - Propaganda notification event for the dominions
+
 country_event = {
 	id = mtg_britain.64
 	title = mtg_britain.64.t
@@ -4326,7 +4351,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.64.a
 		effect_tooltip = {
@@ -4354,7 +4379,7 @@ country_event = {
 	}
 }
 
-# Move to Secure the Dominions - Replace Government notification event for the dominions
+
 country_event = {
 	id = mtg_britain.65
 	title = mtg_britain.65.t
@@ -4363,7 +4388,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.65.a
 		effect_tooltip = {
@@ -4388,7 +4413,7 @@ country_event = {
 	}
 }
 
-# Event for Dominions leaving the Allies after UK switches to Fascism or Communism
+
 country_event = {
 	id = mtg_britain.66
 	title = mtg_britain.66.t
@@ -4421,7 +4446,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 30 }
 	
-	# We will stay
+	
 	option = {
 		name = mtg_britain.66.a
 		ai_chance = {
@@ -4430,7 +4455,7 @@ country_event = {
 		set_country_flag = ENG_dominions_stayed_with_fascist_britain_flag
 	}
 
-	# We will leave
+	
 	option = {
 		name = mtg_britain.66.b
 		leave_faction = yes
@@ -4478,7 +4503,7 @@ country_event = {
 	}
 }
 
-# Event for Britain notifying that Dominions are leaving
+
 country_event = {
 	id = mtg_britain.67
 	title = mtg_britain.67.t
@@ -4487,7 +4512,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.67.a
 		remove_from_tech_sharing_group = commonwealth_research
@@ -4524,7 +4549,7 @@ country_event = {
 	}
 }
 
-# Event for USA notifying that Britain is forcing through communism in Canada
+
 country_event = {
 	id = mtg_britain.68
 	title = mtg_britain.68.t
@@ -4533,7 +4558,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Object strongly
+	
 	option = {
 		name = mtg_britain.68.a
 		ai_chance = {
@@ -4570,7 +4595,7 @@ country_event = {
 		ENG = { country_event = { id = mtg_britain.69 hours = 6 } }
 	}
 
-	# That's fine
+	
 	option = {
 		name = mtg_britain.68.b
 		ai_chance = {
@@ -4600,7 +4625,7 @@ country_event = {
 	}
 }
 
-# Event for Britain notifying that USA objects to them forcing through communism in Canada
+
 country_event = {
 	id = mtg_britain.69
 	title = mtg_britain.69.t
@@ -4609,7 +4634,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Bring it
+	
 	option = {
 		name = mtg_britain.69.a
 		ai_chance = {
@@ -4618,7 +4643,7 @@ country_event = {
 		FROM = { country_event = { id = mtg_britain.70 hours = 6 } }
 	}
 
-	# Back down
+	
 	option = {
 		name = mtg_britain.69.b
 		ai_chance = {
@@ -4632,7 +4657,7 @@ country_event = {
 	}
 }
 
-# Event for USA notifying that Britain isn't backing down
+
 country_event = {
 	id = mtg_britain.70
 	title = mtg_britain.70.t
@@ -4641,7 +4666,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# We'll see about that
+	
 	option = {
 		name = mtg_britain.70.a
 		create_wargoal = {
@@ -4650,7 +4675,7 @@ country_event = {
 		}
 	}
 
-	# Back down
+	
 	option = {
 		name = mtg_britain.70.b
 		ai_chance = {
@@ -4659,7 +4684,7 @@ country_event = {
 	}
 }
 
-# Event for USA notifying that Britain is backing down
+
 country_event = {
 	id = mtg_britain.71
 	title = mtg_britain.71.t
@@ -4668,13 +4693,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.71.a
 	}
 }
 
-# Event for RAJ notifying of impending civil war
+
 country_event = {
 	id = mtg_britain.72
 	title = mtg_britain.72.t
@@ -4700,7 +4725,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 60 }
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.72.a
 		set_country_flag = RAJ_civil_war
@@ -4710,7 +4735,7 @@ country_event = {
 	}
 }
 
-# Event for RAJ starting civil war
+
 country_event = {
 	id = mtg_britain.73
 	title = mtg_britain.73.t
@@ -4719,7 +4744,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# We won't back down!
+	
 	option = {
 		name = mtg_britain.73.a
 		release = PAK
@@ -4750,7 +4775,7 @@ country_event = {
 						infantry = { x = 1 y = 2 }
 					}
 				}
-				# Sind
+				
 				443 = {
 					create_unit = {
 						division = "name = \"1. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -4765,7 +4790,7 @@ country_event = {
 						owner = PAK
 					}
 				}
-				# Punjab
+				
 				440 = {
 					create_unit = {
 						division = "name = \"4. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -4780,7 +4805,7 @@ country_event = {
 						owner = PAK
 					}
 				}
-				# Northern Kashmir
+				
 				787 = {
 					create_unit = {
 						division = "name = \"7. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -4795,7 +4820,7 @@ country_event = {
 						owner = PAK
 					}
 				}
-				# Peshawar
+				
 				442 = {
 					create_unit = {
 						division = "name = \"10. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -4806,7 +4831,7 @@ country_event = {
 						owner = PAK
 					}
 				}
-				# Baluchistan
+				
 				444 = {
 					create_unit = {
 						division = "name = \"12. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -4817,7 +4842,7 @@ country_event = {
 						owner = PAK
 					}
 				}
-				# Quetta
+				
 				445 = {
 					create_unit = {
 						division = "name = \"14. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -4844,7 +4869,7 @@ country_event = {
 						owner = PAK
 					}
 				}
-				# East Bengal (Bangladesh)
+				
 				430 = {
 					create_unit = {
 						division = "name = \"20. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -4923,7 +4948,7 @@ country_event = {
 						infantry = { x = 1 y = 2 }
 					}
 				}
-				# Delhi
+				
 				439 = {
 					create_unit = {
 						division = "name = \"1. Hindu Militia\" division_template = \"Hindu Militia\" start_experience_factor = 0.5" 
@@ -4950,7 +4975,7 @@ country_event = {
 						owner = RAJ
 					}
 				}
-				# Rajahsthan
+				
 				433 = {
 					create_unit = {
 						division = "name = \"7. Hindu Militia\" division_template = \"Hindu Militia\" start_experience_factor = 0.5" 
@@ -4977,7 +5002,7 @@ country_event = {
 						owner = RAJ
 					}
 				}
-				# Gujarat
+				
 				428 = {
 					create_unit = {
 						division = "name = \"13. Hindu Militia\" division_template = \"Hindu Militia\" start_experience_factor = 0.5" 
@@ -4992,7 +5017,7 @@ country_event = {
 						owner = RAJ
 					}
 				}
-				# Assam
+				
 				432 = {
 					create_unit = {
 						division = "name = \"16. Hindu Militia\" division_template = \"Hindu Militia\" start_experience_factor = 0.5" 
@@ -5011,7 +5036,7 @@ country_event = {
 						owner = RAJ
 					}
 				}
-				# West bengal
+				
 				431 = {
 					create_unit = {
 						division = "name = \"20. Hindu Militia\" division_template = \"Hindu Militia\" start_experience_factor = 0.5" 
@@ -5039,7 +5064,7 @@ country_event = {
 						    ratio < 0.9
 						}
 					}
-					# East Bengal (Bangladesh)
+					
 					430 = {
 						create_unit = {
 							division = "name = \"35. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5050,7 +5075,7 @@ country_event = {
 							owner = PAK
 						}
 					}
-					# Punjab
+					
 					440 = {
 						create_unit = {
 							division = "name = \"37. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5069,7 +5094,7 @@ country_event = {
 						    ratio < 0.9
 						}
 					}
-					# East Bengal (Bangladesh)
+					
 					430 = {
 						create_unit = {
 							division = "name = \"39. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5080,7 +5105,7 @@ country_event = {
 							owner = PAK
 						}
 					}
-					# Punjab
+					
 					440 = {
 						create_unit = {
 							division = "name = \"41. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5099,7 +5124,7 @@ country_event = {
 						    ratio < 0.9
 						}
 					}
-					# East Bengal (Bangladesh)
+					
 					430 = {
 						create_unit = {
 							division = "name = \"43. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5110,7 +5135,7 @@ country_event = {
 							owner = PAK
 						}
 					}
-					# Punjab
+					
 					440 = {
 						create_unit = {
 							division = "name = \"45. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5129,7 +5154,7 @@ country_event = {
 						    ratio < 0.9
 						}
 					}
-					# East Bengal (Bangladesh)
+					
 					430 = {
 						create_unit = {
 							division = "name = \"47. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5140,7 +5165,7 @@ country_event = {
 							owner = PAK
 						}
 					}
-					# Punjab
+					
 					440 = {
 						create_unit = {
 							division = "name = \"49. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5159,14 +5184,14 @@ country_event = {
 						    ratio < 0.9
 						}
 					}
-					# East Bengal (Bangladesh)
+					
 					430 = {
 						create_unit = {
 							division = "name = \"51. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
 							owner = PAK
 						}
 					}
-					# Punjab
+					
 					440 = {
 						create_unit = {
 							division = "name = \"52. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5185,14 +5210,14 @@ country_event = {
 						    ratio < 0.9
 						}
 					}
-					# East Bengal (Bangladesh)
+					
 					430 = {
 						create_unit = {
 							division = "name = \"54. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
 							owner = PAK
 						}
 					}
-					# Punjab
+					
 					440 = {
 						create_unit = {
 							division = "name = \"55. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5211,14 +5236,14 @@ country_event = {
 						    ratio < 0.9
 						}
 					}
-					# East Bengal (Bangladesh)
+					
 					430 = {
 						create_unit = {
 							division = "name = \"57. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
 							owner = PAK
 						}
 					}
-					# Punjab
+					
 					440 = {
 						create_unit = {
 							division = "name = \"58. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5253,7 +5278,7 @@ country_event = {
 			hidden_effect = { country_event = { id = mtg_britain.109 days = 15 random_days = 75 } }
 		}
 	}
-	# Give them their independence
+	
 	option = {
 		name = mtg_britain.73.b
 		ai_chance = {
@@ -5264,7 +5289,7 @@ country_event = {
 	}
 }
 
-# Event for RAJ ending civil war if Pakistan hasn't been dealt with.
+
 country_event = {
 	id = mtg_britain.74
 	title = mtg_britain.74.t
@@ -5303,7 +5328,7 @@ country_event = {
 		}
 	}
 	
-	# Let's make peace
+	
 	option = {
 		name = mtg_britain.74.a
 		every_country = {
@@ -5323,7 +5348,7 @@ country_event = {
 		clr_country_flag = RAJ_pakistani_civil_war_flag
 	}
 
-	# All or nothing - no peace!
+	
 	option = {
 		name = mtg_britain.74.b
 		ai_chance = {
@@ -5333,7 +5358,7 @@ country_event = {
 	}
 }
 
-# Event for PAK notifying of white peace
+
 country_event = {
 	id = mtg_britain.75
 	title = mtg_britain.75.t
@@ -5342,7 +5367,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.75.a
 		effect_tooltip = {
@@ -5368,7 +5393,7 @@ country_event = {
 	}
 }
 
-# Event for PAK starting civil war
+
 country_event = {
 	id = mtg_britain.76
 	title = mtg_britain.76.t
@@ -5389,7 +5414,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 180 }
 	
-	# We won't back down!
+	
 	option = {
 		name = mtg_britain.76.a
 		set_country_flag = PAK_civil_war
@@ -5410,7 +5435,7 @@ country_event = {
 						infantry = { x = 1 y = 2 }
 					}
 				}
-				# East Bengal (Bangladesh)
+				
 				430 = {
 					create_unit = {
 						division = "name = \"1. Bangladeshi Liberation Army\" division_template = \"Bangladeshi Liberation Army\" start_experience_factor = 0.5" 
@@ -5481,7 +5506,7 @@ country_event = {
 			hidden_effect = { country_event = { id = mtg_britain.77 days = 270 random_days = 95 } }
 		}
 	}
-	# Give them their independence
+	
 	option = {
 		name = mtg_britain.76.b
 		ai_chance = {
@@ -5492,7 +5517,7 @@ country_event = {
 	}
 }
 
-# Event for PAK ending civil war if Bangladesh hasn't been dealt with.
+
 country_event = {
 	id = mtg_britain.77
 	title = mtg_britain.77.t
@@ -5505,14 +5530,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Let's make peace
+	
 	option = {
 		name = mtg_britain.77.a
 		white_peace = BAN
 		BAN = { country_event = { id = mtg_britain.78 } }
 	}
 
-	# All or nothing - no peace!
+	
 	option = {
 		name = mtg_britain.77.b
 		ai_chance = {
@@ -5522,7 +5547,7 @@ country_event = {
 	}
 }
 
-# Event for BAN notifying of white peace
+
 country_event = {
 	id = mtg_britain.78
 	title = mtg_britain.78.t
@@ -5531,7 +5556,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.75.a
 		effect_tooltip = { BAN = { white_peace = PAK } }
@@ -5541,7 +5566,7 @@ country_event = {
 	}
 }
 
-# Event for Iran/Afghanistan demanding puppet status
+
 country_event = {
 	id = mtg_britain.79
 	title = mtg_britain.79.t
@@ -5550,7 +5575,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# We have no choice
+	
 	option = {
 		name = mtg_britain.79.a
 		ai_chance = {
@@ -5569,7 +5594,7 @@ country_event = {
 		hidden_effect = { news_event = { id = mtg_news.28 hours = 30 } }
 	}
 
-	# Never!
+	
 	option = {
 		name = mtg_britain.79.b
 		ai_chance = {
@@ -5634,7 +5659,7 @@ country_event = {
 	}
 }
 
-# Event for ENG that PER/AFG accepted puppet status
+
 country_event = {
 	id = mtg_britain.80
 	title = mtg_britain.80.t
@@ -5643,14 +5668,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.80.a
 		puppet = FROM
 	}
 }
 
-# Event for ENG that PER/AFG rejected puppet status
+
 country_event = {
 	id = mtg_britain.81
 	title = mtg_britain.81.t
@@ -5659,7 +5684,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.81.a
 		create_wargoal = {
@@ -5669,7 +5694,7 @@ country_event = {
 	}
 }
 
-# Event for ENG and Dominions notifying of Imperial Conference
+
 country_event = {
 	id = mtg_britain.82
 	title = mtg_britain.82.t
@@ -5678,7 +5703,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.82.a
 		trigger = {
@@ -5716,7 +5741,7 @@ country_event = {
 		}
 	}
 
-	# Ok
+	
 	option = {
 		name = mtg_britain.82.b
 		trigger = {
@@ -5726,7 +5751,7 @@ country_event = {
 	}
 }
 
-# Event for ENG beginning discussions on Imperial Defense
+
 country_event = {
 	id = mtg_britain.83
 	title = mtg_britain.83.t
@@ -5741,7 +5766,7 @@ country_event = {
 		}
 	}
 	
-	# Ask them if they want to agree to commit
+	
 	option = {
 		name = mtg_britain.83.a
 		every_country = {
@@ -5774,7 +5799,7 @@ country_event = {
 		ENG_imperial_conference_set_subject_counter = yes
 	}
 
-	# Exert diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.b
 		add_political_power = -25
@@ -5808,7 +5833,7 @@ country_event = {
 		}
 		ENG_imperial_conference_set_subject_counter = yes
 	}
-	# Exert extensive diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.c
 		add_political_power = -50
@@ -5844,7 +5869,7 @@ country_event = {
 	}
 }
 
-# Event for Dominions asking for vote on Imperial Defense
+
 country_event = {
 	id = mtg_britain.84
 	title = mtg_britain.83.t
@@ -5853,7 +5878,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = mtg_britain.84.a
 		ai_chance = {
@@ -5897,7 +5922,7 @@ country_event = {
 		}
 	}
 
-	# Reject
+	
 	option = {
 		name = mtg_britain.84.b
 		ai_chance = {
@@ -5923,7 +5948,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted yes on Imperial Defense
+
 country_event = {
 	id = mtg_britain.85
 	title = mtg_britain.85.t
@@ -5932,7 +5957,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.85.a
 		effect_tooltip = {
@@ -5969,7 +5994,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted no on Imperial Defense
+
 country_event = {
 	id = mtg_britain.86
 	title = mtg_britain.86.t
@@ -5978,7 +6003,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.86.a
 		if = {
@@ -6004,7 +6029,7 @@ country_event = {
 	}
 }
 
-# Event for ENG beginning discussions on Imperial Trade
+
 country_event = {
 	id = mtg_britain.87
 	title = mtg_britain.87.t
@@ -6019,7 +6044,7 @@ country_event = {
 		}
 	}
 	
-	# Ask them if they want to agree to commit
+	
 	option = {
 		name = mtg_britain.83.a
 		every_country = {
@@ -6052,7 +6077,7 @@ country_event = {
 		ENG_imperial_conference_set_subject_counter = yes
 	}
 
-	# Exert diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.b
 		add_political_power = -25
@@ -6086,7 +6111,7 @@ country_event = {
 		}
 		ENG_imperial_conference_set_subject_counter = yes
 	}
-	# Exert extensive diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.c
 		add_political_power = -50
@@ -6122,7 +6147,7 @@ country_event = {
 	}
 }
 
-# Event for Dominions asking for vote on Imperial Trade
+
 country_event = {
 	id = mtg_britain.88
 	title = mtg_britain.87.t
@@ -6131,7 +6156,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = mtg_britain.88.a
 		ai_chance = {
@@ -6154,7 +6179,7 @@ country_event = {
 		FROM = { country_event = { id = mtg_britain.89 } }
 	}
 
-	# Reject
+	
 	option = {
 		name = mtg_britain.88.b
 		ai_chance = {
@@ -6180,7 +6205,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted yes on Imperial Trade
+
 country_event = {
 	id = mtg_britain.89
 	title = mtg_britain.89.t
@@ -6189,7 +6214,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.89.a
 		effect_tooltip = {
@@ -6225,7 +6250,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted no on Imperial Trade
+
 country_event = {
 	id = mtg_britain.90
 	title = mtg_britain.90.t
@@ -6234,7 +6259,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.90.a
 		if = {
@@ -6260,7 +6285,7 @@ country_event = {
 	}
 }
 
-# Event for ENG beginning discussions on Imperial Economy
+
 country_event = {
 	id = mtg_britain.91
 	title = mtg_britain.91.t
@@ -6275,7 +6300,7 @@ country_event = {
 		}
 	}
 	
-	# Ask them if they want to agree to commit
+	
 	option = {
 		name = mtg_britain.83.a
 		every_country = {
@@ -6308,7 +6333,7 @@ country_event = {
 		ENG_imperial_conference_set_subject_counter = yes
 	}
 
-	# Exert diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.b
 		add_political_power = -25
@@ -6342,7 +6367,7 @@ country_event = {
 		}
 		ENG_imperial_conference_set_subject_counter = yes
 	}
-	# Exert extensive diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.c
 		add_political_power = -50
@@ -6378,7 +6403,7 @@ country_event = {
 	}
 }
 
-# Event for Dominions asking for vote on Imperial Economy
+
 country_event = {
 	id = mtg_britain.92
 	title = mtg_britain.91.t
@@ -6387,7 +6412,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = mtg_britain.92.a
 		ai_chance = {
@@ -6431,7 +6456,7 @@ country_event = {
 		}
 	}
 
-	# Reject
+	
 	option = {
 		name = mtg_britain.92.b
 		ai_chance = {
@@ -6457,7 +6482,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted yes on Imperial Economy
+
 country_event = {
 	id = mtg_britain.93
 	title = mtg_britain.93.t
@@ -6466,7 +6491,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.93.a
 		effect_tooltip = {
@@ -6503,7 +6528,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted no on Imperial Economy
+
 country_event = {
 	id = mtg_britain.94
 	title = mtg_britain.94.t
@@ -6512,7 +6537,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.94.a
 		if = {
@@ -6538,7 +6563,7 @@ country_event = {
 	}
 }
 
-# Event for ENG beginning discussions on Appeasement
+
 country_event = {
 	id = mtg_britain.95
 	title = mtg_britain.95.t
@@ -6553,7 +6578,7 @@ country_event = {
 		}
 	}
 	
-	# Ask them if they want to agree to commit
+	
 	option = {
 		name = mtg_britain.83.a
 		every_country = {
@@ -6586,7 +6611,7 @@ country_event = {
 		ENG_imperial_conference_set_subject_counter = yes
 	}
 
-	# Exert diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.b
 		add_political_power = -25
@@ -6620,7 +6645,7 @@ country_event = {
 		}
 		ENG_imperial_conference_set_subject_counter = yes
 	}
-	# Exert extensive diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.c
 		add_political_power = -50
@@ -6656,7 +6681,7 @@ country_event = {
 	}
 }
 
-# Event for Dominions asking for vote on Appeasement
+
 country_event = {
 	id = mtg_britain.96
 	title = mtg_britain.95.t
@@ -6665,7 +6690,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = mtg_britain.96.a
 		ai_chance = {
@@ -6689,7 +6714,7 @@ country_event = {
 		FROM = { country_event = { id = mtg_britain.97 } }
 	}
 
-	# Reject
+	
 	option = {
 		name = mtg_britain.96.b
 		ai_chance = {
@@ -6715,7 +6740,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted yes on Appeasement
+
 country_event = {
 	id = mtg_britain.97
 	title = mtg_britain.97.t
@@ -6724,7 +6749,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.97.a
 		effect_tooltip = {
@@ -6761,7 +6786,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted no on Appeasement
+
 country_event = {
 	id = mtg_britain.98
 	title = mtg_britain.98.t
@@ -6770,7 +6795,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.98.a
 		if = {
@@ -6796,7 +6821,7 @@ country_event = {
 	}
 }
 
-# Event for ENG beginning discussions on Imperial Federation
+
 country_event = {
 	id = mtg_britain.99
 	title = mtg_britain.99.t
@@ -6811,7 +6836,7 @@ country_event = {
 		}
 	}
 	
-	# Ask them if they want to agree to Federate
+	
 	option = {
 		name = mtg_britain.83.a
 		every_country = {
@@ -6844,7 +6869,7 @@ country_event = {
 		ENG_imperial_conference_set_subject_counter = yes
 	}
 
-	# Exert diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.b
 		add_political_power = -25
@@ -6878,7 +6903,7 @@ country_event = {
 		}
 		ENG_imperial_conference_set_subject_counter = yes
 	}
-	# Exert extensive diplomatic pressure
+	
 	option = {
 		name = mtg_britain.83.c
 		add_political_power = -50
@@ -6914,7 +6939,7 @@ country_event = {
 	}
 }
 
-# Event for Dominions asking for vote on Imperial Federation
+
 country_event = {
 	id = mtg_britain.100
 	title = mtg_britain.99.t
@@ -6923,7 +6948,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept
+	
 	option = {
 		name = mtg_britain.100.a
 		ai_chance = {
@@ -6942,13 +6967,13 @@ country_event = {
 				ENG = { NOT = { has_completed_focus = ENG_indian_autonomy } }
 			}
 		}
-		custom_effect_tooltip = mtg_britain.100_tt #"If all accept you will get:"
+		custom_effect_tooltip = mtg_britain.100_tt 
 		effect_tooltip = { add_ideas = ENG_federal_integration }
 		set_country_flag = ENG_accepted_federation
 		FROM = { country_event = { id = mtg_britain.101 } }
 	}
 
-	# Reject
+	
 	option = {
 		name = mtg_britain.100.b
 		ai_chance = {
@@ -7012,7 +7037,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted yes on Imperial Federation
+
 country_event = {
 	id = mtg_britain.101
 	title = mtg_britain.101.t
@@ -7021,7 +7046,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.101.a
 		if = {
@@ -7101,7 +7126,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling FROM voted no on Imperial Federation
+
 country_event = {
 	id = mtg_britain.102
 	title = mtg_britain.102.t
@@ -7110,7 +7135,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.102.a
 		if = {
@@ -7172,7 +7197,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling all Dominions accepted
+
 country_event = {
 	id = mtg_britain.103
 	title = mtg_britain.103.t
@@ -7181,7 +7206,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.103.a
 		if = {
@@ -7263,7 +7288,7 @@ country_event = {
 	}
 }
 
-# Event for ENG telling all Dominions except India accepted
+
 country_event = {
 	id = mtg_britain.104
 	title = mtg_britain.104.t
@@ -7272,7 +7297,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Go through with it anyway - give India independence
+	
 	option = {
 		name = mtg_britain.104.a
 		if = {
@@ -7355,13 +7380,13 @@ country_event = {
 		}
 	}
 
-	# We're all in this together - unanimous, or not at all
+	
 	option = {
 		name = mtg_britain.104.b
 	}
 }
 
-# Event for ENG telling Federation plans fell through
+
 country_event = {
 	id = mtg_britain.105
 	title = mtg_britain.105.t
@@ -7370,13 +7395,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.105.a
 	}
 }
 
-# Event for target saying they are in violation of the Washington Naval Treaty and ENG wants them to scuttle some ships
+
 country_event = {
 	id = mtg_britain.106
 	title = mtg_britain.106.t
@@ -7385,13 +7410,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.106.a
 	}
 }
 
-# Event for ENG informing them that the target has scuttled some ships and is now compliant with the treaty
+
 country_event = {
 	id = mtg_britain.107
 	title = mtg_britain.107.t
@@ -7400,13 +7425,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.107.a
 	}
 }
 
-# Event for ENG saying target refused to get rid of ships and ENG now has a wargoal
+
 country_event = {
 	id = mtg_britain.108
 	title = mtg_britain.108.t
@@ -7415,7 +7440,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mtg_britain.108.a
 		create_wargoal = {
@@ -7426,7 +7451,7 @@ country_event = {
 	}
 }
 
-# Event for RAJ giving BRM independence
+
 country_event = {
 	id = mtg_britain.109
 	title = mtg_britain.109.t
@@ -7435,14 +7460,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok I guess
+	
 	option = {
 		name = mtg_britain.109.a
 		release = BRM
 	}
 }
 
-# UK becomes just England
+
 country_event = {
 	id = mtg_britain.110
 	
@@ -7464,7 +7489,7 @@ country_event = {
 	}
 }
 
-# UK becomes UK again
+
 country_event = {
 	id = mtg_britain.111
 	
@@ -7491,7 +7516,7 @@ country_event = {
 	}
 }
 
-# Bounce event for correct FROM scope for localization in the "British Empire Allies Imperial Loyalists" news event
+
 country_event = {
 	id = mtg_britain.112
 	
@@ -7504,7 +7529,7 @@ country_event = {
 	}
 }
 
-# Event for imperial loyalists winning civil war and requesting 'guidance'
+
 country_event = {
 	id = mtg_britain.113
 	title = mtg_britain.113.t
@@ -7513,7 +7538,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok I guess
+	
 	option = {
 		name = mtg_britain.113.a
 		set_autonomy = {
@@ -7561,7 +7586,7 @@ country_event = {
 	}
 }
 
-####
+
 
 country_event = {
 	id = mtg_britain.999

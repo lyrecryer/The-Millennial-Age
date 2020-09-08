@@ -1,10 +1,7 @@
-﻿###########################
-# Greek Events
-###########################
 
 add_namespace = greece
 
-# Soviet Demands
+
 country_event = {
 	id = greece.1
 	title = greece.1.t
@@ -13,7 +10,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept demands
+	option = { 
 		name = greece.1.a
 		ai_chance = {	
 			modifier = {
@@ -32,7 +29,9 @@ country_event = {
 			factor = 100	
 		}
 
-		SOV = { transfer_state = 187 }
+		SOV = { transfer_state = 187 
+		transfer_state = 1818 
+		transfer_state = 1819 }
 		if = {
 			limit = {
 				BUL = { 
@@ -43,7 +42,11 @@ country_event = {
 				}
 			}
 			BUL = { 
-				transfer_state = 184
+				transfer_state = 184 
+		transfer_state = 1797 
+		transfer_state = 1798 
+		transfer_state = 1799 
+		transfer_state = 1800
 				add_opinion_modifier = { target = SOV modifier = SOV_ultimatum_to_greece_thrace }
 			}
 		}
@@ -51,7 +54,7 @@ country_event = {
 			news_event = { id = news.197 }
 		}
 	}
-	option = { # Refuse
+	option = { 
 		name = greece.1.b
 		ai_chance = {	
 			modifier = {
@@ -77,7 +80,7 @@ country_event = {
 	}
 }
 
-# German demands to hand over territory to friends or self
+
 country_event = {
 	id = greece.2
 	title = greece.2.t
@@ -131,7 +134,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept demands
+	option = { 
 		name = greece.2.a
 		ai_chance = {	
 			modifier = {
@@ -161,40 +164,87 @@ country_event = {
 			limit = {
 				has_global_flag = GER_second_ljubljana_award_BUL_184
 			}
-			BUL = { transfer_state = 184 }
+			BUL = { transfer_state = 184 
+		transfer_state = 1797 
+		transfer_state = 1798 
+		transfer_state = 1799 
+		transfer_state = 1800 }
 		}
 
 		if = {
 			limit = {
 				has_global_flag = GER_second_ljubljana_award_ITA_185
 			}
-			ITA = { transfer_state = 185 }
+			ITA = { transfer_state = 185 
+		transfer_state = 1801 
+		transfer_state = 1802 
+		transfer_state = 1803 
+		transfer_state = 1804 
+		transfer_state = 1805 
+		transfer_state = 1806 
+		transfer_state = 1807 
+		transfer_state = 1808 
+		transfer_state = 1809 
+		transfer_state = 1810 
+		transfer_state = 1811 }
 		}
 		if = {
 			limit = {
 				has_global_flag = GER_second_ljubljana_award_ITA_186
 			}
-			ITA = { transfer_state = 186 }
+			ITA = { transfer_state = 186 
+		transfer_state = 1812 
+		transfer_state = 1813 
+		transfer_state = 1814 
+		transfer_state = 1815 
+		transfer_state = 1816 
+		transfer_state = 1817 }
 		}
 		if = {
 			limit = {
 				has_global_flag = GER_second_ljubljana_award_ITA_47
 			}
-			ITA = { transfer_state = 47 }
+			ITA = { transfer_state = 47 
+		transfer_state = 6217 
+		transfer_state = 6218 
+		transfer_state = 6219 
+		transfer_state = 6220 
+		transfer_state = 6221 
+		transfer_state = 6222 
+		transfer_state = 6223 
+		transfer_state = 6224 }
 		}
 
 		if = {
 			limit = { 
 				has_global_flag = GER_second_ljubljana_award_GER_731
 			}
-			GER = { transfer_state = 731 }
+			GER = { transfer_state = 731 
+		transfer_state = 9472 
+		transfer_state = 9473 
+		transfer_state = 9474 
+		transfer_state = 9475 
+		transfer_state = 9476 
+		transfer_state = 9477 
+		transfer_state = 9478 }
 		}
 		if = {
 			limit = { 
 				has_global_flag = GER_second_ljubljana_award_GER_185
 				NOT = { has_global_flag = GER_second_ljubljana_award_GER_731 }
 			}
-			GER = { transfer_state = 185 }
+			GER = { transfer_state = 185 
+		transfer_state = 1801 
+		transfer_state = 1802 
+		transfer_state = 1803 
+		transfer_state = 1804 
+		transfer_state = 1805 
+		transfer_state = 1806 
+		transfer_state = 1807 
+		transfer_state = 1808 
+		transfer_state = 1809 
+		transfer_state = 1810 
+		transfer_state = 1811 }
 		}
 		if = {
 			limit = { 
@@ -202,11 +252,19 @@ country_event = {
 				NOT = { has_global_flag = GER_second_ljubljana_award_GER_731 }
 				NOT = { has_global_flag = GER_second_ljubljana_award_GER_185 }
 			}
-			GER = { transfer_state = 47 }
+			GER = { transfer_state = 47 
+		transfer_state = 6217 
+		transfer_state = 6218 
+		transfer_state = 6219 
+		transfer_state = 6220 
+		transfer_state = 6221 
+		transfer_state = 6222 
+		transfer_state = 6223 
+		transfer_state = 6224 }
 		}
 	}
 	
-	option = { # Refuse
+	option = { 
 		name = greece.2.b
 		ai_chance = {	
 			modifier = {
@@ -239,7 +297,7 @@ country_event = {
 	}
 }
 
-# Germany demands Greece become puppet
+
 country_event = {
 	id = greece.3
 	title = greece.3.t
@@ -248,7 +306,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept demands
+	option = { 
 		name = greece.3.a
 		ai_chance = {	
 			modifier = {
@@ -272,7 +330,7 @@ country_event = {
 		}
 	}
 
-	option = { # Refuse
+	option = { 
 		name = greece.3.b
 		ai_chance = {	
 			modifier = {
@@ -304,7 +362,7 @@ country_event = {
 	}
 }
 
-# Greece gets wargoal - From Italian focus tree
+
 country_event = {
 	id = greece.4
 	title = greece.4.t
@@ -313,7 +371,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept demands
+	option = { 
 		name = greece.4.a
 		ai_chance = {	factor = 100	}
 		create_wargoal = {

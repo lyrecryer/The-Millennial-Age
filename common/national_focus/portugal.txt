@@ -1,10 +1,10 @@
-### search_filters = {FOCUS_FILTER_POLITICAL}
-### search_filters = {FOCUS_FILTER_RESEARCH}
-### search_filters = {FOCUS_FILTER_INDUSTRY}
-### search_filters = {FOCUS_FILTER_STABILITY}
-### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-### search_filters = {FOCUS_FILTER_MANPOWER}
-### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+
+
+
+
+
+
 
 focus_tree = {
 	id = portuguese_focus
@@ -76,9 +76,9 @@ focus_tree = {
 		available = {
 			NOT = { has_government = fascism }
 			OR = {
-				has_full_control_of_state = 796 #North Angola
-				has_full_control_of_state = 540 #South Angola
-				has_full_control_of_state = 544 #Mozambique
+				has_full_control_of_state = 796 
+				has_full_control_of_state = 540 
+				has_full_control_of_state = 544 
 			}
 		}
 
@@ -116,9 +116,9 @@ focus_tree = {
 		id = POR_limited_self_rule
 		available = {
 			OR = {
-				has_full_control_of_state = 796 #North Angola
-				has_full_control_of_state = 540 #South Angola
-				has_full_control_of_state = 544 #Mozambique
+				has_full_control_of_state = 796 
+				has_full_control_of_state = 540 
+				has_full_control_of_state = 544 
 			}
 		}
 
@@ -171,7 +171,21 @@ focus_tree = {
 					limit = { 
 						POR = { has_full_control_of_state = 540 }
 					}
-					transfer_state = 540
+					transfer_state = 540 
+		transfer_state = 7156 
+		transfer_state = 7157 
+		transfer_state = 7158 
+		transfer_state = 7159 
+		transfer_state = 7160 
+		transfer_state = 7161 
+		transfer_state = 7162 
+		transfer_state = 7163 
+		transfer_state = 7164 
+		transfer_state = 7165 
+		transfer_state = 7166 
+		transfer_state = 7167 
+		transfer_state = 7168 
+		transfer_state = 7169
 					POR = { set_country_flag = POR_released_angola_flag }
 				}								
 			}
@@ -181,7 +195,22 @@ focus_tree = {
 					limit = { 
 						POR = { has_full_control_of_state = 544 }
 					}
-					transfer_state = 544
+					transfer_state = 544 
+		transfer_state = 7196 
+		transfer_state = 7197 
+		transfer_state = 7198 
+		transfer_state = 7199 
+		transfer_state = 7200 
+		transfer_state = 7201 
+		transfer_state = 7202 
+		transfer_state = 7203 
+		transfer_state = 7204 
+		transfer_state = 7205 
+		transfer_state = 7206 
+		transfer_state = 7207 
+		transfer_state = 7208 
+		transfer_state = 7209 
+		transfer_state = 7210
 					POR = { set_country_flag = POR_released_mozambique_flag }
 				}	
 			}
@@ -490,11 +519,11 @@ focus_tree = {
 		id = POR_continue_the_public_works
 		available = {
 			OR = {
-				has_full_control_of_state = 180 #PORTO
-				has_full_control_of_state = 181 #GUARDA
-				has_full_control_of_state = 795 #SANTAREM
-				has_full_control_of_state = 179 #BEJA
-				has_full_control_of_state = 112 #LISBON
+				has_full_control_of_state = 180 
+				has_full_control_of_state = 181 
+				has_full_control_of_state = 795 
+				has_full_control_of_state = 179 
+				has_full_control_of_state = 112 
 			}
 		}
 
@@ -706,11 +735,11 @@ focus_tree = {
 		id = POR_roads_bridges_and_dams
 		available = {	
 			OR = {
-				has_full_control_of_state = 181 #GUARDA
-				has_full_control_of_state = 795 #SANTAREM
-				has_full_control_of_state = 179 #BEJA
-				has_full_control_of_state = 180 #PORTO
-				has_full_control_of_state = 112 #LISBON
+				has_full_control_of_state = 181 
+				has_full_control_of_state = 795 
+				has_full_control_of_state = 179 
+				has_full_control_of_state = 180 
+				has_full_control_of_state = 112 
 			}			
 		}
 
@@ -834,10 +863,10 @@ focus_tree = {
 		id = POR_hydroelectricity
 		available = {
 			OR = {
-				has_full_control_of_state = 180 #PORTO
-				has_full_control_of_state = 181 #GUARDA
-				has_full_control_of_state = 179 #BEJA
-				has_full_control_of_state = 112 #LISBON
+				has_full_control_of_state = 180 
+				has_full_control_of_state = 181 
+				has_full_control_of_state = 179 
+				has_full_control_of_state = 112 
 			}			
 		}
 
@@ -1524,7 +1553,7 @@ focus_tree = {
 		completion_reward = { 	
 			if = {
 				limit = { has_full_control_of_state = 179 }
-				179 = { #Beja
+				179 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard		
@@ -1554,7 +1583,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 180 }
-				180 = { #Porto
+				180 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard		
@@ -1691,7 +1720,7 @@ focus_tree = {
 			    uses = 2
 			    category = tp_tech			   
 			}
-			# AI will build the required docks for the next focus
+			
 			add_ai_strategy = {
 				type = building_target
 				id = dockyard
@@ -1773,7 +1802,7 @@ focus_tree = {
 			    category = cl_tech	   
 			}
 
-			112 = { #Lisbon
+			112 = { 
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard		
@@ -1908,7 +1937,7 @@ focus_tree = {
 		completion_reward = { 
 			if = {
 				limit = { has_full_control_of_state = 698 }
-				698 = { #Azores
+				698 = { 
 					add_building_construction = {
 						type = coastal_bunker		
 						level = 2
@@ -1926,7 +1955,7 @@ focus_tree = {
 
 			if = {
 				limit = { has_full_control_of_state = 697 }
-				697 = { #Madeira
+				697 = { 
 					add_building_construction = {
 						type = coastal_bunker		
 						level = 1
@@ -1944,7 +1973,7 @@ focus_tree = {
 
 			if = {
 				limit = { has_full_control_of_state = 702 }
-				702 = { #Cape Verde
+				702 = { 
 					add_building_construction = {
 						type = coastal_bunker		
 						level = 1
@@ -1986,7 +2015,7 @@ focus_tree = {
 			add_ideas = POR_endless_sea
  			if = {
 				limit = { has_full_control_of_state = 321 }
-	 			321 = { #Goa
+	 			321 = { 
 					add_building_construction = {
 						type = coastal_bunker
 						level = 1
@@ -2010,7 +2039,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 729 }
-				729 = { #Macau
+				729 = { 
 					add_building_construction = {
 						type = coastal_bunker
 						level = 1
@@ -2034,7 +2063,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 721 }
-				721 = { #Portuguese Timor
+				721 = { 
 					add_building_construction = {
 						type = coastal_bunker
 						level = 1
@@ -2151,10 +2180,10 @@ focus_tree = {
 		relative_position_id = POR_standardization
 		cost = 10
 		completion_reward = { 
-		#Add coastal fort to each port
+		
 			if = {
 				limit = { has_full_control_of_state = 112 }
-				112 = { #Lisbon
+				112 = { 
 					add_building_construction = {
 						type = coastal_bunker
 						province = {
@@ -2177,7 +2206,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 180 }
-				180 = { #Porto
+				180 = { 
 					add_building_construction = {
 						type = coastal_bunker
 						province = {
@@ -2200,7 +2229,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 179 }
-				179 = { #Beja
+				179 = { 
 					add_building_construction = {
 						type = coastal_bunker
 						province = {
@@ -2241,7 +2270,7 @@ focus_tree = {
 		relative_position_id = POR_standardization
 		cost = 10
 		completion_reward = { 
-			112 = { #Lisbon
+			112 = { 
 				add_building_construction = {
 				    type = bunker
 				    level = 3
@@ -2517,7 +2546,7 @@ focus_tree = {
 		completion_reward = { 
 			if = {
 				limit = { has_full_control_of_state = 112 }
-				112 = { #Lisbon
+				112 = { 
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex		
@@ -2528,7 +2557,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 180 }
-				180 = { #Porto
+				180 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -2539,7 +2568,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 181 }
-				181 = { #Guarda
+				181 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -2550,7 +2579,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 795 }
-				795 = { #Santarem
+				795 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -2601,7 +2630,7 @@ focus_tree = {
 					ruling_party = communism
 				}
 
-				if = { #Low Stability triggers a Civil War
+				if = { 
 					limit = {
 						has_stability < 0.4
 					}
@@ -2613,7 +2642,7 @@ focus_tree = {
 						ideology = neutrality
 						size = POR_communist_cw_opposition
 						capital = 180
-						states = { 181 }
+						states = { 181  1786 1787 1788 1789 1790 1791 1792}
 					}
 				}
 				else = {
@@ -2807,7 +2836,7 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = POR_anti_fascism_tt
-			every_country = { #TOOLTIP Support
+			every_country = { 
 				limit = {
 					has_government = fascism
 					NOT = { is_in_faction_with = ROOT }
@@ -2948,7 +2977,7 @@ focus_tree = {
 		cost = 10
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			# Event that add NS to POR and SPD
+			
 			hidden_effect = {				
 				country_event = {
 					id = lar_portugal_iberian_workers_united.1
@@ -2962,7 +2991,7 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = POR_iberian_workers_effect_tooltip_tt
-			#Trigger civil war
+			
 			if = {
 				limit = {
 					NOT = { has_government = communism }
@@ -2984,7 +3013,7 @@ focus_tree = {
 						ideology = neutrality
 						size = POR_communist_cw_opposition
 						capital = 180
-						states = { 181 }
+						states = { 181  1786 1787 1788 1789 1790 1791 1792}
 					}
 				}
 				custom_effect_tooltip = POR_workers_of_iberia_unite_civil_war_tt				
@@ -2995,7 +3024,7 @@ focus_tree = {
 			hidden_effect = {
 				set_country_flag = supports_SPD_flag
 			}
-			#Communist Portugal joins SPD
+			
 			if = {
 				limit = { country_exists = SPA }
 				add_to_war = { targeted_alliance = SPD enemy = SPA hostility_reason = asked_to_join }
@@ -3013,7 +3042,7 @@ focus_tree = {
 				SPD = { give_military_access = ROOT }
 			}
 			hidden_effect = {
-				#Grant military access
+				
 				diplomatic_relation = {
 					country = SPD
 					relation = military_access
@@ -3027,7 +3056,7 @@ focus_tree = {
 					}
 				}
 			}
-			#Non-Aligned Portugal joins SPA
+			
 			hidden_effect = {
 				random_country = {
 					limit = {
@@ -3126,7 +3155,7 @@ focus_tree = {
 					set_cosmetic_tag = ESU_POR_unified
 				}
 				custom_effect_tooltip = POR_the_iberian_socialist_union_cosmetic_name_tt
-				#Get cores on all Spanish cores and Gibraltar
+				
 				hidden_effect = {
 					every_state = {
 						limit = {
@@ -3139,7 +3168,7 @@ focus_tree = {
 					}
 				}
 				custom_effect_tooltip = POR_the_iberian_socialist_union_cores_tt
-				if = { # Any Spanish Puppet will get annexed
+				if = { 
 					limit = {
 						any_country = {
 							OR = {
@@ -3174,7 +3203,7 @@ focus_tree = {
 					}
 				}
 				custom_effect_tooltip = POR_the_iberian_socialist_union_annex_puppets_tt
-				# Event for annexation sent to independent Spanish tags
+				
 				every_country = {
 					limit = {
 						OR = {
@@ -3250,7 +3279,7 @@ focus_tree = {
 					days = 730
 				}
 			}
-			# SPA Iberian Pact - either POR or SPA join a faction - the other must be added too.
+			
 			if = {
 				limit = {
 					has_country_flag = SPA_iberian_pact
@@ -3840,7 +3869,7 @@ focus_tree = {
 				NOT = { has_war_with = ROOT }
 				has_civil_war = no
 				has_capitulated = no
-				owns_state = 126 #Owns London
+				owns_state = 126 
 			}	
 		}
 
@@ -3861,7 +3890,7 @@ focus_tree = {
 				add_resource = {
 				    type = tungsten
 				    amount = 50
-				    state = 112 #Lisbon
+				    state = 112 
 				}
 			}
 			add_tech_bonus = {
@@ -3921,7 +3950,7 @@ focus_tree = {
 				NOT = { has_war_with = ROOT }
 				has_civil_war = no
 				has_capitulated = no
-				owns_state = 126 #Owns London
+				owns_state = 126 
 			}
 		}
 
@@ -3939,7 +3968,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_full_control_of_state = 112 }
-				112 = { #Lisbon
+				112 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -3950,7 +3979,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 180 }
-				180 = { #Porto
+				180 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -3961,7 +3990,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 181 }
-				181 = { #Guarda
+				181 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -3972,7 +4001,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_full_control_of_state = 179 }
-				179 = { #Beja
+				179 = { 
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -4078,7 +4107,7 @@ focus_tree = {
 					elections_allowed = yes
 				}
 
-				if = { #Low Stability triggers a Civil War
+				if = { 
 					limit = {
 						has_stability < 0.4
 					}
@@ -4089,7 +4118,7 @@ focus_tree = {
 						ideology = fascism
 						size = POR_democratic_cw_opposition
 						capital = 180
-						states = { 181 }
+						states = { 181  1786 1787 1788 1789 1790 1791 1792}
 					}
 				}
 				else = {
@@ -5048,7 +5077,7 @@ focus_tree = {
 					ruling_party = fascism
 				}	
 				
-				if = { #Low Stability triggers a Civil War
+				if = { 
 					limit = {
 						has_stability < 0.6
 					}
@@ -5060,7 +5089,7 @@ focus_tree = {
 						ideology = neutrality
 						size = POR_fascist_cw_opposition
 						capital = 180
-						states = { 181 }
+						states = { 181  1786 1787 1788 1789 1790 1791 1792}
 					}
 				}
 				else = {
@@ -5542,9 +5571,27 @@ focus_tree = {
 		relative_position_id = POR_refuse_the_naval_blockade
 		cost = 10
 		completion_reward = { 	
-			add_state_claim = 770 #Malawi
-			add_state_claim = 545 #Rhodesia
-			add_state_claim = 771 #Zambia
+			add_state_claim = 770 
+		add_state_claim = 9743 
+		add_state_claim = 9744 
+		add_state_claim = 9745 
+			add_state_claim = 545 
+		add_state_claim = 7211 
+		add_state_claim = 7212 
+		add_state_claim = 7213 
+		add_state_claim = 7214 
+		add_state_claim = 7215 
+			add_state_claim = 771 
+		add_state_claim = 9746 
+		add_state_claim = 9747 
+		add_state_claim = 9748 
+		add_state_claim = 9749 
+		add_state_claim = 9750 
+		add_state_claim = 9751 
+		add_state_claim = 9752 
+		add_state_claim = 9753 
+		add_state_claim = 9754 
+		add_state_claim = 9755 
 
 			hidden_effect = {
 				random_country = {
@@ -5608,8 +5655,46 @@ focus_tree = {
 		relative_position_id = POR_mapa_cor_de_rosa
 		cost = 10
 		completion_reward = { 
-			add_state_claim = 336 # Singapore
-			add_state_claim = 667 # Lesser Sunda
+			add_state_claim = 336 
+		add_state_claim = 4006 
+		add_state_claim = 4007 
+		add_state_claim = 4008 
+		add_state_claim = 4009 
+		add_state_claim = 4010 
+		add_state_claim = 4011 
+		add_state_claim = 4012 
+		add_state_claim = 4013 
+		add_state_claim = 4014 
+		add_state_claim = 4015 
+		add_state_claim = 4016 
+		add_state_claim = 4017 
+		add_state_claim = 4018 
+		add_state_claim = 4019 
+		add_state_claim = 4020 
+		add_state_claim = 4021 
+		add_state_claim = 4022 
+		add_state_claim = 4023 
+		add_state_claim = 4024 
+		add_state_claim = 4025 
+		add_state_claim = 4026 
+		add_state_claim = 4027 
+		add_state_claim = 4028 
+		add_state_claim = 4029 
+			add_state_claim = 667 
+		add_state_claim = 8883 
+		add_state_claim = 8884 
+		add_state_claim = 8885 
+		add_state_claim = 8886 
+		add_state_claim = 8887 
+		add_state_claim = 8888 
+		add_state_claim = 8889 
+		add_state_claim = 8890 
+		add_state_claim = 8891 
+		add_state_claim = 8892 
+		add_state_claim = 8893 
+		add_state_claim = 8894 
+		add_state_claim = 8895 
+		add_state_claim = 8896 
 
 			hidden_effect = {
 				random_country = {
@@ -5671,7 +5756,10 @@ focus_tree = {
 		relative_position_id = POR_mapa_cor_de_rosa
 		cost = 10
 		completion_reward = { 	
-			add_state_claim = 500 #Rio
+			add_state_claim = 500 
+		add_state_claim = 6552 
+		add_state_claim = 6553 
+		add_state_claim = 6554 
 
 			hidden_effect = {
 				random_country = {
@@ -6190,7 +6278,7 @@ focus_tree = {
 				remove_idea = POR_unstable_republic
 				add_idea = POR_unstable_monarchy
 			}
-			if = { #Low Stability triggers a Civil War
+			if = { 
 				limit = {
 					has_stability < 0.4
 				}
@@ -6201,7 +6289,7 @@ focus_tree = {
 					ideology = fascism
 					size = POR_monarchist_cw_opposition
 					capital = 180
-					states = { 181 }
+					states = { 181  1786 1787 1788 1789 1790 1791 1792}
 				}
 			}
 			else = {
@@ -6311,8 +6399,37 @@ focus_tree = {
 		relative_position_id = POR_restoration_of_the_monarchy
 		cost = 10
 		completion_reward = { 	
-			add_state_claim = 170
-			add_state_claim = 169
+			add_state_claim = 170 
+		add_state_claim = 1684 
+		add_state_claim = 1685 
+		add_state_claim = 1686 
+		add_state_claim = 1687 
+		add_state_claim = 1688 
+		add_state_claim = 1689 
+		add_state_claim = 1690 
+		add_state_claim = 1691 
+		add_state_claim = 1692 
+		add_state_claim = 1693 
+		add_state_claim = 1694 
+		add_state_claim = 1695 
+		add_state_claim = 1696 
+		add_state_claim = 1697 
+		add_state_claim = 1698 
+		add_state_claim = 1699
+			add_state_claim = 169 
+		add_state_claim = 1662 
+		add_state_claim = 1663 
+		add_state_claim = 1664 
+		add_state_claim = 1665 
+		add_state_claim = 1666 
+		add_state_claim = 1667 
+		add_state_claim = 1668 
+		add_state_claim = 1669 
+		add_state_claim = 1670 
+		add_state_claim = 1671 
+		add_state_claim = 1672 
+		add_state_claim = 1673 
+		add_state_claim = 1674
 
 			hidden_effect = {
 				random_country = {
@@ -6393,7 +6510,7 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = POR_deal_with_fascism_tt
-			every_country = { #TOOLTIP Support
+			every_country = { 
 				limit = {
 					has_government = fascism
 					NOT = { is_in_faction_with = ROOT }
@@ -6483,9 +6600,39 @@ focus_tree = {
 		relative_position_id = POR_the_kingdom_reunited
 		cost = 10
 		completion_reward = { 
-			add_state_claim = 300
-			add_state_claim = 301
-			add_state_claim = 510
+			add_state_claim = 300 
+		add_state_claim = 3624 
+		add_state_claim = 3625 
+		add_state_claim = 3626 
+		add_state_claim = 3627 
+		add_state_claim = 3628 
+		add_state_claim = 3629 
+		add_state_claim = 3630 
+		add_state_claim = 3631 
+		add_state_claim = 3632 
+		add_state_claim = 3633 
+		add_state_claim = 3634 
+		add_state_claim = 3635
+			add_state_claim = 301 
+		add_state_claim = 3636 
+		add_state_claim = 3637 
+		add_state_claim = 3638 
+		add_state_claim = 3639
+			add_state_claim = 510 
+		add_state_claim = 6646 
+		add_state_claim = 6647 
+		add_state_claim = 6648 
+		add_state_claim = 6649 
+		add_state_claim = 6650 
+		add_state_claim = 6651 
+		add_state_claim = 6652 
+		add_state_claim = 6653 
+		add_state_claim = 6654 
+		add_state_claim = 6655 
+		add_state_claim = 6656 
+		add_state_claim = 6657 
+		add_state_claim = 6658 
+		add_state_claim = 6659
 
 			hidden_effect = {
 				random_country = {
@@ -6579,7 +6726,7 @@ focus_tree = {
 					}
 					if = {
 						limit = {
-							ROOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil } #Non-Aligned Duarte Nuno (Monarchist)
+							ROOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil } 
 						}
 						ROOT = {
 							create_wargoal = {
@@ -6591,7 +6738,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							ROOT = { has_government = neutrality }  #Non-Aligned Salazar (Even in Monarchist branch if Duarte Nuno is not ruler yet)
+							ROOT = { has_government = neutrality }  
 						}
 							ROOT = {
 								create_wargoal = {
@@ -6601,7 +6748,7 @@ focus_tree = {
 								}
 							}
 					}
-					else = { #Fascist Preto
+					else = { 
 						ROOT = {
 							create_wargoal = {
 								target = PREV

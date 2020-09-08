@@ -180,7 +180,7 @@
 		available = {
 			any_owned_state = {
 				is_core_of = ROOT
-				free_building_slots = { #less than 24 unlocked slots
+				free_building_slots = { 
 					building = industrial_complex
 					size > 1
 					include_locked = yes
@@ -786,7 +786,7 @@
 		}
 	}	
 
-	#### END ####
+	
 
 	focus = {
 		id = FRA_begin_rearmament
@@ -1507,7 +1507,7 @@
 		}
 	}	
 
-#### END ####
+
 
 	focus = {
 		id = FRA_form_the_popular_front
@@ -1551,7 +1551,7 @@
 					stout_defender
 				}
 			}
-			set_country_flag = { flag = FRA_popular_front_cooldown value = 1 days = 360 } #fires strike event if labour laws not reformed in time
+			set_country_flag = { flag = FRA_popular_front_cooldown value = 1 days = 360 } 
 		}
 	}
 	focus = {
@@ -3245,9 +3245,49 @@
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-			add_state_core = 459
-			add_state_core = 460
-			add_state_core = 513
+			add_state_core = 459 
+		add_state_core = 6047 
+		add_state_core = 6048 
+		add_state_core = 6049 
+		add_state_core = 6050 
+		add_state_core = 6051 
+		add_state_core = 6052 
+		add_state_core = 6053 
+		add_state_core = 6054 
+		add_state_core = 6055
+			add_state_core = 460 
+		add_state_core = 6073 
+		add_state_core = 6074 
+		add_state_core = 6075 
+		add_state_core = 6076 
+		add_state_core = 6077 
+		add_state_core = 6078 
+		add_state_core = 6079 
+		add_state_core = 6080 
+		add_state_core = 6081 
+		add_state_core = 6082
+			add_state_core = 513 
+		add_state_core = 6691 
+		add_state_core = 6692 
+		add_state_core = 6693 
+		add_state_core = 6694 
+		add_state_core = 6695 
+		add_state_core = 6696 
+		add_state_core = 6697 
+		add_state_core = 6698 
+		add_state_core = 6699 
+		add_state_core = 6700 
+		add_state_core = 6701 
+		add_state_core = 6702 
+		add_state_core = 6703 
+		add_state_core = 6704 
+		add_state_core = 6705 
+		add_state_core = 6706 
+		add_state_core = 6707 
+		add_state_core = 6708 
+		add_state_core = 6709 
+		add_state_core = 6710 
+		add_state_core = 6711
 			if = {
 				limit = {
 					country_exists = ALG
@@ -3280,7 +3320,7 @@
 			any_owned_state = {
 				NOT = {
 					is_on_continent = europe
-					is_core_of = ROOT # has at least one colonial state
+					is_core_of = ROOT 
 				}
 			}
 		}
@@ -5510,6 +5550,7 @@
 				custom_effect_tooltip = needs_approval
 				ITA = { 
 					transfer_state = 268 
+		transfer_state = 3143 
 				}
 				FRA = { add_to_faction = ITA }
 			}
@@ -5563,15 +5604,56 @@
 			custom_effect_tooltip = needs_approval
 			effect_tooltip = {
 				ITA = { 
-					add_state_claim = 185
-					add_state_claim = 731
-					add_state_claim = 184
-					add_state_claim = 47
-					add_state_claim = 186
+					add_state_claim = 185 
+		add_state_claim = 1801 
+		add_state_claim = 1802 
+		add_state_claim = 1803 
+		add_state_claim = 1804 
+		add_state_claim = 1805 
+		add_state_claim = 1806 
+		add_state_claim = 1807 
+		add_state_claim = 1808 
+		add_state_claim = 1809 
+		add_state_claim = 1810 
+		add_state_claim = 1811
+					add_state_claim = 731 
+		add_state_claim = 9472 
+		add_state_claim = 9473 
+		add_state_claim = 9474 
+		add_state_claim = 9475 
+		add_state_claim = 9476 
+		add_state_claim = 9477 
+		add_state_claim = 9478
+					add_state_claim = 184 
+		add_state_claim = 1797 
+		add_state_claim = 1798 
+		add_state_claim = 1799 
+		add_state_claim = 1800
+					add_state_claim = 47 
+		add_state_claim = 6217 
+		add_state_claim = 6218 
+		add_state_claim = 6219 
+		add_state_claim = 6220 
+		add_state_claim = 6221 
+		add_state_claim = 6222 
+		add_state_claim = 6223 
+		add_state_claim = 6224
+					add_state_claim = 186 
+		add_state_claim = 1812 
+		add_state_claim = 1813 
+		add_state_claim = 1814 
+		add_state_claim = 1815 
+		add_state_claim = 1816 
+		add_state_claim = 1817
 				}
 				FRA = {
-					add_state_claim = 187
-					add_state_claim = 182
+					add_state_claim = 187 
+		add_state_claim = 1818 
+		add_state_claim = 1819
+					add_state_claim = 182 
+		add_state_claim = 1793 
+		add_state_claim = 1794 
+		add_state_claim = 1795
 				}
 			}
 		}
@@ -5767,14 +5849,47 @@
 			effect_tooltip = {
 				GER = {
 					add_state_claim = 8
-					add_state_claim = 7
-					add_state_claim = 35
-					add_state_claim = 36
+					add_state_claim = 7 
+		add_state_claim = 9279 
+		add_state_claim = 9280 
+		add_state_claim = 9281 
+		add_state_claim = 9282
+					add_state_claim = 35 
+		add_state_claim = 4140 
+		add_state_claim = 4141 
+		add_state_claim = 4142 
+		add_state_claim = 4143 
+		add_state_claim = 4144 
+		add_state_claim = 4145
+					add_state_claim = 36 
+		add_state_claim = 4338 
+		add_state_claim = 4339 
+		add_state_claim = 4340 
+		add_state_claim = 4341 
+		add_state_claim = 4342 
+		add_state_claim = 4343 
+		add_state_claim = 4344 
+		add_state_claim = 4345
 					add_to_faction = ROOT
 				}
 				ROOT = {
-					add_state_claim = 34
-					add_state_claim = 6
+					add_state_claim = 34 
+		add_state_claim = 4044 
+		add_state_claim = 4045 
+		add_state_claim = 4046 
+		add_state_claim = 4047 
+		add_state_claim = 4048 
+		add_state_claim = 4049 
+		add_state_claim = 4050 
+		add_state_claim = 4051
+					add_state_claim = 6 
+		add_state_claim = 8105 
+		add_state_claim = 8106 
+		add_state_claim = 8107 
+		add_state_claim = 8108 
+		add_state_claim = 8109 
+		add_state_claim = 8110 
+		add_state_claim = 8111
 				}
 			}
 		}
@@ -5971,9 +6086,52 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			transfer_state = 295
-			transfer_state = 538
-			transfer_state = 718
+			transfer_state = 295 
+		transfer_state = 3581 
+		transfer_state = 3582 
+		transfer_state = 3583 
+		transfer_state = 3584 
+		transfer_state = 3585 
+		transfer_state = 3586 
+		transfer_state = 3587 
+		transfer_state = 3588 
+		transfer_state = 3589 
+		transfer_state = 3590 
+		transfer_state = 3591 
+		transfer_state = 3592 
+		transfer_state = 3593 
+		transfer_state = 3594 
+		transfer_state = 3595 
+		transfer_state = 3596 
+		transfer_state = 3597 
+		transfer_state = 3598 
+		transfer_state = 3599
+			transfer_state = 538 
+		transfer_state = 7132 
+		transfer_state = 7133 
+		transfer_state = 7134 
+		transfer_state = 7135 
+		transfer_state = 7136 
+		transfer_state = 7137 
+		transfer_state = 7138 
+		transfer_state = 7139 
+		transfer_state = 7140 
+		transfer_state = 7141
+			transfer_state = 718 
+		transfer_state = 9401 
+		transfer_state = 9402 
+		transfer_state = 9403 
+		transfer_state = 9404 
+		transfer_state = 9405 
+		transfer_state = 9406 
+		transfer_state = 9407 
+		transfer_state = 9408 
+		transfer_state = 9409 
+		transfer_state = 9410 
+		transfer_state = 9411 
+		transfer_state = 9412 
+		transfer_state = 9413 
+		transfer_state = 9414
 			transfer_state = 769
 			transfer_state = 768
 		}
@@ -6064,9 +6222,38 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_state_claim = 455
-			add_state_claim = 454
-			add_state_claim = 453
+			add_state_claim = 455 
+		add_state_claim = 6002 
+		add_state_claim = 6003 
+		add_state_claim = 6004 
+		add_state_claim = 6005 
+		add_state_claim = 6006 
+		add_state_claim = 6007 
+		add_state_claim = 6008 
+		add_state_claim = 6009 
+		add_state_claim = 6010 
+		add_state_claim = 6011 
+		add_state_claim = 6012 
+		add_state_claim = 6013
+			add_state_claim = 454 
+		add_state_claim = 5993 
+		add_state_claim = 5994 
+		add_state_claim = 5995 
+		add_state_claim = 5996 
+		add_state_claim = 5997 
+		add_state_claim = 5998 
+		add_state_claim = 5999 
+		add_state_claim = 6000 
+		add_state_claim = 6001
+			add_state_claim = 453 
+		add_state_claim = 5985 
+		add_state_claim = 5986 
+		add_state_claim = 5987 
+		add_state_claim = 5988 
+		add_state_claim = 5989 
+		add_state_claim = 5990 
+		add_state_claim = 5991 
+		add_state_claim = 5992
 			if = {
 				limit = {
 					455 = { OWNER = { tag = ENG } }
@@ -6375,7 +6562,7 @@
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			ITA = { country_event = { id = italy.8 days = 1 } }			
-			### Fires event to ITA asking them to join your faction - creates faction if you don't already lead one.
+			
 			hidden_effect = {
 				if = {
 					limit = {
@@ -6658,7 +6845,7 @@
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			### EVENT ASKING GERMANY TO JOIN FACTION
+			
 			GER = { country_event = { id = germany.91 days = 1 } }			
 		}
 	}
@@ -7136,7 +7323,7 @@
 		completion_reward = {
 			if = {
 				limit = {
-					date < 1941.2.21 #TODO_GABRIEL: coordinate with Drikus for death events
+					date < 1941.2.21 
 				}
 				create_country_leader = {
 					name = "Alphonse I"
@@ -7424,7 +7611,7 @@
 		}
 	}
 	focus = {
-		id = FRA_avenge_waterloo #you now have ABBA stuck in your head for the rest of the day
+		id = FRA_avenge_waterloo 
 		icon = GFX_focus_attack_britain
 		x = 0
 		y = 1
@@ -7636,7 +7823,15 @@
 						is_controlled_by = ROOT
 					}
 				}
-				transfer_state = 51
+				transfer_state = 51 
+		transfer_state = 6638 
+		transfer_state = 6639 
+		transfer_state = 6640 
+		transfer_state = 6641 
+		transfer_state = 6642 
+		transfer_state = 6643 
+		transfer_state = 6644 
+		transfer_state = 6645
 			}
 			if = {
 				limit = {
@@ -7644,7 +7839,15 @@
 						is_controlled_by = ROOT
 					}
 				}
-				transfer_state = 42
+				transfer_state = 42 
+		transfer_state = 5563 
+		transfer_state = 5564 
+		transfer_state = 5565 
+		transfer_state = 5566 
+		transfer_state = 5567 
+		transfer_state = 5568 
+		transfer_state = 5569 
+		transfer_state = 5570
 			}
 			if = {
 				limit = {
@@ -7653,61 +7856,179 @@
 					153 = { is_owned_or_subject_trigger = yes }
 				}
 				AUS = {
-					transfer_state = 4
-					transfer_state = 152
-					transfer_state = 153
+					transfer_state = 4 
+		transfer_state = 5165 
+		transfer_state = 5166 
+		transfer_state = 5167 
+		transfer_state = 5168 
+		transfer_state = 5169 
+		transfer_state = 5170 
+		transfer_state = 5171 
+		transfer_state = 5172 
+		transfer_state = 5173 
+		transfer_state = 5174 
+		transfer_state = 5175 
+		transfer_state = 5176
+					transfer_state = 152 
+		transfer_state = 1491 
+		transfer_state = 1492 
+		transfer_state = 1493 
+		transfer_state = 1494 
+		transfer_state = 1495 
+		transfer_state = 1496 
+		transfer_state = 1497 
+		transfer_state = 1498 
+		transfer_state = 1499 
+		transfer_state = 1500 
+		transfer_state = 1501 
+		transfer_state = 1502 
+		transfer_state = 1503 
+		transfer_state = 1504
+					transfer_state = 153 
+		transfer_state = 1505 
+		transfer_state = 1506 
+		transfer_state = 1507 
+		transfer_state = 1508 
+		transfer_state = 1509 
+		transfer_state = 1510 
+		transfer_state = 1511 
+		transfer_state = 1512 
+		transfer_state = 1513 
+		transfer_state = 1514
 				}
 				puppet = AUS
 			}
-			if = { #set up Wurtemberg puppet
+			if = { 
 				limit = {
 					50 = {
 						is_owned_or_subject_trigger = yes
 					}
 				}
 				WUR = {
-					transfer_state = 50
-					add_state_core = 50
+					transfer_state = 50 
+		transfer_state = 6534 
+		transfer_state = 6535 
+		transfer_state = 6536 
+		transfer_state = 6537 
+		transfer_state = 6538 
+		transfer_state = 6539 
+		transfer_state = 6540 
+		transfer_state = 6541 
+		transfer_state = 6542 
+		transfer_state = 6543 
+		transfer_state = 6544 
+		transfer_state = 6545 
+		transfer_state = 6546 
+		transfer_state = 6547 
+		transfer_state = 6548 
+		transfer_state = 6549 
+		transfer_state = 6550 
+		transfer_state = 6551
+					add_state_core = 50 
+		add_state_core = 6534 
+		add_state_core = 6535 
+		add_state_core = 6536 
+		add_state_core = 6537 
+		add_state_core = 6538 
+		add_state_core = 6539 
+		add_state_core = 6540 
+		add_state_core = 6541 
+		add_state_core = 6542 
+		add_state_core = 6543 
+		add_state_core = 6544 
+		add_state_core = 6545 
+		add_state_core = 6546 
+		add_state_core = 6547 
+		add_state_core = 6548 
+		add_state_core = 6549 
+		add_state_core = 6550 
+		add_state_core = 6551
 				}
 				puppet = WUR
 			}
-			if = { #set up Saxony puppet
+			if = { 
 				limit = {
 					65 = {
 						is_owned_or_subject_trigger = yes
 					}
 				}
 				SAX = {
-					transfer_state = 65
-					add_state_core = 65
+					transfer_state = 65 
+		transfer_state = 8657 
+		transfer_state = 8658 
+		transfer_state = 8659 
+		transfer_state = 8660 
+		transfer_state = 8661 
+		transfer_state = 8662 
+		transfer_state = 8663 
+		transfer_state = 8664 
+		transfer_state = 8665 
+		transfer_state = 8666
+					add_state_core = 65 
+		add_state_core = 8657 
+		add_state_core = 8658 
+		add_state_core = 8659 
+		add_state_core = 8660 
+		add_state_core = 8661 
+		add_state_core = 8662 
+		add_state_core = 8663 
+		add_state_core = 8664 
+		add_state_core = 8665 
+		add_state_core = 8666
 				}
 				puppet = SAX
 			}
-			if = { #set up Mecklenburg puppet
+			if = { 
 				limit = {
 					61 = {
 						is_owned_or_subject_trigger = yes
 					}
 				}
 				MEK = {
-					transfer_state = 61
-					add_state_core = 61
+					transfer_state = 61 
+		transfer_state = 8267 
+		transfer_state = 8268 
+		transfer_state = 8269 
+		transfer_state = 8270 
+		transfer_state = 8271
+					add_state_core = 61 
+		add_state_core = 8267 
+		add_state_core = 8268 
+		add_state_core = 8269 
+		add_state_core = 8270 
+		add_state_core = 8271
 				}
 				puppet = MEK
 			}
-			if = { #set up Schleswig-Holstein puppet
+			if = { 
 				limit = {
 					58 = {
 						is_owned_or_subject_trigger = yes
 					}
 				}
 				SHL = {
-					transfer_state = 58
-					add_state_core = 58
+					transfer_state = 58 
+		transfer_state = 7699 
+		transfer_state = 7700 
+		transfer_state = 7701 
+		transfer_state = 7702 
+		transfer_state = 7703 
+		transfer_state = 7704 
+		transfer_state = 7705 
+		transfer_state = 7706
+					add_state_core = 58 
+		add_state_core = 7699 
+		add_state_core = 7700 
+		add_state_core = 7701 
+		add_state_core = 7702 
+		add_state_core = 7703 
+		add_state_core = 7704 
+		add_state_core = 7705 
+		add_state_core = 7706
 				}
 				puppet = SHL
 			}
-			if = { #set up Bavaria puppet
+			if = { 
 				limit = {
 					52 = {
 						is_owned_or_subject_trigger = yes
@@ -7720,16 +8041,78 @@
 					}
 				}
 				BAY = {
-					transfer_state = 52
-					transfer_state = 53
-					transfer_state = 54
-					add_state_core = 52
-					add_state_core = 53
-					add_state_core = 54
+					transfer_state = 52 
+		transfer_state = 6808 
+		transfer_state = 6809 
+		transfer_state = 6810 
+		transfer_state = 6811 
+		transfer_state = 6812 
+		transfer_state = 6813 
+		transfer_state = 6814 
+		transfer_state = 6815 
+		transfer_state = 6816 
+		transfer_state = 6817 
+		transfer_state = 6818
+					transfer_state = 53 
+		transfer_state = 7061 
+		transfer_state = 7062 
+		transfer_state = 7063 
+		transfer_state = 7064 
+		transfer_state = 7065 
+		transfer_state = 7066 
+		transfer_state = 7067 
+		transfer_state = 7068 
+		transfer_state = 7069
+					transfer_state = 54 
+		transfer_state = 7145 
+		transfer_state = 7146 
+		transfer_state = 7147 
+		transfer_state = 7148 
+		transfer_state = 7149 
+		transfer_state = 7150 
+		transfer_state = 7151 
+		transfer_state = 7152 
+		transfer_state = 7153 
+		transfer_state = 7154 
+		transfer_state = 7155
+					add_state_core = 52 
+		add_state_core = 6808 
+		add_state_core = 6809 
+		add_state_core = 6810 
+		add_state_core = 6811 
+		add_state_core = 6812 
+		add_state_core = 6813 
+		add_state_core = 6814 
+		add_state_core = 6815 
+		add_state_core = 6816 
+		add_state_core = 6817 
+		add_state_core = 6818
+					add_state_core = 53 
+		add_state_core = 7061 
+		add_state_core = 7062 
+		add_state_core = 7063 
+		add_state_core = 7064 
+		add_state_core = 7065 
+		add_state_core = 7066 
+		add_state_core = 7067 
+		add_state_core = 7068 
+		add_state_core = 7069
+					add_state_core = 54 
+		add_state_core = 7145 
+		add_state_core = 7146 
+		add_state_core = 7147 
+		add_state_core = 7148 
+		add_state_core = 7149 
+		add_state_core = 7150 
+		add_state_core = 7151 
+		add_state_core = 7152 
+		add_state_core = 7153 
+		add_state_core = 7154 
+		add_state_core = 7155
 				}
 				puppet = BAY
 			}
-			if = { #set up Hanover puppet
+			if = { 
 				limit = {
 					59 = {
 						is_owned_or_subject_trigger = yes
@@ -7742,12 +8125,82 @@
 					}
 				}
 				HAN = {
-					transfer_state = 59
-					transfer_state = 56
-					transfer_state = 57
-					add_state_core = 59
-					add_state_core = 56
-					add_state_core = 57
+					transfer_state = 59 
+		transfer_state = 7897 
+		transfer_state = 7898 
+		transfer_state = 7899 
+		transfer_state = 7900 
+		transfer_state = 7901 
+		transfer_state = 7902 
+		transfer_state = 7903 
+		transfer_state = 7904 
+		transfer_state = 7905 
+		transfer_state = 7906 
+		transfer_state = 7907 
+		transfer_state = 7908 
+		transfer_state = 7909 
+		transfer_state = 7910 
+		transfer_state = 7911 
+		transfer_state = 7912 
+		transfer_state = 7913
+					transfer_state = 56 
+		transfer_state = 7383 
+		transfer_state = 7384 
+		transfer_state = 7385 
+		transfer_state = 7386 
+		transfer_state = 7387 
+		transfer_state = 7388 
+		transfer_state = 7389 
+		transfer_state = 7390 
+		transfer_state = 7391
+					transfer_state = 57 
+		transfer_state = 7535 
+		transfer_state = 7536 
+		transfer_state = 7537 
+		transfer_state = 7538 
+		transfer_state = 7539 
+		transfer_state = 7540 
+		transfer_state = 7541 
+		transfer_state = 7542 
+		transfer_state = 7543
+					add_state_core = 59 
+		add_state_core = 7897 
+		add_state_core = 7898 
+		add_state_core = 7899 
+		add_state_core = 7900 
+		add_state_core = 7901 
+		add_state_core = 7902 
+		add_state_core = 7903 
+		add_state_core = 7904 
+		add_state_core = 7905 
+		add_state_core = 7906 
+		add_state_core = 7907 
+		add_state_core = 7908 
+		add_state_core = 7909 
+		add_state_core = 7910 
+		add_state_core = 7911 
+		add_state_core = 7912 
+		add_state_core = 7913
+					add_state_core = 56 
+		add_state_core = 7383 
+		add_state_core = 7384 
+		add_state_core = 7385 
+		add_state_core = 7386 
+		add_state_core = 7387 
+		add_state_core = 7388 
+		add_state_core = 7389 
+		add_state_core = 7390 
+		add_state_core = 7391
+					add_state_core = 57 
+		add_state_core = 7535 
+		add_state_core = 7536 
+		add_state_core = 7537 
+		add_state_core = 7538 
+		add_state_core = 7539 
+		add_state_core = 7540 
+		add_state_core = 7541 
+		add_state_core = 7542 
+		add_state_core = 7543
 				}
 				puppet = HAN
 			}
@@ -7885,7 +8338,7 @@
 	}
 
 
-	##### END ###########
+	
 
 	focus = {
 		id = FRA_naval_rearmament

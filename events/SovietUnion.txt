@@ -1,10 +1,8 @@
-﻿###########################
-# Soviet Events
-###########################
+
 
 add_namespace = soviet
 
-# Border Skirmish with the Japanese
+
 country_event = {
 	id = soviet.1
 	title = soviet.1.t
@@ -13,7 +11,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Push back
+	option = { 
 		name = soviet.1.a
 		ai_chance = { factor = 75 }
 		add_political_power = -25
@@ -42,7 +40,7 @@ country_event = {
 			}
 		}
 	}
-	option = { # Yield
+	option = { 
 		name = soviet.1.b
 		ai_chance = { factor = 25 }
 		JAP = {
@@ -54,7 +52,7 @@ country_event = {
 	}
 }
 
-# Successful Raid
+
 country_event = {
 	id = soviet.2
 	title = soviet.2.t
@@ -110,7 +108,7 @@ country_event = {
 	}
 }
 
-# Failed Raid
+
 country_event = {
 	id = soviet.3
 	title = soviet.3.t
@@ -167,7 +165,7 @@ country_event = {
 	}
 }
 
-# Romania surrenders Bessarabia
+
 country_event = {
 	id = soviet.4
 	title = soviet.4.t
@@ -179,9 +177,22 @@ country_event = {
 	option = {
 		name = soviet.4.a
 		SOV = { 
-			transfer_state = 78
-			transfer_state = 80
-			transfer_state = 766
+			transfer_state = 78 
+		transfer_state = 9793 
+		transfer_state = 9794 
+		transfer_state = 9795 
+		transfer_state = 9796 
+		transfer_state = 9797 
+		transfer_state = 9798 
+		transfer_state = 9799 
+		transfer_state = 9800 
+		transfer_state = 9801
+			transfer_state = 80 
+		transfer_state = 9917
+			transfer_state = 766 
+		transfer_state = 9737 
+		transfer_state = 9738 
+		transfer_state = 9739
 		}
 		hidden_effect = {
 			SOV = {
@@ -192,7 +203,7 @@ country_event = {
 	}
 }
 
-# Romania refuses to surrender Bessarabia
+
 country_event = {
 	id = soviet.5
 	title = soviet.5.t
@@ -216,7 +227,7 @@ country_event = {
 	}
 }
 
-# Estonia Surrenders
+
 country_event = {
 	id = soviet.6
 	title = soviet.6.t
@@ -231,7 +242,7 @@ country_event = {
 	}
 }
 
-# Estonia Refuses
+
 country_event = {
 	id = soviet.7
 	title = soviet.7.t
@@ -249,7 +260,7 @@ country_event = {
 	}
 }
 
-# Latvia Surrenders
+
 country_event = {
 	id = soviet.8
 	title = soviet.8.t
@@ -264,7 +275,7 @@ country_event = {
 	}
 }
 
-# Latvia Refuses
+
 country_event = {
 	id = soviet.9
 	title = soviet.9.t
@@ -282,7 +293,7 @@ country_event = {
 	}
 }
 
-# Lithuania Surrenders
+
 country_event = {
 	id = soviet.10
 	title = soviet.10.t
@@ -297,7 +308,7 @@ country_event = {
 	}
 }
 
-# Lithuania Refuses
+
 country_event = {
 	id = soviet.11
 	title = soviet.11.t
@@ -315,7 +326,7 @@ country_event = {
 	}
 }
 
-# Finland Accepts Demands
+
 country_event = {
 	id = soviet.12
 	title = soviet.12.t
@@ -327,7 +338,22 @@ country_event = {
 	option = {
 		name = soviet.12.a
 		SOV = { 
-			transfer_state = 146
+			transfer_state = 146 
+		transfer_state = 1346 
+		transfer_state = 1347 
+		transfer_state = 1348 
+		transfer_state = 1349 
+		transfer_state = 1350 
+		transfer_state = 1351 
+		transfer_state = 1352 
+		transfer_state = 1353 
+		transfer_state = 1354 
+		transfer_state = 1355 
+		transfer_state = 1356 
+		transfer_state = 1357 
+		transfer_state = 1358 
+		transfer_state = 1359 
+		transfer_state = 1360
 		}
 		hidden_effect = {
 			SOV = {
@@ -337,7 +363,7 @@ country_event = {
 	}
 }
 
-# Finland Refuses Demands
+
 country_event = {
 	id = soviet.13
 	title = soviet.13.t
@@ -361,7 +387,7 @@ country_event = {
 	}
 }
 
-# Tannu Tuva is asked to join the USSR
+
 country_event = {
 	id = soviet.14
 	title = soviet.14.t
@@ -370,7 +396,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = soviet.14.a
 		ai_chance = { factor = 100 }
 		SOV = {
@@ -378,7 +404,7 @@ country_event = {
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 	}
-	option = { # Refuse
+	option = { 
 		name = soviet.14.b
 		SOV = {
 			country_event = { id = soviet.15 }
@@ -386,7 +412,7 @@ country_event = {
 	}
 }
 
-# Tannu Tuva declines the offer
+
 country_event = {
 	id = soviet.15
 	title = soviet.15.t
@@ -400,7 +426,7 @@ country_event = {
 	}
 }
 
-# Tannu Tuva accepts the offer
+
 country_event = {
 	id = soviet.16
 	title = soviet.16.t
@@ -420,7 +446,7 @@ country_event = {
 	}
 }
 
-# Improving the Stalin Line
+
 country_event = {
 	id = soviet.17
 	title = soviet.17.t
@@ -539,7 +565,7 @@ country_event = {
 	}
 }
 
-# Xi'an Incident
+
 country_event = {
 	id = soviet.18
 	title = soviet.18.t
@@ -559,23 +585,23 @@ country_event = {
 		days = 50
 	}
 	
-	# Enter negotiations with Communist China
+	
 	option = {
 		name = soviet.18.a
 		PRC = { country_event = { id = soviet.19 days = 1 } }
 	}
 
-	# Refuse to negotiate
+	
 	option = {
 		name = soviet.18.b
-		#SOV = { country_event = { id = soviet.20 days = 1 } }
+		
 		ai_chance = { factor = 0 }
 		set_global_flag = CHI_no_national_front_flag
 		custom_effect_tooltip = CHI_no_united_front
 	}
 }
 
-# Xi'an Incident - Communist China
+
 country_event = {
 	id = soviet.19
 	title = soviet.19.t
@@ -584,7 +610,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Agree to a truce
+	
 	option = {
 		name = soviet.19.a
 		remove_opinion_modifier = { target = CHI modifier = hostile_status }
@@ -618,10 +644,10 @@ country_event = {
 				}
 			}
 		}
-		#SOV = { country_event = { id = soviet.21 days = 1 } }
+		
 	}
 
-	# Refuse to negotiate
+	
 	option = {
 		name = soviet.19.b
 		SOV = { country_event = { id = soviet.22 days = 1 } }
@@ -631,7 +657,7 @@ country_event = {
 	}
 }
 
-# Xi'an Incident - Kuomintang Refuses
+
 country_event = {
 	id = soviet.20
 	title = soviet.20.t
@@ -645,7 +671,7 @@ country_event = {
 	}
 }
 
-# Xi'an Incident - Truce
+
 country_event = {
 	id = soviet.21
 	title = soviet.21.t
@@ -663,7 +689,7 @@ country_event = {
 	}
 }
 
-# Xi'an Incident - Communists Refuse
+
 country_event = {
 	id = soviet.22
 	title = soviet.22.t
@@ -677,7 +703,7 @@ country_event = {
 	}
 }
 
-# Soviet Union Cedes Land (Japan)
+
 country_event = {
 	id = soviet.23
 	title = soviet.23.t
@@ -688,11 +714,13 @@ country_event = {
 	
 	option = {
 		name = soviet.23.a
-		transfer_state = 655
+		transfer_state = 655 
+		transfer_state = 8731 
+		transfer_state = 8732
 	}
 }
 
-# Great Purge - Begins
+
 country_event = {
 	id = soviet.24
 	title = soviet.24.t
@@ -706,7 +734,7 @@ country_event = {
 	}
 }
 
-# Great Purge - Trial of the Anti-Soviet Trotskyist Center
+
 country_event = {
 	id = soviet.25
 	title = soviet.25.t
@@ -774,7 +802,7 @@ country_event = {
 	}
 }
 
-# Great Purge - Secret Trial of the Generals
+
 country_event = {
 	id = soviet.26
 	title = soviet.26.t
@@ -810,7 +838,7 @@ country_event = {
 		custom_effect_tooltip = remove_chief_of_navy
 		show_ideas_tooltip = pyotr_smirnov
 		show_ideas_tooltip = mikhail_frinovsky
-		remove_unit_leader = 401 #mikhail_tukhachevsky, field marshal
+		remove_unit_leader = 401 
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
 			remove_ideas = mikhail_tukhachevsky
@@ -834,10 +862,10 @@ country_event = {
 		custom_effect_tooltip = remove_military_high_command
 		show_ideas_tooltip = konstantin_rokossovsky
 		show_ideas_tooltip = vladimir_kasatonov
-		remove_unit_leader = 405 #kliment_voroshilov, field marshal
-		remove_unit_leader = 402 #konstantin_rokossovsky, general
-		remove_unit_leader = 404 #semyon_timoshenko, general
-		remove_unit_leader = 403 #vladimir_kasatonov, naval commander
+		remove_unit_leader = 405 
+		remove_unit_leader = 402 
+		remove_unit_leader = 404 
+		remove_unit_leader = 403 
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
 			remove_ideas = semyon_timoshenko
@@ -847,7 +875,7 @@ country_event = {
 			remove_ideas = vladimir_kasatonov
 		}	
 	}
-	# REVISIT Balance, since the latter removes more unit leaders
+	
 	option = {
 		ai_chance = {
 			factor = 5
@@ -862,7 +890,7 @@ country_event = {
 	}
 }
 
-# Great Purge - Trial of the 21
+
 country_event = {
 	id = soviet.27
 	title = soviet.27.t
@@ -898,7 +926,7 @@ country_event = {
 		show_ideas_tooltip = alexander_novikov
 		custom_effect_tooltip = remove_military_high_command
 		show_ideas_tooltip = gordey_levchenko
-		remove_unit_leader = 406 #gordey_levchenko, naval commander
+		remove_unit_leader = 406 
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
 			remove_ideas = SOV_nikolai_yezhov
@@ -921,7 +949,7 @@ country_event = {
 		custom_effect_tooltip = remove_military_high_command
 		show_ideas_tooltip = sergei_khudyakov
 		show_ideas_tooltip = aleksandr_vasilevsky
-		remove_unit_leader = 407 #aleksandr_vasilevsky, general
+		remove_unit_leader = 407 
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
 			remove_ideas = nikolay_kuznetsov
@@ -945,7 +973,7 @@ country_event = {
 }
 
 
-# Trotsykist Coup
+
 country_event = {
 	id = soviet.28
 	title = soviet.28.t
@@ -966,14 +994,14 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 90
-		#modifier = {
-		#	factor = 1.25
-		#	OR = {
-		#		has_country_flag = purged_kalinin
-		#		has_country_flag = purged_khrushchev
-		#		has_country_flag = purged_party_members
-		#	}
-		#}	
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 	option = {
@@ -1046,7 +1074,7 @@ country_event = {
 	}
 }
 
-# France national focus -  requests to join commitern
+
 country_event = {
 	id = soviet.29
 	title = soviet.29.t
@@ -1081,7 +1109,7 @@ country_event = {
 	}
 }
 
-# comintern_influence removed due to war with common enemy
+
 country_event = {
 	id = soviet.100
 	title = soviet.100.t
@@ -1108,7 +1136,7 @@ country_event = {
 	}
 }
 
-# Demand Bessarabia
+
 country_event = {
 	id = soviet.30
 	title = soviet.30.t
@@ -1136,11 +1164,11 @@ country_event = {
 	option = {
 		name = soviet.30.b
 		ai_chance = { factor = 0 }
-		#
+		
 	}
 }
 
-# Demand Karjala
+
 country_event = {
 	id = soviet.31
 	title = soviet.31.t
@@ -1168,11 +1196,11 @@ country_event = {
 	option = {
 		name = soviet.31.b
 		ai_chance = { factor = 0 }
-		#
+		
 	}
 }
 
-# Oppress Estonia
+
 country_event = {
 	id = soviet.32
 	title = soviet.32.t
@@ -1199,11 +1227,11 @@ country_event = {
 	option = {
 		name = soviet.32.b
 		ai_chance = { factor = 0 }
-		#
+		
 	}
 }
 
-# Oppress Latvia
+
 country_event = {
 	id = soviet.33
 	title = soviet.33.t
@@ -1230,11 +1258,11 @@ country_event = {
 	option = {
 		name = soviet.33.b
 		ai_chance = { factor = 0 }
-		#
+		
 	}
 }
 
-# Oppress Lithuania 
+
 country_event = {
 	id = soviet.34
 	title = soviet.34.t
@@ -1261,11 +1289,11 @@ country_event = {
 	option = {
 		name = soviet.34.b
 		ai_chance = { factor = 0 }
-		#
+		
 	}
 }
 
-# Communist government in FROM baltic country and they wish to be annexed
+
 country_event = {
 	id = soviet.35
 	title = soviet.35.t
@@ -1330,7 +1358,7 @@ country_event = {
 	}
 }
 
-# Communist government in FROM baltic country and they wish to be part puppet
+
 country_event = {
 	id = soviet.36
 	title = soviet.36.t
@@ -1373,7 +1401,7 @@ country_event = {
 				add_named_threat = { threat = 1 name = soviet.36_threat_LAT }
 			}		
 
-		#trigger news event
+		
 		hidden_effect = {
 			news_event =  { id = news.70 days = 1}
 		}		
@@ -1384,7 +1412,7 @@ country_event = {
 	}
 }
 
-# Purge - New officers less dumb. Regaining org
+
 country_event = {
 	id = soviet.37
 	title = soviet.37.t
@@ -1410,7 +1438,7 @@ country_event = {
 		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
-# Purge - New officers less dumb. Regaining org
+
 country_event = {
 	id = soviet.38
 	title = soviet.37.t
@@ -1441,7 +1469,7 @@ country_event = {
 		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
-# Purge - New officers less dumb. Regaining org
+
 country_event = {
 	id = soviet.39
 	title = soviet.37.t
@@ -1467,7 +1495,7 @@ country_event = {
 		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
-# Purge - New officers less dumb. Regaining org
+
 country_event = {
 	id = soviet.40
 	title = soviet.37.t
@@ -1498,7 +1526,7 @@ country_event = {
 		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
-# Purge - New officers less dumb. Regaining org
+
 country_event = {
 	id = soviet.41
 	title = soviet.37.t
@@ -1524,7 +1552,7 @@ country_event = {
 		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
-# Purge - New officers less dumb. Regaining org
+
 country_event = {
 	id = soviet.42
 	title = soviet.37.t
@@ -1555,7 +1583,7 @@ country_event = {
 		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
-# Purge - New officers less dumb. Regaining org
+
 country_event = {
 	id = soviet.43
 	title = soviet.37.t
@@ -1581,7 +1609,7 @@ country_event = {
 		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
-# Purge - New officers less dumb. Regaining org
+
 country_event = {
 	id = soviet.44
 	title = soviet.37.t
@@ -1612,7 +1640,7 @@ country_event = {
 		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
-# Purge - New officers less dumb. Regaining org
+
 country_event = {
 	id = soviet.45
 	title = soviet.37.t
@@ -1638,7 +1666,7 @@ country_event = {
 		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
-# Purge - Fighting defensive war against major
+
 country_event = {
 	id = soviet.46
 	title = soviet.46.t
@@ -1706,7 +1734,7 @@ country_event = {
 		custom_effect_tooltip = soviet.46.a_tt
 	}
 }
-# Purge - Special event to remove patriotic war if it has been added
+
 country_event = {
 	id = soviet.47
 
@@ -1722,7 +1750,7 @@ country_event = {
 	}
 }
 
-#No purges completed - decide what to do
+
 country_event = {
 	id = soviet.48
 	title = soviet.48.t
@@ -1742,14 +1770,14 @@ country_event = {
 
 	fire_only_once = yes
 
-	#Don't invite trotsky
+	
 	option = {
 		name = soviet.48.a
 		custom_effect_tooltip = soviet.48.a_tt
 		set_country_flag = SOV_soviet.48_notrotsky
 	}
 
-	#Invite back Trotsky
+	
 	option = {
 		name = soviet.48.b
 		custom_effect_tooltip = soviet.48.b_tt
@@ -1758,7 +1786,7 @@ country_event = {
 
 }
 
-#No purges massive civil war
+
 country_event = {
 	id = soviet.49
 	title = soviet.49.t
@@ -1782,7 +1810,7 @@ country_event = {
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
 		}
 		hidden_effect = {
-			remove_unit_leader = 412 #Remove Andrey Vlasov
+			remove_unit_leader = 412 
 			random_other_country = {
 				limit = {
 					original_tag = SOV
@@ -1804,7 +1832,7 @@ country_event = {
 	}
 }
 
-#1/4 purges
+
 country_event = {
 	id = soviet.50
 	title = soviet.50.t
@@ -1822,7 +1850,7 @@ country_event = {
 
 	option = {
 		name = soviet.50.a
-		remove_unit_leader = 412 #Remove Andrey Vlasov
+		remove_unit_leader = 412 
 		start_civil_war = {
 			ideology = neutrality
 			size = 0.3
@@ -1850,7 +1878,7 @@ country_event = {
 	}
 }
 
-#2/4 purges
+
 country_event = {
 	id = soviet.51
 	title = soviet.51.t
@@ -1868,7 +1896,7 @@ country_event = {
 
 	option = {
 		name = soviet.51.a
-		remove_unit_leader = 412 #Remove Andrey Vlasov
+		remove_unit_leader = 412 
 		start_civil_war = {
 			ideology = neutrality
 			size = 0.25
@@ -1896,7 +1924,7 @@ country_event = {
 	}
 }
 
-#3/4 purges
+
 country_event = {
 	id = soviet.52
 	title = soviet.52.t
@@ -1914,7 +1942,7 @@ country_event = {
 
 	option = {
 		name = soviet.52.a
-		remove_unit_leader = 412 #Remove Andrey Vlasov
+		remove_unit_leader = 412 
 		start_civil_war = {
 			ideology = neutrality
 			size = 0.2
@@ -1943,7 +1971,7 @@ country_event = {
 
 }
 
-#4/4 purges
+
 country_event = {
 	id = soviet.53
 	title = soviet.53.t
@@ -1967,7 +1995,7 @@ country_event = {
 }
 
 
-#New Leadership in Russia
+
 country_event = {
 	id = soviet.54
 	title = soviet.54.t
@@ -2020,7 +2048,7 @@ country_event = {
 }
 
 
-# Poland conquered... honor MR Pact?
+
 country_event = {
 	id = soviet.60
 	title = soviet.60.t
@@ -2127,7 +2155,20 @@ country_event = {
 					}
 				}
 			}
-			GER = { transfer_state = 88 }
+			GER = { transfer_state = 88 
+		transfer_state = 9965 
+		transfer_state = 9966 
+		transfer_state = 9967 
+		transfer_state = 9968 
+		transfer_state = 9969 
+		transfer_state = 9970 
+		transfer_state = 9971 
+		transfer_state = 9972 
+		transfer_state = 9973 
+		transfer_state = 9974 
+		transfer_state = 9975 
+		transfer_state = 9976 
+		transfer_state = 9977 }
 		}
 		if = {
 			limit = {
@@ -2142,7 +2183,15 @@ country_event = {
 					}
 				}
 			}
-			GER = { transfer_state = 92 }
+			GER = { transfer_state = 92 
+		transfer_state = 10012 
+		transfer_state = 10013 
+		transfer_state = 10014 
+		transfer_state = 10015 
+		transfer_state = 10016 
+		transfer_state = 10017 
+		transfer_state = 10018 
+		transfer_state = 10019 }
 		}
 		if = {
 			limit = {
@@ -2157,7 +2206,13 @@ country_event = {
 					}
 				}
 			}
-			GER = { transfer_state = 90 }
+			GER = { transfer_state = 90 
+		transfer_state = 9997 
+		transfer_state = 9998 
+		transfer_state = 9999 
+		transfer_state = 10000 
+		transfer_state = 10001 
+		transfer_state = 10002 }
 		}
 		if = {
 			limit = {
@@ -2173,8 +2228,24 @@ country_event = {
 				}
 			}
 			GER = {
-				transfer_state = 86
-				add_state_core = 86
+				transfer_state = 86 
+		transfer_state = 9951 
+		transfer_state = 9952 
+		transfer_state = 9953 
+		transfer_state = 9954 
+		transfer_state = 9955 
+		transfer_state = 9956 
+		transfer_state = 9957 
+		transfer_state = 9958
+				add_state_core = 86 
+		add_state_core = 9951 
+		add_state_core = 9952 
+		add_state_core = 9953 
+		add_state_core = 9954 
+		add_state_core = 9955 
+		add_state_core = 9956 
+		add_state_core = 9957 
+		add_state_core = 9958
 			}
 		}
 		if = {
@@ -2190,7 +2261,13 @@ country_event = {
 					}
 				}
 			}
-			GER = { transfer_state = 87 }
+			GER = { transfer_state = 87 
+		transfer_state = 9959 
+		transfer_state = 9960 
+		transfer_state = 9961 
+		transfer_state = 9962 
+		transfer_state = 9963 
+		transfer_state = 9964 }
 		}
 		if = {
 			limit = {
@@ -2206,8 +2283,24 @@ country_event = {
 				}
 			}
 			GER = {
-				transfer_state = 85
-				add_state_core = 85
+				transfer_state = 85 
+		transfer_state = 9943 
+		transfer_state = 9944 
+		transfer_state = 9945 
+		transfer_state = 9946 
+		transfer_state = 9947 
+		transfer_state = 9948 
+		transfer_state = 9949 
+		transfer_state = 9950
+				add_state_core = 85 
+		add_state_core = 9943 
+		add_state_core = 9944 
+		add_state_core = 9945 
+		add_state_core = 9946 
+		add_state_core = 9947 
+		add_state_core = 9948 
+		add_state_core = 9949 
+		add_state_core = 9950
 			}
 		}
 		if = {
@@ -2223,7 +2316,15 @@ country_event = {
 					}
 				}
 			}
-			GER = { transfer_state = 98 }
+			GER = { transfer_state = 98 
+		transfer_state = 10068 
+		transfer_state = 10069 
+		transfer_state = 10070 
+		transfer_state = 10071 
+		transfer_state = 10072 
+		transfer_state = 10073 
+		transfer_state = 10074 
+		transfer_state = 10075 }
 		}
 		if = {
 			limit = {
@@ -2238,7 +2339,15 @@ country_event = {
 					}
 				}
 			}
-			GER = { transfer_state = 10 }
+			GER = { transfer_state = 10 
+		transfer_state = 799 
+		transfer_state = 800 
+		transfer_state = 801 
+		transfer_state = 802 
+		transfer_state = 803 
+		transfer_state = 804 
+		transfer_state = 805 
+		transfer_state = 806 }
 		}
 		if = {
 			limit = {
@@ -2253,7 +2362,13 @@ country_event = {
 					}
 				}
 			}
-			GER = { transfer_state = 70 }
+			GER = { transfer_state = 70 
+		transfer_state = 9283 
+		transfer_state = 9284 
+		transfer_state = 9285 
+		transfer_state = 9286 
+		transfer_state = 9287 
+		transfer_state = 9288 }
 		}
 		if = {
 			limit = {
@@ -2268,7 +2383,12 @@ country_event = {
 					}
 				}
 			}
-			GER = { transfer_state = 664 }
+			GER = { transfer_state = 664 
+		transfer_state = 8803 
+		transfer_state = 8804 
+		transfer_state = 8805 
+		transfer_state = 8806 
+		transfer_state = 8807 }
 		}
 		if = {
 			limit = {
@@ -2283,7 +2403,8 @@ country_event = {
 					}
 				}
 			}
-			GER = { transfer_state = 72 }
+			GER = { transfer_state = 72 
+		transfer_state = 9423 }
 		}
 		if = {
 			limit = {
@@ -2299,8 +2420,10 @@ country_event = {
 				}
 			}
 			GER = {
-				transfer_state = 762
-				add_state_core = 762
+				transfer_state = 762 
+		transfer_state = 9728
+				add_state_core = 762 
+		add_state_core = 9728
 			}
 		}
 		GER = { country_event = soviet.61 }
@@ -2331,14 +2454,79 @@ country_event = {
 			active = no
 		}
 		GER = {
-			add_state_claim = 88
-			add_state_claim = 92
-			add_state_claim = 90
-			add_state_claim = 86
-			add_state_claim = 87
-			add_state_claim = 85
-			add_state_claim = 98
-			add_state_claim = 10
+			add_state_claim = 88 
+		add_state_claim = 9965 
+		add_state_claim = 9966 
+		add_state_claim = 9967 
+		add_state_claim = 9968 
+		add_state_claim = 9969 
+		add_state_claim = 9970 
+		add_state_claim = 9971 
+		add_state_claim = 9972 
+		add_state_claim = 9973 
+		add_state_claim = 9974 
+		add_state_claim = 9975 
+		add_state_claim = 9976 
+		add_state_claim = 9977
+			add_state_claim = 92 
+		add_state_claim = 10012 
+		add_state_claim = 10013 
+		add_state_claim = 10014 
+		add_state_claim = 10015 
+		add_state_claim = 10016 
+		add_state_claim = 10017 
+		add_state_claim = 10018 
+		add_state_claim = 10019
+			add_state_claim = 90 
+		add_state_claim = 9997 
+		add_state_claim = 9998 
+		add_state_claim = 9999 
+		add_state_claim = 10000 
+		add_state_claim = 10001 
+		add_state_claim = 10002
+			add_state_claim = 86 
+		add_state_claim = 9951 
+		add_state_claim = 9952 
+		add_state_claim = 9953 
+		add_state_claim = 9954 
+		add_state_claim = 9955 
+		add_state_claim = 9956 
+		add_state_claim = 9957 
+		add_state_claim = 9958
+			add_state_claim = 87 
+		add_state_claim = 9959 
+		add_state_claim = 9960 
+		add_state_claim = 9961 
+		add_state_claim = 9962 
+		add_state_claim = 9963 
+		add_state_claim = 9964
+			add_state_claim = 85 
+		add_state_claim = 9943 
+		add_state_claim = 9944 
+		add_state_claim = 9945 
+		add_state_claim = 9946 
+		add_state_claim = 9947 
+		add_state_claim = 9948 
+		add_state_claim = 9949 
+		add_state_claim = 9950
+			add_state_claim = 98 
+		add_state_claim = 10068 
+		add_state_claim = 10069 
+		add_state_claim = 10070 
+		add_state_claim = 10071 
+		add_state_claim = 10072 
+		add_state_claim = 10073 
+		add_state_claim = 10074 
+		add_state_claim = 10075
+			add_state_claim = 10 
+		add_state_claim = 799 
+		add_state_claim = 800 
+		add_state_claim = 801 
+		add_state_claim = 802 
+		add_state_claim = 803 
+		add_state_claim = 804 
+		add_state_claim = 805 
+		add_state_claim = 806
 			effect_tooltip = {
 				create_wargoal = {
 					type = annex_everything
@@ -2349,7 +2537,7 @@ country_event = {
 	}
 }
 
-# Soviet honors MR Pact (Germany)
+
 country_event = {
 	id = soviet.61
 	title = soviet.61.t
@@ -2375,7 +2563,7 @@ country_event = {
 	}
 }
 
-# Soviet betrays MR Pact (Germany)
+
 country_event = {
 	id = soviet.62
 	title = soviet.62.t
@@ -2393,7 +2581,7 @@ country_event = {
 	}
 }
 
-# SOV becomes just Russia
+
 country_event = {
 	id = soviet.63
 	
@@ -2422,7 +2610,7 @@ country_event = {
 	}
 }
 
-# SOV becomes SOV again
+
 country_event = {
 	id = soviet.64
 	
@@ -2456,24 +2644,4 @@ country_event = {
 		drop_cosmetic_tag = yes
 		clr_global_flag = SOV_became_russia
 	}
-}
-#hidden event to play historic speech
-country_event = {
-	id = soviet.999
-	hidden = yes
-	mean_time_to_happen = { days = 2 }
-	fire_only_once = yes
-	trigger = {
-		tag = SOV
-		has_war_with = GER
-		surrender_progress < 0.5 #let's not tempt fate, it's counter-revolutionary
-		has_government = communism
-		NOT = {
-			has_global_flag = barbarossa_counter
-		}
-	}
-	immediate = {
-		play_no_invincible_armies_effect = yes
-	}
-	option = {}
 }

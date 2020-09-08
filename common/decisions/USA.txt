@@ -608,7 +608,7 @@ war_measures = {
 			}
 			modifier = {
 				has_manpower < 10000 
-				factor = 0 #need to up conscription laws
+				factor = 0 
 			}
 		}
 		modifier = {
@@ -665,7 +665,7 @@ war_measures = {
 			}
 			modifier = {
 				has_manpower < 10000 
-				factor = 0 #need to up conscription laws
+				factor = 0 
 			}
 		}
 		modifier = {
@@ -722,7 +722,7 @@ war_measures = {
 			}
 			modifier = {
 				has_manpower < 10000 
-				factor = 0 #need to up conscription laws
+				factor = 0 
 			}
 		}
 		modifier = {
@@ -779,7 +779,7 @@ war_measures = {
 			}
 			modifier = {
 				has_manpower < 10000 
-				factor = 0 #need to up conscription laws
+				factor = 0 
 			}
 		}
 		modifier = {
@@ -1519,7 +1519,7 @@ foreign_politics = {
 		available = {
 			OR = {
 				not = { has_government = communism }
-				has_war_with = SOV #commie on commie violence
+				has_war_with = SOV 
 			}
 			has_equipment = { infantry_equipment > 999 }
 			FROM = {
@@ -1611,7 +1611,7 @@ foreign_politics = {
 			}
 			create_faction = MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 			hidden_effect = {
-				#news_event = { id = xxx days = 3 } MTG_TODO_GABRIEL
+				
 			}
 		}
 	}
@@ -2798,7 +2798,7 @@ USA_intervention_mandate = {
 			has_completed_focus = USA_reinforce_monroe_doctrine
 			NOT = { has_wargoal_against = FROM }
 			FROM = {
-				NOT = { has_country_flag = USA_monroe_backed_down } #set when US player backs down in reply event
+				NOT = { has_country_flag = USA_monroe_backed_down } 
 				any_owned_state = {
 					is_controlled_by = PREV
 					OR = {
@@ -2865,8 +2865,66 @@ USA_decolonisation = {
 		days_remove = 180
 		remove_effect = {
 			PNG = {
-				transfer_state = 523
+				transfer_state = 523 
+		transfer_state = 6911 
+		transfer_state = 6912 
+		transfer_state = 6913 
+		transfer_state = 6914 
+		transfer_state = 6915 
+		transfer_state = 6916 
+		transfer_state = 6917 
+		transfer_state = 6918 
+		transfer_state = 6919 
+		transfer_state = 6920 
+		transfer_state = 6921 
+		transfer_state = 6922 
+		transfer_state = 6923 
+		transfer_state = 6924 
+		transfer_state = 6925 
+		transfer_state = 6926 
+		transfer_state = 6927 
+		transfer_state = 6928 
+		transfer_state = 6929 
+		transfer_state = 6930 
+		transfer_state = 6931 
+		transfer_state = 6932 
+		transfer_state = 6933 
+		transfer_state = 6934 
+		transfer_state = 6935 
+		transfer_state = 6936 
+		transfer_state = 6937 
+		transfer_state = 6938 
+		transfer_state = 6939 
+		transfer_state = 6940 
+		transfer_state = 6941 
+		transfer_state = 6942 
+		transfer_state = 6943 
+		transfer_state = 6944 
+		transfer_state = 6945 
+		transfer_state = 6946 
+		transfer_state = 6947 
+		transfer_state = 6948 
+		transfer_state = 6949 
+		transfer_state = 6950 
+		transfer_state = 6951 
+		transfer_state = 6952 
+		transfer_state = 6953
 				transfer_state = 737 
+		transfer_state = 9512 
+		transfer_state = 9513 
+		transfer_state = 9514 
+		transfer_state = 9515 
+		transfer_state = 9516 
+		transfer_state = 9517 
+		transfer_state = 9518 
+		transfer_state = 9519 
+		transfer_state = 9520 
+		transfer_state = 9521 
+		transfer_state = 9522 
+		transfer_state = 9523 
+		transfer_state = 9524 
+		transfer_state = 9525 
+		transfer_state = 9526 
 			}
 		}
 	}

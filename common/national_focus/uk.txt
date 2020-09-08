@@ -1,10 +1,3 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
-### search_filters = {FOCUS_FILTER_RESEARCH}
-### search_filters = {FOCUS_FILTER_INDUSTRY}
-### search_filters = {FOCUS_FILTER_STABILITY}
-### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-### search_filters = {FOCUS_FILTER_MANPOWER}
-### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 focus_tree = {
 	id = british_focus
@@ -24,7 +17,7 @@ focus_tree = {
 		available = {
 				has_war_with = GER
 				POL = {
-					NOT = { is_in_faction_with = GER } #We assume POL will help vs Germany unless they are allied to them
+					NOT = { is_in_faction_with = GER } 
 				}
 			}
 		
@@ -33,7 +26,7 @@ focus_tree = {
 				AND = {
 					has_war_with = GER
 					POL = {
-							is_in_faction_with = GER # If POL is in GER's faction, no help for us
+							is_in_faction_with = GER 
 						}
 				}
 				AND = {
@@ -759,7 +752,7 @@ focus_tree = {
 					NOT = { has_government = democratic }
 				}
 			}
-		} #at war with major or ger in rhineland or high threat
+		} 
 		prerequisite = { focus = uk_industrial_focus }
 		icon = GFX_goal_generic_construct_mil_factory
 		x = -1
@@ -1709,9 +1702,9 @@ focus_tree = {
 			date > 1944.1.1
 			has_tech = advanced_ship_hull_heavy
 			has_full_control_of_state = 133
-			#has_tech = improved_heavy_battery
-			#has_tech = dp_secondary_battery
-			#has_tech = antiair5
+			
+			
+			
 		}
 
 		available_if_capitulated = yes
@@ -1758,26 +1751,26 @@ focus_tree = {
 		}
 	}
 	
-	#focus = {
-	#	id = uk_embargo_focus
-	#	available = { threat > 0.1 }
-	#	icon = GFX_goal_support_democracy
-	#	x = 12
-	#	y = 0
-	#	cost = 10
-	#	ai_will_do = {
-	#		factor = 1
-	#	}	
-	#	completion_reward = {
-	#		every_other_country = {
-	#			limit = { NOT = { has_government = democratic } }
-	#			add_opinion_modifier = { target = ENG modifier = minor_sanctions }
-	#			add_opinion_modifier = { target = ENG modifier = minor_sanctions_relations } 
-	#		}
-	#	}
-	#}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-	### EMPIRE ###
+	
 
 	focus = {
 		id = uk_empire_focus 
@@ -1949,8 +1942,8 @@ focus_tree = {
 				is_subject = no
 			}
 			NOT = { has_government = communism }
-		} #SPA/SPR not in a faction
-		#prerequisite = { focus = uk_carrier_focus }
+		} 
+		
 		icon = GFX_goal_generic_demand_territory
 		x = -1
 		y = 1
@@ -1961,7 +1954,7 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_POLITICAL}	
 		completion_reward = {
-			# + relations with SPA/SPR - they become more democratic and like fascist/commies less
+			
 			if = {
 				limit = {
 					has_government = democratic
@@ -2056,27 +2049,27 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		# Needs province based trigger to work properly
-		#bypass = {
-		#	447 = {
-		#		free_building_slots = {
-		#			building = coastal_bunker
-		#			size < 1
-		#		}
-		#		free_building_slots = {
-		#			building = naval_base
-		#			size < 1
-		#		}
-		#		free_building_slots = {
-		#			building = air_base
-		#			size < 1
-		#		}
-		#		free_building_slots = {
-		#			building = bunker
-		#			size < 1
-		#		}
-		#	}
-		#}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 		completion_reward = {
 			447 = {
@@ -2248,8 +2241,8 @@ focus_tree = {
 				is_subject = no
 			}
 			NOT = { has_government = communism }
-		} #TUR not in a faction
-		#prerequisite = { focus = uk_battleship_focus }
+		} 
+		
 		icon = GFX_goal_generic_political_pressure
 		x = -3
 		y = 1
@@ -2260,7 +2253,7 @@ focus_tree = {
 		}	
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			# + relations with TUR - they become more democratic and like fascist/commies less
+			
 			if = {
 				limit = { has_government = democratic }
 				TUR = {
@@ -2395,19 +2388,19 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		# Needs province based trigger to work properly
-		#bypass = {
-		#	116 = {
-		#		free_building_slots = {
-		#			building = coastal_bunker
-		#			size < 2
-		#		}
-		#		free_building_slots = {
-		#			building = air_base
-		#			size < 1
-		#		}
-		#	}
-		#}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 		completion_reward = {
 			116 = {
@@ -2432,7 +2425,7 @@ focus_tree = {
 		}
 	}
 
-	### DECOLONIZATION ###
+	
 
 	focus = {
 		id = ENG_revisit_colonial_policy
@@ -2978,7 +2971,13 @@ focus_tree = {
 					has_full_control_of_state = 659
 				}
 				YEM = {
-					transfer_state = 659
+					transfer_state = 659 
+		transfer_state = 8754 
+		transfer_state = 8755 
+		transfer_state = 8756 
+		transfer_state = 8757 
+		transfer_state = 8758 
+		transfer_state = 8759
 					add_opinion_modifier = { target = ENG modifier = ENG_returned_our_territory }
 				}
 			}
@@ -2996,7 +2995,13 @@ focus_tree = {
 					has_full_control_of_state = 332
 				}
 				CAN = {
-					transfer_state = 332
+					transfer_state = 332 
+		transfer_state = 3912 
+		transfer_state = 3913 
+		transfer_state = 3914 
+		transfer_state = 3915 
+		transfer_state = 3916 
+		transfer_state = 3917
 					add_opinion_modifier = { target = ENG modifier = ENG_returned_our_territory }
 				}
 			}
@@ -3005,7 +3010,11 @@ focus_tree = {
 					has_full_control_of_state = 331
 				}
 				CAN = {
-					transfer_state = 331
+					transfer_state = 331 
+		transfer_state = 3908 
+		transfer_state = 3909 
+		transfer_state = 3910 
+		transfer_state = 3911
 				}
 			}
 			if = {
@@ -3025,7 +3034,13 @@ focus_tree = {
 					has_full_control_of_state = 119
 				}
 				IRE = {
-					transfer_state = 119
+					transfer_state = 119 
+		transfer_state = 1023 
+		transfer_state = 1024 
+		transfer_state = 1025 
+		transfer_state = 1026 
+		transfer_state = 1027 
+		transfer_state = 1028
 					add_opinion_modifier = { target = ENG modifier = ENG_returned_our_territory }
 				}
 			}
@@ -4285,7 +4300,8 @@ focus_tree = {
 				retire_country_leader = yes
 			}
 			RAJ = {
-				transfer_state = 733
+				transfer_state = 733 
+		transfer_state = 9497
 			}
 			AST = {
 				transfer_state = 711
@@ -4629,7 +4645,7 @@ focus_tree = {
 		}
 	}
 
-	### END OF DECOLONIZATION ###
+	
 	
 	focus = {
 		id = uk_colonial_focus 
@@ -5645,7 +5661,7 @@ focus_tree = {
 					}
 				}
 			}
-		} #counters JAP's indian army focus
+		} 
 		icon = GFX_goal_generic_improve_relations
 		x = -1
 		y = 1
@@ -6346,9 +6362,9 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 1
-			#modifier = {
-			#	factor = 0
-			#}
+			
+			
+			
 		}	
 		completion_reward = {
 			set_autonomy = {
@@ -6478,9 +6494,9 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 1
-			#modifier = {
-			#	factor = 0
-			#}
+			
+			
+			
 		}
 		search_filters = {FOCUS_FILTER_POLITICAL}	
 		completion_reward = {
@@ -6948,9 +6964,9 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 1
-			#modifier = {
-			#	factor = 0
-			#}
+			
+			
+			
 		}
 		search_filters = {FOCUS_FILTER_ANNEXATION}	
 		completion_reward = {
@@ -7064,7 +7080,7 @@ focus_tree = {
 		}
 	}
 
-	### DEMOCRATIC BRANCH - STEADY AS SHE GOES ###
+	
 
 	focus = {
 		id = ENG_steady_as_she_goes
@@ -7109,7 +7125,7 @@ focus_tree = {
 		}
 	}
 
-	### GLOBAL DEFENSE BRANCH ###
+	
 
 	focus = {
 		id = ENG_global_defense
@@ -7139,7 +7155,7 @@ focus_tree = {
 			}
 		}	
 		completion_reward = {
-			# Singapore
+			
 			336 = {
 				if = {
 					limit = {
@@ -7156,7 +7172,7 @@ focus_tree = {
 						level = 2
 						instant_build = yes
 					}
-					# Singapore
+					
 					add_building_construction = {
 						type = naval_base
 						level = 2
@@ -7165,7 +7181,7 @@ focus_tree = {
 					}
 				}								
 			}
-			# Egypt
+			
 			446 = {
 				if = {
 					limit = {
@@ -7195,7 +7211,7 @@ focus_tree = {
 							}
 						}
 					}
-					# Alexandria
+					
 					add_building_construction = {
 						type = naval_base
 						level = 2
@@ -7204,7 +7220,7 @@ focus_tree = {
 					}
 				}								
 			}
-			# Nova Scotia
+			
 			464 = {
 				if = {
 					limit = {
@@ -7221,7 +7237,7 @@ focus_tree = {
 						level = 2
 						instant_build = yes
 					}
-					# Halifax
+					
 					add_building_construction = {
 						type = naval_base
 						level = 2
@@ -7230,7 +7246,7 @@ focus_tree = {
 					}
 				}								
 			}
-			# Malta
+			
 			116 = {
 				if = {
 					limit = {
@@ -7249,7 +7265,7 @@ focus_tree = {
 					}
 				}								
 			}
-			# Gibraltar
+			
 			118 = {
 				if = {
 					limit = {
@@ -7488,8 +7504,24 @@ focus_tree = {
 					expire = 0
 				}
 			}
-			add_state_claim = 489
-			add_state_claim = 307
+			add_state_claim = 489 
+		add_state_claim = 6395 
+		add_state_claim = 6396 
+		add_state_claim = 6397 
+		add_state_claim = 6398 
+		add_state_claim = 6399 
+		add_state_claim = 6400
+			add_state_claim = 307 
+		add_state_claim = 3676 
+		add_state_claim = 3677 
+		add_state_claim = 3678 
+		add_state_claim = 3679 
+		add_state_claim = 3680 
+		add_state_claim = 3681 
+		add_state_claim = 3682 
+		add_state_claim = 3683 
+		add_state_claim = 3684 
+		add_state_claim = 3685
 		}
 	}
 
@@ -7721,9 +7753,9 @@ focus_tree = {
 		}
 	}
 
-	### HOME DEFENCE BRANCH
+	
 
-	### GERMAN WAR ###
+	
 
 	focus = {
 		id = ENG_home_defence
@@ -7747,11 +7779,11 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}	
 		completion_reward = {
 			add_war_support = 0.05
-			# Ipswich
+			
 			125 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					#Plymouth
+					
 					add_building_construction = {
 						type = coastal_bunker
 						level = 2
@@ -7760,11 +7792,11 @@ focus_tree = {
 					}
 				}
 			}
-			# Greater London Area
+			
 			126 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					#London
+					
 					add_building_construction = {
 						type = coastal_bunker
 						level = 2
@@ -7773,18 +7805,18 @@ focus_tree = {
 					}
 				}
 			}
-			# Sussex
+			
 			127 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					#Dover
+					
 					add_building_construction = {
 						type = coastal_bunker
 						level = 2
 						province = 3501
 						instant_build = yes
 					}
-					#Portsmouth
+					
 					add_building_construction = {
 						type = coastal_bunker
 						level = 2
@@ -7793,11 +7825,11 @@ focus_tree = {
 					}
 				}								
 			}
-			# Cornwall
+			
 			123 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					#Plymouth
+					
 					add_building_construction = {
 						type = coastal_bunker
 						level = 2
@@ -7809,7 +7841,7 @@ focus_tree = {
 		}
 	}
 
-	# START IRAQ/IRAN/USSR INTERVENTION #
+	
 
 	focus = {
 		id = uk_iraq_focus
@@ -7820,7 +7852,7 @@ focus_tree = {
 			 		fascism > 0.2
 			 	} 
 			}
-		} #UK at war with fascist/commie. iraq is fascist/commie
+		} 
 
 		bypass = {
 			IRQ = { exists = no }
@@ -7862,7 +7894,7 @@ focus_tree = {
 			 		fascism > 0.2
 			 	} 
 			}
-		} #UK at war with fascist/commie. iran is fascist/commie
+		} 
 
 		bypass = {
 			PER = { exists = no }
@@ -7945,7 +7977,7 @@ focus_tree = {
 		}
 	}
 
-	# END IRAQ/IRAN/USSR INTERVENTION #
+	
 
 	focus = {
 		id = ENG_issue_gasmasks
@@ -8067,9 +8099,9 @@ focus_tree = {
 		}
 	}
 
-	### END ROAD TO WAR WITH GERMANY ###
+	
 
-	### SCANDINAVIAN BRANCH ####
+	
 
 	focus = {
 		id = uk_scandinavian_focus
@@ -8251,7 +8283,7 @@ focus_tree = {
 		}
 	}
 
-	### END SCANDINAVIAN BRANCH ###
+	
 
 	focus = {
 		id = ENG_prepare_for_the_inevitable
@@ -8282,7 +8314,7 @@ focus_tree = {
 		}
 	}
 
-	### BENELUX INTERVENTION ###
+	
 
 	focus = {
 		id = ENG_benelux_intervention
@@ -8403,10 +8435,10 @@ focus_tree = {
 		}
 	}
 
-	### END BENELUX INTERVENTION ###
-	### END HOME DEFENCE BRANCH ###
+	
+	
 
-	### A CHANGE IN COURSE BRANCH ###
+	
 
 	focus = {
 		id = ENG_a_change_in_course
@@ -8569,7 +8601,7 @@ focus_tree = {
 		}
 	}
 
-	### UNALIGNED BRANCH ###
+	
 
 	focus = {
 		id = ENG_the_kings_party
@@ -8818,7 +8850,7 @@ focus_tree = {
 		}
 	}
 
-	### FASCIST BRANCH ###
+	
 
 	focus = {
 		id = ENG_organize_the_blackshirts
@@ -9338,7 +9370,7 @@ focus_tree = {
 		}
 	}
 
-	### UNALIGNED/FASCIST SHARED PATH ###
+	
 
 	focus = {
 		id = ENG_god_save_the_king
@@ -9406,7 +9438,7 @@ focus_tree = {
 		}	
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			# Ceylon
+			
 			422 = {
 				if = {
 					limit = {
@@ -9422,7 +9454,7 @@ focus_tree = {
 						level = 5
 						instant_build = yes
 					}
-					# Singapore
+					
 					add_building_construction = {
 						type = naval_base
 						level = 5
@@ -9674,9 +9706,33 @@ focus_tree = {
 					}
 				}
 				ENG = {
-					add_state_claim = 113
-					add_state_claim = 134
-					add_state_claim = 135
+					add_state_claim = 113 
+		add_state_claim = 990 
+		add_state_claim = 991 
+		add_state_claim = 992 
+		add_state_claim = 993 
+		add_state_claim = 994 
+		add_state_claim = 995 
+		add_state_claim = 996
+					add_state_claim = 134 
+		add_state_claim = 1143 
+		add_state_claim = 1144 
+		add_state_claim = 1145 
+		add_state_claim = 1146 
+		add_state_claim = 1147 
+		add_state_claim = 1148 
+		add_state_claim = 1149 
+		add_state_claim = 1150
+					add_state_claim = 135 
+		add_state_claim = 1151 
+		add_state_claim = 1152 
+		add_state_claim = 1153 
+		add_state_claim = 1154 
+		add_state_claim = 1155 
+		add_state_claim = 1156 
+		add_state_claim = 1157 
+		add_state_claim = 1158 
+		add_state_claim = 1159
 					create_wargoal = {
 						type = annex_everything
 						target = PREV
@@ -10000,7 +10056,7 @@ focus_tree = {
 		}
 	}
 
-	### COMMUNIST BRANCH ###
+	
 
 	focus = {
 		id = ENG_concessions_to_the_trade_unions
@@ -10236,7 +10292,7 @@ focus_tree = {
 		}
 	}
 
-	### GO COMMUNIST ALONE BRANCH ###
+	
 
 	focus = {
 		id = ENG_the_british_communist_alternative
@@ -10910,7 +10966,7 @@ focus_tree = {
 		}
 	}
 
-	### GO COMMUNIST WITH SOVIET UNION BRANCH ###
+	
 
 	focus = {
 		id = ENG_follow_moscow
@@ -11072,7 +11128,7 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			# Bermuda
+			
 			696 = {
 				if = {
 					limit = {
@@ -11088,7 +11144,7 @@ focus_tree = {
 						level = 5
 						instant_build = yes
 					}
-					# Bermuda
+					
 					add_building_construction = {
 						type = naval_base
 						level = 5
@@ -11151,7 +11207,7 @@ focus_tree = {
 		}
 	}
 
-	### COMMUNIST SHARED FINISHER BRANCH ###
+	
 
 	focus = {
 		id = ENG_liberate_the_home_of_marx

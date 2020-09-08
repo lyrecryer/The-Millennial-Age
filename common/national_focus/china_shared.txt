@@ -1,39 +1,3 @@
-﻿#	shared_focus = {
-#		id = CHI_
-#		icon = GFX_
-#		prerequisite = { focus = }
-#		mutually_exclusive = { focus =  }
-#		x = -3
-#		y = 0
-#		relative_position_id = 
-#
-#		cost = 10
-#
-#		ai_will_do = {
-#			factor = 1
-#		}
-#
-#		available = {
-#
-#		}
-#		
-#		bypass = {
-#
-#		}
-#
-#		cancel_if_invalid = yes
-#		continue_if_invalid = no
-#		available_if_capitulated = no
-#
-#		complete_tooltip = {
-#
-#		}
-#
-#		completion_reward = {
-#
-#		}
-#	}
-
 
 shared_focus = {
 	id = CHI_invite_foreign_investors 
@@ -1167,7 +1131,7 @@ shared_focus = {
 		modifier = {
 			factor = 0.1
 			NOT = {
-				has_tech = tech_mountaineers # Wait for the full benefit
+				has_tech = tech_mountaineers 
 			}
 		}
 		modifier = {
@@ -1295,7 +1259,7 @@ shared_focus = {
 	available = {
 		all_other_country = { NOT = { has_completed_focus = CHI_guarantee_the_hanoi_route } }
 		FRA_will_support = yes
-		325 = { #Yunnan
+		325 = { 
 			CONTROLLER = {
 				OR = {
 					tag = ROOT
@@ -1304,7 +1268,7 @@ shared_focus = {
 				}
 			}
 		}
-		671 = { #Tonkin
+		671 = { 
 			CONTROLLER = {
 				NOT = { has_war_with = ROOT }
 				OR = {
@@ -1324,10 +1288,10 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {
-		671 = { #Tonkin
+		671 = { 
 			set_state_flag = CHI_needed_for_hanoi_route
 		}
-		325 = { #Yunnan
+		325 = { 
 			set_state_flag = CHI_needed_for_hanoi_route
 		}	
 		set_variable = { CHI_hanoi_route_current_level = 3 }
@@ -1853,7 +1817,11 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {
-		add_state_claim = 434
+		add_state_claim = 434 
+		add_state_claim = 5789 
+		add_state_claim = 5790 
+		add_state_claim = 5791 
+		add_state_claim = 5792
 	}
 }
 
@@ -2071,7 +2039,7 @@ shared_focus = {
 					}
 				}
 			}
-			#Don't give wargoal on same country twice
+			
 			if = {
 				limit = {
 					NOT = { 525 = { CONTROLLER = { controls_state = 527 } } }
@@ -2262,7 +2230,7 @@ shared_focus = {
 					type = take_state_focus
 					target = PREV
 					expire = 0
-					generator = { 671 670 286 741 } #TODO_WTT_CODE - ignore states that are not owned or controlled by country
+					generator = { 671 670 286 741 } 
 				}
 			}
 		}
@@ -2357,7 +2325,7 @@ shared_focus = {
 				}
 			}
 		}
-		#Don't give wargoal on same country twice
+		
 		if = {
 			limit = {
 				NOT = {
@@ -2493,7 +2461,7 @@ shared_focus = {
 		}
 		all_other_country = { NOT = { has_completed_focus = CHI_burma_road } }
 		ENG_will_support = yes
-		325 = { #Yunnan
+		325 = { 
 			CONTROLLER = {
 				OR = {
 					tag = ROOT
@@ -2502,7 +2470,7 @@ shared_focus = {
 				}
 			}
 		}
-		288 = { #Burma
+		288 = { 
 			CONTROLLER = {
 				NOT = { has_war_with = ROOT }
 				OR = {
@@ -2511,7 +2479,7 @@ shared_focus = {
 				}				
 			}
 		}
-		640 = { #Mandalay
+		640 = { 
 			CONTROLLER = {
 				NOT = { has_war_with = ROOT }
 				OR = {
@@ -2531,13 +2499,13 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {
-		288 = { #Burma
+		288 = { 
 			set_state_flag = CHI_needed_for_burma_road
 		}
-		325 = { #Yunnan
+		325 = { 
 			set_state_flag = CHI_needed_for_burma_road
 		}
-		640 = { #Mandalay
+		640 = { 
 			set_state_flag = CHI_needed_for_burma_road
 		}
 		set_variable = { CHI_burma_road_current_level = 2 }
@@ -2580,7 +2548,7 @@ shared_focus = {
 		}
 		all_other_country = { NOT = { has_completed_focus = CHI_ledo_road } }
 		ENG_will_support = yes
-		325 = { #Yunnan
+		325 = { 
 			CONTROLLER = {
 				OR = {
 					tag = ROOT
@@ -2589,7 +2557,7 @@ shared_focus = {
 				}
 			}
 		}
-		432 = { #Assam
+		432 = { 
 			CONTROLLER = {
 				NOT = { has_war_with = ROOT }
 				OR = {
@@ -2598,7 +2566,7 @@ shared_focus = {
 				}				
 			}
 		}
-		640 = { #Mandalay
+		640 = { 
 			CONTROLLER = {
 				NOT = { has_war_with = ROOT }
 				OR = {
@@ -2618,13 +2586,13 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {
-		432 = { #Assam
+		432 = { 
 			set_state_flag = CHI_needed_for_ledo_road
 		}
-		325 = { #Yunnan
+		325 = { 
 			set_state_flag = CHI_needed_for_ledo_road
 		}
-		640 = { #Mandalay
+		640 = { 
 			set_state_flag = CHI_needed_for_ledo_road
 		}
 		set_variable = { CHI_ledo_road_current_level = 1 }
@@ -2855,7 +2823,7 @@ shared_focus = {
 				USA_will_support = yes
 			}
 		}
-		601 = { #Xikang
+		601 = { 
 			CONTROLLER = {
 				OR = {
 					tag = ROOT
@@ -2864,7 +2832,7 @@ shared_focus = {
 				}
 			}
 		}
-		434 = { #Arunachal Pradesh
+		434 = { 
 			CONTROLLER = {
 				NOT = { has_war_with = ROOT }
 				OR = {
@@ -2884,10 +2852,10 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {		
-		434 = { #Arunachal Pradesh
+		434 = { 
 			set_state_flag = CHI_needed_for_the_hump
 		}
-		601 = { #Xikang
+		601 = { 
 			set_state_flag = CHI_needed_for_the_hump
 		}	
 		set_variable = { CHI_the_hump_current_level = 1 }

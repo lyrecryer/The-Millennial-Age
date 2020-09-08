@@ -1,6 +1,6 @@
 ﻿add_namespace = wtt_prc
 
-#PRC offers United Front, event for CHI (event_target:WTT_current_china_leader)
+
 country_event = {
 	id = wtt_prc.1
 	title = wtt_prc.1.t
@@ -11,12 +11,12 @@ country_event = {
 	
 	option = {
 		
-		name = wtt_prc.1.a #approve
+		name = wtt_prc.1.a 
 		ai_chance = {
 			base = 50
 		}
 		hidden_effect = {
-			news_event = { id = news.288 days = 1 } # United Front forms
+			news_event = { id = news.288 days = 1 } 
 		}
 		if = {
 			limit = {
@@ -89,7 +89,7 @@ country_event = {
 	}
 
 	option = {
-		name = wtt_prc.1.b #disapprove
+		name = wtt_prc.1.b 
 		ai_chance = {
 			base = 10
 			modifier = {
@@ -104,7 +104,7 @@ country_event = {
 	}
 }
 
-#PRC offers United Front, CHI refuses, event for PRC
+
 country_event = {
 	id = wtt_prc.2
 	title = wtt_prc.2.t
@@ -114,12 +114,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = wtt_prc.2.a #approve
+		name = wtt_prc.2.a 
 		
 	}
 }
 
-#PRC demands warlords join faction
+
 country_event = {
 	id = wtt_prc.10
 	title = wtt_prc.10.t
@@ -129,7 +129,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = wtt_prc.10.a #approve
+		name = wtt_prc.10.a 
 		ai_chance = {
 			base = 50
 		}
@@ -155,7 +155,7 @@ country_event = {
 	}
 
 	option = {
-		name = wtt_prc.10.b #disapprove
+		name = wtt_prc.10.b 
 		ai_chance = {
 			base = 10
 		}
@@ -171,7 +171,7 @@ country_event = {
 	}
 }
 
-#Warlord accepts
+
 country_event = {
 	id = wtt_prc.11
 	title = wtt_prc.11.t
@@ -186,7 +186,7 @@ country_event = {
 	}
 }
 
-#Warlord refuses
+
 country_event = {
 	id = wtt_prc.12
 	title = wtt_prc.12.t
@@ -196,7 +196,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = wtt_prc.12.a #approve
+		name = wtt_prc.12.a 
 		effect_tooltip = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
@@ -206,7 +206,7 @@ country_event = {
 	}
 }
 
-#Provoke Japan - event for Japan to attack
+
 country_event = {
 	id = wtt_prc.20
 	title = wtt_prc.20.t
@@ -218,7 +218,7 @@ country_event = {
 		not = { has_war_with = event_target:WTT_communist_china }
 	}
 	option = {
-		name = wtt_prc.20.a #don't do anything
+		name = wtt_prc.20.a 
 		ai_chance = {
 			base = 20
 			modifier = {
@@ -232,7 +232,7 @@ country_event = {
 	}
 
 	option = {
-		name = wtt_prc.20.b #go to war
+		name = wtt_prc.20.b 
 		ai_chance = {
 			base = 80
 		}
@@ -247,7 +247,7 @@ country_event = {
 	}
 
 	option = {
-		name = wtt_prc.20.c #retreat from the continent
+		name = wtt_prc.20.c 
 		ai_chance = {
 			base = 0
 			modifier = {
@@ -259,13 +259,80 @@ country_event = {
 			limit = {
 				controls_state = 527
 			}
-			KOR = { transfer_state = 527 }
+			KOR = { transfer_state = 527 
+		transfer_state = 6995 
+		transfer_state = 6996 
+		transfer_state = 6997 
+		transfer_state = 6998 
+		transfer_state = 6999 
+		transfer_state = 7000 
+		transfer_state = 7001 
+		transfer_state = 7002 
+		transfer_state = 7003 
+		transfer_state = 7004 
+		transfer_state = 7005 
+		transfer_state = 7006 
+		transfer_state = 7007 
+		transfer_state = 7008 
+		transfer_state = 7009 
+		transfer_state = 7010 
+		transfer_state = 7011 
+		transfer_state = 7012 
+		transfer_state = 7013 
+		transfer_state = 7014 
+		transfer_state = 7015 
+		transfer_state = 7016 
+		transfer_state = 7017 
+		transfer_state = 7018 
+		transfer_state = 7019 
+		transfer_state = 7020 
+		transfer_state = 7021 
+		transfer_state = 7022 
+		transfer_state = 7023 
+		transfer_state = 7024 
+		transfer_state = 7025 
+		transfer_state = 7026 
+		transfer_state = 7027 
+		transfer_state = 7028 
+		transfer_state = 7029 
+		transfer_state = 7030 
+		transfer_state = 7031 
+		transfer_state = 7032 }
 		}
 		if = {
 			limit = {
 				controls_state = 525
 			}
-			KOR = { transfer_state = 525 }
+			KOR = { transfer_state = 525 
+		transfer_state = 6963 
+		transfer_state = 6964 
+		transfer_state = 6965 
+		transfer_state = 6966 
+		transfer_state = 6967 
+		transfer_state = 6968 
+		transfer_state = 6969 
+		transfer_state = 6970 
+		transfer_state = 6971 
+		transfer_state = 6972 
+		transfer_state = 6973 
+		transfer_state = 6974 
+		transfer_state = 6975 
+		transfer_state = 6976 
+		transfer_state = 6977 
+		transfer_state = 6978 
+		transfer_state = 6979 
+		transfer_state = 6980 
+		transfer_state = 6981 
+		transfer_state = 6982 
+		transfer_state = 6983 
+		transfer_state = 6984 
+		transfer_state = 6985 
+		transfer_state = 6986 
+		transfer_state = 6987 
+		transfer_state = 6988 
+		transfer_state = 6989 
+		transfer_state = 6990 
+		transfer_state = 6991 }
 		}
 		if = {
 			limit = {
@@ -278,7 +345,13 @@ country_event = {
 					controls_state = 609
 				}
 				MAN = {
-					transfer_state = 609
+					transfer_state = 609 
+		transfer_state = 8261 
+		transfer_state = 8262 
+		transfer_state = 8263 
+		transfer_state = 8264 
+		transfer_state = 8265 
+		transfer_state = 8266
 				}
 			}
 			if = {
@@ -286,7 +359,8 @@ country_event = {
 					controls_state = 745
 				}
 				MAN = {
-					transfer_state = 745
+					transfer_state = 745 
+		transfer_state = 9582
 				}
 			}
 			set_autonomy = { target = MAN autonomy_state = autonomy_free }
@@ -302,7 +376,13 @@ country_event = {
 					controls_state = 609
 				}
 				event_target:WTT_current_china_leader = {
-					transfer_state = 609
+					transfer_state = 609 
+		transfer_state = 8261 
+		transfer_state = 8262 
+		transfer_state = 8263 
+		transfer_state = 8264 
+		transfer_state = 8265 
+		transfer_state = 8266
 				}
 			}
 			if = {
@@ -310,7 +390,8 @@ country_event = {
 					controls_state = 745
 				}
 				event_target:WTT_current_china_leader = {
-					transfer_state = 745
+					transfer_state = 745 
+		transfer_state = 9582
 				}
 			}
 		}
@@ -325,7 +406,7 @@ country_event = {
 	}
 }
 
-#Provoke Japan - event for Japan - factory sabotaged
+
 country_event = {
 	id = wtt_prc.21
 	title = wtt_prc.21.t
@@ -343,7 +424,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wtt_prc.21.a #okay
+		name = wtt_prc.21.a 
 		country_event = { id = wtt_prc.20 days = 2 }
 		if = {
 			limit = {
@@ -388,7 +469,7 @@ country_event = {
 	}
 }
 
-#Provoke Japan - event for Japan - civilian factory sabotaged
+
 country_event = {
 	id = wtt_prc.22
 	title = wtt_prc.22.t
@@ -406,7 +487,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wtt_prc.21.a #okay
+		name = wtt_prc.21.a 
 		country_event = { id = wtt_prc.20 days = 2 }
 		if = {
 			limit = {
@@ -451,7 +532,7 @@ country_event = {
 	}
 }
 
-#Provoke Japan - event for Japan - bridge blown
+
 country_event = {
 	id = wtt_prc.23
 	title = wtt_prc.23.t
@@ -469,7 +550,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wtt_prc.21.a #okay
+		name = wtt_prc.21.a 
 		country_event = { id = wtt_prc.20 days = 2 }
 		if = {
 			limit = {
@@ -505,7 +586,7 @@ country_event = {
 	}
 }
 
-#Provoke Japan - event for Japan - patrol ambushed
+
 country_event = {
 	id = wtt_prc.24
 	title = wtt_prc.24.t
@@ -523,7 +604,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wtt_prc.21.a #okay
+		name = wtt_prc.21.a 
 		country_event = { id = wtt_prc.20 days = 2 }
 		if = {
 			limit = {
@@ -548,7 +629,7 @@ country_event = {
 	}
 }
 
-#Provoke Japan - event for PRC - factory sabotaged
+
 country_event = {
 	id = wtt_prc.30
 	title = wtt_prc.30.t
@@ -558,12 +639,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = wtt_prc.30.a #okay
+		name = wtt_prc.30.a 
 		
 	}
 }
 
-#Provoke Japan - event for PRC - bridge blown
+
 country_event = {
 	id = wtt_prc.31
 	title = wtt_prc.30.t
@@ -575,12 +656,12 @@ country_event = {
 	
 	
 	option = {
-		name = wtt_prc.30.a #okay
+		name = wtt_prc.30.a 
 		
 	}
 }
 
-#Provoke Japan - event for PRC - patrol ambushed
+
 country_event = {
 	id = wtt_prc.32
 	title = wtt_prc.30.t
@@ -590,11 +671,11 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = wtt_prc.30.a #okay
+		name = wtt_prc.30.a 
 	}
 }
 
-# Hidden event to 'age' Franco after 1950
+
 country_event = {
 	id = wtt_prc.33
 
@@ -632,15 +713,15 @@ country_event = {
 	}
 }
 
-#   #  ##  ###  #    ##  ###  ###      #   #  ##     ###  ###   ##  
-#   # #  # #  # #   #  # #  # #  #     #   # #       #  # #  # #  # 
-# # # #### ###  #   #  # ###  #  #      # #   #      ###  ###  #    
-# # # #  # #  # #   #  # #  # #  #      # #    #     #    #  # #  # 
- # #  #  # #  # ###  ##  #  # ###        #   ##      #    #  #  ##  
+
+
+
+
+ 
 
 add_namespace = wtt_warlord_vs_prc
 
-# Warlord asks Soviet for support
+
 country_event = {
 	id = wtt_warlord_vs_prc.1
 	title = wtt_warlord_vs_prc.1.t
@@ -657,7 +738,7 @@ country_event = {
 		}
 	}
 	
-	#Accept support
+	
 	option = {
 		name = wtt_warlord_vs_prc.1.a
 		ai_chance = {
@@ -671,7 +752,7 @@ country_event = {
 		}
 		custom_effect_tooltip = wtt_warlord_vs_prc.1.a_tooltip
 
-		#Clear flag on old support, if any.
+		
 		hidden_effect = {
 			random_country = {
 				limit = { has_country_flag = WTT_support_from_soviet }
@@ -685,7 +766,7 @@ country_event = {
 		}
 	}
 
-	#Refuse support
+	
 	option = {
 		name = wtt_warlord_vs_prc.1.b
 		ai_chance = {
@@ -703,7 +784,7 @@ country_event = {
 	}
 }
 
-#Soviet support new warlord and tells WTT_communist_china that they are done.
+
 country_event = {
 	id = wtt_warlord_vs_prc.2
 	title = wtt_warlord_vs_prc.2.t
@@ -712,7 +793,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Accept defeat
+	
 	option = {
 		name = wtt_warlord_vs_prc.2.a
 		ai_chance = { 
@@ -759,7 +840,7 @@ country_event = {
 		}
 	}
 
-	#Refuse and go to war
+	
 	option = {
 		ai_chance = { 
 			base = 0
@@ -802,7 +883,7 @@ country_event = {
 		}
 
 		hidden_effect = {
-			#If not neighboring new commies or SOV
+			
 			if = {
 				limit = {
 					NOT = {
@@ -847,7 +928,7 @@ country_event = {
 }
 
 
-#Soviet tells Warlord no support
+
 country_event = {
 	id = wtt_warlord_vs_prc.3
 	title = wtt_warlord_vs_prc.3.t
@@ -861,7 +942,7 @@ country_event = {
 	}
 }
 
-#Warlord is told they are now the new WTT_communist_china.
+
 country_event = {
 	id = wtt_warlord_vs_prc.4
 	title = wtt_warlord_vs_prc.4.t
@@ -887,7 +968,7 @@ country_event = {
 	}
 }
 
-#Neighboring warlord told to join or die
+
 country_event = {
 	id = wtt_warlord_vs_prc.10
 	title = wtt_warlord_vs_prc.10.t
@@ -896,7 +977,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Join the new communist
+	
 	option = {
 		ai_chance = {
 			base = 10
@@ -934,7 +1015,7 @@ country_event = {
 		}
 	}
 
-	#Support the old communist
+	
 	option = {
 		ai_chance = {
 			base = 0
@@ -970,13 +1051,13 @@ country_event = {
 	}
 }
 
- ##  ##  #   # ### ### ###     ###  ### #   #  ##  #  # ###   ## 
-#   #  # #   #  #  #    #      #  # #   ## ## #  # ## # #  # #   
- #  #  #  # #   #  ##   #      #  # ##  # # # #### # ## #  #  #  
-  # #  #  # #   #  #    #      #  # #   #   # #  # #  # #  #   # 
-##   ##    #   ### ###  #      ###  ### #   # #  # #  # ###  ##  
+ 
 
-#Soviet asks WTT_communist_china for more stuff after having supported them
+ 
+  
+
+
+
 country_event = {
 	id = wtt_warlord_vs_prc.21
 	title = wtt_warlord_vs_prc.21.t
@@ -985,7 +1066,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Accept
+	
 	option = {
 		name = wtt_warlord_vs_prc.21.a
 		ai_chance = {
@@ -997,7 +1078,7 @@ country_event = {
 		}
 	}
 
-	#Refuse
+	
 	option = {
 		name = wtt_warlord_vs_prc.21.b
 		ai_chance = {
@@ -1009,7 +1090,7 @@ country_event = {
 	}
 }
 
-#WTT_communist_china answers yes. They will pay more.
+
 country_event = {
 	id = wtt_warlord_vs_prc.22
 	title = wtt_warlord_vs_prc.22.t
@@ -1028,7 +1109,7 @@ country_event = {
 	}
 }
 
-#WTT_communist_china answers no. Soviet can go FT
+
 country_event = {
 	id = wtt_warlord_vs_prc.23
 	title = wtt_warlord_vs_prc.23.t
@@ -1037,7 +1118,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Take what is ours
+	
 	option = {
 		name = wtt_warlord_vs_prc.23.a
 		ai_chance = { 
@@ -1049,7 +1130,7 @@ country_event = {
 		}
 	}
 
-	#Let it slide
+	
 	option = {
 		name = wtt_warlord_vs_prc.23.a
 		ai_chance = { 
@@ -1059,7 +1140,7 @@ country_event = {
 }
 
 
-#Soviet asks WTT_communist_china to become puppet
+
 country_event = {
 	id = wtt_warlord_vs_prc.31
 	title = wtt_warlord_vs_prc.31.t
@@ -1068,7 +1149,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Accept puppet
+	
 	option = {
 		name = wtt_warlord_vs_prc.31.a
 		ai_chance = {
@@ -1080,7 +1161,7 @@ country_event = {
 		}
 	}
 
-	#Never
+	
 	option = {
 		name = wtt_warlord_vs_prc.31.b
 		ai_chance = { 
@@ -1093,7 +1174,7 @@ country_event = {
 	}
 }
 
-# Answer from WTT_communist_china wtt_warlord_vs_prc.31 - Yes
+
 country_event = {
 	id = wtt_warlord_vs_prc.32
 	title = wtt_warlord_vs_prc.32.t
@@ -1108,7 +1189,7 @@ country_event = {
 }
 
 
-# Answer from WTT_communist_china wtt_warlord_vs_prc.31 - No
+
 country_event = {
 	id = wtt_warlord_vs_prc.33
 	title = wtt_warlord_vs_prc.33.t
@@ -1126,7 +1207,7 @@ country_event = {
 	}
 }
 
-# Event to Soviet WTT_communist_china will not pay any longer
+
 country_event = {
 	id = wtt_warlord_vs_prc.34
 	title = wtt_warlord_vs_prc.34.t
@@ -1144,9 +1225,9 @@ country_event = {
 	}
 }
 
-# PRC is informed that a warlord wants to create a United Front faction
-# Can either accept (it was already done in the NF) or break up the faction
-# Triggered by warlord NF Join the Chinese Soviet
+
+
+
 
 country_event = {
 	id = wtt_warlord_vs_prc.35

@@ -1,11 +1,8 @@
-﻿###########################
-# Mexico Events
-# By Tristan 'Enjoy' Edge, aged 30 and 2 months
-###########################
+
 
 add_namespace = mexico
 
-# General Cedillo revolts
+
 
 country_event = {
 	id = mexico.1
@@ -33,7 +30,7 @@ country_event = {
 					ideology = fascism
 					size = civil_war_size_var
 					keep_unit_leaders = { 700 701 702 703 704 705 706 707 708 709 710 711 712 }
-					states = { 479 480 }
+					states = { 479 480  6311 6312 6313 6314 6315 6316 6326 6327 6328 6329 6330 6331 6332 6333}
 				}
 			}
 			if = {
@@ -48,7 +45,7 @@ country_event = {
 					ideology = neutrality
 					size = civil_war_size_var
 					keep_unit_leaders = { 700 701 702 703 704 705 706 707 708 709 710 711 712 }
-					states = { 479 480 }
+					states = { 479 480  6311 6312 6313 6314 6315 6316 6326 6327 6328 6329 6330 6331 6332 6333}
 				}
 			}
 			random_other_country = {
@@ -138,7 +135,7 @@ country_event = {
 					planning_skill = 2
 					logistics_skill = 2
 				}
-				create_corps_commander = { # Fictitious
+				create_corps_commander = { 
 					name = "Manuel Sánchez"
 					portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 					traits = { harsh_leader }
@@ -187,7 +184,7 @@ country_event = {
 	}
 }
 
-# Mexico has nationalised the oil fields, Britain and America are informed that their oil companies are demanding compensation
+
 
 country_event = {
 	id = mexico.2
@@ -307,7 +304,7 @@ country_event = {
 	}
 }
 
-# Mexico is informed that they are under embargo
+
 
 country_event = {
 	id = mexico.3
@@ -328,12 +325,12 @@ country_event = {
 				}
 			}
 			set_global_flag = flag_mexico_embargo_has_incited_cedillo
-			MEX_increase_cedillo_tension = yes # Supposedly, Cedillo rebelled because he thought the imperial powers would support him after the oil nationalisation
+			MEX_increase_cedillo_tension = yes 
 		}
 	}
 }
 
-# Mexico has compensated the oil firms, Britain and America are informed and must lift any embargo or face political pressure
+
 
 country_event = {
 	id = mexico.4
@@ -387,7 +384,7 @@ country_event = {
 	}
 }
 
-# Mexico asks to join someone's faction via focus
+
 
 country_event = {
 	id = mexico.8
@@ -537,8 +534,8 @@ country_event = {
 	}
 }
 
-# Mexico is being sponsored to join a faction by a third party (ENG/GER/SOV/USA)
-# Attempt to catch a request to USA going to ENG, but knowing HoI4 anything could happen
+
+
 
 country_event = {
 	id = mexico.9
@@ -624,7 +621,7 @@ country_event = {
 	}
 }
 
-# Mexico invites a Latin American country to join its right-wing faction, the Latin American Order
+
 
 country_event = {
 	id = mexico.10
@@ -638,7 +635,7 @@ country_event = {
 	option = {
 		name = mexico.10.a
 
-		set_country_flag = flag_joined_mexican_faction # Used to turn on an AI strategy to stay in Mexico's faction
+		set_country_flag = flag_joined_mexican_faction 
 		
 		FROM = {
 			add_to_faction = ROOT
@@ -706,7 +703,7 @@ country_event = {
 	}
 }
 
-# Mexico invites a Latin American country to join its left-wing faction, the Bolivarian Alliance
+
 
 country_event = {
 	id = mexico.11
@@ -720,7 +717,7 @@ country_event = {
 	option = {
 		name = mexico.11.a
 		
-		set_country_flag = flag_joined_mexican_faction # Used to turn on an AI strategy to stay in Mexico's faction
+		set_country_flag = flag_joined_mexican_faction 
 
 		FROM = {
 			add_to_faction = ROOT
@@ -788,7 +785,7 @@ country_event = {
 	}
 }
 
-# Mexico asks Britain to sell Belize after aligning towards them
+
 
 country_event = {
 	id = mexico.12
@@ -853,7 +850,7 @@ country_event = {
 	}
 }
 
-# Mexico is informed that Belize was granted to them
+
 
 country_event = {
 	id = mexico.13
@@ -869,7 +866,7 @@ country_event = {
 	}
 }
 
-# Mexico is informed Britain refused to turn over Belize
+
 
 country_event = {
 	id = mexico.14
@@ -885,7 +882,7 @@ country_event = {
 	}
 }
 
-# Archbishop Pascual Díaz y Barreto passes away
+
 
 country_event = {
 	id = mexico.15
@@ -902,11 +899,11 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 6 # Historically died in May 1936
+		months = 6 
 	}
 	
 	option = {
-		name = mexico.15.a # Rest in peace
+		name = mexico.15.a 
 		
 		MEX_increase_church_power = yes
 		
@@ -931,7 +928,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = mexico.15.b # Burn in hell
+		name = mexico.15.b 
 		
 		MEX_decrease_church_power = yes
 		
@@ -957,7 +954,7 @@ country_event = {
 	}
 }
 
-# Oil worker strike
+
 
 country_event = {
 	id = mexico.16
@@ -996,11 +993,11 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12 # Historically started in November 1937
+		months = 12 
 	}
 	
 	option = {
-		name = mexico.16.a # Support the strikers
+		name = mexico.16.a 
 		
 		if = {
 			limit = {
@@ -1010,7 +1007,7 @@ country_event = {
 					has_idea = MEX_cedillo_tension_3
 				}
 			}
-			MEX_increase_cedillo_tension = yes # Supposedly, Cedillo rebelled because he thought the imperial powers would support him after the oil nationalisation
+			MEX_increase_cedillo_tension = yes 
 			add_political_power = -100
 		}
 		else = {
@@ -1023,7 +1020,7 @@ country_event = {
 	}
 
 	option = {
-		name = mexico.16.b # Support the oil companies
+		name = mexico.16.b 
 		
 		add_stability = -0.05
 		
@@ -1033,7 +1030,7 @@ country_event = {
 	}
 }
 
-# Trotsky arrives from Norway
+
 
 country_event = {
 	id = mexico.17
@@ -1063,11 +1060,11 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 3 # Historically arrived in January 1937
+		months = 3 
 	}
 	
 	option = {
-		name = mexico.17.a # We aren't Stalin's puppets, let him stay
+		name = mexico.17.a 
 		
 		if = {
 			limit = {
@@ -1153,7 +1150,7 @@ country_event = {
 			}
 		}
 		
-		name = mexico.17.b # Send him to Stalin to face trial for his crimes
+		name = mexico.17.b 
 				
 		if = {
 			limit = {
@@ -1206,7 +1203,7 @@ country_event = {
 	}
 	
 	option = {
-		name = mexico.17.c # Invite him to join the government
+		name = mexico.17.c 
 		
 		trigger = {
 			OR = {
@@ -1260,9 +1257,9 @@ country_event = {
 	}
 }
 
-# The 1940 election begins
-# First the player is asked if he wants to change the law to remain in office a second term
-# Doing so is likely to incite a second revolution (Diaz reigned for 30 years)
+
+
+
 
 country_event = {
 	id = mexico.18
@@ -1344,8 +1341,8 @@ country_event = {
 	}
 }
 
-# The successor is now selected. Will depend on the choice of policies and current leader.
-# The previous event implies the law on successors is being strictly applied so candidates are not eligible if they have been president before!
+
+
 
 country_event = {
 	id = mexico.19
@@ -1356,9 +1353,9 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Neutrality
 	
-	option = { # Left-wing successor: Francisco Múgica
+	
+	option = { 
 		name = mexico.19.a
 		
 		trigger = {
@@ -1381,7 +1378,7 @@ country_event = {
 			}
 		}
 		
-		hidden_effect = { # Juan Andreu complains he was not selected
+		hidden_effect = { 
 			if = {
 				limit = {
 					USA = {
@@ -1400,7 +1397,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Compromise successor: Manuel Ávila
+	option = { 
 		name = mexico.19.b
 		
 		trigger = {
@@ -1423,7 +1420,7 @@ country_event = {
 			}
 		}
 		
-		hidden_effect = { # Juan Andreu complains he was not selected
+		hidden_effect = { 
 			if = {
 				limit = {
 					USA = {
@@ -1442,7 +1439,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Right-wing successor: Saturnino Cedillo
+	option = { 
 		name = mexico.19.c
 		
 		trigger = {
@@ -1470,33 +1467,33 @@ country_event = {
 		}
 	}
 	
-	#option = { # Far-right candidate: Juan Andreu
-	#	name = mexico.19.d
-	#	
-	#	trigger = {
-	#		NOT = {
-	#			has_country_leader = {
-	#				name = "Juan Andreu"
-	#			}
-	#		}
-	#		has_government = neutrality
-	#	}
-
-	#	create_country_leader = {
-	#		name = "Juan Andreu"
-	#		desc = "POLITICS_JUAN_ANDREU_DESC"
-	#		picture = "GFX_portrait_mex_juan_andreu"
-	#		expire = "1965.1.1"
-	#		ideology = oligarchism
-	#		traits = {
-	#			the_silver_president
-	#		}
-	#	}
-	#}
-
-	# Democratic
 	
-	option = { # Far-left successor: Vicente Lombardo
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	option = { 
 		name = mexico.19.e
 		
 		trigger = {
@@ -1520,7 +1517,7 @@ country_event = {
 			}
 		}
 		
-		hidden_effect = { # Juan Andreu complains he was not selected
+		hidden_effect = { 
 			if = {
 				limit = {
 					USA = {
@@ -1543,7 +1540,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Left-wing successor: Francisco Múgica
+	option = { 
 		name = mexico.19.f
 		
 		trigger = {
@@ -1566,7 +1563,7 @@ country_event = {
 			}
 		}
 		
-		hidden_effect = { # Juan Andreu complains he was not selected
+		hidden_effect = { 
 			if = {
 				limit = {
 					USA = {
@@ -1589,7 +1586,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Right-wing successor: Manuel Ávila
+	option = { 
 		name = mexico.19.g
 		
 		trigger = {
@@ -1612,7 +1609,7 @@ country_event = {
 			}
 		}
 		
-		hidden_effect = { # Juan Andreu complains he was not selected
+		hidden_effect = { 
 			if = {
 				limit = {
 					USA = {
@@ -1639,33 +1636,33 @@ country_event = {
 		}
 	}
 	
-	#option = { # Far-right candidate: Juan Andreu
-	#	name = mexico.19.h
-	#	
-	#	trigger = {
-	#		NOT = {
-	#			has_country_leader = {
-	#				name = "Juan Andreu"
-	#			}
-	#		}
-	#		has_government = democratic
-	#	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-	#	create_country_leader = {
-	#		name = "Juan Andreu"
-	#		desc = "POLITICS_JUAN_ANDREU_DESC"
-	#		picture = "GFX_portrait_mex_juan_andreu"
-	#		expire = "1965.1.1"
-	#		ideology = conservatism
-	#		traits = {
-	#			the_silver_president
-	#		}
-	#	}
-	#}
 	
-	# Communist
 	
-	option = { # Trades unionist successor: Vicente Lombardo
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	option = { 
 		name = mexico.19.i
 		
 		trigger = {
@@ -1690,7 +1687,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Social democratic successor: Francisco Múgica
+	option = { 
 		name = mexico.19.j
 		
 		trigger = {
@@ -1714,7 +1711,7 @@ country_event = {
 		}
 	}
 
-	option = { # Stalinist successor: Dionisio Encina
+	option = { 
 		name = mexico.19.k
 		
 		trigger = {
@@ -1745,7 +1742,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Trotskyist successor: Hernán Laborde
+	option = { 
 		name = mexico.19.l
 		
 		trigger = {
@@ -1759,7 +1756,7 @@ country_event = {
 				NOT = {
 					has_global_flag = flag_mexico_invited_trotsky_to_government
 				}
-				AND = { # If Trotsky is in power, he steps down and Laborde is successor
+				AND = { 
 					has_global_flag = flag_mexico_invited_trotsky_to_government
 					has_country_leader = { name = "Leon Trotsky" }
 				}
@@ -1778,7 +1775,7 @@ country_event = {
 		}
 	}
 
-	option = { # Trotsky himself
+	option = { 
 		name = mexico.19.m
 		
 		trigger = {
@@ -1809,7 +1806,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Continuity candidate: Saturnino Cedillo
+	option = { 
 		name = mexico.19.n
 		
 		trigger = {
@@ -1837,31 +1834,31 @@ country_event = {
 		}
 	}
 
-	#option = { # Fascist candidate: Juan Andreu
-	#	name = mexico.19.o
-	#	
-	#	trigger = {
-	#		NOT = {
-	#			has_country_leader = {
-	#				name = "Juan Andreu"
-	#			}
-	#		}
-	#		has_government = fascism
-	#	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-	#	create_country_leader = {
-	#		name = "Juan Andreu"
-	#		desc = "POLITICS_JUAN_ANDREU_DESC"
-	#		picture = "GFX_portrait_mex_juan_andreu"
-	#		expire = "1965.1.1"
-	#		ideology = fascism_ideology
-	#		traits = {
-	#			the_silver_president
-	#		}
-	#	}
-	#}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-	option = { # Religious candidate: Jesús Degollado Guízar
+	option = { 
 		name = mexico.19.p
 		
 		trigger = {
@@ -1886,7 +1883,7 @@ country_event = {
 		}
 	}
 
-	option = { # Falangist candidate: Salvador Abascal
+	option = { 
 		name = mexico.19.q
 		
 		trigger = {
@@ -1909,7 +1906,7 @@ country_event = {
 			}
 		}
 	}
-	option = { # Neither Trotsky nor Laborde: Valentín Campa
+	option = { 
 		name = mexico.19.r
 		
 		trigger = {
@@ -1930,12 +1927,12 @@ country_event = {
 			}
 		}
 	}
-	# That should be enough for now.
+	
 
 }
 
-# If a centre/left-wing neutral or democratic leader is selected, Juan Andreu complains (historic)
-# Only triggered if America exists, is independent and not at war with Mexico (flavour text reasons)
+
+
 
 country_event = {
 	id = mexico.20
@@ -1951,7 +1948,7 @@ country_event = {
 	}
 }
 
-# Stalin is informed that Trotsky has been apprehended by Mexico and extradited
+
 
 country_event = {
 	id = mexico.21
@@ -1971,8 +1968,8 @@ country_event = {
 	}
 }
 
-# USSR is inviting Trotsky to return and lead their anti-Stalin coup
-# Mexico loses access to Trotsky
+
+
 
 country_event = {
 	id = mexico.22
@@ -2009,9 +2006,9 @@ country_event = {
 			add_political_power = 100
 		}
 		
-		set_global_flag = flag_trotsky_has_returned_to_ussr_from_mexico # Prevents taking Trotsky as Chief of Staff
+		set_global_flag = flag_trotsky_has_returned_to_ussr_from_mexico 
 		
-		add_stability = 0.02 # Divisive to have a Russian Bolshevik cabinet minister (gave -0.03 on recruiting him)
+		add_stability = 0.02 
 		
 		if = {
 			limit = {
@@ -2031,11 +2028,11 @@ country_event = {
 	}
 }
 
-# Unrestricted submarine warfare
 
-# German submarines sank some oilers in 1942, which brought Mexico into the war
 
-# First event offers Germany a short bonus to convoy raiding in exchange for the risk of diplomatic repercussions
+
+
+
 
 country_event = {
 	id = mexico.23
@@ -2058,32 +2055,32 @@ country_event = {
 		has_navy_size = { unit = submarine size > 9 }
 		
 		OR = {
-			ships_in_area = { # Gulf of Mexico
+			ships_in_area = { 
 				type = submarine
 				area = 52
 				size > 0
 			}
-			ships_in_area = { # Carribean Sea
+			ships_in_area = { 
 				type = submarine
 				area = 53
 				size > 0
 			}
-			ships_in_area = { # Florida Coast
+			ships_in_area = { 
 				type = submarine
 				area = 170
 				size > 0
 			}
-			ships_in_area = { # Eastern Seaboard
+			ships_in_area = { 
 				type = submarine
 				area = 54
 				size > 0
 			}
-			ships_in_area = { # Sargasso Sea
+			ships_in_area = { 
 				type = submarine
 				area = 57
 				size > 0
 			}
-			ships_in_area = { # Demerara Plain
+			ships_in_area = { 
 				type = submarine
 				area = 59
 				size > 0
@@ -2102,7 +2099,7 @@ country_event = {
 	}
 	
 	option = {
-		name = mexico.23.a # Sink them
+		name = mexico.23.a 
 		
 		add_war_support = 0.01
 		
@@ -2123,7 +2120,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = mexico.23.b # Best not
+		name = mexico.23.b 
 		
 		ai_chance = {
 			factor = 0
@@ -2131,7 +2128,7 @@ country_event = {
 	}
 }
 
-# Mexico is informed of the attacks by German submarines and gets the opportunity to enter the war against Germany
+
 
 country_event = {
 	id = mexico.24
@@ -2143,7 +2140,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = mexico.24.a # Join the war against Germany
+		name = mexico.24.a 
 		
 		trigger = {
 			NOT = {
@@ -2183,7 +2180,7 @@ country_event = {
 	}
 	
 	option = {
-		name = mexico.24.b # What can we do?
+		name = mexico.24.b 
 		
 		add_stability = 0.01
 		
@@ -2198,7 +2195,7 @@ country_event = {
 	}
 }
 
-# USA's faction leader (ie USA or ENG) gets asked to add Mexico to the war against Germany
+
 
 country_event = {
 	id = mexico.25
@@ -2210,7 +2207,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = mexico.25.a # Every little helps
+		name = mexico.25.a 
 		
 		trigger = {
 			NOT = {
@@ -2248,7 +2245,7 @@ country_event = {
 	}
 	
 	option = {
-		name = mexico.25.b # Mexico? Bahahaha
+		name = mexico.25.b 
 		
 		add_political_power = 25
 		
@@ -2263,7 +2260,7 @@ country_event = {
 	}
 }
 
-# News event for Mexico joining the war against Germany after submarine attacks
+
 
 news_event = {
 	id = mexico.26
@@ -2316,7 +2313,7 @@ news_event = {
 	}
 }
 
-# Papal encyclical on Mexico issued by Pope Pius XI
+
 
 country_event = {
 	id = mexico.27
@@ -2341,11 +2338,11 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 6 # Historically published 28 March 1937
+		months = 6 
 	}
 	
 	option = {
-		name = mexico.27.a # It is good that the anti-Church violence has ended.
+		name = mexico.27.a 
 		
 		MEX_increase_church_power = yes
 		
@@ -2370,7 +2367,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = mexico.27.b # Superstitious propaganda, prevent publication of this treason!
+		name = mexico.27.b 
 		
 		MEX_decrease_church_power = yes
 		
@@ -2396,7 +2393,7 @@ country_event = {
 	}
 }
 
-# The renewed attacks on the church incite a Second Cristiada
+
 
 country_event = {
 	id = mexico.28
@@ -2458,7 +2455,7 @@ country_event = {
 					planning_skill = 2
 					logistics_skill = 2
 				}
-				create_corps_commander = { # Fictitious
+				create_corps_commander = { 
 					name = "Alberto Gorostieta Vega"
 					portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 					traits = { war_hero }
@@ -2468,7 +2465,7 @@ country_event = {
 					planning_skill = 3
 					logistics_skill = 3
 				}
-				create_corps_commander = { # Fictitious
+				create_corps_commander = { 
 					name = "Dionisio Navarro Anguiano"
 					portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 					traits = { infantry_officer }
@@ -2551,7 +2548,7 @@ country_event = {
 	}
 
 	option = {
-		name = mexico.28.a # We should have stamped this treason out earlier!
+		name = mexico.28.a 
 		
 		hidden_effect = {
 			news_event = {
@@ -2562,7 +2559,7 @@ country_event = {
 	}
 }
 
-# News event for Second Cristiada
+
 
 news_event = {
 	id = mexico.29
@@ -2608,7 +2605,7 @@ news_event = {
 	}
 }
 
-# The rapid ascent of the church incites a civil war from the anti-Church military and far-left
+
 
 country_event = {
 	id = mexico.30
@@ -2617,13 +2614,13 @@ country_event = {
 	desc = {
 		text = mexico.30.desc1
 		trigger = {
-			NOT = { has_completed_focus = MEX_focus_jefe_maximo } # Calles is in on the action
+			NOT = { has_completed_focus = MEX_focus_jefe_maximo } 
 		}
 	}
 	desc = {
 		text = mexico.30.desc2
 		trigger = {
-			has_completed_focus = MEX_focus_jefe_maximo # Calles has been placated and isn't mentioned in the description
+			has_completed_focus = MEX_focus_jefe_maximo 
 		}
 	}
 
@@ -2687,9 +2684,9 @@ country_event = {
 					every_unit_leader = {
 						limit = {
 							OR = {
-								has_id = 704 # Former president Abelardo L. Rodríguez
-								has_id = 705 # Future president Manuel Ávila Camacho
-								has_id = 707 # Revolutionary general/admiral Heriberto Jara Corona
+								has_id = 704 
+								has_id = 705 
+								has_id = 707 
 							}
 						}
 						set_nationality = event_target:mexican_second_revolution_rebeller
@@ -2715,7 +2712,7 @@ country_event = {
 						logistics_skill = 3
 					}
 				}
-				create_corps_commander = { # It's your chance to shine, my boy!
+				create_corps_commander = { 
 					name = "Vicente Lombardo"
 					gfx = "GFX_portrait_mex_vicente_lombardo"
 					traits = { politically_connected }
@@ -2735,14 +2732,14 @@ country_event = {
 					planning_skill = 2
 					logistics_skill = 2
 				}
-				create_country_leader = { # Exiled until 1935 following a rebellion attempt, allowed back in by Cardenas and joined the cabinet of Avila
+				create_country_leader = { 
 					name = "Adolfo de la Huerta"
 					desc = "POLITICS_ADOLFO_DE_LA_HUERTA_DESC"
 					picture = "GFX_Portrait_MEX_Adolfo_de_la_Huerta"
 					expire = "1965.1.1"
 					ideology = conservatism
 					traits = {
-						#
+						
 					}
 				}
 				create_country_leader = {
@@ -2846,7 +2843,7 @@ country_event = {
 	}
 
 	option = {
-		name = mexico.30.a # Long live Christ the King and Blessed Mary of Guadalupe!
+		name = mexico.30.a 
 		
 		hidden_effect = {
 			news_event = {
@@ -2857,7 +2854,7 @@ country_event = {
 	}
 }
 
-# News event for Second Mexican Revolution
+
 
 news_event = {
 	id = mexico.31
@@ -2902,7 +2899,7 @@ news_event = {
 	}
 }
 
-# Zoot Suit Riots occur in America
+
 
 country_event = {
 	id = mexico.32
@@ -2918,9 +2915,9 @@ country_event = {
 		
 		date > 1941.1.1
 		
-		has_war = yes # Ostensibly over fabrics in short supply during wartime. Sumptuary laws help create an orderly and peaceful society under God
+		has_war = yes 
 		
-		has_government = democratic # Bigger concerns if they are fascists or communists
+		has_government = democratic 
 		
 		country_exists = MEX
 		
@@ -2931,7 +2928,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24 # Historically June 1943
+		months = 24 
 	}
 	
 	option = {
@@ -3041,7 +3038,7 @@ country_event = {
 	}
 }
 
-# Germany is asked if they want to give Mexico tank licences for closer relations
+
 
 country_event = {
 	id = mexico.34
@@ -3300,7 +3297,7 @@ country_event = {
 	}
 }
 
-# Mexico is informed Germany is giving them free tank licences
+
 
 country_event = {
 	id = mexico.35
@@ -3470,7 +3467,7 @@ country_event = {
 	}
 }
 
-# Mexico is informed Germany refuses to give tank licences for free
+
 
 country_event = {
 	id = mexico.36
@@ -3486,7 +3483,7 @@ country_event = {
 	}
 }
 
-# Operation Just Cause - Mexico seizes the Panama Canal and is informed of success
+
 
 country_event = {
 	id = mexico.40
@@ -3508,7 +3505,7 @@ country_event = {
 	}
 }
 
-# Operation Just Cause succeeded - America gets opportunity to retaliate
+
 
 country_event = {
 	id = mexico.41
@@ -3597,7 +3594,7 @@ country_event = {
 	}
 }
 
-# Operation Just Cause - Mexican attack on Panama Canal failed
+
 
 country_event = {
 	id = mexico.42
@@ -3617,7 +3614,7 @@ country_event = {
 	}
 }
 
-# Operation Just Cause failed - America gets opportunity to retaliate
+
 
 country_event = {
 	id = mexico.43
@@ -3702,19 +3699,19 @@ country_event = {
 	}
 }
 
-# News event for a successful seizure of Panama Canal
+
 
 news_event = {
 	id = mexico.44
 	title = mexico.44.title
 
-	desc = { # 
+	desc = { 
 		text = mexico.44.desc1
 		trigger = {
 			has_global_flag = flag_america_plans_to_punish_mexico_for_canal_attack
 		}
 	}
-	desc = { # 
+	desc = { 
 		text = mexico.44.desc2
 		trigger = {
 			has_global_flag = flag_america_ignores_mexican_attack_on_canal
@@ -3763,19 +3760,19 @@ news_event = {
 	}
 }
 
-# News event for the seizure of Panama Canal failing
+
 
 news_event = {
 	id = mexico.45
 	title = mexico.45.title
 
-	desc = { # 
+	desc = { 
 		text = mexico.45.desc1
 		trigger = {
 			has_global_flag = flag_america_plans_to_punish_mexico_for_canal_attack
 		}
 	}
-	desc = { # 
+	desc = { 
 		text = mexico.45.desc2
 		trigger = {
 			has_global_flag = flag_america_ignores_mexican_attack_on_canal
@@ -3824,7 +3821,7 @@ news_event = {
 	}
 }
 
-# News event for Mexico creating Latin American Order faction
+
 
 news_event = {
 	id = mexico.46
@@ -3869,7 +3866,7 @@ news_event = {
 	}
 }
 
-# News event for Mexico creating Bolivarian Alliance
+
 
 news_event = {
 	id = mexico.47
@@ -3914,7 +3911,7 @@ news_event = {
 	}
 }
 
-# Mexico sends a shipment of military supplies to a Spanish Civil War participant
+
 
 country_event = {
 	id = mexico.50
@@ -3936,7 +3933,7 @@ country_event = {
 	}
 }
 
-# Shipment intended for Spain is sunk
+
 
 country_event = {
 	id = mexico.51
@@ -3977,7 +3974,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { #ask other communist faction leaders to dismantle their faction and join Trotsky
+	option = { 
 		name = mexico.52.a
 		every_other_country = {
 			limit = {
@@ -3996,7 +3993,7 @@ country_event = {
 		}		
 	}	
 	option = {
-		name = mexico.52.b #Never! Stalinism best -ism.
+		name = mexico.52.b 
 		ai_chance = {
 			factor = 30
 		}		
@@ -4011,7 +4008,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { #ask minor communist countries to join Trotsky
+	option = { 
 		name = mexico.53.a
 		MEX = {
 			add_to_faction = ROOT
@@ -4022,13 +4019,13 @@ country_event = {
 	}	
 	option = {
 		name = mexico.53.b
-		#Never! Stalinism best -ism.
+		
 		ai_chance = {
 			factor = 10
 		}		
 	}
 }
-# Enforce Decolonization event - release or else!!!!
+
 country_event = {
 	id = mexico.54
 	title = mexico.54.title
@@ -4037,7 +4034,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Accept - We will release
+	
 	option = {
 		name = mexico.54.a
 		ai_chance = {
@@ -4235,7 +4232,7 @@ country_event = {
 		FROM = { country_event = { id = mexico.55 hours = 6 } }
 	}
 
-	# Reject - We will NOT release
+	
 	option = {
 		name = mexico.54.b
 		ai_chance = {
@@ -4287,7 +4284,7 @@ country_event = {
 		}
 	}
 }
-# Enforce Decolonization event - FROM has released
+
 country_event = {
 	id = mexico.55
 	title = mexico.55.title
@@ -4296,14 +4293,14 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mexico.55.a
-		#TODO_Drikus effect_tooltip
+		
 	}
 }
 
-# Enforce Decolonization event - FROM has refused to release!
+
 country_event = {
 	id = mexico.56
 	title = mexico.56.title
@@ -4312,7 +4309,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Ok
+	
 	option = {
 		name = mexico.56.a
 		create_wargoal = {

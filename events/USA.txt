@@ -1,10 +1,7 @@
-﻿###########################
-# USA Events
-###########################
 
 add_namespace = usa
 
-# Amelia Eartharts wants to join the USAAC
+
 country_event = {
 	id = usa.1
 	title = usa.1.t
@@ -23,7 +20,7 @@ country_event = {
 		days = 30
 	}
 	
-	option = { # Let her join
+	option = { 
 		name = usa.1.a
 		add_political_power = -10
 		add_ace = {
@@ -35,12 +32,12 @@ country_event = {
 		}
 		set_country_flag = amelia_active_ace
 	}
-	option = { # Refuse
+	option = { 
 		name = usa.1.b
 	}
 }
 
-# Pearl Harbor Gambit
+
 country_event = {
 	id = usa.3
 	title = usa.3.t
@@ -80,12 +77,12 @@ country_event = {
 		create_wargoal = {
 			type = take_state
 			target = USA
-			generator = { 629 } # Hawaii
+			generator = { 629 } 
 		}
 	}
 }
 
-# Destroyers for Bases
+
 country_event = {
 	id = usa.4
 	title = usa.4.t
@@ -112,19 +109,27 @@ country_event = {
 					remove_state_core = 696
 				}
 				if = { limit = { 331 = { is_controlled_by = ENG } }
-					remove_state_core = 331
+					remove_state_core = 331 
+		remove_state_core = 3908 
+		remove_state_core = 3909 
+		remove_state_core = 3910 
+		remove_state_core = 3911
 				}
 				if = { limit = { 308 = { is_controlled_by = ENG } } 
-					remove_state_core = 308
+					remove_state_core = 308 
+		remove_state_core = 3686
 				}
 				if = { limit = { 693 = { is_controlled_by = ENG } } 
-					remove_state_core = 693
+					remove_state_core = 693 
+		remove_state_core = 9271
 				}
 				if = { limit = { 689 = { is_controlled_by = ENG } } 
-					remove_state_core = 689
+					remove_state_core = 689 
+		remove_state_core = 9251
 				}
 				if = { limit = { 691 = { is_controlled_by = ENG } } 
-					remove_state_core = 691
+					remove_state_core = 691 
+		remove_state_core = 9267
 				}
 			}
 		}
@@ -133,19 +138,27 @@ country_event = {
 				transfer_state = 696
 			}
 			if = { limit = { 331 = { is_controlled_by = ENG } }
-				transfer_state = 331
+				transfer_state = 331 
+		transfer_state = 3908 
+		transfer_state = 3909 
+		transfer_state = 3910 
+		transfer_state = 3911
 			}
 			if = { limit = { 308 = { is_controlled_by = ENG } } 
-				transfer_state = 308
+				transfer_state = 308 
+		transfer_state = 3686
 			}
 			if = { limit = { 693 = { is_controlled_by = ENG } } 
-				transfer_state = 693
+				transfer_state = 693 
+		transfer_state = 9271
 			}
 			if = { limit = { 689 = { is_controlled_by = ENG } } 
-				transfer_state = 689
+				transfer_state = 689 
+		transfer_state = 9251
 			}
 			if = { limit = { 691 = { is_controlled_by = ENG } } 
-				transfer_state = 691
+				transfer_state = 691 
+		transfer_state = 9267
 			}
 			add_opinion_modifier = {
 				target = ROOT
@@ -163,7 +176,7 @@ country_event = {
 
 }
 
-# Britain accepts offer
+
 country_event = {
 	id = usa.401
 	title = usa.401.t
@@ -177,7 +190,7 @@ country_event = {
 	}
 }
 
-# Britain refuses offer
+
 country_event = {
 	id = usa.5
 	title = usa.5.t
@@ -191,7 +204,7 @@ country_event = {
 	}
 }
 
-# Election of 1936: Roosevelt vs Alf Landon
+
 country_event = {
 	id = usa.6
 	title = usa.6.t
@@ -216,10 +229,10 @@ country_event = {
 						has_completed_focus = USA_union_representation_act
 					}
 				}
-				country_event = { id = usa.32 days = 730 } # midterms
+				country_event = { id = usa.32 days = 730 } 
 			}
 			else = {
-				country_event = { id = usa.35 days = 730 } # midterms
+				country_event = { id = usa.35 days = 730 } 
 			}
 		}
 	}
@@ -307,7 +320,7 @@ country_event = {
 	}
 }
 
-# Election of 1940: Roosevelt vs Wendell Wilkie
+
 country_event = {
 	id = usa.7
 	title = usa.7.t
@@ -333,10 +346,10 @@ country_event = {
 						has_completed_focus = USA_union_representation_act
 					}
 				}
-				country_event = { id = usa.32 days = 730 } # midterms
+				country_event = { id = usa.32 days = 730 } 
 			}
 			else = {
-				country_event = { id = usa.35 days = 730 } # midterms
+				country_event = { id = usa.35 days = 730 } 
 			}
 		}
 	}
@@ -394,11 +407,11 @@ country_event = {
 				
 			}
 		}
-		country_event = usa.31 #weighted towards gain of support
+		country_event = usa.31 
 	}
 }
 
-# Election of 1940: Roosevelt vs Landon (Incumbent)
+
 country_event = {
 	id = usa.8
 	title = usa.8.t
@@ -424,10 +437,10 @@ country_event = {
 						has_completed_focus = USA_union_representation_act
 					}
 				}
-				country_event = { id = usa.32 days = 730 } # midterms
+				country_event = { id = usa.32 days = 730 } 
 			}
 			else = {
-				country_event = { id = usa.35 days = 730 } # midterms
+				country_event = { id = usa.35 days = 730 } 
 			}
 		}
 	}
@@ -470,7 +483,7 @@ country_event = {
 	}
 }
 
-# Election of 1944: Roosevelt vs Thomas E. Dewey
+
 country_event = {
 	id = usa.9
 	title = usa.9.t
@@ -487,10 +500,10 @@ country_event = {
 						has_completed_focus = USA_union_representation_act
 					}
 				}
-				country_event = { id = usa.32 days = 730 } # midterms
+				country_event = { id = usa.32 days = 730 } 
 			}
 			else = {
-				country_event = { id = usa.35 days = 730 } # midterms
+				country_event = { id = usa.35 days = 730 } 
 			}
 		}
 	}
@@ -560,7 +573,7 @@ country_event = {
 	}
 }
 
-# Election of 1944: Roosevelt vs Incumbent
+
 country_event = {
 	id = usa.10
 	title = usa.10.t
@@ -577,10 +590,10 @@ country_event = {
 						has_completed_focus = USA_union_representation_act
 					}
 				}
-				country_event = { id = usa.32 days = 730 } # midterms
+				country_event = { id = usa.32 days = 730 } 
 			}
 			else = {
-				country_event = { id = usa.35 days = 730 } # midterms
+				country_event = { id = usa.35 days = 730 } 
 			}
 		}
 	}
@@ -634,7 +647,7 @@ country_event = {
 	}
 }
 
-# Election of 1944: Roosevelt vs MacArthur
+
 country_event = {
 	id = usa.11
 	title = usa.11.t
@@ -651,10 +664,10 @@ country_event = {
 						has_completed_focus = USA_union_representation_act
 					}
 				}
-				country_event = { id = usa.32 days = 730 } # midterms
+				country_event = { id = usa.32 days = 730 } 
 			}
 			else = {
-				country_event = { id = usa.35 days = 730 } # midterms
+				country_event = { id = usa.35 days = 730 } 
 			}
 		}
 	}
@@ -728,7 +741,7 @@ country_event = {
 	}
 }
 
-# Election of 1944: MacArthur Candidate?
+
 country_event = {
 	id = usa.12
 	title = usa.12.t
@@ -757,7 +770,7 @@ country_event = {
 	}
 }
 
-# Roosevelt Dies
+
 country_event = {
 	id = usa.13
 	title = usa.13.t
@@ -794,7 +807,7 @@ country_event = {
 	}
 }
 
-# Fascist US reacts to Commienazis 
+
 country_event = {
 	id = usa.14
 	title = usa.14.t
@@ -847,12 +860,12 @@ country_event = {
 	}
 }
 
-#DO NOT USE USA.15 AS EVENT ID
-#It will make the event text pop up as the name or requirement for two radar technologies for Finland if they are Fascist due to a hash conflict.
 
 
-# USA option to intervene in war
-# Hidden event to get scopes set up 
+
+
+
+
 country_event = {
 	id = usa.16
 
@@ -868,7 +881,7 @@ country_event = {
 	}
 }
 
-# USA option to intervene in war 
+
 country_event = {
 	id = usa.17
 	title = usa.17.t
@@ -877,11 +890,11 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Intervene ultimatum war
+	
 	option = { 
 		name = usa.17.a
 	
-		#Need to use FROM FROM scope since the one sending the event is the nation under attack
+		
 		ai_chance = {
 			factor = 20			
 			modifier = {
@@ -901,7 +914,7 @@ country_event = {
 		FROM = { FROM = { country_event = { id = usa.18 days = 2 } } }
 	}
 
-	#Don't Intervene
+	
 	option = {
 		name = usa.17.b
 
@@ -922,7 +935,7 @@ country_event = {
 	}
 }
 
-# Country response to USA intervening
+
 country_event = {
 	id = usa.18
 	title = usa.18.t
@@ -931,7 +944,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Go to war with USA
+	
 	option = { 
 		name = usa.18.a
 
@@ -964,17 +977,17 @@ country_event = {
 			}
 		}
 
-		#ROOT = {
-		#	declare_war_on = {
-		#		target = FROM
-		#	}
-		#}
+		
+		
+		
+		
+		
 		hidden_effect = {
 			news_event = { id = news.157 days = 2 }
 		}
 	}
 
-	#Back down
+	
 	option = {
 		name = usa.18.b
 
@@ -1015,7 +1028,7 @@ country_event = {
 	}
 }
 
-# US supports democracy 
+
 country_event = {
 	id = usa.20
 	title = usa.20.t
@@ -1034,7 +1047,7 @@ country_event = {
 	}
 }
 
-# US supports communism
+
 country_event = {
 	id = usa.21
 	title = usa.20.t
@@ -1053,7 +1066,7 @@ country_event = {
 	}
 }
 
-# US supports fascism
+
 country_event = {
 	id = usa.22
 	title = usa.20.t
@@ -1073,7 +1086,7 @@ country_event = {
 
 }
 
-# US extends influence to protection. Will meddle in wars
+
 country_event = {
 	id = usa.23
 	title = usa.23.t
@@ -1090,7 +1103,7 @@ country_event = {
 }
 
 
-# Communist US reacts to Commienazis 
+
 country_event = {
 	id = usa.24
 	title = usa.24.t
@@ -1144,7 +1157,7 @@ country_event = {
 	}
 }
 
-# US congress elections - outcome
+
 country_event = {
 	id = usa.30
 	title = usa.30.t
@@ -1162,7 +1175,7 @@ country_event = {
 	}
 
 }
-# elections - new president, opposition/support switch roles
+
 country_event = {
 	id = usa.31
 	title = usa.31.t
@@ -1180,7 +1193,7 @@ country_event = {
 	}
 
 }
-# elections in the US - player has a majority guaranteed
+
 country_event = {
 	id = usa.32
 	title = usa.32.t
@@ -1202,7 +1215,7 @@ country_event = {
 
 }
 
-#midterm elections
+
 country_event = {
 	id = usa.35
 	title = usa.35.t
@@ -1249,7 +1262,7 @@ country_event = {
 	}
 
 }
-#small support event - senate
+
 country_event = {
 	id = usa.40
 	title = usa.40.t
@@ -1276,7 +1289,7 @@ country_event = {
 	}
 
 }
-# small support event - house
+
 country_event = {
 	id = usa.41
 	title = usa.41.t
@@ -1304,7 +1317,7 @@ country_event = {
 
 }
 
-#small opposition event - senate
+
 country_event = {
 	id = usa.42
 	title = usa.42.t
@@ -1332,7 +1345,7 @@ country_event = {
 	}
 
 }
-# small opposition event - house
+
 country_event = {
 	id = usa.43
 	title = usa.43.t
@@ -1360,7 +1373,7 @@ country_event = {
 
 }
 
-#medium support event - senate
+
 country_event = {
 	id = usa.44
 	title = usa.44.t
@@ -1387,7 +1400,7 @@ country_event = {
 	}
 
 }
-# medium support event - house
+
 country_event = {
 	id = usa.45
 	title = usa.45.t
@@ -1415,7 +1428,7 @@ country_event = {
 
 }
 
-#medium opposition event - senate
+
 country_event = {
 	id = usa.46
 	title = usa.46.t
@@ -1442,7 +1455,7 @@ country_event = {
 	}
 
 }
-# medium opposition event - house
+
 country_event = {
 	id = usa.47
 	title = usa.47.t
@@ -1470,7 +1483,7 @@ country_event = {
 
 }
 
-# dispatcher event - senate
+
 country_event = {
 	id = usa.50
 	Hidden = yes
@@ -1496,7 +1509,7 @@ country_event = {
 					not = { congress_low_support_trigger = yes }
 					factor = 2
 				}
-				country_event = { id = usa.40 days = 15 random_days = 6 } #small support
+				country_event = { id = usa.40 days = 15 random_days = 6 } 
 			} 
 			20 = { 
 				modifier = {
@@ -1511,7 +1524,7 @@ country_event = {
 					has_idea_with_trait = communist_revolutionary
 					factor = 2
 				}
-				country_event = { id = usa.42 days = 20 random_days = 6 } #small opposition 
+				country_event = { id = usa.42 days = 20 random_days = 6 } 
 			} 
 			15 = { 
 				modifier = {
@@ -1522,7 +1535,7 @@ country_event = {
 					not = { congress_low_support_trigger = yes }
 					factor = 2
 				}
-				country_event = { id = usa.44 days = 20 random_days = 10 } #medium support
+				country_event = { id = usa.44 days = 20 random_days = 10 } 
 			} 
 			15 = { 
 				modifier = {
@@ -1537,9 +1550,9 @@ country_event = {
 					has_idea_with_trait = communist_revolutionary
 					factor = 2
 				}
-				country_event = { id = usa.46 days = 20 random_days = 10 }  #medium opposition
+				country_event = { id = usa.46 days = 20 random_days = 10 }  
 			}
-			30 = { #investment opportunity
+			30 = { 
 				modifier = {
 					has_country_flag = USA_congress_investment
 					factor = 0
@@ -1554,7 +1567,7 @@ country_event = {
 	}
 }
 
-# dispatcher event - house
+
 country_event = {
 	id = usa.51
 	Hidden = yes
@@ -1580,7 +1593,7 @@ country_event = {
 					check_variable = { representatives_support < 180 }
 					factor = 3
 				}
-				country_event = { id = usa.41 days = 15 random_days = 6 } #small support
+				country_event = { id = usa.41 days = 15 random_days = 6 } 
 			} 
 			25 = {
 				modifier = {
@@ -1599,7 +1612,7 @@ country_event = {
 					has_idea_with_trait = communist_revolutionary
 					factor = 2
 				} 
-				country_event = { id = usa.43 days = 20 random_days = 6 } #small opposition
+				country_event = { id = usa.43 days = 20 random_days = 6 } 
 			} 
 			25 = { 
 				modifier = {
@@ -1610,7 +1623,7 @@ country_event = {
 					check_variable = { representatives_support < 100 }
 					factor = 10
 				}
-				country_event = { id = usa.45 days = 25 random_days = 10 } #medium support
+				country_event = { id = usa.45 days = 25 random_days = 10 } 
 			} 
 			15 = { 
 				modifier = {
@@ -1637,12 +1650,12 @@ country_event = {
 					has_idea_with_trait = communist_revolutionary
 					factor = 2
 				}
-				country_event = { id = usa.47 days = 30 random_days = 15 } #medium opposition
+				country_event = { id = usa.47 days = 30 random_days = 15 } 
 			} 
 		}
 	}
 }
-# senator wants investment in their state - hidden dispatch event
+
 country_event = {
 	id = usa.60
 	hidden = yes
@@ -1795,7 +1808,7 @@ country_event = {
 		}
 	}
 }
-# senator wants investment in civilian factory
+
 country_event = {
 	id = usa.61
 	title = usa.61.t
@@ -1806,7 +1819,7 @@ country_event = {
 	
 
 	option = {
-		name = usa.61.a #accept
+		name = usa.61.a 
 		ai_chance = {
 			factor = 0
 		}
@@ -1818,7 +1831,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = usa.61.b #refuse
+		name = usa.61.b 
 		ai_chance = {
 			factor = 100
 		}
@@ -1827,7 +1840,7 @@ country_event = {
 	}
 }
 
-# senator wants investment in military factory
+
 country_event = {
 	id = usa.62
 	title = usa.61.t
@@ -1838,7 +1851,7 @@ country_event = {
 	
 
 	option = {
-		name = usa.62.a #accept
+		name = usa.62.a 
 		ai_chance = {
 			factor = 0
 		}
@@ -1850,7 +1863,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = usa.62.b #refuse
+		name = usa.62.b 
 		ai_chance = {
 			factor = 100
 		}
@@ -1858,7 +1871,7 @@ country_event = {
 		clear_global_event_target = USA_congress_investment_state
 	}
 }
-# senator wants investment in infrastructure
+
 country_event = {
 	id = usa.63
 	title = usa.63.t
@@ -1869,7 +1882,7 @@ country_event = {
 	
 
 	option = {
-		name = usa.63.a #accept
+		name = usa.63.a 
 		ai_chance = {
 			factor = 0
 		}
@@ -1881,7 +1894,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = usa.63.b #refuse
+		name = usa.63.b 
 		ai_chance = {
 			factor = 100
 		}
@@ -1889,7 +1902,7 @@ country_event = {
 		clear_global_event_target = USA_congress_investment_state
 	}
 }
-# senator wants investment in dockyards
+
 country_event = {
 	id = usa.64
 	title = usa.64.t
@@ -1900,7 +1913,7 @@ country_event = {
 	
 
 	option = {
-		name = usa.64.a #accept
+		name = usa.64.a 
 		ai_chance = {
 			factor = 0
 		}
@@ -1912,7 +1925,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = usa.64.b #refuse
+		name = usa.64.b 
 		ai_chance = {
 			factor = 100
 		}

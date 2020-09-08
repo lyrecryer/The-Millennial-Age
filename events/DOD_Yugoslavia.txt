@@ -1,11 +1,9 @@
-﻿###########################
-# Yugoslavian Events
-###########################
+
 
 add_namespace = DOD_yugoslavia
 
 
-# Yugoslavia joins axis without solving Anti-German military - coup event
+
 country_event = {
 	id = DOD_yugoslavia.1
 	title = DOD_yugoslavia.1.t
@@ -26,7 +24,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 2 }
 	
-	option = { #welp
+	option = { 
 		name = DOD_yugoslavia.1.a
 		ai_chance = {
 			factor = 70
@@ -43,7 +41,7 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
-				#
+				
 			}
 		}
 		GER = { country_event = DOD_yugoslavia.2 }
@@ -66,7 +64,7 @@ country_event = {
 			set_party_name = { ideology = neutrality long_name = YUG_neutrality_party_2 name = YUG_neutrality_party_2 }
 		}
 	}
-	option = { #resistance to the coup, call on Germans for support
+	option = { 
 		name = DOD_yugoslavia.1.b
 		ai_chance = {
 			factor = 30
@@ -86,7 +84,7 @@ country_event = {
 				}
 			}
 		}
-		start_civil_war = { ideology = democratic size = 0.6 capital = 107 states = { 108 107 106 105 } }
+		start_civil_war = { ideology = democratic size = 0.6 capital = 107 states = { 108 107 106 105  869 870 871 872 873 874 875 876 877 878 879 880 881 882 883 884 862 863 864 865 866 867 868 854 855 856 857 858 859 860 861 850 851 852 853} }
 		random_country = {
 			limit = {
 				original_tag = YUG
@@ -101,14 +99,14 @@ country_event = {
 				expire = "1965.1.1"
 				ideology = conservatism
 				traits = {
-					#
+					
 				}
 			}
 		}
 	}
 }
 
-#Yugoslavian coup event - Yugoslavia has rolled over, event for Germany to intervene
+
 country_event = {
 	id = DOD_yugoslavia.2
 	title = DOD_yugoslavia.2.t
@@ -117,7 +115,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #invasion!
+	option = { 
 		name = DOD_yugoslavia.2.a	
 		create_wargoal = {
 			type = annex_everything
@@ -135,7 +133,7 @@ country_event = {
 	}
 }
 
-#Yugoslavian coup event - Yugoslavian government resists the coup, Germany comes to the rescue...or not
+
 country_event = {
 	id = DOD_yugoslavia.3
 	title = DOD_yugoslavia.2.t
@@ -144,7 +142,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #invasion!
+	option = { 
 		name = DOD_yugoslavia.3.a
 		ai_chance = {
 			factor = 70
@@ -155,7 +153,7 @@ country_event = {
 		}
 	}
 
-	option = { #rescue
+	option = { 
 		name = DOD_yugoslavia.3.b	
 		ai_chance = {
 			factor = 30
@@ -164,7 +162,7 @@ country_event = {
 	}
 }
 
-#Yugoslavian independence war(s)
+
 country_event = {
 	id = DOD_yugoslavia.10
 	title = DOD_yugoslavia.10.t
@@ -190,7 +188,7 @@ country_event = {
 		days = 4
 	}
 	
-	fire_only_once = yes #would be funny though
+	fire_only_once = yes 
 
 	option = { 
 		name = DOD_yugoslavia.10.a
@@ -213,7 +211,7 @@ country_event = {
 				}
 			}
 		}
-		if = { #if Montenegro exists, they also join
+		if = { 
 			limit = {
 				MNT = {
 					exists = yes
@@ -235,12 +233,32 @@ country_event = {
 				}
 				109 = { is_fully_controlled_by = YUG }
 			}
-			CRO = { transfer_state = 109 }
+			CRO = { transfer_state = 109 
+		transfer_state = 885 
+		transfer_state = 886 
+		transfer_state = 887 
+		transfer_state = 888 
+		transfer_state = 889 
+		transfer_state = 890 
+		transfer_state = 891 
+		transfer_state = 892 
+		transfer_state = 893 
+		transfer_state = 894 }
 			if = {
 				limit = {
 					103 = { is_fully_controlled_by = YUG }
 				}
-				CRO = { transfer_state = 103 }
+				CRO = { transfer_state = 103 
+		transfer_state = 820 
+		transfer_state = 821 
+		transfer_state = 822 
+		transfer_state = 823 
+		transfer_state = 824 
+		transfer_state = 825 
+		transfer_state = 826 
+		transfer_state = 827 
+		transfer_state = 828 
+		transfer_state = 829 }
 			}
 			CRO = {
 				declare_war_on = {
@@ -253,7 +271,7 @@ country_event = {
 	}
 }
 
-#Yugoslavia wants to buy planes - event for GER,FRA,ENG,ITA
+
 country_event = {
 	id = DOD_yugoslavia.20
 	title = DOD_yugoslavia.20.t
@@ -262,7 +280,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # send some fighters
+	option = { 
 		name = DOD_yugoslavia.20.a
 		ai_chance = {
 			factor = 70
@@ -280,7 +298,7 @@ country_event = {
 			country_event = DOD_yugoslavia.21
 		}
 	}	
-	option = { # send some bombers
+	option = { 
 		name = DOD_yugoslavia.20.b
 		ai_chance = {
 			factor = 70
@@ -299,7 +317,7 @@ country_event = {
 		}
 	}
 
-	option = { # divert some fighters from production
+	option = { 
 		name = DOD_yugoslavia.20.d
 		ai_chance = {
 			factor = 70
@@ -314,7 +332,7 @@ country_event = {
 		}
 	}
 
-	option = { # divert some bombers from production
+	option = { 
 		name = DOD_yugoslavia.20.e
 		ai_chance = {
 			factor = 70
@@ -328,7 +346,7 @@ country_event = {
 			country_event = DOD_yugoslavia.24
 		}
 	}
-	option = { # no
+	option = { 
 		name = DOD_yugoslavia.20.c
 		ai_chance = {
 			factor = 30
@@ -337,7 +355,7 @@ country_event = {
 		
 	
 }
-#Yugoslavia wants to buy planes - Major nation sells some fighters
+
 country_event = {
 	id = DOD_yugoslavia.21
 	title = DOD_yugoslavia.21.t
@@ -346,7 +364,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # cool
+	option = { 
 		name = DOD_yugoslavia.21.a
 		ai_chance = {
 			factor = 30
@@ -357,7 +375,7 @@ country_event = {
 	
 }
 
-#Yugoslavia wants to buy planes - Major nation sells some bombers
+
 country_event = {
 	id = DOD_yugoslavia.22
 	title = DOD_yugoslavia.22.t
@@ -366,7 +384,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # cool
+	option = { 
 		name = DOD_yugoslavia.21.a
 		ai_chance = {
 			factor = 30
@@ -376,7 +394,7 @@ country_event = {
 		
 	
 }
-#Yugoslavia wants to buy planes - Major nation sells some fighters
+
 country_event = {
 	id = DOD_yugoslavia.23
 	title = DOD_yugoslavia.21.t
@@ -385,7 +403,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # cool
+	option = { 
 		name = DOD_yugoslavia.21.a
 		ai_chance = {
 			factor = 30
@@ -566,7 +584,7 @@ country_event = {
 	
 }
 
-#Yugoslavia wants to buy planes - Major nation sells some bombers
+
 country_event = {
 	id = DOD_yugoslavia.24
 	title = DOD_yugoslavia.22.t
@@ -575,7 +593,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # cool
+	option = { 
 		name = DOD_yugoslavia.21.a
 		ai_chance = {
 			factor = 30
@@ -755,7 +773,7 @@ country_event = {
 		
 	
 }
-#Yugoslavia pressured by Germany - Anschluss
+
 country_event = {
 	id = DOD_yugoslavia.30
 	title = DOD_yugoslavia.30.t
@@ -764,18 +782,18 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # put the squeeze on them
+	option = { 
 		name = DOD_yugoslavia.30.a
 		ai_chance = {
 			factor = 70
 		}
 		YUG = { 
 			country_event = DOD_yugoslavia.31 
-			set_country_flag = YUG_GER_pressure_1 #for ai_weights in focus tree
+			set_country_flag = YUG_GER_pressure_1 
 		}
 		
 	}	
-	option = { # not interested
+	option = { 
 		name = DOD_yugoslavia.30.b
 		ai_chance = {
 			factor = 30
@@ -786,7 +804,7 @@ country_event = {
 	
 }
 
-#Yugoslavia pressured by Germany - First event
+
 country_event = {
 	id = DOD_yugoslavia.31
 	title = DOD_yugoslavia.31.t
@@ -795,7 +813,7 @@ country_event = {
 	
 	is_triggered_only = yes
 		
-	option = { # not that bad yet
+	option = { 
 		name = DOD_yugoslavia.31.a
 		ai_chance = {
 			factor = 30
@@ -806,7 +824,7 @@ country_event = {
 	
 }
 
-#Yugoslavia pressured by Germany - Fate of CZE
+
 country_event = {
 	id = DOD_yugoslavia.32
 	title = DOD_yugoslavia.30.t
@@ -815,18 +833,18 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # put the squeeze on them
+	option = { 
 		name = DOD_yugoslavia.32.a
 		ai_chance = {
 			factor = 80
 		}
 		YUG = { 
 			country_event = DOD_yugoslavia.33 
-			set_country_flag = YUG_GER_pressure_2 #for ai_weights
+			set_country_flag = YUG_GER_pressure_2 
 		}
 		
 	}	
-	option = { # not interested
+	option = { 
 		name = DOD_yugoslavia.32.b
 		ai_chance = {
 			factor = 20
@@ -837,7 +855,7 @@ country_event = {
 	
 }
 
-#Yugoslavia pressured by Germany - Second event
+
 country_event = {
 	id = DOD_yugoslavia.33
 	title = DOD_yugoslavia.31.t
@@ -846,13 +864,13 @@ country_event = {
 	
 	is_triggered_only = yes
 		
-	option = { # not that bad
+	option = { 
 		name = DOD_yugoslavia.33.a
 		
 	}
 }
 
-#Yugoslavia pressured by Germany - Last Warning - after Fall of France
+
 country_event = {
 	id = DOD_yugoslavia.34
 	title = DOD_yugoslavia.30.t
@@ -879,7 +897,7 @@ country_event = {
 		}
 	}
 	
-	option = { # put the squeeze on them
+	option = { 
 		name = DOD_yugoslavia.34.a
 		ai_chance = {
 			factor = 90
@@ -890,7 +908,7 @@ country_event = {
 		}
 		
 	}	
-	option = { # not interested
+	option = { 
 		name = DOD_yugoslavia.34.b
 		ai_chance = {
 			factor = 10
@@ -901,7 +919,7 @@ country_event = {
 	
 }
 
-#Yugoslavia pressured by Germany - third event
+
 country_event = {
 	id = DOD_yugoslavia.35
 	title = DOD_yugoslavia.31.t
@@ -910,7 +928,7 @@ country_event = {
 	
 	is_triggered_only = yes
 		
-	option = { # not that bad
+	option = { 
 		name = DOD_yugoslavia.35.a
 		ai_chance = {
 			factor = 30
@@ -921,7 +939,7 @@ country_event = {
 	
 }
 
-#Yugoslavia pressured by Germany - War!
+
 country_event = {
 	id = DOD_yugoslavia.36
 	title = DOD_yugoslavia.36.t
@@ -936,12 +954,12 @@ country_event = {
 			is_in_faction = no 
 			exists = yes
 			NOT = {
-				focus_progress = { focus = YUG_join_axis progress > 0 } #that would just be mean
+				focus_progress = { focus = YUG_join_axis progress > 0 } 
 			}
 		}
 	}
 	
-	option = { # put the squeeze on them
+	option = { 
 		name = DOD_yugoslavia.36.a
 		ai_chance = {
 			factor = 90
@@ -952,7 +970,7 @@ country_event = {
 		}
 		
 	}	
-	option = { # not interested
+	option = { 
 		name = DOD_yugoslavia.36.b
 		ai_chance = {
 			factor = 10
@@ -963,7 +981,7 @@ country_event = {
 	
 }
 
-#Yugoslavia pressured by Britain - Balkan Strategy
+
 country_event = {
 	id = DOD_yugoslavia.40
 	title = DOD_yugoslavia.30.t
@@ -972,7 +990,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # put the squeeze on them
+	option = { 
 		name = DOD_yugoslavia.40.a
 		ai_chance = {
 			factor = 70
@@ -980,7 +998,7 @@ country_event = {
 		YUG = { country_event = DOD_yugoslavia.41 }
 		
 	}	
-	option = { # not interested
+	option = { 
 		name = DOD_yugoslavia.40.b
 		ai_chance = {
 			factor = 30
@@ -991,7 +1009,7 @@ country_event = {
 	
 }
 
-#Yugoslavia pressured by Britain - First event
+
 country_event = {
 	id = DOD_yugoslavia.41
 	title = DOD_yugoslavia.41.t
@@ -1000,7 +1018,7 @@ country_event = {
 	
 	is_triggered_only = yes
 		
-	option = { # not that bad yet
+	option = { 
 		name = DOD_yugoslavia.41.a
 		ai_chance = {
 			factor = 30
@@ -1009,7 +1027,7 @@ country_event = {
 	}	
 }
 
-#Yugoslavia pressured by Britain - Munich
+
 country_event = {
 	id = DOD_yugoslavia.42
 	title = DOD_yugoslavia.30.t
@@ -1018,7 +1036,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # put the squeeze on them
+	option = { 
 		name = DOD_yugoslavia.42.a
 		ai_chance = {
 			factor = 70
@@ -1026,7 +1044,7 @@ country_event = {
 		YUG = { country_event = DOD_yugoslavia.43 }
 		
 	}	
-	option = { # not interested
+	option = { 
 		name = DOD_yugoslavia.42.b
 		ai_chance = {
 			factor = 30
@@ -1037,7 +1055,7 @@ country_event = {
 	
 }
 
-#Yugoslavia pressured by Britain - Second event
+
 country_event = {
 	id = DOD_yugoslavia.43
 	title = DOD_yugoslavia.41.t
@@ -1046,7 +1064,7 @@ country_event = {
 	
 	is_triggered_only = yes
 		
-	option = { # not that bad yet
+	option = { 
 		name = DOD_yugoslavia.43.a
 		ai_chance = {
 			factor = 30
@@ -1055,7 +1073,7 @@ country_event = {
 	}	
 }
 
-#Yugoslavia pressured by Britain - late 1940, last warning
+
 country_event = {
 	id = DOD_yugoslavia.44
 	title = DOD_yugoslavia.30.t
@@ -1078,7 +1096,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 4 }
 	
-	option = { # put the squeeze on them
+	option = { 
 		name = DOD_yugoslavia.44.a
 		ai_chance = {
 			factor = 90
@@ -1087,7 +1105,7 @@ country_event = {
 		hidden_effect = { country_event = { id = DOD_yugoslavia.46 days = 180 random_days = 28 } }
 		
 	}	
-	option = { # not interested
+	option = { 
 		name = DOD_yugoslavia.44.b
 		ai_chance = {
 			factor = 10
@@ -1095,7 +1113,7 @@ country_event = {
 	}
 }
 
-#Yugoslavia pressured by Britain - Third event
+
 country_event = {
 	id = DOD_yugoslavia.45
 	title = DOD_yugoslavia.41.t
@@ -1104,7 +1122,7 @@ country_event = {
 	
 	is_triggered_only = yes
 		
-	option = { # not that bad yet
+	option = { 
 		name = DOD_yugoslavia.45.a
 		ai_chance = {
 			factor = 30
@@ -1113,7 +1131,7 @@ country_event = {
 	}	
 }
 
-#Yugoslavia pressured by Britain - war
+
 country_event = {
 	id = DOD_yugoslavia.46
 	title = DOD_yugoslavia.30.t
@@ -1130,7 +1148,7 @@ country_event = {
 		has_war_with = GER
 	}
 	
-	option = { # put the squeeze on them
+	option = { 
 		name = DOD_yugoslavia.46.a
 		ai_chance = {
 			factor = 90
@@ -1141,7 +1159,7 @@ country_event = {
 		}
 		
 	}	
-	option = { # not interested
+	option = { 
 		name = DOD_yugoslavia.46.b
 		ai_chance = {
 			factor = 10
@@ -1151,7 +1169,7 @@ country_event = {
 
 
 
-#fighter competition - initial choice for Yugoslavia
+
 country_event = {
 	id = DOD_yugoslavia.150
 	title = DOD_hungary.150.t
@@ -1160,7 +1178,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# light fighter
+	option = {
 		name = DOD_hungary.150.a
 		trigger = {
 			OR = {
@@ -1200,7 +1218,7 @@ country_event = {
 		
 	}
 
-	option = {# heavy fighter
+	option = {
 		name = DOD_hungary.150.b
 		trigger = {
 			OR = {
@@ -1240,7 +1258,7 @@ country_event = {
 	}
 }
 
-#Fighter competition - Yugoslavia is looking for a light fighter
+
 country_event = {
 	id = DOD_yugoslavia.151
 	title = DOD_hungary.151.t
@@ -1272,7 +1290,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# Select German Plane
+	option = {
 		name = DOD_hungary.151.a
 		ai_chance = {
 			factor = 30
@@ -1324,7 +1342,7 @@ country_event = {
 		GER = { country_event = DOD_yugoslavia.153 }	
 	}
 
-	option = {# select italian plane
+	option = {
 		name = DOD_hungary.151.b
 		ai_chance = {
 			factor = 30
@@ -1376,7 +1394,7 @@ country_event = {
 		ITA = { country_event = DOD_yugoslavia.153 }	
 	}
 
-	option = {# select french plane
+	option = {
 		name = DOD_hungary.151.c
 		ai_chance = {
 			factor = 30
@@ -1428,7 +1446,7 @@ country_event = {
 		}
 		FRA = { country_event = DOD_yugoslavia.153 }	
 	}
-	option = {# select british plane
+	option = {
 		name = DOD_hungary.151.d
 		ai_chance = {
 			factor = 30
@@ -1479,7 +1497,7 @@ country_event = {
 		}
 		ENG = { country_event = DOD_yugoslavia.153 }	
 	}
-	option = {# select american plane
+	option = {
 		name = DOD_hungary.151.e
 		ai_chance = {
 			factor = 30
@@ -1527,7 +1545,7 @@ country_event = {
 			}
 			NOT = { has_war_with = USA }
 			NOT = { has_country_flag = USA_fighter_refused }
-			NOT = { #to prevent overflow issues
+			NOT = { 
 				AND = {
 					GER = {
 						is_available_fighter_YUG = yes
@@ -1546,7 +1564,7 @@ country_event = {
 		}
 		USA = { country_event = DOD_yugoslavia.153 }	
 	}
-	option = {# failsafe
+	option = {
 		name = DOD_hungary.151.f	
 		trigger = {
 			OR = {
@@ -1562,7 +1580,7 @@ country_event = {
 
 }
 
-#Fighter competition - Yugoslavia is looking for a heavy fighter
+
 country_event = {
 	id = DOD_yugoslavia.152
 	title = DOD_hungary.152.t
@@ -1594,7 +1612,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# Select German Plane
+	option = {
 		name = DOD_hungary.152.a
 		ai_chance = {
 			factor = 30
@@ -1646,7 +1664,7 @@ country_event = {
 		GER = { country_event = DOD_yugoslavia.154 }	
 	}
 
-	option = {# select italian plane
+	option = {
 		name = DOD_hungary.152.b
 		ai_chance = {
 			factor = 30
@@ -1698,7 +1716,7 @@ country_event = {
 		ITA = { country_event = DOD_yugoslavia.154 }	
 	}
 
-	option = {# select french plane
+	option = {
 		name = DOD_hungary.152.c
 		ai_chance = {
 			factor = 30
@@ -1750,7 +1768,7 @@ country_event = {
 		}
 		FRA = { country_event = DOD_yugoslavia.154 }	
 	}
-	option = {# select british plane
+	option = {
 		name = DOD_hungary.152.d
 		ai_chance = {
 			factor = 30
@@ -1801,7 +1819,7 @@ country_event = {
 		}
 		ENG = { country_event = DOD_yugoslavia.154 }	
 	}
-	option = {# select american plane
+	option = {
 		name = DOD_hungary.152.e
 		ai_chance = {
 			factor = 30
@@ -1849,7 +1867,7 @@ country_event = {
 			}
 			NOT = { has_war_with = USA }
 			NOT = { has_country_flag = USA_heavy_fighter_refused }
-			NOT = { #to prevent overflow issues
+			NOT = { 
 				AND = {
 					GER = {
 						is_available_heavy_fighter_YUG = yes
@@ -1868,7 +1886,7 @@ country_event = {
 		}
 		USA = { country_event = DOD_yugoslavia.154 }	
 	}
-	option = {# failsafe
+	option = {
 		name = DOD_hungary.151.f	
 		trigger = {
 			OR = {
@@ -1884,7 +1902,7 @@ country_event = {
 
 }
 
-#fighter competition - light fighter competition winner gets a choice whether to permit license production
+
 country_event = {
 	id = DOD_yugoslavia.153
 	title = DOD_hungary.153.t
@@ -1893,7 +1911,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# certainly
+	option = {
 		name = DOD_hungary.153.a
 		ai_chance = {
 			factor = 90
@@ -1945,7 +1963,7 @@ country_event = {
 		}
 	}
 
-	option = {# no
+	option = {
 		name = DOD_hungary.153.b
 		ai_chance = {
 			factor = 10
@@ -1979,7 +1997,7 @@ country_event = {
 	}
 }
 
-#fighter competition - heavy fighter competition winner gets a choice whether to permit license production
+
 country_event = {
 	id = DOD_yugoslavia.154
 	title = DOD_hungary.153.t
@@ -1988,7 +2006,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# certainly
+	option = {
 		name = DOD_hungary.153.a
 		ai_chance = {
 			factor = 90
@@ -2040,7 +2058,7 @@ country_event = {
 		
 	}
 
-	option = {# no
+	option = {
 		name = DOD_hungary.153.b
 		ai_chance = {
 			factor = 10
@@ -2074,7 +2092,7 @@ country_event = {
 	}
 }
 
-#fighter competition - license production approved
+
 country_event = {
 	id = DOD_yugoslavia.155
 	title = DOD_hungary.155.t
@@ -2083,14 +2101,14 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# neat
+	option = {
 		name = DOD_hungary.155.a
 		
 	}
 }
 
 
-#bomber competition - initial choice for Yugoslavia
+
 country_event = {
 	id = DOD_yugoslavia.160
 	title = DOD_hungary.160.t
@@ -2099,7 +2117,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# CAS
+	option = {
 		name = DOD_hungary.160.a
 		trigger = {
 			OR = {
@@ -2138,7 +2156,7 @@ country_event = {
 		country_event = DOD_yugoslavia.161 	
 	}
 
-	option = {# TAC
+	option = {
 		name = DOD_hungary.160.b
 		trigger = {
 			OR = {
@@ -2178,7 +2196,7 @@ country_event = {
 	}
 }
 
-#Bomber competition - Yugoslavia is looking for a CAS
+
 country_event = {
 	id = DOD_yugoslavia.161
 	title = DOD_hungary.161.t
@@ -2210,7 +2228,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# Select German Plane
+	option = {
 		name = DOD_hungary.151.a
 		ai_chance = {
 			factor = 30
@@ -2262,7 +2280,7 @@ country_event = {
 		GER = { country_event = DOD_yugoslavia.163 }	
 	}
 
-	option = {# select italian plane
+	option = {
 		name = DOD_hungary.151.b
 		ai_chance = {
 			factor = 30
@@ -2314,7 +2332,7 @@ country_event = {
 		ITA = { country_event = DOD_yugoslavia.163 }	
 	}
 
-	option = {# select french plane
+	option = {
 		name = DOD_hungary.151.c
 		ai_chance = {
 			factor = 30
@@ -2365,7 +2383,7 @@ country_event = {
 		}
 		FRA = { country_event = DOD_yugoslavia.163 }	
 	}
-	option = {# select british plane
+	option = {
 		name = DOD_hungary.151.d
 		ai_chance = {
 			factor = 30
@@ -2416,7 +2434,7 @@ country_event = {
 		}
 		ENG = { country_event = DOD_yugoslavia.163 }	
 	}
-	option = {# select american plane
+	option = {
 		name = DOD_hungary.151.e
 		ai_chance = {
 			factor = 30
@@ -2464,7 +2482,7 @@ country_event = {
 			}
 			NOT = { has_war_with = USA }
 			NOT = { has_country_flag = USA_CAS_refused }
-			NOT = { #to prevent overflow issues
+			NOT = { 
 				AND = {
 					GER = {
 						is_available_cas_YUG = yes
@@ -2483,7 +2501,7 @@ country_event = {
 		}
 		USA = { country_event = DOD_yugoslavia.163 }	
 	}
-	option = {# failsafe
+	option = {
 		name = DOD_hungary.151.f	
 		trigger = {
 			OR = {
@@ -2498,7 +2516,7 @@ country_event = {
 	}
 
 }
-#Fighter competition - Yugoslavia is looking for a tacbomber
+
 country_event = {
 	id = DOD_yugoslavia.162
 	title = DOD_hungary.162.t
@@ -2530,7 +2548,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# Select German Plane
+	option = {
 		name = DOD_hungary.151.a
 		ai_chance = {
 			factor = 30
@@ -2582,7 +2600,7 @@ country_event = {
 		GER = { country_event = DOD_yugoslavia.164 }	
 	}
 
-	option = {# select italian plane
+	option = {
 		name = DOD_hungary.151.b
 		ai_chance = {
 			factor = 30
@@ -2634,7 +2652,7 @@ country_event = {
 		ITA = { country_event = DOD_yugoslavia.164 }	
 	}
 
-	option = {# select french plane
+	option = {
 		name = DOD_hungary.151.c
 		ai_chance = {
 			factor = 30
@@ -2685,7 +2703,7 @@ country_event = {
 		}
 		FRA = { country_event = DOD_yugoslavia.164 }	
 	}
-	option = {# select british plane
+	option = {
 		name = DOD_hungary.151.d
 		ai_chance = {
 			factor = 30
@@ -2736,7 +2754,7 @@ country_event = {
 		}
 		ENG = { country_event = DOD_yugoslavia.164 }	
 	}
-	option = {# select american plane
+	option = {
 		name = DOD_hungary.151.e
 		ai_chance = {
 			factor = 30
@@ -2784,7 +2802,7 @@ country_event = {
 			}
 			NOT = { has_war_with = USA }
 			NOT = { has_country_flag = USA_tactical_bomber_refused }
-			NOT = { #to prevent overflow issues
+			NOT = { 
 				AND = {
 					GER = {
 						is_available_tac_YUG = yes
@@ -2803,7 +2821,7 @@ country_event = {
 		}
 		USA = { country_event = DOD_yugoslavia.164 }	
 	}
-	option = {# failsafe
+	option = {
 		name = DOD_hungary.151.f	
 		trigger = {
 			OR = {
@@ -2819,7 +2837,7 @@ country_event = {
 
 }
 
-#bomber competition - CAS competition winner gets a choice whether to permit license production
+
 country_event = {
 	id = DOD_yugoslavia.163
 	title = DOD_hungary.163.t
@@ -2828,7 +2846,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# certainly
+	option = {
 		name = DOD_hungary.153.a
 		ai_chance = {
 			factor = 90
@@ -2879,7 +2897,7 @@ country_event = {
 		}
 	}
 
-	option = {# no
+	option = {
 		name = DOD_hungary.153.b
 		ai_chance = {
 			factor = 10
@@ -2913,7 +2931,7 @@ country_event = {
 	}
 }
 
-#bomber competition - tac bomber competition winner gets a choice whether to permit license production
+
 country_event = {
 	id = DOD_yugoslavia.164
 	title = DOD_hungary.164.t
@@ -2922,7 +2940,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# certainly
+	option = {
 		name = DOD_hungary.153.a
 		ai_chance = {
 			factor = 90
@@ -2973,7 +2991,7 @@ country_event = {
 		}
 	}
 
-	option = {# no
+	option = {
 		name = DOD_hungary.153.b
 		ai_chance = {
 			factor = 10
@@ -3007,7 +3025,7 @@ country_event = {
 	}
 }
 
-#bomber competition - license production approved
+
 country_event = {
 	id = DOD_yugoslavia.165
 	title = DOD_hungary.165.t
@@ -3016,13 +3034,13 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# neat
+	option = {
 		name = DOD_hungary.165.a
 		
 	}
 }
 
-#Annexation event to prevent gameover
+
 country_event = {
 	id = DOD_yugoslavia.166
 	

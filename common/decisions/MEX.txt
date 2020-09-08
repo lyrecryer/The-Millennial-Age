@@ -45,10 +45,10 @@ foreign_politics = {
 		}		
 	}
 }
-# Category for Mexican military issues 
+
 MEX_category_military_issues = {
 
-	# Mission to deal with Cedillo before he rebels (historic date was January 1939)
+	
 
 	MEX_mission_cedillos_rebellion = {
 
@@ -66,7 +66,7 @@ MEX_category_military_issues = {
 		}
 
 		days_mission_timeout = 150
-		#days_remove = 1
+		
 
 		activation = {
 			OR = {
@@ -125,7 +125,7 @@ MEX_category_military_issues = {
 		}
 	}
 
-	# Second Cristiada
+	
 
 	MEX_mission_second_cristiada = {
 
@@ -148,13 +148,13 @@ MEX_category_military_issues = {
 
 			has_stability < 0.6
 
-			NOT = { has_global_flag = flag_second_mexican_civil_war } # Second Cristiada / Second Mexican Revolution are mutually exclusive
+			NOT = { has_global_flag = flag_second_mexican_civil_war } 
 
-			NOT = { has_government = democratic } # Government has a genuine commitment to reform
+			NOT = { has_government = democratic } 
 
 			has_civil_war = no
 			
-			OR = { # Domestic violence or antagonised world powers
+			OR = { 
 				has_completed_focus = MEX_focus_triumph_over_the_cristeros
 				has_completed_focus = MEX_focus_the_red_shirts
 				has_completed_focus = MEX_focus_international_proletarianism
@@ -181,7 +181,7 @@ MEX_category_military_issues = {
 		}
 	}
 
-	# Dummy decision to warn of Second Cristiada
+	
 
 	MEX_mission_second_cristiada_dummy = {
 
@@ -192,13 +192,13 @@ MEX_category_military_issues = {
 
 			has_stability < 0.6
 
-			NOT = { has_global_flag = flag_second_mexican_civil_war } # Second Cristiada / Second Mexican Revolution are mutually exclusive
+			NOT = { has_global_flag = flag_second_mexican_civil_war } 
 
 			has_civil_war = no
 			
-			NOT = { has_government = democratic } # Government has a genuine commitment to reform
+			NOT = { has_government = democratic } 
 			
-			OR = { # Domestic violence or antagonised world powers
+			OR = { 
 				has_completed_focus = MEX_focus_triumph_over_the_cristeros
 				has_completed_focus = MEX_focus_the_red_shirts
 				has_completed_focus = MEX_focus_international_proletarianism
@@ -248,7 +248,7 @@ MEX_category_military_issues = {
 		}
 	}
 
-	# Second Revolution by anti-Church and far-left groups
+	
 
 	MEX_mission_second_revolution = {
 
@@ -271,13 +271,13 @@ MEX_category_military_issues = {
 
 			has_stability < 0.6
 
-			NOT = { has_global_flag = flag_second_mexican_civil_war } # Second Cristiada / Second Mexican Revolution are mutually exclusive
+			NOT = { has_global_flag = flag_second_mexican_civil_war } 
 
 			has_civil_war = no
 			
-			NOT = { has_government = communism } # Pro-Church communism (liberation theology?) in this context is ahistorical, but if the player pulls it off kudos
+			NOT = { has_government = communism } 
 
-			OR = { # Dissent from the people or elite
+			OR = { 
 				has_completed_focus = MEX_focus_purge_the_bureaucracy
 				has_completed_focus = MEX_focus_womens_suffrage
 				has_completed_focus = MEX_focus_end_land_reform
@@ -304,7 +304,7 @@ MEX_category_military_issues = {
 		}
 	}
 
-	# Dummy decision to warn of Second Revolution
+	
 
 	MEX_mission_second_revolution_dummy = {
 
@@ -315,13 +315,13 @@ MEX_category_military_issues = {
 
 			has_stability < 0.6
 
-			NOT = { has_global_flag = flag_second_mexican_civil_war } # Second Cristiada / Second Mexican Revolution are mutually exclusive
+			NOT = { has_global_flag = flag_second_mexican_civil_war } 
 
 			has_civil_war = no
 			
-			NOT = { has_government = communism } # Pro-Church communism (liberation theology?) in this context is ahistorical, but if the player pulls it off kudos
+			NOT = { has_government = communism } 
 
-			OR = { # Dissent from the people or elite
+			OR = { 
 				has_completed_focus = MEX_focus_purge_the_bureaucracy
 				has_completed_focus = MEX_focus_womens_suffrage
 				has_completed_focus = MEX_focus_end_land_reform
@@ -371,10 +371,10 @@ MEX_category_military_issues = {
 		}
 	}
 
-	# Seizure of the Panama Canal if Mexico controls the rest of Panama
-	# Can trigger an American declaration of war
 	
-	MEX_decision_operation_just_cause = { # Bahahaha
+	
+	
+	MEX_decision_operation_just_cause = { 
 	
 		icon = generic_nationalism
 
@@ -449,7 +449,7 @@ MEX_category_military_issues = {
 					num_provinces = 2
 					on_win = mexico.40
 					on_lose = mexico.42
-					#on_cancel = 
+					
 				}
 				
 				defender = {
@@ -457,7 +457,7 @@ MEX_category_military_issues = {
 					num_provinces = 1
 					on_win = mexico.41
 					on_lose = mexico.43
-					#on_cancel = 
+					
 				}
 			}
 
@@ -479,7 +479,7 @@ MEX_category_military_issues = {
 		}
 	}
 
-	# Decision to send support to the communists in the Spanish Civil War
+	
 
 	MEX_decision_support_spanish_loyalists = {
 	
@@ -572,7 +572,7 @@ MEX_category_military_issues = {
 
 		remove_effect = {
 			random_list = {
-				60 = { # Shipment gets through
+				60 = { 
 					army_experience = 20
 					add_equipment_to_stockpile = {
 						type = convoy_1
@@ -582,7 +582,7 @@ MEX_category_military_issues = {
 						country_event = { id = mexico.50 }
 					}
 				}
-				40 = { # Sunk by Italians
+				40 = { 
 					navy_experience = 25
 					country_event = { id = mexico.51 }
 				}
@@ -594,7 +594,7 @@ MEX_category_military_issues = {
 		}
 	}
 
-	# Decision to send support to the fascists in the Spanish Civil War
+	
 
 	MEX_decision_support_spanish_fascists = {
 	
@@ -680,7 +680,7 @@ MEX_category_military_issues = {
 
 		remove_effect = {
 			random_list = {
-				60 = { # Shipment gets through
+				60 = { 
 					army_experience = 20
 					add_equipment_to_stockpile = {
 						type = convoy_1
@@ -690,7 +690,7 @@ MEX_category_military_issues = {
 						country_event = { id = mexico.50 }
 					}
 				}
-				40 = { # Sunk by loyalists
+				40 = { 
 					navy_experience = 25
 					country_event = { id = mexico.51 }
 				}
@@ -798,10 +798,16 @@ MEX_category_territorial_integration = {
 		remove_effect = {
 			annex_country = { target = GUA }
 
-			add_state_core = 313
+			add_state_core = 313 
+		add_state_core = 3710 
+		add_state_core = 3711 
+		add_state_core = 3712
 
 			hidden_effect = {
-				remove_state_claim = 313
+				remove_state_claim = 313 
+		remove_state_claim = 3710 
+		remove_state_claim = 3711 
+		remove_state_claim = 3712
 			}
 		}
 		
@@ -849,10 +855,14 @@ MEX_category_territorial_integration = {
 		remove_effect = {
 			annex_country = { target = HON }
 
-			add_state_core = 312
+			add_state_core = 312 
+		add_state_core = 3708 
+		add_state_core = 3709
 
 			hidden_effect = {
-				remove_state_claim = 312
+				remove_state_claim = 312 
+		remove_state_claim = 3708 
+		remove_state_claim = 3709
 			}
 		}
 		
@@ -900,10 +910,12 @@ MEX_category_territorial_integration = {
 		remove_effect = {
 			annex_country = { target = ELS }
 
-			add_state_core = 314
+			add_state_core = 314 
+		add_state_core = 3713
 
 			hidden_effect = {
-				remove_state_claim = 314
+				remove_state_claim = 314 
+		remove_state_claim = 3713
 			}
 		}
 		
@@ -951,10 +963,20 @@ MEX_category_territorial_integration = {
 		remove_effect = {
 			annex_country = { target = NIC }
 
-			add_state_core = 317
+			add_state_core = 317 
+		add_state_core = 3725 
+		add_state_core = 3726 
+		add_state_core = 3727 
+		add_state_core = 3728 
+		add_state_core = 3729
 
 			hidden_effect = {
-				remove_state_claim = 317
+				remove_state_claim = 317 
+		remove_state_claim = 3725 
+		remove_state_claim = 3726 
+		remove_state_claim = 3727 
+		remove_state_claim = 3728 
+		remove_state_claim = 3729
 			}
 		}
 		
@@ -1002,10 +1024,14 @@ MEX_category_territorial_integration = {
 		remove_effect = {
 			annex_country = { target = COS }
 			
-			add_state_core = 316
+			add_state_core = 316 
+		add_state_core = 3723 
+		add_state_core = 3724
 
 			hidden_effect = {
-				remove_state_claim = 316
+				remove_state_claim = 316 
+		remove_state_claim = 3723 
+		remove_state_claim = 3724
 			}
 		}
 		
@@ -1053,10 +1079,18 @@ MEX_category_territorial_integration = {
 		remove_effect = {
 			annex_country = { target = "PAN" }
 			
-			add_state_core = 304
+			add_state_core = 304 
+		add_state_core = 3659 
+		add_state_core = 3660 
+		add_state_core = 3661 
+		add_state_core = 3662
 
 			hidden_effect = {
-				remove_state_claim = 304
+				remove_state_claim = 304 
+		remove_state_claim = 3659 
+		remove_state_claim = 3660 
+		remove_state_claim = 3661 
+		remove_state_claim = 3662
 			}
 		}
 		
@@ -1181,10 +1215,28 @@ MEX_category_territorial_integration = {
 		days_remove = 30
 		
 		remove_effect = {
-			add_state_core = 315
+			add_state_core = 315 
+		add_state_core = 3714 
+		add_state_core = 3715 
+		add_state_core = 3716 
+		add_state_core = 3717 
+		add_state_core = 3718 
+		add_state_core = 3719 
+		add_state_core = 3720 
+		add_state_core = 3721 
+		add_state_core = 3722
 
 			hidden_effect = {
-				remove_state_claim = 315
+				remove_state_claim = 315 
+		remove_state_claim = 3714 
+		remove_state_claim = 3715 
+		remove_state_claim = 3716 
+		remove_state_claim = 3717 
+		remove_state_claim = 3718 
+		remove_state_claim = 3719 
+		remove_state_claim = 3720 
+		remove_state_claim = 3721 
+		remove_state_claim = 3722
 			}
 		}
 		
@@ -1217,10 +1269,14 @@ MEX_category_territorial_integration = {
 		days_remove = 30
 		
 		remove_effect = {
-			add_state_core = 318
+			add_state_core = 318 
+		add_state_core = 3730 
+		add_state_core = 3731
 
 			hidden_effect = {
-				remove_state_claim = 318
+				remove_state_claim = 318 
+		remove_state_claim = 3730 
+		remove_state_claim = 3731
 			}
 		}
 		
@@ -1253,10 +1309,16 @@ MEX_category_territorial_integration = {
 		days_remove = 30
 		
 		remove_effect = {
-			add_state_core = 319
+			add_state_core = 319 
+		add_state_core = 3732 
+		add_state_core = 3733 
+		add_state_core = 3734
 
 			hidden_effect = {
-				remove_state_claim = 319
+				remove_state_claim = 319 
+		remove_state_claim = 3732 
+		remove_state_claim = 3733 
+		remove_state_claim = 3734
 			}
 		}
 		
@@ -1266,7 +1328,7 @@ MEX_category_territorial_integration = {
 	}		
 }
 
-# Category related to the Catholic Church in Mexico
+
 
 MEX_category_church_power = {
 

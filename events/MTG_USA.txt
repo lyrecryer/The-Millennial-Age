@@ -1,10 +1,8 @@
-﻿###########################
-# USA Events
-###########################
+
 
 add_namespace = mtg_usa_civil_war_fascists
 
-#initial event for the fascist uprising
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.1
 	title = mtg_usa_civil_war_fascists.1.t
@@ -19,7 +17,7 @@ country_event = {
 	}
 
 	
-	option = { # back down, for now
+	option = { 
 		name = mtg_usa_civil_war_fascists.1.a
 		ai_chance = {
 			factor = 80
@@ -27,7 +25,7 @@ country_event = {
 		add_stability = -0.1
 		
 	}
-	option = { # Aggressive response
+	option = { 
 		name = mtg_usa_civil_war_fascists.1.b
 		ai_chance = {
 			factor = 20
@@ -38,8 +36,8 @@ country_event = {
 		country_event = { id = mtg_usa_civil_war_fascists.2 days = 90  }
 	}
 }
-#
-##second event for the fascist uprising
+
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.2
 	title = mtg_usa_civil_war_fascists.2.t
@@ -53,7 +51,7 @@ country_event = {
 			has_country_flag = mtg_usa_civil_war_fascists_2
 		}
 	}
-	option = { # welp
+	option = { 
 		name = mtg_usa_civil_war_fascists.2.a
 		add_stability = -0.2	
 		set_country_flag = mtg_usa_civil_war_fascists_2
@@ -74,7 +72,7 @@ country_event = {
 	}
 }
 
-##dispatcher event - general
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.3
 
@@ -85,20 +83,20 @@ country_event = {
 	}
 	immediate = {
 		random_list = {
-			25 = { country_event = { id = mtg_usa_civil_war_fascists.10 days = 5 random_days = 6 } } #armory raided
-			10 = { country_event = { id = mtg_usa_civil_war_fascists.11 days = 5 random_days = 6 } } #state refuses to transfer funds
-			#10 = { #general resigns
-			#	random_unit_leader = {
-			#		unit_leader_event = { id = mtg_usa_civil_war_fascists.12 } #days = 5 random_days = 6 } 
-			#	}
-			#} 
-			35 = { country_event = { id = mtg_usa_civil_war_fascists.13 days = 5 random_days = 6 } } #governor mobilizes national guard
-			20 = { country_event = { id = mtg_usa_civil_war_fascists.14 days = 5 random_days = 6 } } #soldiers desert
+			25 = { country_event = { id = mtg_usa_civil_war_fascists.10 days = 5 random_days = 6 } } 
+			10 = { country_event = { id = mtg_usa_civil_war_fascists.11 days = 5 random_days = 6 } } 
+			
+			
+			
+			
+			
+			35 = { country_event = { id = mtg_usa_civil_war_fascists.13 days = 5 random_days = 6 } } 
+			20 = { country_event = { id = mtg_usa_civil_war_fascists.14 days = 5 random_days = 6 } } 
 		}
 	}
 }
-#
-##dispatcher event - industry
+
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.4
 
@@ -118,13 +116,13 @@ country_event = {
 			set_country_flag = mucwf4
 		}
 		random_list = {
-			67 = { country_event = mtg_usa_civil_war_fascists.15 } #industrialist moves factroy - military
-			33 = { country_event = mtg_usa_civil_war_fascists.16 } #industrialist moves factroy - civilian
+			67 = { country_event = mtg_usa_civil_war_fascists.15 } 
+			33 = { country_event = mtg_usa_civil_war_fascists.16 } 
 		}
 	}
 }
-#
-##armory raided
+
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.10
 	title = mtg_usa_civil_war_fascists.10.t
@@ -159,8 +157,8 @@ country_event = {
 		}
 	}
 }
-#
-##state refuses to pay
+
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.11
 	title = mtg_usa_civil_war_fascists.11.t
@@ -182,8 +180,8 @@ country_event = {
 		add_to_variable = { var = usa_fascists_funds value = 1}
 	}
 }
-#
-##general resigns
+
+
 unit_leader_event = {
 	id = mtg_usa_civil_war_fascists.12
 	title = mtg_usa_civil_war_fascists.12.t
@@ -204,8 +202,8 @@ unit_leader_event = {
 		}
 	}
 }
-#
-##governor mobilizes national guard
+
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.13
 	title = mtg_usa_civil_war_fascists.13.t
@@ -242,8 +240,8 @@ country_event = {
 		}
 	}
 }
-#
-##soldiers desert
+
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.14
 	title = mtg_usa_civil_war_fascists.14.t
@@ -273,8 +271,8 @@ country_event = {
 		}
 	}
 }
-#
-##industrialist moves factory
+
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.15
 	title = mtg_usa_civil_war_fascists.15.t
@@ -320,7 +318,7 @@ country_event = {
 		}
 	}
 }
-##industrialist moves factory
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.16
 	title = mtg_usa_civil_war_fascists.16.t
@@ -366,8 +364,8 @@ country_event = {
 		}
 	}
 }
-#
-##fascist uprising - first state secedes from the union
+
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.20
 	title = mtg_usa_civil_war_fascists.20.t
@@ -401,7 +399,7 @@ country_event = {
 						has_completed_focus = USA_guarantee_the_american_dream
 					}
 				}
-				country_event = mtg_usa_civil_war_fascists.22 #forms neutral bloc
+				country_event = mtg_usa_civil_war_fascists.22 
 			}	
 		}
 	}
@@ -422,7 +420,7 @@ country_event = {
 		}
 	}
 }
-##fascist uprising - confederacy forms
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.21
 	title = mtg_usa_civil_war_fascists.21.t
@@ -712,7 +710,7 @@ country_event = {
 	}
 }
 
-##fascist uprising - neutral bloc forms
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.22
 	title = mtg_usa_civil_war_fascists.22.t
@@ -757,7 +755,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = mtg_usa_civil_war_fascists.22.a #can't even deal with this right now
+		name = mtg_usa_civil_war_fascists.22.a 
 		ai_chance = {
 			factor = 1
 		}
@@ -769,7 +767,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = mtg_usa_civil_war_fascists.22.b #traitors all
+		name = mtg_usa_civil_war_fascists.22.b 
 		ai_chance = {
 			factor = 0
 		}
@@ -778,7 +776,7 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				OR = {
-					state = 369 # two more states join CSA because you are a meanie!
+					state = 369 
 					state = 373
 				}
 			}
@@ -799,7 +797,7 @@ country_event = {
 		}
 	}
 }
-# neutrals rejoin after war is over
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.23
 	title = mtg_usa_civil_war_fascists.23.t
@@ -825,7 +823,7 @@ country_event = {
 
 	option = {
 		name = mtg_usa_civil_war_fascists.23.a 
-		annex_country = { target = USB } #all your peripherals are belong to us
+		annex_country = { target = USB } 
 		every_owned_state = {
 			limit = {
 				is_core_of = USB
@@ -839,7 +837,7 @@ country_event = {
 	}
 }
 
-#hidden trigger event that moves the civil war along if communist support over 30%
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.32
 	title = mtg_usa_civil_war_fascists.201.t
@@ -861,7 +859,7 @@ country_event = {
 	}
 }
 
-#hidden trigger event to allow arms purchases in ACW
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.230
 	hidden = yes
@@ -872,7 +870,7 @@ country_event = {
 	}
 }
 
-#CSA volunteers come forward when taking over US state
+
 state_event = {
 	id = mtg_usa_civil_war_fascists.201
 	title = mtg_usa_civil_war_fascists.201.t
@@ -881,7 +879,7 @@ state_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = mtg_usa_civil_war_fascists.201.a #form separate units
+		name = mtg_usa_civil_war_fascists.201.a 
 		ai_chance = {
 			factor = 75
 		}
@@ -924,7 +922,7 @@ state_event = {
 		}
 	}
 	option = {
-		name = mtg_usa_civil_war_fascists.201.b #integrate them into the army
+		name = mtg_usa_civil_war_fascists.201.b 
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -939,7 +937,7 @@ state_event = {
 	}
 }
 
-#USA volunteers come forward when taking over US state
+
 state_event = {
 	id = mtg_usa_civil_war_fascists.202
 	title = mtg_usa_civil_war_fascists.202.t
@@ -948,7 +946,7 @@ state_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = mtg_usa_civil_war_fascists.201.a #form separate units
+		name = mtg_usa_civil_war_fascists.201.a 
 		ai_chance = {
 			factor = 75
 		}
@@ -991,7 +989,7 @@ state_event = {
 		}
 	}
 	option = {
-		name = mtg_usa_civil_war_fascists.201.b #integrate them into the army
+		name = mtg_usa_civil_war_fascists.201.b 
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -1019,7 +1017,7 @@ country_event = {
 		
 }
 
-#hidden trigger event that shows the civil war is over
+
 country_event = {
 	id = mtg_usa_civil_war_fascists.331
 	hidden = yes
@@ -1042,16 +1040,16 @@ country_event = {
 	option = {}
 }
 
-###  ### #   #  ##   ##  ###   ##  ###  ##     #  # ###  ###  ###  ## ### #  #  ##  
-#  # #   ## ## #  # #  # #  # #  #  #  #       #  # #  # #  #  #  #    #  ## # #    
-#  # ##  # # # #  # #    ###  ####  #   #      #  # ###  ###   #   #   #  # ## # ## 
-#  # #   #   # #  # #  # #  # #  #  #    #     #  # #    #  #  #    #  #  #  # #  # 
-###  ### #   #  ##   ##  #  # #  #  #  ##       ##  #    #  # ### ##  ### #  #  ##  
+
+
+
+
+
 
 
 add_namespace = mtg_usa_civil_war_democrats
 
-#initial event for the democrat uprising
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.1
 	title = mtg_usa_civil_war_democrats.1.t
@@ -1066,7 +1064,7 @@ country_event = {
 	}
 
 	
-	option = { # back down, for now
+	option = { 
 		name = mtg_usa_civil_war_democrats.1.a
 		ai_chance = {
 			factor = 80
@@ -1076,7 +1074,7 @@ country_event = {
 	}
 }
 
-#second event for the democrat uprising
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.2
 	title = mtg_usa_civil_war_democrats.2.t
@@ -1118,7 +1116,7 @@ country_event = {
 	}
 
 	
-	option = { #
+	option = { 
 		name = mtg_usa_civil_war_democrats.2.a
 		ai_chance = {
 			factor = 80
@@ -1127,7 +1125,7 @@ country_event = {
 		add_war_support = -0.1	
 	}
 }
-#hidden dispatch event - general
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.3
 
@@ -1138,21 +1136,21 @@ country_event = {
 	}
 	immediate = {
 		random_list = {
-			35 = { country_event = mtg_usa_civil_war_democrats.10 } #armory raided
-			#15 = { 
-			#	random_army_leader = {
-			#		set_unit_leader_flag = retired
-			#		retire = yes
-			#		unit_leader_event = { id = mtg_usa_civil_war_democrats.12 }#general resigns
-			#	}
-			#}
-			35 = { country_event = mtg_usa_civil_war_democrats.13 } #soldiers desert
-			15 = { country_event = mtg_usa_civil_war_democrats.14 } #workers on strike
+			35 = { country_event = mtg_usa_civil_war_democrats.10 } 
+			
+			
+			
+			
+			
+			
+			
+			35 = { country_event = mtg_usa_civil_war_democrats.13 } 
+			15 = { country_event = mtg_usa_civil_war_democrats.14 } 
 		}	
 	}
 }
 
-#hidden dispatch event - industrial
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.4
 
@@ -1163,13 +1161,13 @@ country_event = {
 	}
 	immediate = {
 		random_list = {
-			55 = { country_event = mtg_usa_civil_war_democrats.15 } #military factory
-			45 = { country_event = mtg_usa_civil_war_democrats.16 } #civilian factory
+			55 = { country_event = mtg_usa_civil_war_democrats.15 } 
+			45 = { country_event = mtg_usa_civil_war_democrats.16 } 
 		}	
 	}
 }
 
-##armory raided
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.10
 	title = mtg_usa_civil_war_fascists.10.t
@@ -1204,7 +1202,7 @@ country_event = {
 		}
 	}
 }
-##citizen militia forms
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.11
 	title = mtg_usa_civil_war_democrats.11.t
@@ -1230,7 +1228,7 @@ country_event = {
 	}
 }
 
-##general resigns
+
 unit_leader_event = {
 	id = mtg_usa_civil_war_democrats.12
 	title = mtg_usa_civil_war_fascists.12.t
@@ -1254,7 +1252,7 @@ unit_leader_event = {
 	}
 }
 
-##soldiers desert
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.13
 	title = mtg_usa_civil_war_fascists.14.t
@@ -1284,7 +1282,7 @@ country_event = {
 	}
 }
 
-##workers on strike
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.14
 	title = mtg_usa_civil_war_democrats.14.t
@@ -1305,7 +1303,7 @@ country_event = {
 		}
 	}
 }
-##industrialist moves factory
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.15
 	title = mtg_usa_civil_war_democrats.15.t
@@ -1353,7 +1351,7 @@ country_event = {
 		}
 	}
 }
-##industrialist moves factory
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.16
 	title = mtg_usa_civil_war_democrats.16.t
@@ -1401,7 +1399,7 @@ country_event = {
 		}
 	}
 }
-##first state seceedes
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.20
 	title = mtg_usa_civil_war_democrats.20.t
@@ -1419,7 +1417,7 @@ country_event = {
 				ideology = democratic
 				size = 0.7
 				capital = 357
-				states = { 357 685 }
+				states = { 357 685  4267 4268 4269 4270 4271 4272 4273 4274 4275 4276 4277 4278 4279 4280 4281 4282 4283 4284 4285 4286 4287 4288 4289 4290 4291 4292 4293 4294 4295 4296 4297 }
 			}
 			division_template = {
 				name = "Local Volunteers"
@@ -1793,7 +1791,7 @@ country_event = {
 				ideology = democratic
 				size = 0.7
 				capital = 357
-				states = { 357 685 }
+				states = { 357 685  4267 4268 4269 4270 4271 4272 4273 4274 4275 4276 4277 4278 4279 4280 4281 4282 4283 4284 4285 4286 4287 4288 4289 4290 4291 4292 4293 4294 4295 4296 4297 }
 			}
 		}
 		if = {
@@ -1830,7 +1828,7 @@ country_event = {
 	}
 }
 
-##west coast seceeds
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.21
 	title = mtg_usa_civil_war_democrats.21.t
@@ -1945,7 +1943,7 @@ country_event = {
 	}
 }
 
-##midwestern bloc declares for loyalists
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.22
 	title = mtg_usa_civil_war_democrats.22.t
@@ -1960,7 +1958,7 @@ country_event = {
 	}	
 }
 
-##east coast seceeds
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.23
 	title = mtg_usa_civil_war_democrats.23.t
@@ -1993,24 +1991,24 @@ country_event = {
 	}
 }
 
-#hidden dispatcher event to split remaining states
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.24
 
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
-		#north west
+		
 		random_list = {
 			70 = { country_event = { id = mtg_usa_civil_war_democrats.25 days = 6 random_days = 5 } }
 			30 = { country_event = { id = mtg_usa_civil_war_democrats.26 days = 6 random_days = 5 } }
 		}
-		#south west
+		
 		random_list = {
 			70 = { country_event = { id = mtg_usa_civil_war_democrats.27 days = 6 random_days = 5 } }
 			30 = { country_event = { id = mtg_usa_civil_war_democrats.28 days = 6 random_days = 5 } }
 		}
-		#west midwest
+		
 		random_list = {
 			70 = { country_event = { id = mtg_usa_civil_war_democrats.29 days = 6 random_days = 5 } }
 			30 = { country_event = { id = mtg_usa_civil_war_democrats.30 days = 6 random_days = 5 } }
@@ -2023,7 +2021,7 @@ country_event = {
 					}
 				}
 			}
-			#east midwest
+			
 			random_list = {
 				70 = { country_event = { id = mtg_usa_civil_war_democrats.31 days = 3 } }
 				30 = { country_event = { id = mtg_usa_civil_war_democrats.22 days = 3 } }
@@ -2033,7 +2031,7 @@ country_event = {
 	}
 }
 
-##north west seceeds
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.25
 	title = mtg_usa_civil_war_democrats.25.t
@@ -2081,7 +2079,7 @@ country_event = {
 		}
 	}
 }
-##north western bloc declares for loyalists
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.26
 	title = mtg_usa_civil_war_democrats.26.t
@@ -2117,7 +2115,7 @@ country_event = {
 		}
 	}	
 }
-##south west seceeds
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.27
 	title = mtg_usa_civil_war_democrats.27.t
@@ -2167,7 +2165,7 @@ country_event = {
 		}
 	}
 }
-##south western bloc declares for loyalists
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.28
 	title = mtg_usa_civil_war_democrats.28.t
@@ -2203,7 +2201,7 @@ country_event = {
 		}
 	}	
 }
-## west midwest seceeds
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.29
 	title = mtg_usa_civil_war_democrats.29.t
@@ -2253,7 +2251,7 @@ country_event = {
 		}
 	}
 }
-##west midwestern bloc declares for loyalists
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.30
 	title = mtg_usa_civil_war_democrats.30.t
@@ -2289,7 +2287,7 @@ country_event = {
 		}
 	}
 }
-## east midwest seceeds
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.31
 	title = mtg_usa_civil_war_democrats.31.t
@@ -2319,7 +2317,7 @@ country_event = {
 	}
 }
 
-# hidden trigger event to move the civil war along if fascist support is > 30%
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.32
 	hidden = yes
@@ -2342,7 +2340,7 @@ country_event = {
 		name = OK
 	}
 }
-#McArthur Offers Leadership
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.40
 	title = mtg_usa_civil_war_democrats.40.t
@@ -2350,7 +2348,7 @@ country_event = {
 	picture = GFX_report_event_generic_rally2
 
 	is_triggered_only = yes
-	#accept
+	
 	option = {
 		ai_chance = {
 			factor = 100
@@ -2366,7 +2364,7 @@ country_event = {
 				american_caesar
 			}
 		}
-		hidden_effect = { #to make sure he doesn't disappear when country flips fascist
+		hidden_effect = { 
 			create_country_leader = {
 				name = "Douglas MacArthur"
 				desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
@@ -2385,7 +2383,7 @@ country_event = {
 			retire = yes
 		}
 	}
-	#no thanks
+	
 	option = {
 		ai_chance = {
 			factor = 0
@@ -2394,7 +2392,7 @@ country_event = {
 		
 	}
 }
-#Fascist Leadership challenge to McArthur
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.41
 	title = mtg_usa_civil_war_democrats.41.t
@@ -2410,7 +2408,7 @@ country_event = {
 	}
 	mean_time_to_happen = { days = 20 }
 	fire_only_once = yes
-	#accept
+	
 	option = {
 		name = mtg_usa_civil_war_democrats.41.a
 		ai_chance = {
@@ -2422,7 +2420,7 @@ country_event = {
 		}
 		retire_country_leader = yes
 	}
-	#no thanks
+	
 	option = {
 		ai_chance = {
 			factor = 30
@@ -2473,7 +2471,7 @@ country_event = {
 	}
 }
 
-##spawn citizen militias
+
 country_event = {
 	id = mtg_usa_civil_war_democrats.999
 	hidden = yes
@@ -2507,7 +2505,7 @@ country_event = {
 		set_country_flag = citizen_militia_spawned
 	}
 }
-##spawn citizen militias
+
 state_event = {
 	id = mtg_usa_civil_war_democrats.1000
 	hidden = yes
@@ -2529,14 +2527,14 @@ state_event = {
 }
 add_namespace = mtg_usa_canadian_corridor
 
- ##   ##  #  #  ##  ###  ###  ##  #  #      ##   ##  ###  ###  ### ###   ##  ###  
-#  # #  # ## # #  # #  #  #  #  # ## #     #  # #  # #  # #  #  #  #  # #  # #  # 
-#    #### # ## #### #  #  #  #### # ##     #    #  # ###  ###   #  #  # #  # ###  
-#  # #  # #  # #  # #  #  #  #  # #  #     #  # #  # #  # #  #  #  #  # #  # #  # 
- ##  #  # #  # #  # ###  ### #  # #  #      ##   ##  #  # #  # ### ###   ##  #  # 
+ 
 
 
-##intial event for Canada
+
+ 
+
+
+
 country_event = {
 	id = mtg_usa_canadian_corridor.1
 	title = mtg_usa_canadian_corridor.1.t
@@ -2544,7 +2542,7 @@ country_event = {
 	picture = GFX_report_event_canada_patriation
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_canadian_corridor.1.a
 		ai_chance = {
 			factor = 30
@@ -2560,14 +2558,50 @@ country_event = {
 		}
 		effect_tooltip = {
 			FROM = {
-				transfer_state = 740
-				transfer_state = 473
+				transfer_state = 740 
+		transfer_state = 9530 
+		transfer_state = 9531 
+		transfer_state = 9532 
+		transfer_state = 9533
+				transfer_state = 473 
+		transfer_state = 6274 
+		transfer_state = 6275 
+		transfer_state = 6276 
+		transfer_state = 6277 
+		transfer_state = 6278 
+		transfer_state = 6279 
+		transfer_state = 6280 
+		transfer_state = 6281 
+		transfer_state = 6282 
+		transfer_state = 6283 
+		transfer_state = 6284 
+		transfer_state = 6285 
+		transfer_state = 6286 
+		transfer_state = 6287 
+		transfer_state = 6288 
+		transfer_state = 6289 
+		transfer_state = 6290 
+		transfer_state = 6291 
+		transfer_state = 6292 
+		transfer_state = 6293 
+		transfer_state = 6294
 				transfer_state = 739
-				transfer_state = 471
+				transfer_state = 471 
+		transfer_state = 6239 
+		transfer_state = 6240 
+		transfer_state = 6241 
+		transfer_state = 6242 
+		transfer_state = 6243 
+		transfer_state = 6244 
+		transfer_state = 6245 
+		transfer_state = 6246 
+		transfer_state = 6247 
+		transfer_state = 6248 
+		transfer_state = 6249
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_canadian_corridor.1.b
 		ai_chance = {
 			factor = 70
@@ -2603,7 +2637,7 @@ country_event = {
 	}
 }
 
-##Canada agrees!
+
 country_event = {
 	id = mtg_usa_canadian_corridor.2
 	title = mtg_usa_canadian_corridor.2.t
@@ -2611,16 +2645,52 @@ country_event = {
 	picture = GFX_report_event_canada_treaty
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_canadian_corridor.2.a
-		transfer_state = 740
-		transfer_state = 473
+		transfer_state = 740 
+		transfer_state = 9530 
+		transfer_state = 9531 
+		transfer_state = 9532 
+		transfer_state = 9533
+		transfer_state = 473 
+		transfer_state = 6274 
+		transfer_state = 6275 
+		transfer_state = 6276 
+		transfer_state = 6277 
+		transfer_state = 6278 
+		transfer_state = 6279 
+		transfer_state = 6280 
+		transfer_state = 6281 
+		transfer_state = 6282 
+		transfer_state = 6283 
+		transfer_state = 6284 
+		transfer_state = 6285 
+		transfer_state = 6286 
+		transfer_state = 6287 
+		transfer_state = 6288 
+		transfer_state = 6289 
+		transfer_state = 6290 
+		transfer_state = 6291 
+		transfer_state = 6292 
+		transfer_state = 6293 
+		transfer_state = 6294
 		transfer_state = 739
-		transfer_state = 471
+		transfer_state = 471 
+		transfer_state = 6239 
+		transfer_state = 6240 
+		transfer_state = 6241 
+		transfer_state = 6242 
+		transfer_state = 6243 
+		transfer_state = 6244 
+		transfer_state = 6245 
+		transfer_state = 6246 
+		transfer_state = 6247 
+		transfer_state = 6248 
+		transfer_state = 6249
 	}
 }
 
-##Canada refuses
+
 country_event = {
 	id = mtg_usa_canadian_corridor.3
 	title = mtg_usa_canadian_corridor.3.t
@@ -2628,7 +2698,7 @@ country_event = {
 	picture = GFX_report_event_canadian_artillery
 
 	is_triggered_only = yes
-	option = { #war!
+	option = { 
 		name = mtg_usa_canadian_corridor.3.a
 		ai_chance = {
 			factor = 90
@@ -2643,7 +2713,7 @@ country_event = {
 			generator = { 740 473 739 471 }
 		}
 	}
-	option = { #no war!
+	option = { 
 		name = mtg_usa_canadian_corridor.3.b
 		ai_chance = {
 			factor = 10
@@ -2653,14 +2723,14 @@ country_event = {
 }
 add_namespace = mtg_usa_southern_threat
 
- ##  ##  #  # ### #  # ### ###  #  #     ### #  # ###  ###  ##  ### 
-#   #  # #  #  #  #  # #   #  # ## #      #  #  # #  # #   #  #  #  
- #  #  # #  #  #  #### ##  ###  # ##      #  #### ###  ##  ####  #  
-  # #  # #  #  #  #  # #   #  # #  #      #  #  # #  # #   #  #  #  
-##   ##   ##   #  #  # ### #  # #  #      #  #  # #  # ### #  #  #  
+ 
+
+ 
+  
 
 
-##intial event for Mexico
+
+
 country_event = {
 	id = mtg_usa_southern_threat.1
 	title = mtg_usa_southern_threat.1.t
@@ -2668,7 +2738,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_southern_threat.1.a
 		ai_chance = {
 			factor = 30
@@ -2688,7 +2758,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_southern_threat.1.b
 		ai_chance = {
 			factor = 70
@@ -2722,7 +2792,7 @@ country_event = {
 	}
 }
 
-##Mexico agrees!
+
 country_event = {
 	id = mtg_usa_southern_threat.2
 	title = mtg_usa_southern_threat.2.t
@@ -2730,13 +2800,13 @@ country_event = {
 	picture = GFX_report_event_tanks_mexico_city
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_southern_threat.2.a
 		puppet = FROM
 	}
 }
 
-##Mexico refuses
+
 country_event = {
 	id = mtg_usa_southern_threat.3
 	title = mtg_usa_southern_threat.3.t
@@ -2744,7 +2814,7 @@ country_event = {
 	picture = GFX_report_event_soldiers_marching
 
 	is_triggered_only = yes
-	option = { #war!
+	option = { 
 		name = mtg_usa_southern_threat.3.a
 		ai_chance = {
 			factor = 90
@@ -2758,7 +2828,7 @@ country_event = {
 			target = MEX
 		}
 	}
-	option = { #no war!
+	option = { 
 		name = mtg_usa_southern_threat.3.b
 		ai_chance = {
 			factor = 10
@@ -2768,14 +2838,14 @@ country_event = {
 }
 add_namespace = mtg_usa_north_american_dominion
 
-#  #  ##  ###  ### #  #      ##  #   # ### ###  ###  ##   ##  #  #     ###   ##  #   # ### #  # ###  ##  #  # 
-## # #  # #  #  #  #  #     #  # ## ## #   #  #  #  #  # #  # ## #     #  # #  # ## ##  #  ## #  #  #  # ## # 
-# ## #  # ###   #  ####     #### # # # ##  ###   #  #    #### # ##     #  # #  # # # #  #  # ##  #  #  # # ## 
-#  # #  # #  #  #  #  #     #  # #   # #   #  #  #  #  # #  # #  #     #  # #  # #   #  #  #  #  #  #  # #  # 
-#  #  ##  #  #  #  #  #     #  # #   # ### #  # ###  ##  #  # #  #     ###   ##  #   # ### #  # ###  ##  #  # 
 
 
-##US demands subjugation
+
+
+
+
+
+
 country_event = {
 	id = mtg_usa_north_american_dominion.1
 	title = mtg_usa_north_american_dominion.1.t
@@ -2783,7 +2853,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_north_american_dominion.1.a
 		ai_chance = {
 			factor = 30
@@ -2802,7 +2872,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_southern_threat.1.b
 		ai_chance = {
 			factor = 70
@@ -2834,7 +2904,7 @@ country_event = {
 		}
 	}
 }
-##Country agrees!
+
 country_event = {
 	id = mtg_usa_north_american_dominion.2
 	title = mtg_usa_north_american_dominion.2.t
@@ -2842,13 +2912,13 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty3
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_north_american_dominion.2.a
 		puppet = FROM
 	}
 }
 
-##Country refuses
+
 country_event = {
 	id = mtg_usa_north_american_dominion.3
 	title = mtg_usa_north_american_dominion.3.t
@@ -2856,7 +2926,7 @@ country_event = {
 	picture = GFX_report_event_british_inspect_troops
 
 	is_triggered_only = yes
-	option = { #war!
+	option = { 
 		name = mtg_usa_north_american_dominion.3.a
 		ai_chance = {
 			factor = 90
@@ -2870,7 +2940,7 @@ country_event = {
 			target = FROM
 		}
 	}
-	option = { #no war!
+	option = { 
 		name = mtg_usa_north_american_dominion.3.b
 		ai_chance = {
 			factor = 10
@@ -2881,14 +2951,14 @@ country_event = {
 
 add_namespace = mtg_usa_strategic_interests
 
- ## ### ###   ##  ###  ##  ###  ##      ### #  # ### ### ###  ###  ## ###  ## 
-#    #  #  # #  #  #  #     #  #  #      #  ## #  #  #   #  # #   #    #  #   
- #   #  ###  ####  #  # ##  #  #         #  # ##  #  ##  ###  ##   #   #   #  
-  #  #  #  # #  #  #  #  #  #  #  #      #  #  #  #  #   #  # #     #  #    # 
-##   #  #  # #  #  #   ##  ###  ##      ### #  #  #  ### #  # ### ##   #  ##  
+ 
+
+ 
+  
 
 
-##US demands colonies
+
+
 country_event = {
 	id = mtg_usa_strategic_interests.1
 	title = mtg_usa_strategic_interests.1.t
@@ -2896,7 +2966,7 @@ country_event = {
 	picture = GFX_report_event_generic_conference
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_strategic_interests.1.a
 		ai_chance = {
 			factor = 30
@@ -2949,12 +3019,36 @@ country_event = {
 					has_full_control_of_state = 336
 				}
 				USA = {
-					transfer_state = 336
+					transfer_state = 336 
+		transfer_state = 4006 
+		transfer_state = 4007 
+		transfer_state = 4008 
+		transfer_state = 4009 
+		transfer_state = 4010 
+		transfer_state = 4011 
+		transfer_state = 4012 
+		transfer_state = 4013 
+		transfer_state = 4014 
+		transfer_state = 4015 
+		transfer_state = 4016 
+		transfer_state = 4017 
+		transfer_state = 4018 
+		transfer_state = 4019 
+		transfer_state = 4020 
+		transfer_state = 4021 
+		transfer_state = 4022 
+		transfer_state = 4023 
+		transfer_state = 4024 
+		transfer_state = 4025 
+		transfer_state = 4026 
+		transfer_state = 4027 
+		transfer_state = 4028 
+		transfer_state = 4029
 				}
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_strategic_interests.1.b
 		ai_chance = {
 			factor = 70
@@ -2986,7 +3080,7 @@ country_event = {
 		}
 	}
 }
-##Country agrees!
+
 country_event = {
 	id = mtg_usa_strategic_interests.2
 	title = mtg_usa_strategic_interests.2.t
@@ -2994,7 +3088,7 @@ country_event = {
 	picture = GFX_report_event_generic_military_parade
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_strategic_interests.2.a
 		if = {
 			limit = {
@@ -3029,13 +3123,37 @@ country_event = {
 				FROM = { has_full_control_of_state = 336 }
 			}
 			USA = {
-				transfer_state = 336
+				transfer_state = 336 
+		transfer_state = 4006 
+		transfer_state = 4007 
+		transfer_state = 4008 
+		transfer_state = 4009 
+		transfer_state = 4010 
+		transfer_state = 4011 
+		transfer_state = 4012 
+		transfer_state = 4013 
+		transfer_state = 4014 
+		transfer_state = 4015 
+		transfer_state = 4016 
+		transfer_state = 4017 
+		transfer_state = 4018 
+		transfer_state = 4019 
+		transfer_state = 4020 
+		transfer_state = 4021 
+		transfer_state = 4022 
+		transfer_state = 4023 
+		transfer_state = 4024 
+		transfer_state = 4025 
+		transfer_state = 4026 
+		transfer_state = 4027 
+		transfer_state = 4028 
+		transfer_state = 4029
 			}
 		}
 	}
 }
 
-##Country refuses
+
 country_event = {
 	id = mtg_usa_strategic_interests.3
 	title = mtg_usa_strategic_interests.3.t
@@ -3043,7 +3161,7 @@ country_event = {
 	picture = GFX_report_event_british_artillery
 
 	is_triggered_only = yes
-	option = { #war!
+	option = { 
 		name = mtg_usa_strategic_interests.3.a
 		ai_chance = {
 			factor = 90
@@ -3057,7 +3175,7 @@ country_event = {
 			target = FROM
 		}
 	}
-	option = { #no war!
+	option = { 
 		name = mtg_usa_strategic_interests.3.b
 		ai_chance = {
 			factor = 10
@@ -3068,14 +3186,14 @@ country_event = {
 
 add_namespace = mtg_usa_pacific_pacification
 
-###   ##   ##  ### ### ###  ##      ###   ##   ##  ### ### ###  ##   ##  ### ###  ##  #  # 
-#  # #  # #  #  #  #    #  #  #     #  # #  # #  #  #  #    #  #  # #  #  #   #  #  # ## # 
-###  #### #     #  ##   #  #        ###  #### #     #  ##   #  #    ####  #   #  #  # # ## 
-#    #  # #  #  #  #    #  #  #     #    #  # #  #  #  #    #  #  # #  #  #   #  #  # #  # 
-#    #  #  ##  ### #   ###  ##      #    #  #  ##  ### #   ###  ##  #  #  #  ###  ##  #  # 
 
 
-##US demands colonies - to AST/NZL if independent, otherwise to britain
+
+
+
+
+
+
 country_event = {
 	id = mtg_usa_pacific_pacification.1
 	title = mtg_usa_pacific_pacification.1.t
@@ -3110,7 +3228,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_pacific_pacification.1.a
 		ai_chance = {
 			factor = 30
@@ -3134,7 +3252,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_pacific_pacification.1.b
 		ai_chance = {
 			factor = 70
@@ -3166,7 +3284,7 @@ country_event = {
 		}
 	}
 }
-##Country agrees!
+
 country_event = {
 	id = mtg_usa_pacific_pacification.2
 	title = mtg_usa_pacific_pacification.2.t
@@ -3174,7 +3292,7 @@ country_event = {
 	picture = GFX_report_event_ast_planning
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_pacific_pacification.2.a
 		if = {
 			limit = {
@@ -3206,7 +3324,7 @@ country_event = {
 	}
 }
 
-##Country refuses
+
 country_event = {
 	id = mtg_usa_pacific_pacification.3
 	title = mtg_usa_pacific_pacification.3.t
@@ -3214,7 +3332,7 @@ country_event = {
 	picture = GFX_report_event_ast_troops_landing
 
 	is_triggered_only = yes
-	option = { #war!
+	option = { 
 		name = mtg_usa_pacific_pacification.3.a
 		ai_chance = {
 			factor = 90
@@ -3228,7 +3346,7 @@ country_event = {
 			target = FROM
 		}
 	}
-	option = { #no war!
+	option = { 
 		name = mtg_usa_pacific_pacification.3.b
 		ai_chance = {
 			factor = 10
@@ -3237,16 +3355,16 @@ country_event = {
 	}
 }
 
- ## ###  ##  #  # ###  ###      ##   ## ###  ##  
-#   #   #  # #  # #  # #       #  # #    #  #  # 
- #  ##  #    #  # ###  ##      ####  #   #  #### 
-  # #   #  # #  # #  # #       #  #   #  #  #  # 
-##  ###  ##   ##  #  # ###     #  # ##  ### #  # 
+ 
+
+ 
+  
+
 
 
 add_namespace = mtg_usa_secure_asia
-##puppet demand for Siam
-##intial event for Siam
+
+
 country_event = {
 	id = mtg_usa_secure_asia.1
 	title = mtg_usa_secure_asia.1.t
@@ -3254,7 +3372,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_secure_asia.1.a
 		ai_chance = {
 			factor = 30
@@ -3274,7 +3392,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_secure_asia.1.b
 		ai_chance = {
 			factor = 70
@@ -3308,7 +3426,7 @@ country_event = {
 	}
 }
 
-##Siam agrees!
+
 country_event = {
 	id = mtg_usa_secure_asia.2
 	title = mtg_usa_secure_asia.2.t
@@ -3316,13 +3434,13 @@ country_event = {
 	picture = GFX_report_event_japanese_soldiers_03
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_secure_asia.2.a
 		puppet = FROM
 	}
 }
 
-##Siam refuses
+
 country_event = {
 	id = mtg_usa_secure_asia.3
 	title = mtg_usa_secure_asia.3.t
@@ -3330,7 +3448,7 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
-	option = { #war!
+	option = { 
 		name = mtg_usa_secure_asia.3.a
 		ai_chance = {
 			factor = 90
@@ -3344,7 +3462,7 @@ country_event = {
 			target = FROM
 		}
 	}
-	option = { #no war!
+	option = { 
 		name = mtg_usa_secure_asia.3.b
 		ai_chance = {
 			factor = 10
@@ -3353,8 +3471,8 @@ country_event = {
 	}
 }
 
-##transfer demand for DEI
-##intial event for DEI
+
+
 country_event = {
 	id = mtg_usa_secure_asia.4
 	title = mtg_usa_secure_asia.4.t
@@ -3362,7 +3480,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_secure_asia.4.a
 		ai_chance = {
 			factor = 30
@@ -3382,7 +3500,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_secure_asia.4.b
 		ai_chance = {
 			factor = 70
@@ -3416,7 +3534,7 @@ country_event = {
 	}
 }
 
-##DEI agrees!
+
 country_event = {
 	id = mtg_usa_secure_asia.5
 	title = mtg_usa_secure_asia.5.t
@@ -3424,13 +3542,13 @@ country_event = {
 	picture = GFX_report_event_indonesia_handover
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_secure_asia.5.a
 		puppet = INS
 	}
 }
 
-##DEI refuses
+
 country_event = {
 	id = mtg_usa_secure_asia.6
 	title = mtg_usa_secure_asia.6.t
@@ -3438,7 +3556,7 @@ country_event = {
 	picture = GFX_report_event_dutch_soldiers_indonesia
 
 	is_triggered_only = yes
-	option = { #war!
+	option = { 
 		name = mtg_usa_secure_asia.6.a
 		ai_chance = {
 			factor = 90
@@ -3452,7 +3570,7 @@ country_event = {
 			target = INS
 		}
 	}
-	option = { #no war!
+	option = { 
 		name = mtg_usa_secure_asia.6.b
 		ai_chance = {
 			factor = 10
@@ -3461,8 +3579,8 @@ country_event = {
 	}
 }
 
-##transfer demand for French indochina
-##intial event for France
+
+
 country_event = {
 	id = mtg_usa_secure_asia.7
 	title = mtg_usa_secure_asia.7.t
@@ -3470,7 +3588,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_secure_asia.7.a
 		ai_chance = {
 			factor = 30
@@ -3486,14 +3604,133 @@ country_event = {
 		}
 		effect_tooltip = {
 			FROM = {
-				transfer_state = 671
-				transfer_state = 670
-				transfer_state = 286
-				transfer_state = 741
+				transfer_state = 671 
+		transfer_state = 8969 
+		transfer_state = 8970 
+		transfer_state = 8971 
+		transfer_state = 8972 
+		transfer_state = 8973 
+		transfer_state = 8974 
+		transfer_state = 8975 
+		transfer_state = 8976 
+		transfer_state = 8977 
+		transfer_state = 8978 
+		transfer_state = 8979 
+		transfer_state = 8980 
+		transfer_state = 8981 
+		transfer_state = 8982 
+		transfer_state = 8983 
+		transfer_state = 8984 
+		transfer_state = 8985 
+		transfer_state = 8986 
+		transfer_state = 8987 
+		transfer_state = 8988 
+		transfer_state = 8989 
+		transfer_state = 8990 
+		transfer_state = 8991 
+		transfer_state = 8992 
+		transfer_state = 8993 
+		transfer_state = 8994 
+		transfer_state = 8995 
+		transfer_state = 8996 
+		transfer_state = 8997 
+		transfer_state = 8998 
+		transfer_state = 8999 
+		transfer_state = 9000
+				transfer_state = 670 
+		transfer_state = 8937 
+		transfer_state = 8938 
+		transfer_state = 8939 
+		transfer_state = 8940 
+		transfer_state = 8941 
+		transfer_state = 8942 
+		transfer_state = 8943 
+		transfer_state = 8944 
+		transfer_state = 8945 
+		transfer_state = 8946 
+		transfer_state = 8947 
+		transfer_state = 8948 
+		transfer_state = 8949 
+		transfer_state = 8950 
+		transfer_state = 8951 
+		transfer_state = 8952 
+		transfer_state = 8953 
+		transfer_state = 8954 
+		transfer_state = 8955 
+		transfer_state = 8956 
+		transfer_state = 8957 
+		transfer_state = 8958 
+		transfer_state = 8959 
+		transfer_state = 8960 
+		transfer_state = 8961 
+		transfer_state = 8962 
+		transfer_state = 8963 
+		transfer_state = 8964 
+		transfer_state = 8965 
+		transfer_state = 8966 
+		transfer_state = 8967 
+		transfer_state = 8968
+				transfer_state = 286 
+		transfer_state = 3385 
+		transfer_state = 3386 
+		transfer_state = 3387 
+		transfer_state = 3388 
+		transfer_state = 3389 
+		transfer_state = 3390 
+		transfer_state = 3391 
+		transfer_state = 3392 
+		transfer_state = 3393 
+		transfer_state = 3394 
+		transfer_state = 3395 
+		transfer_state = 3396 
+		transfer_state = 3397 
+		transfer_state = 3398 
+		transfer_state = 3399 
+		transfer_state = 3400 
+		transfer_state = 3401 
+		transfer_state = 3402 
+		transfer_state = 3403 
+		transfer_state = 3404 
+		transfer_state = 3405 
+		transfer_state = 3406 
+		transfer_state = 3407 
+		transfer_state = 3408 
+		transfer_state = 3409 
+		transfer_state = 3410 
+		transfer_state = 3411 
+		transfer_state = 3412
+				transfer_state = 741 
+		transfer_state = 9534 
+		transfer_state = 9535 
+		transfer_state = 9536 
+		transfer_state = 9537 
+		transfer_state = 9538 
+		transfer_state = 9539 
+		transfer_state = 9540 
+		transfer_state = 9541 
+		transfer_state = 9542 
+		transfer_state = 9543 
+		transfer_state = 9544 
+		transfer_state = 9545 
+		transfer_state = 9546 
+		transfer_state = 9547 
+		transfer_state = 9548 
+		transfer_state = 9549 
+		transfer_state = 9550 
+		transfer_state = 9551 
+		transfer_state = 9552 
+		transfer_state = 9553 
+		transfer_state = 9554 
+		transfer_state = 9555 
+		transfer_state = 9556 
+		transfer_state = 9557 
+		transfer_state = 9558 
+		transfer_state = 9559 
+		transfer_state = 9560
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_secure_asia.7.b
 		ai_chance = {
 			factor = 70
@@ -3527,7 +3764,7 @@ country_event = {
 	}
 }
 
-##FRA agrees!
+
 country_event = {
 	id = mtg_usa_secure_asia.8
 	title = mtg_usa_secure_asia.8.t
@@ -3535,16 +3772,135 @@ country_event = {
 	picture = GFX_report_event_generic_conference
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_secure_asia.8.a
-			transfer_state = 671
-			transfer_state = 670
-			transfer_state = 286
-			transfer_state = 741
+			transfer_state = 671 
+		transfer_state = 8969 
+		transfer_state = 8970 
+		transfer_state = 8971 
+		transfer_state = 8972 
+		transfer_state = 8973 
+		transfer_state = 8974 
+		transfer_state = 8975 
+		transfer_state = 8976 
+		transfer_state = 8977 
+		transfer_state = 8978 
+		transfer_state = 8979 
+		transfer_state = 8980 
+		transfer_state = 8981 
+		transfer_state = 8982 
+		transfer_state = 8983 
+		transfer_state = 8984 
+		transfer_state = 8985 
+		transfer_state = 8986 
+		transfer_state = 8987 
+		transfer_state = 8988 
+		transfer_state = 8989 
+		transfer_state = 8990 
+		transfer_state = 8991 
+		transfer_state = 8992 
+		transfer_state = 8993 
+		transfer_state = 8994 
+		transfer_state = 8995 
+		transfer_state = 8996 
+		transfer_state = 8997 
+		transfer_state = 8998 
+		transfer_state = 8999 
+		transfer_state = 9000
+			transfer_state = 670 
+		transfer_state = 8937 
+		transfer_state = 8938 
+		transfer_state = 8939 
+		transfer_state = 8940 
+		transfer_state = 8941 
+		transfer_state = 8942 
+		transfer_state = 8943 
+		transfer_state = 8944 
+		transfer_state = 8945 
+		transfer_state = 8946 
+		transfer_state = 8947 
+		transfer_state = 8948 
+		transfer_state = 8949 
+		transfer_state = 8950 
+		transfer_state = 8951 
+		transfer_state = 8952 
+		transfer_state = 8953 
+		transfer_state = 8954 
+		transfer_state = 8955 
+		transfer_state = 8956 
+		transfer_state = 8957 
+		transfer_state = 8958 
+		transfer_state = 8959 
+		transfer_state = 8960 
+		transfer_state = 8961 
+		transfer_state = 8962 
+		transfer_state = 8963 
+		transfer_state = 8964 
+		transfer_state = 8965 
+		transfer_state = 8966 
+		transfer_state = 8967 
+		transfer_state = 8968
+			transfer_state = 286 
+		transfer_state = 3385 
+		transfer_state = 3386 
+		transfer_state = 3387 
+		transfer_state = 3388 
+		transfer_state = 3389 
+		transfer_state = 3390 
+		transfer_state = 3391 
+		transfer_state = 3392 
+		transfer_state = 3393 
+		transfer_state = 3394 
+		transfer_state = 3395 
+		transfer_state = 3396 
+		transfer_state = 3397 
+		transfer_state = 3398 
+		transfer_state = 3399 
+		transfer_state = 3400 
+		transfer_state = 3401 
+		transfer_state = 3402 
+		transfer_state = 3403 
+		transfer_state = 3404 
+		transfer_state = 3405 
+		transfer_state = 3406 
+		transfer_state = 3407 
+		transfer_state = 3408 
+		transfer_state = 3409 
+		transfer_state = 3410 
+		transfer_state = 3411 
+		transfer_state = 3412
+			transfer_state = 741 
+		transfer_state = 9534 
+		transfer_state = 9535 
+		transfer_state = 9536 
+		transfer_state = 9537 
+		transfer_state = 9538 
+		transfer_state = 9539 
+		transfer_state = 9540 
+		transfer_state = 9541 
+		transfer_state = 9542 
+		transfer_state = 9543 
+		transfer_state = 9544 
+		transfer_state = 9545 
+		transfer_state = 9546 
+		transfer_state = 9547 
+		transfer_state = 9548 
+		transfer_state = 9549 
+		transfer_state = 9550 
+		transfer_state = 9551 
+		transfer_state = 9552 
+		transfer_state = 9553 
+		transfer_state = 9554 
+		transfer_state = 9555 
+		transfer_state = 9556 
+		transfer_state = 9557 
+		transfer_state = 9558 
+		transfer_state = 9559 
+		transfer_state = 9560
 	}
 }
 
-##FRA refuses
+
 country_event = {
 	id = mtg_usa_secure_asia.9
 	title = mtg_usa_secure_asia.9.t
@@ -3552,7 +3908,7 @@ country_event = {
 	picture = GFX_report_event_degaulle_inspect_troops
 
 	is_triggered_only = yes
-	option = { #war!
+	option = { 
 		name = mtg_usa_secure_asia.9.a
 		ai_chance = {
 			factor = 90
@@ -3566,7 +3922,7 @@ country_event = {
 			target = FRA
 		}
 	}
-	option = { #no war!
+	option = { 
 		name = mtg_usa_secure_asia.9.b
 		ai_chance = {
 			factor = 10
@@ -3577,14 +3933,14 @@ country_event = {
 
 add_namespace = mtg_usa_protect_south_america
 
-###  ###   ##  ### ###  ##  ###      ##  ##  #  # ### #  #      ##  #   # ### ###  ###  ##   ##  
-#  # #  # #  #  #  #   #  #  #      #   #  # #  #  #  #  #     #  # ## ## #   #  #  #  #  # #  # 
-###  ###  #  #  #  ##  #     #       #  #  # #  #  #  ####     #### # # # ##  ###   #  #    #### 
-#    #  # #  #  #  #   #  #  #        # #  # #  #  #  #  #     #  # #   # #   #  #  #  #  # #  # 
-#    #  #  ##   #  ###  ##   #      ##   ##   ##   #  #  #     #  # #   # ### #  # ###  ##  #  # 
 
 
-##intial event 
+
+
+
+
+
+
 country_event = {
 	id = mtg_usa_protect_south_america.1
 	title = mtg_usa_protect_south_america.1.t
@@ -3592,7 +3948,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_protect_south_america.1.a
 		ai_chance = {
 			factor = 30
@@ -3612,7 +3968,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_protect_south_america.1.b
 		ai_chance = {
 			factor = 70
@@ -3660,7 +4016,7 @@ country_event = {
 	}
 }
 
-##Country agrees!
+
 country_event = {
 	id = mtg_usa_protect_south_america.2
 	title = mtg_usa_protect_south_america.2.t
@@ -3668,13 +4024,13 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty1
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_protect_south_america.2.a
 		puppet = FROM
 	}
 }
 
-##Country refuses
+
 country_event = {
 	id = mtg_usa_protect_south_america.3
 	title = mtg_usa_protect_south_america.3.t
@@ -3682,7 +4038,7 @@ country_event = {
 	picture = GFX_report_event_lithuania_army
 
 	is_triggered_only = yes
-	option = { #war!
+	option = { 
 		name = mtg_usa_protect_south_america.3.a
 		ai_chance = {
 			factor = 90
@@ -3696,7 +4052,7 @@ country_event = {
 			target = FROM
 		}
 	}
-	option = { #no war!
+	option = { 
 		name = mtg_usa_protect_south_america.3.b
 		ai_chance = {
 			factor = 10
@@ -3707,14 +4063,14 @@ country_event = {
 
 add_namespace = mtg_usa_foreign_support
 
-###  ##  ###  ### ###  ##  #  #      ## #  # ###  ###   ##  ###  ### 
-#   #  # #  # #    #  #    ## #     #   #  # #  # #  # #  # #  #  #  
-##  #  # ###  ##   #  # ## # ##      #  #  # ###  ###  #  # ###   #  
-#   #  # #  # #    #  #  # #  #       # #  # #    #    #  # #  #  #  
-#    ##  #  # ### ###  ##  #  #     ##   ##  #    #     ##  #  #  #  
 
 
-##event for FROM, USA wants donations
+
+
+
+
+
+
 country_event = {
 	id = mtg_usa_foreign_support.1
 	title = mtg_usa_foreign_support.1.t
@@ -3722,7 +4078,7 @@ country_event = {
 	picture = GFX_report_event_german_politician_speech
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.1.a
 		ai_chance = {
 			factor = 70
@@ -3739,7 +4095,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_foreign_support.1.b
 		ai_chance = {
 			factor = 30
@@ -3750,7 +4106,7 @@ country_event = {
 		}
 	}
 }
-#event for US, donations approved
+
 country_event = {
 	id = mtg_usa_foreign_support.2
 	title = mtg_usa_foreign_support.2.t
@@ -3758,7 +4114,7 @@ country_event = {
 	picture = GFX_report_event_hitler_handshake
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.2.a
 		ai_chance = {
 			factor = 70
@@ -3766,7 +4122,7 @@ country_event = {
 		add_offsite_building = { type = industrial_complex level = 1 }	
 	}
 }
-#event for US, donations refused
+
 country_event = {
 	id = mtg_usa_foreign_support.3
 	title = mtg_usa_foreign_support.3.t
@@ -3774,7 +4130,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.3.a
 		ai_chance = {
 			factor = 70
@@ -3782,7 +4138,7 @@ country_event = {
 	}
 }
 
-##event for FROM, USA wants to smuggle in weapons
+
 country_event = {
 	id = mtg_usa_foreign_support.4
 	title = mtg_usa_foreign_support.4.t
@@ -3790,7 +4146,7 @@ country_event = {
 	picture = GFX_report_event_generic_lend_lease
 
 	is_triggered_only = yes
-	option = { #agree to send some rifles
+	option = { 
 		name = mtg_usa_foreign_support.4.a
 		ai_chance = {
 			factor = 50
@@ -3809,7 +4165,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #agree to send artillery
+	option = { 
 		name = mtg_usa_foreign_support.4.b
 		ai_chance = {
 			factor = 20	
@@ -3827,7 +4183,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #agree to send tanks
+	option = { 
 		name = mtg_usa_foreign_support.4.b
 		ai_chance = {
 			factor = 10	
@@ -3848,7 +4204,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_foreign_support.4.d
 		ai_chance = {
 			factor = 20
@@ -3859,7 +4215,7 @@ country_event = {
 		}
 	}
 }
-#event for US, weapons approved
+
 country_event = {
 	id = mtg_usa_foreign_support.5
 	title = mtg_usa_foreign_support.5.t
@@ -3867,7 +4223,7 @@ country_event = {
 	picture = GFX_report_event_generic_rifles
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.5.a
 		ai_chance = {
 			factor = 70
@@ -3875,7 +4231,7 @@ country_event = {
 		add_to_variable = { var = smuggled_weapons value = 1000 }
 	}
 }
-#event for US, weapons refused
+
 country_event = {
 	id = mtg_usa_foreign_support.6
 	title = mtg_usa_foreign_support.6.t
@@ -3883,14 +4239,14 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.6.a
 		ai_chance = {
 			factor = 70
 		}
 	}
 }
-#event for US, artillery approved
+
 country_event = {
 	id = mtg_usa_foreign_support.7
 	title = mtg_usa_foreign_support.7.t
@@ -3898,7 +4254,7 @@ country_event = {
 	picture = GFX_report_event_british_artillery
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.7.a
 		ai_chance = {
 			factor = 70
@@ -3906,7 +4262,7 @@ country_event = {
 		add_to_variable = { var = smuggled_artillery value = 50 }
 	}
 }
-#event for US, tanks approved
+
 country_event = {
 	id = mtg_usa_foreign_support.8
 	title = mtg_usa_foreign_support.8.t
@@ -3914,7 +4270,7 @@ country_event = {
 	picture = GFX_report_event_polish_tanks_02
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.8.a
 		ai_chance = {
 			factor = 70
@@ -3923,7 +4279,7 @@ country_event = {
 	}
 }
 
-##event for FROM, USA wants to build training camps
+
 country_event = {
 	id = mtg_usa_foreign_support.9
 	title = mtg_usa_foreign_support.9.t
@@ -3931,7 +4287,7 @@ country_event = {
 	picture = GFX_report_event_aid_pact
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.9.a
 		ai_chance = {
 			factor = 70
@@ -3948,7 +4304,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_foreign_support.9.b
 		ai_chance = {
 			factor = 30
@@ -3959,7 +4315,7 @@ country_event = {
 		}
 	}
 }
-#event for US, training camps approved
+
 country_event = {
 	id = mtg_usa_foreign_support.10
 	title = mtg_usa_foreign_support.10.t
@@ -3967,7 +4323,7 @@ country_event = {
 	picture = GFX_report_event_chinese_army_training
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.10.a
 		ai_chance = {
 			factor = 70
@@ -3987,7 +4343,7 @@ country_event = {
 		}
 	}
 }
-#event for US, training camps refused
+
 country_event = {
 	id = mtg_usa_foreign_support.11
 	title = mtg_usa_foreign_support.11.t
@@ -3995,7 +4351,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.11.a
 		ai_chance = {
 			factor = 70
@@ -4003,7 +4359,7 @@ country_event = {
 	}
 }
 
-##event for FROM, USA wants to train pilots
+
 country_event = {
 	id = mtg_usa_foreign_support.12
 	title = mtg_usa_foreign_support.12.t
@@ -4011,7 +4367,7 @@ country_event = {
 	picture = GFX_report_event_hitler_handshake
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.12.a
 		ai_chance = {
 			factor = 70
@@ -4028,7 +4384,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_foreign_support.12.b
 		ai_chance = {
 			factor = 30
@@ -4039,7 +4395,7 @@ country_event = {
 		}
 	}
 }
-#event for US, pilot training approved
+
 country_event = {
 	id = mtg_usa_foreign_support.13
 	title = mtg_usa_foreign_support.13.t
@@ -4047,7 +4403,7 @@ country_event = {
 	picture = GFX_report_event_china_flying_tigers
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.13.a
 		ai_chance = {
 			factor = 70
@@ -4067,7 +4423,7 @@ country_event = {
 		}
 	}
 }
-#event for US, pilot training refused
+
 country_event = {
 	id = mtg_usa_foreign_support.14
 	title = mtg_usa_foreign_support.14.t
@@ -4075,7 +4431,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.14.a
 		ai_chance = {
 			factor = 70
@@ -4083,7 +4439,7 @@ country_event = {
 	}
 }
 
-##event for FROM, USA wants to fund shipyards
+
 country_event = {
 	id = mtg_usa_foreign_support.15
 	title = mtg_usa_foreign_support.15.t
@@ -4091,7 +4447,7 @@ country_event = {
 	picture = GFX_report_event_destroyers
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.15.a
 		ai_chance = {
 			factor = 70
@@ -4107,7 +4463,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_foreign_support.15.b
 		ai_chance = {
 			factor = 30
@@ -4118,7 +4474,7 @@ country_event = {
 		}
 	}
 }
-#event for US, shipyards approved
+
 country_event = {
 	id = mtg_usa_foreign_support.16
 	title = mtg_usa_foreign_support.16.t
@@ -4126,7 +4482,7 @@ country_event = {
 	picture = GFX_report_event_ast_navy
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.16.a
 		ai_chance = {
 			factor = 70
@@ -4134,7 +4490,7 @@ country_event = {
 		add_offsite_building = { type = dockyard level = 1 }
 	}
 }
-#event for US, shipyards refused
+
 country_event = {
 	id = mtg_usa_foreign_support.17
 	title = mtg_usa_foreign_support.17.t
@@ -4142,7 +4498,7 @@ country_event = {
 	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_foreign_support.17.a
 		ai_chance = {
 			factor = 70
@@ -4150,7 +4506,7 @@ country_event = {
 	}
 }
 add_namespace = mtg_usa_diplomatic_protest
-#US protests recent diplomatic move
+
 country_event = {
 	id = mtg_usa_diplomatic_protest.1
 	title = mtg_usa_diplomatic_protest.1.t
@@ -4158,7 +4514,7 @@ country_event = {
 	picture = GFX_report_event_FDR_speech
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_diplomatic_protest.1.a
 		ai_chance = {
 			factor = 70
@@ -4166,7 +4522,7 @@ country_event = {
 	}
 }
 
-#US demands handover of american holdings
+
 country_event = {
 	id = mtg_usa_diplomatic_protest.2
 	title = mtg_usa_diplomatic_protest.2.t
@@ -4174,7 +4530,7 @@ country_event = {
 	picture = GFX_report_event_generic_usa_treaty
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_diplomatic_protest.2.a
 		ai_chance = {
 			factor = 30
@@ -4196,7 +4552,7 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_diplomatic_protest.2.b
 		ai_chance = {
 			factor = 70
@@ -4214,7 +4570,7 @@ country_event = {
 		}
 	}
 }
-#US demands handover of american holdings - agree
+
 country_event = {
 	id = mtg_usa_diplomatic_protest.3
 	title = mtg_usa_diplomatic_protest.3.t
@@ -4222,7 +4578,7 @@ country_event = {
 	picture = GFX_report_event_generic_conference
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_diplomatic_protest.3.a
 		ai_chance = {
 			factor = 30
@@ -4242,7 +4598,7 @@ country_event = {
 		}
 	}
 }
-#US demands handover of american holdings - refuse
+
 country_event = {
 	id = mtg_usa_diplomatic_protest.4
 	title = mtg_usa_diplomatic_protest.4.t
@@ -4250,7 +4606,7 @@ country_event = {
 	picture = GFX_report_event_swedish_soldier
 
 	is_triggered_only = yes
-	option = { #agree
+	option = { 
 		name = mtg_usa_diplomatic_protest.4.a
 		ai_chance = {
 			factor = 70
@@ -4265,21 +4621,21 @@ country_event = {
 			}
 		}
 	}
-	option = { #refuse
+	option = { 
 		name = mtg_usa_diplomatic_protest.4.b
 		ai_chance = {
 			factor = 30
 		}
-		FROM = { set_country_flag = USA_monroe_backed_down } #to prevent US from demanding the same thing over and over again
+		FROM = { set_country_flag = USA_monroe_backed_down } 
 	}
 }
-###########################
-#  Panay Incident events
-###########################
+
+
+
 
 add_namespace = panay_incident
 
-#Hidden event to trigger synchronised Panay events for USA and ENG
+
 country_event = {
 	id = panay_incident.1
 
@@ -4288,21 +4644,21 @@ country_event = {
 	trigger = {
   		tag = CHI
  		has_war_with = JAP
- 		# This next bit is to make sure that event only fires if JAP has conquered a fair bit of CHI first, so 
- 		# Panay incident doesn't fire if it's an arm-wrestle on the JAP/CHI border.
+ 		
+ 		
  		OR = {
- 			AND = { #JAP has made headway in the north
- 				608 = { is_controlled_by = JAP } #Beijing
-				614 = { is_controlled_by = JAP } #Hebei
-				597 = { is_controlled_by = JAP } #Shandong
-				598 = { is_controlled_by = JAP } #Jiangsu
+ 			AND = { 
+ 				608 = { is_controlled_by = JAP } 
+				614 = { is_controlled_by = JAP } 
+				597 = { is_controlled_by = JAP } 
+				598 = { is_controlled_by = JAP } 
 				}
-			OR = { #JAP has captured key coastal states in the south
-				597 = { is_controlled_by = JAP } #Shanghai
-				592 = { is_controlled_by = JAP } #Guangzhou
+			OR = { 
+				597 = { is_controlled_by = JAP } 
+				592 = { is_controlled_by = JAP } 
 			}
 		}
-		NOT = { #Should only fire if JAP and USA/ENG aren't at war, and CHI and USA/ENG aren't at war.
+		NOT = { 
 			OR = {
 				JAP = { has_war_with = USA }
 				JAP = { has_war_with = ENG }
@@ -4328,18 +4684,18 @@ country_event = {
 	option = {}
 }
 
-#Panay Incident - USA notification
+
 country_event = {
 	id = panay_incident.2
 	title = panay_incident.2.t
-	desc = { #Low war support text
+	desc = { 
 		text = panay_incident.2.d
 		trigger = {
 			USA = { has_war_support < 0.5 }
 		}
 	}
 
-	desc = { #High war support text
+	desc = { 
 		text = panay_incident.2.e
 		trigger = {
 			USA = { has_war_support > 0.49 }
@@ -4350,7 +4706,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { #Pull forces out of China - low war support
+	option = { 
 		name = panay_incident.2.a
 		custom_effect_tooltip = panay_incident.2.a.tt
 		trigger = { has_war_support < 0.4 }
@@ -4370,9 +4726,9 @@ country_event = {
 			add_political_power = 50
 		}
 		add_opinion_modifier = { target = JAP modifier = panay_inc_opinion_modifier }
-		hidden_effect = { JAP = { country_event = { id = panay_incident.6 days = 2 } } } #Info event for Japan
+		hidden_effect = { JAP = { country_event = { id = panay_incident.6 days = 2 } } } 
 	}
-	option = { #Pull forces out of China - medium or above war support
+	option = { 
 		name = panay_incident.2.a
 		custom_effect_tooltip = panay_incident.2.e.tt
 		trigger = { has_war_support > 0.39 }
@@ -4385,18 +4741,18 @@ country_event = {
 		}
 		add_war_support = -0.05
 		add_opinion_modifier = { target = JAP modifier = panay_inc_opinion_modifier }
-		hidden_effect = { JAP = { country_event = { id = panay_incident.6 days = 2 } } } #Info event for Japan
+		hidden_effect = { JAP = { country_event = { id = panay_incident.6 days = 2 } } } 
 	}
-	option = { #Demand compensation
+	option = { 
 		name = panay_incident.2.b
 		custom_effect_tooltip = panay_incident.2.b.tt
 		ai_chance = { factor = 85 }
 		add_war_support = 0.05
 		set_country_flag = { flag = USA_panay_window days = 90 value = 1 }
-		hidden_effect = { JAP = { country_event = { id = panay_incident.3 days = 2 } } } #Delay added so events are spaced out - historically it took months to get JAP to agree to compensation, but that'd be a bit hard to follow in-game, so timelines compressed.
+		hidden_effect = { JAP = { country_event = { id = panay_incident.3 days = 2 } } } 
 		add_opinion_modifier = { target = JAP modifier = panay_inc_opinion_modifier }
 	}
-	option = { #War
+	option = { 
 		name = panay_incident.2.c
 		custom_effect_tooltip = panay_incident.2.c.tt
 		ai_chance = {
@@ -4418,17 +4774,38 @@ country_event = {
 				target = JAP
 				type = topple_government
 			}
-		add_state_claim = 633
-		add_state_claim = 684
+		add_state_claim = 633 
+		add_state_claim = 8542 
+		add_state_claim = 8543 
+		add_state_claim = 8544 
+		add_state_claim = 8545 
+		add_state_claim = 8546 
+		add_state_claim = 8547 
+		add_state_claim = 8548 
+		add_state_claim = 8549
+		add_state_claim = 684 
+		add_state_claim = 9234 
+		add_state_claim = 9235 
+		add_state_claim = 9236 
+		add_state_claim = 9237 
+		add_state_claim = 9238 
+		add_state_claim = 9239 
+		add_state_claim = 9240 
+		add_state_claim = 9241 
+		add_state_claim = 9242 
+		add_state_claim = 9243
 		add_state_claim = 645
-		add_state_claim = 646
-		add_state_claim = 647
+		add_state_claim = 646 
+		add_state_claim = 8654 
+		add_state_claim = 8655
+		add_state_claim = 647 
+		add_state_claim = 8656
 		add_state_claim = 648
-		hidden_effect = { news_event = { id = news.335 } } #Triggers news event for war between JAP and USA
+		hidden_effect = { news_event = { id = news.335 } } 
 	}
 }
 
-#Panay Incident - JAP gets demand for compensation
+
 country_event = {
 	id = panay_incident.3
 	title = panay_incident.3.t
@@ -4437,13 +4814,13 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { #Pay compensation
+	option = { 
 		name = panay_incident.3.a
 		ai_chance = { factor = 70 }
 		add_political_power = -100
-		hidden_effect = { USA = { country_event = { id = panay_incident.4 days = 2 } } } #Delay added to space things out
+		hidden_effect = { USA = { country_event = { id = panay_incident.4 days = 2 } } } 
 	}
-	option = { #We shall never bw down to the western Imperialists!
+	option = { 
 		name = panay_incident.3.b
 		custom_effect_tooltip = panay_incident.3.b.tt
 		ai_chance = {
@@ -4454,11 +4831,11 @@ country_event = {
 			}
 		}
 		add_political_power = 100
-		hidden_effect = { USA = { country_event = { id = panay_incident.5 days = 2 } } } #Delay added here and in earlier event so rest of the world doesn't get Panay Incident one day and War the next, unless US is particularly gung-ho in response to initial event.
+		hidden_effect = { USA = { country_event = { id = panay_incident.5 days = 2 } } } 
 	}
 }
 
-#Panay Incident - USA receives JAP compensation
+
 country_event = {
 	id = panay_incident.4
 	title = panay_incident.4.t
@@ -4473,7 +4850,7 @@ country_event = {
 	}
 }
 
-#Panay Incident - USA receives JAP refusal
+
 country_event = {
 	id = panay_incident.5
 	title = panay_incident.5.t
@@ -4512,17 +4889,38 @@ country_event = {
 				target = JAP
 				type = topple_government
 			}
-		add_state_claim = 633
-		add_state_claim = 684
+		add_state_claim = 633 
+		add_state_claim = 8542 
+		add_state_claim = 8543 
+		add_state_claim = 8544 
+		add_state_claim = 8545 
+		add_state_claim = 8546 
+		add_state_claim = 8547 
+		add_state_claim = 8548 
+		add_state_claim = 8549
+		add_state_claim = 684 
+		add_state_claim = 9234 
+		add_state_claim = 9235 
+		add_state_claim = 9236 
+		add_state_claim = 9237 
+		add_state_claim = 9238 
+		add_state_claim = 9239 
+		add_state_claim = 9240 
+		add_state_claim = 9241 
+		add_state_claim = 9242 
+		add_state_claim = 9243
 		add_state_claim = 645
-		add_state_claim = 646
-		add_state_claim = 647
+		add_state_claim = 646 
+		add_state_claim = 8654 
+		add_state_claim = 8655
+		add_state_claim = 647 
+		add_state_claim = 8656
 		add_state_claim = 648
-		hidden_effect = { news_event = { id = news.335 } } #Triggers news event for war between JAP and USA
+		hidden_effect = { news_event = { id = news.335 } } 
 	}
 }
 
-#Event for Japan if USA withdraws forces.
+
 country_event = {
 	id = panay_incident.6
 	title = panay_incident.6.t

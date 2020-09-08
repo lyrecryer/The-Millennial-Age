@@ -1,10 +1,7 @@
-﻿###########################
-# Romanian Events
-###########################
 
 add_namespace = romania
 
-# Soviet Union demands Bessarabia
+
 country_event = {
 	id = romania.1
 	title = romania.1.t
@@ -14,11 +11,11 @@ country_event = {
 	is_triggered_only = yes
 	
 	
-	option = { # Accept demands
+	option = { 
 		name = romania.1.a
 		ai_chance = {
 			factor = 90
-			modifier = { # Don't accept if in a faction that can protect them
+			modifier = { 
 				factor = 0
 				OR = {
 					any_other_country = {
@@ -31,7 +28,7 @@ country_event = {
 					}
 					has_idea = anti_soviet_pact
 				}
-				is_historical_focus_on = no #Romania will still cede on historical
+				is_historical_focus_on = no 
 			}
 		}
 		SOV = {
@@ -39,7 +36,7 @@ country_event = {
 		}
 		set_country_flag = bessarabia_ceded
 	}
-	option = { # Refuse
+	option = { 
 		name = romania.1.b
 		ai_chance = {
 			base = 0
@@ -66,7 +63,7 @@ country_event = {
 	}
 }
 
-# Second Vienna Award - Northern Transylvania
+
 country_event = {
 	id = romania.2
 	title = romania.2.t
@@ -75,11 +72,11 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept demands
+	option = { 
 		name = romania.2.a
 		ai_chance = {
 			factor = 80
-			modifier = { # Don't accept if in a faction that can protect them
+			modifier = { 
 				factor = 0
 				OR = {
 					is_in_faction_with = ENG
@@ -93,7 +90,7 @@ country_event = {
 		}
 		set_country_flag = second_vienna_accepted_north
 	}
-	option = { # Refuse
+	option = { 
 		name = romania.2.b
 		ai_chance = { 
 			factor = 20 
@@ -104,7 +101,23 @@ country_event = {
 		}
 		HUN = {
 			country_event = { days = 1 id = hungary.4 }
-			effect_tooltip = { add_state_claim = 76 }
+			effect_tooltip = { add_state_claim = 76 
+		add_state_claim = 9694 
+		add_state_claim = 9695 
+		add_state_claim = 9696 
+		add_state_claim = 9697 
+		add_state_claim = 9698 
+		add_state_claim = 9699 
+		add_state_claim = 9700 
+		add_state_claim = 9701 
+		add_state_claim = 9702 
+		add_state_claim = 9703 
+		add_state_claim = 9704 
+		add_state_claim = 9705 
+		add_state_claim = 9706 
+		add_state_claim = 9707 
+		add_state_claim = 9708 
+		add_state_claim = 9709 }
 		}
 		GER = {
 			country_event = { days = 1 id = germany.21 }
@@ -119,7 +132,7 @@ country_event = {
 	}
 }
 
-# Second Vienna Award - All of Transylvania
+
 country_event = {
 	id = romania.3
 	title = romania.2.t
@@ -128,11 +141,11 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept demands
+	option = { 
 		name = romania.2.a
 		ai_chance = {
 			factor = 50
-			modifier = { # Don't accept if in a faction that can protect them
+			modifier = { 
 				factor = 0
 				OR = {
 					is_in_faction_with = ENG
@@ -146,15 +159,44 @@ country_event = {
 		}
 		set_country_flag = second_vienna_accepted_all
 	}
-	option = { # Refuse
+	option = { 
 		name = romania.2.b
 		ai_chance = { factor = 50 }
 		HUN = {
 			country_event = { days = 1 id = hungary.5 }
 			effect_tooltip = {
-				add_state_claim = 76
-				add_state_claim = 83
-				add_state_claim = 84
+				add_state_claim = 76 
+		add_state_claim = 9694 
+		add_state_claim = 9695 
+		add_state_claim = 9696 
+		add_state_claim = 9697 
+		add_state_claim = 9698 
+		add_state_claim = 9699 
+		add_state_claim = 9700 
+		add_state_claim = 9701 
+		add_state_claim = 9702 
+		add_state_claim = 9703 
+		add_state_claim = 9704 
+		add_state_claim = 9705 
+		add_state_claim = 9706 
+		add_state_claim = 9707 
+		add_state_claim = 9708 
+		add_state_claim = 9709
+				add_state_claim = 83 
+		add_state_claim = 9930 
+		add_state_claim = 9931 
+		add_state_claim = 9932
+				add_state_claim = 84 
+		add_state_claim = 9933 
+		add_state_claim = 9934 
+		add_state_claim = 9935 
+		add_state_claim = 9936 
+		add_state_claim = 9937 
+		add_state_claim = 9938 
+		add_state_claim = 9939 
+		add_state_claim = 9940 
+		add_state_claim = 9941 
+		add_state_claim = 9942
 			}
 		}
 		GER = {
@@ -170,7 +212,7 @@ country_event = {
 	}
 }
 
-# Second Vienna Award - No Concessions
+
 country_event = {
 	id = romania.4
 	title = romania.4.t
@@ -184,7 +226,7 @@ country_event = {
 	}
 }
 
-# Treaty of Craiova - Bulgaria Demands Territory
+
 country_event = {
 	id = romania.5
 	title = romania.5.t
@@ -193,17 +235,18 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = romania.5.a
 		ai_chance = { factor = 90 }
 		effect_tooltip = {
-			BUL = { transfer_state = 77 }
+			BUL = { transfer_state = 77 
+		transfer_state = 9742 }
 		}
 		BUL = {
 			country_event = { days = 1 id = bulgaria.1 }
 		}
 	}
-	option = { # Refuse
+	option = { 
 		name = romania.5.b
 		ai_chance = { 
 			factor = 10
@@ -218,7 +261,7 @@ country_event = {
 	}
 }
 
-# Seek an alliance - Since everyone is out to get us
+
 country_event = {
 	id = romania.6
 	title = romania.6.t
@@ -238,7 +281,7 @@ country_event = {
 
 	fire_only_once = yes
 
-	option = { # Seek german alliance
+	option = { 
 		name = romania.6.a
 		set_politics = {
 			ruling_party = fascism
@@ -258,7 +301,7 @@ country_event = {
 			}
 		}
 	}
-	option = { # Seek soviet alliance
+	option = { 
 		name = romania.6.b
 		set_politics = {
 			ruling_party = communism
@@ -284,7 +327,7 @@ country_event = {
 			}
 		}
 	}
-	option = { # Dear democracy... NEVER GONNA GIVE YOU UP!
+	option = { 
 		name = romania.6.c
 		ai_chance = {
 			base = 0

@@ -1,0 +1,18 @@
+
+USA_congress = {
+	icon = usa_congress
+	allowed = {
+		has_government = liberalism_I
+		has_government = conservatism_I
+
+		has_government = communism
+		has_government = socialism_I
+		has_government = fascism
+		has_government = neutrality
+		has_government = nazism_I
+	}
+
+	scripted_gui = usa_congress_decision_ui	
+
+	priority = 85
+}

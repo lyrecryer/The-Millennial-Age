@@ -1438,7 +1438,7 @@ ENG_appeal_to_imperial_loyalists = {
 		}
 	}
 
-	ENG_support_imperialist_coup_in_canada_mission_1 = { # warning for Canada
+	ENG_support_imperialist_coup_in_canada_mission_1 = { 
 
 		icon = eng_support_imperialist_coup
 		
@@ -1569,7 +1569,7 @@ ENG_appeal_to_imperial_loyalists = {
 		}
 	}
 
-	ENG_support_imperialist_coup_in_canada_mission_2 = { # warning for Britain
+	ENG_support_imperialist_coup_in_canada_mission_2 = { 
 
 		icon = eng_support_imperialist_coup
 		
@@ -1813,7 +1813,7 @@ ENG_appeal_to_imperial_loyalists = {
 		}
 	}
 
-	ENG_support_imperialist_coup_in_south_africa_mission_1 = { # warning for south_africa
+	ENG_support_imperialist_coup_in_south_africa_mission_1 = { 
 
 		icon = eng_support_imperialist_coup
 		
@@ -1944,7 +1944,7 @@ ENG_appeal_to_imperial_loyalists = {
 		}
 	}
 
-	ENG_support_imperialist_coup_in_south_africa_mission_2 = { # warning for Britain
+	ENG_support_imperialist_coup_in_south_africa_mission_2 = { 
 
 		icon = eng_support_imperialist_coup
 		
@@ -2202,7 +2202,7 @@ ENG_appeal_to_imperial_loyalists = {
 		}
 	}
 
-	ENG_support_imperialist_coup_in_australia_mission_1 = { # warning for australia
+	ENG_support_imperialist_coup_in_australia_mission_1 = { 
 
 		icon = eng_support_imperialist_coup
 		
@@ -2343,7 +2343,7 @@ ENG_appeal_to_imperial_loyalists = {
 		}
 	}
 
-	ENG_support_imperialist_coup_in_australia_mission_2 = { # warning for Britain
+	ENG_support_imperialist_coup_in_australia_mission_2 = { 
 
 		icon = eng_support_imperialist_coup
 		
@@ -2615,7 +2615,7 @@ ENG_appeal_to_imperial_loyalists = {
 		}
 	}
 
-	ENG_support_imperialist_coup_in_new_zealand_mission_1 = { # warning for new_zealand
+	ENG_support_imperialist_coup_in_new_zealand_mission_1 = { 
 
 		icon = eng_support_imperialist_coup
 		
@@ -2746,7 +2746,7 @@ ENG_appeal_to_imperial_loyalists = {
 		}
 	}
 
-	ENG_support_imperialist_coup_in_new_zealand_mission_2 = { # warning for Britain
+	ENG_support_imperialist_coup_in_new_zealand_mission_2 = { 
 
 		icon = eng_support_imperialist_coup
 		
@@ -3339,7 +3339,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_1
-			add_ideas = ENG_random_communist_minister_1 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_1 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -3439,7 +3439,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_2
-			add_ideas = ENG_random_communist_minister_2 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_2 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -3539,7 +3539,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_3
-			add_ideas = ENG_random_communist_minister_3 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_3 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -3640,7 +3640,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_4
-			add_ideas = ENG_random_communist_minister_4 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_4 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -3741,7 +3741,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_5
-			add_ideas = ENG_random_communist_minister_5 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_5 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -3842,7 +3842,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_6
-			add_ideas = ENG_random_communist_minister_6 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_6 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -3943,7 +3943,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_7
-			add_ideas = ENG_random_communist_minister_7 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_7 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -4044,7 +4044,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_8
-			add_ideas = ENG_random_communist_minister_8 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_8 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -4145,7 +4145,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_9
-			add_ideas = ENG_random_communist_minister_9 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_9 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -4246,7 +4246,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_10
-			add_ideas = ENG_random_communist_minister_10 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_10 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -4347,7 +4347,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_11
-			add_ideas = ENG_random_communist_minister_11 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_11 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -4448,7 +4448,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_12
-			add_ideas = ENG_random_communist_minister_12 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_12 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -4549,7 +4549,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_13
-			add_ideas = ENG_random_communist_minister_13 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_13 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -4650,7 +4650,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_14
-			add_ideas = ENG_random_communist_minister_14 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_14 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -4751,7 +4751,7 @@ ENG_concessions_to_the_trade_unions = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			set_country_flag = { flag = ENG_trade_unions_demand_timer value = 1 days = 30 }
 			set_country_flag = ENG_trade_unions_demand_minister_appointment_15
-			add_ideas = ENG_random_communist_minister_15 #intentionally not given loc so it can be random 
+			add_ideas = ENG_random_communist_minister_15 
 			remove_mission = ENG_trade_unions_demand_minister_appointment_mission
 			hidden_effect = {
 				random_list = {
@@ -6384,7 +6384,7 @@ ENG_concessions_to_the_trade_unions = {
 		}
 	}
 
-	ENG_expected_decolonization = { # timer for the player to see how much longer they have to decolonize before they get a civil war
+	ENG_expected_decolonization = { 
 
 		icon = eng_abdication_crisis
 		
@@ -8196,44 +8196,44 @@ ENG_imperial_conference_decision = {
 
 political_actions = {
 
-	#ENG_host_CZE_exile_government = {
-	#
-	#	icon = generic
-	#
-	#	allowed = {
-	#		has_dlc = "Man the Guns"
-	#		original_tag = ENG
-	#		
-	#	}
-	#	available = {
-	#		has_government = democratic
-	#	}
-	#	cost = 50
-	#	fire_only_once = yes
-	#	ai_will_do = {
-	#		factor = 1
-	#	}
-	#
-	#	visible = {
-	#		CZE = {
-	#			exists = no
-	#		}
-	#	
-	#		CZE = {
-	#			is_government_in_exile = no
-	#		}
-	#	
-	#		9 = { CONTROLLER = { has_war_with = ROOT } }
-	#	}
-	#	complete_effect = {
-	#		CZE = {
-	#			become_exiled_in = {
-	#				target = ROOT
-	#				legitimacy = 50
-	#			}
-	#		}
-	#	}
-	#}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	hold_blood_toil_tears_sweat_speech = {
 
 		icon = generic_political_discourse
@@ -8273,11 +8273,10 @@ political_actions = {
 				USA = { set_country_flag = blood_toil_tears_sweat_speech }
 			}
 			set_country_flag = blood_toil_tears_sweat_speech
-			play_blood_toil_tears_sweat_effect = yes
 		}
 
 		ai_will_do = {
-			factor = 200 #Gotta allow the Americans to help
+			factor = 200 
 		}
 	}
 
@@ -8324,11 +8323,10 @@ political_actions = {
 				USA = { set_country_flag = fight_on_the_beaches_speech }
 			}
 			set_country_flag = fight_on_the_beaches_speech
-			play_we_shall_fight_on_the_beaches_effect = yes
 		}
 
 		ai_will_do = {
-			factor = 200 #Gotta allow the Americans to help
+			factor = 200 
 		}
 	}
 
@@ -8373,11 +8371,10 @@ political_actions = {
 				USA = { set_country_flag = this_was_their_finest_hour_speech }
 			}
 			set_country_flag = this_was_their_finest_hour_speech
-			play_their_finest_hour_effect = yes
 		}
 
 		ai_will_do = {
-			factor = 200 #Gotta allow the Americans to help
+			factor = 200 
 		}
 	}
 
@@ -8502,7 +8499,7 @@ political_actions = {
 		}
 	}
 
-	ENG_abdication_crisis = { # timer for the player to see when the event chain ends
+	ENG_abdication_crisis = { 
 
 		priority = 10
 
@@ -8545,7 +8542,7 @@ political_actions = {
 		}
 	}
 
-	ENG_britain_demands_treaty_compliance = { # ENG demanding scuttling of ships to maintain Washington Naval Treaty
+	ENG_britain_demands_treaty_compliance = { 
 
 		icon = generic_naval
 		
@@ -8837,8 +8834,18 @@ political_actions = {
 						NOT = { owns_state = 332 }
 						NOT = { owns_state = 331 }
 					}
-					transfer_state = 332
-					transfer_state = 331
+					transfer_state = 332 
+		transfer_state = 3912 
+		transfer_state = 3913 
+		transfer_state = 3914 
+		transfer_state = 3915 
+		transfer_state = 3916 
+		transfer_state = 3917
+					transfer_state = 331 
+		transfer_state = 3908 
+		transfer_state = 3909 
+		transfer_state = 3910 
+		transfer_state = 3911
 				}
 			}
 			hidden_effect = { news_event = { id = mtg_news.57 hours = 6 } }
@@ -8936,9 +8943,33 @@ operations = {
 		}
 		
 		complete_effect = {
-			add_state_claim = 113
-			add_state_claim = 134
-			add_state_claim = 135
+			add_state_claim = 113 
+		add_state_claim = 990 
+		add_state_claim = 991 
+		add_state_claim = 992 
+		add_state_claim = 993 
+		add_state_claim = 994 
+		add_state_claim = 995 
+		add_state_claim = 996
+			add_state_claim = 134 
+		add_state_claim = 1143 
+		add_state_claim = 1144 
+		add_state_claim = 1145 
+		add_state_claim = 1146 
+		add_state_claim = 1147 
+		add_state_claim = 1148 
+		add_state_claim = 1149 
+		add_state_claim = 1150
+			add_state_claim = 135 
+		add_state_claim = 1151 
+		add_state_claim = 1152 
+		add_state_claim = 1153 
+		add_state_claim = 1154 
+		add_state_claim = 1155 
+		add_state_claim = 1156 
+		add_state_claim = 1157 
+		add_state_claim = 1158 
+		add_state_claim = 1159
 			declare_war_on = { target = IRE type = annex_everything }
 			add_popularity = { ideology = democratic popularity = -0.03 }
 		}

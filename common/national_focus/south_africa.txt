@@ -10,58 +10,58 @@
 			has_dlc = "Together for Victory"
 		}
 		
-		#modifier = {
-		#	add = 10
-		#	original_tag = SAF
-		#	has_dlc = "Together for Victory"
-		#}
+		
+		
+		
+		
+		
 	}
 	
 	default = no
 
 
 
-#	focus = {
-#		id = SAF_
-#		icon = GFX_
-#		prerequisite = { focus = }
-#		mutually_exclusive = { focus =  }
-#		x = -3
-#		y = 0
-#		relative_position_id = 
-#
-#		cost = 10
-#
-#		ai_will_do = {
-#			factor = 1
-#		}
-#
-#		available = {
-#
-#		}
-#		
-#		bypass = {
-#
-#		}
-#
-#		cancel_if_invalid = yes
-#		continue_if_invalid = no
-#		available_if_capitulated = no
-#
-#		complete_tooltip = {
-#
-#		}
-#
-#		completion_reward = {
-#
-#		}
-#	}
 
 
 
-	############################
-	#### WAR PREP SECTION ######
-	############################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
 
 	focus = {
 		id = SAF_war_measures_act
@@ -284,9 +284,9 @@
 	}
 
 
-	############################
-	# GO COMMONWEALTH SECTION ##
-	############################
+	
+	
+	
 
 	focus = {
 		id = SAF_support_the_policy_of_appeasement
@@ -357,7 +357,7 @@
 			SAF = {
    				modify_tech_sharing_bonus = {
          			id = commonwealth_research
-         			bonus = 0.1  # we get 20% higher bonus from this group
+         			bonus = 0.1  
     			}
 			}
 		}
@@ -531,9 +531,9 @@
 		}
 	}
 
-	############################
-	## SHARED POLITICS SECTION #
-	############################
+	
+	
+	
 
 	focus = {
 		id = SAF_native_laws_amendment_act
@@ -602,9 +602,9 @@
 		}
 	}
 
-	############################
-	#### GO FASCIST SECTION ####
-	############################
+	
+	
+	
 
 	focus = {
 		id = SAF_abandon_westminster
@@ -625,7 +625,7 @@
 				NOT = { has_government = democratic }
 				factor = 100
 			}
-			modifier = {	#makes it significantly more likely if player boosts non-democratic
+			modifier = {	
 				democratic < 0.5
 				factor = 20
 			}
@@ -918,7 +918,7 @@
 			factor = 0.75
 			modifier = {
 				GER = { surrender_progress > 0.5 }
-				factor = 10 #nopenopnenope
+				factor = 10 
 			}
 		}
 
@@ -1025,7 +1025,7 @@
 				ideology = democratic
 				size = 0.75
 				capital = 681
-				states = { 681 275 719 }
+				states = { 681 275 719  9184 9185 9186 9187 9188 9189 9190 9191 9192 9193 3209 3210 3211 3212 3213 3214 3215 3216 3217 3218 9415 9416 9417 9418 9419 9420 9421 9422}
 			}
 
 		}
@@ -1039,7 +1039,7 @@
 					ideology = democratic
 					size = 0.45
 					capital = 681
-					states = { 681 275 719 }
+					states = { 681 275 719  9184 9185 9186 9187 9188 9189 9190 9191 9192 9193 3209 3210 3211 3212 3213 3214 3215 3216 3217 3218 9415 9416 9417 9418 9419 9420 9421 9422}
 				}
 				random_other_country = {
 					limit = {
@@ -1067,7 +1067,7 @@
 						original_tag = GER
 						has_government = fascism
 					}
-					set_country_flag = saf_fascist_uprising # Affects GER ai_strategy
+					set_country_flag = saf_fascist_uprising 
 				}
 			}
 		}
@@ -1280,9 +1280,9 @@
 		}
 	}
 
-	############################
-	### GO COMMUNIST SECTION ###
-	############################
+	
+	
+	
 
 	focus = {
 		id = SAF_empower_the_workers
@@ -1297,7 +1297,7 @@
 
 		ai_will_do = {
 			factor = 0.5
-			modifier = {	#will make country more likely to go down this path if player boosts communism support
+			modifier = {	
 				communism > 0.1
 				factor = 10
 			}
@@ -1384,7 +1384,7 @@
 
 		completion_reward = {
 			country_event = { id = tfv_south_africa.50 }
-			#event for nationalist/communist choice?
+			
 		}
 	}
 
@@ -1520,7 +1520,7 @@
 					SOV = { has_war_with = BEL }
 					SOV = { has_war_with = POR }
 				}
-				factor = 20 #now is the time to strike!
+				factor = 20 
 			}
 		}
 
@@ -1742,7 +1742,7 @@
 			factor = 50
 			modifier = {
 				SOV = { surrender_progress > 0.75 }
-				factor = 0 # let's not get into that...
+				factor = 0 
 			}
 			modifier = {
 				has_opinion = { target = SOV value > 50 }
@@ -1892,7 +1892,7 @@
 		completion_reward = {
 			SOV = {
 				custom_effect_tooltip = needs_approval
-				country_event = { id = tfv_south_africa.40 } #tech sharing
+				country_event = { id = tfv_south_africa.40 } 
 			}
 		}
 
@@ -1915,7 +1915,7 @@
 			has_global_flag = sov_yes_pact
 			FRA = {
 				has_capitulated = yes
-				exists = yes #otherwise Franco-British union might screw things up
+				exists = yes 
 				NOT = { has_government = communism }
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
@@ -1944,9 +1944,9 @@
 			}
 		}
 	}
-	############################
-	##### INDUSTRY SECTION #####
-	############################
+	
+	
+	
 
 	focus = {
 		id = SAF_south_african_railways
@@ -2505,9 +2505,9 @@
 	}
 
 
-	############################
-	####### ARMY SECTION #######
-	############################
+	
+	
+	
 
 	focus = {
 		id = SAF_special_service_battalion
@@ -2887,9 +2887,9 @@
 	}
 
 
-	############################
-	####### AIR SECTION ########
-	############################
+	
+	
+	
 
 	focus = {
 		id = SAF_commit_to_the_five_year_plan
@@ -3193,9 +3193,9 @@
 	}
 
 
-	############################
-	###### NAVY SECTION ########
-	############################
+	
+	
+	
 
 	focus = {
 		id = SAF_seaward_defence_force

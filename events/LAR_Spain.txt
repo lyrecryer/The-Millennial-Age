@@ -1,6 +1,6 @@
 ﻿add_namespace = lar_spain 
 
-# Election of 1936 - La Resistance Edition
+
 country_event = {
 	id = lar_spain.1
 	title = spain.9.t
@@ -48,7 +48,7 @@ country_event = {
 				activate_mission = SPA_hand_over_the_ceda_campaign_chest_mission
 				activate_mission = SPR_military_plot_republicans
 				hidden_effect = {
-					country_event = { id = lar_spain.4 } # Nationalists working against the government
+					country_event = { id = lar_spain.4 } 
 					country_event = { id = lar_spain.5 }
 					activate_mission = SPR_military_plot_republicans
 					add_ideas = SPR_government_power_struggle
@@ -72,7 +72,7 @@ country_event = {
 				}
 				activate_mission = SPA_military_plot_nationalists
 				hidden_effect = {
-					country_event = { id = lar_spain.3 } # Government working against the nationalists
+					country_event = { id = lar_spain.3 } 
 					country_event = { id = lar_spain.5 days = 20 random_days = 10 }
 					activate_mission = SPA_military_plot_nationalists
 				}
@@ -86,7 +86,7 @@ country_event = {
 		}
 	}
 
-	# Popular Front
+	
 	option = {
 		name = lar_spain.1.a
 		trigger = {
@@ -109,7 +109,7 @@ country_event = {
 			add_political_power = -35
 			activate_mission = SPR_military_plot_republicans
 			hidden_effect = {
-				country_event = { id = lar_spain.4 days = 4 } # Nationalists working against the government
+				country_event = { id = lar_spain.4 days = 4 } 
 				country_event = { id = lar_spain.5 }
 				activate_mission = SPR_military_plot_republicans
 				if = {
@@ -124,7 +124,7 @@ country_event = {
 		custom_effect_tooltip = SPR_republican_garrison_control_decisions_tt
 	}
 
-	# Falange
+	
 	option = {
 		name = lar_spain.1.b
 		trigger = {
@@ -146,7 +146,7 @@ country_event = {
 			add_political_power = -35
 			activate_mission = SPA_military_plot_nationalists
 			hidden_effect = {
-				country_event = { id = lar_spain.3 } # Government working against the nationalists
+				country_event = { id = lar_spain.3 } 
 				country_event = { id = lar_spain.5 days = 20 random_days = 10 }
 				activate_mission = SPA_military_plot_nationalists
 				if = {
@@ -175,7 +175,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - La Resistance Edition
+
 country_event = {
 	id = lar_spain.2
 	title = lar_spain.2.t
@@ -192,21 +192,21 @@ country_event = {
 				}
 				set_state_flag = SPR_core_of_spain_flag
 			}
-			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } # Make AI avoid attacking for a few days
+			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } 
 		}
 
-#  #  ##  ### ###  ##  #  #  ##  #   ###  ## ###     ### ### ### ###  ##  ### 
-## # #  #  #   #  #  # ## # #  # #    #  #    #      #   #   #   #   #  #  #  
-# ## ####  #   #  #  # # ## #### #    #   #   #      ##  ##  ##  ##  #     #  
-#  # #  #  #   #  #  # #  # #  # #    #    #  #      #   #   #   #   #  #  #  
-#  # #  #  #  ###  ##  #  # #  # ### ### ##   #      ### #   #   ###  ##   #  
+
+
+
+
+
 
 		if = {
 			limit = {
 				has_completed_focus = SPA_a_great_spain
 			}
 			hidden_effect = {
-				SPA = { # Switch the tag alias for SPA - it now becomes SPD - the republicans
+				SPA = { 
 					clr_country_flag = SPR_nationalist_spain_flag
 					drop_cosmetic_tag = yes
 					set_country_flag = SPR_republican_spain_flag
@@ -234,7 +234,7 @@ country_event = {
 					retire_ideology_leader = neutrality
 					retire_ideology_leader = communism
 				}
-				SPD = { # Remove Carlist/Falangist country leaders for new SPD tag
+				SPD = { 
 					retire_ideology_leader = fascism
 					retire_ideology_leader = neutrality
 					create_country_leader = {
@@ -248,7 +248,7 @@ country_event = {
 						}
 					}
 				}
-				# Switch the tag alias for the player's country - the player goes from SPR to SPA
+				
 				set_country_flag = SPR_nationalist_spain_flag
 				if = {
 					limit = {
@@ -284,7 +284,7 @@ country_event = {
 						the_lion_of_the_rif
 					}
 				}
-				# Add Nationalist and Republican Garrison division templates
+				
 				division_template = {
 					name = "Guarnición Nacionalista"
 					is_locked = yes
@@ -309,7 +309,7 @@ country_event = {
 						}
 					}
 				}
-				# Give SPD Madrid if the Nationalists don't have complete garrison control over it - becomes capital
+				
 				if = {
 					limit = {
 						41 = {
@@ -317,7 +317,19 @@ country_event = {
 						}
 					}
 					SPD = {
-						transfer_state = 41
+						transfer_state = 41 
+		transfer_state = 5477 
+		transfer_state = 5478 
+		transfer_state = 5479 
+		transfer_state = 5480 
+		transfer_state = 5481 
+		transfer_state = 5482 
+		transfer_state = 5483 
+		transfer_state = 5484 
+		transfer_state = 5485 
+		transfer_state = 5486 
+		transfer_state = 5487 
+		transfer_state = 5488
 					}
 					41 = {
 						set_state_flag = SPR_sided_with_republicans_flag
@@ -336,7 +348,19 @@ country_event = {
 						}
 					}
 					SPD = {
-						transfer_state = 41
+						transfer_state = 41 
+		transfer_state = 5477 
+		transfer_state = 5478 
+		transfer_state = 5479 
+		transfer_state = 5480 
+		transfer_state = 5481 
+		transfer_state = 5482 
+		transfer_state = 5483 
+		transfer_state = 5484 
+		transfer_state = 5485 
+		transfer_state = 5486 
+		transfer_state = 5487 
+		transfer_state = 5488
 					}
 					41 = {
 						set_state_flag = SPR_sided_with_republicans_flag
@@ -361,7 +385,19 @@ country_event = {
 						}
 					}
 					SPD = {
-						transfer_state = 41
+						transfer_state = 41 
+		transfer_state = 5477 
+		transfer_state = 5478 
+		transfer_state = 5479 
+		transfer_state = 5480 
+		transfer_state = 5481 
+		transfer_state = 5482 
+		transfer_state = 5483 
+		transfer_state = 5484 
+		transfer_state = 5485 
+		transfer_state = 5486 
+		transfer_state = 5487 
+		transfer_state = 5488
 					}
 					41 = {
 						set_state_flag = SPR_sided_with_republicans_flag
@@ -379,7 +415,7 @@ country_event = {
 						}
 					}
 				}
-				# If Madrid is controlled by Nationalists, but a random state exists that has total Republican garrison control, give that as capital first
+				
 				if = {
 					limit = {
 						41 = {
@@ -405,7 +441,7 @@ country_event = {
 						}
 					}
 				}
-				# Give a state that does not have total Nationalist garrison control to the Republicans as their capital - in decreasing order of Republican control
+				
 				else_if = {
 					limit = {
 						41 = {
@@ -468,14 +504,14 @@ country_event = {
 						}
 					}
 				}
-				# Split equipment and army/navy depending on which focuses the Republicans have finished
+				
 				if = {
 					limit = {
 						NOT = { has_country_flag = SPR_enlarge_the_weapon_caches_flag }
 					}
 					transfer_units_fraction = {
 						target = SPD
-						size = 0.5 # Fallback in case one of the ratios below are not stipulated
+						size = 0.5 
 						stockpile_ratio = 0.5
 						army_ratio = 0.5
 						navy_ratio = 0.5
@@ -527,7 +563,7 @@ country_event = {
 						}
 					}
 				}
-				# If player has completed this focus, give North Africa and spawn units there (this effect is run first so the tag has any territory whatsoever - it's assumed all players take this focus)
+				
 				if = {
 					limit = {
 						has_completed_focus = SPA_the_army_of_africa
@@ -580,7 +616,7 @@ country_event = {
 						}
 					}
 				}
-				# Republicans remove their army
+				
 				SPD = {
 					delete_units = {
 					    division_template = "División de Infantería"
@@ -599,21 +635,21 @@ country_event = {
 					    disband = yes
 					}
 				}
-				# Switch leaders who do not have nationalist sympathies to the Republicans
+				
 				every_unit_leader = {
 					limit = {
 						NOT = { has_trait = trait_SPA_nationalist_sympathies }
 					}
 					set_nationality = SPD
 				}
-				# Remove unnecessary traits from Nationalist commanders (no longer relevant to see for the player, as the SCW has started)
+				
 				every_unit_leader = {
 					limit = {
 						has_trait = trait_SPA_nationalist_sympathies
 					}
 					remove_unit_leader_trait = trait_SPA_nationalist_sympathies
 				}
-				# Add various loyalist traits that now become relevant - indicating loyalties to the different subfactions
+				
 				every_unit_leader = {
 					limit = {
 						OR = {
@@ -666,7 +702,7 @@ country_event = {
 						add_unit_leader_trait = trait_SPR_anti_stalinist_loyalties
 					}
 				}
-				# Add 3 Republican garrisons to every state where the Nationalists have NONE control
+				
 				every_owned_state = {
 					limit = {
 						check_variable = { var = SPA_garrison_control value = 1 compare = equals }
@@ -677,7 +713,7 @@ country_event = {
 							state = 297
 						}
 					}
-					# Transfer states and set flag to prepare for post-Civil War de-coring
+					
 					SPD = {
 						transfer_state = PREV
 					}
@@ -689,7 +725,7 @@ country_event = {
 						count = 3
 					}
 				}
-				41 = { # Extra 6 divisions to make Madrid harder to capture (as historically)
+				41 = { 
 					create_unit = {
 						division = "division_template = \"Guarnición Republicana\" start_experience_factor = 0.1" 
 						owner = SPD
@@ -697,7 +733,7 @@ country_event = {
 						count = 6
 					}
 				}
-				# Add 3 Nationalist garrisons to every state where the Nationalists have TOTAL control
+				
 				every_owned_state = {
 					limit = {
 						check_variable = { var = SPA_garrison_control value = 4 compare = equals }
@@ -709,7 +745,7 @@ country_event = {
 						count = 3
 					}
 				}
-				# Trigger war between the sides - necessary because the next effects spawn units on contested provinces and this requires both sides to be at war
+				
 				SPA = {
 					declare_war_on = {
 					    target = SPD
@@ -717,13 +753,13 @@ country_event = {
 					}
 					add_civil_war_target = SPD
 				}
-				# 2 Republican and 1 Nationalist garrisons spawned on all states with WEAK Nationalist control (except for Northern Garrison states)
+				
 				every_owned_state = {
 					limit = {
 						check_variable = { var = SPA_garrison_control value = 2 compare = equals }
 						NOT = { has_state_flag = SPA_northern_garrisons_state_flag }
 					}
-					# Transfer states and set flag to prepare for post-Civil War de-coring
+					
 					SPD = {
 						transfer_state = PREV
 					}
@@ -741,13 +777,13 @@ country_event = {
 						count = 1
 					}
 				}
-				# 2 Nationalist and 1 Republican garrisons spawned on all states with STRONG Nationalist control
+				
 				every_owned_state = {
 					limit = {
 						check_variable = { var = SPA_garrison_control value = 3 compare = equals }
 						NOT = { has_state_flag = SPA_northern_garrisons_state_flag }
 					}
-					# Transfer states and set flag to prepare for post-Civil War de-coring
+					
 					SPD = {
 						transfer_state = PREV
 					}
@@ -765,7 +801,7 @@ country_event = {
 						count = 2
 					}
 				}
-				# If Negotiate Carlist Support has been taken, add Nationalist units in Navarra
+				
 				if = {
 					limit = {
 						has_country_flag = SPA_negotiate_carlist_support_flag
@@ -790,7 +826,7 @@ country_event = {
 						}
 					}
 				}
-				# If Republicans secured the Guardia Civil, add Civil divisions to random states for the Republicans, and Asalto divisions to random states for the Nationalists
+				
 				if = {
 					limit = {
 						has_country_flag = SPR_secure_the_guardia_civil_flag
@@ -1249,7 +1285,7 @@ country_event = {
 						}
 					}
 				}
-				# If Republicans secured the Guardia de Asalto, do the opposite distribution
+				
 				else_if = {
 					limit = {
 						has_country_flag = SPR_secure_the_guardia_de_asalto_flag
@@ -1588,7 +1624,7 @@ country_event = {
 						}
 					}
 				}
-				else = { #Extra backup in case player never took any focuses - SPA gets BOTH types! Suck on it, Reds!
+				else = { 
 					division_template = {
 						name = "División de la Guardia de Asalto"
 						template_counter = 5
@@ -1615,7 +1651,7 @@ country_event = {
 						}
 					}
 	
-					#Guardia de Asalto
+					
 					random_state = {
 						limit = {
 							check_variable = { var = SPA_garrison_control value = 3 compare = greater_than_or_equals }
@@ -1675,7 +1711,7 @@ country_event = {
 						}
 					}
 	
-					# Guardia Civil
+					
 					random_state = {
 						limit = {
 							check_variable = { var = SPA_garrison_control value = 3 compare = greater_than_or_equals }
@@ -1795,7 +1831,7 @@ country_event = {
 						}
 					}
 				}
-				# If Republicans had time to Train the Union Youth, add these divisions to random states that have at MOST WEAK Nationalist control
+				
 				if = {
 					limit = {
 						has_country_flag = SPR_train_the_union_youth_flag
@@ -2069,7 +2105,7 @@ country_event = {
 						}
 					}
 				}
-				# If Republicans had time to Distribute Arms to the People, add these divisions to random states that have at MOST WEAK Nationalist control
+				
 				if = {
 					limit = {
 						has_country_flag = SPR_distribute_arms_to_the_people_flag
@@ -2273,7 +2309,7 @@ country_event = {
 						}
 					}
 				}
-				# Load Spanish FT for Republicans, unlock relevant focuses
+				
 				SPD = {
 					load_focus_tree = {
 						tree = spanish_focus
@@ -2281,7 +2317,7 @@ country_event = {
 					}
 					unlock_national_focus = SPR_the_popular_front
 				}
-				# Randomize which one they get, unless they had time to pick one
+				
 				random_list = {
 					10 = {
 						modifier = {
@@ -2323,7 +2359,7 @@ country_event = {
 						}
 					}
 				}
-				# Unlock division templates for Nationalists
+				
 				country_lock_all_division_template = no
 				every_owned_state = {
 					set_state_flag = SPR_sided_with_nationalists_flag
@@ -2345,7 +2381,7 @@ country_event = {
 						ROOT = { set_capital = PREV }
 					}
 				}
-				# Unlock division templates for Republicans
+				
 				SPD = {
 					every_state = {
 						limit = {
@@ -2379,26 +2415,26 @@ country_event = {
 					set_party_name = { ideology = neutrality long_name = SPR_neutrality_anarchism_party_long name = SPR_neutrality_anarchism_party }
 				}
 				set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
-				#every_unit_leader = {
-				#	limit = {
-				#		has_unit_leader_flag = SPR_reassigned_flag
-				#	}
-				#	ROOT = { remove_unit_leader = PREV }
-				#}
+				
+				
+				
+				
+				
+				
 				add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
-				set_global_flag = spanish_civil_war # Start civil war - used in many triggers
-				country_event = { id = lar_spain.6 days = 7 } # SCW notification event for the player
-				country_event = { id = lar_spain.78 days = 7 random_days = 7 } # Sanjurjo dies
+				set_global_flag = spanish_civil_war 
+				country_event = { id = lar_spain.6 days = 7 } 
+				country_event = { id = lar_spain.78 days = 7 random_days = 7 } 
 			}
 		}
 
-###  ### ###  #  # ###  #   ###  ##   ##  #  #     ### ### ### ###  ##  ### 
-#  # #   #  # #  # #  # #    #  #  # #  # ## #     #   #   #   #   #  #  #  
-###  ##  ###  #  # ###  #    #  #    #### # ##     ##  ##  ##  ##  #     #  
-#  # #   #    #  # #  # #    #  #  # #  # #  #     #   #   #   #   #  #  #  
-#  # ### #     ##  ###  ### ###  ##  #  # #  #     ### #   #   ###  ##   #  
 
-		# check Nationalist effect for detailed comments
+
+
+
+
+
+		
 		if = {
 			limit = {
 				has_completed_focus = SPR_the_popular_front
@@ -2438,7 +2474,9 @@ country_event = {
 						neutrality = 44
 						fascism = 48
 					}
-					transfer_state = 177
+					transfer_state = 177 
+		transfer_state = 1759 
+		transfer_state = 1760
 					177 = { set_state_flag = SPR_sided_with_nationalists_flag }
 					transfer_state = 178
 					178 = { set_state_flag = SPR_sided_with_nationalists_flag }
@@ -2494,7 +2532,12 @@ country_event = {
 						has_country_flag = SPA_the_army_of_africa_flag
 					}
 					SPA = {
-						transfer_state = 290
+						transfer_state = 290 
+		transfer_state = 3527 
+		transfer_state = 3528 
+		transfer_state = 3529 
+		transfer_state = 3530 
+		transfer_state = 3531
 						290 = { set_state_flag = SPR_sided_with_nationalists_flag }
 						division_template = {
 							name = "División del Ejército de África"
@@ -2551,7 +2594,7 @@ country_event = {
 					}
 					transfer_units_fraction = {
 						target = SPA
-						size = 0.5 # Fallback in case one of the ratios below are not stipulated
+						size = 0.5 
 						stockpile_ratio = 0.5
 						army_ratio = 0.5
 						navy_ratio = 0.5
@@ -2695,7 +2738,7 @@ country_event = {
 						count = 3
 					}
 				}
-				41 = { # Extra 6 divisions to make Madrid harder to capture (as historically)
+				41 = { 
 					create_unit = {
 						division = "division_template = \"Guarnición Republicana\" start_experience_factor = 0.1" 
 						owner = SPD
@@ -3653,7 +3696,7 @@ country_event = {
 						}
 					}
 				}
-				else = { #Extra backup in case player never took any focuses - SPA gets BOTH types!
+				else = { 
 					SPA = {
 						division_template = {
 							name = "División de la Guardia de Asalto"
@@ -3682,7 +3725,7 @@ country_event = {
 						}
 					}
 	
-					#Guardia de Asalto
+					
 					random_state = {
 						limit = {
 							check_variable = { var = SPA_garrison_control value = 3 compare = greater_than_or_equals }
@@ -3742,7 +3785,7 @@ country_event = {
 						}
 					}
 	
-					# Guardia Civil
+					
 					random_state = {
 						limit = {
 							check_variable = { var = SPA_garrison_control value = 3 compare = greater_than_or_equals }
@@ -4378,16 +4421,16 @@ country_event = {
 				add_ideas = SPR_disbanded_army_1
 				set_global_flag = spanish_civil_war
 				country_event = { id = lar_spain.6 days = 7 }
-				SPA = { country_event = { id = lar_spain.78 days = 7 random_days = 7 } } # Sanjurjo dies
+				SPA = { country_event = { id = lar_spain.78 days = 7 random_days = 7 } } 
 			}
 		}
 		hidden_effect = {
-			# Marks gui as "dirty" so the code updates the layout to properly hide the unused branches
+			
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
 	
-	option = { # Option for Nationalists - Franco
+	option = { 
 		name = lar_spain.2.a
 		trigger = { has_completed_focus = SPA_con_paquito }
 		ai_chance = {
@@ -4413,7 +4456,7 @@ country_event = {
 				}
 			}
 		}
-		# Remove Spirits that will no longer be relevant
+		
 		custom_effect_tooltip = nationalists_chosen
 		remove_ideas = SPR_military_disloyalty
 		remove_ideas = SPR_political_violence
@@ -4426,7 +4469,7 @@ country_event = {
 		}
 		complete_national_focus = SPA_unify_the_nationalist_front
 	}
-	option = { # Option for Nationalists - Falangism
+	option = { 
 		name = lar_spain.2.b
 		trigger = { has_completed_focus = SPA_sin_paquito }
 		ai_chance = {
@@ -4459,7 +4502,7 @@ country_event = {
 				}
 			}
 		}
-		# Remove Spirits that will no longer be relevant
+		
 		custom_effect_tooltip = nationalists_chosen
 		remove_ideas = SPR_military_disloyalty
 		remove_ideas = SPR_political_violence
@@ -4471,7 +4514,7 @@ country_event = {
 		}
 		complete_national_focus = SPA_the_phalanx_ascendant
 	}
-	option = { # Option for Nationalists - Carlism
+	option = { 
 		name = lar_spain.2.c
 		trigger = { has_completed_focus = SPA_a_great_spain }
 		ai_chance = {
@@ -4504,7 +4547,7 @@ country_event = {
 				}
 			}
 		}
-		# Remove Spirits that will no longer be relevant
+		
 		custom_effect_tooltip = nationalists_chosen
 		remove_ideas = SPR_military_disloyalty
 		remove_ideas = SPR_political_violence
@@ -4517,7 +4560,7 @@ country_event = {
 		}
 		complete_national_focus = SPA_supremacy_of_the_communion
 	}
-	option = { # Option for Republicans - Democratic
+	option = { 
 		name = lar_spain.2.d
 		trigger = { has_completed_focus = SPR_the_popular_front }
 		ai_chance = {
@@ -4553,7 +4596,7 @@ country_event = {
 				}
 			}
 		}
-		# Remove Spirits that will no longer be relevant
+		
 		custom_effect_tooltip = republicans_chosen
 		remove_ideas = SPA_carlism_1
 		remove_ideas = SPR_military_disloyalty
@@ -4569,7 +4612,7 @@ country_event = {
 		}
 		complete_national_focus = SPR_maintain_the_second_republic
 	}
-	option = { # Option for Republicans - Communism
+	option = { 
 		name = lar_spain.2.e
 		trigger = { has_completed_focus = SPR_the_popular_front }
 		ai_chance = {
@@ -4595,7 +4638,7 @@ country_event = {
 				}
 			}
 		}
-		# Remove Spirits that will no longer be relevant
+		
 		custom_effect_tooltip = republicans_chosen
 		remove_ideas = SPA_carlism_1
 		remove_ideas = SPR_military_disloyalty
@@ -4611,7 +4654,7 @@ country_event = {
 		}
 		complete_national_focus = SPR_the_anti_fascist_workers_revolution
 	}
-	option = { # Option for Republicans - Anarchism
+	option = { 
 		name = lar_spain.2.f
 		trigger = { has_completed_focus = SPR_the_popular_front }
 		ai_chance = {
@@ -4647,7 +4690,7 @@ country_event = {
 				}
 			}
 		}
-		# Remove Spirits that will no longer be relevant
+		
 		custom_effect_tooltip = republicans_chosen
 		remove_ideas = SPA_carlism_1
 		remove_ideas = SPR_military_disloyalty
@@ -4665,7 +4708,7 @@ country_event = {
 	}
 }
 
-# Mission Generator simulating Republican government working against the Nationalists
+
 country_event = {
 	id = lar_spain.3
 
@@ -4679,7 +4722,7 @@ country_event = {
 
 	immediate = {
 		random_list = {
-			30 = { # Government imprisons Primo de Rivera
+			30 = { 
 				modifier = {
 					factor = 0
 					OR = {
@@ -4689,14 +4732,14 @@ country_event = {
 				}
 				activate_mission = SPA_imprison_primo_de_rivera_mission
 			}
-			30 = { # Government makes political arrest
+			30 = { 
 				modifier = {
 					factor = 0
 					NOT = { has_country_flag = SPA_political_assassination_flag }
 				}
 				activate_mission = SPA_political_arrest_mission
 			}
-			10 = { # Government reassigns disloyal general
+			10 = { 
 				modifier = {
 					factor = 0
 					NOT = {
@@ -4708,14 +4751,14 @@ country_event = {
 				}
 				activate_mission = SPA_reassign_disloyal_leader_mission
 			}
-			30 = { # Government makes concessions to the far left
+			30 = { 
 				activate_mission = SPA_concessions_to_the_left_mission
 			}
 		}
 	}
 }
 
-# Mission Generator simulating Nationalists working against the Republican Government
+
 country_event = {
 	id = lar_spain.4
 
@@ -4729,7 +4772,7 @@ country_event = {
 
 	immediate = {
 		random_list = {
-			35 = { # Primo de Rivera makes inflammatory speech
+			35 = { 
 				activate_mission = SPR_primo_de_rivera_speech_mission
 				modifier = {
 					factor = 0
@@ -4740,10 +4783,10 @@ country_event = {
 					has_decision = SPR_imprison_primo_de_rivera
 				}
 			}
-			15 = { # Nationalists conduct political assassination
+			15 = { 
 				activate_mission = SPR_political_assassination_mission
 			}
-			20 = { # Nationalists obtain general's loyalty
+			20 = { 
 				activate_mission = SPR_sway_leader_loyalty_mission
 				modifier = {
 					factor = 0
@@ -4752,14 +4795,14 @@ country_event = {
 					}
 				}
 			}
-			30 = { # Nationalists suppress the leftist strikes
+			30 = { 
 				activate_mission = SPR_suppress_the_strikes_mission
 			}
 		}
 	}
 }
 
-# Mission Generator simulating other side expanding garrison influence
+
 country_event = {
 	id = lar_spain.5
 
@@ -5378,7 +5421,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Frontlines Solidify
+
 country_event = {
 	id = lar_spain.6
 	title = lar_spain.6.t
@@ -5472,7 +5515,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Carlists rise up
+
 country_event = {
 	id = lar_spain.7
 	title = lar_spain.7.t
@@ -5497,7 +5540,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_global_flag = SPR_carlist_uprising_flag
-			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } # Make AI avoid attacking for a few days
+			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } 
 			SPB = {
 				set_politics = {
 					ruling_party = neutrality
@@ -5509,7 +5552,7 @@ country_event = {
 				}
 				set_party_name = { ideology = neutrality long_name = SPR_neutrality_party_long name = SPR_neutrality_party }
 			}
-			if = { # If SPA owns both of the historical Carlist states
+			if = { 
 				limit = {
 					controls_state = 172
 					controls_state = 176
@@ -5532,7 +5575,19 @@ country_event = {
 						controls_state = 791
 					}
 					SPB = {
-						transfer_state = 791
+						transfer_state = 791 
+		transfer_state = 9869 
+		transfer_state = 9870 
+		transfer_state = 9871 
+		transfer_state = 9872 
+		transfer_state = 9873 
+		transfer_state = 9874 
+		transfer_state = 9875 
+		transfer_state = 9876 
+		transfer_state = 9877 
+		transfer_state = 9878 
+		transfer_state = 9879 
+		transfer_state = 9880
 					}
 				}
 				if = {
@@ -5541,7 +5596,19 @@ country_event = {
 						controls_state = 174
 					}
 					SPB = {
-						transfer_state = 174
+						transfer_state = 174 
+		transfer_state = 1726 
+		transfer_state = 1727 
+		transfer_state = 1728 
+		transfer_state = 1729 
+		transfer_state = 1730 
+		transfer_state = 1731 
+		transfer_state = 1732 
+		transfer_state = 1733 
+		transfer_state = 1734 
+		transfer_state = 1735 
+		transfer_state = 1736 
+		transfer_state = 1737
 					}
 				}
 				if = {
@@ -5550,7 +5617,19 @@ country_event = {
 						controls_state = 171
 					}
 					SPB = {
-						transfer_state = 171
+						transfer_state = 171 
+		transfer_state = 1700 
+		transfer_state = 1701 
+		transfer_state = 1702 
+		transfer_state = 1703 
+		transfer_state = 1704 
+		transfer_state = 1705 
+		transfer_state = 1706 
+		transfer_state = 1707 
+		transfer_state = 1708 
+		transfer_state = 1709 
+		transfer_state = 1710 
+		transfer_state = 1711
 					}
 				}
 				if = {
@@ -5598,7 +5677,7 @@ country_event = {
 					}
 				}
 			}
-			else_if = { # Fallback if not owning one of the historically Carlist states
+			else_if = { 
 				limit = {
 					OR = {
 						AND = {
@@ -5624,7 +5703,7 @@ country_event = {
 					}
 				}
 			}
-			else_if = { # Fallback if not owning one of the historically Carlist states
+			else_if = { 
 				limit = {
 					OR = {
 						AND = {
@@ -5689,7 +5768,7 @@ country_event = {
 					}
 				}
 			}
-			else_if = { # You're not getting out of a civil war by voluntarily giving up the targetable locations, pal!
+			else_if = { 
 				limit = {
 					NOT = {
 						controls_state = 172
@@ -5756,7 +5835,7 @@ country_event = {
 					}
 				}
 			}
-			else_if = { # You're not getting out of a civil war by voluntarily giving up the targetable locations, pal!
+			else_if = { 
 				limit = {
 					NOT = {
 						controls_state = 172
@@ -6046,9 +6125,9 @@ country_event = {
 				remove_ideas = SPA_carlism_5
 			}
 
-			## SPA triggers Carlist Uprising ##
-			# If any country has already joined SCW, it will join the war against SPB as well
-			if = { #Country supporting SPD
+			
+			
+			if = { 
 				limit = {
 					any_country = { has_country_flag = supports_SPD_flag }
 				}
@@ -6060,7 +6139,7 @@ country_event = {
 					limit = {
 						any_country = { has_country_flag = POR_non_aligned_portugal_supports_SPA_flag }
 					}
-					random_country = { #Portuguese Non-aligned tag (spawned via Workers of Iberia, Unite! focus) will join war
+					random_country = { 
 						limit = {
 							has_country_flag = POR_non_aligned_portugal_supports_SPA_flag
 						}
@@ -6068,7 +6147,7 @@ country_event = {
 					}
 				}
 			}
-			if = { #Country supporting SPA
+			if = { 
 				limit = {
 					any_country = { has_country_flag = supports_SPA_flag }
 				}
@@ -6150,7 +6229,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Fascist Anti-Carlist Crack-down
+
 country_event = {
 	id = lar_spain.8
 	title = lar_spain.8.t
@@ -6186,7 +6265,7 @@ country_event = {
 				recall_volunteers_from = ROOT
 			}
 			set_global_flag = SPR_carlist_uprising_flag
-			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } # Make AI avoid attacking for a few days
+			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } 
 			if = {
 				limit = {
 					NOT = { has_government = neutrality }
@@ -6445,9 +6524,9 @@ country_event = {
 				add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
 			}
 
-			## SPB triggers Carlist Uprising ##
-			### All foreign Aid goes to SPA ###
-			#Portuguese Op. modifier goes to SPA
+			
+			
+			
 			if = {
 				limit = {
 					has_opinion_modifier = POR_helped_in_civil_war
@@ -6463,7 +6542,7 @@ country_event = {
 					}
 				}
 			}
-			if = {#Country supporting SPA
+			if = {
 				limit = { 
 					any_country = { has_country_flag = supports_SPA_flag }
 				}
@@ -6483,7 +6562,7 @@ country_event = {
 							active = yes
 						}
 					}
-					#Join war against all SPA enemies
+					
 					every_country = {
 						limit = { has_war_with = SPA }
 						PREV = {
@@ -6496,7 +6575,7 @@ country_event = {
 					}
 				}
 			
-				#Transfer troops in territory belonging to SPA allies back home
+				
 				every_state = {
 					limit = {
 						NOT = { is_fully_controlled_by = ROOT }
@@ -6512,7 +6591,7 @@ country_event = {
 					}
 				}
 			}
-			if = {	#Country supporting SPD
+			if = {	
 				limit = {
 					any_country = { has_country_flag = supports_SPD_flag }
 				}
@@ -6520,14 +6599,14 @@ country_event = {
 					limit = {
 						has_country_flag = supports_SPD_flag
 					}
-					# Country joins war against SPA
+					
 					add_to_war = { targeted_alliance = SPD enemy = SPA hostility_reason = asked_to_join }
 				}
 				if = {
 					limit = {
 						any_country = { has_country_flag = POR_non_aligned_portugal_supports_SPA_flag }
 					}
-					random_country = { #Portuguese Non-aligned tag (spawned via Workers of Iberia, Unite! focus) will join war
+					random_country = { 
 						limit = {
 							has_country_flag = POR_non_aligned_portugal_supports_SPA_flag
 						}
@@ -6629,7 +6708,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Anarchists rise up
+
 country_event = {
 	id = lar_spain.9
 	title = lar_spain.9.t
@@ -6654,7 +6733,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_global_flag = SPR_anarchist_uprising_flag
-			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } # Make AI avoid attacking for a few days
+			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } 
 			if = {
 				limit = {
 					neutrality > 0.03
@@ -6758,7 +6837,16 @@ country_event = {
 						has_global_flag = scw_early_end
 					}
 					SPC = {
-						transfer_state = 167
+						transfer_state = 167 
+		transfer_state = 1643 
+		transfer_state = 1644 
+		transfer_state = 1645 
+		transfer_state = 1646 
+		transfer_state = 1647 
+		transfer_state = 1648 
+		transfer_state = 1649 
+		transfer_state = 1650 
+		transfer_state = 1651
 					}
 					random_owned_state = {
 						limit = {
@@ -6798,7 +6886,7 @@ country_event = {
 					}
 				}
 			}
-			else = { # You're not getting out of a civil war by voluntarily giving up the targetable locations, pal!
+			else = { 
 				random_state = {
 					limit = {
 						NOT = { state = 178 }
@@ -7060,9 +7148,9 @@ country_event = {
 				add_timed_idea = { idea = SPR_death_before_surrender days = 900 }
 			}
 
-			## SPD triggers Anarchist Uprising ##
-			# If any country has already joined SCW, it will join the war against SPC as well
-			if = { #Country supporting SPD
+			
+			
+			if = { 
 				limit = {
 					any_country = { has_country_flag = supports_SPD_flag }
 				}
@@ -7070,7 +7158,7 @@ country_event = {
 					limit = { has_country_flag = supports_SPD_flag }
 					add_to_war = { targeted_alliance = SPD enemy = SPC hostility_reason = asked_to_join }
 				}
-				if = { #Portuguese Non-aligned tag (spawned via Workers of Iberia, Unite! focus) will join war
+				if = { 
 					limit = {
 						any_country = { has_country_flag = POR_non_aligned_portugal_supports_SPA_flag }
 					}
@@ -7082,7 +7170,7 @@ country_event = {
 					}
 				}
 			}
-			if = { #Country supporting SPA
+			if = { 
 				limit = {
 					any_country = { has_country_flag = supports_SPA_flag }
 				}
@@ -7091,7 +7179,7 @@ country_event = {
 					add_to_war = { targeted_alliance = SPA enemy = SPC hostility_reason = asked_to_join }
 				}
 			}
-			if = { #Country supporting SPB
+			if = { 
 				limit = {
 					any_country = { has_country_flag = supports_SPB_flag }
 				}
@@ -7188,7 +7276,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Republican Crack-Down
+
 country_event = {
 	id = lar_spain.10
 	title = lar_spain.10.t
@@ -7224,7 +7312,7 @@ country_event = {
 				recall_volunteers_from = ROOT
 			}
 			set_global_flag = SPR_anarchist_uprising_flag
-			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } # Make AI avoid attacking for a few days
+			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } 
 			if = {
 				limit = {
 					has_completed_focus = SPR_regional_defense_council_of_aragon
@@ -7831,9 +7919,9 @@ country_event = {
 				add_timed_idea = { idea = SPR_death_before_surrender days = 900 }
 			}
 
-			## SPC triggers Anarchist Uprising ##
-			### Foreign aid goes to SPD ###
-			#Op. modifier goes to SPD.
+			
+			
+			
 			if = {
 				limit = {
 					has_opinion_modifier = POR_helped_in_civil_war
@@ -7849,7 +7937,7 @@ country_event = {
 					}
 				}
 			}
-			if = { #Country supporting SPD
+			if = { 
 				limit = {
 					any_country = { has_country_flag = supports_SPD_flag }
 				}
@@ -7869,7 +7957,7 @@ country_event = {
 							active = yes
 						}
 					}
-					#Join war against all SPD enemies
+					
 					every_country = {
 						limit = { has_war_with = SPD }
 						PREV = {
@@ -7881,7 +7969,7 @@ country_event = {
 						}
 					}
 				}
-				#Transfer troops in territory belonging to SPD allies back home
+				
 				every_state = {
 					limit = {
 						NOT = { is_fully_controlled_by = ROOT }
@@ -7896,7 +7984,7 @@ country_event = {
 						to_state_array = owned_controlled_states
 					}
 				}
-				if = { #Portuguese Non-aligned tag (spawned via Workers of Iberia, Unite! focus) will join war
+				if = { 
 					limit = {
 						any_country = { has_country_flag = POR_non_aligned_portugal_supports_SPA_flag }
 					}
@@ -7908,26 +7996,26 @@ country_event = {
 					}
 				}
 			}
-			if = {	#Country supporting SPA
+			if = {	
 				limit = {
 					any_country = { has_country_flag = supports_SPA_flag }
 				}
-				every_country = {# Country joins war against SPD
+				every_country = {
 					limit = { has_country_flag = supports_SPA_flag }
 					add_to_war = { targeted_alliance = SPA enemy = SPD hostility_reason = asked_to_join }
 				}
 			}
-			if = {	#Country supporting SPB
+			if = {	
 				limit = {
 					any_country = { has_country_flag = supports_SPB_flag }
 				}
-				every_country = {# Country joins war against SPD
+				every_country = {
 					limit = { has_country_flag = supports_SPB_flag }
 					add_to_war = { targeted_alliance = SPB enemy = SPD hostility_reason = asked_to_join }
 				}
 			}
 
-			#Transfer Portuguese revolted ships (if any) to Republican Spain
+			
 			if = {
 				limit = {
 					SPC = { has_country_flag = POR_got_portuguese_mutineers_flag }
@@ -8133,7 +8221,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Carlists Defeated
+
 country_event = {
 	id = lar_spain.11
 	title = lar_spain.11.t
@@ -8147,7 +8235,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Fascists Defeated
+
 country_event = {
 	id = lar_spain.12
 	title = lar_spain.12.t
@@ -8161,7 +8249,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Franco Defeated
+
 country_event = {
 	id = lar_spain.13
 	title = lar_spain.13.t
@@ -8175,7 +8263,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Anarchists Defeated
+
 country_event = {
 	id = lar_spain.14
 	title = lar_spain.14.t
@@ -8189,7 +8277,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Independent Communists Defeated
+
 country_event = {
 	id = lar_spain.15
 	title = lar_spain.15.t
@@ -8203,7 +8291,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Republicans Defeated
+
 country_event = {
 	id = lar_spain.16
 	title = lar_spain.16.t
@@ -8217,7 +8305,7 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - Stalinist Communists Defeated
+
 country_event = {
 	id = lar_spain.17
 	title = lar_spain.17.t
@@ -8231,7 +8319,7 @@ country_event = {
 	}
 }
 
-# Spain - Nationalists out of focuses to take, have to 'lay low' for a while
+
 country_event = {
 	id = lar_spain.18
 	title = lar_spain.18.t
@@ -8259,7 +8347,7 @@ country_event = {
 	}
 }
 
-# Reassert American Dominance - Event for American nations
+
 country_event = {
 	id = lar_spain.19
 	title = lar_spain.19.t
@@ -8268,7 +8356,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.19.a
 		ai_chance = {
 			base = 50
@@ -8287,7 +8375,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.19.b
 		ai_chance = {
 			base = 50
@@ -8328,7 +8416,7 @@ country_event = {
 	}
 }
 
-# Reassert American Dominance - Notification event for Spain - Target Accepted
+
 country_event = {
 	id = lar_spain.20
 	title = lar_spain.20.t
@@ -8337,13 +8425,13 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.20.a
 		puppet = FROM
 	}
 }
 
-# Reassert American Dominance - Notification event for Spain - Target Declined
+
 country_event = {
 	id = lar_spain.21
 	title = lar_spain.21.t
@@ -8352,7 +8440,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.21.a
 		create_wargoal = {
 		    type = puppet_wargoal_focus
@@ -8361,7 +8449,7 @@ country_event = {
 	}
 }
 
-# Portuguese Aid - Event for Portugal
+
 country_event = {
 	id = lar_spain.22
 	title = lar_spain.22.t
@@ -8370,7 +8458,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.22.a
 		ai_chance = {
 			base = 50
@@ -8401,7 +8489,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.22.b
 		ai_chance = {
 			base = 50
@@ -8430,7 +8518,7 @@ country_event = {
 	}
 }
 
-# Portuguese Aid - Event for Spain - POR accepted
+
 country_event = {
 	id = lar_spain.23
 	title = lar_spain.23.t
@@ -8439,7 +8527,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.23.a
 		effect_tooltip = {
 			POR = {
@@ -8451,7 +8539,7 @@ country_event = {
 	}
 }
 
-# Portuguese Aid - Event for Spain - POR declined
+
 country_event = {
 	id = lar_spain.24
 	title = lar_spain.24.t
@@ -8460,12 +8548,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.24.a
 	}
 }
 
-# Iberian Pact - Event for Portugal
+
 country_event = {
 	id = lar_spain.25
 	title = lar_spain.25.t
@@ -8474,7 +8562,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.25.a
 		ai_chance = {
 			base = 50
@@ -8489,7 +8577,7 @@ country_event = {
 				country_event = { id = lar_spain.26 hours = 18 random_hours = 6 }
 			}
 		}
-		if= { #If Portugal is in faction, Spain will join
+		if= { 
 			limit = {
 				is_in_faction = yes
 				FROM = { is_in_faction = no }
@@ -8504,7 +8592,7 @@ country_event = {
 				}
 			}
 		}
-		else_if = { #If Spain is in faction, Portugal will join
+		else_if = { 
 			limit = {
 				is_in_faction = no
 				FROM = { is_in_faction = yes }
@@ -8517,7 +8605,7 @@ country_event = {
 				add_to_faction = ROOT
 			}
 		}
-		else_if = { #If Spain and Portugal are in different factions, both will leave their faction
+		else_if = { 
 			limit = {
 				is_in_faction = yes
 				FROM = { is_in_faction = yes }
@@ -8530,7 +8618,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.25.b
 		ai_chance = {
 			base = 50
@@ -8563,7 +8651,7 @@ country_event = {
 	}
 }
 
-# Iberian Pact - Event for Spain - POR accepted
+
 country_event = {
 	id = lar_spain.26
 	title = lar_spain.25.t
@@ -8572,10 +8660,10 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.26.a
 		custom_effect_tooltip = SPA_the_iberian_pact_tt
-		if= { #If Spain is in faction, Portugal will join
+		if= { 
 			limit = {
 				is_in_faction = yes
 				FROM = { is_in_faction = no }
@@ -8590,7 +8678,7 @@ country_event = {
 				}
 			}
 		}
-		else_if = { #If Portugal is in faction, Spain will join
+		else_if = { 
 			limit = {
 				is_in_faction = no
 				FROM = { is_in_faction = yes }
@@ -8603,7 +8691,7 @@ country_event = {
 				add_to_faction = ROOT
 			}
 		}
-		else_if = { #If Spain and Portugal are in different factions, both will leave their faction
+		else_if = { 
 			limit = {
 				is_in_faction = yes
 				FROM = { is_in_faction = yes }
@@ -8619,7 +8707,7 @@ country_event = {
 	}
 }
 
-# Iberian Pact - Event for Spain - POR declined
+
 country_event = {
 	id = lar_spain.27
 	title = lar_spain.25.t
@@ -8628,12 +8716,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.27.a
 	}
 }
 
-# Iberian Pact - Other party has joined a faction, we must uphold our end of the bargain!
+
 country_event = {
 	id = lar_spain.28
 	title = lar_spain.28.t
@@ -8659,7 +8747,7 @@ country_event = {
 		}
 	}
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.28.a
 		effect_tooltip = {
 			random_other_country = {
@@ -8673,7 +8761,7 @@ country_event = {
 	}
 }
 
-# Iberian Pact - Other party has joined the war, we must uphold our end of the bargain!
+
 country_event = {
 	id = lar_spain.29
 	title = lar_spain.28.t
@@ -8682,7 +8770,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.28.a
 		random_other_country = {
 			limit = {
@@ -8713,7 +8801,7 @@ country_event = {
 	}
 }
 
-# Latin Bloc - Event for invitees
+
 country_event = {
 	id = lar_spain.30
 	title = lar_spain.30.t
@@ -8722,7 +8810,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.30.a
 		ai_chance = {
 			base = 50
@@ -8753,7 +8841,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.30.b
 		ai_chance = {
 			base = 50
@@ -8774,7 +8862,7 @@ country_event = {
 	}
 }
 
-# Latin Bloc - Event for Spain - FROM accepted
+
 country_event = {
 	id = lar_spain.31
 	title = lar_spain.30.t
@@ -8783,13 +8871,13 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.31.a
 		add_to_faction = FROM
 	}
 }
 
-# Latin Bloc - Event for Spain - FROM declined
+
 country_event = {
 	id = lar_spain.32
 	title = lar_spain.30.t
@@ -8798,12 +8886,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.32.a
 	}
 }
 
-# Spain - Contact the Union Militar Espanola
+
 country_event = {
 	id = lar_spain.33
 	title = lar_spain.33.t
@@ -8859,7 +8947,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Choose First State
+	option = { 
 		name = lar_spain.33.a
 		trigger = {
 			any_owned_state = {
@@ -8877,7 +8965,7 @@ country_event = {
 		}
 	}
 
-	option = { # Choose Second State
+	option = { 
 		name = lar_spain.33.b
 		trigger = {
 			any_owned_state = {
@@ -8895,7 +8983,7 @@ country_event = {
 		}
 	}
 
-	option = { # Choose Third State
+	option = { 
 		name = lar_spain.33.c
 		trigger = {
 			any_owned_state = {
@@ -8914,7 +9002,7 @@ country_event = {
 	}
 }
 
-# Spain - Settle the Succession Question
+
 country_event = {
 	id = lar_spain.34
 	title = lar_spain.34.t
@@ -8923,7 +9011,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Choose first King
+	option = { 
 		name = lar_spain.34.a
 		ai_chance = {
 			base = 66
@@ -8932,7 +9020,7 @@ country_event = {
 		custom_effect_tooltip = lar_spain.34.a_tt
 	}
 
-	option = { # Choose second King
+	option = { 
 		name = lar_spain.34.b
 		ai_chance = {
 			base = 34
@@ -8941,7 +9029,7 @@ country_event = {
 	}
 }
 
-# Spain - Restore the Monarchy - ### DEPRECATED, replaced by News Event ###
+
 country_event = {
 	id = lar_spain.35
 	title = lar_spain.35.t
@@ -8950,7 +9038,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Establish Monarchy
+	option = { 
 		name = lar_spain.35.a
 		drop_cosmetic_tag = yes
 		set_cosmetic_tag = SPB_kingdom
@@ -9004,7 +9092,7 @@ country_event = {
 	}
 }
 
-# Tangiers Enclave - Event for UK
+
 country_event = {
 	id = lar_spain.36
 	title = lar_spain.36.t
@@ -9013,7 +9101,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Protest
+	option = { 
 		name = lar_spain.36.a
 		ai_chance = {
 			base = 34
@@ -9077,7 +9165,7 @@ country_event = {
 		}
 	}
 
-	option = { # Let it slide
+	option = { 
 		name = lar_spain.36.b
 		ai_chance = {
 			base = 66
@@ -9102,7 +9190,7 @@ country_event = {
 	}
 }
 
-# Tangiers Enclave - Event for Spain - UK protested
+
 country_event = {
 	id = lar_spain.37
 	title = lar_spain.36.t
@@ -9111,7 +9199,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.37.a
 		ai_chance = {
 			base = 50
@@ -9136,7 +9224,7 @@ country_event = {
 		}
 	}
 
-	option = { # We must back down
+	option = { 
 		name = lar_spain.37.b
 		ai_chance = {
 			base = 50
@@ -9151,7 +9239,7 @@ country_event = {
 	}
 }
 
-# Tangiers Enclave - Event for Spain - UK let it slide
+
 country_event = {
 	id = lar_spain.38
 	title = lar_spain.36.t
@@ -9160,7 +9248,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # OK
+	option = { 
 		name = lar_spain.38.a
 		290 = {
 			add_extra_state_shared_building_slots = 3
@@ -9173,7 +9261,7 @@ country_event = {
 	}
 }
 
-# Demand French North Africa - Event for France
+
 country_event = {
 	id = lar_spain.39
 	title = lar_spain.39.t
@@ -9182,7 +9270,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.39.a
 		ai_chance = {
 			base = 50
@@ -9198,14 +9286,121 @@ country_event = {
 		}
 		effect_tooltip = {
 			FROM = {
-				transfer_state = 461
-				transfer_state = 462
-				transfer_state = 459
-				transfer_state = 460
-				transfer_state = 513
-				transfer_state = 514
-				transfer_state = 458
-				transfer_state = 665
+				transfer_state = 461 
+		transfer_state = 6083 
+		transfer_state = 6084 
+		transfer_state = 6085 
+		transfer_state = 6086 
+		transfer_state = 6087 
+		transfer_state = 6088 
+		transfer_state = 6089 
+		transfer_state = 6090 
+		transfer_state = 6091 
+		transfer_state = 6092 
+		transfer_state = 6093 
+		transfer_state = 6094 
+		transfer_state = 6095 
+		transfer_state = 6096 
+		transfer_state = 6097 
+		transfer_state = 6098
+				transfer_state = 462 
+		transfer_state = 6099 
+		transfer_state = 6100 
+		transfer_state = 6101 
+		transfer_state = 6102 
+		transfer_state = 6103 
+		transfer_state = 6104 
+		transfer_state = 6105 
+		transfer_state = 6106 
+		transfer_state = 6107 
+		transfer_state = 6108 
+		transfer_state = 6109 
+		transfer_state = 6110 
+		transfer_state = 6111
+				transfer_state = 459 
+		transfer_state = 6047 
+		transfer_state = 6048 
+		transfer_state = 6049 
+		transfer_state = 6050 
+		transfer_state = 6051 
+		transfer_state = 6052 
+		transfer_state = 6053 
+		transfer_state = 6054 
+		transfer_state = 6055
+				transfer_state = 460 
+		transfer_state = 6073 
+		transfer_state = 6074 
+		transfer_state = 6075 
+		transfer_state = 6076 
+		transfer_state = 6077 
+		transfer_state = 6078 
+		transfer_state = 6079 
+		transfer_state = 6080 
+		transfer_state = 6081 
+		transfer_state = 6082
+				transfer_state = 513 
+		transfer_state = 6691 
+		transfer_state = 6692 
+		transfer_state = 6693 
+		transfer_state = 6694 
+		transfer_state = 6695 
+		transfer_state = 6696 
+		transfer_state = 6697 
+		transfer_state = 6698 
+		transfer_state = 6699 
+		transfer_state = 6700 
+		transfer_state = 6701 
+		transfer_state = 6702 
+		transfer_state = 6703 
+		transfer_state = 6704 
+		transfer_state = 6705 
+		transfer_state = 6706 
+		transfer_state = 6707 
+		transfer_state = 6708 
+		transfer_state = 6709 
+		transfer_state = 6710 
+		transfer_state = 6711
+				transfer_state = 514 
+		transfer_state = 6712 
+		transfer_state = 6713 
+		transfer_state = 6714 
+		transfer_state = 6715 
+		transfer_state = 6716 
+		transfer_state = 6717 
+		transfer_state = 6718 
+		transfer_state = 6719 
+		transfer_state = 6720 
+		transfer_state = 6721 
+		transfer_state = 6722 
+		transfer_state = 6723 
+		transfer_state = 6724 
+		transfer_state = 6725 
+		transfer_state = 6726 
+		transfer_state = 6727
+				transfer_state = 458 
+		transfer_state = 6036 
+		transfer_state = 6037 
+		transfer_state = 6038 
+		transfer_state = 6039 
+		transfer_state = 6040 
+		transfer_state = 6041 
+		transfer_state = 6042 
+		transfer_state = 6043 
+		transfer_state = 6044 
+		transfer_state = 6045 
+		transfer_state = 6046
+				transfer_state = 665 
+		transfer_state = 8808 
+		transfer_state = 8809 
+		transfer_state = 8810 
+		transfer_state = 8811 
+		transfer_state = 8812 
+		transfer_state = 8813 
+		transfer_state = 8814 
+		transfer_state = 8815 
+		transfer_state = 8816 
+		transfer_state = 8817 
+		transfer_state = 8818
 			}
 		}
 		hidden_effect = {
@@ -9217,7 +9412,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.39.b
 		ai_chance = {
 			base = 50
@@ -9250,14 +9445,121 @@ country_event = {
 		}
 		effect_tooltip = {
 			FROM = {
-				add_state_claim = 461
-				add_state_claim = 462
-				add_state_claim = 459
-				add_state_claim = 460
-				add_state_claim = 513
-				add_state_claim = 514
-				add_state_claim = 458
-				add_state_claim = 665
+				add_state_claim = 461 
+		add_state_claim = 6083 
+		add_state_claim = 6084 
+		add_state_claim = 6085 
+		add_state_claim = 6086 
+		add_state_claim = 6087 
+		add_state_claim = 6088 
+		add_state_claim = 6089 
+		add_state_claim = 6090 
+		add_state_claim = 6091 
+		add_state_claim = 6092 
+		add_state_claim = 6093 
+		add_state_claim = 6094 
+		add_state_claim = 6095 
+		add_state_claim = 6096 
+		add_state_claim = 6097 
+		add_state_claim = 6098
+				add_state_claim = 462 
+		add_state_claim = 6099 
+		add_state_claim = 6100 
+		add_state_claim = 6101 
+		add_state_claim = 6102 
+		add_state_claim = 6103 
+		add_state_claim = 6104 
+		add_state_claim = 6105 
+		add_state_claim = 6106 
+		add_state_claim = 6107 
+		add_state_claim = 6108 
+		add_state_claim = 6109 
+		add_state_claim = 6110 
+		add_state_claim = 6111
+				add_state_claim = 459 
+		add_state_claim = 6047 
+		add_state_claim = 6048 
+		add_state_claim = 6049 
+		add_state_claim = 6050 
+		add_state_claim = 6051 
+		add_state_claim = 6052 
+		add_state_claim = 6053 
+		add_state_claim = 6054 
+		add_state_claim = 6055
+				add_state_claim = 460 
+		add_state_claim = 6073 
+		add_state_claim = 6074 
+		add_state_claim = 6075 
+		add_state_claim = 6076 
+		add_state_claim = 6077 
+		add_state_claim = 6078 
+		add_state_claim = 6079 
+		add_state_claim = 6080 
+		add_state_claim = 6081 
+		add_state_claim = 6082
+				add_state_claim = 513 
+		add_state_claim = 6691 
+		add_state_claim = 6692 
+		add_state_claim = 6693 
+		add_state_claim = 6694 
+		add_state_claim = 6695 
+		add_state_claim = 6696 
+		add_state_claim = 6697 
+		add_state_claim = 6698 
+		add_state_claim = 6699 
+		add_state_claim = 6700 
+		add_state_claim = 6701 
+		add_state_claim = 6702 
+		add_state_claim = 6703 
+		add_state_claim = 6704 
+		add_state_claim = 6705 
+		add_state_claim = 6706 
+		add_state_claim = 6707 
+		add_state_claim = 6708 
+		add_state_claim = 6709 
+		add_state_claim = 6710 
+		add_state_claim = 6711
+				add_state_claim = 514 
+		add_state_claim = 6712 
+		add_state_claim = 6713 
+		add_state_claim = 6714 
+		add_state_claim = 6715 
+		add_state_claim = 6716 
+		add_state_claim = 6717 
+		add_state_claim = 6718 
+		add_state_claim = 6719 
+		add_state_claim = 6720 
+		add_state_claim = 6721 
+		add_state_claim = 6722 
+		add_state_claim = 6723 
+		add_state_claim = 6724 
+		add_state_claim = 6725 
+		add_state_claim = 6726 
+		add_state_claim = 6727
+				add_state_claim = 458 
+		add_state_claim = 6036 
+		add_state_claim = 6037 
+		add_state_claim = 6038 
+		add_state_claim = 6039 
+		add_state_claim = 6040 
+		add_state_claim = 6041 
+		add_state_claim = 6042 
+		add_state_claim = 6043 
+		add_state_claim = 6044 
+		add_state_claim = 6045 
+		add_state_claim = 6046
+				add_state_claim = 665 
+		add_state_claim = 8808 
+		add_state_claim = 8809 
+		add_state_claim = 8810 
+		add_state_claim = 8811 
+		add_state_claim = 8812 
+		add_state_claim = 8813 
+		add_state_claim = 8814 
+		add_state_claim = 8815 
+		add_state_claim = 8816 
+		add_state_claim = 8817 
+		add_state_claim = 8818
 				create_wargoal = {
 					type = take_state_focus
 					target = ROOT
@@ -9274,7 +9576,7 @@ country_event = {
 	}
 }
 
-# Demand French North Africa - Event for Spain - France accepted
+
 country_event = {
 	id = lar_spain.40
 	title = lar_spain.40.t
@@ -9283,20 +9585,127 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.40.a
-		transfer_state = 461
-		transfer_state = 462
-		transfer_state = 459
-		transfer_state = 460
-		transfer_state = 513
-		transfer_state = 514
-		transfer_state = 458
-		transfer_state = 665
+		transfer_state = 461 
+		transfer_state = 6083 
+		transfer_state = 6084 
+		transfer_state = 6085 
+		transfer_state = 6086 
+		transfer_state = 6087 
+		transfer_state = 6088 
+		transfer_state = 6089 
+		transfer_state = 6090 
+		transfer_state = 6091 
+		transfer_state = 6092 
+		transfer_state = 6093 
+		transfer_state = 6094 
+		transfer_state = 6095 
+		transfer_state = 6096 
+		transfer_state = 6097 
+		transfer_state = 6098
+		transfer_state = 462 
+		transfer_state = 6099 
+		transfer_state = 6100 
+		transfer_state = 6101 
+		transfer_state = 6102 
+		transfer_state = 6103 
+		transfer_state = 6104 
+		transfer_state = 6105 
+		transfer_state = 6106 
+		transfer_state = 6107 
+		transfer_state = 6108 
+		transfer_state = 6109 
+		transfer_state = 6110 
+		transfer_state = 6111
+		transfer_state = 459 
+		transfer_state = 6047 
+		transfer_state = 6048 
+		transfer_state = 6049 
+		transfer_state = 6050 
+		transfer_state = 6051 
+		transfer_state = 6052 
+		transfer_state = 6053 
+		transfer_state = 6054 
+		transfer_state = 6055
+		transfer_state = 460 
+		transfer_state = 6073 
+		transfer_state = 6074 
+		transfer_state = 6075 
+		transfer_state = 6076 
+		transfer_state = 6077 
+		transfer_state = 6078 
+		transfer_state = 6079 
+		transfer_state = 6080 
+		transfer_state = 6081 
+		transfer_state = 6082
+		transfer_state = 513 
+		transfer_state = 6691 
+		transfer_state = 6692 
+		transfer_state = 6693 
+		transfer_state = 6694 
+		transfer_state = 6695 
+		transfer_state = 6696 
+		transfer_state = 6697 
+		transfer_state = 6698 
+		transfer_state = 6699 
+		transfer_state = 6700 
+		transfer_state = 6701 
+		transfer_state = 6702 
+		transfer_state = 6703 
+		transfer_state = 6704 
+		transfer_state = 6705 
+		transfer_state = 6706 
+		transfer_state = 6707 
+		transfer_state = 6708 
+		transfer_state = 6709 
+		transfer_state = 6710 
+		transfer_state = 6711
+		transfer_state = 514 
+		transfer_state = 6712 
+		transfer_state = 6713 
+		transfer_state = 6714 
+		transfer_state = 6715 
+		transfer_state = 6716 
+		transfer_state = 6717 
+		transfer_state = 6718 
+		transfer_state = 6719 
+		transfer_state = 6720 
+		transfer_state = 6721 
+		transfer_state = 6722 
+		transfer_state = 6723 
+		transfer_state = 6724 
+		transfer_state = 6725 
+		transfer_state = 6726 
+		transfer_state = 6727
+		transfer_state = 458 
+		transfer_state = 6036 
+		transfer_state = 6037 
+		transfer_state = 6038 
+		transfer_state = 6039 
+		transfer_state = 6040 
+		transfer_state = 6041 
+		transfer_state = 6042 
+		transfer_state = 6043 
+		transfer_state = 6044 
+		transfer_state = 6045 
+		transfer_state = 6046
+		transfer_state = 665 
+		transfer_state = 8808 
+		transfer_state = 8809 
+		transfer_state = 8810 
+		transfer_state = 8811 
+		transfer_state = 8812 
+		transfer_state = 8813 
+		transfer_state = 8814 
+		transfer_state = 8815 
+		transfer_state = 8816 
+		transfer_state = 8817 
+		transfer_state = 8818
 	}
 }
 
-# Demand French North Africa - Event for Spain - France declined
+
 country_event = {
 	id = lar_spain.41
 	title = lar_spain.41.t
@@ -9305,16 +9714,123 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.41.a
-		add_state_claim = 461
-		add_state_claim = 462
-		add_state_claim = 459
-		add_state_claim = 460
-		add_state_claim = 513
-		add_state_claim = 514
-		add_state_claim = 458
-		add_state_claim = 665
+		add_state_claim = 461 
+		add_state_claim = 6083 
+		add_state_claim = 6084 
+		add_state_claim = 6085 
+		add_state_claim = 6086 
+		add_state_claim = 6087 
+		add_state_claim = 6088 
+		add_state_claim = 6089 
+		add_state_claim = 6090 
+		add_state_claim = 6091 
+		add_state_claim = 6092 
+		add_state_claim = 6093 
+		add_state_claim = 6094 
+		add_state_claim = 6095 
+		add_state_claim = 6096 
+		add_state_claim = 6097 
+		add_state_claim = 6098
+		add_state_claim = 462 
+		add_state_claim = 6099 
+		add_state_claim = 6100 
+		add_state_claim = 6101 
+		add_state_claim = 6102 
+		add_state_claim = 6103 
+		add_state_claim = 6104 
+		add_state_claim = 6105 
+		add_state_claim = 6106 
+		add_state_claim = 6107 
+		add_state_claim = 6108 
+		add_state_claim = 6109 
+		add_state_claim = 6110 
+		add_state_claim = 6111
+		add_state_claim = 459 
+		add_state_claim = 6047 
+		add_state_claim = 6048 
+		add_state_claim = 6049 
+		add_state_claim = 6050 
+		add_state_claim = 6051 
+		add_state_claim = 6052 
+		add_state_claim = 6053 
+		add_state_claim = 6054 
+		add_state_claim = 6055
+		add_state_claim = 460 
+		add_state_claim = 6073 
+		add_state_claim = 6074 
+		add_state_claim = 6075 
+		add_state_claim = 6076 
+		add_state_claim = 6077 
+		add_state_claim = 6078 
+		add_state_claim = 6079 
+		add_state_claim = 6080 
+		add_state_claim = 6081 
+		add_state_claim = 6082
+		add_state_claim = 513 
+		add_state_claim = 6691 
+		add_state_claim = 6692 
+		add_state_claim = 6693 
+		add_state_claim = 6694 
+		add_state_claim = 6695 
+		add_state_claim = 6696 
+		add_state_claim = 6697 
+		add_state_claim = 6698 
+		add_state_claim = 6699 
+		add_state_claim = 6700 
+		add_state_claim = 6701 
+		add_state_claim = 6702 
+		add_state_claim = 6703 
+		add_state_claim = 6704 
+		add_state_claim = 6705 
+		add_state_claim = 6706 
+		add_state_claim = 6707 
+		add_state_claim = 6708 
+		add_state_claim = 6709 
+		add_state_claim = 6710 
+		add_state_claim = 6711
+		add_state_claim = 514 
+		add_state_claim = 6712 
+		add_state_claim = 6713 
+		add_state_claim = 6714 
+		add_state_claim = 6715 
+		add_state_claim = 6716 
+		add_state_claim = 6717 
+		add_state_claim = 6718 
+		add_state_claim = 6719 
+		add_state_claim = 6720 
+		add_state_claim = 6721 
+		add_state_claim = 6722 
+		add_state_claim = 6723 
+		add_state_claim = 6724 
+		add_state_claim = 6725 
+		add_state_claim = 6726 
+		add_state_claim = 6727
+		add_state_claim = 458 
+		add_state_claim = 6036 
+		add_state_claim = 6037 
+		add_state_claim = 6038 
+		add_state_claim = 6039 
+		add_state_claim = 6040 
+		add_state_claim = 6041 
+		add_state_claim = 6042 
+		add_state_claim = 6043 
+		add_state_claim = 6044 
+		add_state_claim = 6045 
+		add_state_claim = 6046
+		add_state_claim = 665 
+		add_state_claim = 8808 
+		add_state_claim = 8809 
+		add_state_claim = 8810 
+		add_state_claim = 8811 
+		add_state_claim = 8812 
+		add_state_claim = 8813 
+		add_state_claim = 8814 
+		add_state_claim = 8815 
+		add_state_claim = 8816 
+		add_state_claim = 8817 
+		add_state_claim = 8818
 		create_wargoal = {
 			type = take_state_focus
 			target = FROM
@@ -9324,7 +9840,7 @@ country_event = {
 	}
 }
 
-# Claim the French Throne - Event for France
+
 country_event = {
 	id = lar_spain.42
 	title = lar_spain.42.t
@@ -9333,7 +9849,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.42.a
 		ai_chance = {
 			base = 5
@@ -9357,7 +9873,7 @@ country_event = {
 		custom_effect_tooltip = GAME_OVER_TT
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.42.b
 		ai_chance = {
 			base = 95
@@ -9407,7 +9923,7 @@ country_event = {
 	}
 }
 
-# Claim the French Throne - Event for Spain - France accepted
+
 country_event = {
 	id = lar_spain.43
 	title = lar_spain.43.t
@@ -9416,7 +9932,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.43.a
 		puppet = FROM
 		custom_effect_tooltip = lar_spain.43_tt
@@ -9424,7 +9940,7 @@ country_event = {
 	}
 }
 
-# Claim the French Throne - Event for Spain - France declined
+
 country_event = {
 	id = lar_spain.44
 	title = lar_spain.44.t
@@ -9433,7 +9949,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.44.a
 		create_wargoal = {
 			type = annex_everything
@@ -9442,7 +9958,7 @@ country_event = {
 	}
 }
 
-# Iberian Union - Event for Portugal
+
 country_event = {
 	id = lar_spain.45
 	title = lar_spain.45.t
@@ -9451,7 +9967,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.45.a
 		ai_chance = {
 			base = 5
@@ -9480,7 +9996,7 @@ country_event = {
 		custom_effect_tooltip = GAME_OVER_TT
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.45.b
 		ai_chance = {
 			base = 95
@@ -9532,7 +10048,7 @@ country_event = {
 	}
 }
 
-# Iberian Union - Event for Spain - Portugal Accepted
+
 country_event = {
 	id = lar_spain.46
 	title = lar_spain.46.t
@@ -9541,7 +10057,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.46.a
 		set_cosmetic_tag = ESU_POR_unified
 		every_state = {
@@ -9554,7 +10070,7 @@ country_event = {
 	}
 }
 
-# Iberian Union - Event for Spain - Portugal Declined
+
 country_event = {
 	id = lar_spain.47
 	title = lar_spain.47.t
@@ -9563,7 +10079,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.47.a
 		create_wargoal = {
 			type = annex_everything
@@ -9572,7 +10088,7 @@ country_event = {
 	}
 }
 
-# Portuguese Anarchism - Event for Portugal
+
 country_event = {
 	id = lar_spain.48
 	title = lar_spain.48.t
@@ -9595,7 +10111,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Ok :'(
+	option = { 
 		name = lar_spain.48.a
 		hidden_effect = {
 			start_civil_war = {
@@ -9642,7 +10158,7 @@ country_event = {
 	}
 }
 
-# Portuguese Anarchism - Event for Spain
+
 country_event = {
 	id = lar_spain.49
 	title = lar_spain.48.t
@@ -9651,7 +10167,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.49.a
 		random_country = {
 			limit = {
@@ -9678,7 +10194,7 @@ country_event = {
 	}
 }
 
-# Portuguese Anarchism - Event for Spain - Portuguese Civil War ends
+
 country_event = {
 	id = lar_spain.50
 	title = lar_spain.50.t
@@ -9687,7 +10203,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.50.a
 		random_country = {
 			limit = {
@@ -9706,7 +10222,7 @@ country_event = {
 	}
 }
 
-# Relocate the Gold Reserves - Event for Spain - Choose target
+
 country_event = {
 	id = lar_spain.51
 	title = lar_spain.51.t
@@ -9762,7 +10278,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Send to SOV
+	option = { 
 		name = lar_spain.51.a
 		ai_chance = {
 			base = 25
@@ -9783,7 +10299,7 @@ country_event = {
 		SOV = { set_country_flag = SPR_relocated_gold_reserves_selection_flag_sov }
 		SOV = { country_event = { id = lar_spain.52 hours = 6 random_hours = 6 } }
 	}
-	option = { # Send to #1
+	option = { 
 		name = lar_spain.51.b
 		ai_chance = {
 			base = 25
@@ -9801,7 +10317,7 @@ country_event = {
 			country_event = { id = lar_spain.52 hours = 6 random_hours = 6 }
 		}
 	}
-	option = { # Send to #2
+	option = { 
 		name = lar_spain.51.c
 		ai_chance = {
 			base = 25
@@ -9819,7 +10335,7 @@ country_event = {
 			country_event = { id = lar_spain.52 hours = 6 random_hours = 6 }
 		}
 	}
-	option = { # Send to #3
+	option = { 
 		name = lar_spain.51.d
 		ai_chance = {
 			base = 25
@@ -9839,7 +10355,7 @@ country_event = {
 	}
 }
 
-# Relocate the Gold Reserves - Event for Target
+
 country_event = {
 	id = lar_spain.52
 	title = lar_spain.52.t
@@ -9848,13 +10364,13 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.52.a
 		set_country_flag = { flag = SPR_relocate_the_gold_reserves_timer_flag value = 1 days = 60 }
 	}
 }
 
-# Relocate the Gold Reserves - Event for Target - Seize the Gold
+
 country_event = {
 	id = lar_spain.53
 	title = lar_spain.53.t
@@ -9889,7 +10405,7 @@ country_event = {
 		days = 30
 	}
 	
-	option = { # Seize it!
+	option = { 
 		name = lar_spain.53.a
 		ai_chance = {
 			base = 50
@@ -9903,7 +10419,7 @@ country_event = {
 		}
 	}
 
-	option = { # Let it go.
+	option = { 
 		name = lar_spain.53.b
 		ai_chance = {
 			base = 50
@@ -9915,7 +10431,7 @@ country_event = {
 	}
 }
 
-# Relocate the Gold Reserves - Event for Spain - Gold seized!
+
 country_event = {
 	id = lar_spain.54
 	title = lar_spain.54.t
@@ -9931,14 +10447,14 @@ country_event = {
 		}
 	}
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.54.a
 		effect_tooltip = { remove_ideas = SPR_relocate_the_gold_reserves }
 		custom_effect_tooltip = lar_spain.54.a_tt
 	}
 }
 
-# Relocate the Gold Reserves - Event for Spain - Payback time
+
 country_event = {
 	id = lar_spain.55
 	title = lar_spain.55.t
@@ -9957,13 +10473,13 @@ country_event = {
 		days = 2
 	}
 	
-	option = { # Dangit
+	option = { 
 		name = lar_spain.55.a
 		add_timed_idea = { idea = SPR_seized_spanish_gold_reserves_spain days = 365 }
 	}
 }
 
-# Appeal for Increased Autonomy - Event for SOV
+
 country_event = {
 	id = lar_spain.56
 	title = lar_spain.56.t
@@ -9972,7 +10488,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.56.a
 		end_puppet = FROM
 		hidden_effect = {
@@ -9982,7 +10498,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.56.b
 		ai_chance = {
 			base = 0
@@ -9995,7 +10511,7 @@ country_event = {
 	}
 }
 
-# Appeal for Increased Autonomy - Event for Spain - SOV accepted
+
 country_event = {
 	id = lar_spain.57
 	title = lar_spain.57.t
@@ -10004,7 +10520,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.57.a
 		effect_tooltip = {
 			FROM = { end_puppet = ROOT }
@@ -10012,7 +10528,7 @@ country_event = {
 	}
 }
 
-# Appeal for Increased Autonomy - Event for Spain - SOV declined
+
 country_event = {
 	id = lar_spain.58
 	title = lar_spain.58.t
@@ -10021,12 +10537,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.58.a
 	}
 }
 
-# A Red Iberia - Event for Portugal
+
 country_event = {
 	id = lar_spain.59
 	title = lar_spain.59.t
@@ -10035,7 +10551,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.59.a
 		ai_chance = {
 			base = 50
@@ -10053,7 +10569,7 @@ country_event = {
 		custom_effect_tooltip = GAME_OVER_TT
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.59.b
 		ai_chance = {
 			base = 50
@@ -10123,7 +10639,7 @@ country_event = {
 	}
 }
 
-# A Red Iberia - Event for Spain - Portugal Accepted
+
 country_event = {
 	id = lar_spain.60
 	title = lar_spain.60.t
@@ -10132,7 +10648,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.60.a
 		set_cosmetic_tag = ESU_POR_unified
 		every_state = {
@@ -10145,7 +10661,7 @@ country_event = {
 	}
 }
 
-# A Red Iberia - Event for Spain - Portugal Declined
+
 country_event = {
 	id = lar_spain.61
 	title = lar_spain.61.t
@@ -10154,7 +10670,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.61.a
 		create_wargoal = {
 			type = annex_everything
@@ -10163,7 +10679,7 @@ country_event = {
 	}
 }
 
-# Support French Communists - Event for France
+
 country_event = {
 	id = lar_spain.62
 	title = lar_spain.62.t
@@ -10172,7 +10688,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok :'(
+	option = { 
 		name = lar_spain.62.a
 		hidden_effect = {
 			if = {
@@ -10215,7 +10731,7 @@ country_event = {
 	}
 }
 
-# Support French Communists - Event for Spain
+
 country_event = {
 	id = lar_spain.63
 	title = lar_spain.63.t
@@ -10224,7 +10740,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.63.a
 		random_country = {
 			limit = {
@@ -10244,7 +10760,7 @@ country_event = {
 	}
 }
 
-# Petition for French Aid - Event for France
+
 country_event = {
 	id = lar_spain.64
 	title = lar_spain.64.t
@@ -10253,7 +10769,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.64.a
 		ai_chance = {
 			base = 50
@@ -10284,7 +10800,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.64.b
 		ai_chance = {
 			base = 50
@@ -10305,7 +10821,7 @@ country_event = {
 	}
 }
 
-# Petition for French Aid - Event for Spain - France Accepted
+
 country_event = {
 	id = lar_spain.65
 	title = lar_spain.65.t
@@ -10313,14 +10829,14 @@ country_event = {
 	picture = GFX_report_event_spr_no_pasaran
 	
 	is_triggered_only = yes
-	option = { # Ok
+	option = { 
 		name = lar_spain.65.a
 		effect_tooltip = { FROM = { add_opinion_modifier = { target = ROOT modifier = SPA_spanish_civil_war_commitments } } }
 		add_war_support = 0.15
 	}
 }
 
-# Petition for French Aid - Event for Spain - France Declined
+
 country_event = {
 	id = lar_spain.66
 	title = lar_spain.66.t
@@ -10329,12 +10845,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.66.a
 	}
 }
 
-# War of Independence - Event for SOV
+
 country_event = {
 	id = lar_spain.67
 	title = lar_spain.67.t
@@ -10348,7 +10864,7 @@ country_event = {
 		remove_from_faction = FROM
 	}
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.67.a
 		ai_chance = {
 			base = 100
@@ -10377,7 +10893,7 @@ country_event = {
 		hidden_effect = { FROM = { news_event = { id = lar_news.20 hours = 6 } } }
 	}
 
-	option = { # Let them have their independence
+	option = { 
 		name = lar_spain.67.b
 		ai_chance = {
 			base = 0
@@ -10405,16 +10921,51 @@ country_event = {
 				has_country_flag = SOV_annexed_spanish_land
 			}
 			FROM = {
-				transfer_state = 165
-				transfer_state = 167
-				transfer_state = 794
+				transfer_state = 165 
+		transfer_state = 1620 
+		transfer_state = 1621 
+		transfer_state = 1622 
+		transfer_state = 1623 
+		transfer_state = 1624 
+		transfer_state = 1625 
+		transfer_state = 1626 
+		transfer_state = 1627 
+		transfer_state = 1628 
+		transfer_state = 1629 
+		transfer_state = 1630 
+		transfer_state = 1631 
+		transfer_state = 1632
+				transfer_state = 167 
+		transfer_state = 1643 
+		transfer_state = 1644 
+		transfer_state = 1645 
+		transfer_state = 1646 
+		transfer_state = 1647 
+		transfer_state = 1648 
+		transfer_state = 1649 
+		transfer_state = 1650 
+		transfer_state = 1651
+				transfer_state = 794 
+		transfer_state = 9897 
+		transfer_state = 9898 
+		transfer_state = 9899 
+		transfer_state = 9900 
+		transfer_state = 9901 
+		transfer_state = 9902 
+		transfer_state = 9903 
+		transfer_state = 9904 
+		transfer_state = 9905 
+		transfer_state = 9906 
+		transfer_state = 9907 
+		transfer_state = 9908 
+		transfer_state = 9909
 			}
 		}
 		FROM = { country_event = lar_spain.89 }
 	}
 }
 
-# Those Who Would Not Help Us - Event for USA/ENG/FRA
+
 country_event = {
 	id = lar_spain.68
 	title = lar_spain.68.t
@@ -10423,7 +10974,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.68.a
 		ai_chance = {
 			base = 75
@@ -10437,7 +10988,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.68.b
 		ai_chance = {
 			base = 25
@@ -10458,7 +11009,7 @@ country_event = {
 	}
 }
 
-# Those Who Would Not Help Us - Event for Spain - FROM Accepted
+
 country_event = {
 	id = lar_spain.69
 	title = lar_spain.69.t
@@ -10467,7 +11018,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.69.a
 		effect_tooltip = {
 			FROM = { add_timed_idea = { idea = SPR_equipment_shipments days = 730 } }
@@ -10475,7 +11026,7 @@ country_event = {
 	}
 }
 
-# Those Who Would Not Help Us - Event for Spain - FROM Declined
+
 country_event = {
 	id = lar_spain.70
 	title = lar_spain.70.t
@@ -10484,12 +11035,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.70.a
 	}
 }
 
-# Enemies of Our Enemy - Event for GER/ITA
+
 country_event = {
 	id = lar_spain.71
 	title = lar_spain.71.t
@@ -10498,7 +11049,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.71.a
 		ai_chance = {
 			base = 75
@@ -10515,7 +11066,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.71.b
 		ai_chance = {
 			base = 25
@@ -10536,7 +11087,7 @@ country_event = {
 	}
 }
 
-# Enemies of Our Enemy - Event for Spain - FROM Accepted
+
 country_event = {
 	id = lar_spain.72
 	title = lar_spain.72.t
@@ -10545,7 +11096,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.72.a
 		effect_tooltip = {
 			FROM = {
@@ -10559,7 +11110,7 @@ country_event = {
 	}
 }
 
-# Enemies of Our Enemy - Event for Spain - FROM Declined
+
 country_event = {
 	id = lar_spain.73
 	title = lar_spain.73.t
@@ -10568,12 +11119,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.73.a
 	}
 }
 
-# Enemies of Our Enemy - Event for GER
+
 country_event = {
 	id = lar_spain.74
 	title = lar_spain.74.t
@@ -10582,7 +11133,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { 
 		name = lar_spain.74.a
 		ai_chance = {
 			base = 75
@@ -10600,7 +11151,7 @@ country_event = {
 		}
 	}
 
-	option = { # Decline
+	option = { 
 		name = lar_spain.74.b
 		ai_chance = {
 			base = 25
@@ -10621,7 +11172,7 @@ country_event = {
 	}
 }
 
-# Enemies of Our Enemy - Event for Spain - FROM Accepted
+
 country_event = {
 	id = lar_spain.75
 	title = lar_spain.75.t
@@ -10630,13 +11181,13 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.75.a
 		add_timed_idea = { idea = SPR_deal_with_the_devil days = 730 }
 	}
 }
 
-# Enemies of Our Enemy - Event for Spain - FROM Declined
+
 country_event = {
 	id = lar_spain.76
 	title = lar_spain.76.t
@@ -10645,12 +11196,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Damn
+	option = { 
 		name = lar_spain.76.a
 	}
 }
 
-# Spain - Alfonso Dies
+
 country_event = {
 	id = lar_spain.77
 	title = lar_spain.77.t
@@ -10728,7 +11279,7 @@ country_event = {
 		}
 	}
 	
-	option = { # RIP
+	option = { 
 		name = lar_spain.77.a
 		if = {
 			limit = {
@@ -10754,7 +11305,7 @@ country_event = {
 	}
 }
 
-# Spain - Sanjurjo Dies
+
 country_event = {
 	id = lar_spain.78
 	title = lar_spain.78.t
@@ -10779,7 +11330,7 @@ country_event = {
 		}
 	}
 	
-	option = { # RIP
+	option = { 
 		name = lar_spain.78.a
 		effect_tooltip = {
 			custom_effect_tooltip = lar_spain.78_tt
@@ -10800,7 +11351,7 @@ country_event = {
 	}
 }
 
-# Claim the French Throne - Event for Spain - Coronation
+
 country_event = {
 	id = lar_spain.79
 	title = lar_spain.79.t
@@ -10809,7 +11360,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.79.a
 		FRA = {
 			every_unit_leader = {
@@ -10826,7 +11377,7 @@ country_event = {
 	}
 }
 
-# Hidden event to 'age' Franco after 1950
+
 country_event = {
 	id = lar_spain.80
 
@@ -10903,7 +11454,7 @@ country_event = {
 	}
 }
 
-# End of SCW, Republicans expanded Soviet aid - event for SOV
+
 country_event = {
 	id = lar_spain.81
 	title = lar_spain.81.t
@@ -10912,7 +11463,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.81.a
 		effect_tooltip = {
 			puppet = SPD
@@ -10920,7 +11471,7 @@ country_event = {
 	}
 }
 
-# End of SCW, Republicans expanded Soviet aid - event for SPD
+
 country_event = {
 	id = lar_spain.82
 	title = lar_spain.82.t
@@ -10962,7 +11513,7 @@ country_event = {
 		}
 	}
 	
-	option = { # Ok
+	option = { 
 		name = lar_spain.82.a
 		effect_tooltip = {
 			SOV = { puppet = SPD }
@@ -10970,7 +11521,7 @@ country_event = {
 	}
 }
 
-# Soviets get notification SPR is being disloyal
+
 country_event = {
 	id = lar_spain.83
 	title = lar_spain.83.t
@@ -10994,7 +11545,7 @@ country_event = {
 
 	fire_only_once = yes
 
-	option = { # We must act!
+	option = { 
 		name = lar_spain.83.a
 		ai_chance = {
 			base = 100
@@ -11011,9 +11562,44 @@ country_event = {
 			}
 		}
 		set_country_flag = SOV_annexed_spanish_land
-		transfer_state = 165
-		transfer_state = 167
-		transfer_state = 794
+		transfer_state = 165 
+		transfer_state = 1620 
+		transfer_state = 1621 
+		transfer_state = 1622 
+		transfer_state = 1623 
+		transfer_state = 1624 
+		transfer_state = 1625 
+		transfer_state = 1626 
+		transfer_state = 1627 
+		transfer_state = 1628 
+		transfer_state = 1629 
+		transfer_state = 1630 
+		transfer_state = 1631 
+		transfer_state = 1632
+		transfer_state = 167 
+		transfer_state = 1643 
+		transfer_state = 1644 
+		transfer_state = 1645 
+		transfer_state = 1646 
+		transfer_state = 1647 
+		transfer_state = 1648 
+		transfer_state = 1649 
+		transfer_state = 1650 
+		transfer_state = 1651
+		transfer_state = 794 
+		transfer_state = 9897 
+		transfer_state = 9898 
+		transfer_state = 9899 
+		transfer_state = 9900 
+		transfer_state = 9901 
+		transfer_state = 9902 
+		transfer_state = 9903 
+		transfer_state = 9904 
+		transfer_state = 9905 
+		transfer_state = 9906 
+		transfer_state = 9907 
+		transfer_state = 9908 
+		transfer_state = 9909
 		hidden_effect = { SPD = { country_event = { id = lar_spain.84 } } }
 		division_template = {
 			name = "Spanish Loyalist Division"
@@ -11029,7 +11615,7 @@ country_event = {
 				infantry = { x = 1 y = 2 }
 			}
 		}
-		# Catalonia
+		
 		165 = {
 			create_unit = {
 				division = "name = \"1. Spanish Loyalist Division\" division_template = \"Spanish Loyalist Division\" start_experience_factor = 0.1" 
@@ -11040,7 +11626,7 @@ country_event = {
 				owner = ROOT
 			}
 		}
-		# Valencia
+		
 		167 = {
 			create_unit = {
 				division = "name = \"3. Spanish Loyalist Division\" division_template = \"Spanish Loyalist Division\" start_experience_factor = 0.1" 
@@ -11063,7 +11649,7 @@ country_event = {
 				owner = ROOT
 			}
 		}
-		 # Eastern Aragon
+		 
 		794 = {
 			create_unit = {
 				division = "name = \"8. Spanish Loyalist Division\" division_template = \"Spanish Loyalist Division\" start_experience_factor = 0.1" 
@@ -11104,7 +11690,7 @@ country_event = {
 		}
 	}
 
-	option = { # Everything will be fine
+	option = { 
 		name = lar_spain.83.b
 		ai_chance = {
 			base = 0
@@ -11121,7 +11707,7 @@ country_event = {
 	}
 }
 
-# Event for SPR that Soviets are seizing land
+
 country_event = {
 	id = lar_spain.84
 	title = lar_spain.84.t
@@ -11130,20 +11716,55 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { # Bastards!
+	option = { 
 		name = lar_spain.84.a
 		set_country_flag = SOV_took_spanish_states
 		effect_tooltip = {
 			SOV = {
-				transfer_state = 165
-				transfer_state = 167
-				transfer_state = 794
+				transfer_state = 165 
+		transfer_state = 1620 
+		transfer_state = 1621 
+		transfer_state = 1622 
+		transfer_state = 1623 
+		transfer_state = 1624 
+		transfer_state = 1625 
+		transfer_state = 1626 
+		transfer_state = 1627 
+		transfer_state = 1628 
+		transfer_state = 1629 
+		transfer_state = 1630 
+		transfer_state = 1631 
+		transfer_state = 1632
+				transfer_state = 167 
+		transfer_state = 1643 
+		transfer_state = 1644 
+		transfer_state = 1645 
+		transfer_state = 1646 
+		transfer_state = 1647 
+		transfer_state = 1648 
+		transfer_state = 1649 
+		transfer_state = 1650 
+		transfer_state = 1651
+				transfer_state = 794 
+		transfer_state = 9897 
+		transfer_state = 9898 
+		transfer_state = 9899 
+		transfer_state = 9900 
+		transfer_state = 9901 
+		transfer_state = 9902 
+		transfer_state = 9903 
+		transfer_state = 9904 
+		transfer_state = 9905 
+		transfer_state = 9906 
+		transfer_state = 9907 
+		transfer_state = 9908 
+		transfer_state = 9909
 			}
 		}
 	}
 }
 
-# SPR has Catalonia returned
+
 country_event = {
 	id = lar_spain.85
 	title = lar_spain.85.t
@@ -11171,14 +11792,27 @@ country_event = {
 		}
 	}
 
-	option = { # Excellent!
+	option = { 
 		name = lar_spain.85.a
-		transfer_state = 165
+		transfer_state = 165 
+		transfer_state = 1620 
+		transfer_state = 1621 
+		transfer_state = 1622 
+		transfer_state = 1623 
+		transfer_state = 1624 
+		transfer_state = 1625 
+		transfer_state = 1626 
+		transfer_state = 1627 
+		transfer_state = 1628 
+		transfer_state = 1629 
+		transfer_state = 1630 
+		transfer_state = 1631 
+		transfer_state = 1632
 		hidden_effect = { SOV = { country_event = { id = lar_spain.88 } } }
 	}
 }
 
-# SPR has Valencia returned
+
 country_event = {
 	id = lar_spain.86
 	title = lar_spain.85.t
@@ -11206,14 +11840,23 @@ country_event = {
 		}
 	}
 
-	option = { # Excellent!
+	option = { 
 		name = lar_spain.85.a
-		transfer_state = 167
+		transfer_state = 167 
+		transfer_state = 1643 
+		transfer_state = 1644 
+		transfer_state = 1645 
+		transfer_state = 1646 
+		transfer_state = 1647 
+		transfer_state = 1648 
+		transfer_state = 1649 
+		transfer_state = 1650 
+		transfer_state = 1651
 		hidden_effect = { SOV = { country_event = { id = lar_spain.88 } } }
 	}
 }
 
-# SPR has Eastern Aragon returned
+
 country_event = {
 	id = lar_spain.87
 	title = lar_spain.85.t
@@ -11241,14 +11884,27 @@ country_event = {
 		}
 	}
 
-	option = { # Excellent!
+	option = { 
 		name = lar_spain.85.a
-		transfer_state = 794
+		transfer_state = 794 
+		transfer_state = 9897 
+		transfer_state = 9898 
+		transfer_state = 9899 
+		transfer_state = 9900 
+		transfer_state = 9901 
+		transfer_state = 9902 
+		transfer_state = 9903 
+		transfer_state = 9904 
+		transfer_state = 9905 
+		transfer_state = 9906 
+		transfer_state = 9907 
+		transfer_state = 9908 
+		transfer_state = 9909
 		hidden_effect = { SOV = { country_event = { id = lar_spain.88 } } }
 	}
 }
 
-# Event for SOV informing them of losing a state to SPR
+
 country_event = {
 	id = lar_spain.88
 	title = lar_spain.88.t
@@ -11257,13 +11913,13 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { # Excellent!
+	option = { 
 		name = lar_spain.88.a
 		effect_tooltip = { FROM = { transfer_state = event_target:SPR_stolen_state_name } }
 	}
 }
 
-# Event for SPR that Soviets are giving them independence
+
 country_event = {
 	id = lar_spain.89
 	title = lar_spain.89.t
@@ -11272,7 +11928,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { # Ok
+	option = { 
 		name = lar_spain.89.a
 		if = {
 			limit = {
@@ -11281,16 +11937,51 @@ country_event = {
 			SOV = { clr_country_flag = SOV_annexed_spanish_land }
 			effect_tooltip = {
 				FROM = {
-					transfer_state = 165
-					transfer_state = 167
-					transfer_state = 794
+					transfer_state = 165 
+		transfer_state = 1620 
+		transfer_state = 1621 
+		transfer_state = 1622 
+		transfer_state = 1623 
+		transfer_state = 1624 
+		transfer_state = 1625 
+		transfer_state = 1626 
+		transfer_state = 1627 
+		transfer_state = 1628 
+		transfer_state = 1629 
+		transfer_state = 1630 
+		transfer_state = 1631 
+		transfer_state = 1632
+					transfer_state = 167 
+		transfer_state = 1643 
+		transfer_state = 1644 
+		transfer_state = 1645 
+		transfer_state = 1646 
+		transfer_state = 1647 
+		transfer_state = 1648 
+		transfer_state = 1649 
+		transfer_state = 1650 
+		transfer_state = 1651
+					transfer_state = 794 
+		transfer_state = 9897 
+		transfer_state = 9898 
+		transfer_state = 9899 
+		transfer_state = 9900 
+		transfer_state = 9901 
+		transfer_state = 9902 
+		transfer_state = 9903 
+		transfer_state = 9904 
+		transfer_state = 9905 
+		transfer_state = 9906 
+		transfer_state = 9907 
+		transfer_state = 9908 
+		transfer_state = 9909
 				}
 			}
 		}
 	}
 }
 
-# Event for Spain that the president is dismissed
+
 country_event = {
 	id = lar_spain.90
 	title = lar_spain.90.t
@@ -11309,7 +12000,7 @@ country_event = {
 
 	fire_only_once = yes
 
-	option = { # Ok
+	option = { 
 		name = lar_spain.90.a
 		if = {
 			limit = {

@@ -1,15 +1,18 @@
 on_actions = {
 	on_startup = {
-		effect = {
-		ROOT = { country_event = { id = startup.1 days = 1 } }
-		}
-
-		if = {
-			limit = {
-				has_game_rule = {
+			effect = {
+				every_country = {
+					limit = { is_ai = no }
+					country_event =  startup.1 # Briefing
+					}
+				}
+			effect = {
+				if = {
+					limit = {
+					has_game_rule = {
 					rule = SSR
 					option = USSR
-					
+					}
 				}
 				SOV = {
 					release_autonomy = {
@@ -64,48 +67,66 @@ on_actions = {
 					}
 					set_cosmetic_tag = SOV_SSR
 				}
-				UKR = {
+					UKR = {
 					set_cosmetic_tag = UKR_SSR
 					inherit_technology = SOV
-				}
-				BLR = {
+					}
+					BLR = {
 					set_cosmetic_tag = BLR_SSR
 					inherit_technology = SOV
-				}
-				GEO = {
+					}
+					GEO = {
 					set_cosmetic_tag = GEO_SSR
 					inherit_technology = SOV
-				}
-				AZR = {
+					}
+					AZR = {
 					set_cosmetic_tag = AZR_SSR
 					inherit_technology = SOV
-				}
-				ARM = {
+					}
+					ARM = {
 					set_cosmetic_tag = ARM_SSR
 					inherit_technology = SOV
-				}
-				UZB = {
+					}
+					UZB = {
 					set_cosmetic_tag = UZB_SSR
 					inherit_technology = SOV
-				}
-				TAJ = {
+					}
+					TAJ = {
 					set_cosmetic_tag = TAJ_SSR
 					inherit_technology = SOV
-				}
-				KYR = {
+					}
+					KYR = {
 					set_cosmetic_tag = KYR_SSR
 					inherit_technology = SOV
-				}
-				TMS = {
+					}
+					TMS = {
 					set_cosmetic_tag = TMS_SSR
 					inherit_technology = SOV
-				}
-				KAZ = {
+					}
+					KAZ = {
 					set_cosmetic_tag = KAZ_SSR
 					inherit_technology = SOV
+					}
 				}
-		}
 			}
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = EU_FORMED
+						option = EU_UNITED
+					}
+				}
+				every_country  = {
+						limit = { is_ai = no
+						has_idea = EU_MEMBER  }
+				set_global_flag = EU_FORMED
+				EUR = { change_tag_from = ROOT }
+						}
 
-	}
+						}
+
+					}
+				}
 }
+

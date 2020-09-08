@@ -1,13 +1,10 @@
-﻿###########################
-# Hungarian Events
-###########################
 
 add_namespace = DOD_romania
 
-#Jakob: 80-90
-#Gabriel: 100-110
 
-# Romania wants to strengthen the Romanian-polish Alliance - event for Poland
+
+
+
 country_event = {
 	id = DOD_romania.1
 	title = DOD_romania.1.t
@@ -16,7 +13,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #sure
+	option = { 
 		name = DOD_romania.1.a
 		ai_chance = {
 			factor = 70
@@ -33,7 +30,7 @@ country_event = {
 		give_guarantee = ROM
 	}
 
-	option = { #no
+	option = { 
 		name = DOD_romania.1.b
 		ai_chance = {
 			factor = 30
@@ -42,7 +39,7 @@ country_event = {
 	}
 
 }
-#Romania wants to strengthen the Romanian-polish alliance - Poland agrees
+
 country_event = {
 	id = DOD_romania.2 
 	title = DOD_romania.2.t
@@ -51,7 +48,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.2.a
 		give_guarantee = POL
 		hidden_effect = {
@@ -61,7 +58,7 @@ country_event = {
 
 }
 
-#Romania wants to strengthen the Romanian-polish alliance - Poland refuses
+
 country_event = {
 	id = DOD_romania.3 
 	title = DOD_romania.3.t
@@ -70,14 +67,14 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.3.a
 		add_opinion_modifier = { target = FROM modifier = refused_alliance }
 	}
 
 }
 
-# Romania creates the Cordon Sanitaire - event for POL/CZE to join
+
 country_event = {
 	id = DOD_romania.10
 	title = DOD_romania.10.t
@@ -86,7 +83,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #sure
+	option = { 
 		name = DOD_romania.10.a
 		ai_chance = {
 			factor = 70
@@ -103,7 +100,7 @@ country_event = {
 				}
 	}
 
-	option = { #no
+	option = { 
 		name = DOD_romania.10.b
 		ai_chance = {
 			factor = 30
@@ -116,7 +113,7 @@ country_event = {
 	}
 
 }
-#Cordon Sanitaire - country agrees
+
 country_event = {
 	id = DOD_romania.11 
 	title = DOD_romania.11.t
@@ -125,14 +122,14 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.11.a
 		add_to_faction = FROM
 	}
 
 }
 
-#Cordon sanitaire - country refuses
+
 country_event = {
 	id = DOD_romania.12 
 	title = DOD_romania.12.t
@@ -141,14 +138,14 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.12.a
 		add_opinion_modifier = { target = FROM modifier = refused_alliance }
 	}
 
 }
 
-# Romania demands western guarantee
+
 country_event = {
 	id = DOD_romania.20
 	title = DOD_romania.20.t
@@ -157,7 +154,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #sure
+	option = { 
 		name = DOD_romania.20.a
 		ai_chance = {
 			factor = 80
@@ -170,7 +167,7 @@ country_event = {
 		ROM = { country_event = DOD_romania.21 }
 	}
 
-	option = { #no
+	option = { 
 		name = DOD_romania.20.b
 		ai_chance = {
 			factor = 20
@@ -178,14 +175,14 @@ country_event = {
 				ROM = {
 					has_added_tension_amount > 0.01
 				}
-				factor = 1.5 #Romania was naughty
+				factor = 1.5 
 			}
 		}
 		ROM = { country_event = DOD_romania.22 }	
 	}
 
 }
-#western guarantee - country agrees
+
 country_event = {
 	id = DOD_romania.21 
 	title = DOD_romania.21.t
@@ -194,13 +191,13 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.21.a
 	}
 
 }
 
-#western guarantee - country refuses
+
 country_event = {
 	id = DOD_romania.22 
 	title = DOD_romania.22.t
@@ -209,14 +206,14 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.22.a
 		add_opinion_modifier = { target = FROM modifier = refused_alliance }
 	}
 
 }
 
-# Romania wants to make a deal with SOV - event for SOV
+
 country_event = {
 	id = DOD_romania.30
 	title = DOD_romania.30.t
@@ -225,7 +222,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #sure
+	option = { 
 		name = DOD_romania.30.a
 		give_guarantee = ROM
 		ai_chance = {
@@ -242,7 +239,7 @@ country_event = {
 		ROM = { country_event = DOD_romania.31 }
 	}
 
-	option = { #no
+	option = { 
 		name = DOD_romania.30.b
 		ai_chance = {
 			factor = 0
@@ -251,7 +248,7 @@ country_event = {
 	}
 
 }
-#SOV agrees, gets military access in return
+
 country_event = {
 	id = DOD_romania.31 
 	title = DOD_romania.31.t
@@ -260,14 +257,14 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.31.a
 		give_military_access = SOV
 	}
 
 }
 
-#SOV refuses
+
 country_event = {
 	id = DOD_romania.32 
 	title = DOD_romania.32.t
@@ -276,14 +273,14 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.32.a
 		add_opinion_modifier = { target = FROM modifier = refused_alliance }
 	}
 
 }
 
-# Romania puppets Bulgaria - event for Bulgaria to accept
+
 country_event = {
 	id = DOD_romania.40
 	title = DOD_romania.40.t
@@ -292,7 +289,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #sure
+	option = { 
 		name = DOD_romania.40.a
 		ai_chance = {
 			factor = 30
@@ -312,7 +309,7 @@ country_event = {
 		ROM = { country_event = DOD_romania.41 }
 	}
 
-	option = { #no
+	option = { 
 		name = DOD_romania.40.b
 		ai_chance = {
 			factor = 70
@@ -325,7 +322,7 @@ country_event = {
 	}
 
 }
-#Bulgaria agrees
+
 country_event = {
 	id = DOD_romania.41 
 	title = DOD_romania.41.t
@@ -334,7 +331,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.41.a
 		puppet = BUL
 		hidden_effect = {
@@ -344,7 +341,7 @@ country_event = {
 
 }
 
-#BUL refuses
+
 country_event = {
 	id = DOD_romania.42 
 	title = DOD_romania.42.t
@@ -353,7 +350,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.42.a
 		ai_chance = {
 			factor = 10
@@ -371,7 +368,7 @@ country_event = {
 		
 	}
 
-	option = { #war
+	option = { 
 		name = DOD_romania.42.b
 		ai_chance = {
 			factor = 90
@@ -385,7 +382,7 @@ country_event = {
 
 }
 
-# Romania aligns Hungary - initial event
+
 country_event = {
 	id = DOD_romania.50
 	title = DOD_romania.50.t
@@ -394,7 +391,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #become their puppet
+	option = { 
 		name = DOD_romania.50.a
 		ai_chance = {
 			factor = 25
@@ -402,7 +399,7 @@ country_event = {
 		ROM = { country_event = DOD_romania.51 }
 	}
 
-	option = { #change government to Romanian type, enter alliance
+	option = { 
 		name = DOD_romania.50.b
 		ai_chance = {
 			factor = 25
@@ -410,7 +407,7 @@ country_event = {
 		ROM = { country_event = DOD_romania.52 }	
 	}
 
-	option = { #no deals
+	option = { 
 		name = DOD_romania.50.c
 		ai_chance = {
 			factor = 50
@@ -429,7 +426,7 @@ country_event = {
 	}
 
 }
-#hungary agrees to become puppet
+
 country_event = {
 	id = DOD_romania.51 
 	title = DOD_romania.51.t
@@ -438,7 +435,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.51.a
 		puppet = HUN
 		set_country_flag = ROM_HUN_aligned
@@ -446,7 +443,7 @@ country_event = {
 
 }
 
-#HUN offers to align somewhat
+
 country_event = {
 	id = DOD_romania.52 
 	title = DOD_romania.52.t
@@ -455,7 +452,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.52.a
 		ai_chance = {
 			factor = 80
@@ -475,7 +472,7 @@ country_event = {
 		set_country_flag = ROM_HUN_aligned
 	}
 
-	option = { #war
+	option = { 
 		name = DOD_romania.52.b
 		ai_chance = {
 			factor = 20
@@ -489,7 +486,7 @@ country_event = {
 
 }
 
-#HUN refuses
+
 country_event = {
 	id = DOD_romania.53 
 	title = DOD_romania.53.t
@@ -498,7 +495,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { #cool
+	option = { 
 		name = DOD_romania.53.a
 		ai_chance = {
 			factor = 10
@@ -509,7 +506,7 @@ country_event = {
 		}
 	}
 
-	option = { #war
+	option = { 
 		name = DOD_romania.53.b
 		ai_chance = {
 			factor = 90
@@ -526,7 +523,7 @@ country_event = {
 
 }
 
-# Romania wants to split Yugoslavia - initial event for Yugoslavia
+
 country_event = {
 	id = DOD_romania.60
 	title = DOD_romania.60.t
@@ -535,21 +532,21 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #sure
+	option = { 
 		name = DOD_romania.60.a
 		ai_chance = {
 			factor = 10
 			modifier = {
 				factor = 2
-				strength_ratio = { tag = ROM ratio < 0.5 } #less than half the strength of Romania
+				strength_ratio = { tag = ROM ratio < 0.5 } 
 			}
 			modifier = {
 				factor = 2
-				strength_ratio = { tag = ROM ratio < 0.25 } #less than 1/4 the strength of Romania
+				strength_ratio = { tag = ROM ratio < 0.25 } 
 			}
 			modifier = {
 				factor = 5
-				strength_ratio = { tag = ROM ratio < 0.1 } #less than 10% the strength of Romania
+				strength_ratio = { tag = ROM ratio < 0.1 } 
 			}
 			modifier = {
 				factor = 2
@@ -560,7 +557,7 @@ country_event = {
 		ROM = { country_event = DOD_romania.61 }
 	}
 
-	option = { #no
+	option = { 
 		name = DOD_romania.60.b
 		ai_chance = {
 			factor = 90
@@ -570,7 +567,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 5
-				strength_ratio = { tag = ROM ratio > 1.0 } #stronger than Romania
+				strength_ratio = { tag = ROM ratio > 1.0 } 
 			}
 		}
 		ROM = { country_event = DOD_romania.62 }	
@@ -578,7 +575,7 @@ country_event = {
 
 }
 
-# Romania wants to split Yugoslavia - Yugoslavia agrees
+
 country_event = {
 	id = DOD_romania.61
 	title = DOD_romania.61.t
@@ -587,37 +584,75 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #cool
+	option = { 
 		name = DOD_romania.61.a
 		if = {
 			limit = {
 				45 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 45 }
+			SER = { transfer_state = 45 
+		transfer_state = 5963 
+		transfer_state = 5964 
+		transfer_state = 5965 
+		transfer_state = 5966 }
 		}
 		if = {
 			limit = {
 				764 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 764 }
+			SER = { transfer_state = 764 
+		transfer_state = 9734 
+		transfer_state = 9735 
+		transfer_state = 9736 }
 		}
 		if = {
 			limit = {
 				107 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 107 }
+			SER = { transfer_state = 107 
+		transfer_state = 862 
+		transfer_state = 863 
+		transfer_state = 864 
+		transfer_state = 865 
+		transfer_state = 866 
+		transfer_state = 867 
+		transfer_state = 868 }
 		}
 		if = {
 			limit = {
 				108 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 108 }
+			SER = { transfer_state = 108 
+		transfer_state = 869 
+		transfer_state = 870 
+		transfer_state = 871 
+		transfer_state = 872 
+		transfer_state = 873 
+		transfer_state = 874 
+		transfer_state = 875 
+		transfer_state = 876 
+		transfer_state = 877 
+		transfer_state = 878 
+		transfer_state = 879 
+		transfer_state = 880 
+		transfer_state = 881 
+		transfer_state = 882 
+		transfer_state = 883 
+		transfer_state = 884 }
 		}
 		if = {
 			limit = {
 				106 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 106 }
+			SER = { transfer_state = 106 
+		transfer_state = 854 
+		transfer_state = 855 
+		transfer_state = 856 
+		transfer_state = 857 
+		transfer_state = 858 
+		transfer_state = 859 
+		transfer_state = 860 
+		transfer_state = 861 }
 		}
 		puppet = SER
 
@@ -625,7 +660,11 @@ country_event = {
 			limit = {
 				105 = { is_owned_by = YUG }
 			}
-			MNT = { transfer_state = 105 }
+			MNT = { transfer_state = 105 
+		transfer_state = 850 
+		transfer_state = 851 
+		transfer_state = 852 
+		transfer_state = 853 }
 		}
 		puppet = MNT
 
@@ -634,25 +673,72 @@ country_event = {
 			limit = {
 				103 = { is_owned_by = YUG }
 			}
-			CRO = { transfer_state = 103 }
+			CRO = { transfer_state = 103 
+		transfer_state = 820 
+		transfer_state = 821 
+		transfer_state = 822 
+		transfer_state = 823 
+		transfer_state = 824 
+		transfer_state = 825 
+		transfer_state = 826 
+		transfer_state = 827 
+		transfer_state = 828 
+		transfer_state = 829 }
 		}
 		if = {
 			limit = {
 				104 = { is_owned_by = YUG }
 			}
-			CRO = { transfer_state = 104 }
+			CRO = { transfer_state = 104 
+		transfer_state = 830 
+		transfer_state = 831 
+		transfer_state = 832 
+		transfer_state = 833 
+		transfer_state = 834 
+		transfer_state = 835 
+		transfer_state = 836 
+		transfer_state = 837 
+		transfer_state = 838 
+		transfer_state = 839 
+		transfer_state = 840 
+		transfer_state = 841 
+		transfer_state = 842 
+		transfer_state = 843 
+		transfer_state = 844 
+		transfer_state = 845 
+		transfer_state = 846 
+		transfer_state = 847 
+		transfer_state = 848 
+		transfer_state = 849 }
 		}
 		if = {
 			limit = {
 				109 = { is_owned_by = YUG }
 			}
-			CRO = { transfer_state = 109 }
+			CRO = { transfer_state = 109 
+		transfer_state = 885 
+		transfer_state = 886 
+		transfer_state = 887 
+		transfer_state = 888 
+		transfer_state = 889 
+		transfer_state = 890 
+		transfer_state = 891 
+		transfer_state = 892 
+		transfer_state = 893 
+		transfer_state = 894 }
 		}
 		if = {
 			limit = {
 				102 = { is_owned_by = YUG }
 			}
-			CRO = { transfer_state = 102 }
+			CRO = { transfer_state = 102 
+		transfer_state = 813 
+		transfer_state = 814 
+		transfer_state = 815 
+		transfer_state = 816 
+		transfer_state = 817 
+		transfer_state = 818 
+		transfer_state = 819 }
 		}
 		puppet = CRO
 		hidden_effect = {
@@ -663,7 +749,7 @@ country_event = {
 
 }
 
-# Romania wants to split Yugoslavia - Yugoslavia refuses
+
 country_event = {
 	id = DOD_romania.62
 	title = DOD_romania.62.t
@@ -672,7 +758,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #unliateral action
+	option = { 
 		name = DOD_romania.62.a
 		ai_chance = {
 			factor = 75
@@ -684,7 +770,7 @@ country_event = {
 		news_event = { id = news.320 days = 1 }
 	}
 
-	option = { # approach Germans and Italians for joint action
+	option = { 
 		name = DOD_romania.62.b
 		trigger = {
 			OR = {
@@ -718,7 +804,7 @@ country_event = {
 
 }
 
-# Romania wants to split Yugoslavia - Germany approached
+
 country_event = {
 	id = DOD_romania.63
 	title = DOD_romania.63.t
@@ -727,12 +813,19 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #certainly
+	option = { 
 		name = DOD_romania.63.a
 		ai_chance = {
 			factor = 80
 		}
-		add_state_claim = 102
+		add_state_claim = 102 
+		add_state_claim = 813 
+		add_state_claim = 814 
+		add_state_claim = 815 
+		add_state_claim = 816 
+		add_state_claim = 817 
+		add_state_claim = 818 
+		add_state_claim = 819
 		ROM = { 
 			country_event = DOD_romania.65 
 			set_country_flag = ROM_YUG_GER_approves
@@ -740,7 +833,7 @@ country_event = {
 		ITA = { country_event = DOD_romania.64 }	
 	}
 
-	option = { # rather not
+	option = { 
 		name = DOD_romania.63.b
 		ai_chance = {
 			factor = 20
@@ -751,7 +844,7 @@ country_event = {
 
 }
 
-# Romania wants to split Yugoslavia - Italy approached
+
 country_event = {
 	id = DOD_romania.64
 	title = DOD_romania.63.t
@@ -760,12 +853,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #certainly
+	option = { 
 		name = DOD_romania.63.a
 		ai_chance = {
 			factor = 80
 				modifier = {
-					factor = 10 #that sounds great!	
+					factor = 10 
 					has_completed_focus = ITA_slovenia_dalmatia_claims
 				}
 		}
@@ -773,7 +866,17 @@ country_event = {
 			limit = {
 				NOT = { 103 = {is_claimed_by = ITA } }
 			}
-			add_state_claim = 103
+			add_state_claim = 103 
+		add_state_claim = 820 
+		add_state_claim = 821 
+		add_state_claim = 822 
+		add_state_claim = 823 
+		add_state_claim = 824 
+		add_state_claim = 825 
+		add_state_claim = 826 
+		add_state_claim = 827 
+		add_state_claim = 828 
+		add_state_claim = 829
 		}
 		ROM = { 
 			country_event = DOD_romania.65 
@@ -782,7 +885,7 @@ country_event = {
 		ROM = { country_event = { id = DOD_romania.67 hours = 12 } }
 	}
 
-	option = { # rather not
+	option = { 
 		name = DOD_romania.63.b
 		ai_chance = {
 			factor = 25
@@ -803,7 +906,7 @@ country_event = {
 	}
 }
 
-# Romania wants to split Yugoslavia - country approves
+
 country_event = {
 	id = DOD_romania.65
 	title = DOD_romania.65.t
@@ -812,14 +915,14 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #cool
+	option = { 
 		name = DOD_romania.65.a
 
 	}
 
 }
 
-# Romania wants to split Yugoslavia - country refuses
+
 country_event = {
 	id = DOD_romania.66
 	title = DOD_romania.66.t
@@ -828,14 +931,14 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #shame
+	option = { 
 		name = DOD_romania.66.a
 
 	}
 
 }
 
-# Romania wants to split Yugoslavia - Romania got some allies
+
 country_event = {
 	id = DOD_romania.67
 	title = DOD_romania.67.t
@@ -844,7 +947,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #send an ultimatum
+	option = { 
 		name = DOD_romania.67.a
 		YUG = { country_event = DOD_romania.69 }
 
@@ -852,7 +955,7 @@ country_event = {
 
 }
 
-# Romania wants to split Yugoslavia - Romania did not get some allies
+
 country_event = {
 	id = DOD_romania.68
 	title = DOD_romania.68.t
@@ -861,7 +964,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #oh well
+	option = { 
 		name = DOD_romania.68.a
 		create_wargoal = {
 			type = annex_everything
@@ -872,7 +975,7 @@ country_event = {
 
 }
 
-# Romania wants to split Yugoslavia - Romania and allies send an ultimatum to Yugoslavia
+
 country_event = {
 	id = DOD_romania.69
 	title = DOD_romania.69.t
@@ -907,7 +1010,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #agree
+	option = { 
 		name = DOD_romania.69.a
 		ai_chance = {
 			factor = 60
@@ -924,7 +1027,7 @@ country_event = {
 
 	}
 
-	option = { #refuse
+	option = { 
 		name = DOD_romania.69.b
 		ai_chance = {
 			factor = 40
@@ -946,7 +1049,7 @@ country_event = {
 
 }
 
-# Romania wants to split Yugoslavia - Yugoslavia agrees
+
 country_event = {
 	id = DOD_romania.70
 	title = DOD_romania.70.t
@@ -955,37 +1058,75 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #cool
+	option = { 
 		name = DOD_romania.70.a
 		if = {
 			limit = {
 				45 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 45 }
+			SER = { transfer_state = 45 
+		transfer_state = 5963 
+		transfer_state = 5964 
+		transfer_state = 5965 
+		transfer_state = 5966 }
 		}
 		if = {
 			limit = {
 				764 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 764 }
+			SER = { transfer_state = 764 
+		transfer_state = 9734 
+		transfer_state = 9735 
+		transfer_state = 9736 }
 		}
 		if = {
 			limit = {
 				107 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 107 }
+			SER = { transfer_state = 107 
+		transfer_state = 862 
+		transfer_state = 863 
+		transfer_state = 864 
+		transfer_state = 865 
+		transfer_state = 866 
+		transfer_state = 867 
+		transfer_state = 868 }
 		}
 		if = {
 			limit = {
 				108 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 108 }
+			SER = { transfer_state = 108 
+		transfer_state = 869 
+		transfer_state = 870 
+		transfer_state = 871 
+		transfer_state = 872 
+		transfer_state = 873 
+		transfer_state = 874 
+		transfer_state = 875 
+		transfer_state = 876 
+		transfer_state = 877 
+		transfer_state = 878 
+		transfer_state = 879 
+		transfer_state = 880 
+		transfer_state = 881 
+		transfer_state = 882 
+		transfer_state = 883 
+		transfer_state = 884 }
 		}
 		if = {
 			limit = {
 				106 = { is_owned_by = YUG }
 			}
-			SER = { transfer_state = 106 }
+			SER = { transfer_state = 106 
+		transfer_state = 854 
+		transfer_state = 855 
+		transfer_state = 856 
+		transfer_state = 857 
+		transfer_state = 858 
+		transfer_state = 859 
+		transfer_state = 860 
+		transfer_state = 861 }
 		}
 		puppet = SER
 
@@ -994,14 +1135,22 @@ country_event = {
 				105 = { is_owned_by = YUG }
 				has_country_flag = ROM_YUG_ITA_approves
 			}
-			ITA = { transfer_state = 105 }
+			ITA = { transfer_state = 105 
+		transfer_state = 850 
+		transfer_state = 851 
+		transfer_state = 852 
+		transfer_state = 853 }
 		}
 		if = {
 			limit = {
 				105 = { is_owned_by = YUG }
 				NOT = { has_country_flag = ROM_YUG_ITA_approves }
 			}
-			MNT = { transfer_state = 105 }
+			MNT = { transfer_state = 105 
+		transfer_state = 850 
+		transfer_state = 851 
+		transfer_state = 852 
+		transfer_state = 853 }
 			puppet = MNT
 		}
 		if = {
@@ -1012,7 +1161,17 @@ country_event = {
 				}
 
 			}
-			CRO = { transfer_state = 103 }
+			CRO = { transfer_state = 103 
+		transfer_state = 820 
+		transfer_state = 821 
+		transfer_state = 822 
+		transfer_state = 823 
+		transfer_state = 824 
+		transfer_state = 825 
+		transfer_state = 826 
+		transfer_state = 827 
+		transfer_state = 828 
+		transfer_state = 829 }
 		}
 		if = {
 			limit = {
@@ -1022,19 +1181,59 @@ country_event = {
 				}
 
 			}
-			ITA = { transfer_state = 103 }
+			ITA = { transfer_state = 103 
+		transfer_state = 820 
+		transfer_state = 821 
+		transfer_state = 822 
+		transfer_state = 823 
+		transfer_state = 824 
+		transfer_state = 825 
+		transfer_state = 826 
+		transfer_state = 827 
+		transfer_state = 828 
+		transfer_state = 829 }
 		}
 		if = {
 			limit = {
 				104 = { is_owned_by = YUG }
 			}
-			CRO = { transfer_state = 104 }
+			CRO = { transfer_state = 104 
+		transfer_state = 830 
+		transfer_state = 831 
+		transfer_state = 832 
+		transfer_state = 833 
+		transfer_state = 834 
+		transfer_state = 835 
+		transfer_state = 836 
+		transfer_state = 837 
+		transfer_state = 838 
+		transfer_state = 839 
+		transfer_state = 840 
+		transfer_state = 841 
+		transfer_state = 842 
+		transfer_state = 843 
+		transfer_state = 844 
+		transfer_state = 845 
+		transfer_state = 846 
+		transfer_state = 847 
+		transfer_state = 848 
+		transfer_state = 849 }
 		}
 		if = {
 			limit = {
 				109 = { is_owned_by = YUG }
 			}
-			CRO = { transfer_state = 109 }
+			CRO = { transfer_state = 109 
+		transfer_state = 885 
+		transfer_state = 886 
+		transfer_state = 887 
+		transfer_state = 888 
+		transfer_state = 889 
+		transfer_state = 890 
+		transfer_state = 891 
+		transfer_state = 892 
+		transfer_state = 893 
+		transfer_state = 894 }
 		}
 		if = {
 			limit = {
@@ -1044,7 +1243,14 @@ country_event = {
 				}
 
 			}
-			CRO = { transfer_state = 102 }
+			CRO = { transfer_state = 102 
+		transfer_state = 813 
+		transfer_state = 814 
+		transfer_state = 815 
+		transfer_state = 816 
+		transfer_state = 817 
+		transfer_state = 818 
+		transfer_state = 819 }
 		}
 		if = {
 			limit = {
@@ -1054,7 +1260,14 @@ country_event = {
 				}
 
 			}
-			GER = { transfer_state = 102 }
+			GER = { transfer_state = 102 
+		transfer_state = 813 
+		transfer_state = 814 
+		transfer_state = 815 
+		transfer_state = 816 
+		transfer_state = 817 
+		transfer_state = 818 
+		transfer_state = 819 }
 		}
 		if = {
 			limit = { has_country_flag = ROM_YUG_GER_approves }
@@ -1073,7 +1286,7 @@ country_event = {
 
 }
 
-# Romania wants to split Yugoslavia - Yugoslavia has refused, allies get wargoals
+
 country_event = {
 	id = DOD_romania.71
 	title = DOD_romania.71.t
@@ -1083,7 +1296,7 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	option = { #refuse
+	option = { 
 		name = DOD_romania.71.a
 		ROM = {
 			declare_war_on = {
@@ -1116,8 +1329,8 @@ country_event = {
 	}
 }
 
-# King Carol II's lifestyle events
-#Hidden dispatch event
+
+
 country_event = {
 	id = DOD_romania.80
 	
@@ -1127,10 +1340,10 @@ country_event = {
 
 	immediate = {
 		random_list = {
-			20 = { country_event = { id = DOD_romania.81 days = 160 random_days = 30 } } #villa
-			20 = { country_event = { id = DOD_romania.82 days = 160 random_days = 30 } } #book
-			20 = { country_event = { id = DOD_romania.83 days = 160 random_days = 30 } } #party
-			20 = { country_event = { id = DOD_romania.86 days = 160 random_days = 30 } } #êmbezzlement
+			20 = { country_event = { id = DOD_romania.81 days = 160 random_days = 30 } } 
+			20 = { country_event = { id = DOD_romania.82 days = 160 random_days = 30 } } 
+			20 = { country_event = { id = DOD_romania.83 days = 160 random_days = 30 } } 
+			20 = { country_event = { id = DOD_romania.86 days = 160 random_days = 30 } } 
 			20 = {
 				if = {
 					limit = {
@@ -1157,7 +1370,7 @@ country_event = {
 	}
 }
 
-# King Carol II's lifestyle events - Mistress buys villa
+
 country_event = {
 	id = DOD_romania.81
 	title = DOD_romania.81.t
@@ -1174,7 +1387,7 @@ country_event = {
 		set_country_flag = DOD_romania.81_fired
 	}
 
-	option = { #Pay for it
+	option = { 
 		name = DOD_romania.81.a
 		ai_chance = {
 			base = 1
@@ -1216,7 +1429,7 @@ country_event = {
 			country_event = { id = DOD_romania.80 }
 		}
 	}
-	option = { #Negotiate a deal
+	option = { 
 		name = DOD_romania.81.b
 		ai_chance = {
 			base = 4
@@ -1250,7 +1463,7 @@ country_event = {
 	}
 
 }
-# King Carol's Lifestyle - King bans critical book
+
 country_event = {
 	id = DOD_romania.82
 	title = DOD_romania.82.t
@@ -1267,7 +1480,7 @@ country_event = {
 		set_country_flag = DOD_romania.82_fired
 	}
 
-	option = { #keep author imprisoned
+	option = { 
 		name = DOD_romania.82.a
 		ai_chance = {
 			base = 1
@@ -1314,13 +1527,13 @@ country_event = {
 			}
 		}
 		add_stability = -0.05
-		add_popularity = { ideology = fascism popularity = 0.05 } #because she is Jewish
-		add_popularity = { ideology = democratic popularity = 0.05 } #because Freedom of the Press
+		add_popularity = { ideology = fascism popularity = 0.05 } 
+		add_popularity = { ideology = democratic popularity = 0.05 } 
 		hidden_effect = {
 			country_event = { id = DOD_romania.80 }
 		}
 	}
-	option = { #Release him
+	option = { 
 		name = DOD_romania.82.b
 		ai_chance = {
 			base = 3
@@ -1332,7 +1545,7 @@ country_event = {
 	}
 }
 
-# King Carol II's lifestyle events - King throws big party
+
 country_event = {
 	id = DOD_romania.83
 	title = DOD_romania.83.t
@@ -1348,7 +1561,7 @@ country_event = {
 		set_country_flag = DOD_romania.83_fired
 	}
 
-	option = { #Pay for it
+	option = { 
 		name = DOD_romania.83.a
 		ai_chance = {
 			base = 1
@@ -1390,7 +1603,7 @@ country_event = {
 			country_event = { id = DOD_romania.80 }
 		}
 	}
-	option = { #Negotiate a deal
+	option = { 
 		name = DOD_romania.83.b
 		ai_chance = {
 			base = 4
@@ -1424,7 +1637,7 @@ country_event = {
 	}
 }
 
-# King Carol II's lifestyle events - Mistress on shopping spree in France
+
 country_event = {
 	id = DOD_romania.84
 	title = DOD_romania.84.t
@@ -1441,7 +1654,7 @@ country_event = {
 		set_country_flag = DOD_romania.84_fired
 	}
 
-	option = { #Pay for it
+	option = { 
 		name = DOD_romania.84.a
 		ai_chance = {
 			base = 1
@@ -1483,7 +1696,7 @@ country_event = {
 			country_event = { id = DOD_romania.80 }
 		}
 	}
-	option = { #Negotiate a deal
+	option = { 
 		name = DOD_romania.84.b
 		ai_chance = {
 			base = 4
@@ -1517,7 +1730,7 @@ country_event = {
 	}
 }
 
-# King Carol II's lifestyle events - King takes expensive holiday (somewhere in southern France)
+
 country_event = {
 	id = DOD_romania.85
 	title = DOD_romania.85.t
@@ -1534,7 +1747,7 @@ country_event = {
 		set_country_flag = DOD_romania.85_fired
 	}
 
-	option = { #Pay for it
+	option = { 
 		name = DOD_romania.85.a
 		ai_chance = {
 			base = 1
@@ -1576,7 +1789,7 @@ country_event = {
 			country_event = { id = DOD_romania.80 }
 		}
 	}
-	option = { #Negotiate a deal
+	option = { 
 		name = DOD_romania.85.b
 		ai_chance = {
 			base = 4
@@ -1611,7 +1824,7 @@ country_event = {
 
 }
 
-# King Carol II's lifestyle events - King aids embezzlement in the army
+
 country_event = {
 	id = DOD_romania.86
 	title = DOD_romania.86.t
@@ -1628,7 +1841,7 @@ country_event = {
 		set_country_flag = DOD_romania.86_fired
 	}
 
-	option = { #Pay for it
+	option = { 
 		name = DOD_romania.86.a
 		ai_chance = {
 			base = 1
@@ -1670,7 +1883,7 @@ country_event = {
 			country_event = { id = DOD_romania.80 }
 		}
 	}
-	option = { #Negotiate a deal
+	option = { 
 		name = DOD_romania.86.b
 		ai_chance = {
 			base = 4
@@ -1705,7 +1918,7 @@ country_event = {
 
 }
 
-#Split CZE - GER approached by Romania
+
 country_event = {
 	id = DOD_romania.110
 	title = DOD_romania.110.t
@@ -1714,7 +1927,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# agree
+	option = {
 		name = DOD_romania.110.a
 		ai_chance = {
 			factor = 90
@@ -1725,7 +1938,7 @@ country_event = {
 		}
 		ROM = { country_event = DOD_romania.111 }
 	}
-	option = {# no deals
+	option = {
 		name = DOD_romania.110.b
 		ai_chance = {
 			factor = 10
@@ -1734,7 +1947,7 @@ country_event = {
 	}
 }
 
-#Split CZE - Germany agrees
+
 country_event = {
 	id = DOD_romania.111
 	title = DOD_romania.111.t
@@ -1743,13 +1956,13 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# agree
+	option = {
 		name = DOD_romania.111.a
 		CZE = { country_event = DOD_romania.114 }
 	}
 }
 
-#Intervene in CZE - GER refuses
+
 country_event = {
 	id = DOD_romania.113
 	title = DOD_romania.113.t
@@ -1758,25 +1971,42 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# okay
+	option = {
 		name = DOD_romania.113.a
 		ai_chance = {
 			factor = 10
 		}
 	}
-	option = {# we shall consider force
+	option = {
 		name = DOD_romania.113.b
 		ai_chance = {
 			factor = 90
 		}
-		add_state_claim = 70
-		add_state_claim = 71
-		add_state_claim = 72
-		add_state_claim = 73
+		add_state_claim = 70 
+		add_state_claim = 9283 
+		add_state_claim = 9284 
+		add_state_claim = 9285 
+		add_state_claim = 9286 
+		add_state_claim = 9287 
+		add_state_claim = 9288
+		add_state_claim = 71 
+		add_state_claim = 9291 
+		add_state_claim = 9292 
+		add_state_claim = 9293 
+		add_state_claim = 9294 
+		add_state_claim = 9295 
+		add_state_claim = 9296
+		add_state_claim = 72 
+		add_state_claim = 9423
+		add_state_claim = 73 
+		add_state_claim = 9468 
+		add_state_claim = 9469 
+		add_state_claim = 9470 
+		add_state_claim = 9471
 	}
 }
 
-#Intervene in CZE - CZE gets an ultimatum
+
 country_event = {
 	id = DOD_romania.114
 	title = DOD_romania.114.t
@@ -1785,7 +2015,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# okay 
+	option = {
 		name = DOD_romania.114.a
 		ai_chance = {
 			factor = 80
@@ -1803,39 +2033,118 @@ country_event = {
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 		GER = {
-			transfer_state = 9
-			transfer_state = 69
-			transfer_state = 75
-			transfer_state = 74
+			transfer_state = 9 
+		transfer_state = 9984 
+		transfer_state = 9985 
+		transfer_state = 9986 
+		transfer_state = 9987 
+		transfer_state = 9988 
+		transfer_state = 9989 
+		transfer_state = 9990 
+		transfer_state = 9991 
+		transfer_state = 9992 
+		transfer_state = 9993 
+		transfer_state = 9994 
+		transfer_state = 9995 
+		transfer_state = 9996
+			transfer_state = 69 
+		transfer_state = 9252 
+		transfer_state = 9253 
+		transfer_state = 9254 
+		transfer_state = 9255 
+		transfer_state = 9256 
+		transfer_state = 9257 
+		transfer_state = 9258 
+		transfer_state = 9259 
+		transfer_state = 9260 
+		transfer_state = 9261 
+		transfer_state = 9262 
+		transfer_state = 9263 
+		transfer_state = 9264
+			transfer_state = 75 
+		transfer_state = 9614 
+		transfer_state = 9615 
+		transfer_state = 9616 
+		transfer_state = 9617 
+		transfer_state = 9618 
+		transfer_state = 9619
+			transfer_state = 74 
+		transfer_state = 9527 
+		transfer_state = 9528 
+		transfer_state = 9529
 		}
 		if = {
 			limit = {
 				country_exists = HUN
 			}
 			HUN = {
-				transfer_state = 664 #might as well throw them a bone
+				transfer_state = 664 
+		transfer_state = 8803 
+		transfer_state = 8804 
+		transfer_state = 8805 
+		transfer_state = 8806 
+		transfer_state = 8807 
 			}
-			else = { #Need to get rid of everything
-				SLO = { transfer_state = 664 }
+			else = { 
+				SLO = { transfer_state = 664 
+		transfer_state = 8803 
+		transfer_state = 8804 
+		transfer_state = 8805 
+		transfer_state = 8806 
+		transfer_state = 8807 }
 			}
 		}
 		SLO = {
-			transfer_state = 70
-			transfer_state = 71
-			transfer_state = 72
-			transfer_state = 73
-			add_state_core = 70
-			add_state_core = 71
-			add_state_core = 72
-			add_state_core = 73
+			transfer_state = 70 
+		transfer_state = 9283 
+		transfer_state = 9284 
+		transfer_state = 9285 
+		transfer_state = 9286 
+		transfer_state = 9287 
+		transfer_state = 9288
+			transfer_state = 71 
+		transfer_state = 9291 
+		transfer_state = 9292 
+		transfer_state = 9293 
+		transfer_state = 9294 
+		transfer_state = 9295 
+		transfer_state = 9296
+			transfer_state = 72 
+		transfer_state = 9423
+			transfer_state = 73 
+		transfer_state = 9468 
+		transfer_state = 9469 
+		transfer_state = 9470 
+		transfer_state = 9471
+			add_state_core = 70 
+		add_state_core = 9283 
+		add_state_core = 9284 
+		add_state_core = 9285 
+		add_state_core = 9286 
+		add_state_core = 9287 
+		add_state_core = 9288
+			add_state_core = 71 
+		add_state_core = 9291 
+		add_state_core = 9292 
+		add_state_core = 9293 
+		add_state_core = 9294 
+		add_state_core = 9295 
+		add_state_core = 9296
+			add_state_core = 72 
+		add_state_core = 9423
+			add_state_core = 73 
+		add_state_core = 9468 
+		add_state_core = 9469 
+		add_state_core = 9470 
+		add_state_core = 9471
 
 		}
 		ROM = {
 			puppet = SLO
-			annex_country = { target = CZE } #cleanup
+			annex_country = { target = CZE } 
 		}
 	}
-	option = {# refuse
+	option = {
 		name = DOD_romania.114.b
 		ai_chance = {
 			factor = 20
@@ -1879,7 +2188,7 @@ country_event = {
 	}
 }
 
-#Intervene in CZE - CZE defiant
+
 country_event = {
 	id = DOD_romania.115
 	title = DOD_romania.115.t
@@ -1888,12 +2197,12 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# okay
+	option = {
 		name = DOD_romania.115.a
 	}
 }
 
-#Invite Foreign Motor Companies
+
 country_event = {
 	id = DOD_romania.120
 	title = DOD_romania.120.t
@@ -1902,7 +2211,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# Britain
+	option = {
 		name = DOD_romania.120.a
 		ai_chance = {
 			factor = 35
@@ -1917,7 +2226,7 @@ country_event = {
 				modifier = ROM_foreign_motor_company
 			}
 	}
-	option = {# Germany
+	option = {
 		name = DOD_romania.120.b
 		ai_chance = {
 			factor = 35
@@ -1932,7 +2241,7 @@ country_event = {
 				modifier = ROM_foreign_motor_company
 			}
 	}
-	option = {# USA
+	option = {
 		name = DOD_romania.120.c
 		ai_chance = {
 			factor = 35
@@ -1945,7 +2254,7 @@ country_event = {
 	}
 }
 
-#fighter competition - initial choice for Hungary
+
 country_event = {
 	id = DOD_romania.150
 	title = DOD_hungary.150.t
@@ -1954,7 +2263,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# light fighter
+	option = {
 		name = DOD_hungary.150.a
 		trigger = {
 			OR = {
@@ -1994,7 +2303,7 @@ country_event = {
 		
 	}
 
-	option = {# heavy fighter
+	option = {
 		name = DOD_hungary.150.b
 		trigger = {
 			OR = {
@@ -2034,7 +2343,7 @@ country_event = {
 	}
 }
 
-#Fighter competition - Hungary is looking for a light fighter
+
 country_event = {
 	id = DOD_romania.151
 	title = DOD_hungary.151.t
@@ -2066,7 +2375,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# Select German Plane
+	option = {
 		name = DOD_hungary.151.a
 		ai_chance = {
 			factor = 30
@@ -2118,7 +2427,7 @@ country_event = {
 		GER = { country_event = DOD_romania.153 }	
 	}
 
-	option = {# select italian plane
+	option = {
 		name = DOD_hungary.151.b
 		ai_chance = {
 			factor = 30
@@ -2170,7 +2479,7 @@ country_event = {
 		ITA = { country_event = DOD_romania.153 }	
 	}
 
-	option = {# select french plane
+	option = {
 		name = DOD_hungary.151.c
 		ai_chance = {
 			factor = 30
@@ -2222,7 +2531,7 @@ country_event = {
 		}
 		FRA = { country_event = DOD_romania.153 }	
 	}
-	option = {# select british plane
+	option = {
 		name = DOD_hungary.151.d
 		ai_chance = {
 			factor = 30
@@ -2273,7 +2582,7 @@ country_event = {
 		}
 		ENG = { country_event = DOD_romania.153 }	
 	}
-	option = {# select american plane
+	option = {
 		name = DOD_hungary.151.e
 		ai_chance = {
 			factor = 30
@@ -2321,7 +2630,7 @@ country_event = {
 			}
 			NOT = { has_war_with = USA }
 			NOT = { has_country_flag = USA_fighter_refused }
-			NOT = { #to prevent overflow issues
+			NOT = { 
 				AND = {
 					GER = {
 						is_available_fighter_ROM = yes
@@ -2340,7 +2649,7 @@ country_event = {
 		}
 		USA = { country_event = DOD_romania.153 }	
 	}
-	option = {# failsafe
+	option = {
 		name = DOD_hungary.151.f	
 		trigger = {
 			OR = {
@@ -2356,7 +2665,7 @@ country_event = {
 
 }
 
-#Fighter competition - Hungary is looking for a heavy fighter
+
 country_event = {
 	id = DOD_romania.152
 	title = DOD_hungary.152.t
@@ -2388,7 +2697,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# Select German Plane
+	option = {
 		name = DOD_hungary.152.a
 		ai_chance = {
 			factor = 30
@@ -2440,7 +2749,7 @@ country_event = {
 		GER = { country_event = DOD_romania.154 }	
 	}
 
-	option = {# select italian plane
+	option = {
 		name = DOD_hungary.152.b
 		ai_chance = {
 			factor = 30
@@ -2492,7 +2801,7 @@ country_event = {
 		ITA = { country_event = DOD_romania.154 }	
 	}
 
-	option = {# select french plane
+	option = {
 		name = DOD_hungary.152.c
 		ai_chance = {
 			factor = 30
@@ -2544,7 +2853,7 @@ country_event = {
 		}
 		FRA = { country_event = DOD_romania.154 }	
 	}
-	option = {# select british plane
+	option = {
 		name = DOD_hungary.152.d
 		ai_chance = {
 			factor = 30
@@ -2595,7 +2904,7 @@ country_event = {
 		}
 		ENG = { country_event = DOD_romania.154 }	
 	}
-	option = {# select american plane
+	option = {
 		name = DOD_hungary.152.e
 		ai_chance = {
 			factor = 30
@@ -2643,7 +2952,7 @@ country_event = {
 			}
 			NOT = { has_war_with = USA }
 			NOT = { has_country_flag = USA_heavy_fighter_refused }
-			NOT = { #to prevent overflow issues
+			NOT = { 
 				AND = {
 					GER = {
 						is_available_heavy_fighter_ROM = yes
@@ -2662,7 +2971,7 @@ country_event = {
 		}
 		USA = { country_event = DOD_romania.154 }	
 	}
-	option = {# failsafe
+	option = {
 		name = DOD_hungary.151.f	
 		trigger = {
 			OR = {
@@ -2678,7 +2987,7 @@ country_event = {
 
 }
 
-#fighter competition - light fighter competition winner gets a choice whether to permit license production
+
 country_event = {
 	id = DOD_romania.153
 	title = DOD_hungary.153.t
@@ -2687,7 +2996,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# certainly
+	option = {
 		name = DOD_hungary.153.a
 		ai_chance = {
 			factor = 90
@@ -2739,7 +3048,7 @@ country_event = {
 		}
 	}
 
-	option = {# no
+	option = {
 		name = DOD_hungary.153.b
 		ai_chance = {
 			factor = 10
@@ -2773,7 +3082,7 @@ country_event = {
 	}
 }
 
-#fighter competition - heavy fighter competition winner gets a choice whether to permit license production
+
 country_event = {
 	id = DOD_romania.154
 	title = DOD_hungary.153.t
@@ -2782,7 +3091,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# certainly
+	option = {
 		name = DOD_hungary.153.a
 		ai_chance = {
 			factor = 90
@@ -2834,7 +3143,7 @@ country_event = {
 		
 	}
 
-	option = {# no
+	option = {
 		name = DOD_hungary.153.b
 		ai_chance = {
 			factor = 10
@@ -2868,7 +3177,7 @@ country_event = {
 	}
 }
 
-#fighter competition - license production approved
+
 country_event = {
 	id = DOD_romania.155
 	title = DOD_hungary.155.t
@@ -2877,13 +3186,13 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {# neat
+	option = {
 		name = DOD_hungary.155.a
 		
 	}
 }
 
-#rename city
+
 country_event = {
 	id = DOD_romania.999
 	title = DOD_romania.999.t
@@ -2895,13 +3204,13 @@ country_event = {
 	trigger = {
 		tag = ROM
 		ROM = {
-			has_country_leader = { id = 550 } #Carol II
+			has_country_leader = { id = 550 } 
 			owns_state = 217
 			owns_state = 195
 		}
 	}
 
-	option = { #a great idea!
+	option = { 
 		name = DOD_romania.a
 		ai_chance = {
 			base = 100
@@ -2911,7 +3220,7 @@ country_event = {
 		set_global_flag = ROM_king_is_silly
 	}
 
-	option = { #rather not
+	option = { 
 		name = DOD_romania.b
 		ai_chance = {
 			base = 0

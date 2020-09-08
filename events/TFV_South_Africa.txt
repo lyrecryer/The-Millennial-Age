@@ -1,21 +1,18 @@
-﻿###########################
-# South-African TFV events Events
-###########################
 
 add_namespace = tfv_south_africa
 
-# SAF_secure_interests_in_africa completed
-# South-African National focus
+
+
 country_event = {
 	id = tfv_south_africa.1
-	title = tfv_south_africa.1.t	# Ask ENG for control over british South-East Africa strip. 
-	desc = tfv_south_africa.1.d		#
-	picture = GFX_report_event_saf_soldiers					#
+	title = tfv_south_africa.1.t	
+	desc = tfv_south_africa.1.d		
+	picture = GFX_report_event_saf_soldiers					
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_south_africa.1.a	# ENG accepts the proposal
+		name = tfv_south_africa.1.a	
 		
 		ai_chance = {
 			base = 80
@@ -24,13 +21,74 @@ country_event = {
 		
 		effect_tooltip = {
 			SAF = {
-				transfer_state = 542
-				transfer_state = 545
-				transfer_state = 546
-				transfer_state = 547
-				transfer_state = 548
-				transfer_state = 771
-				transfer_state = 770
+				transfer_state = 542 
+		transfer_state = 7183 
+		transfer_state = 7184 
+		transfer_state = 7185 
+		transfer_state = 7186
+				transfer_state = 545 
+		transfer_state = 7211 
+		transfer_state = 7212 
+		transfer_state = 7213 
+		transfer_state = 7214 
+		transfer_state = 7215
+				transfer_state = 546 
+		transfer_state = 7216 
+		transfer_state = 7217 
+		transfer_state = 7218 
+		transfer_state = 7219 
+		transfer_state = 7220 
+		transfer_state = 7221 
+		transfer_state = 7222 
+		transfer_state = 7223 
+		transfer_state = 7224 
+		transfer_state = 7225 
+		transfer_state = 7226 
+		transfer_state = 7227 
+		transfer_state = 7228 
+		transfer_state = 7229 
+		transfer_state = 7230 
+		transfer_state = 7231 
+		transfer_state = 7232 
+		transfer_state = 7233 
+		transfer_state = 7234
+				transfer_state = 547 
+		transfer_state = 7235 
+		transfer_state = 7236 
+		transfer_state = 7237 
+		transfer_state = 7238 
+		transfer_state = 7239 
+		transfer_state = 7240 
+		transfer_state = 7241 
+		transfer_state = 7242 
+		transfer_state = 7243 
+		transfer_state = 7244 
+		transfer_state = 7245 
+		transfer_state = 7246 
+		transfer_state = 7247 
+		transfer_state = 7248
+				transfer_state = 548 
+		transfer_state = 7249 
+		transfer_state = 7250 
+		transfer_state = 7251 
+		transfer_state = 7252 
+		transfer_state = 7253 
+		transfer_state = 7254
+				transfer_state = 771 
+		transfer_state = 9746 
+		transfer_state = 9747 
+		transfer_state = 9748 
+		transfer_state = 9749 
+		transfer_state = 9750 
+		transfer_state = 9751 
+		transfer_state = 9752 
+		transfer_state = 9753 
+		transfer_state = 9754 
+		transfer_state = 9755
+				transfer_state = 770 
+		transfer_state = 9743 
+		transfer_state = 9744 
+		transfer_state = 9745
 			}
 		}
 		hidden_effect = {
@@ -41,7 +99,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.1.b # ENG refuses the proposal
+		name = tfv_south_africa.1.b 
 		
 		ai_chance = {
 			base = 0
@@ -54,7 +112,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = tfv_south_africa.1.c # ENG compromises
+		name = tfv_south_africa.1.c 
 		trigger = {
 			KEN = { exists = no }
 			ZIM = { exists = no }
@@ -69,7 +127,7 @@ country_event = {
 			base = 20
 			modifier = {
 				is_historical_focus_on = yes
-				factor = 0 #don't do this if we are historical!
+				factor = 0 
 			}
 			modifier = {
 				SAF = { NOT = { has_government = democratic} }
@@ -87,11 +145,11 @@ country_event = {
 	}
 }
 
-#ENG transfers colonies
+
 country_event = {
 	id = tfv_south_africa.2
-	title = tfv_south_africa.2.t	#
-	desc = tfv_south_africa.2.d		#
+	title = tfv_south_africa.2.t	
+	desc = tfv_south_africa.2.d		
 	picture = GFX_report_event_saf_soldiers_2
 	
 	is_triggered_only = yes
@@ -102,7 +160,12 @@ country_event = {
 			limit = { 
 				ZIM = { exists = no }
 			}
-			transfer_state = 545
+			transfer_state = 545 
+		transfer_state = 7211 
+		transfer_state = 7212 
+		transfer_state = 7213 
+		transfer_state = 7214 
+		transfer_state = 7215
 		}
 		if = {
 			limit = { 
@@ -117,7 +180,11 @@ country_event = {
 			limit = { 
 				BOT = { exists = no }
 			}
-			transfer_state = 542
+			transfer_state = 542 
+		transfer_state = 7183 
+		transfer_state = 7184 
+		transfer_state = 7185 
+		transfer_state = 7186
 		}
 		if = {
 			limit = { 
@@ -132,7 +199,17 @@ country_event = {
 			limit = { 
 				ZAM = { exists = no }
 			}
-			transfer_state = 771
+			transfer_state = 771 
+		transfer_state = 9746 
+		transfer_state = 9747 
+		transfer_state = 9748 
+		transfer_state = 9749 
+		transfer_state = 9750 
+		transfer_state = 9751 
+		transfer_state = 9752 
+		transfer_state = 9753 
+		transfer_state = 9754 
+		transfer_state = 9755
 		}
 		if = {
 			limit = { 
@@ -147,7 +224,10 @@ country_event = {
 			limit = { 
 				MLW = { exists = no }
 			}
-			transfer_state = 770
+			transfer_state = 770 
+		transfer_state = 9743 
+		transfer_state = 9744 
+		transfer_state = 9745
 		}
 		if = {
 			limit = { 
@@ -162,7 +242,26 @@ country_event = {
 			limit = { 
 				TZN = { exists = no }
 			}
-			transfer_state = 546
+			transfer_state = 546 
+		transfer_state = 7216 
+		transfer_state = 7217 
+		transfer_state = 7218 
+		transfer_state = 7219 
+		transfer_state = 7220 
+		transfer_state = 7221 
+		transfer_state = 7222 
+		transfer_state = 7223 
+		transfer_state = 7224 
+		transfer_state = 7225 
+		transfer_state = 7226 
+		transfer_state = 7227 
+		transfer_state = 7228 
+		transfer_state = 7229 
+		transfer_state = 7230 
+		transfer_state = 7231 
+		transfer_state = 7232 
+		transfer_state = 7233 
+		transfer_state = 7234
 		}
 		if = {
 			limit = { 
@@ -177,7 +276,21 @@ country_event = {
 			limit = { 
 				KEN = { exists = no }
 			}
-			transfer_state = 547
+			transfer_state = 547 
+		transfer_state = 7235 
+		transfer_state = 7236 
+		transfer_state = 7237 
+		transfer_state = 7238 
+		transfer_state = 7239 
+		transfer_state = 7240 
+		transfer_state = 7241 
+		transfer_state = 7242 
+		transfer_state = 7243 
+		transfer_state = 7244 
+		transfer_state = 7245 
+		transfer_state = 7246 
+		transfer_state = 7247 
+		transfer_state = 7248
 		}
 		if = {
 			limit = { 
@@ -192,7 +305,13 @@ country_event = {
 			limit = { 
 				UGA = { exists = no }
 			}
-			transfer_state = 548
+			transfer_state = 548 
+		transfer_state = 7249 
+		transfer_state = 7250 
+		transfer_state = 7251 
+		transfer_state = 7252 
+		transfer_state = 7253 
+		transfer_state = 7254
 		}
 		if = {
 			limit = { 
@@ -210,11 +329,11 @@ country_event = {
 		
 	
 }
-#ENG refuses
+
 country_event = {
 	id = tfv_south_africa.3
-	title = tfv_south_africa.3.t	#
-	desc = tfv_south_africa.3.d		#
+	title = tfv_south_africa.3.t	
+	desc = tfv_south_africa.3.d		
 	picture = GFX_report_event_saf_soldiers_3
 	
 	is_triggered_only = yes
@@ -223,12 +342,12 @@ country_event = {
 		name = tfv_south_africa.3.a
 	}
 }
-#ENG compromises
+
 country_event = {
 	id = tfv_south_africa.4
-	title = tfv_south_africa.4.t	#
-	desc = tfv_south_africa.4.d		#
-	picture = GFX_report_event_saf_soldiers					#
+	title = tfv_south_africa.4.t	
+	desc = tfv_south_africa.4.d		
+	picture = GFX_report_event_saf_soldiers					
 	
 	is_triggered_only = yes
 	
@@ -297,7 +416,11 @@ country_event = {
 				puppet = UGA
 			}
 		}
-		SAF = { transfer_state = 542 }
+		SAF = { transfer_state = 542 
+		transfer_state = 7183 
+		transfer_state = 7184 
+		transfer_state = 7185 
+		transfer_state = 7186 }
 		hidden_effect = {
 			news_event = { id = news.261 hours = 6 }
 			}
@@ -307,12 +430,12 @@ country_event = {
 	}
 
 
-# SAF_support_the_german_coup completed
-# South-African national focus
+
+
 country_event = {
 	id = tfv_south_africa.10
-	title = tfv_south_africa.10.t	# SAF Civil war. Ask HOL or GER for support?
-	desc = tfv_south_africa.10.desc	#
+	title = tfv_south_africa.10.t	
+	desc = tfv_south_africa.10.desc	
 	picture = GFX_report_event_saf_coup
 	
 	fire_only_once = yes
@@ -337,7 +460,7 @@ country_event = {
 	mean_time_to_happen = { days = 2 }
 	
 	option = {
-		name = tfv_south_africa.10.a # Ask GER for support
+		name = tfv_south_africa.10.a 
 		trigger = {
 			GER = {
 				NOT = { has_war_with = SAF }
@@ -359,7 +482,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.10.b # Ask HOL for support
+		name = tfv_south_africa.10.b 
 		trigger = {
 			HOL = {
 				has_government = fascism
@@ -386,7 +509,7 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.11
-	title = tfv_south_africa.11.t	# GER is asked to help in the SAF civil war.
+	title = tfv_south_africa.11.t	
 	desc = tfv_south_africa.11.desc
 	picture = GFX_report_event_generic_lend_lease
 	
@@ -402,7 +525,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.11.a # Send a bunch of airplanes
+		name = tfv_south_africa.11.a 
 		
 		ai_chance = {
 			base = 10
@@ -433,7 +556,7 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = SAF_sent_equipment_3 }
 			}
-			# repeat event within 21-28 days
+			
 			country_event = { id = tfv_south_africa.11 days = 21 random_days = 7 } 
 			
 			else = {
@@ -445,7 +568,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.11.b # Give them panzers
+		name = tfv_south_africa.11.b 
 		
 		ai_chance = {
 			base = 10
@@ -476,7 +599,7 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = SAF_sent_equipment_3 }
 			}
-			# repeat event within 21-28 days
+			
 			country_event = { id = tfv_south_africa.11 days = 21 random_days = 7 } 
 			
 			else = {
@@ -488,7 +611,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.11.c # Send infantry equipment
+		name = tfv_south_africa.11.c 
 		
 		ai_chance = {
 			base = 50
@@ -523,7 +646,7 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = SAF_sent_equipment_3 }
 			}
-			# repeat event within 21-28 days
+			
 			country_event = { id = tfv_south_africa.11 days = 21 random_days = 7 } 
 			
 			else = {
@@ -535,7 +658,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.11.e # We can't spare anything
+		name = tfv_south_africa.11.e 
 		
 		ai_chance = {
 			base = 0
@@ -567,7 +690,7 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.12
-	title = tfv_south_africa.12.t	# HOL is asked to help in the SAF civil war.
+	title = tfv_south_africa.12.t	
 	desc = tfv_south_africa.12.desc
 	picture = GFX_report_event_generic_lend_lease
 	
@@ -583,7 +706,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.12.a # Send a bunch of airplanes
+		name = tfv_south_africa.12.a 
 		
 		ai_chance = {
 			base = 10
@@ -614,7 +737,7 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = SAF_sent_equipment_3 }
 			}
-			# repeat event within 21-28 days
+			
 			country_event = { id = tfv_south_africa.12 days = 21 random_days = 7 } 
 			
 			else = {
@@ -626,7 +749,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.12.b # Give them panzers
+		name = tfv_south_africa.12.b 
 		
 		ai_chance = {
 			base = 10
@@ -657,7 +780,7 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = SAF_sent_equipment_3 }
 			}
-			# repeat event within 21-28 days
+			
 			country_event = { id = tfv_south_africa.12 days = 21 random_days = 7 } 
 			
 			else = {
@@ -669,7 +792,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.12.c # Send infantry equipment
+		name = tfv_south_africa.12.c 
 		
 		ai_chance = {
 			base = 10
@@ -704,7 +827,7 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = SAF_sent_equipment_3 }
 			}
-			# repeat event within 21-28 days
+			
 			country_event = { id = tfv_south_africa.12 days = 21 random_days = 7 } 
 			
 			else = {
@@ -717,7 +840,7 @@ country_event = {
 	
 	
 	option = {
-		name = tfv_south_africa.12.e # We can't spare anything
+		name = tfv_south_africa.12.e 
 		
 		ai_chance = {
 			base = 0
@@ -751,11 +874,11 @@ country_event = {
 	id = tfv_south_africa.13
 	title = tfv_south_africa.13.t
 	desc = {
-		text = tfv_south_africa.13.desc.a # GER denies support
+		text = tfv_south_africa.13.desc.a 
 		trigger = { NOT = { has_country_flag = GER_sent_support } }
 	}
 	desc = {
-		text = tfv_south_africa.13.desc.b # GER stops support
+		text = tfv_south_africa.13.desc.b 
 		trigger = { has_country_flag = GER_sent_support }
 	}
 	picture = GFX_report_event_military_planning
@@ -770,7 +893,7 @@ country_event = {
 				factor = 0
 			}
 		}
-		name = tfv_south_africa.13.a # Ask HOL instead
+		name = tfv_south_africa.13.a 
 		trigger = {
 			NOT = { has_country_flag = GER_sent_support }
 			NOT = { has_country_flag = asked_HOL_for_support }
@@ -786,7 +909,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.13.b # We're on our own
+		name = tfv_south_africa.13.b 
 		ai_chance = {
 			base = 30
 		}
@@ -798,11 +921,11 @@ country_event = {
 	id = tfv_south_africa.14
 	title = tfv_south_africa.14.t
 	desc = {
-		text = tfv_south_africa.14.desc.a # HOL denies support
+		text = tfv_south_africa.14.desc.a 
 		trigger = { NOT = { has_country_flag = HOL_sent_support } }
 	}
 	desc = {
-		text = tfv_south_africa.14.desc.b # HOL stops support
+		text = tfv_south_africa.14.desc.b 
 		trigger = { has_country_flag = HOL_sent_support }
 	}
 	picture = GFX_report_event_generic_factory
@@ -810,7 +933,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_south_africa.14.a # Ask HOL instead
+		name = tfv_south_africa.14.a 
 		trigger = {
 			NOT = { has_country_flag = HOL_sent_support }
 			NOT = { has_country_flag = asked_GER_for_support }			
@@ -824,13 +947,13 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.14.b # We're on our own
+		name = tfv_south_africa.14.b 
 	}
 }
 
 country_event = {
 	id = tfv_south_africa.15
-	title = tfv_south_africa.15.t # Germany sent equipment
+	title = tfv_south_africa.15.t 
 	desc = {
 		text = tfv_south_africa.15.desc.a
 		trigger = { has_country_flag = shipment_of_airplanes }
@@ -847,7 +970,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_south_africa.15.a # received planes
+		name = tfv_south_africa.15.a 
 		trigger = { has_country_flag = shipment_of_airplanes }
 		
 		clr_country_flag = shipment_of_airplanes
@@ -855,7 +978,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.15.b # received tanks
+		name = tfv_south_africa.15.b 
 		trigger = { has_country_flag = shipment_of_tanks }
 		
 		clr_country_flag = shipment_of_tanks
@@ -864,7 +987,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.15.c # received rifles
+		name = tfv_south_africa.15.c 
 		trigger = {
 			NOT = { has_country_flag = shipment_of_airplanes }
 			NOT = { has_country_flag = shipment_of_tanks }
@@ -875,7 +998,7 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.16
-	title = tfv_south_africa.16.t # Netherlands sent equipment
+	title = tfv_south_africa.16.t 
 	desc = {
 		text = tfv_south_africa.16.desc.a
 		trigger = { has_country_flag = shipment_of_airplanes }
@@ -892,7 +1015,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_south_africa.16.a # received planes
+		name = tfv_south_africa.16.a 
 		trigger = { has_country_flag = shipment_of_airplanes }
 
 		clr_country_flag = shipment_of_airplanes
@@ -901,7 +1024,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.16.b # received tanks
+		name = tfv_south_africa.16.b 
 		trigger = { has_country_flag = shipment_of_tanks }
 		
 		clr_country_flag = shipment_of_tanks	
@@ -909,7 +1032,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.16.c # received rifles
+		name = tfv_south_africa.16.c 
 		trigger = {
 			NOT = { has_country_flag = shipment_of_airplanes }
 			NOT = { has_country_flag = shipment_of_tanks }
@@ -920,18 +1043,18 @@ country_event = {
 
 
 
-# SAF_join_comintern completed
-# South-African national focus
+
+
 country_event = {
 	id = tfv_south_africa.20
-	title = tfv_south_africa.20.t	# SAF asks SOV for membership in comintern
-	desc = tfv_south_africa.20.d	#
+	title = tfv_south_africa.20.t	
+	desc = tfv_south_africa.20.d	
 	picture = GFX_report_event_stalin_meeting
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_south_africa.20.a # SOV accepts SAF as a member of comintern
+		name = tfv_south_africa.20.a 
 		
 		ai_chance = {
 			base = 100
@@ -949,7 +1072,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.20.b # SOV denies SAF membership
+		name = tfv_south_africa.20.b 
 		
 		ai_chance = {
 			base = 0
@@ -965,8 +1088,8 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.21
-	title = tfv_south_africa.21.t	# SOV accepts SAF as a member of comintern
-	desc = tfv_south_africa.21.d	#
+	title = tfv_south_africa.21.t	
+	desc = tfv_south_africa.21.d	
 	picture = GFX_report_event_stalin_meeting
 	
 	is_triggered_only = yes
@@ -982,8 +1105,8 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.22
-	title = tfv_south_africa.22.t	# SOV denies SAF membership
-	desc = tfv_south_africa.22.d	#
+	title = tfv_south_africa.22.t	
+	desc = tfv_south_africa.22.d	
 	picture = GFX_report_event_stalin_meeting
 	
 	is_triggered_only = yes
@@ -993,19 +1116,19 @@ country_event = {
 	}
 }
 
-# SAF_demand_madagascar completed
-# South-African national focus
+
+
 
 country_event = {
 	id = tfv_south_africa.30
-	title = tfv_south_africa.30.t	# SAF demands Madagascar
-	desc = tfv_south_africa.30.d	#
+	title = tfv_south_africa.30.t	
+	desc = tfv_south_africa.30.d	
 	picture = GFX_report_event_generic_panzer_attack
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_south_africa.30.a # FRA accepts
+		name = tfv_south_africa.30.a 
 		
 		ai_chance = {
 			base = 70
@@ -1027,7 +1150,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.30.b # FRA refuses
+		name = tfv_south_africa.30.b 
 		
 		ai_chance = {
 			base = 30
@@ -1043,8 +1166,8 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.31
-	title = tfv_south_africa.31.t	# FRA accepts demands
-	desc = tfv_south_africa.31.d	#
+	title = tfv_south_africa.31.t	
+	desc = tfv_south_africa.31.d	
 	picture = GFX_report_event_saf_soldiers_2
 	
 	is_triggered_only = yes
@@ -1052,19 +1175,28 @@ country_event = {
 	option = {
 		name = tfv_south_africa.31.a
 		
-		transfer_state = 543
+		transfer_state = 543 
+		transfer_state = 7187 
+		transfer_state = 7188 
+		transfer_state = 7189 
+		transfer_state = 7190 
+		transfer_state = 7191 
+		transfer_state = 7192 
+		transfer_state = 7193 
+		transfer_state = 7194 
+		transfer_state = 7195
 	}
 }
 
 country_event = {
 	id = tfv_south_africa.32
-	title = tfv_south_africa.32.t	# FRA refuses demands, wargoal offered
-	desc = tfv_south_africa.32.d	#
+	title = tfv_south_africa.32.t	
+	desc = tfv_south_africa.32.d	
 	picture = GFX_report_event_saf_soldiers_2
 	
 	is_triggered_only = yes
 	
-	option = { # option to go to war
+	option = { 
 		name = tfv_south_africa.32.a
 		ai_chance = {
 			base = 80
@@ -1076,7 +1208,7 @@ country_event = {
 					generator = { 543 }
 					}
 	}
-	option = { #back down if you are a coward
+	option = { 
 		name = tfv_south_africa.32.b
 		ai_chance = {
 			base = 20
@@ -1084,17 +1216,17 @@ country_event = {
 		
 	}
 }
-#SOV/SAF research treaty
+
 country_event = {
 	id = tfv_south_africa.40
-	title = tfv_south_africa.40.t	# SAF offers treaty
-	desc = tfv_south_africa.40.d	#
+	title = tfv_south_africa.40.t	
+	desc = tfv_south_africa.40.d	
 	picture = GFX_report_event_generic_research_lab
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_south_africa.40.a # SOV offers support 
+		name = tfv_south_africa.40.a 
 		
 		ai_chance = {
 			base = 100
@@ -1112,7 +1244,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.40.b # SOV refuses
+		name = tfv_south_africa.40.b 
 		
 		ai_chance = {
 			base = 0
@@ -1128,8 +1260,8 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.41
-	title = tfv_south_africa.41.t	# SOV helps with research
-	desc = tfv_south_africa.41.d	#
+	title = tfv_south_africa.41.t	
+	desc = tfv_south_africa.41.d	
 	picture = GFX_report_event_generic_research_lab
 	
 	is_triggered_only = yes
@@ -1144,30 +1276,30 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.42
-	title = tfv_south_africa.42.t	# SOV refuses
-	desc = tfv_south_africa.42.d	#
+	title = tfv_south_africa.42.t	
+	desc = tfv_south_africa.42.d	
 	picture = GFX_report_event_generic_research_lab
 	
 	is_triggered_only = yes
 	
-	option = { # oh well
+	option = { 
 		name = tfv_south_africa.42.a
 		
 		
 	}
 	
 }
-#SAF support for spain
+
 country_event = {
 	id = tfv_south_africa.50
-	title = tfv_south_africa.50.t	# 
-	desc = tfv_south_africa.50.d	#
+	title = tfv_south_africa.50.t	
+	desc = tfv_south_africa.50.d	
 	picture = GFX_report_event_german_volunteers
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_south_africa.50.a # SAF offers "volunteers"
+		name = tfv_south_africa.50.a 
 		
 		ai_chance = {
 			base = 45
@@ -1187,7 +1319,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.50.b # SAF offers volunteers
+		name = tfv_south_africa.50.b 
 		trigger = {
 			
 			has_war = no	
@@ -1228,7 +1360,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_south_africa.50.c # SAF decides not to
+		name = tfv_south_africa.50.c 
 		
 		ai_chance = {
 			base = 0
@@ -1242,8 +1374,8 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.51
-	title = tfv_south_africa.51.t	# SAF sends volunteers to Spain
-	desc = tfv_south_africa.51.d	#
+	title = tfv_south_africa.51.t	
+	desc = tfv_south_africa.51.d	
 	picture = GFX_report_event_german_volunteers
 	
 	is_triggered_only = yes
@@ -1256,8 +1388,8 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.52
-	title = tfv_south_africa.52.t	# SAF volunteers return
-	desc = tfv_south_africa.52.d	#
+	title = tfv_south_africa.52.t	
+	desc = tfv_south_africa.52.d	
 	picture = GFX_report_event_saf_soldiers_2
 	
 	fire_only_once = yes
@@ -1280,16 +1412,16 @@ country_event = {
 	
 }
 
-#European Colonies Liberation Events (not to be confused with Liberation Events for European Colonies!)
+
 country_event = {
 	id = tfv_south_africa.60
-	title = tfv_south_africa.60.t	# Freedom for ANG
-	desc = tfv_south_africa.60.d	#
+	title = tfv_south_africa.60.t	
+	desc = tfv_south_africa.60.d	
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.60.a
 		ai_chance = {
 			base = 100
@@ -1299,14 +1431,28 @@ country_event = {
 				limit = { 
 					SAF = { controls_state = 540 } 
 						}
-					transfer_state = 540
+					transfer_state = 540 
+		transfer_state = 7156 
+		transfer_state = 7157 
+		transfer_state = 7158 
+		transfer_state = 7159 
+		transfer_state = 7160 
+		transfer_state = 7161 
+		transfer_state = 7162 
+		transfer_state = 7163 
+		transfer_state = 7164 
+		transfer_state = 7165 
+		transfer_state = 7166 
+		transfer_state = 7167 
+		transfer_state = 7168 
+		transfer_state = 7169
 					}
 				}
 			SAF = { puppet = ANG }
 			set_country_flag = SAF_released_ANG
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.60.b
 		ai_chance = {
 			base = 0
@@ -1316,7 +1462,21 @@ country_event = {
 				limit = { 
 					SAF = { controls_state = 540 } 
 				}
-				transfer_state = 540
+				transfer_state = 540 
+		transfer_state = 7156 
+		transfer_state = 7157 
+		transfer_state = 7158 
+		transfer_state = 7159 
+		transfer_state = 7160 
+		transfer_state = 7161 
+		transfer_state = 7162 
+		transfer_state = 7163 
+		transfer_state = 7164 
+		transfer_state = 7165 
+		transfer_state = 7166 
+		transfer_state = 7167 
+		transfer_state = 7168 
+		transfer_state = 7169
 			}
 			hidden_effect = {
 				set_politics = {
@@ -1336,13 +1496,13 @@ country_event = {
 	
 country_event = {
 	id = tfv_south_africa.61
-	title = tfv_south_africa.61.t	# Freedom for MZB
-	desc = tfv_south_africa.61.d	#
+	title = tfv_south_africa.61.t	
+	desc = tfv_south_africa.61.d	
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.61.a
 		ai_chance = {
 			base = 100
@@ -1352,14 +1512,29 @@ country_event = {
 				limit = { 
 					SAF = { controls_state = 544 } 
 						}
-					transfer_state = 544
+					transfer_state = 544 
+		transfer_state = 7196 
+		transfer_state = 7197 
+		transfer_state = 7198 
+		transfer_state = 7199 
+		transfer_state = 7200 
+		transfer_state = 7201 
+		transfer_state = 7202 
+		transfer_state = 7203 
+		transfer_state = 7204 
+		transfer_state = 7205 
+		transfer_state = 7206 
+		transfer_state = 7207 
+		transfer_state = 7208 
+		transfer_state = 7209 
+		transfer_state = 7210
 					}
 				}
 			SAF = { puppet = MZB }
 			set_country_flag = SAF_released_MZB
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.61.b
 		ai_chance = {
 			base = 0
@@ -1369,7 +1544,22 @@ country_event = {
 					limit = { 
 						SAF = { controls_state = 544 } 
 					}
-					transfer_state = 544
+					transfer_state = 544 
+		transfer_state = 7196 
+		transfer_state = 7197 
+		transfer_state = 7198 
+		transfer_state = 7199 
+		transfer_state = 7200 
+		transfer_state = 7201 
+		transfer_state = 7202 
+		transfer_state = 7203 
+		transfer_state = 7204 
+		transfer_state = 7205 
+		transfer_state = 7206 
+		transfer_state = 7207 
+		transfer_state = 7208 
+		transfer_state = 7209 
+		transfer_state = 7210
 				}
 				hidden_effect = {
 					set_politics = {
@@ -1390,13 +1580,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.62
-	title = tfv_south_africa.62.t	# Freedom for COG
-	desc = tfv_south_africa.62.d	#
+	title = tfv_south_africa.62.t	
+	desc = tfv_south_africa.62.d	
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.61.a
 		ai_chance = {
 			base = 100
@@ -1411,16 +1601,59 @@ country_event = {
 							} 
 
 						}
-							transfer_state = 295
-							transfer_state = 538
-							transfer_state = 718
+							transfer_state = 295 
+		transfer_state = 3581 
+		transfer_state = 3582 
+		transfer_state = 3583 
+		transfer_state = 3584 
+		transfer_state = 3585 
+		transfer_state = 3586 
+		transfer_state = 3587 
+		transfer_state = 3588 
+		transfer_state = 3589 
+		transfer_state = 3590 
+		transfer_state = 3591 
+		transfer_state = 3592 
+		transfer_state = 3593 
+		transfer_state = 3594 
+		transfer_state = 3595 
+		transfer_state = 3596 
+		transfer_state = 3597 
+		transfer_state = 3598 
+		transfer_state = 3599
+							transfer_state = 538 
+		transfer_state = 7132 
+		transfer_state = 7133 
+		transfer_state = 7134 
+		transfer_state = 7135 
+		transfer_state = 7136 
+		transfer_state = 7137 
+		transfer_state = 7138 
+		transfer_state = 7139 
+		transfer_state = 7140 
+		transfer_state = 7141
+							transfer_state = 718 
+		transfer_state = 9401 
+		transfer_state = 9402 
+		transfer_state = 9403 
+		transfer_state = 9404 
+		transfer_state = 9405 
+		transfer_state = 9406 
+		transfer_state = 9407 
+		transfer_state = 9408 
+		transfer_state = 9409 
+		transfer_state = 9410 
+		transfer_state = 9411 
+		transfer_state = 9412 
+		transfer_state = 9413 
+		transfer_state = 9414
 					}
 				}
 			SAF = { puppet = COG }
 			set_country_flag = SAF_released_COG
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.61.b
 		ai_chance = {
 			base = 0
@@ -1435,9 +1668,52 @@ country_event = {
 							} 
 
 						}
-						transfer_state = 295
-						transfer_state = 538
-						transfer_state = 718
+						transfer_state = 295 
+		transfer_state = 3581 
+		transfer_state = 3582 
+		transfer_state = 3583 
+		transfer_state = 3584 
+		transfer_state = 3585 
+		transfer_state = 3586 
+		transfer_state = 3587 
+		transfer_state = 3588 
+		transfer_state = 3589 
+		transfer_state = 3590 
+		transfer_state = 3591 
+		transfer_state = 3592 
+		transfer_state = 3593 
+		transfer_state = 3594 
+		transfer_state = 3595 
+		transfer_state = 3596 
+		transfer_state = 3597 
+		transfer_state = 3598 
+		transfer_state = 3599
+						transfer_state = 538 
+		transfer_state = 7132 
+		transfer_state = 7133 
+		transfer_state = 7134 
+		transfer_state = 7135 
+		transfer_state = 7136 
+		transfer_state = 7137 
+		transfer_state = 7138 
+		transfer_state = 7139 
+		transfer_state = 7140 
+		transfer_state = 7141
+						transfer_state = 718 
+		transfer_state = 9401 
+		transfer_state = 9402 
+		transfer_state = 9403 
+		transfer_state = 9404 
+		transfer_state = 9405 
+		transfer_state = 9406 
+		transfer_state = 9407 
+		transfer_state = 9408 
+		transfer_state = 9409 
+		transfer_state = 9410 
+		transfer_state = 9411 
+		transfer_state = 9412 
+		transfer_state = 9413 
+		transfer_state = 9414
 					}
 				hidden_effect = {
 					set_politics = {
@@ -1458,14 +1734,14 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.63
-	title = tfv_south_africa.63.t	# Freedom for ZIM
-	desc = tfv_south_africa.63.d	#
+	title = tfv_south_africa.63.t	
+	desc = tfv_south_africa.63.d	
 	picture = GFX_report_event_african_soldiers
 	
 
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.63.a
 		ai_chance = {
 			base = 100
@@ -1478,14 +1754,19 @@ country_event = {
 						} 
 
 					}
-						transfer_state = 545
+						transfer_state = 545 
+		transfer_state = 7211 
+		transfer_state = 7212 
+		transfer_state = 7213 
+		transfer_state = 7214 
+		transfer_state = 7215
 					}
 				}
 			SAF = { puppet = ZIM }
 			set_country_flag = SAF_released_ZIM
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.63.b
 		ai_chance = {
 			base = 0
@@ -1499,7 +1780,12 @@ country_event = {
 							} 
 
 						}
-						transfer_state = 545
+						transfer_state = 545 
+		transfer_state = 7211 
+		transfer_state = 7212 
+		transfer_state = 7213 
+		transfer_state = 7214 
+		transfer_state = 7215
 						
 					}
 				hidden_effect = {
@@ -1522,13 +1808,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.64
-	title = tfv_south_africa.64.t	# Freedom for KEN
-	desc = tfv_south_africa.64.d	#
+	title = tfv_south_africa.64.t	
+	desc = tfv_south_africa.64.d	
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -1541,14 +1827,28 @@ country_event = {
 						} 
 
 					}
-						transfer_state = 547
+						transfer_state = 547 
+		transfer_state = 7235 
+		transfer_state = 7236 
+		transfer_state = 7237 
+		transfer_state = 7238 
+		transfer_state = 7239 
+		transfer_state = 7240 
+		transfer_state = 7241 
+		transfer_state = 7242 
+		transfer_state = 7243 
+		transfer_state = 7244 
+		transfer_state = 7245 
+		transfer_state = 7246 
+		transfer_state = 7247 
+		transfer_state = 7248
 					}
 				}
 			SAF = { puppet = KEN }
 			set_country_flag = SAF_released_KEN
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -1561,7 +1861,21 @@ country_event = {
 							} 
 
 						}
-						transfer_state = 547
+						transfer_state = 547 
+		transfer_state = 7235 
+		transfer_state = 7236 
+		transfer_state = 7237 
+		transfer_state = 7238 
+		transfer_state = 7239 
+		transfer_state = 7240 
+		transfer_state = 7241 
+		transfer_state = 7242 
+		transfer_state = 7243 
+		transfer_state = 7244 
+		transfer_state = 7245 
+		transfer_state = 7246 
+		transfer_state = 7247 
+		transfer_state = 7248
 					}
 				hidden_effect = {
 					set_politics = {
@@ -1581,13 +1895,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.65
-	title = tfv_south_africa.65.t	# Freedom for MAD
+	title = tfv_south_africa.65.t	
 	desc = tfv_south_africa.65.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -1601,7 +1915,16 @@ country_event = {
 						controls_state = 708
 					} 
 				}
-				transfer_state = 543
+				transfer_state = 543 
+		transfer_state = 7187 
+		transfer_state = 7188 
+		transfer_state = 7189 
+		transfer_state = 7190 
+		transfer_state = 7191 
+		transfer_state = 7192 
+		transfer_state = 7193 
+		transfer_state = 7194 
+		transfer_state = 7195
 				transfer_state = 706
 				transfer_state = 708
 			}
@@ -1609,7 +1932,7 @@ country_event = {
 		SAF = { puppet = MAD }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -1623,7 +1946,16 @@ country_event = {
 						controls_state = 708 
 					} 
 				}
-				transfer_state = 543
+				transfer_state = 543 
+		transfer_state = 7187 
+		transfer_state = 7188 
+		transfer_state = 7189 
+		transfer_state = 7190 
+		transfer_state = 7191 
+		transfer_state = 7192 
+		transfer_state = 7193 
+		transfer_state = 7194 
+		transfer_state = 7195
 				transfer_state = 706
 				transfer_state = 708
 			}
@@ -1644,13 +1976,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.66
-	title = tfv_south_africa.66.t	# Freedom for BOT
+	title = tfv_south_africa.66.t	
 	desc = tfv_south_africa.66.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -1662,13 +1994,17 @@ country_event = {
 						controls_state = 542
 					} 
 				}
-				transfer_state = 542
+				transfer_state = 542 
+		transfer_state = 7183 
+		transfer_state = 7184 
+		transfer_state = 7185 
+		transfer_state = 7186
 			}
 		}
 		SAF = { puppet = BOT }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -1680,7 +2016,11 @@ country_event = {
 						controls_state = 542
 					}
 				}
-				transfer_state = 542
+				transfer_state = 542 
+		transfer_state = 7183 
+		transfer_state = 7184 
+		transfer_state = 7185 
+		transfer_state = 7186
 			}
 			hidden_effect = {
 				set_politics = {
@@ -1699,13 +2039,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.67
-	title = tfv_south_africa.67.t	# Freedom for ZAM
+	title = tfv_south_africa.67.t	
 	desc = tfv_south_africa.67.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -1717,13 +2057,23 @@ country_event = {
 						controls_state = 771
 					} 
 				}
-				transfer_state = 771
+				transfer_state = 771 
+		transfer_state = 9746 
+		transfer_state = 9747 
+		transfer_state = 9748 
+		transfer_state = 9749 
+		transfer_state = 9750 
+		transfer_state = 9751 
+		transfer_state = 9752 
+		transfer_state = 9753 
+		transfer_state = 9754 
+		transfer_state = 9755
 			}
 		}
 		SAF = { puppet = ZAM }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -1735,7 +2085,17 @@ country_event = {
 						controls_state = 771
 					}
 				}
-				transfer_state = 771
+				transfer_state = 771 
+		transfer_state = 9746 
+		transfer_state = 9747 
+		transfer_state = 9748 
+		transfer_state = 9749 
+		transfer_state = 9750 
+		transfer_state = 9751 
+		transfer_state = 9752 
+		transfer_state = 9753 
+		transfer_state = 9754 
+		transfer_state = 9755
 			}
 			hidden_effect = {
 				set_politics = {
@@ -1754,13 +2114,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.68
-	title = tfv_south_africa.68.t	# Freedom for MLW
+	title = tfv_south_africa.68.t	
 	desc = tfv_south_africa.68.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -1772,13 +2132,16 @@ country_event = {
 						controls_state = 770
 					} 
 				}
-				transfer_state = 770
+				transfer_state = 770 
+		transfer_state = 9743 
+		transfer_state = 9744 
+		transfer_state = 9745
 			}
 		}
 		SAF = { puppet = MLW }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -1790,7 +2153,10 @@ country_event = {
 						controls_state = 770
 					}
 				}
-				transfer_state = 770
+				transfer_state = 770 
+		transfer_state = 9743 
+		transfer_state = 9744 
+		transfer_state = 9745
 			}
 			hidden_effect = {
 				set_politics = {
@@ -1809,13 +2175,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.69
-	title = tfv_south_africa.69.t	# Freedom for TZN
+	title = tfv_south_africa.69.t	
 	desc = tfv_south_africa.69.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -1827,13 +2193,32 @@ country_event = {
 						controls_state = 546
 					} 
 				}
-				transfer_state = 546
+				transfer_state = 546 
+		transfer_state = 7216 
+		transfer_state = 7217 
+		transfer_state = 7218 
+		transfer_state = 7219 
+		transfer_state = 7220 
+		transfer_state = 7221 
+		transfer_state = 7222 
+		transfer_state = 7223 
+		transfer_state = 7224 
+		transfer_state = 7225 
+		transfer_state = 7226 
+		transfer_state = 7227 
+		transfer_state = 7228 
+		transfer_state = 7229 
+		transfer_state = 7230 
+		transfer_state = 7231 
+		transfer_state = 7232 
+		transfer_state = 7233 
+		transfer_state = 7234
 			}
 		}
 		SAF = { puppet = TZN }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -1845,7 +2230,26 @@ country_event = {
 						controls_state = 546
 					}
 				}
-				transfer_state = 546
+				transfer_state = 546 
+		transfer_state = 7216 
+		transfer_state = 7217 
+		transfer_state = 7218 
+		transfer_state = 7219 
+		transfer_state = 7220 
+		transfer_state = 7221 
+		transfer_state = 7222 
+		transfer_state = 7223 
+		transfer_state = 7224 
+		transfer_state = 7225 
+		transfer_state = 7226 
+		transfer_state = 7227 
+		transfer_state = 7228 
+		transfer_state = 7229 
+		transfer_state = 7230 
+		transfer_state = 7231 
+		transfer_state = 7232 
+		transfer_state = 7233 
+		transfer_state = 7234
 			}
 			hidden_effect = {
 				set_politics = {
@@ -1864,13 +2268,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.70
-	title = tfv_south_africa.70.t	# Freedom for UGA
+	title = tfv_south_africa.70.t	
 	desc = tfv_south_africa.70.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -1882,13 +2286,19 @@ country_event = {
 						controls_state = 548
 					} 
 				}
-				transfer_state = 548
+				transfer_state = 548 
+		transfer_state = 7249 
+		transfer_state = 7250 
+		transfer_state = 7251 
+		transfer_state = 7252 
+		transfer_state = 7253 
+		transfer_state = 7254
 			}
 		}
 		SAF = { puppet = UGA }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -1900,7 +2310,13 @@ country_event = {
 						controls_state = 548
 					}
 				}
-				transfer_state = 548
+				transfer_state = 548 
+		transfer_state = 7249 
+		transfer_state = 7250 
+		transfer_state = 7251 
+		transfer_state = 7252 
+		transfer_state = 7253 
+		transfer_state = 7254
 			}
 			hidden_effect = {
 				set_politics = {
@@ -1919,13 +2335,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.71
-	title = tfv_south_africa.71.t	# Freedom for SUD
+	title = tfv_south_africa.71.t	
 	desc = tfv_south_africa.71.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -1939,15 +2355,59 @@ country_event = {
 						controls_state = 767
 					} 
 				}
-				transfer_state = 549
-				transfer_state = 551
-				transfer_state = 767
+				transfer_state = 549 
+		transfer_state = 7255 
+		transfer_state = 7256 
+		transfer_state = 7257 
+		transfer_state = 7258 
+		transfer_state = 7259 
+		transfer_state = 7260 
+		transfer_state = 7261 
+		transfer_state = 7262 
+		transfer_state = 7263 
+		transfer_state = 7264 
+		transfer_state = 7265 
+		transfer_state = 7266 
+		transfer_state = 7267 
+		transfer_state = 7268 
+		transfer_state = 7269 
+		transfer_state = 7270 
+		transfer_state = 7271 
+		transfer_state = 7272 
+		transfer_state = 7273 
+		transfer_state = 7274 
+		transfer_state = 7275 
+		transfer_state = 7276
+				transfer_state = 551 
+		transfer_state = 7295 
+		transfer_state = 7296 
+		transfer_state = 7297 
+		transfer_state = 7298 
+		transfer_state = 7299 
+		transfer_state = 7300 
+		transfer_state = 7301 
+		transfer_state = 7302 
+		transfer_state = 7303 
+		transfer_state = 7304 
+		transfer_state = 7305 
+		transfer_state = 7306 
+		transfer_state = 7307 
+		transfer_state = 7308 
+		transfer_state = 7309 
+		transfer_state = 7310 
+		transfer_state = 7311 
+		transfer_state = 7312 
+		transfer_state = 7313 
+		transfer_state = 7314
+				transfer_state = 767 
+		transfer_state = 9740 
+		transfer_state = 9741
 			}
 		}
 		SAF = { puppet = SUD }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -1961,9 +2421,53 @@ country_event = {
 						controls_state = 767
 					}
 				}
-				transfer_state = 549
-				transfer_state = 551
-				transfer_state = 767
+				transfer_state = 549 
+		transfer_state = 7255 
+		transfer_state = 7256 
+		transfer_state = 7257 
+		transfer_state = 7258 
+		transfer_state = 7259 
+		transfer_state = 7260 
+		transfer_state = 7261 
+		transfer_state = 7262 
+		transfer_state = 7263 
+		transfer_state = 7264 
+		transfer_state = 7265 
+		transfer_state = 7266 
+		transfer_state = 7267 
+		transfer_state = 7268 
+		transfer_state = 7269 
+		transfer_state = 7270 
+		transfer_state = 7271 
+		transfer_state = 7272 
+		transfer_state = 7273 
+		transfer_state = 7274 
+		transfer_state = 7275 
+		transfer_state = 7276
+				transfer_state = 551 
+		transfer_state = 7295 
+		transfer_state = 7296 
+		transfer_state = 7297 
+		transfer_state = 7298 
+		transfer_state = 7299 
+		transfer_state = 7300 
+		transfer_state = 7301 
+		transfer_state = 7302 
+		transfer_state = 7303 
+		transfer_state = 7304 
+		transfer_state = 7305 
+		transfer_state = 7306 
+		transfer_state = 7307 
+		transfer_state = 7308 
+		transfer_state = 7309 
+		transfer_state = 7310 
+		transfer_state = 7311 
+		transfer_state = 7312 
+		transfer_state = 7313 
+		transfer_state = 7314
+				transfer_state = 767 
+		transfer_state = 9740 
+		transfer_state = 9741
 			}
 			hidden_effect = {
 				set_politics = {
@@ -1982,13 +2486,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.72
-	title = tfv_south_africa.72.t	# Freedom for EGY
+	title = tfv_south_africa.72.t	
 	desc = tfv_south_africa.72.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2006,19 +2510,84 @@ country_event = {
 						controls_state = 453
 					} 
 				}
-				transfer_state = 552
-				transfer_state = 456
-				transfer_state = 457
-				transfer_state = 447
-				transfer_state = 452
-				transfer_state = 446
-				transfer_state = 453
+				transfer_state = 552 
+		transfer_state = 7315 
+		transfer_state = 7316 
+		transfer_state = 7317 
+		transfer_state = 7318 
+		transfer_state = 7319 
+		transfer_state = 7320 
+		transfer_state = 7321 
+		transfer_state = 7322 
+		transfer_state = 7323
+				transfer_state = 456 
+		transfer_state = 6014 
+		transfer_state = 6015 
+		transfer_state = 6016 
+		transfer_state = 6017 
+		transfer_state = 6018 
+		transfer_state = 6019 
+		transfer_state = 6020 
+		transfer_state = 6021 
+		transfer_state = 6022 
+		transfer_state = 6023 
+		transfer_state = 6024 
+		transfer_state = 6025 
+		transfer_state = 6026 
+		transfer_state = 6027
+				transfer_state = 457 
+		transfer_state = 6028 
+		transfer_state = 6029 
+		transfer_state = 6030 
+		transfer_state = 6031 
+		transfer_state = 6032 
+		transfer_state = 6033 
+		transfer_state = 6034 
+		transfer_state = 6035
+				transfer_state = 447 
+		transfer_state = 5944 
+		transfer_state = 5945 
+		transfer_state = 5946 
+		transfer_state = 5947 
+		transfer_state = 5948 
+		transfer_state = 5949
+				transfer_state = 452 
+		transfer_state = 5977 
+		transfer_state = 5978 
+		transfer_state = 5979 
+		transfer_state = 5980 
+		transfer_state = 5981 
+		transfer_state = 5982 
+		transfer_state = 5983 
+		transfer_state = 5984
+				transfer_state = 446 
+		transfer_state = 5932 
+		transfer_state = 5933 
+		transfer_state = 5934 
+		transfer_state = 5935 
+		transfer_state = 5936 
+		transfer_state = 5937 
+		transfer_state = 5938 
+		transfer_state = 5939 
+		transfer_state = 5940 
+		transfer_state = 5941 
+		transfer_state = 5942 
+		transfer_state = 5943
+				transfer_state = 453 
+		transfer_state = 5985 
+		transfer_state = 5986 
+		transfer_state = 5987 
+		transfer_state = 5988 
+		transfer_state = 5989 
+		transfer_state = 5990 
+		transfer_state = 5991 
+		transfer_state = 5992
 			}
 		}
 		SAF = { puppet = EGY }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2036,13 +2605,78 @@ country_event = {
 						controls_state = 453
 					}
 				}
-				transfer_state = 552
-				transfer_state = 456
-				transfer_state = 457
-				transfer_state = 447
-				transfer_state = 452
-				transfer_state = 446
-				transfer_state = 453
+				transfer_state = 552 
+		transfer_state = 7315 
+		transfer_state = 7316 
+		transfer_state = 7317 
+		transfer_state = 7318 
+		transfer_state = 7319 
+		transfer_state = 7320 
+		transfer_state = 7321 
+		transfer_state = 7322 
+		transfer_state = 7323
+				transfer_state = 456 
+		transfer_state = 6014 
+		transfer_state = 6015 
+		transfer_state = 6016 
+		transfer_state = 6017 
+		transfer_state = 6018 
+		transfer_state = 6019 
+		transfer_state = 6020 
+		transfer_state = 6021 
+		transfer_state = 6022 
+		transfer_state = 6023 
+		transfer_state = 6024 
+		transfer_state = 6025 
+		transfer_state = 6026 
+		transfer_state = 6027
+				transfer_state = 457 
+		transfer_state = 6028 
+		transfer_state = 6029 
+		transfer_state = 6030 
+		transfer_state = 6031 
+		transfer_state = 6032 
+		transfer_state = 6033 
+		transfer_state = 6034 
+		transfer_state = 6035
+				transfer_state = 447 
+		transfer_state = 5944 
+		transfer_state = 5945 
+		transfer_state = 5946 
+		transfer_state = 5947 
+		transfer_state = 5948 
+		transfer_state = 5949
+				transfer_state = 452 
+		transfer_state = 5977 
+		transfer_state = 5978 
+		transfer_state = 5979 
+		transfer_state = 5980 
+		transfer_state = 5981 
+		transfer_state = 5982 
+		transfer_state = 5983 
+		transfer_state = 5984
+				transfer_state = 446 
+		transfer_state = 5932 
+		transfer_state = 5933 
+		transfer_state = 5934 
+		transfer_state = 5935 
+		transfer_state = 5936 
+		transfer_state = 5937 
+		transfer_state = 5938 
+		transfer_state = 5939 
+		transfer_state = 5940 
+		transfer_state = 5941 
+		transfer_state = 5942 
+		transfer_state = 5943
+				transfer_state = 453 
+		transfer_state = 5985 
+		transfer_state = 5986 
+		transfer_state = 5987 
+		transfer_state = 5988 
+		transfer_state = 5989 
+		transfer_state = 5990 
+		transfer_state = 5991 
+		transfer_state = 5992
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2061,13 +2695,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.73
-	title = tfv_south_africa.73.t	# Freedom for ERI
+	title = tfv_south_africa.73.t	
 	desc = tfv_south_africa.73.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2079,13 +2713,18 @@ country_event = {
 						controls_state = 550
 					} 
 				}
-				transfer_state = 550
+				transfer_state = 550 
+		transfer_state = 7290 
+		transfer_state = 7291 
+		transfer_state = 7292 
+		transfer_state = 7293 
+		transfer_state = 7294
 			}
 		}
 		SAF = { puppet = ERI }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2097,7 +2736,12 @@ country_event = {
 						controls_state = 550
 					}
 				}
-				transfer_state = 550
+				transfer_state = 550 
+		transfer_state = 7290 
+		transfer_state = 7291 
+		transfer_state = 7292 
+		transfer_state = 7293 
+		transfer_state = 7294
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2116,13 +2760,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.74
-	title = tfv_south_africa.74.t	# Freedom for ETH
+	title = tfv_south_africa.74.t	
 	desc = tfv_south_africa.74.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2134,13 +2778,34 @@ country_event = {
 						controls_state = 271
 					} 
 				}
-				transfer_state = 271
+				transfer_state = 271 
+		transfer_state = 3162 
+		transfer_state = 3163 
+		transfer_state = 3164 
+		transfer_state = 3165 
+		transfer_state = 3166 
+		transfer_state = 3167 
+		transfer_state = 3168 
+		transfer_state = 3169 
+		transfer_state = 3170 
+		transfer_state = 3171 
+		transfer_state = 3172 
+		transfer_state = 3173 
+		transfer_state = 3174 
+		transfer_state = 3175 
+		transfer_state = 3176 
+		transfer_state = 3177 
+		transfer_state = 3178 
+		transfer_state = 3179 
+		transfer_state = 3180 
+		transfer_state = 3181 
+		transfer_state = 3182
 			}
 		}
 		SAF = { puppet = ETH }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2152,7 +2817,28 @@ country_event = {
 						controls_state = 271
 					}
 				}
-				transfer_state = 271
+				transfer_state = 271 
+		transfer_state = 3162 
+		transfer_state = 3163 
+		transfer_state = 3164 
+		transfer_state = 3165 
+		transfer_state = 3166 
+		transfer_state = 3167 
+		transfer_state = 3168 
+		transfer_state = 3169 
+		transfer_state = 3170 
+		transfer_state = 3171 
+		transfer_state = 3172 
+		transfer_state = 3173 
+		transfer_state = 3174 
+		transfer_state = 3175 
+		transfer_state = 3176 
+		transfer_state = 3177 
+		transfer_state = 3178 
+		transfer_state = 3179 
+		transfer_state = 3180 
+		transfer_state = 3181 
+		transfer_state = 3182
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2171,13 +2857,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.75
-	title = tfv_south_africa.75.t	# Freedom for DJI
+	title = tfv_south_africa.75.t	
 	desc = tfv_south_africa.75.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2189,13 +2875,14 @@ country_event = {
 						controls_state = 268
 					} 
 				}
-				transfer_state = 268
+				transfer_state = 268 
+		transfer_state = 3143
 			}
 		}
 		SAF = { puppet = DJI }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2207,7 +2894,8 @@ country_event = {
 						controls_state = 268
 					}
 				}
-				transfer_state = 268
+				transfer_state = 268 
+		transfer_state = 3143
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2226,13 +2914,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.76
-	title = tfv_south_africa.76.t	# Freedom for SOM
+	title = tfv_south_africa.76.t	
 	desc = tfv_south_africa.76.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2245,14 +2933,34 @@ country_event = {
 						controls_state = 559
 					} 
 				}
-				transfer_state = 269
-				transfer_state = 559
+				transfer_state = 269 
+		transfer_state = 3144 
+		transfer_state = 3145 
+		transfer_state = 3146 
+		transfer_state = 3147 
+		transfer_state = 3148 
+		transfer_state = 3149 
+		transfer_state = 3150
+				transfer_state = 559 
+		transfer_state = 7370 
+		transfer_state = 7371 
+		transfer_state = 7372 
+		transfer_state = 7373 
+		transfer_state = 7374 
+		transfer_state = 7375 
+		transfer_state = 7376 
+		transfer_state = 7377 
+		transfer_state = 7378 
+		transfer_state = 7379 
+		transfer_state = 7380 
+		transfer_state = 7381 
+		transfer_state = 7382
 			}
 		}
 		SAF = { puppet = SOM }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2265,8 +2973,28 @@ country_event = {
 						controls_state = 559
 					}
 				}
-				transfer_state = 269
-				transfer_state = 559
+				transfer_state = 269 
+		transfer_state = 3144 
+		transfer_state = 3145 
+		transfer_state = 3146 
+		transfer_state = 3147 
+		transfer_state = 3148 
+		transfer_state = 3149 
+		transfer_state = 3150
+				transfer_state = 559 
+		transfer_state = 7370 
+		transfer_state = 7371 
+		transfer_state = 7372 
+		transfer_state = 7373 
+		transfer_state = 7374 
+		transfer_state = 7375 
+		transfer_state = 7376 
+		transfer_state = 7377 
+		transfer_state = 7378 
+		transfer_state = 7379 
+		transfer_state = 7380 
+		transfer_state = 7381 
+		transfer_state = 7382
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2285,13 +3013,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.77
-	title = tfv_south_africa.77.t	# Freedom for RWA
+	title = tfv_south_africa.77.t	
 	desc = tfv_south_africa.77.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2309,7 +3037,7 @@ country_event = {
 		SAF = { puppet = RWA }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2340,13 +3068,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.78
-	title = tfv_south_africa.78.t	# Freedom for BRD
+	title = tfv_south_africa.78.t	
 	desc = tfv_south_africa.78.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2364,7 +3092,7 @@ country_event = {
 		SAF = { puppet = BRD }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2395,13 +3123,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.79
-	title = tfv_south_africa.79.t	# Freedom for RCG
+	title = tfv_south_africa.79.t	
 	desc = tfv_south_africa.79.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2413,13 +3141,17 @@ country_event = {
 						controls_state = 772
 					} 
 				}
-				transfer_state = 772
+				transfer_state = 772 
+		transfer_state = 9756 
+		transfer_state = 9757 
+		transfer_state = 9758 
+		transfer_state = 9759
 			}
 		}
 		SAF = { puppet = RCG }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2431,7 +3163,11 @@ country_event = {
 						controls_state = 772
 					}
 				}
-				transfer_state = 772
+				transfer_state = 772 
+		transfer_state = 9756 
+		transfer_state = 9757 
+		transfer_state = 9758 
+		transfer_state = 9759
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2450,13 +3186,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.80
-	title = tfv_south_africa.80.t	# Freedom for GAB
+	title = tfv_south_africa.80.t	
 	desc = tfv_south_africa.80.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2468,13 +3204,16 @@ country_event = {
 						controls_state = 539
 					} 
 				}
-				transfer_state = 539
+				transfer_state = 539 
+		transfer_state = 7142 
+		transfer_state = 7143 
+		transfer_state = 7144
 			}
 		}
 		SAF = { puppet = GAB }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2486,7 +3225,10 @@ country_event = {
 						controls_state = 539
 					}
 				}
-				transfer_state = 539
+				transfer_state = 539 
+		transfer_state = 7142 
+		transfer_state = 7143 
+		transfer_state = 7144
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2505,13 +3247,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.81
-	title = tfv_south_africa.81.t	# Freedom for EQG
+	title = tfv_south_africa.81.t	
 	desc = tfv_south_africa.81.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2523,13 +3265,14 @@ country_event = {
 						controls_state = 297
 					} 
 				}
-				transfer_state = 297
+				transfer_state = 297 
+		transfer_state = 3601
 			}
 		}
 		SAF = { puppet = EQG }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2541,7 +3284,8 @@ country_event = {
 						controls_state = 297
 					}
 				}
-				transfer_state = 297
+				transfer_state = 297 
+		transfer_state = 3601
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2560,13 +3304,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.82
-	title = tfv_south_africa.82.t	# Freedom for CMR
+	title = tfv_south_africa.82.t	
 	desc = tfv_south_africa.82.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2578,13 +3322,19 @@ country_event = {
 						controls_state = 773
 					} 
 				}
-				transfer_state = 773
+				transfer_state = 773 
+		transfer_state = 9760 
+		transfer_state = 9761 
+		transfer_state = 9762 
+		transfer_state = 9763 
+		transfer_state = 9764 
+		transfer_state = 9765
 			}
 		}
 		SAF = { puppet = CMR }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2596,7 +3346,13 @@ country_event = {
 						controls_state = 773
 					}
 				}
-				transfer_state = 773
+				transfer_state = 773 
+		transfer_state = 9760 
+		transfer_state = 9761 
+		transfer_state = 9762 
+		transfer_state = 9763 
+		transfer_state = 9764 
+		transfer_state = 9765
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2615,13 +3371,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.83
-	title = tfv_south_africa.83.t	# Freedom for CAR
+	title = tfv_south_africa.83.t	
 	desc = tfv_south_africa.83.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2633,13 +3389,20 @@ country_event = {
 						controls_state = 660
 					} 
 				}
-				transfer_state = 660
+				transfer_state = 660 
+		transfer_state = 8771 
+		transfer_state = 8772 
+		transfer_state = 8773 
+		transfer_state = 8774 
+		transfer_state = 8775 
+		transfer_state = 8776 
+		transfer_state = 8777
 			}
 		}
 		SAF = { puppet = CAR }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2651,7 +3414,14 @@ country_event = {
 						controls_state = 660
 					}
 				}
-				transfer_state = 660
+				transfer_state = 660 
+		transfer_state = 8771 
+		transfer_state = 8772 
+		transfer_state = 8773 
+		transfer_state = 8774 
+		transfer_state = 8775 
+		transfer_state = 8776 
+		transfer_state = 8777
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2670,13 +3440,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.84
-	title = tfv_south_africa.84.t	# Freedom for CHA
+	title = tfv_south_africa.84.t	
 	desc = tfv_south_africa.84.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2689,14 +3459,27 @@ country_event = {
 						controls_state = 775
 					} 
 				}
-				transfer_state = 774
-				transfer_state = 775
+				transfer_state = 774 
+		transfer_state = 9766 
+		transfer_state = 9767 
+		transfer_state = 9768 
+		transfer_state = 9769 
+		transfer_state = 9770 
+		transfer_state = 9771 
+		transfer_state = 9772 
+		transfer_state = 9773 
+		transfer_state = 9774 
+		transfer_state = 9775 
+		transfer_state = 9776
+				transfer_state = 775 
+		transfer_state = 9777 
+		transfer_state = 9778
 			}
 		}
 		SAF = { puppet = CHA }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2709,8 +3492,21 @@ country_event = {
 						controls_state = 775
 					}
 				}
-				transfer_state = 774
-				transfer_state = 775
+				transfer_state = 774 
+		transfer_state = 9766 
+		transfer_state = 9767 
+		transfer_state = 9768 
+		transfer_state = 9769 
+		transfer_state = 9770 
+		transfer_state = 9771 
+		transfer_state = 9772 
+		transfer_state = 9773 
+		transfer_state = 9774 
+		transfer_state = 9775 
+		transfer_state = 9776
+				transfer_state = 775 
+		transfer_state = 9777 
+		transfer_state = 9778
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2729,13 +3525,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.85
-	title = tfv_south_africa.85.t	# Freedom for NGA
+	title = tfv_south_africa.85.t	
 	desc = tfv_south_africa.85.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2747,13 +3543,33 @@ country_event = {
 						controls_state = 558
 					} 
 				}
-				transfer_state = 558
+				transfer_state = 558 
+		transfer_state = 7350 
+		transfer_state = 7351 
+		transfer_state = 7352 
+		transfer_state = 7353 
+		transfer_state = 7354 
+		transfer_state = 7355 
+		transfer_state = 7356 
+		transfer_state = 7357 
+		transfer_state = 7358 
+		transfer_state = 7359 
+		transfer_state = 7360 
+		transfer_state = 7361 
+		transfer_state = 7362 
+		transfer_state = 7363 
+		transfer_state = 7364 
+		transfer_state = 7365 
+		transfer_state = 7366 
+		transfer_state = 7367 
+		transfer_state = 7368 
+		transfer_state = 7369
 			}
 		}
 		SAF = { puppet = NGA }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2765,7 +3581,27 @@ country_event = {
 						controls_state = 558
 					}
 				}
-				transfer_state = 558
+				transfer_state = 558 
+		transfer_state = 7350 
+		transfer_state = 7351 
+		transfer_state = 7352 
+		transfer_state = 7353 
+		transfer_state = 7354 
+		transfer_state = 7355 
+		transfer_state = 7356 
+		transfer_state = 7357 
+		transfer_state = 7358 
+		transfer_state = 7359 
+		transfer_state = 7360 
+		transfer_state = 7361 
+		transfer_state = 7362 
+		transfer_state = 7363 
+		transfer_state = 7364 
+		transfer_state = 7365 
+		transfer_state = 7366 
+		transfer_state = 7367 
+		transfer_state = 7368 
+		transfer_state = 7369
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2784,13 +3620,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.86
-	title = tfv_south_africa.86.t	# Freedom for NGR
+	title = tfv_south_africa.86.t	
 	desc = tfv_south_africa.86.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2803,14 +3639,24 @@ country_event = {
 						controls_state = 515
 					} 
 				}
-				transfer_state = 781
-				transfer_state = 515
+				transfer_state = 781 
+		transfer_state = 9807 
+		transfer_state = 9808
+				transfer_state = 515 
+		transfer_state = 6728 
+		transfer_state = 6729 
+		transfer_state = 6730 
+		transfer_state = 6731 
+		transfer_state = 6732 
+		transfer_state = 6733 
+		transfer_state = 6734 
+		transfer_state = 6735
 			}
 		}
 		SAF = { puppet = NGR }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2823,8 +3669,18 @@ country_event = {
 						controls_state = 515
 					}
 				}
-				transfer_state = 781
-				transfer_state = 515
+				transfer_state = 781 
+		transfer_state = 9807 
+		transfer_state = 9808
+				transfer_state = 515 
+		transfer_state = 6728 
+		transfer_state = 6729 
+		transfer_state = 6730 
+		transfer_state = 6731 
+		transfer_state = 6732 
+		transfer_state = 6733 
+		transfer_state = 6734 
+		transfer_state = 6735
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2843,13 +3699,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.87
-	title = tfv_south_africa.87.t	# Freedom for DAH
+	title = tfv_south_africa.87.t	
 	desc = tfv_south_africa.87.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2861,13 +3717,15 @@ country_event = {
 						controls_state = 776
 					} 
 				}
-				transfer_state = 776
+				transfer_state = 776 
+		transfer_state = 9779 
+		transfer_state = 9780
 			}
 		}
 		SAF = { puppet = DAH }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2879,7 +3737,9 @@ country_event = {
 						controls_state = 776
 					}
 				}
-				transfer_state = 776
+				transfer_state = 776 
+		transfer_state = 9779 
+		transfer_state = 9780
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2898,13 +3758,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.88
-	title = tfv_south_africa.88.t	# Freedom for TOG
+	title = tfv_south_africa.88.t	
 	desc = tfv_south_africa.88.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2916,13 +3776,15 @@ country_event = {
 						controls_state = 777
 					} 
 				}
-				transfer_state = 777
+				transfer_state = 777 
+		transfer_state = 9781 
+		transfer_state = 9782
 			}
 		}
 		SAF = { puppet = TOG }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2934,7 +3796,9 @@ country_event = {
 						controls_state = 777
 					}
 				}
-				transfer_state = 777
+				transfer_state = 777 
+		transfer_state = 9781 
+		transfer_state = 9782
 			}
 			hidden_effect = {
 				set_politics = {
@@ -2953,13 +3817,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.89
-	title = tfv_south_africa.89.t	# Freedom for GHA
+	title = tfv_south_africa.89.t	
 	desc = tfv_south_africa.89.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -2971,13 +3835,19 @@ country_event = {
 						controls_state = 274
 					} 
 				}
-				transfer_state = 274
+				transfer_state = 274 
+		transfer_state = 3203 
+		transfer_state = 3204 
+		transfer_state = 3205 
+		transfer_state = 3206 
+		transfer_state = 3207 
+		transfer_state = 3208
 			}
 		}
 		SAF = { puppet = GHA }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -2989,7 +3859,13 @@ country_event = {
 						controls_state = 274
 					}
 				}
-				transfer_state = 274
+				transfer_state = 274 
+		transfer_state = 3203 
+		transfer_state = 3204 
+		transfer_state = 3205 
+		transfer_state = 3206 
+		transfer_state = 3207 
+		transfer_state = 3208
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3008,13 +3884,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.90
-	title = tfv_south_africa.90.t	# Freedom for IVO
+	title = tfv_south_africa.90.t	
 	desc = tfv_south_africa.90.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3026,13 +3902,18 @@ country_event = {
 						controls_state = 779
 					} 
 				}
-				transfer_state = 779
+				transfer_state = 779 
+		transfer_state = 9788 
+		transfer_state = 9789 
+		transfer_state = 9790 
+		transfer_state = 9791 
+		transfer_state = 9792
 			}
 		}
 		SAF = { puppet = IVO }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3044,7 +3925,12 @@ country_event = {
 						controls_state = 779
 					}
 				}
-				transfer_state = 779
+				transfer_state = 779 
+		transfer_state = 9788 
+		transfer_state = 9789 
+		transfer_state = 9790 
+		transfer_state = 9791 
+		transfer_state = 9792
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3063,13 +3949,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.91
-	title = tfv_south_africa.91.t	# Freedom for VOL
+	title = tfv_south_africa.91.t	
 	desc = tfv_south_africa.91.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3081,13 +3967,18 @@ country_event = {
 						controls_state = 778
 					} 
 				}
-				transfer_state = 778
+				transfer_state = 778 
+		transfer_state = 9783 
+		transfer_state = 9784 
+		transfer_state = 9785 
+		transfer_state = 9786 
+		transfer_state = 9787
 			}
 		}
 		SAF = { puppet = VOL }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3099,7 +3990,12 @@ country_event = {
 						controls_state = 778
 					}
 				}
-				transfer_state = 778
+				transfer_state = 778 
+		transfer_state = 9783 
+		transfer_state = 9784 
+		transfer_state = 9785 
+		transfer_state = 9786 
+		transfer_state = 9787
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3118,13 +4014,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.92
-	title = tfv_south_africa.92.t	# Freedom for MLI
+	title = tfv_south_africa.92.t	
 	desc = tfv_south_africa.92.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3137,14 +4033,31 @@ country_event = {
 						controls_state = 782
 					} 
 				}
-				transfer_state = 556
-				transfer_state = 782
+				transfer_state = 556 
+		transfer_state = 7332 
+		transfer_state = 7333 
+		transfer_state = 7334 
+		transfer_state = 7335 
+		transfer_state = 7336 
+		transfer_state = 7337 
+		transfer_state = 7338 
+		transfer_state = 7339 
+		transfer_state = 7340 
+		transfer_state = 7341 
+		transfer_state = 7342 
+		transfer_state = 7343 
+		transfer_state = 7344 
+		transfer_state = 7345
+				transfer_state = 782 
+		transfer_state = 9809 
+		transfer_state = 9810 
+		transfer_state = 9811
 			}
 		}
 		SAF = { puppet = MLI }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3157,8 +4070,25 @@ country_event = {
 						controls_state = 782
 					}
 				}
-				transfer_state = 556
-				transfer_state = 782
+				transfer_state = 556 
+		transfer_state = 7332 
+		transfer_state = 7333 
+		transfer_state = 7334 
+		transfer_state = 7335 
+		transfer_state = 7336 
+		transfer_state = 7337 
+		transfer_state = 7338 
+		transfer_state = 7339 
+		transfer_state = 7340 
+		transfer_state = 7341 
+		transfer_state = 7342 
+		transfer_state = 7343 
+		transfer_state = 7344 
+		transfer_state = 7345
+				transfer_state = 782 
+		transfer_state = 9809 
+		transfer_state = 9810 
+		transfer_state = 9811
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3177,13 +4107,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.93
-	title = tfv_south_africa.93.t	# Freedom for SIE
+	title = tfv_south_africa.93.t	
 	desc = tfv_south_africa.93.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3195,13 +4125,14 @@ country_event = {
 						controls_state = 700
 					} 
 				}
-				transfer_state = 700
+				transfer_state = 700 
+		transfer_state = 9289
 			}
 		}
 		SAF = { puppet = SIE }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3213,7 +4144,8 @@ country_event = {
 						controls_state = 700
 					}
 				}
-				transfer_state = 700
+				transfer_state = 700 
+		transfer_state = 9289
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3232,13 +4164,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.94
-	title = tfv_south_africa.94.t	# Freedom for GNA
+	title = tfv_south_africa.94.t	
 	desc = tfv_south_africa.94.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3250,13 +4182,18 @@ country_event = {
 						controls_state = 780
 					} 
 				}
-				transfer_state = 780
+				transfer_state = 780 
+		transfer_state = 9802 
+		transfer_state = 9803 
+		transfer_state = 9804 
+		transfer_state = 9805 
+		transfer_state = 9806
 			}
 		}
 		SAF = { puppet = GNA }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3268,7 +4205,12 @@ country_event = {
 						controls_state = 780
 					}
 				}
-				transfer_state = 780
+				transfer_state = 780 
+		transfer_state = 9802 
+		transfer_state = 9803 
+		transfer_state = 9804 
+		transfer_state = 9805 
+		transfer_state = 9806
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3287,13 +4229,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.95
-	title = tfv_south_africa.95.t	# Freedom for GNB
+	title = tfv_south_africa.95.t	
 	desc = tfv_south_africa.95.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3305,13 +4247,14 @@ country_event = {
 						controls_state = 296
 					} 
 				}
-				transfer_state = 296
+				transfer_state = 296 
+		transfer_state = 3600
 			}
 		}
 		SAF = { puppet = GNB }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3323,7 +4266,8 @@ country_event = {
 						controls_state = 296
 					}
 				}
-				transfer_state = 296
+				transfer_state = 296 
+		transfer_state = 3600
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3342,13 +4286,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.96
-	title = tfv_south_africa.96.t	# Freedom for SEN
+	title = tfv_south_africa.96.t	
 	desc = tfv_south_africa.96.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3360,13 +4304,18 @@ country_event = {
 						controls_state = 272
 					} 
 				}
-				transfer_state = 272
+				transfer_state = 272 
+		transfer_state = 3183 
+		transfer_state = 3184 
+		transfer_state = 3185 
+		transfer_state = 3186 
+		transfer_state = 3187
 			}
 		}
 		SAF = { puppet = SEN }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3378,7 +4327,12 @@ country_event = {
 						controls_state = 272
 					}
 				}
-				transfer_state = 272
+				transfer_state = 272 
+		transfer_state = 3183 
+		transfer_state = 3184 
+		transfer_state = 3185 
+		transfer_state = 3186 
+		transfer_state = 3187
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3397,13 +4351,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.97
-	title = tfv_south_africa.97.t	# Freedom for GAM
+	title = tfv_south_africa.97.t	
 	desc = tfv_south_africa.97.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3415,13 +4369,14 @@ country_event = {
 						controls_state = 701
 					} 
 				}
-				transfer_state = 701
+				transfer_state = 701 
+		transfer_state = 9290
 			}
 		}
 		SAF = { puppet = GAM }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3433,7 +4388,8 @@ country_event = {
 						controls_state = 701
 					}
 				}
-				transfer_state = 701
+				transfer_state = 701 
+		transfer_state = 9290
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3452,13 +4408,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.98
-	title = tfv_south_africa.98.t	# Freedom for LIB
+	title = tfv_south_africa.98.t	
 	desc = tfv_south_africa.98.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3470,13 +4426,14 @@ country_event = {
 						controls_state = 298
 					} 
 				}
-				transfer_state = 298
+				transfer_state = 298 
+		transfer_state = 3602
 			}
 		}
 		SAF = { puppet = LIB }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3488,7 +4445,8 @@ country_event = {
 						controls_state = 298
 					}
 				}
-				transfer_state = 298
+				transfer_state = 298 
+		transfer_state = 3602
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3507,13 +4465,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.99
-	title = tfv_south_africa.99.t	# Freedom for MRT
+	title = tfv_south_africa.99.t	
 	desc = tfv_south_africa.99.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3526,14 +4484,24 @@ country_event = {
 						controls_state = 786
 					} 
 				}
-				transfer_state = 557
-				transfer_state = 786
+				transfer_state = 557 
+		transfer_state = 7346 
+		transfer_state = 7347 
+		transfer_state = 7348 
+		transfer_state = 7349
+				transfer_state = 786 
+		transfer_state = 9821 
+		transfer_state = 9822 
+		transfer_state = 9823 
+		transfer_state = 9824 
+		transfer_state = 9825 
+		transfer_state = 9826
 			}
 		}
 		SAF = { puppet = MRT }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3546,8 +4514,18 @@ country_event = {
 						controls_state = 786
 					}
 				}
-				transfer_state = 557
-				transfer_state = 786
+				transfer_state = 557 
+		transfer_state = 7346 
+		transfer_state = 7347 
+		transfer_state = 7348 
+		transfer_state = 7349
+				transfer_state = 786 
+		transfer_state = 9821 
+		transfer_state = 9822 
+		transfer_state = 9823 
+		transfer_state = 9824 
+		transfer_state = 9825 
+		transfer_state = 9826
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3566,13 +4544,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.100
-	title = tfv_south_africa.100.t	# Freedom for WES
+	title = tfv_south_africa.100.t	
 	desc = tfv_south_africa.100.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3584,13 +4562,18 @@ country_event = {
 						controls_state = 699
 					} 
 				}
-				transfer_state = 699
+				transfer_state = 699 
+		transfer_state = 9274 
+		transfer_state = 9275 
+		transfer_state = 9276 
+		transfer_state = 9277 
+		transfer_state = 9278
 			}
 		}
 		SAF = { puppet = WES }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3602,7 +4585,12 @@ country_event = {
 						controls_state = 699
 					}
 				}
-				transfer_state = 699
+				transfer_state = 699 
+		transfer_state = 9274 
+		transfer_state = 9275 
+		transfer_state = 9276 
+		transfer_state = 9277 
+		transfer_state = 9278
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3621,13 +4609,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.101
-	title = tfv_south_africa.101.t	# Freedom for ALG
+	title = tfv_south_africa.101.t	
 	desc = tfv_south_africa.101.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3642,16 +4630,72 @@ country_event = {
 						controls_state = 514
 					} 
 				}
-				transfer_state = 459
-				transfer_state = 460
-				transfer_state = 513
-				transfer_state = 514
+				transfer_state = 459 
+		transfer_state = 6047 
+		transfer_state = 6048 
+		transfer_state = 6049 
+		transfer_state = 6050 
+		transfer_state = 6051 
+		transfer_state = 6052 
+		transfer_state = 6053 
+		transfer_state = 6054 
+		transfer_state = 6055
+				transfer_state = 460 
+		transfer_state = 6073 
+		transfer_state = 6074 
+		transfer_state = 6075 
+		transfer_state = 6076 
+		transfer_state = 6077 
+		transfer_state = 6078 
+		transfer_state = 6079 
+		transfer_state = 6080 
+		transfer_state = 6081 
+		transfer_state = 6082
+				transfer_state = 513 
+		transfer_state = 6691 
+		transfer_state = 6692 
+		transfer_state = 6693 
+		transfer_state = 6694 
+		transfer_state = 6695 
+		transfer_state = 6696 
+		transfer_state = 6697 
+		transfer_state = 6698 
+		transfer_state = 6699 
+		transfer_state = 6700 
+		transfer_state = 6701 
+		transfer_state = 6702 
+		transfer_state = 6703 
+		transfer_state = 6704 
+		transfer_state = 6705 
+		transfer_state = 6706 
+		transfer_state = 6707 
+		transfer_state = 6708 
+		transfer_state = 6709 
+		transfer_state = 6710 
+		transfer_state = 6711
+				transfer_state = 514 
+		transfer_state = 6712 
+		transfer_state = 6713 
+		transfer_state = 6714 
+		transfer_state = 6715 
+		transfer_state = 6716 
+		transfer_state = 6717 
+		transfer_state = 6718 
+		transfer_state = 6719 
+		transfer_state = 6720 
+		transfer_state = 6721 
+		transfer_state = 6722 
+		transfer_state = 6723 
+		transfer_state = 6724 
+		transfer_state = 6725 
+		transfer_state = 6726 
+		transfer_state = 6727
 			}
 		}
 		SAF = { puppet = ALG }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3666,10 +4710,66 @@ country_event = {
 						controls_state = 514
 					}
 				}
-				transfer_state = 459
-				transfer_state = 460
-				transfer_state = 513
-				transfer_state = 514
+				transfer_state = 459 
+		transfer_state = 6047 
+		transfer_state = 6048 
+		transfer_state = 6049 
+		transfer_state = 6050 
+		transfer_state = 6051 
+		transfer_state = 6052 
+		transfer_state = 6053 
+		transfer_state = 6054 
+		transfer_state = 6055
+				transfer_state = 460 
+		transfer_state = 6073 
+		transfer_state = 6074 
+		transfer_state = 6075 
+		transfer_state = 6076 
+		transfer_state = 6077 
+		transfer_state = 6078 
+		transfer_state = 6079 
+		transfer_state = 6080 
+		transfer_state = 6081 
+		transfer_state = 6082
+				transfer_state = 513 
+		transfer_state = 6691 
+		transfer_state = 6692 
+		transfer_state = 6693 
+		transfer_state = 6694 
+		transfer_state = 6695 
+		transfer_state = 6696 
+		transfer_state = 6697 
+		transfer_state = 6698 
+		transfer_state = 6699 
+		transfer_state = 6700 
+		transfer_state = 6701 
+		transfer_state = 6702 
+		transfer_state = 6703 
+		transfer_state = 6704 
+		transfer_state = 6705 
+		transfer_state = 6706 
+		transfer_state = 6707 
+		transfer_state = 6708 
+		transfer_state = 6709 
+		transfer_state = 6710 
+		transfer_state = 6711
+				transfer_state = 514 
+		transfer_state = 6712 
+		transfer_state = 6713 
+		transfer_state = 6714 
+		transfer_state = 6715 
+		transfer_state = 6716 
+		transfer_state = 6717 
+		transfer_state = 6718 
+		transfer_state = 6719 
+		transfer_state = 6720 
+		transfer_state = 6721 
+		transfer_state = 6722 
+		transfer_state = 6723 
+		transfer_state = 6724 
+		transfer_state = 6725 
+		transfer_state = 6726 
+		transfer_state = 6727
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3688,13 +4788,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.102
-	title = tfv_south_africa.102.t	# Freedom for MOR
+	title = tfv_south_africa.102.t	
 	desc = tfv_south_africa.102.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3709,16 +4809,50 @@ country_event = {
 						controls_state = 783
 					} 
 				}
-				transfer_state = 290
-				transfer_state = 461
-				transfer_state = 462
+				transfer_state = 290 
+		transfer_state = 3527 
+		transfer_state = 3528 
+		transfer_state = 3529 
+		transfer_state = 3530 
+		transfer_state = 3531
+				transfer_state = 461 
+		transfer_state = 6083 
+		transfer_state = 6084 
+		transfer_state = 6085 
+		transfer_state = 6086 
+		transfer_state = 6087 
+		transfer_state = 6088 
+		transfer_state = 6089 
+		transfer_state = 6090 
+		transfer_state = 6091 
+		transfer_state = 6092 
+		transfer_state = 6093 
+		transfer_state = 6094 
+		transfer_state = 6095 
+		transfer_state = 6096 
+		transfer_state = 6097 
+		transfer_state = 6098
+				transfer_state = 462 
+		transfer_state = 6099 
+		transfer_state = 6100 
+		transfer_state = 6101 
+		transfer_state = 6102 
+		transfer_state = 6103 
+		transfer_state = 6104 
+		transfer_state = 6105 
+		transfer_state = 6106 
+		transfer_state = 6107 
+		transfer_state = 6108 
+		transfer_state = 6109 
+		transfer_state = 6110 
+		transfer_state = 6111
 				transfer_state = 783
 			}
 		}
 		SAF = { puppet = MOR }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3733,9 +4867,43 @@ country_event = {
 						controls_state = 783
 					}
 				}
-				transfer_state = 290
-				transfer_state = 461
-				transfer_state = 462
+				transfer_state = 290 
+		transfer_state = 3527 
+		transfer_state = 3528 
+		transfer_state = 3529 
+		transfer_state = 3530 
+		transfer_state = 3531
+				transfer_state = 461 
+		transfer_state = 6083 
+		transfer_state = 6084 
+		transfer_state = 6085 
+		transfer_state = 6086 
+		transfer_state = 6087 
+		transfer_state = 6088 
+		transfer_state = 6089 
+		transfer_state = 6090 
+		transfer_state = 6091 
+		transfer_state = 6092 
+		transfer_state = 6093 
+		transfer_state = 6094 
+		transfer_state = 6095 
+		transfer_state = 6096 
+		transfer_state = 6097 
+		transfer_state = 6098
+				transfer_state = 462 
+		transfer_state = 6099 
+		transfer_state = 6100 
+		transfer_state = 6101 
+		transfer_state = 6102 
+		transfer_state = 6103 
+		transfer_state = 6104 
+		transfer_state = 6105 
+		transfer_state = 6106 
+		transfer_state = 6107 
+		transfer_state = 6108 
+		transfer_state = 6109 
+		transfer_state = 6110 
+		transfer_state = 6111
 				transfer_state = 783
 			}
 			hidden_effect = {
@@ -3755,13 +4923,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.103
-	title = tfv_south_africa.103.t	# Freedom for TUN
+	title = tfv_south_africa.103.t	
 	desc = tfv_south_africa.103.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3774,14 +4942,36 @@ country_event = {
 						controls_state = 665
 					} 
 				}
-				transfer_state = 458
-				transfer_state = 665
+				transfer_state = 458 
+		transfer_state = 6036 
+		transfer_state = 6037 
+		transfer_state = 6038 
+		transfer_state = 6039 
+		transfer_state = 6040 
+		transfer_state = 6041 
+		transfer_state = 6042 
+		transfer_state = 6043 
+		transfer_state = 6044 
+		transfer_state = 6045 
+		transfer_state = 6046
+				transfer_state = 665 
+		transfer_state = 8808 
+		transfer_state = 8809 
+		transfer_state = 8810 
+		transfer_state = 8811 
+		transfer_state = 8812 
+		transfer_state = 8813 
+		transfer_state = 8814 
+		transfer_state = 8815 
+		transfer_state = 8816 
+		transfer_state = 8817 
+		transfer_state = 8818
 			}
 		}
 		SAF = { puppet = TUN }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3794,8 +4984,30 @@ country_event = {
 						controls_state = 665
 					}
 				}
-				transfer_state = 458
-				transfer_state = 665
+				transfer_state = 458 
+		transfer_state = 6036 
+		transfer_state = 6037 
+		transfer_state = 6038 
+		transfer_state = 6039 
+		transfer_state = 6040 
+		transfer_state = 6041 
+		transfer_state = 6042 
+		transfer_state = 6043 
+		transfer_state = 6044 
+		transfer_state = 6045 
+		transfer_state = 6046
+				transfer_state = 665 
+		transfer_state = 8808 
+		transfer_state = 8809 
+		transfer_state = 8810 
+		transfer_state = 8811 
+		transfer_state = 8812 
+		transfer_state = 8813 
+		transfer_state = 8814 
+		transfer_state = 8815 
+		transfer_state = 8816 
+		transfer_state = 8817 
+		transfer_state = 8818
 			}
 			hidden_effect = {
 				set_politics = {
@@ -3814,13 +5026,13 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.104
-	title = tfv_south_africa.104.t	# Freedom for LBA
+	title = tfv_south_africa.104.t	
 	desc = tfv_south_africa.104.d
 	picture = GFX_report_event_african_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { #puppet new state
+	option = { 
 		name = tfv_south_africa.64.a
 		ai_chance = {
 			base = 100
@@ -3839,20 +5051,83 @@ country_event = {
 						controls_state = 273
 					} 
 				}
-				transfer_state = 448
-				transfer_state = 449
-				transfer_state = 450
-				transfer_state = 451
-				transfer_state = 661
-				transfer_state = 662
-				transfer_state = 663
-				transfer_state = 273
+				transfer_state = 448 
+		transfer_state = 5950 
+		transfer_state = 5951 
+		transfer_state = 5952 
+		transfer_state = 5953 
+		transfer_state = 5954 
+		transfer_state = 5955 
+		transfer_state = 5956
+				transfer_state = 449 
+		transfer_state = 5957 
+		transfer_state = 5958 
+		transfer_state = 5959 
+		transfer_state = 5960 
+		transfer_state = 5961 
+		transfer_state = 5962
+				transfer_state = 450 
+		transfer_state = 5967 
+		transfer_state = 5968 
+		transfer_state = 5969
+				transfer_state = 451 
+		transfer_state = 5970 
+		transfer_state = 5971 
+		transfer_state = 5972 
+		transfer_state = 5973 
+		transfer_state = 5974 
+		transfer_state = 5975 
+		transfer_state = 5976
+				transfer_state = 661 
+		transfer_state = 8778 
+		transfer_state = 8779 
+		transfer_state = 8780 
+		transfer_state = 8781 
+		transfer_state = 8782 
+		transfer_state = 8783 
+		transfer_state = 8784 
+		transfer_state = 8785 
+		transfer_state = 8786
+				transfer_state = 662 
+		transfer_state = 8787 
+		transfer_state = 8788 
+		transfer_state = 8789 
+		transfer_state = 8790
+				transfer_state = 663 
+		transfer_state = 8791 
+		transfer_state = 8792 
+		transfer_state = 8793 
+		transfer_state = 8794 
+		transfer_state = 8795 
+		transfer_state = 8796 
+		transfer_state = 8797 
+		transfer_state = 8798 
+		transfer_state = 8799 
+		transfer_state = 8800 
+		transfer_state = 8801 
+		transfer_state = 8802
+				transfer_state = 273 
+		transfer_state = 3188 
+		transfer_state = 3189 
+		transfer_state = 3190 
+		transfer_state = 3191 
+		transfer_state = 3192 
+		transfer_state = 3193 
+		transfer_state = 3194 
+		transfer_state = 3195 
+		transfer_state = 3196 
+		transfer_state = 3197 
+		transfer_state = 3198 
+		transfer_state = 3199 
+		transfer_state = 3200 
+		transfer_state = 3201 
+		transfer_state = 3202
 			}
 		}
 		SAF = { puppet = LBA }
 	}
 
-	option = { #full freedom
+	option = { 
 		name = tfv_south_africa.64.b
 		ai_chance = {
 			base = 0
@@ -3871,14 +5146,77 @@ country_event = {
 						controls_state = 273
 					}
 				}
-				transfer_state = 448
-				transfer_state = 449
-				transfer_state = 450
-				transfer_state = 451
-				transfer_state = 661
-				transfer_state = 662
-				transfer_state = 663
-				transfer_state = 273
+				transfer_state = 448 
+		transfer_state = 5950 
+		transfer_state = 5951 
+		transfer_state = 5952 
+		transfer_state = 5953 
+		transfer_state = 5954 
+		transfer_state = 5955 
+		transfer_state = 5956
+				transfer_state = 449 
+		transfer_state = 5957 
+		transfer_state = 5958 
+		transfer_state = 5959 
+		transfer_state = 5960 
+		transfer_state = 5961 
+		transfer_state = 5962
+				transfer_state = 450 
+		transfer_state = 5967 
+		transfer_state = 5968 
+		transfer_state = 5969
+				transfer_state = 451 
+		transfer_state = 5970 
+		transfer_state = 5971 
+		transfer_state = 5972 
+		transfer_state = 5973 
+		transfer_state = 5974 
+		transfer_state = 5975 
+		transfer_state = 5976
+				transfer_state = 661 
+		transfer_state = 8778 
+		transfer_state = 8779 
+		transfer_state = 8780 
+		transfer_state = 8781 
+		transfer_state = 8782 
+		transfer_state = 8783 
+		transfer_state = 8784 
+		transfer_state = 8785 
+		transfer_state = 8786
+				transfer_state = 662 
+		transfer_state = 8787 
+		transfer_state = 8788 
+		transfer_state = 8789 
+		transfer_state = 8790
+				transfer_state = 663 
+		transfer_state = 8791 
+		transfer_state = 8792 
+		transfer_state = 8793 
+		transfer_state = 8794 
+		transfer_state = 8795 
+		transfer_state = 8796 
+		transfer_state = 8797 
+		transfer_state = 8798 
+		transfer_state = 8799 
+		transfer_state = 8800 
+		transfer_state = 8801 
+		transfer_state = 8802
+				transfer_state = 273 
+		transfer_state = 3188 
+		transfer_state = 3189 
+		transfer_state = 3190 
+		transfer_state = 3191 
+		transfer_state = 3192 
+		transfer_state = 3193 
+		transfer_state = 3194 
+		transfer_state = 3195 
+		transfer_state = 3196 
+		transfer_state = 3197 
+		transfer_state = 3198 
+		transfer_state = 3199 
+		transfer_state = 3200 
+		transfer_state = 3201 
+		transfer_state = 3202
 			}
 			hidden_effect = {
 				set_politics = {

@@ -1,10 +1,3 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
-### search_filters = {FOCUS_FILTER_RESEARCH}
-### search_filters = {FOCUS_FILTER_INDUSTRY}
-### search_filters = {FOCUS_FILTER_STABILITY}
-### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-### search_filters = {FOCUS_FILTER_MANPOWER}
-### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 focus_tree = {
 	id = netherlands_focus
@@ -23,11 +16,11 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 1500 }
 
- ##   ##  #    ##  #  # ###  ##  #       ### #  # ###  #  #  ## ### ###  #   #     ### ###  ### ### 
-#  # #  # #   #  # ## #  #  #  # #        #  ## # #  # #  # #    #  #  #  # #       #  #  # #   #   
-#    #  # #   #  # # ##  #  #### #        #  # ## #  # #  #  #   #  ###    #        #  ###  ##  ##  
-#  # #  # #   #  # #  #  #  #  # #        #  #  # #  # #  #   #  #  #  #   #        #  #  # #   #   
- ##   ##  ###  ##  #  # ### #  # ###     ### #  # ###   ##  ##   #  #  #   #        #  #  # ### ### 
+ 
+
+
+
+ 
 
 
 	focus = {
@@ -63,11 +56,11 @@ focus_tree = {
 		}
 	}
 
-#   # ###  ## ###     ### #  # ###  ### ###  ## 
-#   # #   #    #       #  ## # #  #  #  #   #   
-# # # ##   #   #       #  # ## #  #  #  ##   #  
-# # # #     #  #       #  #  # #  #  #  #     # 
- # #  ### ##   #      ### #  # ###  ### ### ##  
+
+
+
+
+ 
 
 
 	focus = {
@@ -317,11 +310,11 @@ focus_tree = {
 		}
 	}
 
-###  ##   ## ###     ### #  # ###  ### ###  ## 
-#   #  # #    #       #  ## # #  #  #  #   #   
-##  ####  #   #       #  # ## #  #  #  ##   #  
-#   #  #   #  #       #  #  # #  #  #  #     # 
-### #  # ##   #      ### #  # ###  ### ### ##  
+
+
+
+
+
 
 	focus = {
 		id = HOL_the_crown_jewel_colony
@@ -724,11 +717,11 @@ focus_tree = {
 		}
 	}
 
- ##   ##  #  # ### ### #  # #  # ###     ### #  # ###     #   #  ##  ###      ### #  #     ###   ##  ###  ##  #   # ###  ##  
-#  # #  # ## #  #   #  ## # #  # #        #  #  # #       #   # #  # #  #      #  ## #     #  # #  #  #  #  # #   #  #  #  # 
-#    #  # # ##  #   #  # ## #  # ##       #  #### ##      # # # #### ###       #  # ##     ###  ####  #  ####  # #   #  #### 
-#  # #  # #  #  #   #  #  # #  # #        #  #  # #       # # # #  # #  #      #  #  #     #  # #  #  #  #  #  # #   #  #  # 
- ##   ##  #  #  #  ### #  #  ##  ###      #  #  # ###      # #  #  # #  #     ### #  #     ###  #  #  #  #  #   #   ### #  # 
+ 
+
+
+
+ 
 
  	focus = {
 		id = HOL_curtail_colonial_autonomy
@@ -1167,11 +1160,11 @@ focus_tree = {
 		}
 	}
 
- ##  ###   ##  #  # ###   ##  #  #     ### #  # ###      ##   ##  #   ###       ## ###  ##  #  # ###   ##  ###  ###  
-#  # #  # #  # ## # #  # #  # ## #      #  #  # #       #    #  # #   #  #     #    #  #  # ## # #  # #  # #  # #  # 
-#### ###  #### # ## #  # #  # # ##      #  #### ##      # ## #  # #   #  #      #   #  #### # ## #  # #### ###  #  # 
-#  # #  # #  # #  # #  # #  # #  #      #  #  # #       #  # #  # #   #  #       #  #  #  # #  # #  # #  # #  # #  # 
-#  # ###  #  # #  # ###   ##  #  #      #  #  # ###      ##   ##  ### ###      ##   #  #  # #  # ###  #  # #  # ###  
+ 
+
+
+
+
 
 	focus = {
 		id = HOL_abandon_the_gold_standard
@@ -1187,11 +1180,11 @@ focus_tree = {
 		}
 	}
 
-#   #  ##  ### #  # #    ##  #  # ###      ### #  # ###  #  #  ## ### ###  #   #     ### ###  ### ### 
-## ## #  #  #  ## # #   #  # ## # #  #      #  ## # #  # #  # #    #  #  #  # #       #  #  # #   #   
-# # # ####  #  # ## #   #### # ## #  #      #  # ## #  # #  #  #   #  ###    #        #  ###  ##  ##  
-#   # #  #  #  #  # #   #  # #  # #  #      #  #  # #  # #  #   #  #  #  #   #        #  #  # #   #   
-#   # #  # ### #  # ### #  # #  # ###      ### #  # ###   ##  ##   #  #  #   #        #  #  # ### ### 
+
+
+
+
+
 
 
 	focus = {
@@ -1404,11 +1397,11 @@ focus_tree = {
 		}
 	}
 
-### #  # ###     ### #  # ### ###  ### ###  ### ### ###     #   #  ##  ###  # #  ## 
- #  #  # #         # #  #  #  #  # #   #  #   # #   #       #   # #  # #  # # # #   
- #  #### ##       #  #  #  #  #  # ##  ###   #  ##  ##      # # # #  # ###  ##   #  
- #  #  # #       #   #  #  #  #  # #   #  # #   #   #       # # # #  # #  # # #   # 
- #  #  # ###     ###  ##  ### ###  ### #  # ### ### ###      # #   ##  #  # # # ##  
+
+ 
+ 
+ 
+ 
 
  	focus = {
 		id = HOL_the_zuiderzee_works
@@ -1922,11 +1915,11 @@ focus_tree = {
 		}
 	}
 
-#   # ### #   ### ###  ##  ###  #   #     ### ###  ### ### 
-## ##  #  #    #   #  #  # #  #  # #       #  #  # #   #   
-# # #  #  #    #   #  #### ###    #        #  ###  ##  ##  
-#   #  #  #    #   #  #  # #  #   #        #  #  # #   #   
-#   # ### ### ###  #  #  # #  #   #        #  #  # ### ### 
+
+
+
+
+
 
 	focus = {
 		id = HOL_overturn_military_budget_cuts
@@ -1945,11 +1938,11 @@ focus_tree = {
 		}
 	}
 
-###  ### ### ### #  #  ## ###  ## 
-#  # #   #   #   ## # #   #   #   
-#  # ##  ##  ##  # ##  #  ##   #  
-#  # #   #   #   #  #   # #     # 
-###  ### #   ### #  # ##  ### ##  
+
+
+
+
+
 
 
 	focus = {
@@ -2340,11 +2333,11 @@ focus_tree = {
 		}
 	}
 
- ##  ###  #   # #   #     ### ###  ### ### 
-#  # #  # ## ##  # #       #  #  # #   #   
-#### ###  # # #   #        #  ###  ##  ##  
-#  # #  # #   #   #        #  #  # #   #   
-#  # #  # #   #   #        #  #  # ### ### 
+ 
+
+
+
+
 
 
 	focus = {
@@ -2369,7 +2362,7 @@ focus_tree = {
 			remove_ideas = HOL_izaak_reijnders
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = HOL_henri_winkelman
-			remove_unit_leader = 980 #izaak_reijnders
+			remove_unit_leader = 980 
 			custom_effect_tooltip = HOL_appoint_new_supreme_commander_tt
 			hidden_effect = {
 				create_field_marshal = {
@@ -2635,11 +2628,11 @@ focus_tree = {
 		}
 	}
 
- ##  ### ###      ### ###  ### ### 
-#  #  #  #  #      #  #  # #   #   
-####  #  ###       #  ###  ##  ##  
-#  #  #  #  #      #  #  # #   #   
-#  # ### #  #      #  #  # ### ### 
+ 
+
+
+
+
 
 	focus = {
 		id = HOL_expand_the_mld
@@ -2999,11 +2992,11 @@ focus_tree = {
 		}
 	}
 
-#  #  ##  #   #  ##  #       ### ###  ### ### 
-## # #  # #   # #  # #        #  #  # #   #   
-# ## ####  # #  #### #        #  ###  ##  ##  
-#  # #  #  # #  #  # #        #  #  # #   #   
-#  # #  #   #   #  # ###      #  #  # ### ### 
+
+
+
+
+
 	
 	focus = {
 		id = HOL_prepare_naval_expansion
@@ -3282,11 +3275,11 @@ focus_tree = {
 		}
 	}
 
-###   ##  #   ### ### ###  ##   ##  #       ### ###  ### ### 
-#  # #  # #    #   #   #  #  # #  # #        #  #  # #   #   
-###  #  # #    #   #   #  #    #### #        #  ###  ##  ##  
-#    #  # #    #   #   #  #  # #  # #        #  #  # #   #   
-#     ##  ### ###  #  ###  ##  #  # ###      #  #  # ### ### 
+
+
+
+
+
 
 	focus = {
 		id = HOL_form_new_government
@@ -3571,11 +3564,11 @@ focus_tree = {
 		}
 	}
 
-###  ##   ##  ##  ### #   # 
-#   #  # #   #  #  #  ## ## 
-##  ####  #  #     #  # # # 
-#   #  #   # #  #  #  #   # 
-#   #  # ##   ##  ### #   # 
+
+
+
+
+
 
 	focus = {
 		id = HOL_volk_en_vaderland
@@ -3645,11 +3638,11 @@ focus_tree = {
 		}
 	}
 
- ###  ##  ### #  #      ##  ### ###  #   #  ##  #  # #   # 
-   # #  #  #  ## #     #    #   #  # ## ## #  # ## #  # #  
-   # #  #  #  # ##     # ## ##  ###  # # # #### # ##   #   
-#  # #  #  #  #  #     #  # #   #  # #   # #  # #  #   #   
- ##   ##  ### #  #      ##  ### #  # #   # #  # #  #   #   
+ 
+   
+   
+
+ 
 
 
 	focus = {
@@ -4012,11 +4005,11 @@ focus_tree = {
 		}
 	}
 
-#  # ### ### #  # ### ###  #    ##  #  # ###   ##     ### ### ###   ## ### 
-## # #    #  #  # #   #  # #   #  # ## # #  # #       #    #  #  # #    #  
-# ## ##   #  #### ##  ###  #   #### # ## #  #  #      ##   #  ###   #   #  
-#  # #    #  #  # #   #  # #   #  # #  # #  #   #     #    #  #  #   #  #  
-#  # ###  #  #  # ### #  # ### #  # #  # ###  ##      #   ### #  # ##   #  
+
+
+
+
+
 
 	focus = {
 		id = HOL_the_netherlands_first
@@ -4128,7 +4121,14 @@ focus_tree = {
 					has_full_control_of_state = 29
 				}
 				HOL = {
-					add_state_claim = 29
+					add_state_claim = 29 
+		add_state_claim = 3520 
+		add_state_claim = 3521 
+		add_state_claim = 3522 
+		add_state_claim = 3523 
+		add_state_claim = 3524 
+		add_state_claim = 3525 
+		add_state_claim = 3526
 					create_wargoal = {
 					    type = take_state_focus
 					    generator = { 29 }
@@ -4220,16 +4220,64 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_state_claim = 694
-			add_state_claim = 308
-			add_state_claim = 691
-			add_state_claim = 687
-			add_state_claim = 310
-			add_state_claim = 274
-			add_state_claim = 681
-			add_state_claim = 275
-			add_state_claim = 719
-			add_state_claim = 422
+			add_state_claim = 694 
+		add_state_claim = 9272 
+		add_state_claim = 9273
+			add_state_claim = 308 
+		add_state_claim = 3686
+			add_state_claim = 691 
+		add_state_claim = 9267
+			add_state_claim = 687 
+		add_state_claim = 9245 
+		add_state_claim = 9246
+			add_state_claim = 310 
+		add_state_claim = 3707
+			add_state_claim = 274 
+		add_state_claim = 3203 
+		add_state_claim = 3204 
+		add_state_claim = 3205 
+		add_state_claim = 3206 
+		add_state_claim = 3207 
+		add_state_claim = 3208
+			add_state_claim = 681 
+		add_state_claim = 9184 
+		add_state_claim = 9185 
+		add_state_claim = 9186 
+		add_state_claim = 9187 
+		add_state_claim = 9188 
+		add_state_claim = 9189 
+		add_state_claim = 9190 
+		add_state_claim = 9191 
+		add_state_claim = 9192 
+		add_state_claim = 9193
+			add_state_claim = 275 
+		add_state_claim = 3209 
+		add_state_claim = 3210 
+		add_state_claim = 3211 
+		add_state_claim = 3212 
+		add_state_claim = 3213 
+		add_state_claim = 3214 
+		add_state_claim = 3215 
+		add_state_claim = 3216 
+		add_state_claim = 3217 
+		add_state_claim = 3218
+			add_state_claim = 719 
+		add_state_claim = 9415 
+		add_state_claim = 9416 
+		add_state_claim = 9417 
+		add_state_claim = 9418 
+		add_state_claim = 9419 
+		add_state_claim = 9420 
+		add_state_claim = 9421 
+		add_state_claim = 9422
+			add_state_claim = 422 
+		add_state_claim = 5583 
+		add_state_claim = 5584 
+		add_state_claim = 5585 
+		add_state_claim = 5586 
+		add_state_claim = 5587 
+		add_state_claim = 5588 
+		add_state_claim = 5589
 			create_wargoal = {
 			    type = take_state_focus
 			    generator = { 694 310 }
@@ -4276,10 +4324,88 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = HOL_imperial_ambitions
 			add_war_support = 0.1
-			add_state_claim = 357
-			add_state_claim = 358
-			add_state_claim = 359
-			add_state_claim = 361
+			add_state_claim = 357 
+		add_state_claim = 4267 
+		add_state_claim = 4268 
+		add_state_claim = 4269 
+		add_state_claim = 4270 
+		add_state_claim = 4271 
+		add_state_claim = 4272 
+		add_state_claim = 4273 
+		add_state_claim = 4274 
+		add_state_claim = 4275 
+		add_state_claim = 4276 
+		add_state_claim = 4277 
+		add_state_claim = 4278 
+		add_state_claim = 4279 
+		add_state_claim = 4280 
+		add_state_claim = 4281 
+		add_state_claim = 4282 
+		add_state_claim = 4283 
+		add_state_claim = 4284 
+		add_state_claim = 4285 
+		add_state_claim = 4286 
+		add_state_claim = 4287 
+		add_state_claim = 4288 
+		add_state_claim = 4289 
+		add_state_claim = 4290 
+		add_state_claim = 4291 
+		add_state_claim = 4292 
+		add_state_claim = 4293 
+		add_state_claim = 4294 
+		add_state_claim = 4295 
+		add_state_claim = 4296 
+		add_state_claim = 4297
+			add_state_claim = 358 
+		add_state_claim = 4298 
+		add_state_claim = 4299 
+		add_state_claim = 4300 
+		add_state_claim = 4301 
+		add_state_claim = 4302 
+		add_state_claim = 4303 
+		add_state_claim = 4304 
+		add_state_claim = 4305 
+		add_state_claim = 4306 
+		add_state_claim = 4307 
+		add_state_claim = 4308 
+		add_state_claim = 4309 
+		add_state_claim = 4310 
+		add_state_claim = 4311 
+		add_state_claim = 4312 
+		add_state_claim = 4313 
+		add_state_claim = 4314 
+		add_state_claim = 4315 
+		add_state_claim = 4316 
+		add_state_claim = 4317 
+		add_state_claim = 4318 
+		add_state_claim = 4319 
+		add_state_claim = 4320 
+		add_state_claim = 4321 
+		add_state_claim = 4322 
+		add_state_claim = 4323 
+		add_state_claim = 4324 
+		add_state_claim = 4325 
+		add_state_claim = 4326 
+		add_state_claim = 4327 
+		add_state_claim = 4328 
+		add_state_claim = 4329 
+		add_state_claim = 4330
+			add_state_claim = 359 
+		add_state_claim = 4331 
+		add_state_claim = 4332 
+		add_state_claim = 4333 
+		add_state_claim = 4334 
+		add_state_claim = 4335 
+		add_state_claim = 4336 
+		add_state_claim = 4337
+			add_state_claim = 361 
+		add_state_claim = 4380 
+		add_state_claim = 4381 
+		add_state_claim = 4382 
+		add_state_claim = 4383 
+		add_state_claim = 4384 
+		add_state_claim = 4385 
+		add_state_claim = 4386
 			create_wargoal = {
 			    type = take_state_focus
 			    generator = { 357 358 359 361 }
@@ -4289,11 +4415,11 @@ focus_tree = {
 		}
 	}
 
- ##   ##  #   # #   # #  # #  # ###  ## #   # 
-#  # #  # ## ## ## ## #  # ## #  #  #   ## ## 
-#    #  # # # # # # # #  # # ##  #   #  # # # 
-#  # #  # #   # #   # #  # #  #  #    # #   # 
- ##   ##  #   # #   #  ##  #  # ### ##  #   # 
+ 
+
+
+
+ 
 
  	focus = {
 		id = HOL_legacy_of_the_de_zeven_provincien_mutiny
@@ -4629,11 +4755,11 @@ focus_tree = {
 		}
 	}
 
- ##  ### ### ### ###  #   #     #    ##  #   #  ##  #   ### #   #     ###  ##      #   #  ##   ##  ##   ##  #   # 
-#  # #   #    #  #  # ## ##     #   #  #  # #  #  # #    #   # #       #  #  #     ## ## #  # #   #  # #  # #   # 
-#### ##  ##   #  ###  # # #     #   #  #   #   #### #    #    #        #  #  #     # # # #  #  #  #    #  # # # # 
-#  # #   #    #  #  # #   #     #   #  #   #   #  # #    #    #        #  #  #     #   # #  #   # #  # #  # # # # 
-#  # #   #   ### #  # #   #     ###  ##    #   #  # ###  #    #        #   ##      #   #  ##  ##   ##   ##   # #  
+ 
+
+
+
+
 
 	focus = {
 		id = HOL_affirm_loyalty_to_moscow
@@ -4715,11 +4841,11 @@ focus_tree = {
 		}
 	}
 
- ###  ##  ### #  #     ### #  # ###     ### ###  ### #  #  ##  #  # 
-   # #  #  #  ## #      #  #  # #       #   #  # #   ## # #  # #  # 
-   # #  #  #  # ##      #  #### ##      ##  ###  ##  # ## #    #### 
-#  # #  #  #  #  #      #  #  # #       #   #  # #   #  # #  # #  # 
- ##   ##  ### #  #      #  #  # ###     #   #  # ### #  #  ##  #  # 
+ 
+   
+   
+
+ 
 
  	focus = {
 		id = HOL_join_the_french
@@ -4898,11 +5024,11 @@ focus_tree = {
 		}
 	}
 
-###   ##   ## ### ###  ##  #  #      ##  ###     ### ###  #  # ###      ##   ##  #   # #   # #  # #  # ###  ## #   # 
-#  # #  # #    #   #  #  # ## #     #  # #        #  #  # #  # #       #  # #  # ## ## ## ## #  # ## #  #  #   ## ## 
-###  ####  #   #   #  #  # # ##     #  # ##       #  ###  #  # ##      #    #  # # # # # # # #  # # ##  #   #  # # # 
-#  # #  #   #  #   #  #  # #  #     #  # #        #  #  # #  # #       #  # #  # #   # #   # #  # #  #  #    # #   # 
-###  #  # ##   #  ###  ##  #  #      ##  #        #  #  #  ##  ###      ##   ##  #   # #   #  ##  #  # ### ##  #   # 
+
+
+
+
+
 
 	focus = {
 		id = HOL_bastion_of_true_communism
@@ -5166,11 +5292,11 @@ focus_tree = {
 		}
 	}
 
-#   #  ##  #  #  ##  ###   ##  #  # ###  ## #   #    #  # ### #  # ### ###   ##  #   ### ### #   # 
-## ## #  # ## # #  # #  # #  # #  #  #  #   ## ##    ## # #   #  #  #  #  # #  # #    #   #   # #  
-# # # #  # # ## #### ###  #    ####  #   #  # # # ## # ## ##  #  #  #  ###  #### #    #   #    #   
-#   # #  # #  # #  # #  # #  # #  #  #    # #   #    #  # #   #  #  #  #  # #  # #    #   #    #   
-#   #  ##  #  # #  # #  #  ##  #  # ### ##  #   #    #  # ###  ##   #  #  # #  # ### ###  #    #   
+
+
+
+
+
 
 	focus = {
 		id = HOL_oranje_boven
@@ -5671,11 +5797,11 @@ focus_tree = {
 		}
 	}
 
-###  ### #   #  ##   ##  ###   ##  ### ###  ##  
-#  # #   ## ## #  # #  # #  # #  #  #   #  #  # 
-#  # ##  # # # #  # #    ###  ####  #   #  #    
-#  # #   #   # #  # #  # #  # #  #  #   #  #  # 
-###  ### #   #  ##   ##  #  # #  #  #  ###  ##  
+
+
+
+
+
 
 	focus = {
 		id = HOL_unity_through_democracy
@@ -5722,11 +5848,11 @@ focus_tree = {
 		}
 	}
 
- ##   ##      #   # ### ### #  #     ###  ###  ### ###  ##  ### #  # 
-#    #  #     #   #  #   #  #  #     #  # #  #  #   #  #  #  #  ## # 
-# ## #  #     # # #  #   #  ####     ###  ###   #   #  ####  #  # ## 
-#  # #  #     # # #  #   #  #  #     #  # #  #  #   #  #  #  #  #  # 
- ##   ##       # #  ###  #  #  #     ###  #  # ###  #  #  # ### #  # 
+ 
+
+
+
+ 
 
 
 	focus = {
@@ -6124,11 +6250,11 @@ focus_tree = {
 		}
 	}
 
-#   ###  ##  ###      ### #  # ###     #   # ### #  #  ##  ###      ###  ### #   #  ##   ##  ###   ##   ##  ### ###  ## 
-#   #   #  # #  #      #  #  # #       ## ##  #  ## # #  # #  #     #  # #   ## ## #  # #  # #  # #  # #  #  #  #   #   
-#   ##  #### #  #      #  #### ##      # # #  #  # ## #  # ###      #  # ##  # # # #  # #    ###  #### #     #  ##   #  
-#   #   #  # #  #      #  #  # #       #   #  #  #  # #  # #  #     #  # #   #   # #  # #  # #  # #  # #  #  #  #     # 
-### ### #  # ###       #  #  # ###     #   # ### #  #  ##  #  #     ###  ### #   #  ##   ##  #  # #  #  ##  ### ### ##  
+
+
+
+
+
 
 	focus = {
 		id = HOL_lead_the_minor_democracies

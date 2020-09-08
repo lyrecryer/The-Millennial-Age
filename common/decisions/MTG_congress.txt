@@ -453,7 +453,21 @@ USA_congress = {
 		}
 		remove_effect = {
 			USA_congress_add_state = yes
-			add_state_core = 463
+			add_state_core = 463 
+		add_state_core = 6112 
+		add_state_core = 6113 
+		add_state_core = 6114 
+		add_state_core = 6115 
+		add_state_core = 6116 
+		add_state_core = 6117 
+		add_state_core = 6118 
+		add_state_core = 6119 
+		add_state_core = 6120 
+		add_state_core = 6121 
+		add_state_core = 6122 
+		add_state_core = 6123 
+		add_state_core = 6124 
+		add_state_core = 6125
 			add_state_core = 650
 			USA_calc_stars = yes
 		}
@@ -486,7 +500,11 @@ USA_congress = {
 		}
 		remove_effect = {
 			USA_congress_add_state = yes
-			add_state_core = 629
+			add_state_core = 629 
+		add_state_core = 8525 
+		add_state_core = 8526 
+		add_state_core = 8527 
+		add_state_core = 8528
 			USA_calc_stars = yes
 		}
 	}
@@ -518,7 +536,8 @@ USA_congress = {
 		}
 		remove_effect = {
 			USA_congress_add_state = yes
-			add_state_core = 686
+			add_state_core = 686 
+		add_state_core = 9244
 			USA_calc_stars = yes
 		}
 	}

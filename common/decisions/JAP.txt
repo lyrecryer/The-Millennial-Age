@@ -1,4 +1,4 @@
-#Category allowed for JAP
+
 JAP_intervene_in_china = {
 
 	JAP_china_step_up_war_effort = {
@@ -22,7 +22,7 @@ JAP_intervene_in_china = {
 			factor = 5
 			modifier = {
 				has_war_with = USA
-				factor = 10 #screw it, kill everything
+				factor = 10 
 			}
 		}
 		modifier = {
@@ -75,7 +75,7 @@ JAP_intervene_in_china = {
 			modifier = {
 				is_historical_focus_on = yes
 				date < 1944.1.1
-				controls_state = 609 #East Heibei, to ensure that Japan hasn't been kicked off the mainland
+				controls_state = 609 
 				factor = 0
 			}
 		}
@@ -588,7 +588,7 @@ foreign_politics = {
 
 		available = {
 			FROM = { 
-				surrender_progress < 0.2 # if they are losing, lets not allow it
+				surrender_progress < 0.2 
 			}
 			custom_trigger_tooltip = {
 				tooltip = JAP_sue_for_peace_TT
@@ -633,7 +633,7 @@ foreign_politics = {
 		target_array = enemies
 
 		target_trigger = {
-			#Target is FROM
+			
 			FROM = {
 				tag = event_target:WTT_current_china_leader
 				has_war_with = ROOT
@@ -670,7 +670,7 @@ foreign_politics = {
 
 		available = {
 			FROM = { 
-				surrender_progress < 0.2 # if they are losing, lets not allow it
+				surrender_progress < 0.2 
 			}
 			custom_trigger_tooltip = {
 				tooltip = JAP_sue_for_peace_TT
@@ -703,7 +703,7 @@ foreign_politics = {
 		targets = { MAN }
 
 		target_trigger = {
-			#Target is FROM
+			
 			FROM = {
 				tag = MAN
 				has_war_with = ROOT
@@ -849,14 +849,14 @@ foreign_politics = {
 	}
 }
 
-#Category allowed for JAP
-#Not visible if puppet
+
+
 JAP_southern_expansion = {
 
 	JAP_pressure_france = { 
 
 		available = {
-			16 = { NOT = { is_controlled_by = FRA } } #Paris has fallen
+			16 = { NOT = { is_controlled_by = FRA } } 
 			286 = { 
 				CONTROLLER = { 
 					NOT = {
@@ -984,9 +984,9 @@ JAP_southern_expansion = {
 	}
 }
 
-#Category allowed for JAP
-#Visible when has completed JAP_pacific_guardian focus.
-#Visible if independent
+
+
+
 JAP_pacific_guardian = {
 
 	JAP_release_korea = {
@@ -1012,7 +1012,7 @@ JAP_pacific_guardian = {
 			add_political_power = 50
 		}
 		timeout_effect = {
-			add_stability = -0.1 #naughty
+			add_stability = -0.1 
 		}
 	}
 
@@ -1022,7 +1022,7 @@ JAP_pacific_guardian = {
 
 		available = {
 			HOL = {
-				#has_capitulated = yes
+				
 			}
 			"INS" = {
 				is_puppet_of = HOL
@@ -1056,7 +1056,7 @@ JAP_pacific_guardian = {
 
 		available = {
 			ENG = {
-				#has_capitulated = yes
+				
 			}
 			MAL = {
 				is_puppet_of = ENG
@@ -1090,7 +1090,7 @@ JAP_pacific_guardian = {
 
 		available = {
 			FRA = {
-				#has_capitulated = yes
+				
 				OR = {
 					has_full_control_of_state = 670
 					has_full_control_of_state = 671
@@ -1279,17 +1279,228 @@ JAP_colonial_independence = {
 					country_exists = event_target:WTT_current_china_leader
 				}
 				event_target:WTT_current_china_leader = { 
-					transfer_state = 609
-					transfer_state = 610
-					transfer_state = 716
-					transfer_state = 715
-					transfer_state = 328
-					transfer_state = 717
-					transfer_state = 714
-					transfer_state = 761
-					transfer_state = 745
-					transfer_state = 612
-					transfer_state = 611
+					transfer_state = 609 
+		transfer_state = 8261 
+		transfer_state = 8262 
+		transfer_state = 8263 
+		transfer_state = 8264 
+		transfer_state = 8265 
+		transfer_state = 8266
+					transfer_state = 610 
+		transfer_state = 8272 
+		transfer_state = 8273 
+		transfer_state = 8274 
+		transfer_state = 8275 
+		transfer_state = 8276 
+		transfer_state = 8277 
+		transfer_state = 8278 
+		transfer_state = 8279 
+		transfer_state = 8280 
+		transfer_state = 8281 
+		transfer_state = 8282 
+		transfer_state = 8283 
+		transfer_state = 8284 
+		transfer_state = 8285 
+		transfer_state = 8286 
+		transfer_state = 8287 
+		transfer_state = 8288 
+		transfer_state = 8289 
+		transfer_state = 8290 
+		transfer_state = 8291 
+		transfer_state = 8292 
+		transfer_state = 8293 
+		transfer_state = 8294 
+		transfer_state = 8295 
+		transfer_state = 8296 
+		transfer_state = 8297
+					transfer_state = 716 
+		transfer_state = 9344 
+		transfer_state = 9345 
+		transfer_state = 9346 
+		transfer_state = 9347 
+		transfer_state = 9348 
+		transfer_state = 9349 
+		transfer_state = 9350 
+		transfer_state = 9351 
+		transfer_state = 9352 
+		transfer_state = 9353 
+		transfer_state = 9354 
+		transfer_state = 9355 
+		transfer_state = 9356 
+		transfer_state = 9357 
+		transfer_state = 9358 
+		transfer_state = 9359 
+		transfer_state = 9360 
+		transfer_state = 9361 
+		transfer_state = 9362 
+		transfer_state = 9363 
+		transfer_state = 9364 
+		transfer_state = 9365 
+		transfer_state = 9366 
+		transfer_state = 9367
+					transfer_state = 715 
+		transfer_state = 9324 
+		transfer_state = 9325 
+		transfer_state = 9326 
+		transfer_state = 9327 
+		transfer_state = 9328 
+		transfer_state = 9329 
+		transfer_state = 9330 
+		transfer_state = 9331 
+		transfer_state = 9332 
+		transfer_state = 9333 
+		transfer_state = 9334 
+		transfer_state = 9335 
+		transfer_state = 9336 
+		transfer_state = 9337 
+		transfer_state = 9338 
+		transfer_state = 9339 
+		transfer_state = 9340 
+		transfer_state = 9341 
+		transfer_state = 9342 
+		transfer_state = 9343
+					transfer_state = 328 
+		transfer_state = 3776 
+		transfer_state = 3777 
+		transfer_state = 3778 
+		transfer_state = 3779 
+		transfer_state = 3780 
+		transfer_state = 3781 
+		transfer_state = 3782 
+		transfer_state = 3783 
+		transfer_state = 3784 
+		transfer_state = 3785 
+		transfer_state = 3786 
+		transfer_state = 3787 
+		transfer_state = 3788 
+		transfer_state = 3789 
+		transfer_state = 3790 
+		transfer_state = 3791 
+		transfer_state = 3792 
+		transfer_state = 3793 
+		transfer_state = 3794 
+		transfer_state = 3795 
+		transfer_state = 3796 
+		transfer_state = 3797 
+		transfer_state = 3798 
+		transfer_state = 3799 
+		transfer_state = 3800 
+		transfer_state = 3801 
+		transfer_state = 3802 
+		transfer_state = 3803 
+		transfer_state = 3804 
+		transfer_state = 3805 
+		transfer_state = 3806 
+		transfer_state = 3807 
+		transfer_state = 3808 
+		transfer_state = 3809 
+		transfer_state = 3810 
+		transfer_state = 3811 
+		transfer_state = 3812 
+		transfer_state = 3813
+					transfer_state = 717 
+		transfer_state = 9368 
+		transfer_state = 9369 
+		transfer_state = 9370 
+		transfer_state = 9371 
+		transfer_state = 9372 
+		transfer_state = 9373 
+		transfer_state = 9374 
+		transfer_state = 9375 
+		transfer_state = 9376 
+		transfer_state = 9377 
+		transfer_state = 9378 
+		transfer_state = 9379 
+		transfer_state = 9380 
+		transfer_state = 9381 
+		transfer_state = 9382 
+		transfer_state = 9383 
+		transfer_state = 9384 
+		transfer_state = 9385 
+		transfer_state = 9386 
+		transfer_state = 9387 
+		transfer_state = 9388 
+		transfer_state = 9389 
+		transfer_state = 9390 
+		transfer_state = 9391 
+		transfer_state = 9392 
+		transfer_state = 9393 
+		transfer_state = 9394 
+		transfer_state = 9395 
+		transfer_state = 9396 
+		transfer_state = 9397 
+		transfer_state = 9398 
+		transfer_state = 9399 
+		transfer_state = 9400
+					transfer_state = 714 
+		transfer_state = 9297 
+		transfer_state = 9298 
+		transfer_state = 9299 
+		transfer_state = 9300 
+		transfer_state = 9301 
+		transfer_state = 9302 
+		transfer_state = 9303 
+		transfer_state = 9304 
+		transfer_state = 9305 
+		transfer_state = 9306 
+		transfer_state = 9307 
+		transfer_state = 9308 
+		transfer_state = 9309 
+		transfer_state = 9310 
+		transfer_state = 9311 
+		transfer_state = 9312 
+		transfer_state = 9313 
+		transfer_state = 9314 
+		transfer_state = 9315 
+		transfer_state = 9316 
+		transfer_state = 9317 
+		transfer_state = 9318 
+		transfer_state = 9319 
+		transfer_state = 9320 
+		transfer_state = 9321 
+		transfer_state = 9322 
+		transfer_state = 9323
+					transfer_state = 761 
+		transfer_state = 9717 
+		transfer_state = 9718 
+		transfer_state = 9719 
+		transfer_state = 9720 
+		transfer_state = 9721 
+		transfer_state = 9722 
+		transfer_state = 9723 
+		transfer_state = 9724 
+		transfer_state = 9725 
+		transfer_state = 9726 
+		transfer_state = 9727
+					transfer_state = 745 
+		transfer_state = 9582
+					transfer_state = 612 
+		transfer_state = 8310 
+		transfer_state = 8311 
+		transfer_state = 8312 
+		transfer_state = 8313 
+		transfer_state = 8314 
+		transfer_state = 8315 
+		transfer_state = 8316 
+		transfer_state = 8317 
+		transfer_state = 8318 
+		transfer_state = 8319 
+		transfer_state = 8320 
+		transfer_state = 8321 
+		transfer_state = 8322
+					transfer_state = 611 
+		transfer_state = 8298 
+		transfer_state = 8299 
+		transfer_state = 8300 
+		transfer_state = 8301 
+		transfer_state = 8302 
+		transfer_state = 8303 
+		transfer_state = 8304 
+		transfer_state = 8305 
+		transfer_state = 8306 
+		transfer_state = 8307 
+		transfer_state = 8308 
+		transfer_state = 8309
 					country_event = { id = wtt_japan.101 days = 1 }
 					custom_effect_tooltip = JAP_liberate_manchuria_alliance_tt
 				}
@@ -1300,17 +1511,228 @@ JAP_colonial_independence = {
 					NOT = { country_exists = event_target:WTT_current_china_leader }
 				}
 				event_target:WTT_communist_china = { 
-					transfer_state = 609
-					transfer_state = 610
-					transfer_state = 716
-					transfer_state = 715
-					transfer_state = 328
-					transfer_state = 717
-					transfer_state = 714
-					transfer_state = 761
-					transfer_state = 745
-					transfer_state = 612
-					transfer_state = 611
+					transfer_state = 609 
+		transfer_state = 8261 
+		transfer_state = 8262 
+		transfer_state = 8263 
+		transfer_state = 8264 
+		transfer_state = 8265 
+		transfer_state = 8266
+					transfer_state = 610 
+		transfer_state = 8272 
+		transfer_state = 8273 
+		transfer_state = 8274 
+		transfer_state = 8275 
+		transfer_state = 8276 
+		transfer_state = 8277 
+		transfer_state = 8278 
+		transfer_state = 8279 
+		transfer_state = 8280 
+		transfer_state = 8281 
+		transfer_state = 8282 
+		transfer_state = 8283 
+		transfer_state = 8284 
+		transfer_state = 8285 
+		transfer_state = 8286 
+		transfer_state = 8287 
+		transfer_state = 8288 
+		transfer_state = 8289 
+		transfer_state = 8290 
+		transfer_state = 8291 
+		transfer_state = 8292 
+		transfer_state = 8293 
+		transfer_state = 8294 
+		transfer_state = 8295 
+		transfer_state = 8296 
+		transfer_state = 8297
+					transfer_state = 716 
+		transfer_state = 9344 
+		transfer_state = 9345 
+		transfer_state = 9346 
+		transfer_state = 9347 
+		transfer_state = 9348 
+		transfer_state = 9349 
+		transfer_state = 9350 
+		transfer_state = 9351 
+		transfer_state = 9352 
+		transfer_state = 9353 
+		transfer_state = 9354 
+		transfer_state = 9355 
+		transfer_state = 9356 
+		transfer_state = 9357 
+		transfer_state = 9358 
+		transfer_state = 9359 
+		transfer_state = 9360 
+		transfer_state = 9361 
+		transfer_state = 9362 
+		transfer_state = 9363 
+		transfer_state = 9364 
+		transfer_state = 9365 
+		transfer_state = 9366 
+		transfer_state = 9367
+					transfer_state = 715 
+		transfer_state = 9324 
+		transfer_state = 9325 
+		transfer_state = 9326 
+		transfer_state = 9327 
+		transfer_state = 9328 
+		transfer_state = 9329 
+		transfer_state = 9330 
+		transfer_state = 9331 
+		transfer_state = 9332 
+		transfer_state = 9333 
+		transfer_state = 9334 
+		transfer_state = 9335 
+		transfer_state = 9336 
+		transfer_state = 9337 
+		transfer_state = 9338 
+		transfer_state = 9339 
+		transfer_state = 9340 
+		transfer_state = 9341 
+		transfer_state = 9342 
+		transfer_state = 9343
+					transfer_state = 328 
+		transfer_state = 3776 
+		transfer_state = 3777 
+		transfer_state = 3778 
+		transfer_state = 3779 
+		transfer_state = 3780 
+		transfer_state = 3781 
+		transfer_state = 3782 
+		transfer_state = 3783 
+		transfer_state = 3784 
+		transfer_state = 3785 
+		transfer_state = 3786 
+		transfer_state = 3787 
+		transfer_state = 3788 
+		transfer_state = 3789 
+		transfer_state = 3790 
+		transfer_state = 3791 
+		transfer_state = 3792 
+		transfer_state = 3793 
+		transfer_state = 3794 
+		transfer_state = 3795 
+		transfer_state = 3796 
+		transfer_state = 3797 
+		transfer_state = 3798 
+		transfer_state = 3799 
+		transfer_state = 3800 
+		transfer_state = 3801 
+		transfer_state = 3802 
+		transfer_state = 3803 
+		transfer_state = 3804 
+		transfer_state = 3805 
+		transfer_state = 3806 
+		transfer_state = 3807 
+		transfer_state = 3808 
+		transfer_state = 3809 
+		transfer_state = 3810 
+		transfer_state = 3811 
+		transfer_state = 3812 
+		transfer_state = 3813
+					transfer_state = 717 
+		transfer_state = 9368 
+		transfer_state = 9369 
+		transfer_state = 9370 
+		transfer_state = 9371 
+		transfer_state = 9372 
+		transfer_state = 9373 
+		transfer_state = 9374 
+		transfer_state = 9375 
+		transfer_state = 9376 
+		transfer_state = 9377 
+		transfer_state = 9378 
+		transfer_state = 9379 
+		transfer_state = 9380 
+		transfer_state = 9381 
+		transfer_state = 9382 
+		transfer_state = 9383 
+		transfer_state = 9384 
+		transfer_state = 9385 
+		transfer_state = 9386 
+		transfer_state = 9387 
+		transfer_state = 9388 
+		transfer_state = 9389 
+		transfer_state = 9390 
+		transfer_state = 9391 
+		transfer_state = 9392 
+		transfer_state = 9393 
+		transfer_state = 9394 
+		transfer_state = 9395 
+		transfer_state = 9396 
+		transfer_state = 9397 
+		transfer_state = 9398 
+		transfer_state = 9399 
+		transfer_state = 9400
+					transfer_state = 714 
+		transfer_state = 9297 
+		transfer_state = 9298 
+		transfer_state = 9299 
+		transfer_state = 9300 
+		transfer_state = 9301 
+		transfer_state = 9302 
+		transfer_state = 9303 
+		transfer_state = 9304 
+		transfer_state = 9305 
+		transfer_state = 9306 
+		transfer_state = 9307 
+		transfer_state = 9308 
+		transfer_state = 9309 
+		transfer_state = 9310 
+		transfer_state = 9311 
+		transfer_state = 9312 
+		transfer_state = 9313 
+		transfer_state = 9314 
+		transfer_state = 9315 
+		transfer_state = 9316 
+		transfer_state = 9317 
+		transfer_state = 9318 
+		transfer_state = 9319 
+		transfer_state = 9320 
+		transfer_state = 9321 
+		transfer_state = 9322 
+		transfer_state = 9323
+					transfer_state = 761 
+		transfer_state = 9717 
+		transfer_state = 9718 
+		transfer_state = 9719 
+		transfer_state = 9720 
+		transfer_state = 9721 
+		transfer_state = 9722 
+		transfer_state = 9723 
+		transfer_state = 9724 
+		transfer_state = 9725 
+		transfer_state = 9726 
+		transfer_state = 9727
+					transfer_state = 745 
+		transfer_state = 9582
+					transfer_state = 612 
+		transfer_state = 8310 
+		transfer_state = 8311 
+		transfer_state = 8312 
+		transfer_state = 8313 
+		transfer_state = 8314 
+		transfer_state = 8315 
+		transfer_state = 8316 
+		transfer_state = 8317 
+		transfer_state = 8318 
+		transfer_state = 8319 
+		transfer_state = 8320 
+		transfer_state = 8321 
+		transfer_state = 8322
+					transfer_state = 611 
+		transfer_state = 8298 
+		transfer_state = 8299 
+		transfer_state = 8300 
+		transfer_state = 8301 
+		transfer_state = 8302 
+		transfer_state = 8303 
+		transfer_state = 8304 
+		transfer_state = 8305 
+		transfer_state = 8306 
+		transfer_state = 8307 
+		transfer_state = 8308 
+		transfer_state = 8309
 					country_event = { id = wtt_japan.101 days = 1 }
 				}
 			}
@@ -1334,17 +1756,228 @@ JAP_colonial_independence = {
 							has_government = fascism
 						}
 					}
-					transfer_state = 609
-					transfer_state = 610
-					transfer_state = 716
-					transfer_state = 715
-					transfer_state = 328
-					transfer_state = 717
-					transfer_state = 714
-					transfer_state = 761
-					transfer_state = 745
-					transfer_state = 612
-					transfer_state = 611
+					transfer_state = 609 
+		transfer_state = 8261 
+		transfer_state = 8262 
+		transfer_state = 8263 
+		transfer_state = 8264 
+		transfer_state = 8265 
+		transfer_state = 8266
+					transfer_state = 610 
+		transfer_state = 8272 
+		transfer_state = 8273 
+		transfer_state = 8274 
+		transfer_state = 8275 
+		transfer_state = 8276 
+		transfer_state = 8277 
+		transfer_state = 8278 
+		transfer_state = 8279 
+		transfer_state = 8280 
+		transfer_state = 8281 
+		transfer_state = 8282 
+		transfer_state = 8283 
+		transfer_state = 8284 
+		transfer_state = 8285 
+		transfer_state = 8286 
+		transfer_state = 8287 
+		transfer_state = 8288 
+		transfer_state = 8289 
+		transfer_state = 8290 
+		transfer_state = 8291 
+		transfer_state = 8292 
+		transfer_state = 8293 
+		transfer_state = 8294 
+		transfer_state = 8295 
+		transfer_state = 8296 
+		transfer_state = 8297
+					transfer_state = 716 
+		transfer_state = 9344 
+		transfer_state = 9345 
+		transfer_state = 9346 
+		transfer_state = 9347 
+		transfer_state = 9348 
+		transfer_state = 9349 
+		transfer_state = 9350 
+		transfer_state = 9351 
+		transfer_state = 9352 
+		transfer_state = 9353 
+		transfer_state = 9354 
+		transfer_state = 9355 
+		transfer_state = 9356 
+		transfer_state = 9357 
+		transfer_state = 9358 
+		transfer_state = 9359 
+		transfer_state = 9360 
+		transfer_state = 9361 
+		transfer_state = 9362 
+		transfer_state = 9363 
+		transfer_state = 9364 
+		transfer_state = 9365 
+		transfer_state = 9366 
+		transfer_state = 9367
+					transfer_state = 715 
+		transfer_state = 9324 
+		transfer_state = 9325 
+		transfer_state = 9326 
+		transfer_state = 9327 
+		transfer_state = 9328 
+		transfer_state = 9329 
+		transfer_state = 9330 
+		transfer_state = 9331 
+		transfer_state = 9332 
+		transfer_state = 9333 
+		transfer_state = 9334 
+		transfer_state = 9335 
+		transfer_state = 9336 
+		transfer_state = 9337 
+		transfer_state = 9338 
+		transfer_state = 9339 
+		transfer_state = 9340 
+		transfer_state = 9341 
+		transfer_state = 9342 
+		transfer_state = 9343
+					transfer_state = 328 
+		transfer_state = 3776 
+		transfer_state = 3777 
+		transfer_state = 3778 
+		transfer_state = 3779 
+		transfer_state = 3780 
+		transfer_state = 3781 
+		transfer_state = 3782 
+		transfer_state = 3783 
+		transfer_state = 3784 
+		transfer_state = 3785 
+		transfer_state = 3786 
+		transfer_state = 3787 
+		transfer_state = 3788 
+		transfer_state = 3789 
+		transfer_state = 3790 
+		transfer_state = 3791 
+		transfer_state = 3792 
+		transfer_state = 3793 
+		transfer_state = 3794 
+		transfer_state = 3795 
+		transfer_state = 3796 
+		transfer_state = 3797 
+		transfer_state = 3798 
+		transfer_state = 3799 
+		transfer_state = 3800 
+		transfer_state = 3801 
+		transfer_state = 3802 
+		transfer_state = 3803 
+		transfer_state = 3804 
+		transfer_state = 3805 
+		transfer_state = 3806 
+		transfer_state = 3807 
+		transfer_state = 3808 
+		transfer_state = 3809 
+		transfer_state = 3810 
+		transfer_state = 3811 
+		transfer_state = 3812 
+		transfer_state = 3813
+					transfer_state = 717 
+		transfer_state = 9368 
+		transfer_state = 9369 
+		transfer_state = 9370 
+		transfer_state = 9371 
+		transfer_state = 9372 
+		transfer_state = 9373 
+		transfer_state = 9374 
+		transfer_state = 9375 
+		transfer_state = 9376 
+		transfer_state = 9377 
+		transfer_state = 9378 
+		transfer_state = 9379 
+		transfer_state = 9380 
+		transfer_state = 9381 
+		transfer_state = 9382 
+		transfer_state = 9383 
+		transfer_state = 9384 
+		transfer_state = 9385 
+		transfer_state = 9386 
+		transfer_state = 9387 
+		transfer_state = 9388 
+		transfer_state = 9389 
+		transfer_state = 9390 
+		transfer_state = 9391 
+		transfer_state = 9392 
+		transfer_state = 9393 
+		transfer_state = 9394 
+		transfer_state = 9395 
+		transfer_state = 9396 
+		transfer_state = 9397 
+		transfer_state = 9398 
+		transfer_state = 9399 
+		transfer_state = 9400
+					transfer_state = 714 
+		transfer_state = 9297 
+		transfer_state = 9298 
+		transfer_state = 9299 
+		transfer_state = 9300 
+		transfer_state = 9301 
+		transfer_state = 9302 
+		transfer_state = 9303 
+		transfer_state = 9304 
+		transfer_state = 9305 
+		transfer_state = 9306 
+		transfer_state = 9307 
+		transfer_state = 9308 
+		transfer_state = 9309 
+		transfer_state = 9310 
+		transfer_state = 9311 
+		transfer_state = 9312 
+		transfer_state = 9313 
+		transfer_state = 9314 
+		transfer_state = 9315 
+		transfer_state = 9316 
+		transfer_state = 9317 
+		transfer_state = 9318 
+		transfer_state = 9319 
+		transfer_state = 9320 
+		transfer_state = 9321 
+		transfer_state = 9322 
+		transfer_state = 9323
+					transfer_state = 761 
+		transfer_state = 9717 
+		transfer_state = 9718 
+		transfer_state = 9719 
+		transfer_state = 9720 
+		transfer_state = 9721 
+		transfer_state = 9722 
+		transfer_state = 9723 
+		transfer_state = 9724 
+		transfer_state = 9725 
+		transfer_state = 9726 
+		transfer_state = 9727
+					transfer_state = 745 
+		transfer_state = 9582
+					transfer_state = 612 
+		transfer_state = 8310 
+		transfer_state = 8311 
+		transfer_state = 8312 
+		transfer_state = 8313 
+		transfer_state = 8314 
+		transfer_state = 8315 
+		transfer_state = 8316 
+		transfer_state = 8317 
+		transfer_state = 8318 
+		transfer_state = 8319 
+		transfer_state = 8320 
+		transfer_state = 8321 
+		transfer_state = 8322
+					transfer_state = 611 
+		transfer_state = 8298 
+		transfer_state = 8299 
+		transfer_state = 8300 
+		transfer_state = 8301 
+		transfer_state = 8302 
+		transfer_state = 8303 
+		transfer_state = 8304 
+		transfer_state = 8305 
+		transfer_state = 8306 
+		transfer_state = 8307 
+		transfer_state = 8308 
+		transfer_state = 8309
 					country_event = { id = wtt_japan.101 days = 1 }
 					custom_effect_tooltip = JAP_liberate_manchuria_alliance_tt
 				}
@@ -1441,7 +2074,7 @@ operations = {
 	}
 
 
-	#first border incident
+	
 	JAP_test_the_soviets = {
 		icon = border_war
 		allowed = {
@@ -1507,12 +2140,12 @@ operations = {
 		}
 	}
 
-	#Mission for defender warning that a conflict with FROM is coming
+	
 	JAP_border_conflict_warning_SOV = {
 
 		icon = border_war
 
-		allowed = { always = no } #Activated from effect
+		allowed = { always = no } 
 
 		available = {
 			hidden_trigger = { always = no }
@@ -1556,17 +2189,17 @@ operations = {
 		}
 	}
 
-	#Mission for defender warning FROM can escalate to war at any point is coming
+	
 	JAP_border_conflict_escalation_warning_SOV = {
 
 		icon = border_war
 
-		allowed = { always = no } #Activated from effect
+		allowed = { always = no } 
 
 		available = {
-			#var:ROOT.defender_state_vs_@FROM = {
-			#	has_ROOT_at_least_1_div_in_current_state_scope = yes
-			#}
+			
+			
+			
 			hidden_trigger = { always = no }
 		}
 
@@ -1603,17 +2236,17 @@ operations = {
 			}
 		}		
 	}
-	#Mission for attacker to escalate or incident is forgotten
+	
 	JAP_border_incident_forgotten = {
 
 		icon = border_war
 
-		allowed = { always = no } #Activated from effect
+		allowed = { always = no } 
 
 		available = {
-			#var:ROOT.defender_state_vs_@FROM = {
-			#	has_ROOT_at_least_1_div_in_current_state_scope = yes
-			#}
+			
+			
+			
 			hidden_trigger = { always = no }
 		}
 
@@ -1638,7 +2271,7 @@ operations = {
 		timeout_effect = {
 			remove_targeted_decision = { target = SOV decision = JAP_escalate_incident_to_border_conflict_SOV }
 			add_political_power = -100
-			add_war_support = -0.1 #Shameful Display
+			add_war_support = -0.1 
 			hidden_effect = {
 				SOV = { remove_targeted_decision = { target = JAP decision = JAP_border_conflict_escalation_warning_SOV } }
 				SOV = {
@@ -1653,12 +2286,12 @@ operations = {
 		}
 	}
 
-	#Decision to escalate incident on border with SOV to border conflict
+	
 	JAP_escalate_incident_to_border_conflict_SOV = {
 
 		icon = border_war
 
-		allowed = { always = no } #Activated from effect
+		allowed = { always = no } 
 
 		available = {
 			527 = {
@@ -1692,7 +2325,7 @@ operations = {
 			}
 		}
 
-		fire_only_once = yes #Reactivation handled in effect
+		fire_only_once = yes 
 
 		complete_effect = {
 			remove_targeted_decision = { target = SOV decision = JAP_border_incident_forgotten }
@@ -1722,12 +2355,12 @@ operations = {
 			activate_targeted_decision = { target = SOV decision = JAP_border_conflict_time_until_cancelled }
 		}
 	}
-	#Mission for attacker to win border war against FROM in X days
+	
 	JAP_border_conflict_time_until_cancelled = {
 
 		icon = border_war
 
-		allowed = { always = no } #Activated from effect
+		allowed = { always = no } 
 
 		available = {
 			527 = { has_border_war = no }
@@ -1749,7 +2382,7 @@ operations = {
 		days_mission_timeout = 90
 		is_good = no
 
-		fire_only_once = yes #Reactivation handled in effect
+		fire_only_once = yes 
 
 		complete_effect = {
 
@@ -1767,12 +2400,12 @@ operations = {
 		}
 	}
 
-	#Decision to escalate conflict further
+	
 	JAP_border_conflict_escalate_conflict = {
 
 		icon = decision_generic_ignite_civil_war
 
-		allowed = { always = no } #Activated from effect
+		allowed = { always = no } 
 
 		visible = {
 			has_border_war_with = FROM
@@ -1792,7 +2425,7 @@ operations = {
 			}
 		}
 
-		fire_only_once = yes #Reactivation handled in effect
+		fire_only_once = yes 
 
 		complete_effect = {
 			if = {
@@ -1830,12 +2463,12 @@ operations = {
 		}
 	}
 
-	#Decision to escalate conflict further
+	
 	JAP_border_conflict_escalate_to_war = {
 
 		icon = decision_generic_ignite_civil_war
 
-		allowed = { always = no } #Activated from effect
+		allowed = { always = no } 
 
 		visible = {
 			NOT = { has_country_flag = WTT_border_conflict_escalate_to_war_cooldown_@FROM }
@@ -1858,7 +2491,7 @@ operations = {
 
 		days_remove = 15
 
-		fire_only_once = yes #Reactivation handled in effect
+		fire_only_once = yes 
 
 		war_with_target_on_remove = yes
 
@@ -1910,10 +2543,10 @@ operations = {
 		}
 	}
 
-	#Decision to back down from conflict
+	
 	JAP_border_conflict_back_out_of_conflict = {
 
-		allowed = { always = no } #Activated from effect
+		allowed = { always = no } 
 
 		visible = {
 			has_border_war_with = FROM
@@ -1931,7 +2564,7 @@ operations = {
 			}
 		}
 
-		fire_only_once = yes #Reactivation handled in effect
+		fire_only_once = yes 
 
 		complete_effect = {
 			if = {
@@ -1997,14 +2630,14 @@ operations = {
 
 prospect_for_resources = {
 
-#  #  ##  ###  ### #  # ### ###  #  #     ###  ###  ##  ##  #  # ###   ##  ###      ##  ###  ###  ##  
-## # #  # #  #  #  #  # #   #  # ## #     #  # #   #   #  # #  # #  # #  # #       #  # #  # #   #  # 
-# ## #  # ###   #  #### ##  ###  # ##     ###  ##   #  #  # #  # ###  #    ##      #### ###  ##  #### 
-#  # #  # #  #  #  #  # #   #  # #  #     #  # #     # #  # #  # #  # #  # #       #  # #  # #   #  # 
-#  #  ##  #  #  #  #  # ### #  # #  #     #  # ### ##   ##   ##  #  #  ##  ###     #  # #  # ### #  # 
 
-	#Below is visible when JAP_establish_the_northern_resource_area is completed
-	JAP_develop_north_sakhalin_oil_deposits = { #655
+
+
+
+
+
+	
+	JAP_develop_north_sakhalin_oil_deposits = { 
 		icon = oil
 
 		highlight_state_targets = {
@@ -2048,19 +2681,19 @@ prospect_for_resources = {
 	}
 
 
- ##  ##  #  # ### #  # ### ###  #  #     ###  ###  ##  ##  #  # ###   ##  ###      ##  ###  ###  ##  
-#   #  # #  #  #  #  # #   #  # ## #     #  # #   #   #  # #  # #  # #  # #       #  # #  # #   #  # 
- #  #  # #  #  #  #### ##  ###  # ##     ###  ##   #  #  # #  # ###  #    ##      #### ###  ##  #### 
-  # #  # #  #  #  #  # #   #  # #  #     #  # #     # #  # #  # #  # #  # #       #  # #  # #   #  # 
-##   ##   ##   #  #  # ### #  # #  #     #  # ### ##   ##   ##  #  #  ##  ###     #  # #  # ### #  # 
+ 
 
-#623:0 "Luzon"
-#627:0 "Mindanao"
-#625:0 "Samar"
-#725:0 "Nauru"
+ 
+  
 
-	#Below is visible when JAP_exploit_the_southern_resource_area is completed
-	JAP_develop_luzon_chromium_deposits = { #623
+
+
+
+
+
+
+	
+	JAP_develop_luzon_chromium_deposits = { 
 		icon = chromium
 
 		highlight_state_targets = {
@@ -2109,7 +2742,7 @@ prospect_for_resources = {
 		}
 	}
 
-	JAP_develop_mindanao_steel_deposits = { #627
+	JAP_develop_mindanao_steel_deposits = { 
 		icon = steel
 
 		highlight_state_targets = {
@@ -2158,7 +2791,7 @@ prospect_for_resources = {
 		}
 	}
 
-	JAP_develop_samar_steel_deposits = { #625
+	JAP_develop_samar_steel_deposits = { 
 		icon = steel
 
 		highlight_state_targets = {
@@ -2207,7 +2840,7 @@ prospect_for_resources = {
 		}
 	}
 
-	JAP_develop_nauru_tungsten_deposits = { #725
+	JAP_develop_nauru_tungsten_deposits = { 
 		icon = tungsten
 
 		allowed = {
@@ -2255,7 +2888,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	JAP_develop_tonkin_aluminium_deposits = { #671
+	JAP_develop_tonkin_aluminium_deposits = { 
 		icon = aluminium
 		
 		allowed = {
@@ -2299,7 +2932,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	JAP_develop_singapore_aluminium_deposits = { #336
+	JAP_develop_singapore_aluminium_deposits = { 
 		icon = aluminium
 		
 		allowed = {
@@ -2344,17 +2977,17 @@ prospect_for_resources = {
 		}
 	}
 
- ##  #  # ### #  # ###  ## ###     ###  ###  ##  ##  #  # ###   ##  ###  ## 
-#  # #  #  #  ## # #   #   #       #  # #   #   #  # #  # #  # #  # #   #   
-#    ####  #  # ## ##   #  ##      ###  ##   #  #  # #  # ###  #    ##   #  
-#  # #  #  #  #  # #     # #       #  # #     # #  # #  # #  # #  # #     # 
- ##  #  # ### #  # ### ##  ###     #  # ### ##   ##   ##  #  #  ##  ### ##  
+ 
 
-#597:0 "Shandong"
-#621:0 "Suiyuan"
 
-	#Below is visible when JAP_develop_chinese_resources is completed
-	JAP_develop_shandong_aluminium_deposits = { #597
+
+ 
+
+
+
+
+	
+	JAP_develop_shandong_aluminium_deposits = { 
 		
 		icon = aluminium
 
@@ -2404,7 +3037,7 @@ prospect_for_resources = {
 		}
 	}
 
-	JAP_develop_suiyuan_steel_deposits = { #621
+	JAP_develop_suiyuan_steel_deposits = { 
 		
 		icon = steel
 
@@ -2454,7 +3087,7 @@ prospect_for_resources = {
 		}	
 	}
 
-	JAP_develop_yunnan_aluminium_deposits = { #325
+	JAP_develop_yunnan_aluminium_deposits = { 
 
 		icon = aluminium
 		
@@ -2499,7 +3132,7 @@ prospect_for_resources = {
 			}
 		}	
 	}
-	JAP_develop_sichuan_aluminium_deposits = { #605
+	JAP_develop_sichuan_aluminium_deposits = { 
 
 		icon = aluminium
 		

@@ -1,21 +1,18 @@
-﻿###########################
-# Australian TFV events Events
-###########################
 
 add_namespace = tfv_australia
 
-# Completed AST_the_singapore_strategy.
-# Australian national focus.
+
+
 country_event = {
 	id = tfv_australia.1
-	title = tfv_australia.1.t	# Democratic Australia proposes to govern Singapore/Borneo colonies.
-	desc = tfv_australia.1.d	#
+	title = tfv_australia.1.t	
+	desc = tfv_australia.1.d	
 	picture = GFX_report_event_ast_navy
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_australia.1.a # Transfer ownership of colonies to Australia.
+		name = tfv_australia.1.a 
 		
 		ai_chance = {
 			base = 100
@@ -34,7 +31,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_australia.1.b # Diplomatically refuse Australia's proposal.
+		name = tfv_australia.1.b 
 		
 		ai_chance = {
 			base = 0
@@ -48,8 +45,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.2
-	title = tfv_australia.2.t	# Great Britain transferred Singapore/Borneo colonies to Australia.
-	desc = tfv_australia.2.d	#
+	title = tfv_australia.2.t	
+	desc = tfv_australia.2.d	
 	picture = GFX_report_event_ast_army
 	
 	is_triggered_only = yes
@@ -65,8 +62,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.3
-	title = tfv_australia.3.t	# Great Britain refused Australia's offer to govern Singapore/Borneo.
-	desc = tfv_australia.3.d	#
+	title = tfv_australia.3.t	
+	desc = tfv_australia.3.d	
 	picture = GFX_report_event_ast_navy
 	
 	is_triggered_only = yes
@@ -76,18 +73,18 @@ country_event = {
 	}
 }
 
-# Completed AST_protect_the_dutch_colonies.
-# Australian national focus.
+
+
 country_event = {
 	id = tfv_australia.10
-	title = tfv_australia.10.t	# Democratic Australia offers protection of the Dutch colonies in SEA.
-	desc = tfv_australia.10.d	#
+	title = tfv_australia.10.t	
+	desc = tfv_australia.10.d	
 	picture = GFX_report_event_ast_navy
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_australia.10.a # Accept Australia's offer.
+		name = tfv_australia.10.a 
 		
 		ai_chance = {
 			base = 100
@@ -111,7 +108,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_australia.10.b # Deny Australia's offer.
+		name = tfv_australia.10.b 
 		
 		ai_chance = {
 			base = 0
@@ -129,8 +126,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.11
-	title = tfv_australia.11.t	# Netherlands accepts protectorate over SEA colonies.
-	desc = tfv_australia.11.d  	#
+	title = tfv_australia.11.t	
+	desc = tfv_australia.11.d  	
 	picture = GFX_report_event_ast_navy
 	
 	is_triggered_only = yes
@@ -146,8 +143,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.12
-	title = tfv_australia.12.t	# Netherlands denies the protection offer of SEA colonies.
-	desc = tfv_australia.12.d	#
+	title = tfv_australia.12.t	
+	desc = tfv_australia.12.d	
 	picture = GFX_report_event_ast_troops_landing
 	
 	is_triggered_only = yes
@@ -157,18 +154,18 @@ country_event = {
 	}
 }
 
-# Completed AST_demand_new_zealand.
-# Australian national focus.
+
+
 country_event = {
 	id = tfv_australia.20
-	title = tfv_australia.20.t	# Fascist Australia demands annexation of New Zealand.
-	desc = tfv_australia.20.d	#
+	title = tfv_australia.20.t	
+	desc = tfv_australia.20.d	
 	picture = GFX_report_event_generic_rally
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_australia.20.a # Accept Australia's demands
+		name = tfv_australia.20.a 
 		
 		ai_chance = {
 			base = 0
@@ -210,7 +207,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tfv_australia.20.b # Refuse Australia's demands
+		name = tfv_australia.20.b 
 		
 		ai_chance = {
 			base = 50
@@ -235,8 +232,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.21
-	title = tfv_australia.21.t	# New Zealand accepted annexation peacefully.
-	desc = tfv_australia.21.d	#
+	title = tfv_australia.21.t	
+	desc = tfv_australia.21.d	
 	picture = GFX_report_event_ast_navy
 	
 	is_triggered_only = yes
@@ -254,8 +251,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.22
-	title = tfv_australia.22.t	# New Zealand refused Australia's annexation demands.
-	desc = tfv_australia.22.d	#
+	title = tfv_australia.22.t	
+	desc = tfv_australia.22.d	
 	picture = GFX_report_event_ast_troops_landing
 	
 	is_triggered_only = yes
@@ -272,7 +269,7 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.31  
-	title = tfv_australia.31.t #Creates Australian faction
+	title = tfv_australia.31.t 
 	desc = tfv_australia.31.d
 	picture = GFX_report_event_ANZAC_day
 	
@@ -296,7 +293,7 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.32
-	title = tfv_australia.32.t # USA is asked to join faction
+	title = tfv_australia.32.t 
 	desc = tfv_australia.32.d
 	picture = GFX_report_event_generic_usa_treaty
 	
@@ -344,7 +341,7 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.33
-	title = tfv_australia.33.t # USA joins faction
+	title = tfv_australia.33.t 
 	desc = tfv_australia.33.d
 	picture = GFX_report_event_generic_sign_treaty1
 	
@@ -369,14 +366,14 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.34
-	title = tfv_australia.34.t # USA refused to join faction
+	title = tfv_australia.34.t 
 	desc = tfv_australia.34.d
 	picture = GFX_report_event_FDR_speech
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = tfv_australia.34.a # Form a faction anyway
+		name = tfv_australia.34.a 
 		trigger = {
 			has_country_flag = INS_is_a_puppet
 		}
@@ -392,7 +389,7 @@ country_event = {
 	}
 }
 
-#AST_support_indonesian_uprising - End the civil war in INS and puppet fascist side if they won
+
 country_event = {
 	id = tfv_australia.41
 	title = tfv_australia.41.t
@@ -414,12 +411,12 @@ country_event = {
 	}
 }
 
-# Completed AST_join_comintern.
-# Australian national focus.
+
+
 country_event = {
 	id = tfv_australia.50
-	title = tfv_australia.50.t	# Australia asks USSR to join Comintern.
-	desc = tfv_australia.50.d	#
+	title = tfv_australia.50.t	
+	desc = tfv_australia.50.d	
 	picture = GFX_report_event_generic_rally
 	
 	is_triggered_only = yes
@@ -458,8 +455,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.51
-	title = tfv_australia.51.t	# USSR accepts Comintern membership.
-	desc = tfv_australia.51.d	#
+	title = tfv_australia.51.t	
+	desc = tfv_australia.51.d	
 	picture = GFX_report_event_stalin_meeting
 	
 	is_triggered_only = yes
@@ -475,8 +472,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.52
-	title = tfv_australia.52.t	# USSR denies Comintern membership.
-	desc = tfv_australia.52.d	#
+	title = tfv_australia.52.t	
+	desc = tfv_australia.52.d	
 	picture = GFX_report_event_stalin_02
 	
 	is_triggered_only = yes
@@ -486,12 +483,12 @@ country_event = {
 	}
 }
 
-# Completed AST_nz_puppet.
-# Australian national focus.
+
+
 country_event = {
 	id = tfv_australia.60
-	title = tfv_australia.60.t	# Australia requests NZ to submit to Australian Hegemony
-	desc = tfv_australia.60.d	#
+	title = tfv_australia.60.t	
+	desc = tfv_australia.60.d	
 	picture = GFX_report_event_ast_planning
 	
 	is_triggered_only = yes
@@ -541,8 +538,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.61
-	title = tfv_australia.61.t	# NZ submits to Australian Hegemony.
-	desc = tfv_australia.61.d	#
+	title = tfv_australia.61.t	
+	desc = tfv_australia.61.d	
 	picture = GFX_report_event_troops_landing
 	
 	is_triggered_only = yes
@@ -557,8 +554,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.62
-	title = tfv_australia.62.t	# NZ rejects Australian as an overlord.
-	desc = tfv_australia.62.d	#
+	title = tfv_australia.62.t	
+	desc = tfv_australia.62.d	
 	picture = GFX_report_event_ANZAC_day
 	
 	is_triggered_only = yes
@@ -572,12 +569,12 @@ country_event = {
 	}
 }
 
-# Completed AST_protect_the_south_west_pacific.
-# Australian national focus.
+
+
 country_event = {
 	id = tfv_australia.70
-	title = tfv_australia.70.t	# 
-	desc = tfv_australia.70.d	#
+	title = tfv_australia.70.t	
+	desc = tfv_australia.70.d	
 	picture = GFX_report_event_ast_troops_landing
 	
 	is_triggered_only = yes
@@ -618,8 +615,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.71
-	title = tfv_australia.71.t	#
-	desc = tfv_australia.71.d	#
+	title = tfv_australia.71.t	
+	desc = tfv_australia.71.d	
 	picture = GFX_report_event_ast_navy
 	
 	is_triggered_only = yes
@@ -635,8 +632,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.72
-	title = tfv_australia.72.t	#
-	desc = tfv_australia.72.d	#
+	title = tfv_australia.72.t	
+	desc = tfv_australia.72.d	
 	picture = GFX_report_event_ast_paras
 	
 	is_triggered_only = yes
@@ -646,12 +643,12 @@ country_event = {
 	}
 }
 
-# Completed AST_a_deal_with_japan.
-# Australian national focus.
+
+
 country_event = {
 	id = tfv_australia.80
-	title = tfv_australia.80.t	# Australia proposes alliance \w Japan in exchange for some SEA islands.
-	desc = tfv_australia.80.d	#
+	title = tfv_australia.80.t	
+	desc = tfv_australia.80.d	
 	picture = GFX_report_event_ast_planning
 	
 	is_triggered_only = yes
@@ -676,9 +673,85 @@ country_event = {
 					
 					else = {
 						JAP = {
-							transfer_state = 334
-							transfer_state = 673
-							transfer_state = 668
+							transfer_state = 334 
+		transfer_state = 3941 
+		transfer_state = 3942 
+		transfer_state = 3943 
+		transfer_state = 3944 
+		transfer_state = 3945 
+		transfer_state = 3946 
+		transfer_state = 3947 
+		transfer_state = 3948 
+		transfer_state = 3949 
+		transfer_state = 3950 
+		transfer_state = 3951 
+		transfer_state = 3952 
+		transfer_state = 3953 
+		transfer_state = 3954 
+		transfer_state = 3955 
+		transfer_state = 3956 
+		transfer_state = 3957 
+		transfer_state = 3958 
+		transfer_state = 3959 
+		transfer_state = 3960 
+		transfer_state = 3961 
+		transfer_state = 3962 
+		transfer_state = 3963 
+		transfer_state = 3964 
+		transfer_state = 3965 
+		transfer_state = 3966 
+		transfer_state = 3967 
+		transfer_state = 3968 
+		transfer_state = 3969 
+		transfer_state = 3970 
+		transfer_state = 3971 
+		transfer_state = 3972 
+		transfer_state = 3973 
+		transfer_state = 3974 
+		transfer_state = 3975 
+		transfer_state = 3976 
+		transfer_state = 3977 
+		transfer_state = 3978 
+		transfer_state = 3979 
+		transfer_state = 3980 
+		transfer_state = 3981
+							transfer_state = 673 
+		transfer_state = 9055 
+		transfer_state = 9056 
+		transfer_state = 9057 
+		transfer_state = 9058 
+		transfer_state = 9059 
+		transfer_state = 9060 
+		transfer_state = 9061 
+		transfer_state = 9062 
+		transfer_state = 9063 
+		transfer_state = 9064 
+		transfer_state = 9065 
+		transfer_state = 9066 
+		transfer_state = 9067 
+		transfer_state = 9068 
+		transfer_state = 9069 
+		transfer_state = 9070 
+		transfer_state = 9071 
+		transfer_state = 9072 
+		transfer_state = 9073 
+		transfer_state = 9074 
+		transfer_state = 9075 
+		transfer_state = 9076 
+		transfer_state = 9077 
+		transfer_state = 9078 
+		transfer_state = 9079 
+		transfer_state = 9080
+							transfer_state = 668 
+		transfer_state = 8897 
+		transfer_state = 8898 
+		transfer_state = 8899 
+		transfer_state = 8900 
+		transfer_state = 8901 
+		transfer_state = 8902 
+		transfer_state = 8903 
+		transfer_state = 8904 
+		transfer_state = 8905
 						}
 					}
 				}
@@ -723,8 +796,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.81
-	title = tfv_australia.81.t	# Japan forms alliance \w Australia.
-	desc = tfv_australia.81.d	#
+	title = tfv_australia.81.t	
+	desc = tfv_australia.81.d	
 	picture = GFX_report_event_ast_transfer_singapore
 	
 	is_triggered_only = yes
@@ -740,9 +813,85 @@ country_event = {
 			}
 			
 			else = {
-				JAP = { transfer_state = 334 }
-				JAP = { transfer_state = 673 }
-				JAP = { transfer_state = 668 }
+				JAP = { transfer_state = 334 
+		transfer_state = 3941 
+		transfer_state = 3942 
+		transfer_state = 3943 
+		transfer_state = 3944 
+		transfer_state = 3945 
+		transfer_state = 3946 
+		transfer_state = 3947 
+		transfer_state = 3948 
+		transfer_state = 3949 
+		transfer_state = 3950 
+		transfer_state = 3951 
+		transfer_state = 3952 
+		transfer_state = 3953 
+		transfer_state = 3954 
+		transfer_state = 3955 
+		transfer_state = 3956 
+		transfer_state = 3957 
+		transfer_state = 3958 
+		transfer_state = 3959 
+		transfer_state = 3960 
+		transfer_state = 3961 
+		transfer_state = 3962 
+		transfer_state = 3963 
+		transfer_state = 3964 
+		transfer_state = 3965 
+		transfer_state = 3966 
+		transfer_state = 3967 
+		transfer_state = 3968 
+		transfer_state = 3969 
+		transfer_state = 3970 
+		transfer_state = 3971 
+		transfer_state = 3972 
+		transfer_state = 3973 
+		transfer_state = 3974 
+		transfer_state = 3975 
+		transfer_state = 3976 
+		transfer_state = 3977 
+		transfer_state = 3978 
+		transfer_state = 3979 
+		transfer_state = 3980 
+		transfer_state = 3981 }
+				JAP = { transfer_state = 673 
+		transfer_state = 9055 
+		transfer_state = 9056 
+		transfer_state = 9057 
+		transfer_state = 9058 
+		transfer_state = 9059 
+		transfer_state = 9060 
+		transfer_state = 9061 
+		transfer_state = 9062 
+		transfer_state = 9063 
+		transfer_state = 9064 
+		transfer_state = 9065 
+		transfer_state = 9066 
+		transfer_state = 9067 
+		transfer_state = 9068 
+		transfer_state = 9069 
+		transfer_state = 9070 
+		transfer_state = 9071 
+		transfer_state = 9072 
+		transfer_state = 9073 
+		transfer_state = 9074 
+		transfer_state = 9075 
+		transfer_state = 9076 
+		transfer_state = 9077 
+		transfer_state = 9078 
+		transfer_state = 9079 
+		transfer_state = 9080 }
+				JAP = { transfer_state = 668 
+		transfer_state = 8897 
+		transfer_state = 8898 
+		transfer_state = 8899 
+		transfer_state = 8900 
+		transfer_state = 8901 
+		transfer_state = 8902 
+		transfer_state = 8903 
+		transfer_state = 8904 
+		transfer_state = 8905 }
 			}
 		}
 		
@@ -761,8 +910,8 @@ country_event = {
 
 country_event = {
 	id = tfv_australia.82
-	title = tfv_australia.82.t	# Japan denies Australian alliance offer.
-	desc = tfv_australia.82.d	#
+	title = tfv_australia.82.t	
+	desc = tfv_australia.82.d	
 	picture = GFX_report_event_japanese_parade
 	
 	is_triggered_only = yes
@@ -772,11 +921,11 @@ country_event = {
 	}
 }
 
-#coronation visit
+
 country_event = {
 	id = tfv_australia.90
 	title = tfv_australia.90.t	
-	desc = tfv_australia.90.desc	#
+	desc = tfv_australia.90.desc	
 	picture = GFX_report_event_royal_visit
 	
 	is_triggered_only = yes
@@ -807,11 +956,11 @@ country_event = {
 	}
 }
 
-#coronation visit edward viii
+
 country_event = {
 	id = tfv_australia.92
 	title = tfv_australia.92.t	
-	desc = tfv_australia.92.desc	#
+	desc = tfv_australia.92.desc	
 	picture = GFX_report_event_royal_visit
 	
 	is_triggered_only = yes
@@ -847,11 +996,11 @@ country_event = {
 	}
 }
 
-# Indonesian Nationalists Alert 
+
 country_event = {
 	id = tfv_australia.95
 	title = tfv_australia.95.t	
-	desc = tfv_australia.95.desc	#
+	desc = tfv_australia.95.desc	
 	picture = GFX_report_event_merchant_ship_01
 	
 	
@@ -865,7 +1014,7 @@ country_event = {
 
 }
 
-# Indonesian Nationalists Alert 
+
 country_event = {
 	id = tfv_australia.96
 	title = tfv_australia.96.t	
@@ -879,7 +1028,7 @@ country_event = {
 		start_civil_war = {
 			ideology = fascism
 			size = 0.5
-			states = { 334 673 669 668 738 667 }
+			states = { 334 673 669 668 738 667  3941 3942 3943 3944 3945 3946 3947 3948 3949 3950 3951 3952 3953 3954 3955 3956 3957 3958 3959 3960 3961 3962 3963 3964 3965 3966 3967 3968 3969 3970 3971 3972 3973 3974 3975 3976 3977 3978 3979 3980 3981 9055 9056 9057 9058 9059 9060 9061 9062 9063 9064 9065 9066 9067 9068 9069 9070 9071 9072 9073 9074 9075 9076 9077 9078 9079 9080 8906 8907 8908 8909 8910 8911 8912 8913 8914 8915 8916 8917 8918 8919 8920 8921 8922 8923 8924 8925 8926 8927 8928 8929 8930 8931 8932 8897 8898 8899 8900 8901 8902 8903 8904 8905  8883 8884 8885 8886 8887 8888 8889 8890 8891 8892 8893 8894 8895 8896}
 		}
 	}
 	option = {
