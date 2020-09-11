@@ -1,0 +1,15 @@
+state={
+	id=189
+	name="STATE_189"
+	provinces={
+		11370 
+	}
+	
+	history = {
+		owner = SOV
+		add_core_of = BLR
+	
+		}	manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

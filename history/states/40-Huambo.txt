@@ -4,6 +4,11 @@ state={
 	provinces={
 		10966 
 	}
-	manpower=0
+	history = {
+	owner = ANG
+	add_core_of = ANG
+	}
+	manpower=2019555
+	state_category = city
 	buildings_max_level_factor=1.000
 }

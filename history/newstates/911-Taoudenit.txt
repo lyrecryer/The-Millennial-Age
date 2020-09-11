@@ -1,0 +1,11 @@
+
+state={
+	id=911
+	name="STATE_911"
+	provinces={
+		1115 2044 7930 10725 10788 
+	}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

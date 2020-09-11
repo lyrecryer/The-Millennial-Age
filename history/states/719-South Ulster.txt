@@ -1,0 +1,15 @@
+
+state={
+	id=719
+	name="STATE_719"
+	provinces={
+		11303 
+	}
+	history = {
+		owner = IRE
+		add_core_of = IRE
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

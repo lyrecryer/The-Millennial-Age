@@ -1,0 +1,15 @@
+
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		12922 12943 
+	}
+	history = {
+	owner = ARG
+	add_core_of = ARG
+	}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

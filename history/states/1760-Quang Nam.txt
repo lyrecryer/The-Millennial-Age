@@ -5,6 +5,11 @@ state={
 	provinces={
 		7229 10137 10309 
 	}
-	manpower=0
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

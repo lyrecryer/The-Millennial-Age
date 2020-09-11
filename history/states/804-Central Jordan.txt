@@ -1,9 +1,18 @@
+
 state={
 	id=804
 	name="STATE_804"
-	provinces={
-		10089 
+
+	history={
+		owner = JOR
+		add_core_of = JOR
+
 	}
-	manpower=0
+
+	provinces={
+		1 10089 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

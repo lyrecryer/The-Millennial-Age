@@ -1,9 +1,18 @@
+
 state={
 	id=1571
 	name="STATE_1571"
-	provinces={
-		3854 7088 7133 8223 12929 12989 
+
+	history={
+		owner = UGA
+		add_core_of = UGA
+
 	}
-	manpower=0
+
+	provinces={
+		3854 7088 7133 8223 12929 12989 13176 13177 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

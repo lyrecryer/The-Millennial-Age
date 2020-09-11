@@ -1,9 +1,18 @@
+
 state={
 	id=1463
 	name="STATE_1463"
-	provinces={
-		161 6050 6209 
+
+	history={
+		owner = SWE
+		add_core_of = SWE
+
 	}
-	manpower=0
+
+	provinces={
+		161 6050 6209 13098 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

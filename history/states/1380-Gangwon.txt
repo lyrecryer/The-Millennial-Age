@@ -4,6 +4,12 @@ state={
 	provinces={
 		1148 4004 7021 9936 11958 12011 16319 16320 16349 16350 16356 16384 16398 16399 16435 
 	}
-	manpower=0
+	history = {
+		owner = SKR
+		add_core_of = SKR
+		add_core_of = NKR
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

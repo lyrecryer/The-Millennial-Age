@@ -1,0 +1,15 @@
+
+state={
+	id=921
+	name="STATE_921"
+	provinces={
+		13048 13049 13053 
+	}
+	history = {
+		owner = KIR
+		add_core_of = KIR
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=1137
+	name="STATE_1137"
+	provinces={
+		2195 2209 5165 8203 10973 
+	}
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

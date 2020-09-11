@@ -4,6 +4,12 @@ state={
 	provinces={
 		997 7179 9991 11968 12010 
 	}
-	manpower=0
+	history = {
+	owner = BAN
+	add_core_of = BAN
+
+	}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

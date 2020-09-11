@@ -1,0 +1,14 @@
+state={
+	id=1764
+	name="STATE_1764"
+	provinces={
+		4405 
+	}
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

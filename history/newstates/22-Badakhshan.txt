@@ -1,0 +1,15 @@
+
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		7448 7519 7584 7984 10852 12248 12314 12653 12877 
+	}
+	history = {
+	owner = AFG
+	add_core_of = AFG
+	}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

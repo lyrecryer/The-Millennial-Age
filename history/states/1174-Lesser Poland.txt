@@ -4,6 +4,11 @@ state={
 	provinces={
 		417 442 9427 11398 11413 14393 14505 14506 14537 14552 14560 14561 14589 14590 
 	}
-	manpower=0
+	history = {
+		owner = POL
+		add_core_of = POL
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

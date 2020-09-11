@@ -1,9 +1,18 @@
+
 state={
 	id=1530
 	name="STATE_1530"
-	provinces={
-		940 3788 6807 6894 7143 9755 9763 9811 11792 11860 
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+
 	}
-	manpower=0
+
+	provinces={
+		940 3788 6807 6894 7143 9755 9763 9811 11792 11860 13122 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -4,6 +4,11 @@ state={
 	provinces={
 		1281 1337 1366 1394 4312 12201 12230 
 	}
-	manpower=0
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

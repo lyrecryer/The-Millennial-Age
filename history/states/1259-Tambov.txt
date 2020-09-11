@@ -5,6 +5,11 @@ state={
 	provinces={
 		232 275 313 340 367 396 471 3332 3389 9245 9312 9367 9422 11227 11296 11323 11351 11381 11436 13937 13969 13977 14022 14023 14041 14045 14046 14069 14090 14097 14114 14137 14156 14169 14194 14202 
 	}
-	manpower=0
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

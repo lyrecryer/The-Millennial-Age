@@ -1,0 +1,14 @@
+state={
+	id=1721
+	name="STATE_1721"
+	provinces={
+		4155 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

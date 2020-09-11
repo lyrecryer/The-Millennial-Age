@@ -1,0 +1,15 @@
+
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		3896 9780 9914 11762 
+	}
+	history = {
+	owner = ALB
+	add_core_of = ALB
+	}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

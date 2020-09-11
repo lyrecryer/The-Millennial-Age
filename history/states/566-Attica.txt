@@ -1,0 +1,15 @@
+
+state={
+	id=566
+	name="STATE_566"
+	provinces={
+		4109 16335 16336 16337 
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

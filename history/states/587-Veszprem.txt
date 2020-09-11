@@ -2,9 +2,17 @@
 state={
 	id=587
 	name="STATE_587"
-	provinces={
-		701 3683 15025 15032 
+
+	history={
+		owner = HUN
+		add_core_of = HUN
+
 	}
-	manpower=0
+
+	provinces={
+		701 3683 13125 15025 15032 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

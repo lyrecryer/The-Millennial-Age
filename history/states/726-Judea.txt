@@ -1,9 +1,19 @@
+
 state={
 	id=726
 	name="STATE_726"
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_core_of = PAL
+
+	}
+
 	provinces={
 		1086 7107 16714 16743 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

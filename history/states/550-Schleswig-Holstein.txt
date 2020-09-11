@@ -5,6 +5,13 @@ state={
 	provinces={
 		317 3231 3368 6257 6389 9320 11331 11366 13805 13831 13836 13837 13859 13884 13898 13922 
 	}
-	manpower=0
+	history = {
+		owner = WGR
+		add_core_of = DDR
+		add_core_of = WGR
+		add_core_of = GER
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

@@ -2,9 +2,17 @@
 state={
 	id=826
 	name="STATE_826"
-	provinces={
-		2066 5079 5196 10962 
+
+	history={
+		owner = KEN
+		add_core_of = KEN
+
 	}
-	manpower=0
+
+	provinces={
+		2066 5079 5196 10962 13135 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,0 +1,15 @@
+
+state={
+	id=73
+	name="STATE_73"
+	provinces={
+		4660 6642 11708 12450 13123 
+	}
+	history = {
+	owner = ARM
+	add_core_of = ARM
+	}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

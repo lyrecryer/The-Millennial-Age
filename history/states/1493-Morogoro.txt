@@ -4,6 +4,11 @@ state={
 	provinces={
 		2196 8182 8201 8205 10845 10988 12944 12967 
 	}
-	manpower=0
+	history = {
+		owner = TZN
+		add_core_of = TZN
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

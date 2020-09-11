@@ -1,0 +1,14 @@
+state={
+	id=387
+	name="STATE_387"
+	provinces={
+		2024 
+	}
+	history = {
+		owner = COG
+		add_core_of = COG
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

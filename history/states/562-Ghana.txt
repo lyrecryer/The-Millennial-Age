@@ -2,9 +2,17 @@
 state={
 	id=562
 	name="STATE_562"
-	provinces={
-		8039 8096 10862 12742 12785 12787 
+
+	history={
+		owner = GHA
+		add_core_of = GHA
+
 	}
-	manpower=0
+
+	provinces={
+		8039 8096 10862 12742 12785 12787 13136 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,0 +1,15 @@
+
+state={
+	id=639
+	name="STATE_639"
+	provinces={
+		1460 1648 4446 4652 7673 10522 12126 
+	}
+	history = {
+		owner = INS
+		add_core_of = INS
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

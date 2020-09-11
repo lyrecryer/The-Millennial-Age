@@ -5,6 +5,11 @@ state={
 	provinces={
 		1892 1904 7964 8119 12461 12736 12859 13215 13216 
 	}
-	manpower=0
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

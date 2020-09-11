@@ -4,6 +4,12 @@ state={
 	provinces={
 		1065 1074 16670 
 	}
-	manpower=0
+	history = {
+		owner = ISR
+		add_core_of = ISR
+		add_core_of = PAL
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

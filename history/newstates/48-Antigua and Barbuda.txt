@@ -1,0 +1,14 @@
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		17321 
+	}
+	history = {
+	owner = ANT
+	add_core_of = ANT
+	}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

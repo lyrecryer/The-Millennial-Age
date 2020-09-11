@@ -1,9 +1,18 @@
+
 state={
 	id=306
 	name="STATE_306"
-	provinces={
-		1473 3123 4897 4978 9152 
+
+	history={
+		owner = CHA
+		add_core_of = CHA
+
 	}
-	manpower=0
+
+	provinces={
+		1473 3123 4897 4978 9152 13138 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

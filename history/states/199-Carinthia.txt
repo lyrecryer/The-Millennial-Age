@@ -5,6 +5,12 @@ state={
 	provinces={
 		668 671 3673 3674 6673 11612 15068 15069 15087 15094 15095 15096 15097 15125 15126 
 	}
-	manpower=0
+	
+	history = {
+		owner = AUS
+		add_core_of = AUS
+	
+		}	manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

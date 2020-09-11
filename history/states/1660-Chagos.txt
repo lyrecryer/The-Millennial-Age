@@ -1,0 +1,15 @@
+state={
+	id=1660
+	name="STATE_1660"
+	provinces={
+		13019 
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = MAU
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

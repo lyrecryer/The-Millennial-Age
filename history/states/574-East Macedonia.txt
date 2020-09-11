@@ -5,6 +5,12 @@ state={
 	provinces={
 		9791 9930 11774 11905 15996 15997 16007 16033 16045 
 	}
-	manpower=0
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = MAC
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

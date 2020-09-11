@@ -1,9 +1,18 @@
+
 state={
 	id=526
 	name="STATE_526"
-	provinces={
-		9167 11066 
+
+	history={
+		owner = FIN
+		add_core_of = FIN
+
 	}
-	manpower=0
+
+	provinces={
+		9167 11066 13100 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

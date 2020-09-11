@@ -5,6 +5,11 @@ state={
 	provinces={
 		5010 7980 8036 8062 10775 12856 17300 17301 17302 17303 17304 17306 17307 17318 17320 
 	}
-	manpower=0
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

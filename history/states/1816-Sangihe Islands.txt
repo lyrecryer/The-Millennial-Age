@@ -1,0 +1,14 @@
+state={
+	id=1816
+	name="STATE_1816"
+	provinces={
+		1351 
+	}
+	history = {
+		owner = INS
+		add_core_of = INS
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

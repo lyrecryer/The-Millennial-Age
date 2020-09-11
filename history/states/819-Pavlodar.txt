@@ -5,6 +5,10 @@ state={
 	provinces={
 		1879 4670 4685 7317 7708 10202 10235 10630 12616 
 	}
-	manpower=0
+	history = {owner = SOV
+		add_core_of = KAZ
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

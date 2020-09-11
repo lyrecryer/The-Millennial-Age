@@ -1,0 +1,16 @@
+
+state={
+	id=102
+	name="STATE_102"
+	provinces={
+		6536 9510 14881 14889 
+	}
+	history = {
+	owner = FRA
+	add_core_of = FRA
+
+	}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

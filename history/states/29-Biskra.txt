@@ -5,6 +5,11 @@ state={
 	provinces={
 		1126 1128 1141 1967 4970 5053 7033 7149 9943 9960 10059 12034 12888 13077 
 	}
-	manpower=0
+	history = {
+	owner = ALG
+	add_core_of = ALG
+	}
+	manpower=8720000
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

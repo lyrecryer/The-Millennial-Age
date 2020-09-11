@@ -4,6 +4,11 @@ state={
 	provinces={
 		17321 
 	}
-	manpower=0
+	history = {
+	owner = ANT
+	add_core_of = ANT
+	}
+	manpower=81799
+	state_category = tiny_island
 	buildings_max_level_factor=1.000
 }

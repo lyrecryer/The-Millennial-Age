@@ -1,9 +1,18 @@
+
 state={
 	id=1145
 	name="STATE_1145"
-	provinces={
-		2182 5166 8191 10940 13086 
+
+	history={
+		owner = PRU
+		add_core_of = PRU
+
 	}
-	manpower=0
+
+	provinces={
+		2182 5166 8191 10940 13086 13175 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

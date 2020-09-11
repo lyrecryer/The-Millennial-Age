@@ -4,6 +4,11 @@ state={
 	provinces={
 		1565 1713 1746 7783 7887 12362 12664 
 	}
-	manpower=0
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

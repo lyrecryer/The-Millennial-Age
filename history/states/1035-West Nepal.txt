@@ -1,0 +1,14 @@
+state={
+	id=1035
+	name="STATE_1035"
+	provinces={
+		4386 7374 10825 10910 
+	}
+	history = {
+		owner = NEP
+		add_core_of = NEP
+		}
+		manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

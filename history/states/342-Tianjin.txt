@@ -5,6 +5,12 @@ state={
 	provinces={
 		4137 9969 10068 12043 16227 16228 16229 16231 16262 16263 16287 
 	}
-	manpower=0
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		add_core_of = CHI
+		}
+		manpower=100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

@@ -947,7 +947,6 @@ abandon_colony_tag = {
 			limit = {
 				OR = {
 					has_cosmetic_tag = united_polynesia
-					has_cosmetic_tag = MAJ_UNIFIED
 				}
 			}
 		}
