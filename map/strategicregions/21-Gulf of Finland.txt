@@ -1,0 +1,11 @@
+
+strategic_region={
+	id=21
+	name="STRATEGICREGION_21"
+	provinces={
+		1434 1660 
+	}
+	naval_terrain=water_shallow_sea
+	weather={
+	}
+}
