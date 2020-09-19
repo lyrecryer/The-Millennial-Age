@@ -35,13 +35,11 @@ MAU = "countries/Mauritius.txt"
 
 ABK = "countries/Abkhazia.txt"
 ART = "countries/Artsakh.txt"
-COI = "countries/Cook_Islands.txt"
 KOS = "countries/Kosovo.txt"
 NIU = "countries/Niue.txt"
 NCY = "countries/Northern_Cyprus.txt"
 SML = "countries/Somaliland.txt"
 SOS = "countries/South_Ossetia.txt"
-TRA = "countries/Transnistria.txt"
 #Supernations
 EUR = "countries/Europe.txt"
 UNI = "countries/United_Nations.txt"

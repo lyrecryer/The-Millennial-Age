@@ -1,14 +1,18 @@
+
 state={
 	id=1058
 	name="STATE_1058"
-	provinces={
-		4819 
-	}
-	history = {
+
+	history={
 		owner = NZL
 		add_core_of = NZL
-		}
-		manpower=100
-	state_category = rural
+
+	}
+
+	provinces={
+		4819 12632 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

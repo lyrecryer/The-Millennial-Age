@@ -311,35 +311,6 @@ default_role_ratios = {
 		value = 65
 	}
 
-	ai_strategy = {
-		type = role_ratio
-		id = naval_escort
-		value = 35
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_cruiser_light
-		value = 25
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_cruiser_heavy
-		value = 20
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_mine_sweeper
-		value = 15
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_mine_layer
-		value = 20
-	}
 }
 
 convoy_voy_voy_voy = {
@@ -349,29 +320,6 @@ convoy_voy_voy_voy = {
 	}
 	abort = {
 		convoy_threat < 0.2
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_cruiser_light
-		value = -20
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_escort
-		value = 25
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_mine_layer
-		value = -10
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = screen_ship
-		value = 30
 	}
 
 	ai_strategy = {
@@ -396,23 +344,6 @@ ill_show_you_mine = {
 		mine_threat < 0.2
 	}
 
-	ai_strategy = {
-		type = role_ratio
-		id = naval_cruiser_heavy
-		value = -20
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_mine_sweeper
-		value = 25
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_mine_layer
-		value = -10
-	}
 }
 
 ill_show_you_mine_2 = {
@@ -422,24 +353,6 @@ ill_show_you_mine_2 = {
 	}
 	abort = {
 		mine_threat < 0.5
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_cruiser_light
-		value = -20
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_mine_sweeper
-		value = 25
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_mine_layer
-		value = -10
 	}
 }
 

@@ -109,24 +109,6 @@ on_actions = {
 					}
 				}
 			}
-		effect = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = EU_FORMED
-						option = EU_UNITED
-					}
-				}
-				every_country  = {
-						limit = { is_ai = no
-						has_idea = EU_MEMBER  }
-				set_global_flag = EU_FORMED
-				EUR = { change_tag_from = ROOT }
-						}
-
-						}
-
-					}
-				}
+	}
 }
 

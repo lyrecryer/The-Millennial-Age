@@ -1,4 +1,4 @@
-search_filter_prios = {
+﻿search_filter_prios = {
 	FOCUS_FILTER_POLITICAL = 1010
 
 	
@@ -11,12 +11,10 @@ search_filter_prios = {
 	FOCUS_FILTER_INDUSTRY = 509
 
 }
+
 focus_tree = {
 	id = generic_focus
-	continuous_focus_position = {
-		x = 0
-		y = 1000
-	}
+	
 	country = {
 		factor = 1
 	}
@@ -972,6 +970,16 @@ focus_tree = {
 				factor = 0
 				date < 1939.1.1
 				OR = { 
+					# we dont want chinese minors to go crazy on slots early since they get eaten
+					tag = GXC 
+					tag = YUN
+					tag = SHX
+					tag = XSM
+					tag = BEL
+					tag = LUX
+					tag = HOL
+					tag = DEN
+
 					# we also dont want tiny nations to go crazy with slots right away
 					num_of_controlled_states < 2
 				}				
@@ -1723,7 +1731,7 @@ focus_tree = {
 	focus = {
 		id = political_effort
 		icon = GFX_goal_generic_demand_territory
-		x = 25
+		x = 19
 		y = 0
 		cost = 10
 	
@@ -1740,9 +1748,15 @@ focus_tree = {
 		id = collectivist_ethos
 		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = political_effort }
-		mutually_exclusive = { focus = liberty_ethos focus = monarchism_ethos}
-		
-		x = -3
+		mutually_exclusive = { focus = liberty_ethos}
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = communism
+				has_government = neutrality
+			}
+		}
+		x = -1
 		y = 1
 		relative_position_id = political_effort
 		cost = 10
@@ -1767,159 +1781,22 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = monarchism_ethos
-		icon = GFX_goal_monarchism_ethos 
-		prerequisite = { focus = political_effort }
-		mutually_exclusive = { focus = liberty_ethos focus = collectivist_ethos}
-		
-		x = 0
-		y = 1
-		relative_position_id = political_effort
-		cost = 10
-	
-		search_filters = { FOCUS_FILTER_POLITICAL   }
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 10
-				OR = {
-					AND = {
-						has_government = neutrality
-					}
-				}
-			}
-		}
-
-		completion_reward = {
-			add_timed_idea = { idea = monarchism_ethos days = 1095 }
-		}
-	}
-	focus = {
-		id = monarchism_create_legion
-		icon = GFX_goal_create_legion
-		prerequisite = { focus = monarchism_ethos }
-		
-		
-		x = 0
-		y = 1
-		relative_position_id = monarchism_ethos
-		cost = 10
-	
-		search_filters = { FOCUS_FILTER_POLITICAL   }
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 10
-				OR = {
-					AND = {
-						has_government = neutrality
-					}
-				}
-			}
-		}
-
-		completion_reward = {
-			add_timed_idea = { idea = legion_formed days = 1095 }
-		}
-	}
-	focus = {
-		id = monarchism_reform_government
-		icon = GFX_goal_monarchism_reform_government
-		prerequisite = { focus = monarchism_create_legion }
-		
-		
-		x = 0
-		y = 2
-		relative_position_id = monarchism_ethos
-		cost = 30
-	
-		search_filters = { FOCUS_FILTER_POLITICAL   }
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 10
-				OR = {
-					AND = {
-						has_government = neutrality
-					}
-				}
-			}
-		}
-
-		completion_reward = {
-			add_ideas = reformed_government
-		}
-	}
-	focus = {
-		id = monarchism_crowned
-		icon = GFX_goal_monarchism_crowned
-		prerequisite = { focus = monarchism_reform_government }
-		available = {
-			has_idea = reformed_government
-		}
-		
-		x = 0
-		y = 3
-		relative_position_id = monarchism_ethos
-		cost = 1
-	
-		search_filters = { FOCUS_FILTER_POLITICAL   }
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 10
-				OR = {
-					AND = {
-						has_government = neutrality
-					}
-				}
-			}
-		}
-
-		completion_reward = {
-			if = {
-				limit = {
-				has_government = neutrality
-				}
-				add_popularity = {
-				ideology = neutrality
-				popularity = 50.0
-				}
-				else = {
-					set_politics = { ruling_party = neutrality elections_allowed = no }
-			 		set_country_flag = new_monarch
-				}
-				news_event = monarch_events.1
-			}
+			add_timed_idea = { idea = collectivist_ethos_focus days = 1095 }
 		}
 	}
 
 	focus = {
 		id = nationalism_focus
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascism #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = collectivist_ethos }
 		mutually_exclusive = { focus = internationalism_focus }
-		x = -4
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+		x = -2
 		y = 1
 		relative_position_id = collectivist_ethos
 		cost = 10
@@ -1936,20 +1813,22 @@ focus_tree = {
 				any_neighbor_country = {
 					is_major = yes
 					has_government = fascism
-					has_government = nazism_I
 				}
 			}
 			modifier = {
 				factor = 0
 				AND = {
 					is_historical_focus_on = yes
-					NOT = { has_government = fascism
-					has_government = nazism_I }
+					NOT = { has_government = fascism }
 				}
 			}
 		}
 
 		completion_reward = {
+			add_timed_idea = {
+				idea = nationalism
+				days = 720
+			}
 		}
 	}
 	
@@ -1958,6 +1837,18 @@ focus_tree = {
 		icon = GFX_goal_support_communism #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = collectivist_ethos }
 		mutually_exclusive = { focus = nationalism_focus }
+		available = {
+			if = {
+				limit = { original_tag = CHI }
+				has_government = communism
+				else = {
+					OR = {
+						has_government = communism
+						has_government = neutrality
+					}
+				}
+			}
+		}
 		x = 0
 		y = 1
 		relative_position_id = collectivist_ethos
@@ -1975,201 +1866,37 @@ focus_tree = {
 				any_neighbor_country = {
 					is_major = yes
 					has_government = communism
-					has_government = socialism_I
 				}
 			}			
 			modifier = {
 				factor = 0
 				AND = {
 					is_historical_focus_on = yes
-					NOT = { has_government = communism
-					has_government = socialism_I }
+					NOT = { has_government = communism }
 				}
 			}
 		}
 
 		completion_reward = {
+			add_timed_idea = {
+				idea = internationalism
+				days = 720
+			}
 		}
 	}	
-	focus = {
-		id = socialism_focus
-		icon = GFX_goal_embrace_socialism
-		cost = 10
-		relative_position_id = internationalism_focus
-		x = -1
-		y = 1
-		prerequisite = { focus = internationalism_focus }
-		mutually_exclusive = {
-			focus = communism_focus
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL  }
 
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 2
-				any_neighbor_country = {
-					is_major = yes
-					has_government = communism
-					has_government = socialism_I
-				}
-			}			
-			modifier = {
-				factor = 0
-				AND = {
-					is_historical_focus_on = yes
-					NOT = { has_government = communism
-					has_government = socialism_I }
-				}
-			}
-		}
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = socialist_influence
-				days = 720
-			}
-		}
-	}
-	focus = {
-		id = communism_focus
-		icon = GFX_goal_embrace_communism
-		cost = 10
-		relative_position_id = internationalism_focus
-		x = 1
-		y = 1
-		prerequisite = { focus = internationalism_focus }
-		mutually_exclusive = {
-			focus = socialism_focus
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL  }
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 2
-				any_neighbor_country = {
-					is_major = yes
-					has_government = communism
-					has_government = socialism_I
-				}
-			}			
-			modifier = {
-				factor = 0
-				AND = {
-					is_historical_focus_on = yes
-					NOT = { has_government = communism
-					has_government = socialism_I }
-				}
-			}
-		}
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = communist_influence
-				days = 720
-			}
-		}
-	}
-	focus = {
-		id = nazism_focus
-		icon = GFX_goal_embrace_nazism
-		cost = 10
-		relative_position_id = nationalism_focus
-		x = -1
-		y = 1
-		prerequisite = { focus = nationalism_focus }
-		mutually_exclusive = {
-			focus = facism_focus
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL  }
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 2
-				any_neighbor_country = {
-					is_major = yes
-					has_government = fascism
-					has_government = nazism_I
-				}
-			}			
-			modifier = {
-				factor = 0
-				AND = {
-					is_historical_focus_on = yes
-					NOT = { has_government = fascism
-					has_government = nazism_I }
-				}
-			}
-		}
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = nazi_influence
-				days = 720
-			}
-		}
-	}
-	focus = {
-		id = facism_focus
-		icon = GFX_goal_embrace_facism
-		cost = 10
-		relative_position_id = nationalism_focus
-		x = 1
-		y = 1
-		prerequisite = { focus = nationalism_focus }
-		mutually_exclusive = {
-			focus = nazism_focus
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL  }
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 2
-				any_neighbor_country = {
-					is_major = yes
-					has_government = fascism
-					has_government = nazism_I
-				}
-			}			
-			modifier = {
-				factor = 0
-				AND = {
-					is_historical_focus_on = yes
-					NOT = { has_government = fascism
-					has_government = nazism_I }
-				}
-			}
-		}
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = fascist_influence
-				days = 720
-			}
-		}
-	}
 	focus = {
 		id = liberty_ethos
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = political_effort }
-		mutually_exclusive = { focus = collectivist_ethos focus = monarchism_ethos }
-		
-		x = 3
+		mutually_exclusive = { focus = collectivist_ethos }
+		available = {
+			OR = {
+				has_government = democratic
+				has_government = neutrality
+			}
+		}
+		x = 1
 		y = 1
 		relative_position_id = political_effort
 		cost = 10
@@ -2188,16 +1915,12 @@ focus_tree = {
 					OR = {
 						has_government = communism
 						has_government = fascism
-						has_government = socialism_I
-						has_government = nazism_I
 					}
 				}
 				NOT = {
 					any_neighbor_country = {
 						is_major = yes
-						has_government = conservatism_I
- 						has_government = liberalism_I
- 						has_government = anarcho
+						has_government = democratic
 					}
 				}
 			}
@@ -2211,9 +1934,9 @@ focus_tree = {
 	focus = {
 		id = militarism
 		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = nazism_focus focus = facism_focus }
+		prerequisite = { focus = nationalism_focus }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = nationalism_focus
 		cost = 10
 	
@@ -2235,9 +1958,9 @@ focus_tree = {
 	focus = {
 		id = political_correctness
 		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = socialism_focus focus = communism_focus }
+		prerequisite = { focus = internationalism_focus }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = internationalism_focus
 		cost = 10
 	
@@ -2271,6 +1994,10 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				tag = AUS
+			}
 		}
 
 		completion_reward = {
@@ -2338,23 +2065,9 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = nazism_I }
-				add_popularity = {
-					ideology = nazism_I
-					popularity = 0.2
-				}
-			}
-			if = {
 				limit = { has_government = communism }
 				add_popularity = {
 					ideology = communism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = { has_government = socialism_I }
-				add_popularity = {
-					ideology = socialism_I
 					popularity = 0.2
 				}
 			}
@@ -2517,73 +2230,17 @@ focus_tree = {
 					popularity = 0.2
 				}
 			}
-			if = {
-				limit = { has_government = socialism_I }
-				add_popularity = {
-					ideology = socialism_I
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = { has_government = nazism_I }
-				add_popularity = {
-					ideology = nazism_I
-					popularity = 0.2
-				}
-			}
 			add_political_power = 200
 		}
 	}
 
 	focus = {
-		id = abolish_the_enemy
-		icon = GFX_goal_abolish_the_enemy
-		prerequisite = { focus = paramilitarism focus = political_commissars focus = why_we_fight }
-		x = 1
-		y = 7
-		relative_position_id = political_effort
-		cost = 10
-	
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			if = {
-				#democratics get banned
-				limit = {
-					OR = {
-					has_government = communism
-					has_government = fascism
-					has_government = neutrality
-					has_government = nazism_I
-					}
-				}
-				add_ideas = all_democratic_banned
-				else_if = {
-					#All parties are banned
-					limit = {
-						has_government = anarcho
-					}
-					add_ideas = all_parties_banned
-				}
-				else = {
-					#non democratics get banned
-					add_ideas = all_non_democratic_banned
-				}
-			}
-			set_rule = {
-				can_create_factions = yes
-			}
-		}
-	}
-	focus = {
 		id = ideological_fanaticism
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = paramilitarism focus = political_commissars focus = why_we_fight }
-		x = -1
-		y = 7
-		relative_position_id = political_effort
+		prerequisite = { focus = paramilitarism focus = political_commissars }
+		x = 1
+		y = 1
+		relative_position_id = paramilitarism
 		cost = 10
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -2605,7 +2262,7 @@ focus_tree = {
 	focus = {
 		id = technology_sharing
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = ideological_fanaticism focus = why_we_fight focus = abolish_the_enemy }
+		prerequisite = { focus = ideological_fanaticism focus = why_we_fight }
 		available = {
 			has_war = yes
 			is_in_faction = yes
@@ -2617,9 +2274,9 @@ focus_tree = {
 				}
 			}
 		}		
-		x = 0
-		y = 8
-		relative_position_id = political_effort
+		x = 2
+		y = 1
+		relative_position_id = ideological_fanaticism
 		cost = 10
 	
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }

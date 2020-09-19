@@ -1,0 +1,9 @@
+
+supply_area={
+	id=365
+	name="SUPPLYAREA_365"
+	value=1
+	states={
+		270 271 269 266 265 
+	}
+}

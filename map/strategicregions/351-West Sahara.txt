@@ -1,0 +1,10 @@
+
+strategic_region={
+	id=351
+	name="STRATEGICREGION_351"
+	provinces={
+		5012 7979 10875 
+	}
+	weather={
+	}
+}

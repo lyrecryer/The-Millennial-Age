@@ -5,8 +5,8 @@ state={
 		7371 7387 
 	}
 	history = {
-		owner = BRU
-		add_core_of = BRU
+		owner = MAL
+		add_core_of = MAL
 	
 		}
 		manpower=100

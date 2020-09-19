@@ -6,7 +6,7 @@ HUN_DD_HISTORICAL = {
 	for_countries = { HUN }
 
 	can_use = { 
-		not = { has_cosmetic_tag = HUN_EMPIRE }
+		
 	}
 
 	type = ship
@@ -28,7 +28,7 @@ HUN_CL_HISTORICAL = {
 	for_countries = { HUN }
 
 	can_use = { 
-		not = { has_cosmetic_tag = HUN_EMPIRE }
+		
 	}
 
 	type = ship
@@ -48,7 +48,7 @@ HUN_CA_HISTORICAL = {
 	for_countries = { HUN }
 
 	can_use = { 
-		not = { has_cosmetic_tag = HUN_EMPIRE }
+		
 	}
 
 	type = ship
@@ -70,7 +70,7 @@ HUN_BB_HISTORICAL = {
 	for_countries = { HUN }
 
 	can_use = { 
-		not = { has_cosmetic_tag = HUN_EMPIRE }
+		
 	}
 
 	type = ship
@@ -91,7 +91,7 @@ HUN_BC_HISTORICAL = {
 	for_countries = { HUN }
 
 	can_use = { 
-		not = { has_cosmetic_tag = HUN_EMPIRE }
+		
 	}
 
 	type = ship
@@ -112,7 +112,7 @@ HUN_CV_HISTORICAL = {
 	for_countries = { HUN }
 
 	can_use = { 
-		not = { has_cosmetic_tag = HUN_EMPIRE }
+		
 	}
 
 	type = ship
@@ -133,7 +133,7 @@ HUN_SS_HISTORICAL = {
 	for_countries = { HUN }
 
 	can_use = {
-		not = { has_cosmetic_tag = HUN_EMPIRE }
+		
 	}
 
 	type = ship
@@ -180,7 +180,7 @@ HUN_DD_IMPERIAL = {
 	for_countries = { AUS CZE CRO HUN }
 
 	can_use = { 
-		has_cosmetic_tag = HUN_EMPIRE
+		
 	}
 
 	type = ship
@@ -204,7 +204,7 @@ HUN_CL_IMPERIAL = {
 	for_countries = { AUS CZE CRO HUN }
 
 	can_use = { 
-		has_cosmetic_tag = HUN_EMPIRE
+		
 	}
 
 	type = ship
@@ -226,7 +226,7 @@ HUN_CA_IMPERIAL = {
 	for_countries = { AUS CZE CRO HUN }
 
 	can_use = { 
-		has_cosmetic_tag = HUN_EMPIRE
+		
 	}
 
 	type = ship
@@ -249,7 +249,7 @@ HUN_BB_IMPERIAL = {
 	for_countries = { AUS CZE CRO HUN }
 
 	can_use = { 
-		has_cosmetic_tag = HUN_EMPIRE
+		
 	}
 
 	type = ship
@@ -270,7 +270,7 @@ HUN_BC_IMPERIAL = {
 	for_countries = { AUS CZE CRO HUN }
 
 	can_use = { 
-		has_cosmetic_tag = HUN_EMPIRE
+		
 	}
 
 	type = ship
@@ -291,7 +291,7 @@ HUN_CV_IMPERIAL = {
 	for_countries = { AUS CZE CRO HUN }
 
 	can_use = { 
-		has_cosmetic_tag = HUN_EMPIRE
+		
 	}
 
 	type = ship
@@ -312,7 +312,7 @@ HUN_SS_IMPERIAL = {
 	for_countries = { AUS CZE CRO HUN }
 
 	can_use = { 
-		has_cosmetic_tag = HUN_EMPIRE
+		
 	}
 
 	type = ship
@@ -356,7 +356,7 @@ HUN_THEME_RIVERS = {
 	for_countries = { AUS CZE CRO HUN }
 
 	can_use = { 
-		has_cosmetic_tag = HUN_EMPIRE
+		
 	}
 
 	type = ship

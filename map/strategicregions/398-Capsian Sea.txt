@@ -1,0 +1,9 @@
+strategic_region={
+	id=398
+	name="STRATEGICREGION_398"
+	provinces={
+		843 1050 1271 1496 
+	}
+	weather={
+	}
+}

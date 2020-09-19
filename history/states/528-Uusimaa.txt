@@ -1,14 +1,18 @@
+
 state={
 	id=528
 	name="STATE_528"
-	provinces={
-		204 6009 6108 6144 9129 11105 
-	}
-	history = {
+
+	history={
 		owner = FIN
 		add_core_of = FIN
-		}
-		manpower=100
-	state_category = rural
+
+	}
+
+	provinces={
+		204 6009 6108 6144 9129 11105 11211 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
