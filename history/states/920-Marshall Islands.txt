@@ -8,7 +8,7 @@ state={
 		owner = MAR
 		add_core_of = MAR
 		}
-		manpower=100
+		manpower=58413
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

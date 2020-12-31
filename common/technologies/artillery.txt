@@ -1,4 +1,19 @@
 technologies = {
+	# List (Year)[Y]
+	@1980 = 1
+	@1985 = 3
+	@1990 = 5
+	@1995 = 7
+	@2000 = 9
+	@2005 = 11
+	@2010 = 13
+	@2015 = 15
+	@2020 = 17
+		# List (Type)[X]
+	@ART = 3
+	@ROC = 7
+	@AAG = 11
+	@ATG = 15
 
 	gw_artillery = {
 
@@ -28,7 +43,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 0 }
+			position = { x = @ART y = @1980 }
 		}
 		
 		categories = {
@@ -74,11 +89,11 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 1985
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 2 }
+			position = { x = @ART y = @1985 }
 		}
 		
 		categories = {
@@ -125,11 +140,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1939
+		start_year = 1990
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 4 }
+			position = { x = @ART y = @1990 }
 		}
 		
 		categories = {
@@ -180,11 +195,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 1995
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 6 }
+			position = { x = @ART y = @1995 }
 		}
 		
 		categories = {
@@ -196,7 +211,7 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1940.1.6"
+				date > "1995.1.6"
 			}
 			
 			modifier = {
@@ -230,11 +245,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 2000
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 8 }
+			position = { x = @ART y = @2000 }
 		}
 		
 		categories = {
@@ -276,11 +291,11 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1942
+		start_year = 2005
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 10 }
+			position = { x = @ART y = @2005 }
 		}
 		
 		categories = {
@@ -321,11 +336,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 2010
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 12 }
+			position = { x = @ART y = @2010 }
 		}
 		
 		categories = {
@@ -347,7 +362,7 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				date > "1945.1.1"
+				date > "2000.1.1"
 			}
 		}
 	}
@@ -390,20 +405,16 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1940
+		start_year = 1995
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 6 }
+			position = { x = @ROC y = @1995 }
 		}
 		
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
 		}
 		
 		categories = {
@@ -433,20 +444,16 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 2000
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 8 }
+			position = { x = @ROC y = @2000 }
 		}
 		
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
 		}
 		
 		categories = {
@@ -476,20 +483,16 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 2005
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 10 }
+			position = { x = @ROC y = @2005 }
 		}
 		
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
 		}
 		
 		categories = {
@@ -515,20 +518,16 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 2010
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 12 }
+			position = { x = @ROC y = @2010 }
 		}
 		
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
 		}
 		
 		categories = {
@@ -558,29 +557,16 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 1980
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 2 }
+			position = { x = @AAG y = @1980 }
 		}
 		
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 0.5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
 			modifier = {
 				factor = 2
 				date > "1937.1.1"
@@ -623,28 +609,15 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1939
+		start_year = 1985
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 4 }
+			position = { x = @AAG y = @1985 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -671,28 +644,15 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 1990
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 6 }
+			position = { x = @AAG y = @1990 }
 		}
 		
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -721,28 +681,15 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 1995
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 8 }
+			position = { x = @AAG y = @1995 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -771,28 +718,15 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 2000
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 10 }
+			position = { x = @AAG y = @2000 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -814,28 +748,15 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 2005
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 12 }
+			position = { x = @AAG y = @2005 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -856,39 +777,16 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 1980
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 2 }
+			position = { x = @ATG y = @1980 }
 		}
 		
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 0.2
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
 			modifier = {
 				factor = 2
 				date > "1937.1.1"
@@ -944,11 +842,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1939
+		start_year = 1985
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 4 }
+			position = { x = @ATG y = @1985 }
 		}
 		
 		ai_will_do = {
@@ -965,23 +863,13 @@ technologies = {
 				}
 			}
 			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
 				factor = 2
 				date > "1939.1.6"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1940.1.1"
+				date > "1995.1.1"
 			}
 		}
 		
@@ -1013,11 +901,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 1990
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 6 }
+			position = { x = @ATG y = @1990 }
 		}
 		
 		ai_will_do = {
@@ -1028,27 +916,12 @@ technologies = {
 				date > "1939.1.9"
 			}
 			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
 				factor = 2
-				date > "1940.1.1"
-			}
-			modifier = {
-				tag = USA
-				has_War = no
-				factor = 0.5 #this tank nonsense will never catch on
+				date > "1995.1.1"
 			}
 			modifier = {
 				factor = 5
-				date > "1940.1.6"
+				date > "1995.1.6"
 			}
 			modifier = {
 				factor = 10
@@ -1091,11 +964,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 1995
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 8 }
+			position = { x = @ATG y = @1995 }
 		}
 		
 		ai_will_do = {
@@ -1104,16 +977,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				date > "1941.1.6"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
 			}
 			modifier = {
 				factor = 2
@@ -1165,11 +1028,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 2000
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 10 }
+			position = { x = @ATG y = @2000 }
 		}
 		
 		ai_will_do = {
@@ -1178,16 +1041,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				date > "1942.1.6"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
 			}
 			modifier = {
 				factor = 5
@@ -1229,11 +1082,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 2005
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 12 }
+			position = { x = @ATG y = @2005 }
 		}
 		
 		ai_will_do = {
@@ -1242,16 +1095,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				date > "1942.1.9"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
 			}
 			modifier = {
 				factor = 2

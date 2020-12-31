@@ -9,7 +9,7 @@ import os.path
 import re
 from shutil import copyfile
 
-path = "G:/Documents/Paradox Interactive/Hearts of Iron IV/mod/The_Millennial_Age" #MOD DIRECTORY HERE LIKE C:/Users/USER/Documents/Paradox Interactive/Hearts of Iron IV/mod/MODNAME/ <- final slash important!
+path = "C:/Users/lyrec/Documents/Paradox Interactive/Hearts of Iron IV/mod/The_Millennial_Age" #MOD DIRECTORY HERE LIKE C:/Users/USER/Documents/Paradox Interactive/Hearts of Iron IV/mod/MODNAME/ <- final slash important!
 replace_path_active = 1 #if you are using replace_path on state files, set this to 1, otherwise keep it at 0, otherwise you will get a ton of ID errors 
 
 ###############################################################################################

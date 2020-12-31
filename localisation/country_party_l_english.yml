@@ -1,5 +1,5 @@
 ﻿l_english:
- # This file contains every nations parties. Only Democratic is ignored due to it no longer being used.
+ # This file contains every nations parties. 
 
  #
  # _communism_party:0 ""
@@ -21,11 +21,77 @@
  # _democratic_party_long:0 "Democratic Party"
  #MAJORS
  #United Kingdom[ENG]
+  ENG_communism_party:0 "CPGB"
+  ENG_communism_party_long:0 "Communist Party of Great Britain"
+  ENG_fascism_party:0 "BNP"
+  ENG_fascism_party_long:0 "British National Party"
+  ENG_neutrality_party:0 "UKIP"
+  ENG_neutrality_party_long:0 "UK Independence Party"
+  ENG_democratic_party:0 "Conservative Party"
+  ENG_democratic_party_long:0 "Conservative Party"
  #Germany[GER]
+  GER_communism_party:0 "KPD"
+  GER_communism_party_long:0 "Kommunistische Partei Deutschlands (Communist Party of Germany)"
+  GER_fascism_party:0 "NPD"
+  GER_fascism_party_long:0 "Nationaldemokratische Partei Deutschlands (National Democratic Party of Germany)"
+  GER_neutrality_party:0 "Royal Court"
+  GER_neutrality_party_long:0 "Royal Court"
+  GER_democratic_party:0 "CDU"
+  GER_democratic_party_long:0 "Christlich Demokratische Union Deutschlands (Christian Democratic Union of Germany)"
+#DDR
+  DDR_communism_party:0 "SED"
+  DDR_communism_party_long:0 "Sozialistische Einheitspartei Deutschlands (Socialist Unity Party of Germany)"
+  DDR_fascism_party:0 "SRP"
+  DDR_fascism_party_long:0 "Sozialistische Reichspartei Deutschlands (Socialist Reich Party)"
+  DDR_neutrality_party:0 "Royal Court"
+  DDR_neutrality_party_long:0 "Royal Court"
+  DDR_democratic_party:0 "CDU"
+  DDR_democratic_party_long:0 "Christlich Demokratische Union Deutschlands (Christian Democratic Union of Germany)"
+#WGR
+  WGR_communism_party:0 "KPD"
+  WGR_communism_party_long:0 "Kommunistische Partei Deutschlands (Communist Party of Germany)"
+  WGR_fascism_party:0 "NPD"
+  WGR_fascism_party_long:0 "Nationaldemokratische Partei Deutschlands (National Democratic Party of Germany)"
+  WGR_neutrality_party:0 "Royal Court"
+  WGR_neutrality_party_long:0 "Royal Court"
+  WGR_democratic_party:0 "CDU"
+  WGR_democratic_party_long:0 "Christlich Demokratische Union Deutschlands (Christian Democratic Union of Germany)"
  #France[FRA]
+  FRA_communism_party:0 "PCF"
+  FRA_communism_party_long:0 "Parti communiste français (French Communist Party)"
+  FRA_fascism_party:0 "RN"
+  FRA_fascism_party_long:0 "Rassemblement national (National Rally)"
+  FRA_neutrality_party:0 "RPR"
+  FRA_neutrality_party_long:0 "Rassemblement pour la République (Rally for the Republic)"
+  FRA_democratic_party:0 "PS"
+  FRA_democratic_party_long:0 "Parti socialiste (Socialist Party)"
  #Italy[ITA]
+  ITA_communism_party:0 "PCI"
+  ITA_communism_party_long:0 "Partito Comunista Italiano (Italian Communist Party)"
+  ITA_fascism_party:0 "MSI–DN"
+  ITA_fascism_party_long:0 "Movimento Sociale Italiano – Destra Nazionale (Italian Social Movement – National Right)"
+  ITA_neutrality_party:0 "FdV"
+  ITA_neutrality_party_long:0 "Federazione dei Verdi (Federation of the Greens)"
+  ITA_democratic_party:0 "DC"
+  ITA_democratic_party_long:0 "Democrazia Cristiana (Christian Democracy)"
  #United States of America[USA]
+  USA_communism_party:0 "Communist Party USA"
+  USA_communism_party_long:0 "Communist Party USA"
+  USA_fascism_party:0 "NSM"
+  USA_fascism_party_long:0 "National Socialist Movement"
+  USA_neutrality_party:0 "Libertarian Party"
+  USA_neutrality_party_long:0 "Libertarian Party"
+  USA_democratic_party:0 "Republican Party"
+  USA_democratic_party_long:0 "Republican Party"
  #Russia[SOV]
+  SOV_communism_party:0 "CPSU"
+  SOV_communism_party_long:0 "Communist Party of the Soviet Union"
+  SOV_fascism_party:0 "LDPR"
+  SOV_fascism_party_long:0 "Liberal Democratic Party of Russia"
+  SOV_neutrality_party:0 "United Russia"
+  SOV_neutrality_party_long:0 "United Russia"
+  SOV_democratic_party:0 "DCR"
+  SOV_democratic_party_long:0 "Democratic Choice of Russia"
  #All other nations:
  # ALB
  # ARM

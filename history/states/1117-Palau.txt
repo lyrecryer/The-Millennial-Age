@@ -5,10 +5,10 @@ state={
 		4357 12103 
 	}
 	history = {
-		owner = PAU
+		owner = USA
 		add_core_of = PAU
 		}
-		manpower=100
-	state_category = rural
+		manpower=17907
+	state_category = tiny_island
 	buildings_max_level_factor=1.000
 }

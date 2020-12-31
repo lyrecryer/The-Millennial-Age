@@ -19,7 +19,8 @@ democratic = 100
 }
 
 add_ideas = {
-
+	EURO
+	EU_NATION
 }
 
 create_country_leader = {

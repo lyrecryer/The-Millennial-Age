@@ -1,0 +1,34 @@
+
+	#I HAVE COMBINED ALL THE THE DOCTIRNES IN THIS FOLDER SO I CAN USE THE OTHER TWO FOR SOMETHINGELSE.
+	# List (Year)[Y]
+	@1920 = 1
+	@1930 = 3
+	@1935 = 4
+	@1940 = 5
+	@1945 = 6
+	@1950 = 7
+	@1955 = 8
+	@1960 = 9
+	@1965 = 10
+	@1970 = 11
+	@1975 = 12
+	@1980 = 13
+	@1985 = 14
+	@1990 = 15
+	@1995 = 16
+	@2000 = 17
+	@2005 = 18
+	# List (Type)[X]
+	#AIR
+	@ADA = 2
+	@ADB = 3
+	@ADC = 4
+	#NAVAL
+	@NDA = 6
+	@NDB = 7
+	@NDC = 8
+	#LAND
+	@LDA = 10
+	@LDB = 11
+	@LDC = 12
+	@LDD = 13

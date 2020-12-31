@@ -4,33 +4,67 @@
 set_technology = {	
 	infantry_weapons = 1
 }
-set_research_slots = 2
+set_research_slots = 5
 set_convoys = 10
 set_stability = 1
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1989.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 
 }
 set_popularities = {
-democratic = 100
+	communism = 100
 }
 
 add_ideas = {
-
+	fascism_banned
 }
-
+#WARSAW PACT
+create_faction = "Warsaw Pact"
+add_to_faction = SOV
+add_to_faction = POL
+add_to_faction = CZE
+add_to_faction = HUN
+add_to_faction = ROM
+add_to_faction = BUL
+add_to_faction = DDR
+#Communist
 create_country_leader = {
-	name = "Test Guy"
+	name = "Mikhail Gorbachev"
 	desc = ""
 	picture = "Portrait_.dds"
 	expire = "9999.12.12"
-	ideology = liberalism
-	traits = {
-		
-	}
+	ideology = dic_socialist
+	traits = {}
+}
+#Facist
+create_country_leader = {
+	name = "Vladimir Zhirinovsky"
+	desc = ""
+	picture = "Portrait_.dds"
+	expire = "9999.12.12"
+	ideology = fascism_ideology
+	traits = {}
+}
+#Non Allined
+create_country_leader = {
+	name = "Sergey Shoygu"
+	desc = ""
+	picture = "Portrait_.dds"
+	expire = "9999.12.12"
+	ideology = populist
+	traits = {}
+}
+#Democratic
+create_country_leader = {
+	name = "Yegor Gaidar"
+	desc = ""
+	picture = "Portrait_.dds"
+	expire = "9999.12.12"
+	ideology = conservatism
+	traits = {}
 }
 

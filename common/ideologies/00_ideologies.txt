@@ -4,19 +4,15 @@ ideologies = {
 	
 		types = {
 			
-			conservatism = {
-			}
+			conservatism = {}
 		
-			liberalism = {
-			}
+			liberalism = {}
 		
-			socialism = {
-			}
-			moderatism = {
-			}
-			
-			centrism = {
-			}
+			socialism = {}
+
+			moderatism = {}
+	
+			centrism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -70,24 +66,17 @@ ideologies = {
 		
 		types = {
 		
-			marxism = {
-			}
+			marxism = {}
 			
-			leninism = {
-			}
+			leninism = {}
 			
-			stalinism = {
-			}
+			stalinism = {}
 			
-			anti_revisionism = {
-			}
+			anti_revisionism = {}
 			
-			anarchist_communism = {
-			}
+			anarchist_communism = {}
 			dic_socialist = {}
-			juche = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-				}
+			juche = {can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
@@ -132,19 +121,19 @@ ideologies = {
 	
 		types = {
 		
-			nazism = {
-			}
+			nazism = {}
 			
-			fascism_ideology = {
-			}
+			fascism_ideology = {}
 			
-			falangism = {
-			}
+			falangism = {}
 			
-			rexism = {
-			}
+			rexism = {}
+
 			white_supremacist = {}
+
 			religious_fundamentalist ={}
+
+			miltary_junta = {}
 		}
 		
 		dynamic_faction_names = {
@@ -184,16 +173,19 @@ ideologies = {
 	
 		types = {
 		
-			despotism  = {
-			}
-			monarchism = {}
-			oligarchism  = {
-			}
+			despotism  = {}
 
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
+			monarchism = {}
+
+			oligarchism  = {}
+
+			anarchism = { can_be_randomly_selected = no }
+
 			populist = {}
+			#Green Parties
+			ecopolitic = {}
+
+			libertarianism = {}
 		}
 
 		dynamic_faction_names = {

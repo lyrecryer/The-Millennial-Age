@@ -1,0 +1,208 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+
+	#Sets the flags that was used in 1989
+	nation_1989_effect = {
+		#SSRS
+		ARM = { set_cosmetic_tag = ARM_SSR }
+		AZR = { set_cosmetic_tag = AZR_SSR }
+		BLR = { set_cosmetic_tag = BLR_SSR }
+		EST = { set_cosmetic_tag = EST_SSR }
+		GEO = { set_cosmetic_tag = GEO_SSR }
+		KAZ = { set_cosmetic_tag = KAZ_SSR }
+		KYR = { set_cosmetic_tag = KYR_SSR }
+		LAT = { set_cosmetic_tag = LAT_SSR }
+		LIT = { set_cosmetic_tag = LIT_SSR }
+		MOL = { set_cosmetic_tag = MOL_SSR }
+		MON = { set_cosmetic_tag = MON_SSR }
+		ABK = { set_cosmetic_tag = ABK_SSR }
+		TAJ = { set_cosmetic_tag = TAJ_SSR }
+		TMS = { set_cosmetic_tag = TMS_SSR }
+		UKR = { set_cosmetic_tag = UKR_SSR }
+		UZB = { set_cosmetic_tag = UZB_SSR }
+
+		#OTHERS
+		BRH = { set_cosmetic_tag = BRH_1989 }
+		DAH = { set_cosmetic_tag = DAH_1989 }
+		BOS = { set_cosmetic_tag = BOS_1989 }
+		BRA = { set_cosmetic_tag = BRA_1989 }
+		BUL = { set_cosmetic_tag = BUL_1989 }
+		CAM = { set_cosmetic_tag = CAM_1989 }
+		CAP = { set_cosmetic_tag = CAP_1989 }
+		COM = { set_cosmetic_tag = COM_1989 }
+		RCG = { set_cosmetic_tag = RCG_1989 }
+		COG = { set_cosmetic_tag = COG_1989 }
+		CRO = { set_cosmetic_tag = CRO_1989 }
+		CYP = { set_cosmetic_tag = CYP_1989 }
+		DOC = { set_cosmetic_tag = DOC_1989 }
+		ETI = { set_cosmetic_tag = ETI_1989 }
+		ECU = { set_cosmetic_tag = ECU_1989 }
+		ERI = { set_cosmetic_tag = ERI_1989 }
+		ETH = { set_cosmetic_tag = ETH_1989 }
+		IRQ = { set_cosmetic_tag = IRQ_1989 }
+		JAP = { set_cosmetic_tag = JAP_1989 }
+		SKR = { set_cosmetic_tag = SKR_1989 }
+		NKR = { set_cosmetic_tag = NKR_1989 }
+		LES = { set_cosmetic_tag = LES_1989 }
+		LBA = { set_cosmetic_tag = LBA_1989 }
+		MRT = { set_cosmetic_tag = MRT_1989 }
+		MNT = { set_cosmetic_tag = MNT_1989 }
+		BRM = { set_cosmetic_tag = BRM_1989 }
+		MAC = { set_cosmetic_tag = MAC_1989 }
+		KOS = { set_cosmetic_tag = KOS_1989 }
+		SML = { set_cosmetic_tag = SML_1989 }
+		PAR = { set_cosmetic_tag = PAR_1989 }
+		PHI = { set_cosmetic_tag = PHI_1989 }
+		RWA = { set_cosmetic_tag = RWA_1989 }
+		SAL = { set_cosmetic_tag = SAL_1989 }
+		SNM = { set_cosmetic_tag = SNM_1989 }
+		SER = { set_cosmetic_tag = SER_1989 }
+		SLV = { set_cosmetic_tag = SLV_1989 }
+		SAF = { set_cosmetic_tag = SAF_1989 }
+		TUN = { set_cosmetic_tag = TUN_1989 }
+		TUV = { set_cosmetic_tag = TUV_1989 }
+		VEN = { set_cosmetic_tag = VEN_1989 }
+		YEM = { set_cosmetic_tag = YEM_1989 }
+		ZAM = { set_cosmetic_tag = ZAM_1989 }
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1990_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1991_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1992_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1993_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1994_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1995_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1996_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1997_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1998_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_1999_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2000_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2001_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2002_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2003_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2004_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2005_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2006_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2007_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2008_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2009_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2010_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2011_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2012_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2013_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2014_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2015_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2016_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2017_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2018_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2019_effect = {
+
+	}
+	#Sets the flags that was used in 1989
+	nation_2020_effect = {
+
+	}

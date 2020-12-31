@@ -1,46 +1,66 @@
 
 #SSR
 SOV_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
-UKR_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
-BLR_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
-GEO_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
-AZR_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
 ARM_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
-UZB_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+AZR_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
-TAJ_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+BLR_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
-KYR_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+EST_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
-TMS_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+GEO_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
 KAZ_SSR = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+KYR_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+LAT_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+MOL_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+MON_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+ABK_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+TAJ_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+TMS_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+UKR_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+UZB_SSR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }

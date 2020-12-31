@@ -9,7 +9,7 @@ state={
 	owner = ALB
 	add_core_of = ALB
 	}
-	manpower=1410988
+	manpower=1422977
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

@@ -23,6 +23,24 @@ add_ideas = {
 
 }
 
+#NATO
+create_faction = "NATO"
+add_to_faction = USA
+add_to_faction = BEL
+add_to_faction = CAN
+add_to_faction = DEN
+add_to_faction = FRA
+add_to_faction = ICE
+add_to_faction = ITA
+add_to_faction = LUX
+add_to_faction = HOL
+add_to_faction = NOR
+add_to_faction = POR
+add_to_faction = ENG
+add_to_faction = GRE
+add_to_faction = TUR
+add_to_faction = WGR
+add_to_faction = SPA
 create_country_leader = {
 	name = "Test Guy"
 	desc = ""

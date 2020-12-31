@@ -17319,8 +17319,8 @@
 17318;0;180;115;land;false;hills;5
 17319;0;180;120;land;false;hills;5
 17320;0;180;125;land;false;hills;5
-17321;51;168;73;land;false;unknown;0
-17322;242;113;152;land;false;unknown;0
-17323;117;173;66;land;false;unknown;0
-17324;255;0;252;land;false;unknown;0
-17325;255;0;183;land;false;unknown;0
+17321;51;168;73;land;false;unknown;3
+17322;242;113;152;land;false;unknown;3
+17323;117;173;66;land;false;unknown;7
+17324;255;0;252;land;false;unknown;6
+17325;255;0;183;land;false;unknown;1
