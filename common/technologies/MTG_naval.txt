@@ -56,10 +56,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = smoke_generator 
-			research_cost_coeff = 1
-		}
 
 		path = {
 			leads_to_tech = basic_depth_charges

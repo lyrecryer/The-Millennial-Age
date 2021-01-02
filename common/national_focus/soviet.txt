@@ -1,1 +1,460 @@
-﻿
+﻿search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+	FOCUS_FILTER_RESEARCH = 522
+	FOCUS_FILTER_INDUSTRY = 509
+
+}
+
+focus_tree = {
+	id = soviet_focus
+	continuous_focus_position = { x = 800 y = 500 }
+	country = {
+		factor = 0
+		modifier = {
+		tag = SOV
+		add = 100
+		NOT = { has_global_flag = USSR_dissolved } 
+	}
+	}
+	
+	reset_on_civilwar = yes
+
+	initial_show_position = {
+		focus = SOV_1988_annual_report
+	}
+
+	focus = {
+		id = SOV_1988_annual_report
+		icon = GFX_focus_generic_industry_1
+		cost = 1
+		x = 2
+		y = 0
+		available = {}
+		bypass = {}
+		allow_branch = {}
+		ai_will_do = {
+			factor = 100
+		}
+	
+		completion_reward = {
+			country_event = sov_fall.1
+		}
+	}
+	focus = {
+		id = new_thinking_policy
+		icon = GFX_focus_generic_industry_1
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = SOV_1988_annual_report
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = soviet_reponse
+		icon = GFX_focus_generic_industry_1
+		cost = 60
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = new_thinking_policy
+		}
+		allow_branch = {
+			
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	#OTL
+	focus = {
+		id = sinatra_doctrine
+		icon = GFX_focus_generic_industry_1
+		cost = 1
+		x = -1
+		y = 3
+		prerequisite = {
+			focus = soviet_reponse
+		}
+		#The Soviet Union will fall as planned. But only if historical Ai is on.
+		historical_ai = {
+			always = yes
+		}
+		#No point in showing this if it's not happening.
+		allow_branch = {
+			NOT = { has_completed_focus = brezhnev_doctrine }
+		}
+		mutually_exclusive = { focus = brezhnev_doctrine }
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			base = 10
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = dismatle_warsaw_pact
+		icon = GFX_focus_generic_industry_1
+		cost = 170
+		x = -1
+		y = 4
+		available = {
+			date > 1991.1.1
+		}
+		prerequisite = {
+			focus = sinatra_doctrine
+		}
+		#The Soviet Union will fall as planned. But only if historical Ai is on.
+		historical_ai = {
+			always = yes
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			base = 10
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = abolish_the_USSR
+		icon = GFX_focus_generic_industry_1
+		cost = 175
+		x = -1
+		y = 5
+		available = {
+			date > 1991.1.1
+		}
+		prerequisite = {
+			focus = dismatle_warsaw_pact
+		}
+		#The Soviet Union will fall as planned. But only if historical Ai is on.
+		historical_ai = {
+			always = yes
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			base = 10
+		}
+		completion_reward = {
+			add_political_power = 150
+			set_global_flag = USSR_dissolved
+		}
+	}
+	#DOMESTIC POLICY
+	focus = {
+		id = expand_liberal_reforms
+		icon = GFX_focus_generic_industry_1
+		cost = 120
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = sinatra_doctrine
+		}
+		#The Soviet Union will fall as planned. But only if historical Ai is on.
+		historical_ai = {
+			always = yes
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			base = 10
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = SOV_privatization_1
+		icon = GFX_focus_generic_industry_1
+		cost = 60
+		x = 1
+		y = 4
+		prerequisite = {
+			focus = expand_liberal_reforms
+		}
+		#The Soviet Union will fall as planned. But only if historical Ai is on.
+		historical_ai = {
+			always = yes
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			base = 10
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = SOV_privatization_2
+		icon = GFX_focus_generic_industry_1
+		cost = 60
+		x = 1
+		y = 5
+		prerequisite = {
+			focus = SOV_privatization_1
+		}
+		#The Soviet Union will fall as planned. But only if historical Ai is on.
+		historical_ai = {
+			always = yes
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			base = 10
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = SOV_increase_civil_rights
+		icon = GFX_focus_generic_industry_1
+		cost = 120
+		x = 1
+		y = 6
+		prerequisite = {
+			focus = SOV_privatization_2
+		}
+		#The Soviet Union will fall as planned. But only if historical Ai is on.
+		historical_ai = {
+			always = yes
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			base = 10
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	#ALT HISTORY (WILL LEAD TO WW3 IF FULLY ENABLED!)
+	focus = {
+		id = brezhnev_doctrine
+		icon = GFX_focus_generic_industry_1
+		cost = 30
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = soviet_reponse
+		}
+		#No point in showing this if it's not happening.
+		allow_branch = {
+			NOT = {has_completed_focus = sinatra_doctrine }
+		}
+		mutually_exclusive = { focus = sinatra_doctrine }
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = enforce_martial_law
+		icon = GFX_focus_generic_industry_1
+		cost = 7
+		x = 1
+		y = 4
+		prerequisite = {
+			focus = brezhnev_doctrine
+		}
+		allow_branch = {
+			has_completed_focus = brezhnev_doctrine
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = stop_pan_euro_picnic
+		icon = GFX_focus_generic_industry_1
+		cost = 35
+		x = 1
+		y = 5
+		prerequisite = {
+			focus = enforce_martial_law
+		}
+		allow_branch = {
+			has_completed_focus = enforce_martial_law
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+	#DOMESTIC AFFIARS
+	focus = {
+		id = stop_polish_elections
+		icon = GFX_focus_generic_industry_1
+		cost = 40
+		x = 2
+		y = 5
+		prerequisite = {
+			focus = enforce_martial_law
+		}
+		allow_branch = {
+			has_completed_focus = enforce_martial_law
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = seize_warsaw_pact
+		icon = GFX_focus_generic_industry_1
+		cost = 100
+		x = 2
+		y = 6
+		prerequisite = {
+			focus = stop_polish_elections
+		}
+		allow_branch = {
+			has_completed_focus = enforce_martial_law
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+	#A rebel faction will form happen soon after the warsaw pact is seized.
+	focus = {
+		id = crush_the_rebels
+		icon = GFX_focus_generic_industry_1
+		cost = 14
+		x = 2
+		y = 7
+		prerequisite = {
+			focus = seize_warsaw_pact
+		}
+		allow_branch = {
+			has_completed_focus = seize_warsaw_pact
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+	#FORGIEN AFFIARS
+	focus = {
+		id = reinforce_berlin_wall
+		icon = GFX_focus_generic_industry_1
+		cost = 14
+		x = 1
+		y = 6
+		prerequisite = { focus = stop_pan_euro_picnic }
+		continue_if_invalid = yes
+		allow_branch = {
+			has_completed_focus = stop_pan_euro_picnic
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = yugoslavic_problem
+		icon = GFX_focus_generic_industry_1
+		cost = 70
+		x = 1
+		y = 7
+		prerequisite = {
+			focus = reinforce_berlin_wall
+		}
+		allow_branch = {
+			NOT = {	country_exists = YUG }
+			has_completed_focus = stop_pan_euro_picnic
+		}
+		relative_position_id = SOV_1988_annual_report
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_political_power = 150
+		}
+	}
+
+
+	#OTHERSTUFF
+	#Sign the START 1 tretay
+	focus = {
+		id = sign_START_1
+		icon = GFX_focus_generic_industry_1
+		cost = 3
+		x = 5
+		y = 0
+		available = {
+			date > 1991.06.1
+		}
+		bypass = {}
+		allow_branch = {}
+		ai_will_do = {
+			factor = 100
+		}
+	
+		completion_reward = {
+			#country_event = START.1
+		}
+	}
+	focus = {
+		id = disarm_nukes
+		icon = GFX_focus_generic_industry_1
+		cost = 600
+		x = 5
+		y = 1
+		prerequisite = {
+			focus = sign_START_1
+		}
+		available = {}
+		bypass = {}
+		allow_branch = {}
+		ai_will_do = {
+			factor = 100
+		}
+	
+		completion_reward = {
+			add_nuclear_bombs = -1000
+		}
+	}
+}

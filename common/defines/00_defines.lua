@@ -2,7 +2,7 @@ NDefines = {
 
 NGame = {
 	START_DATE = "1989.1.1.12",
-	END_DATE = "2020.1.1.1",
+	END_DATE = "2021.1.1.1",
 	MAP_SCALE_PIXEL_TO_KM = 7.114,					-- Yes, we did the math
 	SAVE_VERSION = 7,								-- 1.8.0
 	CHECKSUM_SALT = "zwOdv5d9wm9uDSOT",				-- Data to modify generated checksum when game binaries have changed but not any content files.
@@ -166,7 +166,7 @@ NDiplomacy = {
 
 NCountry = {
 	EVENT_PROCESS_OFFSET = 20,						-- Events are checked every X day per country or state (1 is ideal, but CPU heavy)
-	BASE_RESEARCH_SLOTS = 2,						-- Base number of research slots per country.
+	BASE_RESEARCH_SLOTS = 3,						-- Base number of research slots per country.
 	VP_TO_SUPPLY_BASE = 1,							-- Bonus to supply from a VP, no matter the level
 	VP_TO_SUPPLY_BONUS_CONVERSION = 0.1,			-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer
 	SUPPLY_FROM_DAMAGED_INFRA = 0.3,                -- damaged infrastructure counts as this in supply calcs
@@ -2458,10 +2458,10 @@ NAI = {
 },
 
 NFocus = {
-	FOCUS_POINT_DAYS = 7,						-- Each point takes a week
+	FOCUS_POINT_DAYS = 1,						-- Each point takes a day
 	FOCUS_PROGRESS_PEACE = 1,					-- Progress during peace
 	FOCUS_PROGRESS_WAR = 1,					-- Progress during war
-	MAX_SAVED_FOCUS_PROGRESS = 10,				-- This much progress can be saved while not having a focus selected
+	MAX_SAVED_FOCUS_PROGRESS = 70,				-- This much progress can be saved while not having a focus selected
 },
 
 NOperatives = {
@@ -2919,8 +2919,10 @@ NIntel = {
 	ARMY_INTEL_COMBAT_BONUS_MIN_INTEL_FOR_BONUS = 5, -- min intel needed to start applying ARMY_INTEL_COMBAT_BONUS_MAX_BONUS
 	ARMY_INTEL_COMBAT_BONUS_MAX_INTEL_FOR_BONUS = 50, -- intel needed to fully apply ARMY_INTEL_COMBAT_BONUS_MAX_BONUS
 
-	NAVAL_SUPREMACY_INTEL_LOW = 0.3,								-- we need more intel than this to get any supremacy
-
+	NAVAL_SUPREMACY_INTEL_LOW = 0.4,								-- we need more intel than this to get any supremacy
+	NAVAL_SUPREMACY_INTEL_LOW_SUPREMACY_PENALTY_START = 0.1,		-- supremacy is reduced to NAVAL_SUPREMACY_INTEL_LOW_SUPREMACY_MIN_PENALTY at or below this intel
+	NAVAL_SUPREMACY_INTEL_LOW_SUPREMACY_MIN_PENALTY = 0.5, -- you get this much supremacy at NAVAL_SUPREMACY_INTEL_LOW_SUPREMACY_PENALTY_START and scales up to 1 at NAVAL_SUPREMACY_INTEL_LOW
+	
 	NAVY_FLEET_COUNT_INTEL_MIN = 0.1,
 	NAVY_FLEET_COUNT_INTEL_MAX = 0.3,
 	NAVY_FLEET_COUNT_INTEL_RANGE_AT_LOWEST_INTEL = 0.5,

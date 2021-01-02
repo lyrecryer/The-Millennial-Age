@@ -4,7 +4,6 @@ equipments = {
 		year = 1934
 
 		is_archetype = yes
-		is_convertable = yes
 		picture = archetype_heavy_tank_equipment
 		is_buildable = no
 		is_convertable = yes

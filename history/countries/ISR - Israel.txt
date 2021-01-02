@@ -3,6 +3,9 @@
 # Starting tech
 set_technology = {	
 	infantry_weapons = 1
+	atomic_research = 1
+	nuclear_reactor = 1
+	nukes = 1
 }
 set_research_slots = 2
 set_convoys = 10
@@ -19,6 +22,7 @@ set_popularities = {
 democratic = 100
 }
 
+#Based on 1990.
 add_ideas = {
 
 }
@@ -27,7 +31,7 @@ create_country_leader = {
 	name = "Test Guy"
 	desc = ""
 	picture = "Portrait_.dds"
-	expire = "9999.12.12"
+	expire = "9999.1.1"
 	ideology = liberalism
 	traits = {
 		

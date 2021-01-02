@@ -1,22 +1,45 @@
 ﻿add_namespace = startup
+#sets everything up
 country_event = {
 	id = startup.1
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		#based on 1990 data
+		RAJ = { add_nuclear_bombs = 7 }
+		PAK = { add_nuclear_bombs = 4 }
+		#they do dismantle their nukes soon after game start.
+		SAF = { add_nuclear_bombs = 6 }
+		#not really sure. Lets assume they did have a nuke.
+		NKR = {add_nuclear_bombs = 1 }
+		PRC = { add_nuclear_bombs = 232 }
+		ENG = { add_nuclear_bombs = 422 }
+		FRA = { add_nuclear_bombs = 505 }
+		ISR = { add_nuclear_bombs = 53 }
+		USA = {	add_nuclear_bombs = 10904 }
+		SOV = { add_nuclear_bombs = 37000 }
+		country_event = startup.2
+	}
+}
+country_event = {
+	id = startup.2
 	title = startup.1.title
 	desc = startup.1.desc
 	picture = GFX_news_event_001
 
 	is_triggered_only = yes
-	fire_only_once = yes
+	#fire_only_once = yes
 	option = {
 		name = "Show me the briefing."
-		country_event = startup.2
+		country_event = startup.3
 	}
 	option = {
 		name = "Don't show me the briefing."
 	}
 }
 country_event = {
-	id = startup.2
+	id = startup.3
 	title = startup.2.title
 	desc = {
 		text = startup.2.desc_ENG
@@ -32,6 +55,15 @@ country_event = {
 			#Trigger-goes-here
 		}
 	}
+	desc = {
+		text = startup.2.desc
+		trigger = {
+			NOT = { tag = SOV }
+			NOT = { tag = ENG }
+			NOT = { tag = USA }
+			#Trigger-goes-here
+		}
+	}
 	#desc = {
 	#	text = startup.2.desc_USA
 	#	trigger = {
@@ -42,7 +74,7 @@ country_event = {
 	picture = GFX_news_event_001
 
 	is_triggered_only = yes
-	fire_only_once = yes
+	#fire_only_once = yes
 	option = {
 		name = OK
 	}
