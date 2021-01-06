@@ -6,7 +6,7 @@ state={
 		10323 13587 13593 13620 13637 
 	}
 	history = {
-		owner = SOV
+		owner = LAT
 		add_core_of = LAT
 		}
 		manpower=100

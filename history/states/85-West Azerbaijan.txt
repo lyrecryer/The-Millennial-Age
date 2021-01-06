@@ -6,7 +6,7 @@ state={
 		1467 1539 1610 9715 11645 11674 
 	}
 	history = {
-	owner = SOV
+	owner = AZR
 	add_core_of = AZR
 
 	}

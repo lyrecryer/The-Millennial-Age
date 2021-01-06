@@ -5,7 +5,7 @@ state={
 		7639 10671 12722 
 	}
 	history = {
-		owner = SOV
+		owner = UZB
 		add_core_of = UZB
 		}
 		manpower=100

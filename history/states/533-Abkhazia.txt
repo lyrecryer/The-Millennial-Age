@@ -6,7 +6,7 @@ state={
 		672 11599 11617 11647 15694 15695 15710 15711 
 	}
 	history = {
-		owner = SOV
+		owner = GEO
 		add_core_of = GEO
 		add_core_of = ABK
 		}

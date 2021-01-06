@@ -6,7 +6,7 @@ state={
 		654 772 
 	}
 	history = {
-		owner = SOV
+		owner = GEO
 		add_core_of = GEO
 		}
 		manpower=100

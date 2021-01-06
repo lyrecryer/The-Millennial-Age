@@ -1,0 +1,465 @@
+spriteTypes = {
+	#Tech Images
+	#MBTS
+	SpriteType = {
+		name = "GFX_MBT_1_medium"
+		texturefile = "gfx/interface/technologies/MBT_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_2_medium"
+		texturefile = "gfx/interface/technologies/MBT_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_3_medium"
+		texturefile = "gfx/interface/technologies/MBT_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_4_medium"
+		texturefile = "gfx/interface/technologies/MBT_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_5_medium"
+		texturefile = "gfx/interface/technologies/MBT_5.dds"
+	}
+		#Unit Icons
+	spriteType = { 
+		name = "GFX_unit_MBT_icon_medium"				
+		textureFile = "gfx/interface/counters/divisions_large/MBT_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+		noOfFrames = 2
+	}
+   
+	spriteType = { 
+		name = "GFX_unit_MBT_icon_medium_white"						
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_MBT_icon.dds" 
+		noOfFrames = 2
+	}
+   
+	spriteType = {
+		name = "GFX_unit_MBT_icon_small"
+		texturefile = "gfx/texticons/unit_MBT_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	#IVF
+	SpriteType = {
+		  name = "GFX_IFV_1_medium"
+		  texturefile = "gfx/interface/technologies/IFV_1.dds"
+	}
+	SpriteType = {
+		  name = "GFX_IFV_2_medium"
+		  texturefile = "gfx/interface/technologies/IFV_2.dds"
+	}
+	SpriteType = {
+		  name = "GFX_IFV_3_medium"
+		  texturefile = "gfx/interface/technologies/IFV_3.dds"
+	}
+	SpriteType = {
+		  name = "GFX_IFV_4_medium"
+		  texturefile = "gfx/interface/technologies/IFV_4.dds"
+	}
+	SpriteType = {
+		  name = "GFX_IFV_5_medium"
+		  texturefile = "gfx/interface/technologies/IFV_5.dds"
+	}
+	SpriteType = {
+		  name = "GFX_IFV_6_medium"
+		  texturefile = "gfx/interface/technologies/IFV_6.dds"
+	}
+	SpriteType = {
+		  name = "GFX_IFV_7_medium"
+		  texturefile = "gfx/interface/technologies/IFV_7.dds"
+	}
+	SpriteType = {
+		  name = "GFX_IFV_8_medium"
+		  texturefile = "gfx/interface/technologies/IFV_8.dds"
+	}
+		  #Unit Icons
+	spriteType = { 
+		  name = "GFX_unit_IFV_icon_medium"				
+		  textureFile = "gfx/interface/counters/divisions_large/IFV_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+		  noOfFrames = 2
+	}
+	 
+	spriteType = { 
+		  name = "GFX_unit_IFV_icon_medium_white"						
+		  textureFile = "gfx/interface/counters/divisions_small/onmap_unit_IFV_icon.dds" 
+		  noOfFrames = 2
+	}
+	 
+	spriteType = {
+		  name = "GFX_unit_IFV_icon_small"
+		  texturefile = "gfx/texticons/unit_IFV_icon_small.dds"
+		  legacy_lazy_load = no
+		  noOfFrames = 2		
+	}
+
+		#REC
+	SpriteType = {
+			name = "GFX_REC_1_medium"
+			texturefile = "gfx/interface/technologies/REC_1.dds"
+	}
+	SpriteType = {
+			name = "GFX_REC_2_medium"
+			texturefile = "gfx/interface/technologies/REC_2.dds"
+	}
+	SpriteType = {
+			name = "GFX_REC_3_medium"
+			texturefile = "gfx/interface/technologies/REC_3.dds"
+	}
+	SpriteType = {
+			name = "GFX_REC_4_medium"
+			texturefile = "gfx/interface/technologies/REC_4.dds"
+	}
+	SpriteType = {
+			name = "GFX_REC_5_medium"
+			texturefile = "gfx/interface/technologies/REC_5.dds"
+	}
+	SpriteType = {
+			name = "GFX_REC_6_medium"
+			texturefile = "gfx/interface/technologies/REC_6.dds"
+	}
+			#Unit Icons
+	spriteType = { 
+			name = "GFX_unit_REC_icon_medium"				
+			textureFile = "gfx/interface/counters/divisions_large/REC_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+			noOfFrames = 2
+	}
+	   
+	spriteType = { 
+			name = "GFX_unit_REC_icon_medium_white"						
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_REC_icon.dds" 
+			noOfFrames = 2
+	}
+	   
+	spriteType = {
+			name = "GFX_unit_REC_icon_small"
+			texturefile = "gfx/texticons/unit_REC_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+	}
+	#Fighters
+	SpriteType = {
+			name = "GFX_AS_1_medium"
+			texturefile = "gfx/interface/technologies/AS_1.dds"
+	}
+	SpriteType = {
+			name = "GFX_AS_2_medium"
+			texturefile = "gfx/interface/technologies/AS_2.dds"
+	}
+	SpriteType = {
+			name = "GFX_AS_3_medium"
+			texturefile = "gfx/interface/technologies/AS_3.dds"
+	}
+	SpriteType = {
+			name = "GFX_AS_4_medium"
+			texturefile = "gfx/interface/technologies/AS_4.dds"
+	}
+	SpriteType = {
+			name = "GFX_AS_5_medium"
+			texturefile = "gfx/interface/technologies/AS_5.dds"
+	}
+	SpriteType = {
+			name = "GFX_AS_6_medium"
+			texturefile = "gfx/interface/technologies/AS_6.dds"
+	}
+	SpriteType = {
+			name = "GFX_AS_7_medium"
+			texturefile = "gfx/interface/technologies/AS_7.dds"
+	}
+			#Unit Icons
+	spriteType = { 
+			name = "GFX_unit_AS_icon_medium"				
+			textureFile = "gfx/interface/counters/divisions_large/AS_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+			noOfFrames = 2
+	}
+	   
+	spriteType = { 
+			name = "GFX_unit_AS_icon_medium_white"						
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_AS_icon.dds" 
+			noOfFrames = 2
+	}
+	   
+	spriteType = {
+			name = "GFX_unit_AS_icon_small"
+			texturefile = "gfx/texticons/unit_AS_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+	}
+	#Close Air Support
+	SpriteType = {
+			name = "GFX_CAS_1_medium"
+			texturefile = "gfx/interface/technologies/CAS_1.dds"
+	}
+	SpriteType = {
+			name = "GFX_CAS_2_medium"
+			texturefile = "gfx/interface/technologies/CAS_2.dds"
+	}
+	SpriteType = {
+			name = "GFX_CAS_3_medium"
+			texturefile = "gfx/interface/technologies/CAS_3.dds"
+	}
+	SpriteType = {
+			name = "GFX_CAS_4_medium"
+			texturefile = "gfx/interface/technologies/CAS_4.dds"
+	}
+	SpriteType = {
+			name = "GFX_CAS_5_medium"
+			texturefile = "gfx/interface/technologies/CAS_5.dds"
+	}
+	SpriteType = {
+			name = "GFX_CAS_6_medium"
+			texturefile = "gfx/interface/technologies/CAS_6.dds"
+	}
+			#Unit Icons
+	spriteType = { 
+			name = "GFX_unit_CAS_icon_medium"				
+			textureFile = "gfx/interface/counters/divisions_large/CAS_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+			noOfFrames = 2
+	}
+	   
+	spriteType = { 
+			name = "GFX_unit_CAS_icon_medium_white"						
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_CAS_icon.dds" 
+			noOfFrames = 2
+	}
+	   
+	spriteType = {
+			name = "GFX_unit_CAS_icon_small"
+			texturefile = "gfx/texticons/unit_CAS_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+	}
+	#Multi-Role
+	SpriteType = {
+			name = "GFX_MR_1_medium"
+			texturefile = "gfx/interface/technologies/MR_1.dds"
+	}
+	SpriteType = {
+			name = "GFX_MR_2_medium"
+			texturefile = "gfx/interface/technologies/MR_2.dds"
+	}
+	SpriteType = {
+			name = "GFX_MR_3_medium"
+			texturefile = "gfx/interface/technologies/MR_3.dds"
+	}
+	SpriteType = {
+			name = "GFX_MR_4_medium"
+			texturefile = "gfx/interface/technologies/MR_4.dds"
+	}
+	SpriteType = {
+			name = "GFX_MR_5_medium"
+			texturefile = "gfx/interface/technologies/MR_5.dds"
+	}
+	SpriteType = {
+			name = "GFX_MR_6_medium"
+			texturefile = "gfx/interface/technologies/MR_6.dds"
+	}
+	SpriteType = {
+			name = "GFX_MR_7_medium"
+			texturefile = "gfx/interface/technologies/MR_7.dds"
+	}
+			#Unit Icons
+	spriteType = { 
+			name = "GFX_unit_MR_icon_medium"				
+			textureFile = "gfx/interface/counters/divisions_large/MR_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+			noOfFrames = 2
+	}
+	   
+	spriteType = { 
+			name = "GFX_unit_MR_icon_medium_white"						
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_MR_icon.dds" 
+			noOfFrames = 2
+	}
+	   
+	spriteType = {
+			name = "GFX_unit_MR_icon_small"
+			texturefile = "gfx/texticons/unit_MR_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+	}
+	#Carrier Version Multi-Role
+	SpriteType = {
+			name = "GFX_CVMR_1_medium"
+			texturefile = "gfx/interface/technologies/CVMR_1.dds"
+	}
+	SpriteType = {
+			name = "GFX_CVMR_2_medium"
+			texturefile = "gfx/interface/technologies/CVMR_2.dds"
+	}
+	SpriteType = {
+			name = "GFX_CVMR_3_medium"
+			texturefile = "gfx/interface/technologies/CVMR_3.dds"
+	}
+	SpriteType = {
+			name = "GFX_CVMR_4_medium"
+			texturefile = "gfx/interface/technologies/CVMR_4.dds"
+	}
+	SpriteType = {
+			name = "GFX_CVMR_5_medium"
+			texturefile = "gfx/interface/technologies/CVMR_5.dds"
+	}
+	SpriteType = {
+			name = "GFX_CVMR_6_medium"
+			texturefile = "gfx/interface/technologies/CVMR_6.dds"
+	}
+	SpriteType = {
+			name = "GFX_CVMR_7_medium"
+			texturefile = "gfx/interface/technologies/CVMR_7.dds"
+	}
+			#Unit Icons
+	spriteType = { 
+			name = "GFX_unit_CVMR_icon_medium"				
+			textureFile = "gfx/interface/counters/divisions_large/CVMR_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+			noOfFrames = 2
+	}
+	   
+	spriteType = { 
+			name = "GFX_unit_CVMR_icon_medium_white"						
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_CVMR_icon.dds" 
+			noOfFrames = 2
+	}
+	   
+	spriteType = {
+			name = "GFX_unit_CVMR_icon_small"
+			texturefile = "gfx/texticons/unit_CVMR_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+	}
+	#Tactical Bombers
+	SpriteType = {
+			name = "GFX_TAC_1_medium"
+			texturefile = "gfx/interface/technologies/TAC_1.dds"
+	}
+	SpriteType = {
+			name = "GFX_TAC_2_medium"
+			texturefile = "gfx/interface/technologies/TAC_2.dds"
+	}
+	SpriteType = {
+			name = "GFX_TAC_3_medium"
+			texturefile = "gfx/interface/technologies/TAC_3.dds"
+	}
+	SpriteType = {
+			name = "GFX_TAC_4_medium"
+			texturefile = "gfx/interface/technologies/TAC_4.dds"
+	}
+	SpriteType = {
+			name = "GFX_TAC_5_medium"
+			texturefile = "gfx/interface/technologies/TAC_5.dds"
+	}
+	SpriteType = {
+			name = "GFX_TAC_6_medium"
+			texturefile = "gfx/interface/technologies/TAC_6.dds"
+	}
+	SpriteType = {
+			name = "GFX_TAC_7_medium"
+			texturefile = "gfx/interface/technologies/TAC_7.dds"
+	}
+			#Unit Icons
+	spriteType = { 
+			name = "GFX_unit_TAC_icon_medium"				
+			textureFile = "gfx/interface/counters/divisions_large/TAC_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+			noOfFrames = 2
+	}
+	   
+	spriteType = { 
+			name = "GFX_unit_TAC_icon_medium_white"						
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_TAC_icon.dds" 
+			noOfFrames = 2
+	}
+	   
+	spriteType = {
+			name = "GFX_unit_TAC_icon_small"
+			texturefile = "gfx/texticons/unit_TAC_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+	}
+	#STRAT Bombers
+	SpriteType = {
+			name = "GFX_STRAT_1_medium"
+			texturefile = "gfx/interface/technologies/STRAT_1.dds"
+	}
+	SpriteType = {
+			name = "GFX_STRAT_2_medium"
+			texturefile = "gfx/interface/technologies/STRAT_2.dds"
+	}
+	SpriteType = {
+			name = "GFX_STRAT_3_medium"
+			texturefile = "gfx/interface/technologies/STRAT_3.dds"
+	}
+	SpriteType = {
+			name = "GFX_STRAT_4_medium"
+			texturefile = "gfx/interface/technologies/STRAT_4.dds"
+	}
+	SpriteType = {
+			name = "GFX_STRAT_5_medium"
+			texturefile = "gfx/interface/technologies/STRAT_5.dds"
+	}
+	SpriteType = {
+			name = "GFX_STRAT_6_medium"
+			texturefile = "gfx/interface/technologies/STRAT_6.dds"
+	}
+			#Unit Icons
+	spriteType = { 
+			name = "GFX_unit_STRAT_icon_medium"				
+			textureFile = "gfx/interface/counters/divisions_large/STRAT_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+			noOfFrames = 2
+	}
+	   
+	spriteType = { 
+			name = "GFX_unit_STRAT_icon_medium_white"						
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_STRAT_icon.dds" 
+			noOfFrames = 2
+	}
+	   
+	spriteType = {
+			name = "GFX_unit_STRAT_icon_small"
+			texturefile = "gfx/texticons/unit_STRAT_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+	}
+	#TRANSPORT PLANES
+	SpriteType = {
+			name = "GFX_TRANS_1_medium"
+			texturefile = "gfx/interface/technologies/TRANS_1.dds"
+	}
+	SpriteType = {
+			name = "GFX_TRANS_2_medium"
+			texturefile = "gfx/interface/technologies/TRANS_2.dds"
+	}
+	SpriteType = {
+			name = "GFX_TRANS_3_medium"
+			texturefile = "gfx/interface/technologies/TRANS_3.dds"
+	}
+	SpriteType = {
+			name = "GFX_TRANS_4_medium"
+			texturefile = "gfx/interface/technologies/TRANS_4.dds"
+	}
+	SpriteType = {
+			name = "GFX_TRANS_5_medium"
+			texturefile = "gfx/interface/technologies/TRANS_5.dds"
+	}
+	SpriteType = {
+			name = "GFX_TRANS_6_medium"
+			texturefile = "gfx/interface/technologies/TRANS_6.dds"
+	}
+			#Unit Icons
+	spriteType = { 
+			name = "GFX_unit_TRANS_icon_medium"				
+			textureFile = "gfx/interface/counters/divisions_large/TRANS_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+			noOfFrames = 2
+	}
+	   
+	spriteType = { 
+			name = "GFX_unit_TRANS_icon_medium_white"						
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_TRANS_icon.dds" 
+			noOfFrames = 2
+	}
+	   
+	spriteType = {
+			name = "GFX_unit_TRANS_icon_small"
+			texturefile = "gfx/texticons/unit_TRANS_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+	}				
+}

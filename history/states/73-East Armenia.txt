@@ -6,9 +6,8 @@ state={
 		4660 6642 11708 12450 13123 
 	}
 	history = {
-		owner = SOV
+		owner = ARM
 		add_core_of = ARM
-		add_core_of = ART
 	}
 		manpower=100
 	state_category = rural

@@ -5,8 +5,9 @@ state={
 	provinces={
 		4686 7556 7777 10148 10366 10508 10601 12397 12487 
 	}
-	history = {owner = SOV
-		add_core_of = TMS
+	history = {
+		owner = KAZ
+		add_core_of = KAZ
 		}
 		manpower=100
 	state_category = rural

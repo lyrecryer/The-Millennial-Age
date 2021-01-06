@@ -5,7 +5,7 @@ state={
 		7491 8099 10357 12333 12491 
 	}
 	history = {
-		owner = SOV
+		owner = TMS
 		add_core_of = TMS
 		}
 		manpower=100

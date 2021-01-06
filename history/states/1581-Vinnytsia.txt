@@ -5,7 +5,7 @@ state={
 		476 6455 6480 9423 9435 9481 14570 14592 14671 14699 14719 14765 
 	}
 	history = {
-		owner = SOV
+		owner = UKR
 		add_core_of = UKR
 		}
 		manpower=100

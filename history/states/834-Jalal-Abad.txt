@@ -5,7 +5,7 @@ state={
 		1483 4316 10530 10660 
 	}
 	history = {
-		owner = SOV
+		owner = KYR
 		add_core_of = KYR
 		}
 		manpower=100

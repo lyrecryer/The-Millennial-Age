@@ -8,6 +8,7 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_core_of = TAN
 		}
 		manpower=100
 	state_category = rural

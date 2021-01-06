@@ -25,6 +25,7 @@ country_event = {
 	option = {
 		name = NEUTRAL_RESPONSE2
 		country_event = sov_fall.3
+		add_ideas = baltic_front
 	}
 }
 #Rebellion in the Caucasus
@@ -39,6 +40,7 @@ country_event = {
 	option = {
 		name = NEUTRAL_RESPONSE2
 		country_event = sov_fall.4
+		add_ideas = rebel_caucasus
 	}
 }
 #The Fading Stars of the West.
@@ -52,6 +54,7 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = NEUTRAL_RESPONSE2
+		add_ideas = fading_stars
 		#country_event = sov_fall.4
 	}
 }

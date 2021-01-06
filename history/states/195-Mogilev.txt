@@ -6,7 +6,7 @@ state={
 	}
 	
 	history = {
-		owner = SOV
+		owner = BLR
 		add_core_of = BLR
 	
 		}	manpower=100

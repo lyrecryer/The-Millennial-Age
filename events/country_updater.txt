@@ -186,7 +186,7 @@ country_event = {
 
 	option = {
 		nation_2004_effect = yes
-		country_event = { id = country_updater.18 days = 360 }
+		country_event = { id = country_updater.18 days = 720 }
 	}
 }
 country_event = {
@@ -196,19 +196,8 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		nation_2005_effect = yes
-		country_event = { id = country_updater.19 days = 360 }
-	}
-}
-country_event = {
-	id = country_updater.19
-	hidden = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
 		nation_2006_effect = yes
-		country_event = { id = country_updater.20 days = 360 }
+		country_event = { id = country_updater.20 days = 720 }
 	}
 }
 country_event = {
@@ -218,7 +207,7 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		nation_2007_effect = yes
+		nation_2008_effect = yes
 		country_event = { id = country_updater.21 days = 360 }
 	}
 }
@@ -229,7 +218,7 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		nation_2008_effect = yes
+		nation_2009_effect = yes
 		country_event = { id = country_updater.22 days = 360 }
 	}
 }
@@ -240,7 +229,7 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		nation_2009_effect = yes
+		nation_2010_effect = yes
 		country_event = { id = country_updater.23 days = 360 }
 	}
 }
@@ -251,7 +240,7 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		nation_2010_effect = yes
+		nation_2011_effect = yes
 		country_event = { id = country_updater.24 days = 360 }
 	}
 }
@@ -262,7 +251,7 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		nation_2011_effect = yes
+		nation_2012_effect = yes
 		country_event = { id = country_updater.25 days = 360 }
 	}
 }
@@ -273,8 +262,8 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		nation_2012_effect = yes
-		country_event = { id = country_updater.26 days = 360 }
+		nation_2013_effect = yes
+		country_event = { id = country_updater.26 days = 1440 }
 	}
 }
 country_event = {
@@ -284,83 +273,6 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		nation_2013_effect = yes
-		country_event = { id = country_updater.27 days = 360 }
-	}
-}
-country_event = {
-	id = country_updater.27
-	hidden = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		nation_2014_effect = yes
-		country_event = { id = country_updater.28 days = 360 }
-	}
-}
-country_event = {
-	id = country_updater.28
-	hidden = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		nation_2015_effect = yes
-		country_event = { id = country_updater.29 days = 360 }
-	}
-}
-country_event = {
-	id = country_updater.29
-	hidden = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		nation_2016_effect = yes
-		country_event = { id = country_updater.30 days = 360 }
-	}
-}
-country_event = {
-	id = country_updater.30
-	hidden = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
 		nation_2017_effect = yes
-		country_event = { id = country_updater.31 days = 360 }
-	}
-}
-country_event = {
-	id = country_updater.31
-	hidden = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		nation_2018_effect = yes
-		country_event = { id = country_updater.32 days = 360 }
-	}
-}
-country_event = {
-	id = country_updater.32
-	hidden = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		nation_2019_effect = yes
-		country_event = { id = country_updater.33 days = 360 }
-	}
-}
-country_event = {
-	id = country_updater.33
-	hidden = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		nation_2020_effect = yes
 	}
 }

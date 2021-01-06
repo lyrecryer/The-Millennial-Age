@@ -5,7 +5,7 @@ state={
 		6997 
 	}
 	history = {
-	owner = SOV
+	owner = AZR
 	add_core_of = ARM
 	add_core_of = ART
 	add_core_of = AZR
