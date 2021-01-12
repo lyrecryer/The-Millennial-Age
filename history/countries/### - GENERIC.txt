@@ -24,13 +24,13 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Test Guy"
-	desc = ""
-	picture = "Portrait_.dds"
-	expire = "9999.1.1"
-	ideology = liberalism
+	name = "Mohammed Zahir Shah"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "2500.1.1"
+	ideology = despotism
 	traits = {
-		
+		#
 	}
 }
 

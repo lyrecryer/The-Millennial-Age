@@ -1,0 +1,27 @@
+spriteTypes = {
+	#National Ideas Images
+	#EUROPEAN UNION
+	spriteType = {
+		name = "GFX_idea_EU_MEMBER"
+		texturefile = "gfx/interface/ideas/idea_EU_MEMBER.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EURO"
+		texturefile = "gfx/interface/ideas/idea_EURO.dds"
+	}
+	#UN
+	spriteType = {
+		name = "GFX_idea_UN_MEMBER"
+		texturefile = "gfx/interface/ideas/idea_UN_MEMBER.dds"
+	}
+	#AFRICAN UNION
+	spriteType = {
+		name = "GFX_idea_AU_MEMBER"
+		texturefile = "gfx/interface/ideas/idea_AU_MEMBER.dds"
+	}
+	#USSR BREAKING APART
+	spriteType = {
+		name = "GFX_idea_USSR_BREAKING_APART"
+		texturefile = "gfx/interface/ideas/idea_USSR_breaking_apart.dds"
+	}
+}

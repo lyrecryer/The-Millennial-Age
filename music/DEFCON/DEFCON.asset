@@ -1,0 +1,15 @@
+music = {
+	name = "01_Fear"
+	file = "01_Fear.ogg"
+	volume = 1
+}
+music = {
+	name = "02_Madness"
+	file = "02_Madness.ogg"
+	volume = 1
+}
+music = {
+	name = "03_Loss"
+	file = "03_Loss.ogg"
+	volume = 1
+}

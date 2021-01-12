@@ -57,5 +57,41 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 	}
+	MBT_equipment_2 = {
+		year = 1945
+
+		parent = MBT_equipment_1
+		archetype = MBT
+		priority = 170
+		visual_level = 1
+		is_convertable = yes
+	}
+	MBT_equipment_3 = {
+		year = 1945
+
+		parent = MBT_equipment_2
+		archetype = MBT
+		priority = 170
+		visual_level = 2
+		is_convertable = yes
+	}
+	MBT_equipment_4 = {
+		year = 1945
+
+		parent = MBT_equipment_3
+		archetype = MBT
+		priority = 170
+		visual_level = 3
+		is_convertable = yes
+	}
+	MBT_equipment_5 = {
+		year = 1945
+
+		parent = MBT_equipment_4
+		archetype = MBT
+		priority = 170
+		visual_level = 4
+		is_convertable = yes
+	}
 
 }

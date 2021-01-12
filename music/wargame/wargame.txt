@@ -1,0 +1,46 @@
+
+music_station = "wargame_playlist"
+
+music = {
+	song = "menu_theme"
+}
+music = {
+	song = "Track_1"
+}
+music = {
+	song = "Track_3"
+}
+music = {
+	song = "Track_4"
+}
+music = {
+	song = "Track_5"
+}
+music = {
+	song = "Track_6"
+}
+music = {
+	song = "Track_7"
+}
+music = {
+	song = "Track_8"
+}
+music = {
+	song = "Track_9"
+}
+music = {
+	song = "Track_10"
+}
+
+music = {
+	song = "tension"
+}
+music = {
+	song = "Sweeping_Bass"
+}
+music = {
+	song = "Campaign_Brief"
+}
+music = {
+	song = "The_Lost_Rites"
+}

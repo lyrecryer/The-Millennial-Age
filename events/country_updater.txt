@@ -11,6 +11,21 @@ country_event = {
 	option = {
 		nation_1989_effect = yes
 		country_event = { id = country_updater.2 days = 360 }
+		#Adding UN Member to everyone but the following tags.
+		every_country = {
+			limit = {
+				NOT = {tag = SML }
+				NOT = {tag = KOS }
+				NOT = {tag = WES }
+				NOT = {tag = CHI }
+				NOT = {tag = ABK }
+				NOT = {tag = SOS }
+				NOT = {tag = NCY }
+				NOT = {tag = ART }
+				NOT = {tag = PAL }
+			}
+			add_ideas = UN_MEMBER
+		}
 	}
 }
 country_event = {

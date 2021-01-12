@@ -1,0 +1,55 @@
+
+music_station = "superpower2_playlist"
+
+music = {
+	song = "blue_dot"
+}
+music = {
+	song = "death_march"
+}
+music = {
+	song = "drums_of_death"
+}
+music = {
+	song = "earthrise"
+}
+music = {
+	song = "fading_light"
+}
+music = {
+	song = "glory"
+}
+music = {
+	song = "gold_and_steel"
+}
+music = {
+	song = "hidden_dragon"
+}
+music = {
+	song = "hungry_earth"
+}
+music = {
+	song = "lamentation_of_peace"
+}
+music = {
+	song = "rising_sun"
+}
+
+music = {
+	song = "storm_clouds"
+}
+music = {
+	song = "sudden_war"
+}
+music = {
+	song = "tense_market"
+}
+music = {
+	song = "terra_invictus"
+}
+music = {
+	song = "towering_desire"
+}
+music = {
+	song = "when_the_wind_blew"
+}

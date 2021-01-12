@@ -1,46 +1,14 @@
 ideas = {
     country = {
         
-		baltic_front = {
+		USSR_breaking_apart = {
 			
 			allowed = { always = no }
 
-			picture = generic_fascism_drift_bonus
+			picture = GFX_idea_USSR_BREAKING_APART
 			
-			modifier = { stability_weekly = -0.01 }
-			targeted_modifier = { tag = LIT	autonomy_gain = 10 }
-			targeted_modifier = { tag = LAT	autonomy_gain = 10 }
-			targeted_modifier = { tag = EST	autonomy_gain = 10 }
-	
-			ai_will_do = { factor = 0 }
-		}
-		rebel_caucasus = {
+			modifier = { autonomy_gain = 1.5 }
 			
-			allowed = { always = no }
-
-			picture = generic_fascism_drift_bonus
-			
-			modifier = { stability_weekly = -0.01 }
-			targeted_modifier = { tag = ARM	autonomy_gain = 10 }
-			targeted_modifier = { tag = AZR	autonomy_gain = 10 }
-			targeted_modifier = { tag = GEO	autonomy_gain = 10 }
-	
-			ai_will_do = { factor = 0 }
-		}
-		fading_stars = {
-			
-			allowed = { always = no }
-
-			picture = generic_fascism_drift_bonus
-			
-			modifier = { stability_weekly = -0.01 }
-			targeted_modifier = { tag = ROM	autonomy_gain = 10 }
-			targeted_modifier = { tag = HUN	autonomy_gain = 10 }
-			targeted_modifier = { tag = DDR	autonomy_gain = 10 }
-			targeted_modifier = { tag = UKR	autonomy_gain = 10 }
-			targeted_modifier = { tag = MOL	autonomy_gain = 10 }
-			targeted_modifier = { tag = POL	autonomy_gain = 10 }
-			targeted_modifier = { tag = CZE	autonomy_gain = 10 }
 	
 			ai_will_do = { factor = 0 }
 		}

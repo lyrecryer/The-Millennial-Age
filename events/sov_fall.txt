@@ -25,7 +25,9 @@ country_event = {
 	option = {
 		name = NEUTRAL_RESPONSE2
 		country_event = sov_fall.3
-		add_ideas = baltic_front
+		LIT = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		EST = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		LAT = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 	}
 }
 #Rebellion in the Caucasus
@@ -40,7 +42,9 @@ country_event = {
 	option = {
 		name = NEUTRAL_RESPONSE2
 		country_event = sov_fall.4
-		add_ideas = rebel_caucasus
+		ARM = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		AZR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		GEO = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 	}
 }
 #The Fading Stars of the West.
@@ -54,7 +58,35 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = NEUTRAL_RESPONSE2
-		add_ideas = fading_stars
-		#country_event = sov_fall.4
+		BLR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		BUL = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		CZE = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		DDR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		HUN = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		MOL = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		POL = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		ROM = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		UKR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+		country_event = sov_fall.5
+		}
 	}
-}
+	#Rise of the Stans
+	country_event = {
+		id = sov_fall.5
+		title = sov_fall.5.title
+		desc = sov_fall.5.desc
+		picture = GFX_news_event_001
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+			name = NEUTRAL_RESPONSE2
+			KAZ = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			UZB = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			TMS = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			KYR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			TAJ = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			MON = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			#country_event = sov_fall.5
+		}
+	}

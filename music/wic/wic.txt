@@ -1,0 +1,144 @@
+
+music_station = "wic_playlist"
+
+music = {
+	song = "Aim_for_the_Heart"
+}
+music = {
+	song = "Aurora_Borealis"
+}
+music = {
+	song = "Broken_Flower"
+}
+music = {
+	song = "Classroom_Prep"
+}
+music = {
+	song = "Collective_Punishment"
+}
+music = {
+	song = "Effloresco"
+}
+music = {
+	song = "Ego"
+}
+music = {
+	song = "European_March"
+}
+music = {
+	song = "Fall_of_Man"
+}
+music = {
+	song = "Final_Fight"
+}
+music = {
+	song = "Hold_That_Thought"
+}
+
+music = {
+	song = "Hold_the_Bridge"
+}
+music = {
+	song = "Incursio"
+}
+music = {
+	song = "Ivan_Artillery_Revert"
+}
+music = {
+	song = "Khaldun"
+}
+music = {
+	song = "Konets"
+}
+music = {
+	song = "Main_Menu"
+}
+music = {
+	song = "Marche_des_Sabatier"
+}
+music = {
+	song = "Marching_North"
+}
+music = {
+	song = "Mike_&_Anton"
+}
+music = {
+	song = "Multiplayer_End"
+}
+music = {
+	song = "My_Name_is_Legion"
+}
+music = {
+	song = "Nicole"
+}
+music = {
+	song = "Odinochestvo"
+}
+music = {
+	song = "Originis"
+}
+music = {
+	song = "Plan_in_Motion"
+}
+music = {
+	song = "Prelude"
+}
+music = {
+	song = "Propaganda_and_Attack"
+}
+music = {
+	song = "Seattle_Mission_Start"
+}
+music = {
+	song = "Second_Thought"
+}
+music = {
+	song = "Shortcomings"
+}
+music = {
+	song = "Skynda_Langsamt"
+}
+music = {
+	song = "Sniper_Run"
+}
+music = {
+	song = "Sollicitudo"
+}
+music = {
+	song = "Soviet_Assault_Waltz"
+}
+music = {
+	song = "Soviet_Strength"
+}
+music = {
+	song = "Spetsnaz"
+}
+music = {
+	song = "Squirrel_on_a_Branch"
+}
+music = {
+	song = "Strong_Point_Strongpoint"
+}
+music = {
+	song = "The_End_is_Nigh"
+}
+
+music = {
+	song = "The_President_and_The_Nuke"
+}
+
+music = {
+	song = "Trimethoxyphenethylamine"
+}
+
+music = {
+	song = "Tundra"
+}
+
+music = {
+	song = "Under_Pressure"
+}
+
+music = {
+	song = "World_in_Conflict"
+}

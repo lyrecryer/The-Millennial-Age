@@ -1,0 +1,16 @@
+ideas = {
+    country = {
+		#UN Member
+		UN_MEMBER = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_UN_MEMBER
+		}
+		#AU Member
+		AU_MEMBER = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_AU_MEMBER
+		}
+	}
+}

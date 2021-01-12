@@ -1,0 +1,230 @@
+music = {
+	name = "Aim_for_the_Heart"
+	file = "Aim_for_the_Heart.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Aurora_Borealis"
+	file = "Aurora_Borealis.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Broken_Flower"
+	file = "Broken_Flower.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Classroom_Prep"
+	file = "Classroom_Prep.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Collective_Punishment"
+	file = "Collective_Punishment.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Effloresco"
+	file = "Effloresco.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Ego"
+	file = "Ego.ogg"
+	volume = 1.0
+}
+music = {
+	name = "European_March"
+	file = "European_March.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Fall_of_Man"
+	file = "Fall_of_Man.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Final_Fight"
+	file = "Final_Fight.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Hold_That_Thought"
+	file = "Hold_That_Thought.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Hold_the_Bridge"
+	file = "Hold_the_Bridge.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Incursio"
+	file = "Incursio.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Incursion"
+	file = "Incursion.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Ivan_Artillery_Revert"
+	file = "Ivan_Artillery_Revert.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Khaldun"
+	file = "Khaldun.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Konets"
+	file = "Konets.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Main_Menu"
+	file = "Main_Menu.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Marche_des_Sabatier"
+	file = "Marche_des_Sabatier.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Marching_North"
+	file = "Marching_North.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Mike_&_Anton"
+	file = "Mike_&_Anton.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Multiplayer_End"
+	file = "Multiplayer_End.ogg"
+	volume = 1.0
+}
+music = {
+	name = "My_Name_is_Legion"
+	file = "My_Name_is_Legion.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Nicole"
+	file = "Nicole.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Odinochestvo"
+	file = "Odinochestvo.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Originis"
+	file = "Originis.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Plan_in_Motion"
+	file = "Plan_in_Motion.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Prelude"
+	file = "Prelude.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Propaganda_and_Attack"
+	file = "Propaganda_and_Attack.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Seattle_Mission_Start"
+	file = "Seattle_Mission_Start.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Second_Thought"
+	file = "Second_Thought.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Shortcomings"
+	file = "Shortcomings.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Skynda_Langsamt"
+	file = "Skynda_Langsamt.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Sniper_Run"
+	file = "Sniper_Run.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Sollicitudo"
+	file = "Sollicitudo.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Soviet_Assault_Waltz"
+	file = "Soviet_Assault_Waltz.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Soviet_Strength"
+	file = "Soviet_Strength.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Spetsnaz"
+	file = "Spetsnaz.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Squirrel_on_a_Branch"
+	file = "Squirrel_on_a_Branch.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Strong_Point_Strongpoint"
+	file = "Strong_Point_Strongpoint.ogg"
+	volume = 1.0
+}
+music = {
+	name = "The_End_is_Nigh"
+	file = "The_End_is_Nigh.ogg"
+	volume = 1.0
+}
+music = {
+	name = "The_President_and_The_Nuke"
+	file = "The_President_and_The_Nuke.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Trimethoxyphenethylamine"
+	file = "Trimethoxyphenethylamine.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Tundra"
+	file = "Tundra.ogg"
+	volume = 1.0
+}
+music = {
+	name = "Under_Pressure"
+	file = "Under_Pressure.ogg"
+	volume = 1.0
+}
+music = {
+	name = "World_in_Conflict"
+	file = "World_in_Conflict.ogg"
+	volume = 1.0
+}

@@ -2,26 +2,20 @@ ideas = {
     country = {
 		#EU Member
 		EU_MEMBER = {
-			allowed = {
-				always = no
-			}
+			allowed = { always = no }
 			removal_cost = -1
-			picture = idea_EU_MEMBER
+			picture = GFX_idea_EU_MEMBER
 		}
 		#EU Nation (When the EU is formed.)
 		EU_NATION = {
-			allowed = {
-				always = no
-			}
+			allowed = { always = no }
 			removal_cost = -1
-			picture = idea_EU_NATION
+			picture = GFX_EU_NATION
 		}
 		EURO = {
-			allowed = {
-				always = no
-			}
+			allowed = { always = no }
 			removal_cost = -1
-			picture = idea_EURO
+			picture = GFX_idea_EURO
 
 		}
 	}

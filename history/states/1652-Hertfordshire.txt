@@ -1,14 +1,18 @@
+
 state={
 	id=1652
 	name="STATE_1652"
-	provinces={
-		11221 14170 14216 
-	}
-	history = {
+
+	history={
 		owner = ENG
 		add_core_of = ENG
-		}
-		manpower=100
-	state_category = rural
+
+	}
+
+	provinces={
+		14216 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,0 +1,12 @@
+
+music_station = "DEFCON_playlist"
+
+music = {
+	song = "01_Fear"
+}
+music = {
+	song = "02_Madness"
+}
+music = {
+	song = "03_Loss"
+}

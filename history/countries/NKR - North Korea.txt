@@ -9,14 +9,14 @@ set_convoys = 10
 set_stability = 1
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1989.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 
 }
 set_popularities = {
-democratic = 100
+	communism = 100
 }
 
 #Based on 1990.
@@ -28,7 +28,7 @@ create_country_leader = {
 	name = "Test Guy"
 	desc = ""
 	picture = "Portrait_.dds"
-	expire = "9999.1.1"
+	expire = "2021.1.1"
 	ideology = liberalism
 	traits = {
 		

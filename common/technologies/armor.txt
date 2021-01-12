@@ -31,20 +31,20 @@ technologies = {
 		}
 		on_research_complete = {
 			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = MOT_1
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = MOT_1 }
-					}
-
+#				if = {
+#					limit = {
+#						has_tech = MOT_1
+#					}
+#
+				#	load_oob = "unlock_tanks_mot"
+				#}
+				#if = {
+				#	limit = {
+				#		NOT = { has_tech = MOT_1 }
+				#	}
+#
 					load_oob = "unlock_tanks"
-				}
+#				}
 			}
 
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
@@ -304,7 +304,7 @@ technologies = {
 	REC_6 = { #Panzer I
 
 		enable_equipments = {
-			REC_equipment_5 
+			REC_equipment_6 
 		}
 
 		on_research_complete = {
@@ -358,27 +358,8 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = MBT }
 		}
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
 		path = {
@@ -630,27 +611,8 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = IFV }
 		}
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
 		path = {

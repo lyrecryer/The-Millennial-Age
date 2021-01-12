@@ -14,8 +14,34 @@
 #	effect = {
 #		example_effect = yes
 #	}
-#
 
+#NOT USED ATM
+vp_effect = {
+	for_each_loop = {
+	array = global.province_controllers
+	index = i
+	if = {
+		limit = {
+			NOT = {
+			check_variable = { v = 0 }
+			}
+		}
+		meta_effect = {
+		text = {
+			add_victory_points = {
+				province = [PROVID]
+				value = -1
+			}
+		add_victory_points = {
+		province = [PROVID]
+		value = 1
+		}
+	}
+	PROVID = "[?i|0]"
+			}
+		}
+	}
+}
 
 	#Sets the flags that was used in 1989
 	nation_1989_effect = {

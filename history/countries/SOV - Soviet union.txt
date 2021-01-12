@@ -299,7 +299,7 @@ create_country_leader = {
 	name = "Mikhail Gorbachev"
 	desc = ""
 	picture = "Portrait_.dds"
-	expire = "9999.1.1"
+	expire = "2021.1.1"
 	ideology = dic_socialist
 	traits = {}
 }
@@ -308,7 +308,7 @@ create_country_leader = {
 	name = "Vladimir Zhirinovsky"
 	desc = ""
 	picture = "Portrait_.dds"
-	expire = "9999.1.1"
+	expire = "2021.1.1"
 	ideology = fascism_ideology
 	traits = {}
 }
@@ -317,7 +317,7 @@ create_country_leader = {
 	name = "Sergey Shoygu"
 	desc = ""
 	picture = "Portrait_.dds"
-	expire = "9999.1.1"
+	expire = "2021.1.1"
 	ideology = populist
 	traits = {}
 }
@@ -326,7 +326,7 @@ create_country_leader = {
 	name = "Yegor Gaidar"
 	desc = ""
 	picture = "Portrait_.dds"
-	expire = "9999.1.1"
+	expire = "2021.1.1"
 	ideology = conservatism
 	traits = {}
 }

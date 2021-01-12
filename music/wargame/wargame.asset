@@ -1,0 +1,70 @@
+music = {
+	name = "menu_theme"
+	file = "Menu_Theme.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Track_1"
+	file = "Track_1.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Track_3"
+	file = "Track_3.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Track_4"
+	file = "Track_4.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Track_5"
+	file = "Track_5.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Track_6"
+	file = "Track_6.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Track_7"
+	file = "Track_7.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Track_8"
+	file = "Track_8.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Track_9"
+	file = "Track_9.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Track_10"
+	file = "Track_10.ogg"
+	volume = 2.0
+}
+music = {
+	name = "tension"
+	file = "Tension.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Sweeping_Bass"
+	file = "Sweeping_Bass.ogg"
+	volume = 2.0
+}
+music = {
+	name = "Campaign_Brief"
+	file = "Campaign_Brief.ogg"
+	volume = 2.0
+}
+music = {
+	name = "The_Lost_Rites"
+	file = "The_Lost_Rites.ogg"
+	volume = 2.0
+}

@@ -1,0 +1,94 @@
+state_names_effect = {
+	#how it goes: check TAG and if it owns state. If yes, change state name by TAG_STATE_NUM. If no then reset it to it's orginial name.
+	#ENGLISH COUNTIES
+			if = {
+				limit = {
+					tag = ENG
+					owns_state = 720
+				}
+				720 = { set_state_name = ENG_STATE_720 }
+			}
+			if = {
+				limit = {
+					tag = WLS
+					owns_state = 1626
+				}
+				1626 = { set_state_name = WLS_STATE_1626 }
+			}
+			if = {
+				limit = {
+					tag = WLS
+					owns_state = 1627
+				}
+				1627 = { set_state_name = WLS_STATE_1627 }
+			}
+			if = {
+				limit = {
+					tag = WLS
+					owns_state = 1629
+				}
+				1629 = { set_state_name = WLS_STATE_1629 }
+			}
+			if = {
+				limit = {
+					tag = WLS
+					owns_state = 1630
+				}
+				1630 = { set_state_name = WLS_STATE_1630 }
+			}
+}
+#changes the names back. [reset_state_name doesn't seem to be working and vanilla doesn't use it as well. so reset State names by using this code instead: set_state_name = STATE_NUM ]
+reset_names_effect = {
+	if = {
+		limit = {
+			ENG = {
+				NOT = {
+				owns_state = 720 
+				}
+			}
+		 #owns_state = 720 
+		}
+		720 = { set_state_name = STATE_720 }
+	}
+	if = {
+		limit = {
+			WLS = {
+				NOT = {
+				owns_state = 1626 
+				}
+			}
+		  
+		}
+		1626 = { set_state_name = STATE_1626 }
+	}
+	if = {
+		limit = {
+			WLS = {
+				NOT = {
+				owns_state = 1627 
+				}
+			}
+		}
+		1627 = { set_state_name = STATE_1627 }
+	}
+	if = {
+		limit = {
+			WLS = {
+				NOT = {
+				owns_state = 1629 
+				}
+			}
+		}
+		1629 = { set_state_name = STATE_1629 }
+	}
+	if = {
+		limit = {
+			WLS = {
+				NOT = {
+				owns_state = 1630 
+				}
+			}
+		}
+		1630 = { set_state_name = STATE_1630 }
+	}
+}

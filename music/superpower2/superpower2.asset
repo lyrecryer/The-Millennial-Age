@@ -1,0 +1,85 @@
+music = {
+	name = "blue_dot"
+	file = "blue_dot.ogg"
+	volume = 1.5
+}
+music = {
+	name = "death_march"
+	file = "death_march.ogg"
+	volume = 1.5
+}
+music = {
+	name = "drums_of_death"
+	file = "drums_of_death.ogg"
+	volume = 1.5
+}
+music = {
+	name = "earthrise"
+	file = "earthrise.ogg"
+	volume = 1.5
+}
+music = {
+	name = "fading_light"
+	file = "fading_light.ogg"
+	volume = 1.5
+}
+music = {
+	name = "glory"
+	file = "glory.ogg"
+	volume = 1.5
+}
+music = {
+	name = "gold_and_steel"
+	file = "gold_and_steel.ogg"
+	volume = 1.5
+}
+music = {
+	name = "hidden_dragon"
+	file = "hidden_dragon.ogg"
+	volume = 1.5
+}
+music = {
+	name = "hungry_earth"
+	file = "hungry_earth.ogg"
+	volume = 1.5
+}
+music = {
+	name = "lamentation_of_peace"
+	file = "lamentation_of_peace.ogg"
+	volume = 1.5
+}
+music = {
+	name = "rising_sun"
+	file = "rising_sun.ogg"
+	volume = 1.5
+}
+music = {
+	name = "storm_clouds"
+	file = "storm_clouds.ogg"
+	volume = 1.5
+}
+music = {
+	name = "sudden_war"
+	file = "sudden_war.ogg"
+	volume = 1.5
+}
+music = {
+	name = "tense_market"
+	file = "tense_market.ogg"
+	volume = 1.5
+}
+music = {
+	name = "terra_invictus"
+	file = "terra_invictus.ogg"
+	volume = 1.5
+}
+music = {
+	name = "towering_desire"
+	file = "towering_desire.ogg"
+	volume = 1.5
+}
+music = {
+	name = "when_the_wind_blew"
+	file = "when_the_wind_blew.ogg"
+	volume = 1.5
+}
