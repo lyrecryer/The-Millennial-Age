@@ -20,7 +20,7 @@ country_event = {
 		USA = {	add_nuclear_bombs = 10904 }
 		SOV = { add_nuclear_bombs = 37000 }
 		#add State Names!
-		#state_names_effect = yes
+		state_names_effect = yes
 		reset_names_effect = yes
 		country_event = startup.2
 	}
