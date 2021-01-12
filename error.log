@@ -111,5 +111,3 @@
 [23:17:31][texturehandler.cpp:303]: Couldn't find texture file: gfx/interface/counters/divisions_large/MBT_icon.dds.
 [23:17:31][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/interface/counters/divisions_large/REC_icon.dds
 [23:17:31][texturehandler.cpp:303]: Couldn't find texture file: gfx/interface/counters/divisions_large/REC_icon.dds.
-[23:17:34][persistent.cpp:52]: Error: "Cannot find object named: highlight_grand_battle_plan for show_objects_in_window: show_objects_in_window, near line: 330" in file: "tutorial/tutorial.txt" near line: 330
-[23:17:39][persistent.cpp:52]: Error: "Cannot find object named: highlight_grand_battle_plan for show_objects_in_window: show_objects_in_window, near line: 330" in file: "tutorial/tutorial.txt" near line: 330
