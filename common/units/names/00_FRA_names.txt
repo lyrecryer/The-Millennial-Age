@@ -220,13 +220,13 @@
 		generic_pattern = "UNIT_GENERIC_NAME_FRA"
 		unique = {}
 	}
-	light_armor = {
+	REC = {
 		prefix = ""
 		generic = { "Brigade de Chars de Combat" }
 		generic_pattern = "UNIT_GENERIC_NAME_FRA"
 		unique = {}
 	}
-	medium_armor = {
+	IFV = {
 		prefix = ""
 		generic = { "Brigade de Chars de Combat" }
 		generic_pattern = "UNIT_GENERIC_NAME_FRA"

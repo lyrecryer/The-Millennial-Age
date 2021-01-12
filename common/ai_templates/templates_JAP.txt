@@ -14,13 +14,13 @@ armor_JAP = {
 		modifier = {
 			factor = 7
 			OR = {
-				has_tech = basic_medium_tank
+				has_tech = IFV_1
 			}
 		}
 		
 		modifier = {
 			factor = 2
-			has_tech = main_battle_tank
+			has_tech = MBT_1
 		}
 	}
 	
@@ -37,7 +37,7 @@ armor_JAP = {
 		}
 		
 		can_upgrade_in_field = {
-			has_equipment = { light_tank_equipment < 500 } 
+			has_equipment = { REC_equipment < 500 } 
 		}
 		
 		target_width = 20.0
@@ -93,13 +93,13 @@ armor_JAP = {
 			}
 			
 			regiments = {
-				light_armor = 5
+				REC = 5
 				motorized = 4
 			}
 		}
 		
 		allowed_types = {
-			light_armor
+			REC
 			motorized
 			engineer
 			recon
@@ -176,14 +176,13 @@ armor_JAP = {
 			}
 			
 			regiments = {
-				heavy_armor = 6
+				MBT = 6
 				infantry = 3
 			}
 		}
 		
 		allowed_types = {
-				modern_armor
-			heavy_armor
+				MBT
 			
 			motorized
 			mechanized
@@ -278,14 +277,14 @@ armor_JAP = {
 			}
 			
 			regiments = {
-				medium_armor = 6
+				IFV = 6
 				motorized = 5
 			}
 		}
 
 		allowed_types = {
-				modern_armor
-			medium_armor
+				MBT
+			IFV
 			motorized
 			mechanized
 			infantry
@@ -376,7 +375,7 @@ armor_JAP = {
 			}
 			
 			regiments = {
-				modern_armor = 4
+				MBT = 4
 				mechanized = 3
 				medium_sp_artillery_brigade = 2
 			}
@@ -384,7 +383,7 @@ armor_JAP = {
 		
 
 		allowed_types = {
-			modern_armor
+			MBT
 			motorized
 			mechanized
 			motorized_rocket_brigade 
@@ -841,7 +840,7 @@ marines_JAP = {
 				has_war_with = USA
 			}
 			modifier = {
-				not = { has_tech = amphibious_tank }
+				not = { has_tech = REC_1 }
 				factor = 0
 			}
 		}
@@ -1121,12 +1120,11 @@ garrison_JAP = {
 
 	# REGIMENTS:
 	#infantry
-	#light_armor
+	#REC
 	#super_heavy_armor
-	#modern_armor
-	#heavy_armor
-	#medium_armor
-	#light_armor
+	#MBT
+	#IFV
+	#REC
 	#anti_tank
 	#cavalry
 	#motorized

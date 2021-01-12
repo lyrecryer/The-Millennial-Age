@@ -16,14 +16,14 @@ armored_USA= {
 		modifier = {
 			factor = 7
 			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_light_tank
+				has_tech = IFV_1
+				has_tech = REC_1
 			}
 		}
 		
 		modifier = {
 			factor = 2
-			has_tech = main_battle_tank
+			has_tech = MBT_1
 		}
 	}
 
@@ -34,7 +34,7 @@ armored_USA= {
 
 			modifier = {
 				factor = 10
-				has_tech = improved_light_tank
+				has_tech = REC_2
 			}
 		}
 
@@ -99,13 +99,13 @@ armored_USA= {
 			}
 			
 			regiments = {
-				light_armor = 3
+				REC = 3
 				motorized = 3
 			}
 		}
 		
 		allowed_types = {
-			light_armor
+			REC
 			motorized
 			engineer
 			mot_recon
@@ -126,12 +126,12 @@ armored_USA= {
 
 			modifier = {
 				factor = 10
-				has_tech = improved_light_tank
+				has_tech = REC_2
 			}
 		}
 		
 		can_upgrade_in_field = {
-			has_equipment = { light_tank_equipment < 500 } 
+			has_equipment = { REC_equipment < 500 } 
 		}
 	
 		target_width = 18.0
@@ -187,13 +187,13 @@ armored_USA= {
 			}
 			
 			regiments = {
-				light_armor = 5
+				REC = 5
 				motorized = 4
 			}
 		}
 		
 		allowed_types = {
-			light_armor
+			REC
 			motorized
 			engineer
 			mot_recon
@@ -272,14 +272,13 @@ armored_USA= {
 			}
 			
 			regiments = {
-				heavy_armor = 6
+				MBT = 6
 				infantry = 3
 			}
 		}
 		
 		allowed_types = {
-			modern_armor
-			heavy_armor
+			MBT
 			
 			motorized
 			mechanized
@@ -318,7 +317,7 @@ armored_USA= {
 
 			modifier = {
 				factor = 10
-				has_tech = basic_medium_tank
+				has_tech = IFV_1
 			}
 		}
 
@@ -387,14 +386,14 @@ armored_USA= {
 			}
 			
 			regiments = {
-				medium_armor = 6
+				IFV = 6
 				motorized = 4
 			}
 		}
 
 		allowed_types = {
-			modern_armor
-			medium_armor
+			MBT
+			IFV
 			motorized
 			mechanized
 			infantry
@@ -427,7 +426,7 @@ armored_USA= {
 
 			modifier = {
 				factor = 10
-				has_tech = improved_medium_tank
+				has_tech = IFV_2
 			}
 		}
 		production_prio = {
@@ -494,7 +493,7 @@ armored_USA= {
 			}
 			
 			regiments = {
-				medium_armor = 3
+				IFV = 3
 				medium_sp_artillery_brigade = 1
 				medium_tank_destroyer_brigade = 1
 				mechanized = 4
@@ -502,8 +501,8 @@ armored_USA= {
 		}
 
 		allowed_types = {
-			modern_armor
-			medium_armor
+			MBT
+			IFV
 			medium_sp_artillery_brigade
 			medium_tank_destroyer_brigade
 			motorized
@@ -536,7 +535,7 @@ armored_USA= {
 
 			modifier = {
 				factor = 10
-				has_tech = armored_car1
+				has_tech = APC_1
 			}
 		}
 		production_prio = {
@@ -603,7 +602,7 @@ armored_USA= {
 			}
 			
 			regiments = {
-				medium_armor = 3
+				IFV = 3
 				medium_sp_artillery_brigade = 1
 				medium_tank_destroyer_brigade = 1
 				mechanized = 4
@@ -611,8 +610,8 @@ armored_USA= {
 		}
 
 		allowed_types = {
-			modern_armor
-			medium_armor
+			MBT
+			IFV
 			medium_sp_artillery_brigade
 			medium_tank_destroyer_brigade
 			motorized
@@ -705,7 +704,7 @@ armored_USA= {
 			}
 			
 			regiments = {
-				modern_armor = 4
+				MBT = 4
 				mechanized = 3
 				medium_sp_artillery_brigade = 2
 			}
@@ -713,7 +712,7 @@ armored_USA= {
 		
 
 		allowed_types = {
-			modern_armor
+			MBT
 			motorized
 			mechanized
 			motorized_rocket_brigade 
@@ -1342,12 +1341,11 @@ paratroopers_USA = {
 
 	# REGIMENTS:
 	#infantry
-	#light_armor
+	#REC
 	#super_heavy_armor
-	#modern_armor
-	#heavy_armor
-	#medium_armor
-	#light_armor
+	#MBT
+	#IFV
+	#REC
 	#anti_tank
 	#cavalry
 	#motorized

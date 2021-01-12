@@ -1,9 +1,9 @@
-﻿##### BRITISH RAJ/INDIA NAME LISTS #####
+﻿##### BRITISH IND/INDIA NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
 RAJ_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { RAJ }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
@@ -23,7 +23,7 @@ RAJ_DD_HISTORICAL = {
 RAJ_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { RAJ }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -40,7 +40,7 @@ RAJ_CL_HISTORICAL = {
 RAJ_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { RAJ }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -57,7 +57,7 @@ RAJ_CA_HISTORICAL = {
 RAJ_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { RAJ }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -66,7 +66,7 @@ RAJ_BB_HISTORICAL = {
 	fallback_name = "Battleship %s"		
 
 	unique = {
-		"India" "Raj" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
+		"India" "IND" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
 	}
 }
 
@@ -74,7 +74,7 @@ RAJ_BB_HISTORICAL = {
 RAJ_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { RAJ }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -83,7 +83,7 @@ RAJ_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser %s"		
 
 	unique = {
- 		"India" "Raj" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
+ 		"India" "IND" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
 	}
 }
 
@@ -91,7 +91,7 @@ RAJ_BC_HISTORICAL = {
 RAJ_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { RAJ }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -109,7 +109,7 @@ RAJ_CV_HISTORICAL = {
 RAJ_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { RAJ }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -129,7 +129,7 @@ RAJ_SS_HISTORICAL = {
 RAJ_PROVINCES = {
 	name = NAME_THEME_PROVINCES
 
-	for_countries = { RAJ }
+	for_countries = { IND }
 
 	type = ship
 
@@ -144,7 +144,7 @@ RAJ_PROVINCES = {
 RAJ_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { RAJ }
+	for_countries = { IND }
 
 	type = ship
 

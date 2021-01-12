@@ -831,7 +831,7 @@ GER_Arm_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	division_types = { "REC" "IFV"  "MBT" }
 
 	fallback_name = "%d. Panzer-Division"
 
@@ -895,7 +895,7 @@ GER_LTARM_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "light_armor" }
+	division_types = { "REC" }
 
 	fallback_name = "%d. leichte-Division"
 	
@@ -951,7 +951,7 @@ GER_SS_01 =
 		has_government = fascism
 	}
 
-	division_types = { "infantry" "motorized" "medium_armor" "mechanized" }
+	division_types = { "infantry" "motorized" "IFV" "mechanized" }
 
 	fallback_name = "%d. SS-Division"
 
@@ -1246,7 +1246,7 @@ GER_MONMOB_01 =
 		}
 	}
 
-	division_types = {  "cavalry" "light_armor" "medium_armor" "heavy_armor" "modern_armor"  }
+	division_types = {  "cavalry" "REC" "IFV"  "MBT"  }
 
 	fallback_name = "%d. Schnell-Division"
 

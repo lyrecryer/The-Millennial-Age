@@ -298,7 +298,7 @@ SLO = {
 	color = rgb { 120 81 169 }
 	color_ui = rgb { 120 81 169 }
 }
-RAJ = {
+IND = {
 	color = rgb { 162 91 255 }
 	color_ui = rgb { 162 91 255 }
 }
@@ -949,6 +949,10 @@ SML = {
 SOS = {
 	color = rgb { 149 193 171 } 
    color_ui = rgb { 149 193 171 }
+}
+DOC = {
+	color = rgb { 164 79 181 } 
+   color_ui = rgb { 164 79 181 }
 }
 #SUPERNATIONS
 UNI = {

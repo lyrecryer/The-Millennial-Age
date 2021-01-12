@@ -183,13 +183,13 @@
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	light_armor = {
+	REC = {
 		prefix = ""
 		generic = { "Tank Regiment" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	medium_armor = {
+	IFV = {
 		prefix = ""
 		generic = { "Tank Regiment" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"

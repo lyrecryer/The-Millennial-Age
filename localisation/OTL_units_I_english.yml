@@ -2,7 +2,7 @@ l_english:
  # :0 " "
  # _desc:0 " "
  #Unit Names
- modern_armor:0 "Main Battle Tank"
+ MBT:0 "Main Battle Tank"
  modern_armor_desc:0 "A main battle tank (MBT) is a tank that fills the armor-protected direct fire and maneuver role of many modern armies. Cold War-era development of more powerful engines, better suspension systems and lighter weight composite armor allowed a tank to have the firepower of a super-heavy tank, armor protection of a heavy tank, and mobility of a light tank all in a package with the weight of a medium tank. Through the 1960s, the MBT replaced almost all other tanks, leaving only some specialist roles to be filled by lighter designs or other types of armored fighting vehicles."
  modern_tank_equipment_1:0 "Main Battle Tank"
  modern_tank_artillery_equipment_1:0 "MBT Artillery"

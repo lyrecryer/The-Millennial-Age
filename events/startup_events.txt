@@ -7,7 +7,7 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		#based on 1990 data
-		RAJ = { add_nuclear_bombs = 7 }
+		IND = { add_nuclear_bombs = 7 }
 		PAK = { add_nuclear_bombs = 4 }
 		#they do dismantle their nukes soon after game start.
 		SAF = { add_nuclear_bombs = 6 }

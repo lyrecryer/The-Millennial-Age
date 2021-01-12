@@ -45,7 +45,7 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		light_armor = { x = 2 y = 0 }		# L3/35 tankettes
+		REC = { x = 2 y = 0 }		# L3/35 tankettes
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
 	}
@@ -81,7 +81,7 @@ division_template = {
 		cavalry = { x = 1 y = 1 }
 		motorized = { x = 2 y = 0 }			# (elite) Bersaglieri Regiment
 		motorized = { x = 2 y = 1 }
-		light_armor = { x = 3 y = 0 }
+		REC = { x = 3 y = 0 }
 	}
 	priority = 2
 }
@@ -90,10 +90,10 @@ division_template = {
 	division_names_group = ITA_ARM_01
 
 	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-		light_armor = { x = 0 y = 3 }
+		REC = { x = 0 y = 0 }
+		REC = { x = 0 y = 1 }
+		REC = { x = 0 y = 2 }
+		REC = { x = 0 y = 3 }
 		motorized = { x = 1 y = 0 }		# Bersaglieri (elite regiment, highest experience and best equipment)
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
@@ -111,7 +111,7 @@ division_template = {
 		cavalry = { x = 0 y = 1 }
 		motorized = { x = 1 y = 0 }			# (elite) Bersaglieri Regiment
 		motorized = { x = 1 y = 1 }
-		light_armor = { x = 2 y = 0 }
+		REC = { x = 2 y = 0 }
 	}
 }
 division_template = {

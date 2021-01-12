@@ -54,10 +54,10 @@ division_template = {
 	# Note: Represents 1st and 2nd Armor regiment; both created and merged with motorized inf to create Armor Division in 1940
 	division_names_group = ROM_ARM_01
 	regiments = {
-		light_armor = { x = 0 y = 0 }		# 1st Rgt: R-2 (Pz 35(t)) tanks
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 1 y = 0 }		# 2nd Rgt: Renault R-35 tanks
-		light_armor = { x = 1 y = 1 }
+		REC = { x = 0 y = 0 }		# 1st Rgt: R-2 (Pz 35(t)) tanks
+		REC = { x = 0 y = 1 }
+		REC = { x = 1 y = 0 }		# 2nd Rgt: Renault R-35 tanks
+		REC = { x = 1 y = 1 }
 		motorized = { x = 2 y = 0 }         # added motorized not to make it a death trap
 		motorized = { x = 2 y = 1 }
 	}

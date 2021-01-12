@@ -60,7 +60,7 @@ music = {
 	song = "Marching_North"
 }
 music = {
-	song = "Mike_&_Anton"
+	song = "Mike_Anton"
 }
 music = {
 	song = "Multiplayer_End"

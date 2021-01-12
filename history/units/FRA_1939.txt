@@ -121,10 +121,10 @@ division_template = {
 	division_names_group = FRA_MEC_01
 
 	regiments = {
-		medium_armor = { x = 0 y = 0 }		# Souma tanks
-		light_armor = { x = 0 y = 1 }		# Hotchkiss tanks
-		medium_armor = { x = 1 y = 0 }		# Souma (Med.) tanks
-		light_armor = { x = 1 y = 1 }		# Hotchkiss tanks
+		IFV = { x = 0 y = 0 }		# Souma tanks
+		REC = { x = 0 y = 1 }		# Hotchkiss tanks
+		IFV = { x = 1 y = 0 }		# Souma (Med.) tanks
+		REC = { x = 1 y = 1 }		# Hotchkiss tanks
 		motorized = { x = 2 y = 0 }			# 1x3 Dragoons Rgt.
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
@@ -138,10 +138,10 @@ division_template = {
 	# Usual tanks: FT-17, R-35, H-35, H-39
 	division_names_group = FRA_ARM_02
 	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
+		REC = { x = 0 y = 0 }
+		REC = { x = 0 y = 1 }
+		REC = { x = 1 y = 0 }
+		REC = { x = 1 y = 1 }
 	}
 }
 division_template = {
@@ -149,8 +149,8 @@ division_template = {
 	# Usual tanks: B1, B1bis
 	division_names_group = FRA_ARM_02
 	regiments = {
-		heavy_armor = { x = 0 y = 0 }
-		heavy_armor = { x = 0 y = 1 }
+		MBT = { x = 0 y = 0 }
+		MBT = { x = 0 y = 1 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  

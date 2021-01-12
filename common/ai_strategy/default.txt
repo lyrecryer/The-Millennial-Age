@@ -452,7 +452,7 @@ default_marines_production = {
 default_mobile_production = {
 	enable = {
 		ai_wants_divisions > 11
-		has_tech = motorised_infantry
+		has_tech = APC_1
 	}
 	abort = {
 		ai_wants_divisions < 12
@@ -677,21 +677,16 @@ DEFAULT_template_design = {
 	
 	ai_strategy = {
 		type = template_prio
-		id = light_armor
+		id = REC
 		value = 50
 	}
 
 	ai_strategy = {
 		type = template_prio
-		id = medium_armor
+		id = IFV
 		value = -10
 	}
 
-	ai_strategy = {
-		type = template_prio
-		id = heavy_armor
-		value = -50
-	}
 
 	ai_strategy = {
 		type = template_prio
@@ -726,26 +721,20 @@ DEFAULT_template_design = {
 	
 	ai_strategy = {
 		type = template_prio
-		id = light_armor
+		id = REC
 		value = 10
 	}
 
 	ai_strategy = {
 		type = template_prio
-		id = medium_armor
+		id = IFV
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = template_prio
-		id = modern_armor
+		id = MBT
 		value = 50
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = heavy_armor
-		value = 10
 	}
 
 	ai_strategy = {

@@ -105,4 +105,85 @@ equipments = {
 			#oil = 2
 		}
 	}
+	# ~1945
+	mechanized_equipment_4 = {
+		year = 1944
+
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_3
+		priority = 40
+		visual_level = 3
+		
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 6
+		hardness = 0.8
+		armor_value = 20
+
+		#Offensive Abilities
+		ap_attack = 21
+		
+		build_cost_ic = 12
+		resources = {
+			steel = 4
+			rubber = 1
+			#oil = 2
+		}
+	}
+	# ~1945
+	mechanized_equipment_5 = {
+		year = 1944
+
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_4
+		priority = 40
+		visual_level = 4
+		
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 6
+		hardness = 0.8
+		armor_value = 20
+
+		#Offensive Abilities
+		ap_attack = 21
+		
+		build_cost_ic = 12
+		resources = {
+			steel = 4
+			rubber = 1
+			#oil = 2
+		}
+	}
+	# ~1945
+	mechanized_equipment_6 = {
+		year = 1944
+
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_5
+		priority = 40
+		visual_level = 5
+		
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 6
+		hardness = 0.8
+		armor_value = 20
+
+		#Offensive Abilities
+		ap_attack = 21
+		
+		build_cost_ic = 12
+		resources = {
+			steel = 4
+			rubber = 1
+			#oil = 2
+		}
+	}
 }

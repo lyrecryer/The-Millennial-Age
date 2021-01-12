@@ -1,10 +1,4 @@
 areas = {
-	#Suez Region
-	suez = {
-        state = {
-			471 464 472 473
-        }
-    }
 	#Denmark,Norway,Sweden,Finland and the Baltic Sea
     scandinavia = {
 		strategic_regions = {

@@ -6,8 +6,8 @@ state={
 		1199 1949 2036 2105 4106 4410 4950 4953 5096 7080 7205 7938 8076 8120 10332 10801 10807 10816 10872 11993 11995 12080 12799 12854 
 	}
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
+		owner = IND
+		add_core_of = IND
 		}
 		manpower=100
 	state_category = rural

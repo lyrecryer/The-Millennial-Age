@@ -18,12 +18,12 @@ armor_generic = {
 
 		modifier = {
 			factor = 7
-			has_tech = basic_medium_tank
+			has_tech = IFV_1
 		}
 		
 		modifier = {
 			factor = 2
-			has_tech = main_battle_tank
+			has_tech = MBT_1
 		}
 	}
 	
@@ -48,7 +48,7 @@ armor_generic = {
 		}
 		
 		can_upgrade_in_field = {
-			has_equipment = { light_tank_equipment < 500 } 
+			has_equipment = { REC_equipment < 500 } 
 		}
 		
 		target_width = 18.0
@@ -105,13 +105,13 @@ armor_generic = {
 			}
 			
 			regiments = {
-				light_armor = 5
+				REC = 5
 				motorized = 4
 			}
 		}
 		
 		allowed_types = {
-			light_armor
+			REC
 			motorized
 			engineer
 			mot_recon
@@ -190,14 +190,13 @@ armor_generic = {
 			}
 			
 			regiments = {
-				heavy_armor = 6
+				MBT = 6
 				infantry = 3
 			}
 		}
 		
 		allowed_types = {
-			modern_armor
-			heavy_armor
+			MBT
 			
 			motorized
 			mechanized
@@ -226,7 +225,7 @@ armor_generic = {
 
 			modifier = {
 				factor = 4
-				has_tech = basic_medium_tank
+				has_tech = IFV_1
 			}
 		}
 		
@@ -285,14 +284,14 @@ armor_generic = {
 			}
 			
 			regiments = {
-				medium_armor = 6
+				IFV = 6
 				motorized = 4
 			}
 		}
 
 		allowed_types = {
-			modern_armor
-			medium_armor
+			MBT
+			IFV
 			motorized
 			mechanized
 			infantry
@@ -318,7 +317,7 @@ armor_generic = {
 
 			modifier = {
 				factor = 4
-				has_tech = armored_car1
+				has_tech = APC_1
 			}
 		}
 		
@@ -377,14 +376,14 @@ armor_generic = {
 			}
 			
 			regiments = {
-				medium_armor = 6
+				IFV = 6
 				motorized = 4
 			}
 		}
 
 		allowed_types = {
-			modern_armor
-			medium_armor
+			MBT
+			IFV
 			motorized
 			mechanized
 			infantry
@@ -468,14 +467,14 @@ armor_generic = {
 			}
 			
 			regiments = {
-				modern_armor = 6
+				MBT = 6
 				mechanized = 3
 			}
 		}
 		
 
 		allowed_types = {
-			modern_armor
+			MBT
 			motorized
 			mechanized
 			engineer
@@ -1149,8 +1148,8 @@ marines_generic = {
 			modifier = {
 				factor = 0
 				NOT = {
-					has_tech = amphibious_tank
-					has_tech = amphibious_mechanized_infantry
+					has_tech = REC_1
+					has_tech = IFV_1
 				}
 			}
 			modifier = {
@@ -1345,12 +1344,11 @@ paratrooper_generic = {
 
 # REGIMENTS:
 #infantry
-#light_armor
+#REC
 #super_heavy_armor
-#modern_armor
-#heavy_armor
-#medium_armor
-#light_armor
+#MBT
+#IFV
+#REC
 #anti_tank
 #cavalry
 #motorized

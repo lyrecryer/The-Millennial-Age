@@ -244,7 +244,7 @@ fascist_peace = {
 					tag = TIB
 					tag = YUN
 					tag = MON
-					tag = RAJ
+					tag = IND
 					tag = PHI
 				}
 			}
@@ -529,7 +529,7 @@ fascist_peace = {
 					is_core_of = TIB
 					is_core_of = YUN
 					is_core_of = MON
-					is_core_of = RAJ
+					is_core_of = IND
 					is_core_of = PHI
 				}
 			}

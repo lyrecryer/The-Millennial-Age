@@ -51,7 +51,7 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		light_armor = { x= 2 y = 0 }
+		REC = { x= 2 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -96,9 +96,9 @@ division_template = {
 	name = "Senshadan"				# Tank Group - Groupings of tank 'regiments' (battalion-sized units)
 	division_names_group = JAP_ARM_01
 	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
+		REC = { x = 0 y = 0 }
+		REC = { x = 0 y = 1 }
+		REC = { x = 0 y = 2 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }

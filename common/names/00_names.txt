@@ -2126,7 +2126,7 @@ MAL_UK = {
 	callsigns = { }
 }
 
-RAJ = {
+IND = {
 	male = {
 		names = { 
 			Mohandas Narenda Dalbir Bipin Subrata Amarjeet Sanijv Ravi Praveen Surinder Balwant Sarath Amit Bimal Kumar Ranbir Manoj Suresh Sunil Sushila Meena Velu Aniruddha Shokin Ashwani Ashok Abhay Devraj Rudramurti Punita Anand Dipankar Ramnath Bahadur Atan Syed Kesur Bana Chain Ganga Gian Jadunath Mukund Surinder Triveni Varinder Sonam Ram Yogendra
@@ -2406,7 +2406,7 @@ TAH = {
 }
 
 #Micronesia
-FSM = {
+MIC = {
 	male = {
 		names = { 
 			Akamu Aloha Alohilani Analu Aolani Aulani Aulii Feleti Inoke Iolani Ipo Iwalani Kai Kaili Kaipo Kalani Kale Kalei Kapena

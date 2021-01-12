@@ -1,7 +1,7 @@
 sub_units = {
 
 	IFV = {
-		sprite = "medium_armor"
+		sprite = "IFV"
 		map_icon_category = armored
 		priority = 2502
 		ai_priority = 3500

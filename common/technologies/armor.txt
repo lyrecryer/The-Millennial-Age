@@ -27,7 +27,7 @@ technologies = {
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = REC }
 			NOT = {	has_template_containing_unit = MBT }
-			NOT = {	has_template_containing_unit = medium_armor }
+			NOT = {	has_template_containing_unit = IFV }
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -1004,4 +1004,306 @@ technologies = {
 		}
 	}
 
+	APC_1 = { #Panzer I
+
+		enable_equipments = {
+			mechanized_equipment_1
+			armored_car_equipment_1
+		}
+
+		on_research_complete = {
+		}
+		
+		path = {
+			leads_to_tech = APC_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = armour_folder
+			position = { x = @APC y = @1970 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1995.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_mechanized_equipment
+		}
+	}
+	APC_2 = { #Panzer I
+
+		enable_equipments = {
+			mechanized_equipment_2
+			armored_car_equipment_2
+		}
+
+		on_research_complete = {
+		}
+		
+		path = {
+			leads_to_tech = APC_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1980
+		folder = {
+			name = armour_folder
+			position = { x = @APC y = @1980 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1995.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_mechanized_equipment
+		}
+	}
+	APC_3 = { #Panzer I
+
+		enable_equipments = {
+			mechanized_equipment_3
+			armored_car_equipment_3
+		}
+
+		on_research_complete = {
+		}
+		
+		path = {
+			leads_to_tech = APC_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = armour_folder
+			position = { x = @APC y = @1990 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1995.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_mechanized_equipment
+		}
+	}
+	APC_4 = { #Panzer I
+
+		enable_equipments = {
+			mechanized_equipment_4
+			armored_car_equipment_4
+		}
+
+		on_research_complete = {
+		}
+		
+		path = {
+			leads_to_tech = APC_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2000
+		folder = {
+			name = armour_folder
+			position = { x = @APC y = @2000 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1995.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_mechanized_equipment
+		}
+	}
+	APC_5 = { #Panzer I
+
+		enable_equipments = {
+			mechanized_equipment_5
+			armored_car_equipment_5
+		}
+
+		on_research_complete = {
+		}
+		
+		path = {
+			leads_to_tech = APC_6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2010
+		folder = {
+			name = armour_folder
+			position = { x = @APC y = @2010 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1995.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_mechanized_equipment
+		}
+	}
+	APC_6 = { #Panzer I
+
+		enable_equipments = {
+			mechanized_equipment_6
+			armored_car_equipment_6
+		}
+
+		on_research_complete = {
+		}
+		
+		
+		research_cost = 2
+		start_year = 2020
+		folder = {
+			name = armour_folder
+			position = { x = @APC y = @2020 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1995.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_mechanized_equipment
+		}
+	}
 }

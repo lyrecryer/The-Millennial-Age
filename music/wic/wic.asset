@@ -99,8 +99,8 @@ music = {
 	volume = 1.0
 }
 music = {
-	name = "Mike_&_Anton"
-	file = "Mike_&_Anton.ogg"
+	name = "Mike_Anton"
+	file = "Mike_Anton.ogg"
 	volume = 1.0
 }
 music = {

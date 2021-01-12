@@ -648,7 +648,7 @@ ENG_ARM_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	division_types = { "REC" "IFV"  "MBT" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ENG_INF_01 }
@@ -702,7 +702,7 @@ ENG_ARM_02 = {
 
 	can_use = { always = yes }
 
-	division_types = { "light_armor" "medium_armor" "modern_armor" }
+	division_types = { "REC" "IFV" "MBT" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ENG_ARM_02 }
@@ -755,7 +755,7 @@ ENG_ARM_03 = {
 
 	can_use = { always = yes }
 
-	division_types = { "heavy_armor" }
+	division_types = {  }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ENG_ARM_03 }
@@ -1019,13 +1019,13 @@ ENG_MNT_01 = {
 ENG_MNT_02 = { 
 	name = "Gurkha Division" 
 
-	for_countries = { ENG RAJ } 
+	for_countries = { ENG IND } 
 
 	can_use = {
 		OR = {
 			tag = ENG
 			AND = {
-				tag = RAJ
+				tag = IND
 			}
 		}
 	}

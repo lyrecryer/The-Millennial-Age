@@ -98,11 +98,11 @@ division_template = {
 												# Also represents groups of independent tank, mech brigades of the time, though groups are best represented by tank bge 
 													# (2x M/L tank + 1x mot), and 2x mech bge (2x L tank + 1x mot)
 	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 1 y = 0 }		
-		light_armor = { x = 1 y = 1 }		
-		light_armor = { x = 1 y = 2 }		
+		REC = { x = 0 y = 0 }
+		REC = { x = 0 y = 1 }
+		REC = { x = 1 y = 0 }		
+		REC = { x = 1 y = 1 }		
+		REC = { x = 1 y = 2 }		
 		motorized = { x = 2 y = 0 }		
 		motorized = { x = 2 y = 1 }	
 		motorized = { x = 2 y = 2 }		

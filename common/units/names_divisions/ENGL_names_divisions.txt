@@ -325,7 +325,7 @@ BRENGL_ARM_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	division_types = { "REC" "IFV"  "MBT" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { BRENGL_INF_01 }
@@ -353,11 +353,11 @@ BRENGL_ARM_02 =
 {
 	name = "Tank Brigade"
 
-	for_countries = { LIB BAH BAN BAS BLZ BOT BRM CYP FIJ GAM GHA GYA JAM KEN MAL MLD MLT MLW NGA NIR NMB PAK PNG SCO SIE SRL TRI TZN UGA WLS ZAM ZIM AST CAN NZL SAF RAJ } 
+	for_countries = { LIB BAH BAN BAS BLZ BOT BRM CYP FIJ GAM GHA GYA JAM KEN MAL MLD MLT MLW NGA NIR NMB PAK PNG SCO SIE SRL TRI TZN UGA WLS ZAM ZIM AST CAN NZL SAF IND } 
 
 	can_use = { always = yes }
 
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	division_types = { "REC" "IFV"  "MBT" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { BRENGL_INF_01 }
@@ -389,7 +389,7 @@ AMENGL_ARM_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	division_types = { "REC" "IFV"  "MBT" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { BRENGL_INF_01 }

@@ -6,8 +6,8 @@ state={
 		1116 1525 1996 10810 12322 12730 
 	}
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
+		owner = IND
+		add_core_of = IND
 		add_core_of = PRC
 		}
 		manpower=100

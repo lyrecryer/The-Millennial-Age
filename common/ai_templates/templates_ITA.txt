@@ -16,13 +16,13 @@ armored_ITA = {
 		modifier = {
 			factor = 5
 			OR = {
-				has_tech = basic_medium_tank
+				has_tech = IFV_1
 			}
 		}
 		
 		modifier = {
 			factor = 2
-			has_tech = main_battle_tank
+			has_tech = MBT_1
 		}
 	}
 
@@ -42,7 +42,7 @@ armored_ITA = {
 
 		# this is a stop-gap towards medium tanks, if deployed dont upgrade to medium tanks until we burn out our light tanks
 		can_upgrade_in_field = {
-			has_equipment = { light_tank_equipment < 500 } 
+			has_equipment = { REC_equipment < 500 } 
 		}
 		
 		stat_weights = {
@@ -94,13 +94,13 @@ armored_ITA = {
 			}
 			
 			regiments = {
-				light_armor = 4
+				REC = 4
 				motorized = 2
 			}
 		}
 		
 		allowed_types = {
-			light_armor
+			REC
 			motorized
 			engineer
 			mot_recon
@@ -178,14 +178,13 @@ armored_ITA = {
 			}
 			
 			regiments = {
-				heavy_armor = 4
+				MBT = 4
 				infantry = 2
 			}
 		}
 		
 		allowed_types = {
-			modern_armor
-			heavy_armor
+			MBT
 			
 			mechanized
 
@@ -219,9 +218,9 @@ armored_ITA = {
 
 			modifier = {
 				factor = 5
-				has_tech = basic_medium_tank
+				has_tech = IFV_1
 				NOT = {
-					has_tech = main_battle_tank
+					has_tech = MBT_1
 				}
 			}
 		}
@@ -232,7 +231,7 @@ armored_ITA = {
 
 		# this is a stop-gap towards medium tanks, if deployed dont upgrade to medium tanks until we burn out our light tanks
 		can_upgrade_in_field = {
-			has_equipment = { light_tank_equipment < 1000 } 
+			has_equipment = { REC_equipment < 1000 } 
 		}
 		
 		stat_weights = {
@@ -284,16 +283,16 @@ armored_ITA = {
 			}
 			
 			regiments = {
-				medium_armor = 1
-				light_armor = 2
+				IFV = 1
+				REC = 2
 				motorized = 1
 			}
 		}
 
 		allowed_types = {
-			modern_armor
-			light_armor
-			medium_armor
+			MBT
+			REC
+			IFV
 			motorized
 			mechanized
 			#medium_sp_artillery_brigade
@@ -326,17 +325,17 @@ armored_ITA = {
 
 			modifier = {
 				factor = 5
-				has_tech = improved_medium_tank
+				has_tech = IFV_2
 			}
 			
 			modifier = {
 				factor = 4
-				has_tech = basic_medium_tank
+				has_tech = IFV_1
 				NOT = {
-					has_tech = main_battle_tank
+					has_tech = MBT_1
 				}
-				has_equipment = { light_tank_equipment < 50 }
-				has_equipment = { medium_tank_equipment > 25 }
+				has_equipment = { REC_equipment < 50 }
+				has_equipment = { IFV_equipment > 25 }
 			}
 		}
 		
@@ -396,16 +395,16 @@ armored_ITA = {
 			}
 			
 			regiments = {
-				medium_armor = 3 #remove sp
+				IFV = 3 #remove sp
 				motorized = 2
 				#medium_sp_artillery_brigade = 2
 			}
 		}
 
 		allowed_types = {
-			light_armor
-			modern_armor
-			medium_armor
+			REC
+			MBT
+			IFV
 			motorized
 			mechanized
 			#medium_sp_artillery_brigade
@@ -432,14 +431,14 @@ armored_ITA = {
 
 			modifier = {
 				factor = 5
-				has_tech = improved_medium_tank
+				has_tech = IFV_2
 			}
 			
 			modifier = {
 				factor = 4
-				has_tech = armored_car1
+				has_tech = APC_1
 				NOT = {
-					has_tech = main_battle_tank
+					has_tech = MBT_1
 				}
 			}
 		}
@@ -500,16 +499,16 @@ armored_ITA = {
 			}
 			
 			regiments = {
-				medium_armor = 3 #remove sp
+				IFV = 3 #remove sp
 				motorized = 2
 				#medium_sp_artillery_brigade = 2
 			}
 		}
 
 		allowed_types = {
-			light_armor
-			modern_armor
-			medium_armor
+			REC
+			MBT
+			IFV
 			motorized
 			mechanized
 			#medium_sp_artillery_brigade
@@ -536,7 +535,7 @@ armored_ITA = {
 
 			modifier = {
 				factor = 15
-				has_tech = main_battle_tank
+				has_tech = MBT_1
 			}
 		}
 		
@@ -594,7 +593,7 @@ armored_ITA = {
 			}
 			
 			regiments = {
-				modern_armor = 2
+				MBT = 2
 				mechanized = 1
 				medium_sp_artillery_brigade = 1
 			}
@@ -602,7 +601,7 @@ armored_ITA = {
 		
 
 		allowed_types = {
-			modern_armor
+			MBT
 			mechanized
 			motorized_rocket_brigade 
 			medium_sp_artillery_brigade
@@ -1142,12 +1141,11 @@ paratroopers_ITA = {
 
 	# REGIMENTS:
 	#infantry
-	#light_armor
+	#REC
 	#super_heavy_armor
-	#modern_armor
-	#heavy_armor
-	#medium_armor
-	#light_armor
+	#MBT
+	#IFV
+	#REC
 	#anti_tank
 	#cavalry
 	#motorized

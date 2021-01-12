@@ -48,9 +48,9 @@ division_template = {
 	division_names_group = SOV_MOT_01
 
 	regiments = {
-		light_armor = { x = 0 y = 0 }		# BT-7 tanks
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
+		REC = { x = 0 y = 0 }		# BT-7 tanks
+		REC = { x = 0 y = 1 }
+		REC = { x = 0 y = 2 }
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
@@ -110,12 +110,12 @@ division_template = {
 	name = "Tankovaya Korpus" 					# Note: Represents regular tank corps (formerly mechanized corps; 4 existed in 1938-40) 
 	division_names_group = SOV_ARM_02
 	regiments = {
-		light_armor = { x = 0 y = 0 }		# BT-7 tanks
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }	
-		light_armor = { x = 1 y = 0 }		# BT-7 tanks	
-		light_armor = { x = 1 y = 1 }		
-		light_armor = { x = 1 y = 2 }			
+		REC = { x = 0 y = 0 }		# BT-7 tanks
+		REC = { x = 0 y = 1 }
+		REC = { x = 0 y = 2 }	
+		REC = { x = 1 y = 0 }		# BT-7 tanks	
+		REC = { x = 1 y = 1 }		
+		REC = { x = 1 y = 2 }			
 		motorized = { x = 2 y = 0 }		
 		motorized = { x = 2 y = 1 }		
 		motorized = { x = 3 y = 0 }		
@@ -130,12 +130,12 @@ division_template = {
 	name = "Legko-Tankovaya Brigada" 				# Light Tank Brigades - Represents a pair of independent tank brigades (2 regular (light) brigades) 
 	division_names_group = SOV_ARM_04
 	regiments = {
-		light_armor = { x = 0 y = 0 }		# T-26 or BT-5/7 tanks
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }	
-		light_armor = { x = 1 y = 0 }		# T-26 or BT-5/7 tanks		
-		light_armor = { x = 1 y = 1 }		
-		light_armor = { x = 1 y = 2 }		
+		REC = { x = 0 y = 0 }		# T-26 or BT-5/7 tanks
+		REC = { x = 0 y = 1 }
+		REC = { x = 0 y = 2 }	
+		REC = { x = 1 y = 0 }		# T-26 or BT-5/7 tanks		
+		REC = { x = 1 y = 1 }		
+		REC = { x = 1 y = 2 }		
 		motorized = { x = 2 y = 0 }		
 		motorized = { x = 2 y = 1 }	
 	}
@@ -147,12 +147,12 @@ division_template = {
 	name = "Tankovaya Brigada" 				# Tank Brigade - Represents a pair of independent tank brigades (1 heavy (medium) + 1 regular (light) brigades) 
 	division_names_group = SOV_ARM_04
 	regiments = {
-		medium_armor = { x = 0 y = 0 }		# T-28 (medium) infantry tanks
-		medium_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }		# T-26 or BT-5/7 tanks		
-		light_armor = { x = 1 y = 0 }		# T-26 or BT-5/7 tanks		
-		light_armor = { x = 1 y = 1 }		
-		light_armor = { x = 1 y = 2 }		
+		IFV = { x = 0 y = 0 }		# T-28 (medium) infantry tanks
+		IFV = { x = 0 y = 1 }
+		REC = { x = 0 y = 2 }		# T-26 or BT-5/7 tanks		
+		REC = { x = 1 y = 0 }		# T-26 or BT-5/7 tanks		
+		REC = { x = 1 y = 1 }		
+		REC = { x = 1 y = 2 }		
 		motorized = { x = 2 y = 0 }	
 		motorized = { x = 2 y = 1 }
 	}
@@ -164,12 +164,12 @@ division_template = {
 	name = "Tyazolaya-Tankovaya Brigada" 	# Heavy Tank Brigades - Represents a pair of independent tank brigades (1 heavy (truly heavy) + 1 regular (light) brigades) 
 	division_names_group = SOV_ARM_04
 	regiments = {
-		heavy_armor = { x = 0 y = 0 }		# T-35 heavy tanks
-		heavy_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }		# T-26 or BT-5/7 tanks			
-		light_armor = { x = 1 y = 0 }		# T-26 or BT-5/7 tanks		
-		light_armor = { x = 1 y = 1 }		
-		light_armor = { x = 1 y = 2 }		
+		MBT = { x = 0 y = 0 }		# T-35 heavy tanks
+		MBT = { x = 0 y = 1 }
+		REC = { x = 0 y = 2 }		# T-26 or BT-5/7 tanks			
+		REC = { x = 1 y = 0 }		# T-26 or BT-5/7 tanks		
+		REC = { x = 1 y = 1 }		
+		REC = { x = 1 y = 2 }		
 		motorized = { x = 2 y = 0 }		
 		motorized = { x = 2 y = 1 }	
 	}

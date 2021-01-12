@@ -146,25 +146,25 @@ generic = {
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	light_armor = {
+	REC = {
 		prefix = ""
 		generic = { "Light Tank Brigade" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	medium_armor = {
+	IFV = {
 		prefix = ""
 		generic = { "Medium Tank Brigade" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	heavy_armor = {
+	MBT = {
 		prefix = ""
 		generic = { "Heavy Tank Brigade" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	modern_armor = {
+	MBT = {
 		prefix = ""
 		generic = { "Modern Tank Brigade" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
@@ -3773,7 +3773,7 @@ PAK = {
 	
 }
 
-RAJ = {
+IND = {
 	submarine = {
 		prefix = "HMIS"
 		generic = { "Submarine" }
@@ -3809,14 +3809,14 @@ RAJ = {
 		prefix = "HMIS"
 		generic = { "Battlecruiser" }
 		unique = {
-			"India" "Raj" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
+			"India" "IND" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
 		}
 	}
 	battleship = {
 		prefix = "HMIS"
 		generic = { "Battleship" }
 		unique = {
-			"India" "Raj" "Empress" "Emperor" "Burma" "Rajahstan" "Jabalpur" "Bihar" "Madurai" "Madras" "Indore" "Punjab"
+			"India" "IND" "Empress" "Emperor" "Burma" "Rajahstan" "Jabalpur" "Bihar" "Madurai" "Madras" "Indore" "Punjab"
 		}
 	}
 	carrier = {
