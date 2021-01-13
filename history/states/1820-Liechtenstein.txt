@@ -1,0 +1,15 @@
+state={
+	id=1820
+	name="STATE_1820"
+	provinces={
+		17327 
+	}
+	history={
+		owner = LIE
+		add_core_of = LIE
+
+	}
+	manpower=38378
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

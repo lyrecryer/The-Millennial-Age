@@ -17321,6 +17321,9 @@
 17320;0;180;125;land;false;hills;5
 17321;51;168;73;land;false;unknown;3
 17322;242;113;152;land;false;unknown;3
-17323;117;173;66;land;false;unknown;7
-17324;255;0;252;land;false;unknown;6
-17325;255;0;183;land;false;unknown;1
+17323;117;173;66;land;true;desert;7
+17324;255;0;252;land;false;mountain;6
+17325;255;0;183;land;false;mountain;1
+17326;12;107;55;land;false;hills;1
+17327;52;78;162;land;false;mountain;1
+17328;106;78;160;sea;true;ocean;0
