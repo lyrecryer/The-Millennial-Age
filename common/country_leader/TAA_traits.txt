@@ -17,15 +17,6 @@ leader_traits = {
 	}
 
 	#anti-something
-	anti_neutrality = {
-		random = no
-		neutrality_acceptance = -50
-		neutrality_drift = -0.01
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	anti_dicator = {
 		random = no
 		communism_acceptance = -50
@@ -44,14 +35,6 @@ leader_traits = {
 	communism_sympathies = {
 		random = no		
 		communism_acceptance = 70
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	neutrality_sympathies = {
-		random = no		
-		neutrality_acceptance = 70
 
 		ai_will_do = {
 			factor = 1
@@ -139,10 +122,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	GER_supported = {
+	#ENG
+	iron_lady = {
 		random = no
 		ai_will_do = {
 			factor = 1
 		}
+		#A stable ruler is better than an unstable government
+		stability_factor = 0.1
+		#Tend to ignore political changes unless forced to.
+		drift_defence_factor = 0.25
 	}
 }

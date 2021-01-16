@@ -20,7 +20,7 @@ democratic = 100
 }
 
 add_ideas = {
-
+	UN_MEMBER
 }
 
 create_country_leader = {

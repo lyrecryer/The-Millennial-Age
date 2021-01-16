@@ -1,6 +1,7 @@
 state_names_effect = {
 	#how it goes: check TAG and if it owns state. If yes, change state name by TAG_STATE_NUM. If no then reset it to it's orginial name.
-	#ENGLISH COUNTIES
+	#ENGLISH STATES
+	#NORTHERN IRELAND
 			if = {
 				limit = {
 					tag = ENG
@@ -8,6 +9,8 @@ state_names_effect = {
 				}
 				720 = { set_state_name = ENG_STATE_720 }
 			}
+			#WELSH STATES
+			#WALES
 			if = {
 				limit = {
 					tag = WLS

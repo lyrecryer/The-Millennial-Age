@@ -18,9 +18,7 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
-add_ideas = {
 
-}
 
 create_country_leader = {
 	name = "Test Guy"
@@ -29,7 +27,7 @@ create_country_leader = {
 	expire = "2021.1.1"
 	ideology = liberalism
 	traits = {
-		
+	dictator	
 	}
 }
 

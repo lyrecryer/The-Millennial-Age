@@ -2,15 +2,10 @@ ideas = {
     country = {
         
 		USSR_breaking_apart = {
-			
+			removal_cost = -1
 			allowed = { always = no }
-
 			picture = GFX_idea_USSR_BREAKING_APART
-			
-			modifier = { autonomy_gain = 1.5 }
-			
-	
-			ai_will_do = { factor = 0 }
+			modifier = { autonomy_gain = 1.5 democratic_drift = 0.1 }
 		}
     }
 }

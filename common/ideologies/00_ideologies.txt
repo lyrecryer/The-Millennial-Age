@@ -13,6 +13,12 @@ ideologies = {
 			moderatism = {}
 	
 			centrism = {}
+
+			populist = {}
+			#Green Parties
+			ecopolitic = {}
+
+			libertarianism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -75,8 +81,12 @@ ideologies = {
 			anti_revisionism = {}
 			
 			anarchist_communism = {}
+
 			dic_socialist = {}
-			juche = {can_be_randomly_selected = no }
+
+			juche = { can_be_randomly_selected = no }
+
+			revolutionary = {}
 		}
 		
 		dynamic_faction_names = {
@@ -179,13 +189,7 @@ ideologies = {
 
 			oligarchism  = {}
 
-			anarchism = { can_be_randomly_selected = no }
-
-			populist = {}
-			#Green Parties
-			ecopolitic = {}
-
-			libertarianism = {}
+			theocratic = {}
 		}
 
 		dynamic_faction_names = {
@@ -220,6 +224,58 @@ ideologies = {
 			army_intel_to_others = 10.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 10.0
+		}
+		
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes # 
+	}
+	
+	anarchist = {
+	
+		types = {
+		
+			anarchism = {}
+			
+			anarchist_communism = {}
+			anarchist_primitive = {}
+			anarchist_captialist = {}
+			anarchist_darwinist = {}
+			chaos = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_ANARCHIST_2"
+			"FACTION_NAME_ANARCHIST_3"
+			"FACTION_NAME_ANARCHIST_4"
+			"FACTION_NAME_ANARCHIST_5"
+		}
+		
+		color = { 0 0 0 }
+		
+		
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+		
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_send_volunteers = no
+		}
+		
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 100
+			join_faction_tension = 100
+			lend_lease_tension = 100
+			send_volunteers_tension = 100
+			guarantee_tension = 100
+			civilian_intel_to_others = 100.0
+			army_intel_to_others = 100.0
+			navy_intel_to_others = 100.0
+			airforce_intel_to_others = 100.0
 		}
 		
 		faction_modifiers = {

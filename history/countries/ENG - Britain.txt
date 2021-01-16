@@ -28,13 +28,13 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Test Guy"
-	desc = ""
-	picture = "Portrait_.dds"
+	name = "Margaret Thatcher"
+	desc = "Margaret Hilda Thatcher was a British politician and stateswoman who served as Prime Minister of the United Kingdom from 1979 to 1990 and Leader of the Conservative Party from 1975 to 1990. She was the longest-serving British prime minister of the 20th century and the first woman to hold that office. A Soviet journalist dubbed her the Iron Lady, a nickname that became associated with her uncompromising politics and leadership style. As prime minister, she implemented policies that became known as Thatcherism."
+	picture = "Portrait_Margaret_Thatcher.dds"
 	expire = "2021.1.1"
-	ideology = liberalism
+	ideology = conservatism
 	traits = {
-		
+	indomitable_perseverance assassination_survivor iron_lady USA_supported
 	}
 }
 

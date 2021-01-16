@@ -19,8 +19,9 @@ set_popularities = {
 democratic = 100
 }
 
-add_ideas = {
 
+add_ideas = {
+	UN_MEMBER
 }
 
 create_country_leader = {
@@ -30,7 +31,7 @@ create_country_leader = {
 	expire = "2021.1.1"
 	ideology = liberalism
 	traits = {
-		
+	dictator	
 	}
 }
 

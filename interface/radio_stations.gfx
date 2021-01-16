@@ -1,0 +1,23 @@
+
+	spriteTypes = {
+	spriteType = {
+		name = "GFX_wargame_playlist_art"
+		texturefile = "gfx//interface//topbar//musicplayer//musicstation_wargame.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_superpower2_playlist_art"
+		texturefile = "gfx//interface//topbar//musicplayer//musicstation_superpower2.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_wic_playlist_art"
+		texturefile = "gfx//interface//topbar//musicplayer//musicstation_wic.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_DEFCON_playlist_art"
+		texturefile = "gfx//interface//topbar//musicplayer//musicstation_DEFCON.dds"
+		noOfFrames = 2
+	}
+}

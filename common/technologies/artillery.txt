@@ -547,7 +547,7 @@ technologies = {
 
 		enable_building = {
 			building = anti_air
-			level = 5
+			level = 1
 		}
 		
 		path = {

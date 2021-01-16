@@ -9,6 +9,10 @@ spriteTypes = {
 		name = "GFX_idea_EURO"
 		texturefile = "gfx/interface/ideas/idea_EURO.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_EU_NATION"
+		texturefile = "gfx/interface/ideas/idea_EU_NATION.dds"
+	}
 	#UN
 	spriteType = {
 		name = "GFX_idea_UN_MEMBER"

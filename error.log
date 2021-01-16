@@ -1,47 +1,62 @@
-[21:34:34][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_REC_icon_small.dds
-[21:34:34][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_REC_icon_small.dds.
-[21:34:34][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_REC_icon_small.dds for spritetype GFX_unit_REC_icon_small
-[21:34:35][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_MBT_icon_small.dds
-[21:34:35][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_MBT_icon_small.dds.
-[21:34:35][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_MBT_icon_small.dds for spritetype GFX_unit_MBT_icon_small
-[21:34:35][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_AS_icon_small.dds
-[21:34:35][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_AS_icon_small.dds.
-[21:34:35][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_AS_icon_small.dds for spritetype GFX_unit_AS_icon_small
-[21:34:35][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_IFV_icon_small.dds
-[21:34:35][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_IFV_icon_small.dds.
-[21:34:35][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_IFV_icon_small.dds for spritetype GFX_unit_IFV_icon_small
-[21:34:36][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_STRAT_icon_small.dds
-[21:34:36][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_STRAT_icon_small.dds.
-[21:34:36][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_STRAT_icon_small.dds for spritetype GFX_unit_STRAT_icon_small
-[21:34:36][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_CAS_icon_small.dds
-[21:34:36][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_CAS_icon_small.dds.
-[21:34:36][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_CAS_icon_small.dds for spritetype GFX_unit_CAS_icon_small
-[21:34:36][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_TAC_icon_small.dds
-[21:34:36][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_TAC_icon_small.dds.
-[21:34:36][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_TAC_icon_small.dds for spritetype GFX_unit_TAC_icon_small
-[21:34:37][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_CVMR_icon_small.dds
-[21:34:37][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_CVMR_icon_small.dds.
-[21:34:37][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_CVMR_icon_small.dds for spritetype GFX_unit_CVMR_icon_small
-[21:34:37][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_TRANS_icon_small.dds
-[21:34:37][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_TRANS_icon_small.dds.
-[21:34:37][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_TRANS_icon_small.dds for spritetype GFX_unit_TRANS_icon_small
-[21:34:37][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_MR_icon_small.dds
-[21:34:37][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_MR_icon_small.dds.
-[21:34:37][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_MR_icon_small.dds for spritetype GFX_unit_MR_icon_small
-[21:34:43][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 4821,731
-[21:34:43][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 3092,607
-[21:34:43][countrytag.cpp:111]: ### - is not in the tag list
-[21:34:43][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[21:34:49][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[21:34:50][country.cpp:7167]: Attempting to set captial state #1 for Republic of Liechtenstein, they dont own it!
-[21:34:50][country.cpp:7167]: Attempting to set captial state #1 for Republic of San Marino, they dont own it!
-[21:34:56][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
-[21:34:56][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
-[21:34:56][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
-[21:34:56][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
-[21:34:56][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
-[21:34:56][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
-[21:35:50][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/interface/counters/divisions_large/MBT_icon.dds
-[21:35:50][texturehandler.cpp:303]: Couldn't find texture file: gfx/interface/counters/divisions_large/MBT_icon.dds.
-[21:35:50][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/interface/counters/divisions_large/REC_icon.dds
-[21:35:50][texturehandler.cpp:303]: Couldn't find texture file: gfx/interface/counters/divisions_large/REC_icon.dds.
+[21:10:07][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_REC_icon_small.dds
+[21:10:07][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_REC_icon_small.dds.
+[21:10:07][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_REC_icon_small.dds for spritetype GFX_unit_REC_icon_small
+[21:10:07][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_MBT_icon_small.dds
+[21:10:07][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_MBT_icon_small.dds.
+[21:10:07][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_MBT_icon_small.dds for spritetype GFX_unit_MBT_icon_small
+[21:10:08][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_AS_icon_small.dds
+[21:10:08][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_AS_icon_small.dds.
+[21:10:08][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_AS_icon_small.dds for spritetype GFX_unit_AS_icon_small
+[21:10:09][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_IFV_icon_small.dds
+[21:10:09][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_IFV_icon_small.dds.
+[21:10:09][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_IFV_icon_small.dds for spritetype GFX_unit_IFV_icon_small
+[21:10:09][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_STRAT_icon_small.dds
+[21:10:09][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_STRAT_icon_small.dds.
+[21:10:09][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_STRAT_icon_small.dds for spritetype GFX_unit_STRAT_icon_small
+[21:10:10][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_CAS_icon_small.dds
+[21:10:10][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_CAS_icon_small.dds.
+[21:10:10][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_CAS_icon_small.dds for spritetype GFX_unit_CAS_icon_small
+[21:10:11][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_TAC_icon_small.dds
+[21:10:11][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_TAC_icon_small.dds.
+[21:10:11][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_TAC_icon_small.dds for spritetype GFX_unit_TAC_icon_small
+[21:10:11][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_CVMR_icon_small.dds
+[21:10:11][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_CVMR_icon_small.dds.
+[21:10:11][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_CVMR_icon_small.dds for spritetype GFX_unit_CVMR_icon_small
+[21:10:11][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_TRANS_icon_small.dds
+[21:10:11][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_TRANS_icon_small.dds.
+[21:10:11][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_TRANS_icon_small.dds for spritetype GFX_unit_TRANS_icon_small
+[21:10:11][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_MR_icon_small.dds
+[21:10:11][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_MR_icon_small.dds.
+[21:10:11][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_MR_icon_small.dds for spritetype GFX_unit_MR_icon_small
+[21:10:15][lexer.cpp:168]: Adding dynamic token "anarchist_communism" that already exists.
+[21:10:19][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 4821,731
+[21:10:19][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 3092,607
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 2096" in file: "common/technologies/air_doctrine.txt" near line: 2099
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 2212" in file: "common/technologies/air_doctrine.txt" near line: 2214
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 2414" in file: "common/technologies/air_doctrine.txt" near line: 2416
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 3868" in file: "common/technologies/air_doctrine.txt" near line: 3870
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 4946" in file: "common/technologies/air_doctrine.txt" near line: 4949
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 106" in file: "common/technologies/infantry.txt" near line: 108
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 193" in file: "common/technologies/infantry.txt" near line: 195
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 368" in file: "common/technologies/infantry.txt" near line: 370
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 1101" in file: "common/technologies/infantry.txt" near line: 1104
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 1179" in file: "common/technologies/infantry.txt" near line: 1182
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 1263" in file: "common/technologies/infantry.txt" near line: 1266
+[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 1347" in file: "common/technologies/infantry.txt" near line: 1350
+[21:10:19][countrytag.cpp:111]: ### - is not in the tag list
+[21:10:19][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[21:10:27][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[21:10:28][country.cpp:7167]: Attempting to set captial state #1 for Republic of Liechtenstein, they dont own it!
+[21:10:28][country.cpp:7167]: Attempting to set captial state #1 for Republic of San Marino, they dont own it!
+[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
+[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
+[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
+[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
+[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
+[21:10:37][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
+[21:25:20][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/interface/counters/divisions_large/MBT_icon.dds
+[21:25:20][texturehandler.cpp:303]: Couldn't find texture file: gfx/interface/counters/divisions_large/MBT_icon.dds.
+[21:25:20][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/interface/counters/divisions_large/REC_icon.dds
+[21:25:20][texturehandler.cpp:303]: Couldn't find texture file: gfx/interface/counters/divisions_large/REC_icon.dds.
+[21:25:27][effect.cpp:497]: common/on_actions/TIA_on_actions.txt:3: : Invalid Scope
+
