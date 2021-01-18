@@ -14,7 +14,7 @@ state={
 			9851 2
 		}
 		victory_points = {
-			11804 2
+			15891 2
 		}
 		buildings = {
 			infrastructure = 4
@@ -33,5 +33,5 @@ state={
 	}
 	manpower=330455
 	buildings_max_level_factor=1.000
-	state_category= rural
+	state_category= small_island
 }
