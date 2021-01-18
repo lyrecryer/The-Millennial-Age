@@ -7,8 +7,18 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+			#civil and military Air Bases (right next to russia so need to have a lot of them!)
+			air_base = 10
+			4833 = { naval_base = 10 } 
 		}
-		manpower=100
+		}
+		resources = {
+			#Peak oil was reached in 1988 so it is declining on a year by year basis.
+			oil = 10
+		}
+		manpower=710249
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

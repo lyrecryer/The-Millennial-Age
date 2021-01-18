@@ -2,14 +2,30 @@
 state={
 	id=13
 	name="STATE_13"
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 10
+			arms_factory = 5
+			industrial_complex = 5
+			air_base = 10
+		}
+		#Greater Sudbury
+		victory_points = {
+			9467 20
+		}
+		#Thunder Bay
+		victory_points = {
+			7899 10
+		}
+	}
+
 	provinces={
-		602 761 763 777 1299 1769 1782 3736 4753 4775 4784 4869 4875 7794 7899 9740 10621 10718 11571 12701 13094 13159 13161 
+		602 761 763 777 1299 1769 1782 3640 3736 4753 4775 4784 4869 4875 6510 6662 6676 7366 7794 7899 9467 9480 9634 9740 10621 10718 11571 11602 11728 12278 12582 12701 13094 13159 13161 13201 
 	}
-	history = {
-	owner = CAN
-	add_core_of = CAN
-	}
-	manpower=7372520
-	state_category = rural
+	manpower=780140
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -10,8 +10,13 @@ state={
 	add_core_of = DEN
 	buildings = {
 		air_base = 1
-		infrastructure = 1
+		#DEW LINE
+		radar_station = 3
 	}
+	}
+	resources = {
+		tungsten = 1
+		aluminium = 1
 	}
 	manpower=23123
 	state_category = wasteland

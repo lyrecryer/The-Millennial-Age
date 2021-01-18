@@ -7,8 +7,15 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA
+		buildings = {
+			infrastructure = 1
+			naval_base = 1
 		}
-		manpower=100
-	state_category = rural
+		}
+		resources = {
+			oil = 1
+		}
+		manpower=5997
+	state_category = tiny_island
 	buildings_max_level_factor=1.000
 }

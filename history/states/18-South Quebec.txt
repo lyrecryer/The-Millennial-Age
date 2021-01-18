@@ -8,6 +8,20 @@ state={
 	history = {
 	owner = CAN
 	add_core_of = CAN
+	buildings = {
+		infrastructure = 10
+		arms_factory = 10
+		industrial_complex = 10
+		air_base = 10
+	}
+	#Quebec City
+	victory_points = {
+		7433 20
+	}
+	#Montreal
+	victory_points = {
+		4345 10
+	}
 	}
 	manpower=4276181
 	state_category = town

@@ -13,9 +13,14 @@ state={
 		air_base = 1
 	}
 	#The Only place worth holding in Greenland.
+	#Qaqortoq
 	victory_points = {
 		12512 3
 	}
+	}
+	resources = {
+		tungsten = 1
+		aluminium = 1
 	}
 	manpower=6439
 	state_category = rural

@@ -8,8 +8,20 @@ state={
 	history = {
 	owner = CAN
 	add_core_of = CAN
+	buildings = {
+		air_base = 3
+		#DEW LINE
+		radar_station = 3
+		}
+		#Iqaluit
+		victory_points = {
+			3691 5
+		}
 	}
-	manpower=39486
-	state_category = rural
+	resources = {
+		oil = 4
+	}
+	manpower=35944
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 }

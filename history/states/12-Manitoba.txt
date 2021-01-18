@@ -8,6 +8,26 @@ state={
 	history = {
 	owner = CAN
 	add_core_of = CAN
+	buildings = {
+		industrial_complex = 4
+		arms_factory = 4
+		#Canadas NORAD HQ
+		air_base = 10
+		infrastructure = 8
+		#Churchill Port
+		5239 = { naval_base = 10 }
+	}
+	#Churchill
+	victory_points = {
+		5239 5
+	}
+	#Winnipeg
+	victory_points = {
+		4872 20
+	}
+	}
+	resources = {
+		oil = 5
 	}
 	manpower=1379121
 	state_category = rural

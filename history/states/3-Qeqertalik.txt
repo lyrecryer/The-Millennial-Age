@@ -8,6 +8,10 @@ state={
 	owner = DEN
 	add_core_of = DEN
 	}
+	resources = {
+		tungsten = 1
+		aluminium = 1
+	}
 	manpower=6340
 	state_category = wasteland
 	buildings_max_level_factor=1.000
