@@ -103,9 +103,6 @@ technologies = {
 		mechanized = {
 			soft_attack = 0.05
 		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
-		}
 		
 		path = {
 			leads_to_tech = improved_infantry_weapons
@@ -188,9 +185,6 @@ technologies = {
 		}
 		
 		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
 			soft_attack = 0.05
 		}
 		
@@ -363,9 +357,6 @@ technologies = {
 			soft_attack = 0.1
 		}
 		mechanized = {
-			soft_attack = 0.1
-		}
-		amphibious_mechanized = {
 			soft_attack = 0.1
 		}		
 
@@ -1098,10 +1089,6 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		amphibious_mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
 		
 		path = {
 			leads_to_tech = support_weapons2
@@ -1173,10 +1160,6 @@ technologies = {
 			breakthrough = 0.05
 		}
 		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1260,10 +1243,6 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		amphibious_mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
 		
 		path = {
 			leads_to_tech = support_weapons4
@@ -1341,10 +1320,6 @@ technologies = {
 			breakthrough = 0.05
 		}
 		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}

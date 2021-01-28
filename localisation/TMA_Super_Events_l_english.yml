@@ -1,0 +1,21 @@
+﻿l_english:
+
+  get_super_event_title:0 "-"
+  GFX_SPEVNT_Soviet_Coup_OTL_TITLE:0 "The August Coup"
+  GFX_SPEVNT_Soviet_Coup_OTL_TEXT:0 "Storm clouds of terror and dictatorship are gathering over the whole country... They must not be allowed to bring eternal night. - Boris Yeltsen"
+
+  GFX_SPEVNT_Soviet_Coup_ALT_TITLE:0 "The October Coup"
+  GFX_SPEVNT_Soviet_Coup_ALT_TEXT:0 "Gorbachev is general secretary of its central committee. If he ceases to be general secretary, another leader will come. - Gennady Yanayev"
+
+  GFX_SPEVNT_berlin_massacre_TITLE:0 "The Berlin Massacre"
+  GFX_SPEVNT_berlin_massacre_TEXT:0 "It was terrible. They were slaughtering us like so many sheep - Survior of the Massacre"
+
+#EVENT
+ super.1.t:0 "The August Coup"
+ super.1.d:0 "On 17 August, the members of the GKChP met at a KGB guesthouse in Moscow and studied the treaty document. They believed the pact would pave the way to the Soviet Union's breakup, and decided that it was time to act. The next day, Baklanov, Boldin, Shenin, and USSR Deputy Defense Minister General Valentin Varennikov flew to Crimea for a meeting with Gorbachev. They demanded that Gorbachev either declare a state of emergency or resign and name Yanayev as acting president to allow the members of the GKChP 'to restore order' in the country. Gorbachev refused. Today, the World wakes to Soviet Tanks rolling into the street of Moscow. The Coup has begun."
+ super.1.a:0 "We shall end this coup!"
+ super.2.t:0 "Berlin Wall Guards Overwelmed!"
+ super.2.d:0 "Last night, both East and West Berliners gathered around the Berlin Wall with demands and tools to dismalte the Wall. Although the Western Guards was watching with interest, the Eastern Guards was trying to litterly beat back the crowd. The recently deployed Soviet reserves,undertrained and underprepared became violent to a degree that even their commanders began to intervene to protect the Berliners. After a 500 large crowd swarmed the Wall, sounds similer to shots began to be heard and mass confusion within the Soviet Reserves grew until one commander started to bark the fatal order."
+ super.2.a:0 "Open Fire! OPEN FIRE!"
+ super.3.t:0 "The October Coup"
+ super.3.d:0 "Gorbachev recent visit to East Germany, was a unassuming visit to the world as any visit would be. Unkown to the world was a coup in waiting. As soon as Gorbachev landed on Soviet soil, he was kidnapped and sent to a unkown location. The next day,the World wakes to Soviet Tanks rolling into the street of Moscow. Two days after that, the New Secetary General, General Vladimir Soshkin Is the new leader of the Soviet Union."

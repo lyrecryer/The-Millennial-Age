@@ -1211,16 +1211,14 @@ marines_generic = {
 			}
 			
 			regiments = {
-				amphibious_armor = 4
-				amphibious_mechanized = 6
+				IFV = 4
+				marine = 6
 			}
 		}
 
 		
 		allowed_types = {
 			marine
-			amphibious_mechanized
-			amphibious_armor
 			recon
 			engineer
 			logistics_company

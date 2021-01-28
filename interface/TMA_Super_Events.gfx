@@ -1,0 +1,35 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_Super_Event_Image_Test"
+		texturefile = "gfx/super_events/Super_Event_Image_Test.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Soviet_Coup_OTL"
+		texturefile = "gfx/super_events/Super_Event_Soviet_Coup.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SPEVNT_Soviet_Coup_ALT"
+		texturefile = "gfx/super_events/Super_Event_Soviet_Coup.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_berlin_massacre"
+		texturefile = "gfx/super_events/Super_Event_berlin_massacre.dds"
+		legacy_lazy_load = no
+	}
+
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_thin_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window_thin_border.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}
