@@ -1,0 +1,25 @@
+########################Super Events #########################
+sound =  {
+	name = "berlin_massacre"
+	file = "berlin_massacre.wav"
+	always_load = no
+}
+sound =  {
+	name = "ALT_soviet_coup"
+	file = "ALT_soviet_coup.wav"
+	always_load = no
+}
+soundeffect = {
+	name = berlin_massacre
+	sounds = {
+		sound = berlin_massacre
+	}
+	volume = 0.5
+}
+soundeffect = {
+	name = ALT_soviet_coup
+	sounds = {
+		sound = ALT_soviet_coup
+	}
+	volume = 0.5
+}

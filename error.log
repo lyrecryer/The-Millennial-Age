@@ -1,55 +1,56 @@
-[14:27:26][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 4821,731
-[14:27:26][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 3092,607
-[14:27:26][countrytag.cpp:111]: ### - is not in the tag list
-[14:27:26][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[14:27:31][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[14:27:32][statehistory.cpp:270]: State Error: Trying to set invalid state building "naval_base" to state #17.
-[14:27:32][statehistory.cpp:270]: State Error: Trying to set invalid state building "naval_base" to state #19.
-[14:27:32][statehistory.cpp:270]: State Error: Trying to set invalid state building "naval_base" to state #20.
-[14:27:36][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
-[14:27:36][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
-[14:27:36][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
-[14:27:36][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
-[14:27:36][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
-[14:27:36][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
-[14:27:51][gamestate.cpp:5817]: 9 -  British Columbia has too many buildings : -20
-[14:27:51][gamestate.cpp:5817]: 12 -  Manitoba has too many buildings : -6
-[14:27:51][gamestate.cpp:5817]: 13 -  North Ontario has too many buildings : -8
-[14:27:51][gamestate.cpp:5817]: 14 -  South Ontario has too many buildings : -15
-[14:27:51][gamestate.cpp:5817]: 18 -  South Quebec has too many buildings : -16
-[14:27:51][gamestate.cpp:5817]: 19 -  New Brunswick has too many buildings : -17
-[14:27:51][gamestate.cpp:5817]: 20 -  Nova Scotia has too many buildings : -13
-[14:27:51][gamestate.cpp:5817]: 21 -  Prince Edward Island has too many buildings : -6
-[14:27:51][gamestate.cpp:5817]: 1269 -  Dagestan has too many buildings : -19
-[14:27:51][gamestate.cpp:5817]: 1284 -  Bashkortostan has too many buildings : -24
-[14:27:51][gamestate.cpp:5817]: 1306 -  Buryatia has too many buildings : -7
-[14:27:51][gamestate.cpp:5817]: 1485 -  Kaliningrad has too many buildings : -21
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[14:27:53][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:14:39][pdx_audio.cpp:1057]: Missing sound effect: berlin_massacre
+[16:14:39][assetfactory_audio.cpp:559]: Unable to find sound effect 'berlin_massacre' when assigning category 'TMA_superevents'
+[16:14:39][pdx_audio.cpp:1057]: Missing sound effect: ALT_soviet_coup
+[16:14:39][assetfactory_audio.cpp:559]: Unable to find sound effect 'ALT_soviet_coup' when assigning category 'TMA_superevents'
+[16:14:51][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 4821,731
+[16:14:51][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 3092,607
+[16:14:51][countrytag.cpp:111]: ### - is not in the tag list
+[16:14:51][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[16:14:57][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
+[16:15:16][gamestate.cpp:5817]: 9 -  British Columbia has too many buildings : -20
+[16:15:16][gamestate.cpp:5817]: 12 -  Manitoba has too many buildings : -6
+[16:15:16][gamestate.cpp:5817]: 13 -  North Ontario has too many buildings : -8
+[16:15:16][gamestate.cpp:5817]: 14 -  South Ontario has too many buildings : -15
+[16:15:16][gamestate.cpp:5817]: 18 -  South Quebec has too many buildings : -16
+[16:15:16][gamestate.cpp:5817]: 19 -  New Brunswick has too many buildings : -17
+[16:15:16][gamestate.cpp:5817]: 20 -  Nova Scotia has too many buildings : -13
+[16:15:16][gamestate.cpp:5817]: 21 -  Prince Edward Island has too many buildings : -6
+[16:15:16][gamestate.cpp:5817]: 1269 -  Dagestan has too many buildings : -19
+[16:15:16][gamestate.cpp:5817]: 1284 -  Bashkortostan has too many buildings : -24
+[16:15:16][gamestate.cpp:5817]: 1306 -  Buryatia has too many buildings : -7
+[16:15:16][gamestate.cpp:5817]: 1485 -  Kaliningrad has too many buildings : -21
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]

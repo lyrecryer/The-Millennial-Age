@@ -1,7 +1,7 @@
 
 category = {
     name = "TMA_superevents"
-   soundeffects = {
+    soundeffects = {
        ####### Super Events
        berlin_massacre
        ALT_soviet_coup
