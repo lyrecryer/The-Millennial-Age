@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = ICE
 		add_core_of = ICE
+		#Capital City.
+		#Reykjavik
+		victory_points = {
+			12674 10
+		}
 		}
 		manpower=100
 	state_category = rural

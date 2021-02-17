@@ -8,6 +8,16 @@ state={
 	history = {
 	owner = CAN
 	add_core_of = CAN
+	buildings = {
+		air_base = 5
+		infrastructure = 6
+	}
+	#Edmonton
+	victory_points = { 12166 20 }
+	}
+	resources = {
+		#Athabasca oil sands, biggest oil field in the world.
+		oil = 90
 	}
 	manpower=4428247
 	state_category = rural

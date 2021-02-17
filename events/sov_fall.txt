@@ -47,7 +47,7 @@ country_event = {
 		GEO = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 	}
 }
-#The Fading Stars of the West.
+#The Crumbling Iron Curtain: Poland
 country_event = {
 	id = sov_fall.4
 	title = sov_fall.4.title
@@ -58,19 +58,11 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = NEUTRAL_RESPONSE2
-		BLR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
-		BUL = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
-		CZE = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
-		DDR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
-		HUN = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
-		MOL = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 		POL = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
-		ROM = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
-		UKR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 		country_event = sov_fall.5
 		}
 	}
-	#Rise of the Stans
+	#The Crumbling Iron Curtain: Hungary
 	country_event = {
 		id = sov_fall.5
 		title = sov_fall.5.title
@@ -81,12 +73,61 @@ country_event = {
 		fire_only_once = yes
 		option = {
 			name = NEUTRAL_RESPONSE2
+			HUN = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			country_event = sov_fall.6
+		}
+	}
+	#The Crumbling Iron Curtain: Romania
+	country_event = {
+		id = sov_fall.6
+		title = sov_fall.6.title
+		desc = sov_fall.6.desc
+		picture = GFX_news_event_001
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+			name = NEUTRAL_RESPONSE2
+			ROM = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			country_event = sov_fall.7
+		}
+	}
+	#The Crumbling Iron Curtain: East Germany
+	country_event = {
+		id = sov_fall.7
+		title = sov_fall.7.title
+		desc = sov_fall.7.desc
+		picture = GFX_news_event_001
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+			name = NEUTRAL_RESPONSE2
+			DDR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			country_event = sov_fall.8
+		}
+	}
+	#The Crumbling Iron Curtain: The Rest of the Union
+	country_event = {
+		id = sov_fall.8
+		title = sov_fall.8.title
+		desc = sov_fall.8.desc
+		picture = GFX_news_event_001
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+			name = NEUTRAL_RESPONSE2
+			BLR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			BUL = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			CZE = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			MOL = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
+			UKR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 			KAZ = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 			UZB = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 			TMS = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 			KYR = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 			TAJ = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
 			MON = {	add_timed_idea = {idea = USSR_breaking_apart days = 720 } }
-			#country_event = sov_fall.5
 		}
 	}

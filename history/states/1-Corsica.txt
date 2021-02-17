@@ -8,7 +8,13 @@ state={
 		add_core_of = COR
 		add_core_of = FRA
 		victory_points = {
-			3838 1 
+			3838 4
+		}
+		victory_points = {
+			9851 2
+		}
+		victory_points = {
+			15891 2
 		}
 		buildings = {
 			infrastructure = 4
@@ -16,7 +22,6 @@ state={
 			industrial_complex = 1
 			3838 = {
 				naval_base = 4
-
 			}
 
 		}
@@ -28,5 +33,5 @@ state={
 	}
 	manpower=330455
 	buildings_max_level_factor=1.000
-	state_category= rural
+	state_category= small_island
 }

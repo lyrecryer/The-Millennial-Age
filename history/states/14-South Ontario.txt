@@ -2,14 +2,31 @@
 state={
 	id=14
 	name="STATE_14"
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+
+		buildings = {
+			infrastructure = 10
+			arms_factory = 10
+			industrial_complex = 10
+			air_base = 10
+		}
+		#Ottawa
+		victory_points = {
+			3778 50
+		}
+		#Toronto
+		victory_points = {
+			6797 25
+		}
+	}
+
 	provinces={
-		605 722 749 774 779 3605 3608 3635 3640 3661 3763 3775 3778 4270 6510 6607 6610 6625 6630 6662 6676 6797 7366 9467 9480 9580 9583 9585 9634 9667 9711 9743 11567 11569 11585 11602 11695 11725 11728 12278 12582 13154 13156 13157 13201 
+		605 722 749 774 779 3605 3608 3635 3661 3763 3775 3778 4270 6607 6610 6625 6630 6797 9580 9583 9585 9667 9711 9743 11567 11569 11585 11695 11725 13154 13156 13157 
 	}
-	history = {
-	owner = CAN
-	add_core_of = CAN
-	}
-	manpower=7372520
-	state_category = large_town
+	manpower=12775222
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }

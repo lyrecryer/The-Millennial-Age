@@ -8,6 +8,13 @@ state={
 	history = {
 	owner = CAN
 	add_core_of = CAN
+	buildings = {
+		infrastructure = 3
+		air_base = 6
+	}
+	}
+	resources = {
+		aluminium = 5
 	}
 	manpower=4276181
 	state_category = rural

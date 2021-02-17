@@ -2280,34 +2280,6 @@ spriteTypes = {
 	}
 	
 
-	spriteType = {
-		name = "GFX_subtech_td"
-		textureFile = "gfx//interface//technologies//subtech_td.dds"
-	}
-
-	spriteType = {
-		name = "GFX_subtech_rocket"
-		textureFile = "gfx//interface//technologies//subtech_rocket.dds"
-	}
-	spriteType = {
-		name = "GFX_subtech_heavy_battleship"
-		textureFile = "gfx//interface//subtech_heavy_battleship.dds"
-	}
-
-	spriteType = {
-		name = "GFX_subtech_art"
-		textureFile = "gfx//interface//technologies//subtech_art.dds"
-	}
-
-	spriteType = {
-		name = "GFX_subtech_aa"
-		textureFile = "gfx//interface//technologies//subtech_aa.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_subtech_cag"
-		textureFile = "gfx//interface//subtech_carrier_plane.dds"
-	}	
 
 	### SOV equipment ###		
 
@@ -4552,20 +4524,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_amphibious_tank_2.dds"
 	}
 	
-	SpriteType = {
-		name = "GFX_amphibious_mechanized_infantry_medium"
-		texturefile = "gfx/interface/technologies/generic_amphibious_mech_1.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_amphibious_mechanized_infantry_2_medium"
-		texturefile = "gfx/interface/technologies/generic_amphibious_mech_2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_archetype_amphibious_mechanized_medium"
-		texturefile = "gfx/interface/technologies/generic_amphibious_mech_1.dds"
-	}
 
 	SpriteType = {
 		name = "GFX_archetype_amphibious_tank_medium"

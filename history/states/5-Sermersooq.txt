@@ -8,8 +8,17 @@ state={
 	history = {
 	owner = DEN
 	add_core_of = DEN
+	buildings = {
+		air_base = 1
+		#DEW LINE
+		radar_station = 3
+	}
+	}
+	resources = {
+		tungsten = 1
+		aluminium = 1
 	}
 	manpower=23123
-	state_category = rural
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 }

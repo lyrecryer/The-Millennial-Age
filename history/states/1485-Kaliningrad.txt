@@ -8,8 +8,22 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		buildings = {
+			air_base = 2
+			#Baltiysk
+			13756 = { naval_base = 10 }
+			infrastructure = 6
+			#USSR deployed missles in this state
+			rocket_site = 1
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 12
 		}
-		manpower=100
-	state_category = rural
+		victory_points = {
+			13756 10
+		}
+		}
+		manpower=941873
+	state_category = enclave
 	buildings_max_level_factor=1.000
 }

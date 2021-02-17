@@ -8,6 +8,20 @@ state={
 	history = {
 	owner = CAN
 	add_core_of = CAN
+	buildings = {
+		infrastructure = 7
+		7259 = { naval_base = 10 }
+		1869 = { naval_base = 10 }
+		dockyard = 6
+		arms_factory = 6
+		industrial_complex = 10
+	}
+	#Vancouver
+	victory_points = { 1408 10 }
+	#Victoria
+	victory_points = { 7259 20 }
+	#Abbotsford
+	victory_points = { 4413 5 }
 	}
 	manpower=5120184
 	state_category = rural

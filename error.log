@@ -1,62 +1,56 @@
-[21:10:07][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_REC_icon_small.dds
-[21:10:07][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_REC_icon_small.dds.
-[21:10:07][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_REC_icon_small.dds for spritetype GFX_unit_REC_icon_small
-[21:10:07][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_MBT_icon_small.dds
-[21:10:07][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_MBT_icon_small.dds.
-[21:10:07][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_MBT_icon_small.dds for spritetype GFX_unit_MBT_icon_small
-[21:10:08][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_AS_icon_small.dds
-[21:10:08][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_AS_icon_small.dds.
-[21:10:08][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_AS_icon_small.dds for spritetype GFX_unit_AS_icon_small
-[21:10:09][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_IFV_icon_small.dds
-[21:10:09][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_IFV_icon_small.dds.
-[21:10:09][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_IFV_icon_small.dds for spritetype GFX_unit_IFV_icon_small
-[21:10:09][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_STRAT_icon_small.dds
-[21:10:09][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_STRAT_icon_small.dds.
-[21:10:09][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_STRAT_icon_small.dds for spritetype GFX_unit_STRAT_icon_small
-[21:10:10][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_CAS_icon_small.dds
-[21:10:10][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_CAS_icon_small.dds.
-[21:10:10][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_CAS_icon_small.dds for spritetype GFX_unit_CAS_icon_small
-[21:10:11][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_TAC_icon_small.dds
-[21:10:11][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_TAC_icon_small.dds.
-[21:10:11][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_TAC_icon_small.dds for spritetype GFX_unit_TAC_icon_small
-[21:10:11][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_CVMR_icon_small.dds
-[21:10:11][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_CVMR_icon_small.dds.
-[21:10:11][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_CVMR_icon_small.dds for spritetype GFX_unit_CVMR_icon_small
-[21:10:11][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_TRANS_icon_small.dds
-[21:10:11][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_TRANS_icon_small.dds.
-[21:10:11][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_TRANS_icon_small.dds for spritetype GFX_unit_TRANS_icon_small
-[21:10:11][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/texticons/unit_MR_icon_small.dds
-[21:10:11][texturehandler.cpp:303]: Couldn't find texture file: gfx/texticons/unit_MR_icon_small.dds.
-[21:10:11][spritetype.cpp:324]: Error initialising texture: gfx/texticons/unit_MR_icon_small.dds for spritetype GFX_unit_MR_icon_small
-[21:10:15][lexer.cpp:168]: Adding dynamic token "anarchist_communism" that already exists.
-[21:10:19][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 4821,731
-[21:10:19][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 3092,607
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 2096" in file: "common/technologies/air_doctrine.txt" near line: 2099
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 2212" in file: "common/technologies/air_doctrine.txt" near line: 2214
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 2414" in file: "common/technologies/air_doctrine.txt" near line: 2416
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 3868" in file: "common/technologies/air_doctrine.txt" near line: 3870
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 4946" in file: "common/technologies/air_doctrine.txt" near line: 4949
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 106" in file: "common/technologies/infantry.txt" near line: 108
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 193" in file: "common/technologies/infantry.txt" near line: 195
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 368" in file: "common/technologies/infantry.txt" near line: 370
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 1101" in file: "common/technologies/infantry.txt" near line: 1104
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 1179" in file: "common/technologies/infantry.txt" near line: 1182
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 1263" in file: "common/technologies/infantry.txt" near line: 1266
-[21:10:19][persistent.cpp:52]: Error: "Unknown modifier: amphibious_mechanized, near line: 1347" in file: "common/technologies/infantry.txt" near line: 1350
-[21:10:19][countrytag.cpp:111]: ### - is not in the tag list
-[21:10:19][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[21:10:27][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[21:10:28][country.cpp:7167]: Attempting to set captial state #1 for Republic of Liechtenstein, they dont own it!
-[21:10:28][country.cpp:7167]: Attempting to set captial state #1 for Republic of San Marino, they dont own it!
-[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
-[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
-[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
-[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
-[21:10:37][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
-[21:10:37][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
-[21:25:20][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/interface/counters/divisions_large/MBT_icon.dds
-[21:25:20][texturehandler.cpp:303]: Couldn't find texture file: gfx/interface/counters/divisions_large/MBT_icon.dds.
-[21:25:20][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/interface/counters/divisions_large/REC_icon.dds
-[21:25:20][texturehandler.cpp:303]: Couldn't find texture file: gfx/interface/counters/divisions_large/REC_icon.dds.
-[21:25:27][effect.cpp:497]: common/on_actions/TIA_on_actions.txt:3: : Invalid Scope
-
+[16:14:39][pdx_audio.cpp:1057]: Missing sound effect: berlin_massacre
+[16:14:39][assetfactory_audio.cpp:559]: Unable to find sound effect 'berlin_massacre' when assigning category 'TMA_superevents'
+[16:14:39][pdx_audio.cpp:1057]: Missing sound effect: ALT_soviet_coup
+[16:14:39][assetfactory_audio.cpp:559]: Unable to find sound effect 'ALT_soviet_coup' when assigning category 'TMA_superevents'
+[16:14:51][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 4821,731
+[16:14:51][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 3092,607
+[16:14:51][countrytag.cpp:111]: ### - is not in the tag list
+[16:14:51][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[16:14:57][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
+[16:15:03][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
+[16:15:16][gamestate.cpp:5817]: 9 -  British Columbia has too many buildings : -20
+[16:15:16][gamestate.cpp:5817]: 12 -  Manitoba has too many buildings : -6
+[16:15:16][gamestate.cpp:5817]: 13 -  North Ontario has too many buildings : -8
+[16:15:16][gamestate.cpp:5817]: 14 -  South Ontario has too many buildings : -15
+[16:15:16][gamestate.cpp:5817]: 18 -  South Quebec has too many buildings : -16
+[16:15:16][gamestate.cpp:5817]: 19 -  New Brunswick has too many buildings : -17
+[16:15:16][gamestate.cpp:5817]: 20 -  Nova Scotia has too many buildings : -13
+[16:15:16][gamestate.cpp:5817]: 21 -  Prince Edward Island has too many buildings : -6
+[16:15:16][gamestate.cpp:5817]: 1269 -  Dagestan has too many buildings : -19
+[16:15:16][gamestate.cpp:5817]: 1284 -  Bashkortostan has too many buildings : -24
+[16:15:16][gamestate.cpp:5817]: 1306 -  Buryatia has too many buildings : -7
+[16:15:16][gamestate.cpp:5817]: 1485 -  Kaliningrad has too many buildings : -21
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
+[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]

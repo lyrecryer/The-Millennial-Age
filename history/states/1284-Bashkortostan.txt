@@ -8,8 +8,19 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		buildings = {
+			air_base = 10
+			infrastructure = 10
+			industrial_complex = 10
+			arms_factory = 10
+			fuel_silo = 6
+
 		}
-		manpower=100
+		}
+		resources = {
+			oil = 10
+		}
+		manpower=4072292
 	state_category = rural
 	buildings_max_level_factor=1.000
 }
