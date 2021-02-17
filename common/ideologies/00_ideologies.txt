@@ -79,8 +79,6 @@ ideologies = {
 			stalinism = {}
 			
 			anti_revisionism = {}
-			
-			anarchist_communism = {}
 
 			dic_socialist = {}
 

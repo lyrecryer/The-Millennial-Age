@@ -9,8 +9,9 @@ state={
 		owner = SOV
 		add_core_of = SOV
 		buildings = {
+			air_base = 2
 			#Baltiysk
-			13756 = { naval_base = 10 air_base = 2 }
+			13756 = { naval_base = 10 }
 			infrastructure = 6
 			#USSR deployed missles in this state
 			rocket_site = 1

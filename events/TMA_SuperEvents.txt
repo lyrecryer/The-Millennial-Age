@@ -39,7 +39,7 @@ country_event = {		#Berlin Massacre
         set_global_flag = DDR_berlin_massacre_Event_Visible
 
 		hidden_effect = {
-			sound_effect = "berlin_massacre"
+			sound_effect = berlin_massacre
 		}
 	}
 }
@@ -60,7 +60,7 @@ country_event = {		#ALT Soviet Coup
         set_global_flag = Super_Event_Visible
         set_global_flag = SOV_ALT_Soviet_Coup_Super_Event_Visible
 		hidden_effect = {
-			sound_effect = "ALT_soviet_coup"
+			sound_effect = ALT_soviet_coup
 		}
 	}
 }

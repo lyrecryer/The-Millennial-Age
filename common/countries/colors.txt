@@ -7,8 +7,8 @@ ENG = {
 	color_ui = rgb { 255 144 144 }
 }
 SOV = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
+	color = rgb { 200 0 0 }
+	color_ui = rgb { 200 0 0 }
 }
 SWE = {
 	color = rgb { 0 26 124 }
@@ -255,8 +255,8 @@ YUN = {
 	color_ui = rgb { 64 117 194 }
 }
 USA = {
-	color = rgb { 73 141 121 }
-	color_ui = rgb { 73 141 121 }
+	color = rgb { 0 0 200 }
+	color_ui = rgb { 0 0 200 }
 }
 MON = {
 	color = rgb { 154 122 70 }

@@ -36,7 +36,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Pax_Super_Event_Title_textbox"
 			position = { x = 150 y = 290 }
-			font = hoi_36
+			font = hoi_20bs
 			borderSize = {x = 0 y = 0}
 			text = "[get_super_event_title]"
 			maxWidth = 290
@@ -48,7 +48,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Pax_Super_Event_Quote_textbox"
 			position = { x = 110 y = 330 }
-			font = hoi_22
+			font = hoi_20bs
 			borderSize = {x = 0 y = 0}
 			text = "[get_superevent_quote]"
 			maxWidth = 370
