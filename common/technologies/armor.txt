@@ -15,8 +15,8 @@ technologies = {
 	@IFV = 6
 	@MBT = 9
 	@APC = 12
-	### AMERICAN/BRITISH TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	REC_1 = { #FV101 Scorpion
+	### TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
+	REC_1 = { 
 
 		enable_equipments = {
 			REC_equipment_1
@@ -31,20 +31,20 @@ technologies = {
 		}
 		on_research_complete = {
 			hidden_effect = {
-#				if = {
-#					limit = {
-#						has_tech = MOT_1
-#					}
-#
-				#	load_oob = "unlock_tanks_mot"
-				#}
-				#if = {
-				#	limit = {
-				#		NOT = { has_tech = MOT_1 }
-				#	}
-#
+				if = {
+					limit = {
+						has_tech = APC_1
+					}
+
+				load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = APC_1 }
+					}
+
 					load_oob = "unlock_tanks"
-#				}
+				}
 			}
 
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
@@ -101,7 +101,7 @@ technologies = {
 		}
 	}
 	
-	REC_2 = { #Panzer I
+	REC_2 = { 
 
 		enable_equipments = {
 			REC_equipment_2 
@@ -151,7 +151,7 @@ technologies = {
 			cat_REC
 		}
 	}
-	REC_3 = { #Panzer I
+	REC_3 = { 
 
 		enable_equipments = {
 			REC_equipment_3 
@@ -201,7 +201,7 @@ technologies = {
 			cat_REC
 		}
 	}
-	REC_4 = { #Panzer I
+	REC_4 = { 
 
 		enable_equipments = {
 			REC_equipment_4 
@@ -251,7 +251,7 @@ technologies = {
 			cat_REC
 		}
 	}
-	REC_5 = { #Panzer I
+	REC_5 = { 
 
 		enable_equipments = {
 			REC_equipment_5 
@@ -301,7 +301,7 @@ technologies = {
 			cat_REC
 		}
 	}
-	REC_6 = { #Panzer I
+	REC_6 = { 
 
 		enable_equipments = {
 			REC_equipment_6 
@@ -348,7 +348,7 @@ technologies = {
 		}
 	}	
 	#MBT
-	MBT_1 = { #Panzer I
+	MBT_1 = { 
 
 		enable_equipments = {
 			MBT_equipment_1 
@@ -404,7 +404,7 @@ technologies = {
 		}
 	}	
 	
-	MBT_2 = { #Panzer I
+	MBT_2 = { #
 
 		enable_equipments = {
 			MBT_equipment_2 
@@ -454,7 +454,7 @@ technologies = {
 			cat_MBT
 		}
 	}
-	MBT_3 = { #Panzer I
+	MBT_3 = { #
 
 		enable_equipments = {
 			MBT_equipment_3 
@@ -504,7 +504,7 @@ technologies = {
 			cat_MBT
 		}
 	}
-	MBT_4 = { #Panzer I
+	MBT_4 = { #
 
 		enable_equipments = {
 			MBT_equipment_4 
@@ -554,7 +554,7 @@ technologies = {
 			cat_MBT
 		}
 	}
-	MBT_5 = { #Panzer I
+	MBT_5 = { #
 
 		enable_equipments = {
 			MBT_equipment_5 
@@ -601,7 +601,7 @@ technologies = {
 		}
 	}	
 	#IFV
-	IFV_1 = { #Panzer I
+	IFV_1 = { 
 
 		enable_equipments = {
 			IFV_equipment_1 
@@ -656,8 +656,7 @@ technologies = {
 			cat_IFV
 		}
 	}	
-	
-	IFV_2 = { #Panzer I
+	IFV_2 = { 
 
 		enable_equipments = {
 			IFV_equipment_2 
@@ -707,7 +706,7 @@ technologies = {
 			cat_IFV
 		}
 	}
-	IFV_3 = { #Panzer I
+	IFV_3 = { 
 
 		enable_equipments = {
 			IFV_equipment_3 
@@ -757,7 +756,7 @@ technologies = {
 			cat_IFV
 		}
 	}
-	IFV_4 = { #Panzer I
+	IFV_4 = { 
 
 		enable_equipments = {
 			IFV_equipment_4 
@@ -807,7 +806,7 @@ technologies = {
 			cat_IFV
 		}
 	}
-	IFV_5 = { #Panzer I
+	IFV_5 = { 
 
 		enable_equipments = {
 			IFV_equipment_5 
@@ -857,7 +856,7 @@ technologies = {
 			cat_IFV
 		}
 	}
-	IFV_6 = { #Panzer I
+	IFV_6 = { 
 
 		enable_equipments = {
 			IFV_equipment_6 
@@ -907,7 +906,7 @@ technologies = {
 			cat_IFV
 		}
 	}
-	IFV_7 = { #Panzer I
+	IFV_7 = { 
 
 		enable_equipments = {
 			IFV_equipment_7 
@@ -957,7 +956,7 @@ technologies = {
 			cat_IFV
 		}
 	}
-	IFV_8 = { #Panzer I
+	IFV_8 = { 
 
 		enable_equipments = {
 			IFV_equipment_8 
@@ -1004,7 +1003,7 @@ technologies = {
 		}
 	}
 
-	APC_1 = { #Panzer I
+	APC_1 = { 
 
 		enable_equipments = {
 			mechanized_equipment_1
@@ -1055,7 +1054,7 @@ technologies = {
 			cat_mechanized_equipment
 		}
 	}
-	APC_2 = { #Panzer I
+	APC_2 = { 
 
 		enable_equipments = {
 			mechanized_equipment_2
@@ -1106,7 +1105,7 @@ technologies = {
 			cat_mechanized_equipment
 		}
 	}
-	APC_3 = { #Panzer I
+	APC_3 = { 
 
 		enable_equipments = {
 			mechanized_equipment_3
@@ -1157,7 +1156,7 @@ technologies = {
 			cat_mechanized_equipment
 		}
 	}
-	APC_4 = { #Panzer I
+	APC_4 = { 
 
 		enable_equipments = {
 			mechanized_equipment_4
@@ -1208,7 +1207,7 @@ technologies = {
 			cat_mechanized_equipment
 		}
 	}
-	APC_5 = { #Panzer I
+	APC_5 = { 
 
 		enable_equipments = {
 			mechanized_equipment_5
@@ -1259,7 +1258,7 @@ technologies = {
 			cat_mechanized_equipment
 		}
 	}
-	APC_6 = { #Panzer I
+	APC_6 = { 
 
 		enable_equipments = {
 			mechanized_equipment_6

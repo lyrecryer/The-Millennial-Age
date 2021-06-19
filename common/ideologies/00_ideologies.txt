@@ -16,9 +16,11 @@ ideologies = {
 
 			populist = {}
 			#Green Parties
-			ecopolitic = {}
+			ecoism = {}
 
 			libertarianism = {}
+
+			islamism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -141,7 +143,7 @@ ideologies = {
 
 			religious_fundamentalist ={}
 
-			miltary_junta = {}
+			military_junta = {}
 		}
 		
 		dynamic_faction_names = {
@@ -233,13 +235,10 @@ ideologies = {
 	anarchist = {
 	
 		types = {
-		
 			anarchism = {}
-			
 			anarchist_communism = {}
 			anarchist_primitive = {}
 			anarchist_captialist = {}
-			anarchist_darwinist = {}
 			chaos = {}
 		}
 
