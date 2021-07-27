@@ -37,7 +37,7 @@ country_event = {		#Berlin Massacre
 
         set_global_flag = Super_Event_Visible
         set_global_flag = DDR_berlin_massacre_Event_Visible
-
+		country_event = { id = soviet_ALT_GER.1 days = 2 }
 		hidden_effect = {
 			sound_effect = berlin_massacre
 		}

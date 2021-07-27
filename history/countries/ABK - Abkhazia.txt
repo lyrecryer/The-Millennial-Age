@@ -20,15 +20,54 @@ democratic = 100
 }
 
 
-
 create_country_leader = {
 	name = "Test Guy"
-	desc = ""
-	picture = "Portrait_.dds"
-	expire = "2021.1.1"
-	ideology = liberalism
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = conservatism
 	traits = {
-	dictator	
+		
+	}
+}
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = nazism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = anarchism
+	traits = {
+		
 	}
 }
 

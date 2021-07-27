@@ -1,56 +1,55 @@
-[16:14:39][pdx_audio.cpp:1057]: Missing sound effect: berlin_massacre
-[16:14:39][assetfactory_audio.cpp:559]: Unable to find sound effect 'berlin_massacre' when assigning category 'TMA_superevents'
-[16:14:39][pdx_audio.cpp:1057]: Missing sound effect: ALT_soviet_coup
-[16:14:39][assetfactory_audio.cpp:559]: Unable to find sound effect 'ALT_soviet_coup' when assigning category 'TMA_superevents'
-[16:14:51][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 4821,731
-[16:14:51][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 3092,607
-[16:14:51][countrytag.cpp:111]: ### - is not in the tag list
-[16:14:51][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[16:14:57][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
-[16:15:16][gamestate.cpp:5817]: 9 -  British Columbia has too many buildings : -20
-[16:15:16][gamestate.cpp:5817]: 12 -  Manitoba has too many buildings : -6
-[16:15:16][gamestate.cpp:5817]: 13 -  North Ontario has too many buildings : -8
-[16:15:16][gamestate.cpp:5817]: 14 -  South Ontario has too many buildings : -15
-[16:15:16][gamestate.cpp:5817]: 18 -  South Quebec has too many buildings : -16
-[16:15:16][gamestate.cpp:5817]: 19 -  New Brunswick has too many buildings : -17
-[16:15:16][gamestate.cpp:5817]: 20 -  Nova Scotia has too many buildings : -13
-[16:15:16][gamestate.cpp:5817]: 21 -  Prince Edward Island has too many buildings : -6
-[16:15:16][gamestate.cpp:5817]: 1269 -  Dagestan has too many buildings : -19
-[16:15:16][gamestate.cpp:5817]: 1284 -  Bashkortostan has too many buildings : -24
-[16:15:16][gamestate.cpp:5817]: 1306 -  Buryatia has too many buildings : -7
-[16:15:16][gamestate.cpp:5817]: 1485 -  Kaliningrad has too many buildings : -21
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[15:06:01][pdx_audio.cpp:1360]: Could not find music named maintheme
+[15:06:11][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 4821,731
+[15:06:11][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 3092,607
+[15:06:11][portraitdatabase.cpp:24]: Missing portrait texture in group ITA > Army > Male:  "gfx/leaders/ITA/Portrait_Italy_Generic_land_4.dds".
+[15:06:11][countrytag.cpp:111]: ### - is not in the tag list
+[15:06:11][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[15:06:12][pdx_audio.cpp:1360]: Could not find music named maintheme
+[15:06:16][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[15:06:21][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
+[15:06:21][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
+[15:06:21][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
+[15:06:21][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
+[15:06:21][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
+[15:06:21][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
+[15:06:22][pdx_audio.cpp:1360]: Could not find music named maintheme
+[15:06:31][countryleader.cpp:272]: leader without portrait: MAN anarchist_primitive
+[15:06:31][countryleader.cpp:272]: leader without portrait: BAS anarchist_primitive
+[15:06:31][countryleader.cpp:272]: leader without portrait: CAY anarchism
+[15:06:31][countryleader.cpp:272]: leader without portrait: GXC chaos
+[15:06:31][countryleader.cpp:272]: leader without portrait: SHX chaos
+[15:06:31][countryleader.cpp:272]: leader without portrait: XSM anarchist_primitive
+[15:06:31][countryleader.cpp:272]: leader without portrait: MEN anarchist_communism
+[15:06:31][countryleader.cpp:272]: leader without portrait: SIK anarchism
+[15:06:32][countryleader.cpp:272]: leader without portrait: BAY chaos
+[15:06:32][countryleader.cpp:272]: leader without portrait: MEK anarchist_captialist
+[15:06:32][countryleader.cpp:272]: leader without portrait: PRE anarchism
+[15:06:32][countryleader.cpp:272]: leader without portrait: SAX chaos
+[15:06:32][countryleader.cpp:272]: leader without portrait: HAN anarchist_captialist
+[15:06:32][countryleader.cpp:272]: leader without portrait: WUR anarchist_primitive
+[15:06:32][countryleader.cpp:272]: leader without portrait: SHL anarchist_communism
+[15:06:32][countryleader.cpp:272]: leader without portrait: CAT anarchism
+[15:06:32][countryleader.cpp:272]: leader without portrait: NAV chaos
+[15:06:32][countryleader.cpp:272]: leader without portrait: GLC anarchist_captialist
+[15:06:32][countryleader.cpp:272]: leader without portrait: ADU anarchist_primitive
+[15:06:32][countryleader.cpp:272]: leader without portrait: BRI anarchist_communism
+[15:06:32][countryleader.cpp:272]: leader without portrait: OCC anarchism
+[15:06:32][countryleader.cpp:272]: leader without portrait: COR anarchist_captialist
+[15:06:32][countryleader.cpp:272]: leader without portrait: CSA anarchist_captialist
+[15:06:32][countryleader.cpp:272]: leader without portrait: CRC anarchist_primitive
+[15:06:32][countryleader.cpp:272]: leader without portrait: YUN anarchism
+[15:06:32][countryleader.cpp:272]: leader without portrait: TON anarchism
+[15:06:32][countryleader.cpp:272]: leader without portrait: NIU chaos
+[15:06:32][countryleader.cpp:272]: leader without portrait: IST anarchist_primitive
+[15:06:34][gamestate.cpp:5842]: 9 -  British Columbia has too many buildings : -20
+[15:06:34][gamestate.cpp:5842]: 12 -  Manitoba has too many buildings : -6
+[15:06:34][gamestate.cpp:5842]: 13 -  North Ontario has too many buildings : -8
+[15:06:34][gamestate.cpp:5842]: 14 -  South Ontario has too many buildings : -15
+[15:06:34][gamestate.cpp:5842]: 18 -  South Quebec has too many buildings : -16
+[15:06:34][gamestate.cpp:5842]: 19 -  New Brunswick has too many buildings : -17
+[15:06:34][gamestate.cpp:5842]: 20 -  Nova Scotia has too many buildings : -13
+[15:06:34][gamestate.cpp:5842]: 21 -  Prince Edward Island has too many buildings : -6
+[15:06:34][gamestate.cpp:5842]: 1269 -  Dagestan has too many buildings : -19
+[15:06:34][gamestate.cpp:5842]: 1284 -  Bashkortostan has too many buildings : -24
+[15:06:34][gamestate.cpp:5842]: 1306 -  Buryatia has too many buildings : -7
+[15:06:34][gamestate.cpp:5842]: 1485 -  Kaliningrad has too many buildings : -21

@@ -1,0 +1,57 @@
+##################
+# SUPER EVENTS 
+##################
+
+add_namespace = soviet_ALT_GER
+
+#The Berlin Revolt
+country_event = {
+	id = soviet_ALT_GER.1
+	title = soviet_ALT_GER.1.title
+	desc = soviet_ALT_GER.1.desc
+	picture = GFX_event_crisis
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = BAD_RESPONSE10
+	DDR = { #DDR breaks from the Warsaw Pact entirely. 
+	leave_faction = yes
+		news_event = { id = soviet_ALT_GER_NEWS.1 } 
+	 }
+	 #Soviet Troops and Political power is forced out of the DDR.
+	SOV = { 
+		end_puppet = DDR 
+
+			#Traitors must be destroyed!
+		declare_war_on = {
+			target = DDR
+			type = annex_everything
+		}
+	  }
+	}
+}
+
+add_namespace = soviet_ALT_GER_NEWS
+
+news_event = {
+	id = soviet_ALT_GER_NEWS.1
+	title = soviet_ALT_GER_NEWS.1.title
+	desc = soviet_ALT_GER_NEWS.1.desc
+	picture = GFX_news_event_crisis
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		trigger = {
+			is_in_faction_with = USA
+		}
+		name = "Vengeance shall be brought to the Soviets!"
+	}
+	option = {
+		trigger = {
+			is_in_faction_with = SOV
+		}
+		name = "We shall bury them."
+	}
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=1821
+	name="STATE_1821"
+	history={
+		owner = BOT
+		add_core_of = BOT
+
+	}
+	provinces={
+		12940 17329 17330 17331 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

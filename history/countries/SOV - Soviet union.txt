@@ -301,7 +301,10 @@ create_country_leader = {
 	picture = "Portrait_Mikhail_Gorbachev.dds"
 	expire = "2021.1.1"
 	ideology = dic_socialist
-	traits = {}
+	traits = {
+		union_man
+		social_reformer
+	}
 }
 #Facist
 create_country_leader = {
@@ -310,7 +313,9 @@ create_country_leader = {
 	picture = "Portrait_Vladimir_Zhirinovsky.dds"
 	expire = "2021.1.1"
 	ideology = fascism_ideology
-	traits = {}
+	traits = {
+		fascist_demagogue
+	}
 }
 #Non Allined
 create_country_leader = {
@@ -319,7 +324,9 @@ create_country_leader = {
 	picture = "Portrait_Sergey_Shoygu.dds"
 	expire = "2021.1.1"
 	ideology = populist
-	traits = {}
+	traits = {
+		social_reformer
+	}
 }
 #Democratic
 create_country_leader = {
@@ -328,6 +335,18 @@ create_country_leader = {
 	picture = "Portrait_Yegor_Gaidar.dds"
 	expire = "2021.1.1"
 	ideology = conservatism
-	traits = {}
+	traits = {
+		disdain_for_politicians_1
+	}
 }
 
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = anarchism
+	traits = {
+		
+	}
+}

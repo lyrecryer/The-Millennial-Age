@@ -1,0 +1,63 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_event_coronation"
+		texturefile = "gfx/event_pictures/event_coronation.png"
+	}
+	SpriteType = {
+		name = "GFX_event_monarch_scandal"
+		texturefile = "gfx/event_pictures/event_monarch_scandal.png"
+	}
+	SpriteType = {
+		name = "GFX_army_crisis"
+		texturefile = "gfx/event_pictures/event_army_crisis.png"
+	}
+	SpriteType = {
+		name = "GFX_event_crowd"
+		texturefile = "gfx/event_pictures/event_crowd.png"
+	}
+	SpriteType = {
+		name = "GFX_event_crowd2"
+		texturefile = "gfx/event_pictures/event_crowd2.png"
+	}
+	SpriteType = {
+		name = "GFX_event_nazi_rise"
+		texturefile = "gfx/event_pictures/event_nazi_rise.png"
+	}
+	SpriteType = {
+		name = "GFX_event_communist_rise"
+		texturefile = "gfx/event_pictures/event_communist_rise.png"
+	}
+	SpriteType = {
+		name = "GFX_event_socialist_rise"
+		texturefile = "gfx/event_pictures/event_socialist_rise.png"
+	}
+	SpriteType = {
+		name = "GFX_event_demo_rise"
+		texturefile = "gfx/event_pictures/event_demo_rise.png"
+	}
+	SpriteType = {
+		name = "GFX_event_anarchist_rise"
+		texturefile = "gfx/event_pictures/event_anarchist_rise.png"
+	}
+	SpriteType = {
+		name = "GFX_event_fascism_rise"
+		texturefile = "gfx/event_pictures/event_fascism_rise.png"
+	}
+	SpriteType = {
+		name = "GFX_event_political_speech"
+		texturefile = "gfx/event_pictures/event_political_speech.png"
+	}
+	SpriteType = {
+		name = "GFX_event_post_nuke"
+		texturefile = "gfx/event_pictures/event_post_nuke.png"
+	}
+	SpriteType = {
+		name = "GFX_event_crisis"
+		texturefile = "gfx/event_pictures/event_crisis.png"
+	}
+	SpriteType = {
+		name = "GFX_news_event_crisis"
+		texturefile = "gfx/event_pictures/news_event_crisis.png"
+	}
+}

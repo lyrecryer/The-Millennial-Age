@@ -262,6 +262,7 @@ focus_tree = {
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
 			add_political_power = 150
+			country_event = super.3
 		}
 	}
 	focus = {
@@ -289,7 +290,7 @@ focus_tree = {
 		id = stop_pan_euro_picnic
 		icon = GFX_focus_generic_industry_1
 		cost = 35
-		x = 1
+		x = 0
 		y = 5
 		prerequisite = {
 			focus = enforce_martial_law
@@ -338,7 +339,7 @@ focus_tree = {
 			focus = stop_polish_elections
 		}
 		allow_branch = {
-			has_completed_focus = enforce_martial_law
+			has_completed_focus = stop_polish_elections
 		}
 		relative_position_id = SOV_1988_annual_report
 		ai_will_do = {
@@ -376,7 +377,7 @@ focus_tree = {
 		id = reinforce_berlin_wall
 		icon = GFX_focus_generic_industry_1
 		cost = 14
-		x = 1
+		x = 0
 		y = 6
 		prerequisite = { focus = stop_pan_euro_picnic }
 		continue_if_invalid = yes
@@ -390,13 +391,14 @@ focus_tree = {
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
 			add_political_power = 150
+			country_event = super.2
 		}
 	}
 	focus = {
 		id = yugoslavic_problem
 		icon = GFX_focus_generic_industry_1
 		cost = 70
-		x = 1
+		x = 0
 		y = 7
 		prerequisite = {
 			focus = reinforce_berlin_wall
