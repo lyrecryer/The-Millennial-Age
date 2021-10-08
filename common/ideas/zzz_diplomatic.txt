@@ -1,0 +1,12 @@
+#I know that the chances of a minor nation being able to protect other minor nations are slim but I know what HOI4 players are like and I just want to cover my bases. Majors (AKA the ones that will be needed) are listed first and then Supra-Nationals second and then the rest third.
+ideas = {
+    country = {
+        
+		protected_by_ = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_
+			modifier = { protected_effect = yes }
+		}
+    }
+}

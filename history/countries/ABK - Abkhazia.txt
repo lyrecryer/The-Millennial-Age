@@ -9,14 +9,14 @@ set_convoys = 10
 set_stability = 1
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1989.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 
 }
 set_popularities = {
-democratic = 100
+	communism = 100
 }
 
 
@@ -31,13 +31,14 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Test Guy"
-	desc = "TEST_GUY_DESC"
+	name = "Vladislav Ardzinba"
+	desc = "Vladislav Ardzinba was the first de facto President of Abkhazia. A historian by education, Ardzinba led Abkhazia to de facto independence in the 1992–1993 War with Georgia, but its de jure independence from Georgia remained internationally unrecognised during Ardzinba's two terms as President from 1994 to 2005. A noted specialist in Hittitology, he was a member of the first parliament to be elected democratically in the Soviet Union in 1989."
 	picture = "Portrait_test_guy.dds"
-	expire = "2500.1.1"
-	ideology = marxism
+	expire = "2010.1.1"
+	ideology = stalinism
 	traits = {
-		
+		genocider
+		pro_communism
 	}
 }
 create_country_leader = {
