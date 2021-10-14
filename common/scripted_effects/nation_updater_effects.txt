@@ -107,7 +107,7 @@ vp_effect = {
 		YEM = { set_cosmetic_tag = YEM_1989 }
 		ZAM = { set_cosmetic_tag = ZAM_1989 }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1990
 	nation_1990_effect = {
 		CRO = { drop_cosmetic_tag = YES }
 		GEO = { set_cosmetic_tag = GEO_1990 }
@@ -123,7 +123,7 @@ vp_effect = {
 		ROM = { drop_cosmetic_tag = YES }
 		YEM = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1991
 	nation_1991_effect = {
 		ETH = { set_cosmetic_tag = ETH_1991 }
 		IRQ = { set_cosmetic_tag = IRQ_1991 }
@@ -137,7 +137,7 @@ vp_effect = {
 		UKR = { drop_cosmetic_tag = YES }
 		UZB = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1992
 	nation_1992_effect = {
 		BOS = { set_cosmetic_tag = BOS_1992 }
 		ETH = { set_cosmetic_tag = ETH_1992 }
@@ -156,7 +156,7 @@ vp_effect = {
 		ABK = { drop_cosmetic_tag = YES }
 		TAJ = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1993
 	nation_1993_effect = {
 		ERI = { set_cosmetic_tag = ERI_1993 }
 
@@ -164,16 +164,16 @@ vp_effect = {
 		KAZ = { drop_cosmetic_tag = YES }
 		SOV = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1994
 	nation_1994_effect = { MNT = { set_cosmetic_tag = MNT_1994 } SAF = { drop_cosmetic_tag = YES } }
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1995
 	nation_1995_effect = {
 		BLR = { set_cosmetic_tag = BLR_1995 }
 
 		ERI = { drop_cosmetic_tag = YES }
 		MAC = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1996
 	nation_1996_effect = {
 		COM = { set_cosmetic_tag = COM_1996 }
 		ETH = { set_cosmetic_tag = ETH_1996 }
@@ -183,7 +183,7 @@ vp_effect = {
 		SEY = { drop_cosmetic_tag = YES }
 		ZAM = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1997
 	nation_1997_effect = {
 		ETH = { set_cosmetic_tag = ETH_1997 }
 		RCG = { set_cosmetic_tag = RCG_1997 }
@@ -192,24 +192,24 @@ vp_effect = {
 
 		TUV = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1998
 	nation_1998_effect = { BOS = { drop_cosmetic_tag = YES } PHI = { drop_cosmetic_tag = YES } }
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 1999
 	nation_1999_effect = { TUN = { drop_cosmetic_tag = YES } }
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2000
 	nation_2000_effect = {
 		KOS = { set_cosmetic_tag = KOS_2000 }
 
 		JAP = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2001
 	nation_2001_effect = {
 		AFG = { set_cosmetic_tag = AFG_2001 }
 
 		RWA = { drop_cosmetic_tag = YES }
 		TMS = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2002
 	nation_2002_effect = {
 		AFG = { set_cosmetic_tag = AFG_2002 }
 
@@ -219,9 +219,9 @@ vp_effect = {
 		ETI = { drop_cosmetic_tag = YES }
 		SAL = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2003
 	nation_2003_effect = { RCG = { set_cosmetic_tag = RCG_2003 } }
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2004
 	nation_2004_effect = {
 		AFG = { set_cosmetic_tag = AFG_2004 }
 		IRQ = { set_cosmetic_tag = IRQ_2004 }
@@ -230,33 +230,33 @@ vp_effect = {
 		GEO = { drop_cosmetic_tag = YES }
 		MNT = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2006
 	nation_2006_effect = {
 		RCG = { drop_cosmetic_tag = YES }
 		CYP = { drop_cosmetic_tag = YES }
 		LES = { drop_cosmetic_tag = YES }
 		VEN = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2008
 	nation_2008_effect = { IRQ = { drop_cosmetic_tag = YES } KOS = { drop_cosmetic_tag = YES } }
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2009
 	nation_2009_effect = { ECU = { drop_cosmetic_tag = YES } ETH = { drop_cosmetic_tag = YES } }
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2010
 	nation_2010_effect = {
 		MLW = { set_cosmetic_tag = MLW_2010 }
 
 		BRM = { drop_cosmetic_tag = YES }
 		SER = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2011
 	nation_2011_effect = {
 		SKR = { drop_cosmetic_tag = YES }
 		LBA = { drop_cosmetic_tag = YES }
 		SNM = { drop_cosmetic_tag = YES }
 	}
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2012
 	nation_2012_effect = { BLR = { drop_cosmetic_tag = YES } MLW = { drop_cosmetic_tag = YES } }
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2013
 	nation_2013_effect = { AFG = { drop_cosmetic_tag = YES } PAR = { drop_cosmetic_tag = YES } }
-	#Sets the flags that was used in 1989
+	#Sets the flags that was used in 2017
 	nation_2017_effect = { MRT = { drop_cosmetic_tag = YES } }

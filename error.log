@@ -1,56 +1,68 @@
-[16:14:39][pdx_audio.cpp:1057]: Missing sound effect: berlin_massacre
-[16:14:39][assetfactory_audio.cpp:559]: Unable to find sound effect 'berlin_massacre' when assigning category 'TMA_superevents'
-[16:14:39][pdx_audio.cpp:1057]: Missing sound effect: ALT_soviet_coup
-[16:14:39][assetfactory_audio.cpp:559]: Unable to find sound effect 'ALT_soviet_coup' when assigning category 'TMA_superevents'
-[16:14:51][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 4821,731
-[16:14:51][map.cpp:1747]: Map invalid X crossing. Please fix pixels at coords: 3092,607
-[16:14:51][countrytag.cpp:111]: ### - is not in the tag list
-[16:14:51][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[16:14:57][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
-[16:15:03][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
-[16:15:16][gamestate.cpp:5817]: 9 -  British Columbia has too many buildings : -20
-[16:15:16][gamestate.cpp:5817]: 12 -  Manitoba has too many buildings : -6
-[16:15:16][gamestate.cpp:5817]: 13 -  North Ontario has too many buildings : -8
-[16:15:16][gamestate.cpp:5817]: 14 -  South Ontario has too many buildings : -15
-[16:15:16][gamestate.cpp:5817]: 18 -  South Quebec has too many buildings : -16
-[16:15:16][gamestate.cpp:5817]: 19 -  New Brunswick has too many buildings : -17
-[16:15:16][gamestate.cpp:5817]: 20 -  Nova Scotia has too many buildings : -13
-[16:15:16][gamestate.cpp:5817]: 21 -  Prince Edward Island has too many buildings : -6
-[16:15:16][gamestate.cpp:5817]: 1269 -  Dagestan has too many buildings : -19
-[16:15:16][gamestate.cpp:5817]: 1284 -  Bashkortostan has too many buildings : -24
-[16:15:16][gamestate.cpp:5817]: 1306 -  Buryatia has too many buildings : -7
-[16:15:16][gamestate.cpp:5817]: 1485 -  Kaliningrad has too many buildings : -21
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_td]
-[16:15:18][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_rocket]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
-[16:15:19][graphics.cpp:1361]: Failed to create gui object. Could not find sprite type [GFX_subtech_heavy_battleship]
+[15:07:26][pdx_audio.cpp:1360]: Could not find music named maintheme
+[15:07:36][portraitdatabase.cpp:24]: Missing portrait texture in group ITA > Army > Male:  "gfx/leaders/ITA/Portrait_Italy_Generic_land_4.dds".
+[15:07:36][countrytag.cpp:111]: ### - is not in the tag list
+[15:07:36][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[15:07:37][pdx_audio.cpp:1360]: Could not find music named maintheme
+[15:07:41][history.cpp:261]: Unknown history file in country database - history/countries/### - GENERIC.txt
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7007: map building(Military Factory) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 12940. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7008: map building(Military Factory) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 12940. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7010: map building(Military Factory) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 17330. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7012: map building(Civilian Factory) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 12940. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7017: map building(Air Base) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 17330. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7019: map building(Land Fort) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 17330. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7020: map building(Land Fort) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 12940. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7021: map building(Land Fort) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 17331. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7026: map building(Fuel Silo) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 12940. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 7028: map building(Rocket Site) location is not within specified state. Supposed to be '226 - North Botswana' but was '1821 - South Botswana'for province 17329. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 57505: map building(Civilian Factory) location is not within specified state. Supposed to be '1783 - West Zimbabwe' but was '1822 - East Zimbabwe'for province 7842. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 57508: map building(Civilian Factory) location is not within specified state. Supposed to be '1783 - West Zimbabwe' but was '1822 - East Zimbabwe'for province 7842. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 57511: map building(Land Fort) location is not within specified state. Supposed to be '1783 - West Zimbabwe' but was '1822 - East Zimbabwe'for province 7842. BUILDING IGNORED!
+[15:07:46][mapbuildings.cpp:453]: map/buildings.txt error at line 57515: map building(Land Fort) location is not within specified state. Supposed to be '1783 - West Zimbabwe' but was '1822 - East Zimbabwe'for province 10929. BUILDING IGNORED!
+[15:07:47][provincegraphics.cpp:2087]: prov 8944 stack 9 Attacking is too far away from center (dist 144 0 prov -1)
+[15:07:47][provincegraphics.cpp:2087]: prov 8944 stack 10 Defending is too far away from center (dist 144 0 prov -1)
+[15:07:47][provincegraphics.cpp:2087]: prov 8944 stack 19 Ship in port is too far away from center (dist 156 5 prov -1)
+[15:07:47][provincegraphics.cpp:2087]: prov 8944 stack 20 Ship in port moving is too far away from center (dist 156 5 prov -1)
+[15:07:47][provincegraphics.cpp:2087]: prov 8944 stack 21 Victory point is too far away from center (dist 144 0 prov -1)
+[15:07:47][provincegraphics.cpp:2087]: prov 13063 stack 3 Moving 2 is too far away from center (dist 2800 6 prov 5264)
+[15:07:54][pdx_audio.cpp:1360]: Could not find music named maintheme
+[15:08:11][countryleader.cpp:272]: leader without portrait: MAN anarchism
+[15:08:11][countryleader.cpp:272]: leader without portrait: BAS anarchism
+[15:08:11][countryleader.cpp:272]: leader without portrait: CAY anarchist_captialist
+[15:08:11][countryleader.cpp:272]: leader without portrait: GXC anarchist_primitive
+[15:08:11][countryleader.cpp:272]: leader without portrait: SHX anarchist_primitive
+[15:08:11][countryleader.cpp:272]: leader without portrait: XSM anarchism
+[15:08:11][countryleader.cpp:272]: leader without portrait: MEN chaos
+[15:08:11][countryleader.cpp:272]: leader without portrait: SIK chaos
+[15:08:11][countryleader.cpp:272]: leader without portrait: BAY anarchist_primitive
+[15:08:11][countryleader.cpp:272]: leader without portrait: MEK anarchist_communism
+[15:08:11][countryleader.cpp:272]: leader without portrait: PRE anarchism
+[15:08:11][countryleader.cpp:272]: leader without portrait: SAX chaos
+[15:08:11][countryleader.cpp:272]: leader without portrait: HAN anarchist_captialist
+[15:08:11][countryleader.cpp:272]: leader without portrait: WUR anarchist_primitive
+[15:08:11][countryleader.cpp:272]: leader without portrait: SHL anarchist_communism
+[15:08:11][countryleader.cpp:272]: leader without portrait: CAT anarchism
+[15:08:11][countryleader.cpp:272]: leader without portrait: NAV anarchist_captialist
+[15:08:11][countryleader.cpp:272]: leader without portrait: GLC anarchist_captialist
+[15:08:11][countryleader.cpp:272]: leader without portrait: ADU anarchist_primitive
+[15:08:11][countryleader.cpp:272]: leader without portrait: BRI anarchism
+[15:08:11][countryleader.cpp:272]: leader without portrait: OCC anarchism
+[15:08:11][countryleader.cpp:272]: leader without portrait: COR anarchist_captialist
+[15:08:11][countryleader.cpp:272]: leader without portrait: CSA anarchist_primitive
+[15:08:11][countryleader.cpp:272]: leader without portrait: CRC anarchist_primitive
+[15:08:11][countryleader.cpp:272]: leader without portrait: YUN anarchism
+[15:08:11][countryleader.cpp:272]: leader without portrait: TON chaos
+[15:08:11][countryleader.cpp:272]: leader without portrait: NIU chaos
+[15:08:11][countryleader.cpp:272]: leader without portrait: IST anarchist_primitive
+[15:08:13][gamestate.cpp:5842]: 9 -  British Columbia has too many buildings : -20
+[15:08:13][gamestate.cpp:5842]: 12 -  Manitoba has too many buildings : -6
+[15:08:13][gamestate.cpp:5842]: 13 -  North Ontario has too many buildings : -8
+[15:08:13][gamestate.cpp:5842]: 14 -  South Ontario has too many buildings : -15
+[15:08:13][gamestate.cpp:5842]: 18 -  South Quebec has too many buildings : -16
+[15:08:13][gamestate.cpp:5842]: 19 -  New Brunswick has too many buildings : -17
+[15:08:13][gamestate.cpp:5842]: 20 -  Nova Scotia has too many buildings : -13
+[15:08:13][gamestate.cpp:5842]: 21 -  Prince Edward Island has too many buildings : -6
+[15:08:13][gamestate.cpp:5842]: 1269 -  Dagestan has too many buildings : -19
+[15:08:13][gamestate.cpp:5842]: 1284 -  Bashkortostan has too many buildings : -24
+[15:08:13][gamestate.cpp:5842]: 1306 -  Buryatia has too many buildings : -7
+[15:08:13][gamestate.cpp:5842]: 1485 -  Kaliningrad has too many buildings : -21
+[15:08:16][containerwindow.cpp:847]: interface/countrytechtreeview.gui (line 2563 ): Could not find "sub_technology_slot_0" in window techtree_mtgnavalfolder_item

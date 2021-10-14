@@ -55,3 +55,44 @@ create_country_leader = {
 	}
 }
 
+
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = nazism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = anarchism
+	traits = {
+		
+	}
+}

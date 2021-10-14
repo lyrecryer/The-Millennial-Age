@@ -525,7 +525,7 @@ NAirGfx = {
 	AIRPLANES_3_TRANSPORT_SUPPLY_ANIM = 3,			-- Number of planes needed for a single instance of this animation
 	AIRPLANES_1_SCOUT_PLANE_PATROL_ANIM = 1,
 	AIRPLANES_3_SCOUT_PLANE_PATROL_ANIM = 3,
-		
+
 	BOMBERS_DIVISION_FACTOR = 60,					-- Number of effective bombers in a strategic region will be divided by this factor.
 	MISSILES_DIVISION_FACTOR = 60,					-- Number of missiles shown in a strategic region will be divided by this factor.
 	FIGHTERS_DIVISION_FACTOR = 60,					-- Number of missiles shown in a strategic region will be divided by this factor.
@@ -556,7 +556,7 @@ NGraphics = {
 	SHIP_IN_PORT_SCALE = 0.25,
 	MAP_BUILDINGS_SHRINK_DISTANCE = 180,				
 	CITY_SPRAWL_SHRINK_DISTANCE = 220.0, 			-- Start shrinking at this distance
-	DRAW_MAP_OBJECTS_CUTOFF = 550.0,					-- Remove map objects at this distance
+	DRAW_MAP_OBJECTS_CUTOFF = 3000.0,					-- Remove map objects at this distance
 	PROVINCE_NAME_DRAW_DISTANCE = 500.0, 			-- Remove province names beyond this distance
 	DIRECTION_POINTER_DRAW_DISTANCE = 1200.0,		-- Direction pointer arrow will not be drawn beyond this distance
 	DIRECTION_POINTER_INTERPOLATION_SPEED = 0.275,	-- How fast the arrow is interpolating
@@ -572,7 +572,7 @@ NGraphics = {
 	LIGHT_SHADOW_DIRECTION_Y = -8.0,
 	LIGHT_SHADOW_DIRECTION_Z = 5.0,
 	LIGHT_HDR_RANGE = 1.0,
-	BORDER_WIDTH = 1.5,
+	BORDER_WIDTH = 1.0,
 	PROVINCE_BORDER_FADE_NEAR = 200,
 	PROVINCE_BORDER_FADE_FAR = 300,
 	STATE_BORDER_FADE_NEAR = 400,
@@ -654,15 +654,15 @@ NGraphics = {
 	GRADIENT_BORDERS_FIELD_COUNTRY_REFRESH = 10, -- When country changes it's size by X provinces, then it refresh it's thickness and rebuilds all provinces
 	GRADIENT_BORDERS_FIELD_COUNTRY_LOW = 300.0, -- country area in sum of pixels ...
 	GRADIENT_BORDERS_FIELD_COUNTRY_HIGH = 9000.0, -- ... the value is squared, so fe. country of size 100x100pix = 10000
-	GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 5.0, -- thickness in pixels
+	GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 1.0, -- thickness in pixels
 	GRADIENT_BORDERS_COUNTRY_CENTER_THICKNESS = 2.0, -- The center gradient is linear 1/255 per pixel for this many pixels
-	GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH = 25.0,
-	GRADIENT_BORDERS_THICKNESS_STATE = 5.0,
+	GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH = 10.0,
+	GRADIENT_BORDERS_THICKNESS_STATE = 1.0,
 	GRADIENT_BORDERS_THICKNESS_RESISTANCE = 5.0,
 	GRADIENT_BORDERS_THICKNESS_INTEL_LEDGER = 5.0,
 	GRADIENT_BORDERS_THICKNESS_SUPPLY_AREA_A = 2.0,
 	GRADIENT_BORDERS_THICKNESS_SUPPLY_AREA_B = 20.0,
-	GRADIENT_BORDERS_THICKNESS_STRATEGIC_REGIONS = 150.0,
+	GRADIENT_BORDERS_THICKNESS_STRATEGIC_REGIONS = 1.0,
 	GRADIENT_BORDERS_THICKNESS_DIPLOMACY = 12.0,
 	GRADIENT_BORDERS_THICKNESS_DIPLOMACY_ON_INTEL_LEDGER = 3.0,
 	GRADIENT_BORDERS_OUTLINE_CUTOFF_COUNTRY = 0.973, -- Magic number to balance cutoff on edges without neighbor
@@ -738,16 +738,16 @@ NGraphics = {
 	COUNTRY_FLAG_LARGE_STRIPE_MAX_HEIGHT = 8192,
 	VICTORY_POINT_LEVELS = 2,
 	VICTORY_POINT_MAP_ICON_AFTER = {0, 20}, -- After this amount of VP the map icon becomes bigger dot.
-	VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {150, 250, 500},  -- At what camera distance the VP name text disappears.
-	VICTORY_POINTS_DISTANCE_CUTOFF = {250, 500, 1000}, -- At what distance VPs are hidden
-	AIRBASE_ICON_DISTANCE_CUTOFF = 900, -- At what distance air bases are hidden
-	NAVALBASE_ICON_DISTANCE_CUTOFF = 900, -- 1300, -- At what distance naval bases are hidden
+	VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {250, 500, 2000},  -- At what camera distance the VP name text disappears.
+	VICTORY_POINTS_DISTANCE_CUTOFF = {250, 500, 2000}, -- At what distance VPs are hidden
+	AIRBASE_ICON_DISTANCE_CUTOFF = 1100, -- At what distance air bases are hidden
+	NAVALBASE_ICON_DISTANCE_CUTOFF = 1100, -- 1300, -- At what distance naval bases are hidden
 	RADAR_ICON_DISTANCE_CUTOFF = 1100, -- At what distance the radars are hidden
 	RESOURCE_MAP_ICON_TEXT_CUTOFF = 800,  -- At what camera distance the resource name/amount text disappears.
 	RESISTANCE_MAP_ICON_MODIFIERS_DISTANCE_CUTOFF = 500,  -- At what camera distance the resistance/compliance map icon modifiers are hidden
 	RESISTANCE_MAP_ICON_DISTANCE_CUTOFF = 1200,  -- At what camera distance the resistance/compliance map icons are hidden
 	PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 500,
-	CAPITAL_ICON_CUTOFF = 1100,	-- At what camera distance capital icons disappears
+	CAPITAL_ICON_CUTOFF = 450,	-- At what camera distance capital icons disappears
 	UNITS_DISTANCE_CUTOFF = 120,
 	SHIPS_DISTANCE_CUTOFF = 240,
 	UNIT_ARROW_DISTANCE_CUTOFF = 875,
@@ -763,7 +763,7 @@ NGraphics = {
 	NAVAL_MISSION_TASK_FORCES_GROUP_BY_ALLEGIANCE_CUTOFF = 500,
 	NAVAL_MISSION_ICONS_DISTANCE_CUTOFF = 900, --1300,
 	NAVAL_MINES_DISTANCE_CUTOFF = 800,
-	CRYPTOLOGY_MAP_ICON_DISTANCE_CUTOFF = 1000,
+	CRYPTOLOGY_MAP_ICON_DISTANCE_CUTOFF = 2000,
 	NAVAL_MINES_CLUMPING = 58, -- The higher value, the more likely the 3d naval mines will clamp together
 	NAVAL_MINES_CLUMP_NEAR_TERRITORY = 25, -- Higher chance to spawn 3d naval mine near our territory
 	NAVAL_MINES_COUNT_TO_VISUAL_ASPECT = 0.1, -- How many in-game-naval-mines is one visual 3d naval mine?
@@ -785,10 +785,10 @@ NGraphics = {
 	INTEL_LEDGER_CIVILIAN_ICON_STATE_CUTOFF = 250.0,
 	INTEL_LEDGER_CIVILIAN_ICON_REGION_CUTOFF = 700.0,
 	
-	DIVISION_NAMES_GROUP_MAX_TOOLTIP_ENTRIES = 15,	-- Max entries to display the names in the tooltip, when mouse over the division-names-group in the division template designer.
+	DIVISION_NAMES_GROUP_MAX_TOOLTIP_ENTRIES = 25,	-- Max entries to display the names in the tooltip, when mouse over the division-names-group in the division template designer.
 	SHIP_NAMES_GROUP_MAX_NAME_LIST_ENTRIES = 25,	-- Max example name entries in ship name list in production meni
 	
-	WEATHER_DISTANCE_CUTOFF = 1500, -- At what distance weather effects are hidden
+	WEATHER_DISTANCE_CUTOFF = 2000, -- At what distance weather effects are hidden
 	WEATHER_DISTANCE_FADE_LENGTH = 400, -- How far the fade out distance should be
 	WEATHER_ZOOM_IN_CUTOFF = 358, -- At what distance weather effects are faded out the most when zooming in
 	WEATHER_ZOOM_IN_FADE_LENGTH = 220, -- How far the zoom in fade out distance should be
@@ -884,9 +884,9 @@ NGraphics = {
 	
 	
 	-- unit on-map interface modulate colors
-	FRIEND_COLOR  = {0.7, 0.9, 0.7},
-	ENEMY_COLOR   = {1.0, 0.7, 0.7}, 
-	NEUTRAL_COLOR = {1.0, 1.0, 1.0},
+	FRIEND_COLOR  = {0, 74, 127},
+	ENEMY_COLOR   = {127, 0, 0}, 
+	NEUTRAL_COLOR = {38, 127, 0},
 
 	COUNTRY_COLOR_HUE_MODIFIER = 0.0,
 	COUNTRY_COLOR_SATURATION_MODIFIER = 0.6,
@@ -920,7 +920,7 @@ NGraphics = {
 	MOVE_ORDERS_MOUSE_INTERSECT_DISTANCE_MULT = 0.5, 	-- For balancing the collision distance with painted arrows and fronts.
 	TRADE_ROUTE_INTERSECT_DISTANCE_MULT = 10.0,
 
-	MINIMUM_PROVINCE_SIZE_IN_PIXELS = 8,			-- Provinces that are smaller than that are just making the game unplayable. It doesn't affect the game, just informs in the error.log
+	MINIMUM_PROVINCE_SIZE_IN_PIXELS = 2,			-- Provinces that are smaller than that are just making the game unplayable. It doesn't affect the game, just informs in the error.log
 	
 	NATIONAL_FOCUS_SHINE_DISTANCE_SCALE = 0.03,
 	NATIONAL_FOCUS_PULSE_BASE =	10.0,
@@ -1001,7 +1001,7 @@ NInterface = {
 	COMBAT_GOOD_ARMOR = 0.8,					-- How many % of enemy units have to be unable to pierce the unit in order for the good armor icon to be displayed
 	
 	MIN_FOCUS_TREE_ZOOM = 0.2,					-- min zoom in scale
-	MAX_FOCUS_TREE_ZOOM = 1.0,					-- max zoom out scale
+	MAX_FOCUS_TREE_ZOOM = 2.0,					-- max zoom out scale
 	FOCUS_TREE_ZOOM_SPEED = 0.16,				-- zooming speed 
 	FOCUS_TREE_ZOOM_FACTOR = 0.5,				-- zooming factor that will be factored while player scrolls too fast
 	
@@ -1135,7 +1135,7 @@ NFrontend = {
 	CAMERA_END_X = 2958.0,							-- Move to position in main menu
 	CAMERA_END_Y = 900.0,
 	CAMERA_END_Z = 1400.0,
-	CAMERA_MIN_HEIGHT = 50.0,						-- Minimum camera height
+	CAMERA_MIN_HEIGHT = 100.0,						-- Minimum camera height
 	CAMERA_MAX_HEIGHT = 3000.0,						-- Maximum camera height
 	CAMERA_SPEED_IN_MENUS = 0.1,
 	CAMERA_INTERPOLATION_SPEED = 0.19,
@@ -1155,7 +1155,7 @@ NFrontend = {
 	MP_OPTIONS_LOOK_Y = 0.0,	
 	MP_OPTIONS_LOOK_Z = 1519.0,
 
-	NEW_GAME_BUTTON_DISABLE_DELAY_ON_INVALID_MAP_DATA = 10.0, -- amount of seconds to disable buttons leading to a game start for
+	NEW_GAME_BUTTON_DISABLE_DELAY_ON_INVALID_MAP_DATA = 1.0, -- amount of seconds to disable buttons leading to a game start for
 	
 	SOCIALVIEW_CONTEXT_MENU_BUTTON_OFFSET = 10,
 	SOCIALVIEW_CONTEXT_MENU_MARGIN = 2,

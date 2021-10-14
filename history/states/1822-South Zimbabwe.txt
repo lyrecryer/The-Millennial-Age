@@ -1,0 +1,16 @@
+
+state={
+	id=1822
+	name="STATE_1822"
+	history={
+		owner = ZIM
+		add_core_of = ZIM
+
+	}
+	provinces={
+		7842 10929 17332 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

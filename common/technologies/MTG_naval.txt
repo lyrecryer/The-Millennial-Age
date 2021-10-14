@@ -20,7 +20,6 @@ technologies = {
 #CRUSIER
 @SHC = 10
 @CARM = 15
-@AIR = 16
 #HEAVY
 @SHH = 18
 @HARM = 23
@@ -107,11 +106,11 @@ technologies = {
 		
 		research_cost = 1.5
 		
-		start_year = 1985
+		start_year = 2000
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHL y = @1985 }
+			position = { x = @SHL y = @2000 }
 		}
 		
 		ai_will_do = {
@@ -145,11 +144,11 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1995
+		start_year = 2010
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHL y = @1995 }
+			position = { x = @SHL y = @2010 }
 		}
 		
 		ai_will_do = {
@@ -174,11 +173,11 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 2005
+		start_year = 2020
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHL y = @2005 }
+			position = { x = @SHL y = @2020 }
 		}
 		
 		ai_will_do = {
@@ -497,11 +496,11 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1985
+		start_year = 2000
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHC y = @1985 }
+			position = { x = @SHC y = @2000 }
 		}
 		
 		ai_will_do = {
@@ -531,11 +530,11 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1995
+		start_year = 2010
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHC y = @1995 }
+			position = { x = @SHC y = @2010 }
 		}
 		
 		ai_will_do = {
@@ -560,11 +559,11 @@ technologies = {
 		}
 		research_cost = 1.5
 
-		start_year = 2005
+		start_year = 2020
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHC y = @2005 }
+			position = { x = @SHC y = @2020 }
 		}
 		
 		ai_will_do = {
@@ -596,7 +595,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @AIR y = @1980 }
+			position = { x = @CARM y = @1980 }
 		}
 		
 		ai_will_do = {
@@ -798,11 +797,11 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1985
+		start_year = 2000
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHH y = @1985 }
+			position = { x = @SHH y = @2000 }
 		}
 		sub_technologies = {
 			ship_hull_super_heavy
@@ -868,11 +867,11 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1995
+		start_year = 2010
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHH y = @1995 }
+			position = { x = @SHH y = @2010 }
 		}
 		
 		ai_will_do = {
@@ -901,11 +900,11 @@ technologies = {
 		}
 		research_cost = 1.5
 
-		start_year = 2005
+		start_year = 2020
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHH y = @2005 }
+			position = { x = @SHH y = @2020 }
 		}
 		
 		ai_will_do = {
@@ -1062,11 +1061,11 @@ early_ship_hull_carrier = {
 		
 		research_cost = 1.5
 
-		start_year = 1985
+		start_year = 2000
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHA y = @1985 }
+			position = { x = @SHA y = @2000 }
 		}
 		
 		ai_will_do = {
@@ -1095,11 +1094,11 @@ early_ship_hull_carrier = {
 		
 		research_cost = 1.5
 
-		start_year = 1995
+		start_year = 2010
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHA y = @1995 }
+			position = { x = @SHA y = @2010 }
 		}
 		
 		ai_will_do = {
@@ -1123,11 +1122,11 @@ early_ship_hull_carrier = {
 		}
 		research_cost = 1.5
 
-		start_year = 2005
+		start_year = 2020
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHA y = @2005 }
+			position = { x = @SHA y = @2020 }
 		}
 		
 		ai_will_do = {
@@ -1463,11 +1462,11 @@ early_ship_hull_carrier = {
 		
 		research_cost = 1.5
 
-		start_year = 1985
+		start_year = 2000
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHS y = @1985 }
+			position = { x = @SHS y = @2000 }
 		}
 		
 		ai_will_do = {
@@ -1503,11 +1502,11 @@ early_ship_hull_carrier = {
 		
 		research_cost = 2.0
 
-		start_year = 1995
+		start_year = 2010
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHS y = @1995 }
+			position = { x = @SHS y = @2010 }
 		}
 		
 		ai_will_do = {
@@ -1533,11 +1532,11 @@ early_ship_hull_carrier = {
 		
 		research_cost = 2.0
 
-		start_year = 1980
+		start_year = 2020
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @SHS y = @2005 }
+			position = { x = @SHS y = @2020 }
 		}
 		
 		ai_will_do = {

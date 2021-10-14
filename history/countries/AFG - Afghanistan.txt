@@ -31,10 +31,51 @@ create_country_leader = {
 	name = "Mohammad Najibullah Ahmadzai"
 	desc = ""
 	picture = "Portrait_Mohammad_Najibullah.dds"
-	expire = "1994.1.1"
+	expire = "1996.1.1"
 	ideology = dic_socialist
 	traits = {
 	dictator	
+	}
+}
+create_country_leader = {
+	name = "Mullah Mohammad Omar"
+	desc = ""
+	picture = "Portrait_Mohammed_Omar.dds"
+	expire = "2013.1.1"
+	ideology = religious_fundamentalist
+	traits = {
+	religious_fanatic	
+	}
+}
+create_country_leader = {
+	name = "Sibghatullah Mojaddedi"
+	desc = ""
+	picture = "Portrait_Sibghatullah_Mojaddedi.dds"
+	expire = "2019.1.1"
+	ideology = conservatism
+	traits = {
+	anti_dicator	
+	}
+}
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = ""
+	picture = "Portrait_Sibghatullah_Mojaddedi.dds"
+	expire = "2007.7.23"
+	ideology = monarchism
+	traits = {
+	monarch_leader	
+	}
+}
+
+create_country_leader = {
+	name = "Test Guy"
+	desc = "TEST_GUY_DESC"
+	picture = "Portrait_test_guy.dds"
+	expire = "2500.1.1"
+	ideology = anarchism
+	traits = {
+		
 	}
 }
 

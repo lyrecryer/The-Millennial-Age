@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	protected_by_others = {
+		value = 20
+	}
+}

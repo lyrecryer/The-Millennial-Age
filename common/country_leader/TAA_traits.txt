@@ -62,7 +62,6 @@ leader_traits = {
 	}
 
 	#Monarch
-	
 	monarch_leader = {
 		random = no
 		#A stable ruler is better than an unstable government
@@ -122,6 +121,19 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	#Dangrous traits
+	#Genocider
+	genocider = {
+		random = no
+		stability_factor = -0.2
+		#Genocide is happening under this leaders rule.
+		monthly_population = -0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#ENG
 	iron_lady = {
 		random = no

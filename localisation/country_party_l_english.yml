@@ -10,6 +10,9 @@
  # _neutrality_party_long:0 ""
  # _democratic_party:0 ""
  # _democratic_party_long:0 ""
+ # _anarchist_party:0 ""
+ # _anarchist_party_long:0 ""
+ #
 ##GENERIC PARTIES ###
  # _communism_party:0 "Communist Party"
  # _communism_party_long:0 "Communist Party"
@@ -19,6 +22,8 @@
  # _neutrality_party_long:0 "Royal Court"
  # _democratic_party:0 "Democratic Party"
  # _democratic_party_long:0 "Democratic Party"
+ # _anarchist_party:0 "Anarchist Party"
+ # _anarchist_party_long:0 "Anarchist Party"
  #MAJORS
  #United Kingdom[ENG]
   ENG_communism_party:0 "CPGB"
@@ -29,6 +34,8 @@
   ENG_neutrality_party_long:0 "UK Independence Party"
   ENG_democratic_party:0 "Conservative Party"
   ENG_democratic_party_long:0 "Conservative Party"
+  _anarchist_party:0 "Anarchist Party"
+  _anarchist_party_long:0 "Anarchist Party"
  #Germany[GER]
   GER_communism_party:0 "KPD"
   GER_communism_party_long:0 "Kommunistische Partei Deutschlands (Communist Party of Germany)"
@@ -38,6 +45,8 @@
   GER_neutrality_party_long:0 "Royal Court"
   GER_democratic_party:0 "CDU"
   GER_democratic_party_long:0 "Christlich Demokratische Union Deutschlands (Christian Democratic Union of Germany)"
+  GER_anarchist_party:0 "Anarchist Party"
+  GER_anarchist_party_long:0 "Anarchist Party"
 #DDR
   DDR_communism_party:0 "SED"
   DDR_communism_party_long:0 "Sozialistische Einheitspartei Deutschlands (Socialist Unity Party of Germany)"
@@ -47,6 +56,8 @@
   DDR_neutrality_party_long:0 "Royal Court"
   DDR_democratic_party:0 "CDU"
   DDR_democratic_party_long:0 "Christlich Demokratische Union Deutschlands (Christian Democratic Union of Germany)"
+  DDR_anarchist_party:0 "Anarchist Party"
+  DDR_anarchist_party_long:0 "Anarchist Party"
 #WGR
   WGR_communism_party:0 "KPD"
   WGR_communism_party_long:0 "Kommunistische Partei Deutschlands (Communist Party of Germany)"
@@ -56,6 +67,8 @@
   WGR_neutrality_party_long:0 "Royal Court"
   WGR_democratic_party:0 "CDU"
   WGR_democratic_party_long:0 "Christlich Demokratische Union Deutschlands (Christian Democratic Union of Germany)"
+  WGR_anarchist_party:0 "Anarchist Party"
+  WGR_anarchist_party_long:0 "Anarchist Party"
  #France[FRA]
   FRA_communism_party:0 "PCF"
   FRA_communism_party_long:0 "Parti communiste français (French Communist Party)"
@@ -65,6 +78,8 @@
   FRA_neutrality_party_long:0 "Rassemblement pour la République (Rally for the Republic)"
   FRA_democratic_party:0 "PS"
   FRA_democratic_party_long:0 "Parti socialiste (Socialist Party)"
+  FRA_anarchist_party:0 "Anarchist Party"
+  FRA_anarchist_party_long:0 "Anarchist Party"
  #Italy[ITA]
   ITA_communism_party:0 "PCI"
   ITA_communism_party_long:0 "Partito Comunista Italiano (Italian Communist Party)"
@@ -74,6 +89,8 @@
   ITA_neutrality_party_long:0 "Federazione dei Verdi (Federation of the Greens)"
   ITA_democratic_party:0 "DC"
   ITA_democratic_party_long:0 "Democrazia Cristiana (Christian Democracy)"
+  ITA_anarchist_party:0 "Anarchist Party"
+  ITA_anarchist_party_long:0 "Anarchist Party"
  #United States of America[USA]
   USA_communism_party:0 "Communist Party USA"
   USA_communism_party_long:0 "Communist Party USA"
@@ -83,6 +100,8 @@
   USA_neutrality_party_long:0 "Libertarian Party"
   USA_democratic_party:0 "Republican Party"
   USA_democratic_party_long:0 "Republican Party"
+  USA_anarchist_party:0 "Anarchist Party"
+  USA_anarchist_party_long:0 "Anarchist Party"
  #Russia[SOV]
   SOV_communism_party:0 "CPSU"
   SOV_communism_party_long:0 "Communist Party of the Soviet Union"
@@ -92,7 +111,20 @@
   SOV_neutrality_party_long:0 "United Russia"
   SOV_democratic_party:0 "DCR"
   SOV_democratic_party_long:0 "Democratic Choice of Russia"
+  SOV_anarchist_party:0 "Anarchist Party"
+  SOV_anarchist_party_long:0 "Anarchist Party"
  #All other nations:
+ #AFG
+  AFG_communism_party:0 "Homeland Party"
+  AFG_communism_party_long:0 "Homeland Party"
+  AFG_fascism_party:0 "Taliban"
+  AFG_fascism_party_long:0 "Taliban"
+  AFG_neutrality_party:0 "Royal Court"
+  AFG_neutrality_party_long:0 "Royal Court of Mohammed Zahir Shah"
+  AFG_democratic_party:0 "Jamiat"
+  AFG_democratic_party_long:0 "Jamiat-e Islami"
+  AFG_anarchist_party:0 "Local Warlords"
+  AFG_anarchist_party_long:0 "Local Warlords of Afghanistan"
  # ALB
  # ARM
  # AUS

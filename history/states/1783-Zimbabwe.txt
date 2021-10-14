@@ -1,14 +1,18 @@
+
 state={
 	id=1783
 	name="STATE_1783"
-	provinces={
-		1874 2151 2216 4851 7842 10929 
-	}
-	history = {
+
+	history={
 		owner = ZIM
 		add_core_of = ZIM
-		}
-		manpower=100
-	state_category = rural
+
+	}
+
+	provinces={
+		1874 2151 2216 4851 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

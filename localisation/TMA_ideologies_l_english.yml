@@ -1,4 +1,5 @@
 ﻿l_english:
+ TEST_GUY_DESC:0 "Hi! If you can see me then somthing is wrong! Please let us know where you saw it via screenshot."
   #Ideologies
  #Subtypes
  white_supremacist:0 "White Supremacist"
@@ -29,7 +30,11 @@
  anarchist_primitive_desc:0 "The Anarcho-Primitives is a form of government that seeks to return to a hunter-gatherer lifestyle. All technology that isn't useful for a Hunter-Gatherer is discarded."
  anarchist_captialist:0 "Anarcho-Capitalist"
  anarchist_captialist_desc:0 "The Anarcho-Capitalist is a form of government that seeks to provide a society where government overreach is abolished and the people (and corporations) can do whatever they want as long they can afford to."
- anarchist_darwinist:0 "Anarcho-Darwinist"
- anarchist_darwinist_desc:0 "The Anarcho-Darwinist is a form of government that seeks to create a Survival of the Fittest culture within the nation. Only the strongest can live."
  chaos:0 "Collasped Nation"
  chaos_desc:0 "The Nation has collapsed into Chaos. Unless a new government is formed, it is ripe for the picking."
+ ecoism:0 "Ecoism"
+ ecoism_desc:0 "Ecoism is a ideology that protects the envioment by democratic means."
+ libertarianism:0 "Libertarianism"
+ libertarianism_desc:0 "A pro Capitalist who seeks to remove many of the red tape in the country."
+ islamism:0 "Islamism"
+ islamism_desc:0 "A Democratic ideology that combines the secular state with the Islamic faith."
