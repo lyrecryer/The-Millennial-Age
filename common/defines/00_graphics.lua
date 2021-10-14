@@ -738,16 +738,16 @@ NGraphics = {
 	COUNTRY_FLAG_LARGE_STRIPE_MAX_HEIGHT = 8192,
 	VICTORY_POINT_LEVELS = 2,
 	VICTORY_POINT_MAP_ICON_AFTER = {0, 20}, -- After this amount of VP the map icon becomes bigger dot.
-	VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {150, 250, 2000},  -- At what camera distance the VP name text disappears.
+	VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {250, 500, 2000},  -- At what camera distance the VP name text disappears.
 	VICTORY_POINTS_DISTANCE_CUTOFF = {250, 500, 2000}, -- At what distance VPs are hidden
-	AIRBASE_ICON_DISTANCE_CUTOFF = 900, -- At what distance air bases are hidden
-	NAVALBASE_ICON_DISTANCE_CUTOFF = 900, -- 1300, -- At what distance naval bases are hidden
+	AIRBASE_ICON_DISTANCE_CUTOFF = 1100, -- At what distance air bases are hidden
+	NAVALBASE_ICON_DISTANCE_CUTOFF = 1100, -- 1300, -- At what distance naval bases are hidden
 	RADAR_ICON_DISTANCE_CUTOFF = 1100, -- At what distance the radars are hidden
 	RESOURCE_MAP_ICON_TEXT_CUTOFF = 800,  -- At what camera distance the resource name/amount text disappears.
 	RESISTANCE_MAP_ICON_MODIFIERS_DISTANCE_CUTOFF = 500,  -- At what camera distance the resistance/compliance map icon modifiers are hidden
 	RESISTANCE_MAP_ICON_DISTANCE_CUTOFF = 1200,  -- At what camera distance the resistance/compliance map icons are hidden
 	PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 500,
-	CAPITAL_ICON_CUTOFF = 2000,	-- At what camera distance capital icons disappears
+	CAPITAL_ICON_CUTOFF = 450,	-- At what camera distance capital icons disappears
 	UNITS_DISTANCE_CUTOFF = 120,
 	SHIPS_DISTANCE_CUTOFF = 240,
 	UNIT_ARROW_DISTANCE_CUTOFF = 875,
@@ -763,7 +763,7 @@ NGraphics = {
 	NAVAL_MISSION_TASK_FORCES_GROUP_BY_ALLEGIANCE_CUTOFF = 500,
 	NAVAL_MISSION_ICONS_DISTANCE_CUTOFF = 900, --1300,
 	NAVAL_MINES_DISTANCE_CUTOFF = 800,
-	CRYPTOLOGY_MAP_ICON_DISTANCE_CUTOFF = 1000,
+	CRYPTOLOGY_MAP_ICON_DISTANCE_CUTOFF = 2000,
 	NAVAL_MINES_CLUMPING = 58, -- The higher value, the more likely the 3d naval mines will clamp together
 	NAVAL_MINES_CLUMP_NEAR_TERRITORY = 25, -- Higher chance to spawn 3d naval mine near our territory
 	NAVAL_MINES_COUNT_TO_VISUAL_ASPECT = 0.1, -- How many in-game-naval-mines is one visual 3d naval mine?
@@ -785,10 +785,10 @@ NGraphics = {
 	INTEL_LEDGER_CIVILIAN_ICON_STATE_CUTOFF = 250.0,
 	INTEL_LEDGER_CIVILIAN_ICON_REGION_CUTOFF = 700.0,
 	
-	DIVISION_NAMES_GROUP_MAX_TOOLTIP_ENTRIES = 15,	-- Max entries to display the names in the tooltip, when mouse over the division-names-group in the division template designer.
+	DIVISION_NAMES_GROUP_MAX_TOOLTIP_ENTRIES = 25,	-- Max entries to display the names in the tooltip, when mouse over the division-names-group in the division template designer.
 	SHIP_NAMES_GROUP_MAX_NAME_LIST_ENTRIES = 25,	-- Max example name entries in ship name list in production meni
 	
-	WEATHER_DISTANCE_CUTOFF = 1500, -- At what distance weather effects are hidden
+	WEATHER_DISTANCE_CUTOFF = 2000, -- At what distance weather effects are hidden
 	WEATHER_DISTANCE_FADE_LENGTH = 400, -- How far the fade out distance should be
 	WEATHER_ZOOM_IN_CUTOFF = 358, -- At what distance weather effects are faded out the most when zooming in
 	WEATHER_ZOOM_IN_FADE_LENGTH = 220, -- How far the zoom in fade out distance should be
@@ -884,9 +884,9 @@ NGraphics = {
 	
 	
 	-- unit on-map interface modulate colors
-	FRIEND_COLOR  = {0.7, 0.9, 0.7},
-	ENEMY_COLOR   = {1.0, 0.7, 0.7}, 
-	NEUTRAL_COLOR = {1.0, 1.0, 1.0},
+	FRIEND_COLOR  = {0, 74, 127},
+	ENEMY_COLOR   = {127, 0, 0}, 
+	NEUTRAL_COLOR = {38, 127, 0},
 
 	COUNTRY_COLOR_HUE_MODIFIER = 0.0,
 	COUNTRY_COLOR_SATURATION_MODIFIER = 0.6,

@@ -29,3 +29,922 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_USSR_breaking_apart.dds"
 	}
 }
+#Protected_by_TAG
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_protected_by_ABK"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ABK.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_AFG_DEM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_AFG_DEM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_AFG_FAS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_AFG_FAS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ALB"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ALB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ALG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ALG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_AND"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_AND.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ANG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ANG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ANG_MPLA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ANG_MPLA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ANG_UNITA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ANG_UNITA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ANT"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ANT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ARG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ARG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ARL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ARL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ARM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ARM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ART"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ART.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_AST"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_AST.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_AUI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_AUI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_AUS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_AUS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_AZR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_AZR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BAH"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BAH.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BAN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BAN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BAR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BAR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BEL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BEL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BHU"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BHU.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BLR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BLR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BLZ"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BLZ.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BOL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BOL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BOS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BOS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BOT"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BOT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BRA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BRA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ABK"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ABK.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ABK"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ABK.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BRD"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BRD.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BRH"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BRH.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BRM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BRM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BRU"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BRU.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_BUL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_BUL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CAM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CAM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CAP"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CAP.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CAR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CAR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CHA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CHA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CHI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CHI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CHL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CHL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CMR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CMR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_COG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_COG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_COI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_COI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_COL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_COL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_COM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_COM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_COS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_COS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CRO"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CRO.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CST"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CST.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CUB"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CUB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CYP"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CYP.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_CZE"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_CZE.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_DAH"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_DAH.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_DDR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_DDR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_DEN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_DEN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_DJI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_DJI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_DOC"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_DOC.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_DOM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_DOM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ECU"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ECU.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_EGY"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_EGY.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ELS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ELS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ENG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ENG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_EQG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_EQG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ERI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ERI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_EST"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_EST.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ESW"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ESW.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ETH"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ETH.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ETI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ETI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_EUR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_EUR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_FIN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_FIN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_FJI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_FJI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_FRA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_FRA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GAB"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GAB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GAM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GAM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GCC"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GCC.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GEO"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GEO.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GER"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GER.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GHA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GHA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GNA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GNA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GNB"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GNB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GRE"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GRE.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GRN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GRN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GUA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GUA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_GYA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_GYA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_HAI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_HAI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_HOL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_HOL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_HON"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_HON.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_HUN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_HUN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ICE"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ICE.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_IND"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_IND.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_INS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_INS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_IRE"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_IRE.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_IRQ"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_IRQ.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ISR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ISR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_IST"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_IST.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ITA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ITA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_IVO"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_IVO.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_JAM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_JAM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_JAP"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_JAP.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_JOR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_JOR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_KAZ"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_KAZ.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_KEN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_KEN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_KIR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_KIR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_KOR_COM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_KOR_COM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_KOR_DEM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_KOR_DEM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_KOS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_KOS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_KUW"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_KUW.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_KYR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_KYR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LAO"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LAO.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LAT"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LAT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LBA_COM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LBA_COM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LBA_DEM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LBA_DEM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LEB"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LEB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LES"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LES.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LIB"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LIB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LIE"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LIE.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LIT"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LIT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_LUX"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_LUX.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MAC"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MAC.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MAD"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MAD.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MAL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MAL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MAR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MAR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MAU"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MAU.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MEX"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MEX.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MIC"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MIC.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MLD"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MLD.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MLI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MLI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MLT"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MLT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MLW"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MLW.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MNT"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MNT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MOC"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MOC.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MOL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MOL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MON"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MON.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MOR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MOR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MRT"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MRT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_MZB"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_MZB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NAT"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NAT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NAU"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NAU.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NCY"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NCY.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NEP"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NEP.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NGA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NGA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NGR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NGR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NIC"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NIC.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NIR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NIR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NIU"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NIU.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NKR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NKR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NMB"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NMB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NOR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NOR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NZL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NZL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_NZL_MAO"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_NZL_MAO.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_OMA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_OMA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PAK"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PAK.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PAL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PAL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PAN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PAN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PAR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PAR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PAU"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PAU.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PER"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PER.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PHI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PHI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PNG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PNG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_POL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_POL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_POR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_POR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PRC"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PRC.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_PRU"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_PRU.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_QAT"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_QAT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_RCG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_RCG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ROM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ROM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_RWA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_RWA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SAF"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SAF.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SAL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SAL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SAM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SAM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SAN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SAN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SAO"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SAO.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SAU"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SAU.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SAV"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SAV.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SCO"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SCO.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SEN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SEN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SER"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SER.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SEY"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SEY.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SIE"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SIE.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SIN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SIN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SKR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SKR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SLO"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SLO.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SLV"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SLV.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SML"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SML.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SNM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SNM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SOL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SOL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SOM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SOM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SOS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SOS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SOV_COM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SOV_COM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SOV_DEM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SOV_DEM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SPR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SPR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SRL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SRL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SSD"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SSD.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SUD"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SUD.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SUR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SUR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SWE"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SWE.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SWI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SWI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_SYR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_SYR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TAJ"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TAJ.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TMS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TMS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TOG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TOG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TON"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TON.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TRA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TRA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TRI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TRI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TUN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TUN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TUR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TUR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TUV"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TUV.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_TZN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_TZN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_UAE"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_UAE.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_UGA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_UGA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_UK"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_UK.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_UKR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_UKR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_UNI"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_UNI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_URG"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_URG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_USA"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_USA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_USA_51"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_USA_51.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_UZB"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_UZB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_VAN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_VAN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_VEN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_VEN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_VIN"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_VIN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_VOL"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_VOL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_WES"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_WES.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_WGR"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_WGR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_WLS"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_WLS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_WSP"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_WSP.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_YEM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_YEM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ZAM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ZAM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_by_ZIM"
+		texturefile = "gfx/interface/ideas/protected_by/protected_by_ZIM.dds"
+	}
+}

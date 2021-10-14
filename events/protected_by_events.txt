@@ -1,0 +1,71 @@
+add_namespace = protected_by_event
+#Set up
+country_event = {
+	id = protected_by_event.1
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		#USA
+		ARG = { add_ideas = protected_by_usa }
+		BLZ = { add_ideas = protected_by_usa }
+		BOL = { add_ideas = protected_by_usa }
+		BRA = { add_ideas = protected_by_usa }
+		CAN = { add_ideas = protected_by_usa }
+		CHL = { add_ideas = protected_by_usa }
+		COL = { add_ideas = protected_by_usa }
+		COS = { add_ideas = protected_by_usa }
+		ECU = { add_ideas = protected_by_usa }
+		ELS = { add_ideas = protected_by_usa }
+		GUA = { add_ideas = protected_by_usa }
+		GYA = { add_ideas = protected_by_usa }
+		HON = { add_ideas = protected_by_usa }
+		MEX = { add_ideas = protected_by_usa }
+		NIC = { add_ideas = protected_by_usa }
+		PAN = { add_ideas = protected_by_usa }
+		PAR = { add_ideas = protected_by_usa }
+		PER = { add_ideas = protected_by_usa }
+		SUR = { add_ideas = protected_by_usa }
+		URG = { add_ideas = protected_by_usa }
+		VEN = { add_ideas = protected_by_usa }
+		ANT = { add_ideas = protected_by_usa }
+		BAH = { add_ideas = protected_by_usa }
+		BAR = { add_ideas = protected_by_usa }
+		DOC = { add_ideas = protected_by_usa }
+		DOM = { add_ideas = protected_by_usa }
+		GRE = { add_ideas = protected_by_usa }
+		HAI = { add_ideas = protected_by_usa }
+		JAM = { add_ideas = protected_by_usa }
+		SAN = { add_ideas = protected_by_usa }
+		SAL = { add_ideas = protected_by_usa }
+		SAV = { add_ideas = protected_by_usa }
+		TRI = { add_ideas = protected_by_usa }
+		AUS = { add_ideas = protected_by_usa }
+		BEL = { add_ideas = protected_by_usa }
+		CYP = { add_ideas = protected_by_usa }
+		DEN = { add_ideas = protected_by_usa }
+		FIN = { add_ideas = protected_by_usa }
+		FRA = { add_ideas = protected_by_usa }
+		WGR = { add_ideas = protected_by_usa }
+		GRE = { add_ideas = protected_by_usa }
+		ICE = { add_ideas = protected_by_usa }
+		IRE = { add_ideas = protected_by_usa }
+		ITA = { add_ideas = protected_by_usa }
+		LUX = { add_ideas = protected_by_usa }
+		MLT = { add_ideas = protected_by_usa }
+		HOL = { add_ideas = protected_by_usa }
+		NOR = { add_ideas = protected_by_usa }
+		POR = { add_ideas = protected_by_usa }
+		SNM = { add_ideas = protected_by_usa }
+		SPR = { add_ideas = protected_by_usa }
+		SWE = { add_ideas = protected_by_usa }
+		SWI = { add_ideas = protected_by_usa }
+		ENG = { add_ideas = protected_by_usa }
+		EGY = { add_ideas = protected_by_usa }
+		MOR = { add_ideas = protected_by_usa }
+		DAH = { add_ideas = protected_by_usa }
+		JAP = { add_ideas = protected_by_usa }
+		SKR = { add_ideas = protected_by_usa }
+		ISR = { add_ideas = protected_by_usa }
+	}
+}

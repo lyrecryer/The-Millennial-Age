@@ -1,12 +1,58 @@
 #I know that the chances of a minor nation being able to protect other minor nations are slim but I know what HOI4 players are like and I just want to cover my bases. Majors (AKA the ones that will be needed) are listed first and then Supra-Nationals second and then the rest third.
 ideas = {
     country = {
-        
-		protected_by_ = {
+        #Majors
+		protected_by_USA = {
 			removal_cost = -1
 			allowed = { always = no }
-			picture = GFX_idea_protected_by_
-			modifier = { protected_effect = yes }
+			picture = GFX_idea_protected_by_USA
+		}
+
+
+		protected_by_SOV_DEM = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_SOV_DEM
+		}
+		protected_by_SOV_COM = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_SOV_COM
+		}
+		protected_by_UK = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_UK
+		}
+		protected_by_FRA = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_FRA
+		}
+		protected_by_PRC = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_PRC
+		}
+		protected_by_IND = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_IND
+		}
+		protected_by_JAP = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_JAP
+		}
+		protected_by_EUR = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_EUR
+		}
+		protected_by_UNI = {
+			removal_cost = -1
+			allowed = { always = no }
+			picture = GFX_idea_protected_by_UNI
 		}
     }
 }

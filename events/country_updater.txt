@@ -26,6 +26,7 @@ country_event = {
 			}
 			add_ideas = UN_MEMBER
 		}
+		country_event = { id = protected_by_event.1} 
 	}
 }
 country_event = {
