@@ -40,6 +40,7 @@ HUN_INF_01 =
 	can_use = {
 		OR = {
 			tag = HUN
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
@@ -98,7 +99,7 @@ HUN_INF_02 =
 	can_use = {
 		OR = {
 			tag = HUN
-			
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
@@ -158,7 +159,7 @@ HUN_CAV_01 =
 	can_use = {
 		OR = {
 			tag = HUN
-			
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
@@ -240,7 +241,7 @@ HUN_MOT_01 =
 	can_use = {
 		OR = {
 			tag = HUN
-			
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
@@ -302,11 +303,11 @@ HUN_ARM_01 =
 	can_use = {
 		OR = {
 			tag = HUN
-			
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
-	division_types = { "REC" "IFV"  "MBT" }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { HUN_INF_01 }
@@ -363,7 +364,7 @@ HUN_MEC_01 =
 	can_use = {
 		OR = {
 			tag = HUN
-			
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
@@ -425,7 +426,7 @@ HUN_GAR_01 =
 	can_use = {
 		OR = {
 			tag = HUN
-			
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
@@ -489,7 +490,7 @@ HUN_MAR_01 =
 	can_use = {
 		OR = {
 			tag = HUN
-			
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
@@ -548,7 +549,7 @@ HUN_MTN_01 =
 	can_use = {
 		OR = {
 			tag = HUN
-			
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
@@ -629,7 +630,7 @@ HUN_PAR_01 =
 	can_use = {
 		OR = {
 			tag = HUN
-			
+			has_cosmetic_tag = HUN_EMPIRE
 		}
 	}
 
@@ -684,7 +685,7 @@ AUSHUN_INF_01 =
 	for_countries = { AUS HUN CZE }
 
 	can_use = {
-		
+		has_cosmetic_tag = HUN_EMPIRE
 	}
 
 	division_types = { "infantry" }
@@ -779,7 +780,7 @@ AUSHUN_CAV_01 =
 	for_countries = { AUS HUN CZE }
 
 	can_use = {
-		
+		has_cosmetic_tag = HUN_EMPIRE
 	}
 
 	division_types = { "cavalry" }
@@ -840,7 +841,7 @@ AUSHUN_MOT_01 =
 	for_countries = { AUS HUN CZE }
 
 	can_use = {
-		
+		has_cosmetic_tag = HUN_EMPIRE
 	}
 
 	division_types = { "motorized" }
@@ -876,7 +877,7 @@ AUSHUN_MEC_01 =
 	for_countries = { AUS HUN CZE }
 
 	can_use = {
-		
+		has_cosmetic_tag = HUN_EMPIRE
 	}
 
 	division_types = { "mechanized" }
@@ -912,7 +913,7 @@ AUSHUN_GAR_01 =
 	for_countries = { AUS HUN CZE }
 
 	can_use = {
-		
+		has_cosmetic_tag = HUN_EMPIRE
 	}
 
 	division_types = { "infantry" }
@@ -948,10 +949,10 @@ AUSHUN_ARM_01 =
 	for_countries = { AUS HUN CZE }
 
 	can_use = {
-		
+		has_cosmetic_tag = HUN_EMPIRE
 	}
 
-	division_types = { "REC" "IFV"  "MBT" }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { AUSHUN_INF_01 }
@@ -984,7 +985,7 @@ AUSHUN_MTN_01 =
 	for_countries = { AUS HUN CZE }
 
 	can_use = {
-		
+		has_cosmetic_tag = HUN_EMPIRE
 	}
 
 	division_types = { "mountaineers" }
@@ -1020,7 +1021,7 @@ AUSHUN_MAR_01 =
 	for_countries = { AUS HUN CZE }
 
 	can_use = {
-		
+		has_cosmetic_tag = HUN_EMPIRE
 	}
 
 	division_types = { "marine" }
@@ -1056,7 +1057,7 @@ AUSHUN_PAR_01 =
 	for_countries = { AUS HUN CZE }
 
 	can_use = {
-		
+		has_cosmetic_tag = HUN_EMPIRE
 	}
 
 	division_types = { "paratrooper" }

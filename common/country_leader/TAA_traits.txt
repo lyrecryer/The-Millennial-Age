@@ -17,7 +17,7 @@ leader_traits = {
 	}
 
 	#anti-something
-	anti_dicator = {
+	anti_dictator = {
 		random = no
 		communism_acceptance = -50
 		communism_drift = -0.01
@@ -77,6 +77,18 @@ leader_traits = {
 		political_advisor_cost_factor = -0.25
 		#Slow progress
 		research_speed_factor = -0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	exiled_king = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	unprepared_king = {
+		random = no
 		ai_will_do = {
 			factor = 1
 		}

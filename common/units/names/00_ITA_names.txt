@@ -155,25 +155,25 @@
 		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
 		unique = {} 
 	} 
-	REC = { 
+	light_armor = { 
 		prefix = "" 
 		generic = { "Divisione Corazzata" } 
 		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
 		unique = {} 
 	} 
-	IFV = { 
+	medium_armor = { 
 		prefix = "" 
 		generic = { "Divisione Corazzata" } 
 		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
 		unique = {} 
 	} 
-	MBT = { 
+	heavy_armor = { 
 		prefix = "" 
 		generic = { "Divisione Corazzata" } 
 		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
 		unique = {} 
 	} 
-	MBT = { 
+	modern_armor = { 
 		prefix = "" 
 		generic = { "Divisione Corazzata" } 
 		generic_pattern = "UNIT_GENERIC_NAME_ITA" 

@@ -11,15 +11,15 @@ technologies = {
 	@2015 = 17
 	@2020 = 19
 	# List (Type)[X]
-@SUP = 4
+@SUP = 8
 @ENG = 2
-@REC = 3
-@MP = 4
-@MAT = 5
-@HOS = 6
-@LOG = 7
-@SIG = 8
-@SPT = 9
+@REC = 4
+@MP = 6
+@MAT = 8
+@HOS = 10
+@LOG = 12
+@SIG = 14
+@SPT = 16
 
 
 	tech_support = {

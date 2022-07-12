@@ -66,7 +66,7 @@ RAJ_BB_HISTORICAL = {
 	fallback_name = "Battleship %s"		
 
 	unique = {
-		"India" "IND" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
+		"India" "Raj" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
 	}
 }
 
@@ -83,7 +83,7 @@ RAJ_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser %s"		
 
 	unique = {
- 		"India" "IND" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
+ 		"India" "Raj" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
 	}
 }
 

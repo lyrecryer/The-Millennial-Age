@@ -11,13 +11,13 @@ technologies = {
 	@2015 = 17
 	@2020 = 19
 		# List (Type)[X]
-	@RAD = 3
+	@RAD = 2
 	@RAR = 4
-	@COM = 5
-	@FCS = 6
+	@COM = 6
+	@FCS = 8
 	@DYC = 7
-	@NUKE = 9
-	@ROC = 10
+	@NUKE = 10
+	@ROC = 12
 	electronic_mechanical_engineering = {
 
 		# small boost to research speed

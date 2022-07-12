@@ -1,0 +1,690 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = GFX_portrait_operative_unknown
+		texturefile = "gfx/leaders/operative_unknown.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_unknown
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_unknown_female
+		texturefile = "gfx/leaders/leader_unknown_female.dds"
+	}
+
+
+
+
+	#COUNTRY LEADERS
+	#AFG
+	#democratic
+	spriteType = {
+		name = GFX_Portrait_Ashraf_Ghani
+		texturefile = "gfx/leaders/AFG/Portrait_Ashraf_Ghani.dds"
+	}
+	#democratic
+	spriteType = {
+		name = GFX_Portrait_Burhanuddin_Rabbani
+		texturefile = "gfx/leaders/AFG/Portrait_Burhanuddin_Rabbani.dds"
+	}
+	#democratic
+	spriteType = {
+		name = GFX_Portrait_Hamid_Karzai
+		texturefile = "gfx/leaders/AFG/Portrait_Hamid_Karzai.dds"
+	}
+	#democratic
+	spriteType = {
+		name = GFX_Portrait_Sibghatullah_Mojaddedi
+		texturefile = "gfx/leaders/AFG/Portrait_Sibghatullah_Mojaddedi.dds"
+	}
+	#communism
+	spriteType = {
+		name = GFX_Portrait_Mohammad_Najibullah
+		texturefile = "gfx/leaders/AFG/Portrait_Mohammad_Najibullah.dds"
+	}
+	#fascism
+	spriteType = {
+		name = GFX_Portrait_Mohammed_Omar
+		texturefile = "gfx/leaders/AFG/Portrait_Mohammed_Omar.dds"
+	}
+	#fascism
+	spriteType = {
+		name = GFX_Portrait_Akhtar_Mansoor
+		texturefile = "gfx/leaders/AFG/Portrait_Akhtar_Mansoor.dds"
+	}
+	#fascism
+	spriteType = {
+		name = GFX_Portrait_Hibatullah_Akhundzada
+		texturefile = "gfx/leaders/AFG/Portrait_Hibatullah_Akhundzada.dds"
+	}
+	#neutrality
+	spriteType = {
+		name = GFX_Portrait_Mohammed_Zahir_Shah
+		texturefile = "gfx/leaders/AFG/Portrait_Mohammed_Zahir_Shah.dds"
+	}
+	#neutrality
+	spriteType = {
+		name = GFX_Portrait_Mustafa_Zahir
+		texturefile = "gfx/leaders/AFG/Portrait_Mustafa_Zahir.dds"
+	}
+	#GENERIC
+
+	spriteType = {
+		name = GFX_portrait_Test_Guy
+		texturefile = "gfx/leaders/portrait_Test_Guy.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_Ahmed_Ben_Bella
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Jonas_Lote
+		texturefile = gfx//leaders//Africa//Portrait_Africa_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Drastamat_Kanayan
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Hovhannes_Kajaznuni
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Grigor_Harutyunyan
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Mir_Jafar_Baghirov
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Mammad_Amin_Rasulzade
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Gara_Garabeyov
+		texturefile = gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Vasil_Zacharka
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Radaslau_Astrouski
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Panteleimon_Ponomarenko
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Adam_Stankievic
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Tshekedi_Khama
+		texturefile = gfx/leaders/Africa/Portrait_Africa_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Yann_Morvan_Gefflot
+		texturefile = gfx//leaders//Europe//Portrait_Europe_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Morvan_Marchal
+		texturefile = gfx//leaders//Europe//Portrait_Europe_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Olier_Mordrel
+		texturefile = gfx//leaders//Europe//portrait_europe_generic_6.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Maurice_Duhamel
+		texturefile = gfx//leaders//Europe//portrait_europe_generic_4.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Pol_Pot
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Sisowath_Youtevong
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Norodom_Sihanouk
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Andreu_Nin_i_Perez
+		texturefile = gfx//leaders//Europe//Portrait_Europe_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Lluis_Companys_i_Jover
+		texturefile = gfx//leaders//Europe//portrait_europe_generic_5.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Daniel_Cardona_i_Civit
+		texturefile = gfx//leaders//Europe//portrait_europe_generic_5.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Francesc_Cambo_i_Batlle
+		texturefile = gfx//leaders//Europe//portrait_europe_generic_6.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Francois_Tolenga
+		texturefile = gfx//leaders//Africa//Portrait_Africa_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Lumumba_Lomendja
+		texturefile = gfx//leaders//Africa//Portrait_Africa_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_David_Manera
+		texturefile = gfx//leaders//Africa//Portrait_Africa_Generic_land_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ante_Pavelic
+		texturefile = gfx/leaders/CRO/Portrait_Croatia_Ante_Pavelic.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Vladko_Macek
+		texturefile = gfx/leaders/CRO/portrait_CRO_vladko_macek.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_William_Dudley_Pelley
+		texturefile = gfx/leaders/USA/Portrait_USA_William_Dudley_Pelley.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Jake_Richter
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Wilhelm_Pieck
+		texturefile = gfx/leaders/GER/Portrait_Germany_Wilhelm_Pieck.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Arthur_Brill
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Anton_Plenikowski
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Muhammad_Naguib
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ahmed_Husayn
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Hosni_al_Arabi
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Noe_Zhordania
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Kandid_Charkviani
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Fuco_Gomez
+		texturefile = gfx//leaders//Europe//Portrait_Europe_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Alfonso_Daniel_Castelao
+		texturefile = gfx//leaders//Europe//portrait_europe_generic_5.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Vicente_Martinez_Risco
+		texturefile = gfx//leaders//Europe//portrait_europe_generic_land_13.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Santiago_Casares_Quiroga
+		texturefile = gfx//leaders//Europe//portrait_europe_generic_6.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_David_Kalakaua_Kawananakoa
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Joseph_Poindexter
+		texturefile = gfx/leaders/USA/Portrait_USA_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Charles_Fujimoto
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Sveinn_Bjornsson
+		texturefile = gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Johannes_Valurson
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Haraldur_Gudmunsson
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Einar_Olgeirsson
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_David_Ben_Gurion
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Itzhak_Gaster
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Rudolf_Szabo
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Shmuel_Mikunis
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Hashim_Kheir
+		texturefile = gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Saeed_Ahmadi
+		texturefile = gfx/leaders/JOR/Portrait_Arabia_Generic_fascism1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Abdullah_bin_al_Hussein
+		texturefile = gfx/leaders/JOR/Portrait_Arabia_Generic_land_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Fuad_Nassar
+		texturefile = gfx/leaders/JOR/Portrait_Arabia_Generic_navy_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Nikolay_Aleksandrovich_Skvortsov
+		texturefile = gfx/leaders/KAZ/portrait_kaz_nikolay_skvortsov.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ilyas_Zhansugurov
+		texturefile = gfx/leaders/KAZ/portrait_kaz_ilyas_zhansugurov.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Dedan_Ngwale
+		texturefile = gfx/leaders/Africa/Portrait_Africa_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Syngman_Rhee
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Yi_Kang
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Kim_Il_sung
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Yi_Un
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Qazi_Muhammad
+		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Sheikh_Mahmud_Barzanji
+		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ihsan_Nuri_Pasa
+		texturefile = gfx/leaders/KUR/portrait_kur_ihsan_nuri.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ferzende_Bege_Heseni
+		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Souphanouvong
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Sisavang_Vong
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Kou_Voragong
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Bashir_es_Sadawi
+		texturefile = gfx/leaders/LBA/Portrait_Arabia_Generic_democratic1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ettore_Bastico
+		texturefile = gfx/leaders/LBA/Portrait_Italy_Giuseppe_Fioravanzo.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Idris_Senussi
+		texturefile = gfx/leaders/LBA/Portrait_Arabia_Generic_land_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Hassan_as_Senussi
+		texturefile = gfx/leaders/LBA/Portrait_Arabia_Generic_communism1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Hashim_al_Atassi
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Pierre_Gemayel
+		texturefile = gfx/leaders/Europe/portrait_europe_generic_4.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Melick_Yarad
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Rami_Sarraff
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Sekula_Drljevic
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Novica_Radovic
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Blazo_Jovanovic
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Mohammed_V
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Eduardo_Tsonga
+		texturefile = gfx//leaders//Africa//Portrait_Africa_Generic_land_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ramon_Ormazabal_Tife
+		texturefile = gfx//leaders//Europe//Portrait_Europe_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Luis_Urrengoetxea
+		texturefile = gfx//leaders//Europe//portrait_europe_generic_4.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ahmed_Hilmi_Pasha
+		texturefile = gfx/leaders/PAL/Portrait_Arabia_Generic_navy_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Amin_al_Husseini
+		texturefile = gfx/leaders/PAL/Portrait_Arabia_Generic_land_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Prince_Henry
+		texturefile = gfx/leaders/PAL/Portrait_Britain_George_VI.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Bulus_Farah
+		texturefile = gfx/leaders/PAL/Portrait_Arabia_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Draza_Mihailovic
+		texturefile = gfx/leaders/Europe/portrait_europe_generic_land_19.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Milan_Nedic
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Peter_Karadordevic
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Zivorad_Jovanovic
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Antun_Saadeh
+		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ghazi_bin_Faisal
+		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Khalid_Bakdash
+		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Terii_nui_o_Tahiti_a_Pomare
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_female_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Iuliu_Maniu
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Habib_Bourguiba
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Kost_Levytsky
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Nikita_Sergeyevich_Khrushchyov
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Stepan_Bandera
+		texturefile = gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Phan_Boi_Chau
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ho_Chi_Minh
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Ngo_dinh_Diem
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Nguyen_Tuong_Tam
+		texturefile = gfx/leaders/Asia/Portrait_Asia_Generic_3.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_El_Ouali_Mustapha_Sayed
+		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Klaus_Klauser
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_Konrad_Adenauer
+		texturefile = gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait__Marcus_James_Hugins
+		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPA_juan_vigon_suero_diaz_small
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_2.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPA_ricardo_rada_small
+		texturefile = "gfx/interface/ideas/idea_generic_army_europe_1.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPR_felipe_diaz_sandino_small
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_2.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPR_andres_nin_small
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_3.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPR_alberto_bayo_small
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_3.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPR_joakin_egia_unzueta_small
+		texturefile = "gfx/interface/ideas/idea_generic_navy_europe_1.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPR_antonio_ortega_gutierrez_small
+		texturefile = "gfx/interface/ideas/idea_generic_army_europe_2.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPR_carmel_rosa_baserba_small
+		texturefile = "gfx/interface/ideas/idea_generic_army_europe_4.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPR_wilhelm_zaisser_small
+		texturefile = "gfx/interface/ideas/idea_generic_army_europe_6.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_SPR_antonio_escobar_huerta_small
+		texturefile = "gfx/interface/ideas/idea_generic_army_europe_5.dds"
+	}
+}

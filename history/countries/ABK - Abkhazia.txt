@@ -19,16 +19,3 @@ set_popularities = {
 democratic = 100
 }
 
-
-
-create_country_leader = {
-	name = "Test Guy"
-	desc = ""
-	picture = "Portrait_.dds"
-	expire = "2021.1.1"
-	ideology = liberalism
-	traits = {
-	dictator	
-	}
-}
-

@@ -27,14 +27,8 @@ add_ideas = {
 }
 
 
-create_country_leader = {
-	name = "Mohammad Najibullah Ahmadzai"
-	desc = ""
-	picture = "Portrait_Mohammad_Najibullah.dds"
-	expire = "1994.1.1"
-	ideology = dic_socialist
-	traits = {
-	dictator	
-	}
-}
+recruit_character = AFG_Mohammad_Najibullah_Ahmadzai
+recruit_character = AFG_Sibghatullah_Mojaddedi
+recruit_character = AFG_Mohammed_Omar
+recruit_character = AFG_Mohammed_Zahir_Shah
 

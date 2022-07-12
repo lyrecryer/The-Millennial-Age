@@ -648,7 +648,7 @@ ENG_ARM_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "REC" "IFV"  "MBT" }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ENG_INF_01 }
@@ -702,7 +702,7 @@ ENG_ARM_02 = {
 
 	can_use = { always = yes }
 
-	division_types = { "REC" "IFV" "MBT" }
+	division_types = { "light_armor" "medium_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ENG_ARM_02 }
@@ -755,7 +755,7 @@ ENG_ARM_03 = {
 
 	can_use = { always = yes }
 
-	division_types = {  }
+	division_types = { "heavy_armor" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ENG_ARM_03 }
@@ -1026,6 +1026,7 @@ ENG_MNT_02 = {
 			tag = ENG
 			AND = {
 				tag = IND
+				has_completed_focus = RAJ_indian_gurkhas
 			}
 		}
 	}
@@ -1161,6 +1162,9 @@ ENG_COL_01 = {
 	for_countries = { ENG }
 
 	can_use = {
+		NOT = {
+			has_completed_focus = ENG_decolonization
+		}
 	}
 
 	division_types = { "infantry" }

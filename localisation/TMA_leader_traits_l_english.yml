@@ -1,7 +1,7 @@
 ﻿l_english:
 religious_fanatic:0 "Religious Fanatic"
 religious_fanatic_desc:0 "[Root.GetLeader] leader is a Religious Fanatic."
-anti_dicator:0 "Anti Dicatorship"
+anti_dictator:0 "Anti Dicatorship"
 anti_dicator_desc:0 "[Root.GetLeader] strives to remove any form of dictatorships no matter the cost"
 communism_sympathies:0 "Communist Sympathies"
 communism_sympathies_desc:0 "[Root.GetLeader] is sympathetic to Communism"

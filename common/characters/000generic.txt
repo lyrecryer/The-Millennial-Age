@@ -1,0 +1,16 @@
+characters = {
+    Test_Guy = {
+        name = "Test Guy"
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Test_Guy
+            }
+        }
+        country_leader = {
+            ideology = liberalism
+            traits = {  }
+            expire = 2100.1.1
+            desc = "If you are seeing this guy, yell at me to fix it! Or not, i'm not a cop."
+        }
+    }
+}

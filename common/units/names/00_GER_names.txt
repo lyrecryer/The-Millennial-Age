@@ -264,13 +264,13 @@
 		generic_pattern = "UNIT_GENERIC_NAME_GER"
 		unique = {}
 	}
-	REC = {
+	light_armor = {
 		prefix = ""
 		generic = { "Panzer-Division" }
 		generic_pattern = "UNIT_GENERIC_NAME_GER"
 		unique = {}
 	}
-	IFV = {
+	medium_armor = {
 		prefix = ""
 		generic = { "Panzer-Division" }
 		generic_pattern = "UNIT_GENERIC_NAME_GER"

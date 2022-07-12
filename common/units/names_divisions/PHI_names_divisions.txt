@@ -142,6 +142,7 @@ PHI_MOT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { PHI_INF_01 }
 
+	fallback_name = "%dth Motorized Division"
 	fallback_name = "%dth Philippines Motorized Div."
 
 	# Names with numbers (only one number per entry). 
@@ -201,7 +202,7 @@ PHI_ARM_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "REC" "IFV"  "MBT" }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { PHI_INF_01 }

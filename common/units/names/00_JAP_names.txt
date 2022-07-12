@@ -159,13 +159,13 @@
 		generic_pattern = "UNIT_GENERIC_NAME_JAP"
 		unique = {}
 	}
-	REC = {
+	light_armor = {
 		prefix = ""
 		generic = { "Senshashidan" }
 		generic_pattern = "UNIT_GENERIC_NAME_JAP"
 		unique = {}
 	}
-	IFV = {
+	medium_armor = {
 		prefix = ""
 		generic = { "Senshashidan" }
 		generic_pattern = "UNIT_GENERIC_NAME_JAP"
